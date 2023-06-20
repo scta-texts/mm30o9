@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <author ref="#per-FLBca3">Franciscus Lychetus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title/>
+               <date when="2023-06-19">June 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78xV9">Vives, Paris, 1891, volume 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="567"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="mm30o9-d1e669"><!-- mm30o9-b1d8p1q1 -->
+            <p xml:id="mm30o9-d1e669-d1e101"><!-- lycht-l1d8q1-n2 -->
+               <lb ed="#V" n="38"/>COMMENTARIUS. 
+      <lb ed="#V" n="39"/>(a) Ad questionem respondeo. Hic Doctor 
+      <lb ed="#V" n="40"/>inlendit probare simplicitatem divinam per 
+      <lb ed="#V" n="41"/>media quedam parlicularia, et secundo ex 
+      <lb ed="#V" n="42"/>mediis communibus, scilicet ex infinitate 
+      <!--0567.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>et necessitate essendi. Primo modo 
+      <lb ed="#V" n="44"/>procedendo primo ostendit Deum non 
+      <lb ed="#V" n="45"/>posse componi ex partibus essentialibus 
+      <lb ed="#V" n="46"/>sicul ex materia et forma. Secundo, 
+      <lb ed="#V" n="47"/>nec ex partibus quantitativis sive 
+      inte<lb ed="#V" break="no" n="48"/>gralibus. Tertio, quod nec ex subjecto 
+      <lb ed="#V" n="49"/>et accidente. 
+    </p>
+            <p xml:id="mm30o9-d1e669-d1e135">
+               <lb ed="#V" n="50"/>(b) Primum probatur, scilicet quod 
+      <lb ed="#V" n="51"/>non sit compositus ex partibus 
+      essentia<lb ed="#V" break="no" n="52"/>libus, sive ex materia et forma. Et ratio 
+      <lb ed="#V" n="53"/>stat in hoc : Deus non habet causam 
+      <lb ed="#V" n="54"/>efficientem respectu sui, cum sit primum 
+      <lb ed="#V" n="55"/>effectivum, sicut ostensum est supra 
+      <lb ed="#V" n="56"/>dist. 2. part. 1. q..1. ergo non est 
+      compo<lb ed="#V" break="no" n="57"/>situs ex materia et forma. Patet 
+      conse<lb ed="#V" break="no" n="58"/>quentia, quia causalitas materi, quae 
+      <lb ed="#V" n="59"/>est materialiter causare compositum, 
+      <lb ed="#V" n="60"/>praesupponit causalitatem efficientis; 
+      pa<lb ed="#V" break="no" n="61"/>tet, quia materia nuquam dicitur causare, 
+      <lb ed="#V" n="62"/>nisi actu sit unita cum forma, sed forma 
+      <lb ed="#V" n="63"/>inducitur ab agente; ergo. Arguitur 
+      er<lb ed="#V" break="no" n="64"/>go sic : Deus est omnino ineffectibilis; 
+      <lb ed="#V" n="65"/>ergo est incausabilis causalitate materiae 
+      <lb ed="#V" n="66"/>et forme, quia a quo negatur prius, 
+      <lb ed="#V" n="67"/>necessario negatur et posterius. Hec 
+      <lb ed="#V" n="68"/>etiam ratio supra patuit dist. 2. loco 
+      <lb ed="#V" n="69"/>ubi supra.
+    </p>
+            <p xml:id="mm30o9-d1e669-d1e181">
+               <lb ed="#V" n="70"/>(c) Secundum, videlicet carentiam 
+      com<lb ed="#V" break="no" n="71"/>positionis quantitativae, videtur Philosophus 
+      <lb ed="#V" n="72"/>probare, 8. Physic. ubi textus sic incipit : 
+      <lb ed="#V" n="73"/>Nunc autem volumus hoc probare hunc 
+      <lb ed="#V" n="74"/>motorem impartibilem esse non habentem 
+      <lb ed="#V" n="75"/>magnitudinem, determinans prius 
+      quae<lb ed="#V" break="no" n="76"/>dam, quae precedunt hanc propositionem. 
+      <lb ed="#V" n="77"/>Et Commentator ibi : In hoc, inquit, capite 
+      <lb ed="#V" n="78"/>vult Aristoteles declarare, quod hic motor 
+      <lb ed="#V" n="79"/>primus, non est in materia, sed 
+      subsi<lb ed="#V" break="no" n="80"/>stens. Et in eodem loco t. c. 79. 
+      Quo<lb ed="#V" break="no" n="81"/>niam autem impossibile est in omnino 
+      ma<lb ed="#V" break="no" n="82"/>gnitudine finita esse potentiam infinitam, 
+      <lb ed="#V" n="83"/>ex iisdem manifestum est sic, quia major 
+      <lb ed="#V" n="84"/>potentia agit equaliter n tempore 
+      mi<lb ed="#V" break="no" n="85"/>nori, vide ibi textum cum com. Et hoc 
+      <lb ed="#V" n="86"/>idem in 12. Met. t. com. 4. ubi habetur : 
+      <!--0568.xml-->
+      <pb ed="#V" n="568"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>Quia primum est potenti infinite, 
+      po<lb ed="#V" break="no" n="2"/>tenlia autem infinila non est in 
+      magni<lb ed="#V" break="no" n="3"/>tudine neque finila, neque infinita; et hoc 
+      <lb ed="#V" n="4"/>probat Aristoteles, quia major potentia 
+      <lb ed="#V" n="5"/>est in majori magnitudine, et ita 
+      infini<lb ed="#V" break="no" n="6"/>ta potentia non potest esse in 
+      magni<lb ed="#V" break="no" n="7"/>tudine finita; nulla est autem 
+      magnitu<lb ed="#V" break="no" n="8"/>do infinita, ergo nec aliqua infinita 
+      <lb ed="#V" n="9"/>potentia in magniludine. 
+    </p>
+            <p xml:id="mm30o9-d1e669-d1e246">
+               <lb ed="#V" n="10"/>(d) Sed istud argumentum videtur 
+      <lb ed="#V" n="11"/>deficere, quia qu poneret potentiam 
+      in<lb ed="#V" break="no" n="12"/>finitam esse in magnitudine, diceret 
+      ip<lb ed="#V" break="no" n="13"/>sam esse ejusdem rationis in qualibet 
+      <lb ed="#V" n="14"/>parte magnitudinis et in tota 
+      magnitu<lb ed="#V" break="no" n="15"/>dine, ita quod potentia infinita erit tota in 
+      <lb ed="#V" n="16"/>tota magnitudine et tota in qualibet parte, 
+      <lb ed="#V" n="17"/>nec erit major majori, nec minor 
+      mi<lb ed="#V" break="no" n="18"/>nori. Sicut etiam anima intellecliva est 
+      <lb ed="#V" n="19"/>tota in toto corpore, et tota in 
+      quali<lb ed="#V" break="no" n="20"/>bet parte, et per consequens non 
+      pro<lb ed="#V" break="no" n="21"/>baretur per hoc argumentum potenliam 
+      <lb ed="#V" n="22"/>infinitam non esse in magnitudine,quia si 
+      <lb ed="#V" n="23"/>ponitur tota in toto, et tota in qualibet 
+      par<lb ed="#V" break="no" n="24"/>te, non oportet tunc ponere 
+      magniludi<lb ed="#V" break="no" n="25"/>nem infinitam. 
+    </p>
+            <p xml:id="mm30o9-d1e669-d1e283">
+               <lb ed="#V" n="26"/>(e) Exemplum de calore in igne, qui 
+      <lb ed="#V" n="27"/>licet sit egualis intensiois in parte et 
+      <lb ed="#V" n="28"/>in toto, patet, quia si calor sit in igne 
+      <lb ed="#V" n="29"/>quantitalis cubitalis et extensus in tota 
+      <lb ed="#V" n="30"/>illa quantitate, et ille calorsit intensus 
+      <lb ed="#V" n="31"/>ut qualuor, data quacumque parle 
+      quan<lb ed="#V" break="no" n="32"/>titaliva illius caloris,erit intensa ut quatuor, 
+      <lb ed="#V" n="33"/>ut patet, et tamen calor extensus in tota 
+      <lb ed="#V" n="34"/>illa quantitate est efficacior quam sit 
+    </p>
+            <p xml:id="mm30o9-d1e669-d1e306">
+               <lb ed="#V" n="35"/>in una parlt illius quantitatis, et hoc 
+      <lb ed="#V" n="36"/>palel per experientiam. 
+      <lb ed="#V" n="37"/>(f) Sed quid hoc ad propositum, quod 
+      <lb ed="#V" n="38"/>omnino talis potentia non sit in 
+      magni<lb ed="#V" break="no" n="39"/>tudine ? Respondeo conjungendo huic (
+      sci<lb ed="#V" break="no" n="40"/>licet quod potentia infinita non est in 
+      <lb ed="#V" n="41"/>magniludine) illam conclusionem, quam 
+      <lb ed="#V" n="42"/>prius probavit Philosophus, quod scilicet 
+      <lb ed="#V" n="43"/>tale potens est sine materia; sequitur 
+      <lb ed="#V" n="44"/>proposilum, guia omni extensione aliquid 
+      <!--0568.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>extenditur, vel si extensio, puta aliqua 
+      <lb ed="#V" n="46"/>superficies, erit aliquid per se existens, 
+      <lb ed="#V" n="47"/>aliquid esset forma informans 
+      extensi<lb ed="#V" break="no" n="48"/>onem extensa per accidens; si enim 
+      <lb ed="#V" n="49"/>esset superficies cubitalis separata, que 
+      <lb ed="#V" n="50"/>diceretur extensa per se, et albedo 
+      in<lb ed="#V" break="no" n="51"/>formaret illam, illa albedo erit extensa 
+      <lb ed="#V" n="52"/>per accidens, etc. Si ergo potentia 
+      infi<lb ed="#V" break="no" n="53"/>nita ponatur in magnitudine, queritur 
+      <lb ed="#V" n="54"/>quid est illud quod est extensum ipsa 
+      <lb ed="#V" n="55"/>magnitudine ? non ipsa potentia infinita, 
+      <lb ed="#V" n="56"/>quia illa non posset esse extensa, nisi 
+      <lb ed="#V" n="57"/>in magnitudine infinita, et illa non est 
+      <lb ed="#V" n="58"/>dabilis, nec ipsa perficit ipsam, sicut 
+      for<lb ed="#V" break="no" n="59"/>ma materiam, id est, quod ipsa 
+      poten<lb ed="#V" break="no" n="60"/>tia infinita non perficit illam 
+      magnitu<lb ed="#V" break="no" n="61"/>dinem, sicut forma perficit materiam, quia 
+      <lb ed="#V" n="62"/>potentia infinita non est in materia; 
+      er<lb ed="#V" break="no" n="63"/>go oportet ponere materiam extensam 
+      <lb ed="#V" n="64"/>ista magnitudine, quae materia 
+      perfice<lb ed="#V" break="no" n="65"/>retur potentia infinita, sicut materia 
+      <lb ed="#V" n="66"/>mixla, vel corpus mixtum extenditur 
+      <lb ed="#V" n="67"/>magniludine per se extensa et perficitur 
+      <lb ed="#V" n="68"/>per animam intellectivam non extensam, 
+      <lb ed="#V" n="69"/>sed nulla materia est in habenle talem 
+      <lb ed="#V" n="70"/>potentiam ex praeostensa conclusione 
+      Phi<lb ed="#V" break="no" n="71"/>losophi; ex illa igitur, et materialitate 
+      prae<lb ed="#V" break="no" n="72"/>ostensa per Philosophum, et modo ostensa 
+      <lb ed="#V" n="73"/>in ista conclusione ista habet ratio 
+      effica<lb ed="#V" break="no" n="74"/>ciam. Dicit enim sic Aristoteles : Quoniam 
+      <lb ed="#V" n="75"/>autem aliam substantiam eternam 0n 
+      <lb ed="#V" n="76"/>mobilem abstractam a sensibilibus esse 
+      <lb ed="#V" n="77"/>manifestum est ; et ibi Commentator facit 
+      <lb ed="#V" n="78"/>rememorationem de hoc, quod 
+      declara<lb ed="#V" break="no" n="79"/>tum est prius, scilicet substantiam 
+      aeter<lb ed="#V" break="no" n="80"/>nam esse non mobilem et abstractam 
+      <lb ed="#V" n="81"/>ab omnibus materialibus, vide text. cum 
+      <lb ed="#V" n="82"/>commento text. com. 4. 
+    </p>
+            <p xml:id="mm30o9-d1e669-d1e417"><!-- lycht-l1d8q1-n3 -->
+               <lb ed="#V" n="22"/>COMMENTARIUS. 
+      <lb ed="#V" n="23"/>(a) Secundo probo generaliter 
+      proposi<lb ed="#V" break="no" n="24"/>tum, scilicet, quod primum sit summe 
+      <lb ed="#V" n="25"/>simplex, et primo probatur ex ratione 
+      <lb ed="#V" n="26"/>necesse esse, etc. et arguatur eodem 
+      mo<lb ed="#V" break="no" n="27"/>do sicut supra dist. 2. quest. 1. argutum 
+      <lb ed="#V" n="28"/>est, probando, quod non possunt esse 
+      <lb ed="#V" n="29"/>plura necesse esse. 
+    </p>
+            <p xml:id="mm30o9-d1e669-d1e438">
+               <lb ed="#V" n="30"/>Secundo ostendo generaliter 
+      proposi<lb ed="#V" break="no" n="31"/>tum, per rationem infinitatis. Et primo, 
+      <lb ed="#V" n="32"/>quod non sit componibilis, quia omne 
+      <lb ed="#V" n="33"/>componibile habet rationem partis, sed 
+      <lb ed="#V" n="34"/>infinitum non habet rationem partis, ut 
+      <lb ed="#V" n="35"/>infra probabitur quaestione immediate 
+      se<lb ed="#V" break="no" n="36"/>quenti. 
+    </p>
+            <p xml:id="mm30o9-d1e669-d1e456">
+               <lb ed="#V" n="37"/>Preterea, omne componibile alteri est 
+      <lb ed="#V" n="38"/>imperfectum, patet ista, quia si est 
+      alte<lb ed="#V" break="no" n="39"/>ri componibile, caret perfectione illius 
+      al<lb ed="#V" break="no" n="40"/>terius; non enim continet illam per 
+      iden<lb ed="#V" break="no" n="41"/>titatem realem, quia tunc non esset 
+      com<lb ed="#V" break="no" n="42"/>ponibile illi, ut supra patuit dist. 5. q. 2. 
+      <!--0571.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>sed infinitum nullam imperfectionem 
+      in<lb ed="#V" break="no" n="44"/>cludit, ergo. Et patet littera. 
+    </p>
+            <p xml:id="mm30o9-d1e669-d1e480">
+               <lb ed="#V" n="45"/>(b) Ad argumenta principalia. 
+      Respon<lb ed="#V" break="no" n="46"/>det ad primum. Et in ista responsione 
+      <lb ed="#V" n="47"/>sunt multa dicta. Primum, quod 
+      simpli<lb ed="#V" break="no" n="48"/>citas, ut excludit omnem 
+      componibilita<lb ed="#V" break="no" n="49"/>tem, et omnem compositionem est 
+      per<lb ed="#V" break="no" n="50"/>fectio simpliciter. Non tamen ex hoc 
+      se<lb ed="#V" break="no" n="51"/>quitur, quod omnis creatura simplex sit 
+      <lb ed="#V" n="52"/>perfectior creatura non simplici, etc. 
+    </p>
+            <p xml:id="mm30o9-d1e669-d1e500">
+               <lb ed="#V" n="53"/>(c) Secundum dictum, quod descriptio 
+      <lb ed="#V" n="54"/>perfectionis simpliciter data ab Alexandro 
+      <lb ed="#V" n="55"/>sic debet intelligi, quod perfectio 
+      simpli<lb ed="#V" break="no" n="56"/>citer est melius non tantum suo 
+      contra<lb ed="#V" break="no" n="57"/>dictorio, etc. Hoc prolixe exposui supra 
+      <lb ed="#V" n="58"/>dist. 2. part. 2. quest. 1. 
+    </p>
+            <p xml:id="mm30o9-d1e669-d1e517">
+               <lb ed="#V" n="59"/>(d) Tertium dictum est, quod inter 
+      per<lb ed="#V" break="no" n="60"/>fectiones simpliciter absolute sumptas, est 
+      <lb ed="#V" n="61"/>ordo, ita quod una ex sua ratione 
+      forma<lb ed="#V" break="no" n="62"/>li est perfectior alia; intellectualitas enim 
+      <lb ed="#V" n="63"/>est perfectior sapientia, et tamen utraque 
+      <lb ed="#V" n="64"/>est perfectio simpliciter, nulla enim ex 
+      <lb ed="#V" n="65"/>sua ratione formali necessario includit 
+      <lb ed="#V" n="66"/>aliquam imperfectionem, quia si sic, non 
+      <lb ed="#V" n="67"/>posset reperiri formaliter in Deo. 
+    </p>
+            <p xml:id="mm30o9-d1e669-d1e539">
+               <lb ed="#V" n="68"/>Quartum dictum : Quaecumque perfectio 
+      <lb ed="#V" n="69"/>simpliciter accepta in summo gradu sibi 
+      <lb ed="#V" n="70"/>competente (ut cum dicimus sapientia 
+      <lb ed="#V" n="71"/>infinita, intellectualitas infinita) ut sic una 
+      <lb ed="#V" n="72"/>non est perfectior alia, nec enim Leitas, 
+      <lb ed="#V" n="73"/>(ut formaliter infinita) est intensive 
+      per<lb ed="#V" break="no" n="74"/>fectior bonitate formaliter infinita. 
+      Reli<lb ed="#V" break="no" n="75"/>qua patent. 
+    </p>
+            <p xml:id="mm30o9-d1e669-d1e559">
+               <lb ed="#V" n="76"/>Quidam <ref xml:id="mm30o9-d1e669-Rd1e563">novus expositor sancti Thomae 
+      <lb ed="#V" n="77"/>in lib. de Ente, et essentia,</ref> arguit contra 
+      <lb ed="#V" n="78"/>Scotum probando, quod simplicitas non 
+      <lb ed="#V" n="79"/>sit perfectio simpliciter. Et primo 
+      preemit<lb ed="#V" break="no" n="80"/>tit quid sit perfectio simpliciter, exponit 
+      <lb ed="#V" n="81"/>Anselmum eo modo, quo Scotus exponit in 
+      <lb ed="#V" n="82"/>1. dist. 2. parte. 2. quest. 1. et dist. 8. 
+      <lb ed="#V" n="83"/>quest. 1. et diffusius in quodlib. quest. 6. 
+      <lb ed="#V" n="84"/>et hanc expositionem ipse approbat. 
+    </p>
+            <p xml:id="mm30o9-d1e669-d1e584">
+               <lb ed="#V" n="85"/>Deinde arguit sic : Nulla negatio est 
+      <lb ed="#V" n="86"/>perfectio simpliciter, sed simplicitas est 
+      <!--0572.xml-->
+      <pb ed="#V" n="572"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>negatio formaliter, ergo. Probatur minor, 
+      <lb ed="#V" n="2"/>quia simplicitas nihil aliud est quam 
+      ne<lb ed="#V" break="no" n="3"/>gatio compositionis, unde non est perfectio, 
+      <lb ed="#V" n="4"/>sed negatio perfectionis. Et addit sic : 
+      <lb ed="#V" n="5"/>Propterea, et deficit hic modus arguendi. 
+      <lb ed="#V" n="6"/>In individuo entis quodlibet 
+      incompossibi<lb ed="#V" break="no" n="7"/>le simplicitati dicit imperfectionem; ergo 
+      <lb ed="#V" n="8"/>ipsa simplicitas est melior in unoquoque 
+      <lb ed="#V" n="9"/>quam non ipsa, et consequenter perfectio 
+      <lb ed="#V" n="10"/>simpliciter; oportet enim addere in 
+      ante<lb ed="#V" break="no" n="11"/>cedente, et ipsa dicit perfectionem, quod 
+      <lb ed="#V" n="12"/>falsum est, quia negativum predicatum 
+      <lb ed="#V" n="13"/>est : <!-- cajetan quote here above -->hec ille. 
+    </p>
+            <p xml:id="mm30o9-d1e669-d1e628">
+               <lb ed="#V" n="14"/>Secundo arguit sic : Nulla perfectio 
+      <lb ed="#V" n="15"/>simpliciter salvatur in relatione ut relatio 
+      <lb ed="#V" n="16"/>est, simplicitas autem salvatur in 
+      <lb ed="#V" n="17"/>relatione ut relatio est, et 
+      sin<lb ed="#V" break="no" n="18"/>gulariter patet de relatione divina 
+    </p>
+            <p xml:id="mm30o9-d1e669-d1e641">
+               <lb ed="#V" n="19"/>ut paternitate, quae secundum Scotum 
+      <lb ed="#V" n="20"/>nullam perfectionem includit, et tamen 
+      <lb ed="#V" n="21"/>est simplicissima, licet hic expositor hoc 
+      <lb ed="#V" n="22"/>non tangat. 
+    </p>
+            <p xml:id="mm30o9-d1e669-d1e653">
+               <lb ed="#V" n="23"/>Tertio arguit sic : Nihil, quod dividitur 
+      <lb ed="#V" n="24"/>per quantum et non quantum, est 
+      perfe<lb ed="#V" break="no" n="25"/>ctio simpliciter; patet, quia ens non 
+      quan<lb ed="#V" break="no" n="26"/>tum nullam perfectionem includit, ut 
+      pa<lb ed="#V" break="no" n="27"/>tet a Scoto in quest. 1. quodl. ergo 
+      mul<lb ed="#V" break="no" n="28"/>to minus nec divisum. Sed simplicitas 
+      di<lb ed="#V" break="no" n="29"/>viditur in simplicitatem relativam et 
+      ab<lb ed="#V" break="no" n="30"/>solutam, et simplicitas relativa dicitur non 
+      <lb ed="#V" n="31"/>quanta, quia nullam perfectionem includit, 
+      <lb ed="#V" n="32"/>et praecipue relatio divina, ut patet 
+      expres<lb ed="#V" break="no" n="33"/>se a Scoto in 1. dist. 7. et in quodl. q. 3. 
+      <lb ed="#V" n="34"/>et 5. et alibi; ergo simplicitas non est 
+      <lb ed="#V" n="35"/>perfectio simpliciter. 
+    </p>
+            <p xml:id="mm30o9-d1e669-d1e684">
+               <lb ed="#V" n="36"/>Si dicatur ad ista, quod relatio 
+      formali<lb ed="#V" break="no" n="37"/>ter sumpta non est simplex, sed 
+      simplici<lb ed="#V" break="no" n="38"/>tas predicatur de eo denominative, hoc 
+      <lb ed="#V" n="39"/>non evadit argumenta, quia simplicitas 
+      re<lb ed="#V" break="no" n="40"/>lativa est passio relationis; secundum hos 
+      <lb ed="#V" n="41"/>autem est modus intrinsecus. Impossibile 
+      <lb ed="#V" n="42"/>est autem, quod alterum horum sit 
+      per<lb ed="#V" break="no" n="43"/>fectius eo cujus est, ut arguatur sic : 
+      <lb ed="#V" n="44"/>Nulla passio est major entitatis suo sub- 
+      <!--0572.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>jecto, simplicitas denominans relationem, 
+      <lb ed="#V" n="46"/>est ejus passio, sicut universaliter passio 
+      <lb ed="#V" n="47"/>superioris est passio inferioris, licet non 
+      <lb ed="#V" n="48"/>primo; ergo simplicitas denominans 
+      rela<lb ed="#V" break="no" n="49"/>tionem est majoris perfectionis ipsa 
+      rela<lb ed="#V" break="no" n="50"/>tione, sed relatio non est quanta, ergo nec 
+      <lb ed="#V" n="51"/>simplicitas relativa est quanta, ergo nec 
+      <lb ed="#V" n="52"/>perfectio simpliciter. Similiter arguere 
+      <lb ed="#V" n="53"/>potes, si dicant quod simplicitas sit 
+      mo<lb ed="#V" break="no" n="54"/>dus, quod tamen minus consonum veritati 
+      <lb ed="#V" n="55"/>videtur. Substantie ergo immateriales, 
+      <lb ed="#V" n="56"/>non ratione simplicitatis sunt perfectiores 
+      <lb ed="#V" n="57"/>essentiis substantiarum compositarum, sed 
+      <lb ed="#V" n="58"/>ratione simplicitatis subsistentis et 
+      adu<lb ed="#V" break="no" n="59"/>nantis in se tantum perfectionem ita 
+      in<lb ed="#V" break="no" n="60"/>divise, qua gaudent. <!-- cajetan quotation -->Hec ille novus 
+      expo<lb ed="#V" break="no" n="61"/>sitor.
+    </p>
+            <p xml:id="mm30o9-d1e669-d1e749">
+               <lb ed="#V" n="62"/>Respondeo ad rationes novi expositoris. 
+      <lb ed="#V" n="63"/>Ad primam, negatur, quod simplicitas sit 
+      <lb ed="#V" n="64"/>tantum negatio compositionis; sicut enim 
+      <lb ed="#V" n="65"/>actualitas dicit gradum intrinsecum illius, 
+      <lb ed="#V" n="66"/>cujus est positivum, ita etiam est 
+      simpli<lb ed="#V" break="no" n="67"/>citas. Et sicut unitas ex consequenti 
+      <lb ed="#V" n="68"/>dicit indivisionem a se, et divisionem a 
+      <lb ed="#V" n="69"/>quolibet alio, tamen dicit aliquod 
+      positi<lb ed="#V" break="no" n="70"/>vum respectu entitatis, cujus est unitas; 
+      <lb ed="#V" n="71"/>sic simplicitas licet ex consequenti dicat 
+      <lb ed="#V" n="72"/>negationem compositionis, tamen ultra 
+      <lb ed="#V" n="73"/>illam dicit aliquod positivum respectu 
+      <lb ed="#V" n="74"/>entitatis cujus est, per quod positivum 
+      <lb ed="#V" n="75"/>convenit sibi negatio compositionis, et 
+      <lb ed="#V" n="76"/>sibi repugnat affirmatio compositionis, 
+      <lb ed="#V" n="77"/>et ideo oportet ipsum probare, quod 
+      sim<lb ed="#V" break="no" n="78"/>plicitas sit tantum negatio. 
+    </p>
+            <p xml:id="mm30o9-d1e669-d1e788">
+               <lb ed="#V" n="79"/>Ad secundum de relatione, dico 
+      pre<lb ed="#V" break="no" n="80"/>mittendo aliqua. Primum, quod perfectio 
+      <lb ed="#V" n="81"/>simpliciter est de se talis entitas, cui non 
+      <lb ed="#V" n="82"/>repugnat infinitas intensiva, et in summo 
+      <lb ed="#V" n="83"/>accepta erit formaliter infinita, et per 
+      <lb ed="#V" n="84"/>consequens omnis perfectio simpliciter 
+      in<lb ed="#V" break="no" n="85"/>cludit perfectionem, et necessario excludit 
+      <lb ed="#V" n="86"/>imperfectionem. Secundum, si perfectio 
+      <lb ed="#V" n="87"/>simpliciter ponitur esse ens quantum, vel 
+      <lb ed="#V" n="88"/>contineri sub ente quanto, tantum compe- 
+      <!--0573.xml-->
+      <pb ed="#V" n="573"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tere potest supposito entis quanti; et ideo 
+      <lb ed="#V" n="2"/>si ponatur relatio ens non quantum, puta 
+      <lb ed="#V" n="3"/>paternitas, tunc paternitati ut suppositum 
+      <lb ed="#V" n="4"/>entis, sibi repugnat omnis perfectio 
+      sim<lb ed="#V" break="no" n="5"/>pliciter, ad hoc enim ut sibi non repugnet 
+      <lb ed="#V" n="6"/>requiritur ut suppositi entis quanti. Istis 
+      <lb ed="#V" n="7"/>presuppositis, dico quod simplicitas, que 
+      <lb ed="#V" n="8"/>ponitur ens quantum, vel ponitur 
+      conti<lb ed="#V" break="no" n="9"/>neri sub ente quanto, erit perfectio 
+      sim<lb ed="#V" break="no" n="10"/>pliciter, quia ut sic, ex sua perfectione 
+      in<lb ed="#V" break="no" n="11"/>trinseca excludit omnem compositionem. 
+    </p>
+            <p xml:id="mm30o9-d1e669-d1e843">
+               <lb ed="#V" n="12"/>Cum ergo dicit, quod relatio, ut relatio 
+      <lb ed="#V" n="13"/>est simplex, hoc indiget probatione. Et 
+      <lb ed="#V" n="14"/>patet instantia de relatione in genere, quod 
+      <lb ed="#V" n="15"/>etsi non sit composita ex re et re, potest 
+      <lb ed="#V" n="16"/>tamen dici composita ex realitate et 
+      reali<lb ed="#V" break="no" n="17"/>tate, sicut quaelibet species componitur ex 
+      <lb ed="#V" n="18"/>realitate generis et differentie. Posito 
+      <lb ed="#V" n="19"/>etiam, quod non sit composita ex realitate 
+      <lb ed="#V" n="20"/>et realitate, est tamen alteri componibilis, 
+      <lb ed="#V" n="21"/>et sic non summe simplex. Et posito etiam 
+      <lb ed="#V" n="22"/>quod dicatur simplex, non tamen erit 
+      sim<lb ed="#V" break="no" n="23"/>plex illa simplicitate, de qua in proposito 
+      <lb ed="#V" n="24"/>loquitur, posito quod ipsa non sit ens 
+      <lb ed="#V" n="25"/>quantum. 
+    </p>
+            <p xml:id="mm30o9-d1e669-d1e876">
+               <lb ed="#V" n="26"/>Et quod dicit de paternitate in divinis, 
+      <lb ed="#V" n="27"/>dico primo quod ipsa non est ens 
+      quan<lb ed="#V" break="no" n="28"/>tum, et per consequens non est simplex 
+      <lb ed="#V" n="29"/>simplicitate includente ens quantum. Dico 
+      <lb ed="#V" n="30"/>secundo, quod oporteret probare, quod 
+      <lb ed="#V" n="31"/>paternitas ex sua ratione formali 
+      quid<lb ed="#V" break="no" n="32"/>ditativa non possit esse alteri 
+      componibi<lb ed="#V" break="no" n="33"/>lis; licet enim ut comparatur ad 
+      essen<lb ed="#V" break="no" n="34"/>tiam divinam nullo modo sit 
+      componibi<lb ed="#V" break="no" n="35"/>lis cum illa, propter infinitatem et 
+      sim<lb ed="#V" break="no" n="36"/>plicitatem essentie divine, propter quam 
+      <lb ed="#V" n="37"/>transit in perfectissimam identitatem 
+      re<lb ed="#V" break="no" n="38"/>alem, ut patet a Doctore supra dist. 5. 
+      <lb ed="#V" n="39"/>q. 2. et infra dist. 26. noa tamen 
+      pro<lb ed="#V" break="no" n="40"/>bat quod non sit componibilis alteri 
+      re<lb ed="#V" break="no" n="41"/>aliter distincto, si ad illud comparetur. 
+    </p>
+            <p xml:id="mm30o9-d1e669-d1e914">
+               <lb ed="#V" n="42"/>Ad tertium negatur simpliciter quod 
+      <lb ed="#V" n="43"/>simplicitas, de qua in preesenti 
+      loqui<lb ed="#V" break="no" n="44"/>mur, sit indifferens ad ens quantum, et 
+      <!--0573.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>non quantum, quia ipsa est tantum ens 
+      <lb ed="#V" n="46"/>quantum. Dico ultra ad omnia ista, quod 
+      <lb ed="#V" n="47"/>non sequitur : Simplicitas est perfectio 
+      <lb ed="#V" n="48"/>simpliciter ; ergo quaelibet simplicitas est 
+      <lb ed="#V" n="49"/>perfectio simpliciter. Patet instantia, quia 
+      <lb ed="#V" n="50"/>entitas est perfectio simpliciter, patet, 
+      <lb ed="#V" n="51"/>quia sibi non repugnat infinitas intensiva; 
+      <lb ed="#V" n="52"/>ergo quaelibet entitas erit perfectio 
+      sim<lb ed="#V" break="no" n="53"/>pliciter. Non sequitur, sufficit enim ad 
+      <lb ed="#V" n="54"/>perfectionem simpliciter quod possit 
+      repe<lb ed="#V" break="no" n="55"/>riri in aliquo, quod sit formaliter 
+      infini<lb ed="#V" break="no" n="56"/>tum; et sic dicimus, quod entitas est 
+      per<lb ed="#V" break="no" n="57"/>fectio simpliciter, quia aliquod 
+      suppo<lb ed="#V" break="no" n="58"/>situm entitatis est formaliter infinitun, 
+      <lb ed="#V" n="59"/>patet de entitate, quae est essentia 
+      di<lb ed="#V" break="no" n="60"/>vina. 
+    </p>
+            <p xml:id="mm30o9-d1e669-d1e962">
+               <lb ed="#V" n="61"/>Sic dico in proposito, quod simplicitas 
+      <lb ed="#V" n="62"/>est perfectio simpliciter, quia in aliquo 
+      <lb ed="#V" n="63"/>est formaliter infinita ut simplicitas, que 
+      <lb ed="#V" n="64"/>est modus intrinsecus essentie divinae. 
+      <lb ed="#V" n="65"/>Sicut etiam dicimus, quod bonitas est 
+      <lb ed="#V" n="66"/>perfectio simpliciter, non tamen quaelibet. 
+      <lb ed="#V" n="67"/>bonitas contenta erit formaliter perfectio 
+      <lb ed="#V" n="68"/>simpliciter, sed sufficit quod aliqua 
+      boni<lb ed="#V" break="no" n="69"/>tas in summo accepta sit formaliter 
+      infi<lb ed="#V" break="no" n="70"/>nita, ut bonitas divina, que est perfectio 
+      <lb ed="#V" n="71"/>attributalis essentie divine formaliter 
+      in<lb ed="#V" break="no" n="72"/>finitee. Quare enim dicimus, quod 
+      huma<lb ed="#V" break="no" n="73"/>nitas non est perfectio simpliciter ? quia 
+      <lb ed="#V" n="74"/>in aliquo non potest reperiri ut sit 
+      forma<lb ed="#V" break="no" n="75"/>liter infinita, et omaino illimitata ; data 
+      <lb ed="#V" n="76"/>enim quacumque humanitate, etiam 
+      per<lb ed="#V" break="no" n="77"/>fectissima, semper erit limitata. Et ideo 
+      <lb ed="#V" n="78"/>apparet quomodo non sequitur, 
+      simplici<lb ed="#V" break="no" n="79"/>tas ut simplicitas est perfectio 
+      simplici<lb ed="#V" break="no" n="80"/>ter, ergo quelibet simplicitas erit 
+      perfe<lb ed="#V" break="no" n="81"/>ctio simpliciter, non sequitur. Sufficit 
+      <lb ed="#V" n="82"/>enim quod aliqua simplicitas contenta 
+      <lb ed="#V" n="83"/>sub simplicitate in communi, sit perfectio 
+      <lb ed="#V" n="84"/>simpliciter, et talis erit in proposito 
+      sim<lb ed="#V" break="no" n="85"/>pliciter in essentia divina, et 
+      cujuscum<lb ed="#V" break="no" n="86"/>que attributi, etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

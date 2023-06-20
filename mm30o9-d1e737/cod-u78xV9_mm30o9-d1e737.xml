@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <author ref="#per-FLBca3">Franciscus Lychetus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title/>
+               <date when="2023-06-19">June 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78xV9">Vives, Paris, 1891, volume 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="775"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="mm30o9-d1e737"><!-- mm30o9-b1d9q1 -->
+            <p xml:id="mm30o9-d1e737-d1e101"><!-- lycht-l1d9q1-n2 -->
+               <lb ed="#V" n="30"/>COMMENTARIUS. 
+      <lb ed="#V" n="31"/>(a) Ad questionem. Dicit Doctor quod 
+      <lb ed="#V" n="32"/>in divinis non est gereratio sub ratione 
+      <lb ed="#V" n="33"/>mutalionis, ut supra expositum est dist. 2. 
+      <lb ed="#V" n="34"/>parte 2. quest. 3. et dist. 5. quest. 2. et 
+      <lb ed="#V" n="35"/>infra palebit dist. 27. quest. 1. Ideo talis 
+      <lb ed="#V" n="36"/>generatio non habet terminos 
+      correspon<lb ed="#V" break="no" n="37"/>dentes generationi mutationi, qui termini 
+      <lb ed="#V" n="38"/>mutationis sunt esse post non esse, ita 
+      <lb ed="#V" n="39"/>tamen quod ly non esse praecedat 
+      dura<lb ed="#V" break="no" n="40"/>tione ipsum esse, aliter non esset mutalio, 
+      <lb ed="#V" n="41"/>ul paluit in questione immediate 
+      praece<lb ed="#V" break="no" n="42"/>denti, et diffuse infra dist. 39. Generatio 
+      <!--0775.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>enim mutatio presupponit materiam, que 
+      <lb ed="#V" n="44"/>mutetur a non esse formae generandae ad 
+      <lb ed="#V" n="45"/>esse ipsius, sive a privatione ad habitum, 
+      <lb ed="#V" n="46"/>et privatio proprie precedit duratione 
+      <lb ed="#V" n="47"/>habitum, ut exposui infra dist. 39. Et 
+      <lb ed="#V" n="48"/>propter hos terminos, scilicet esse post 
+      <lb ed="#V" n="49"/>non esse generationi mutationi repugnat 
+      <lb ed="#V" n="50"/>eternitas, quia esse et non esse non 
+      pos<lb ed="#V" break="no" n="51"/>sunt simul esse, sed necessario alterum 
+      <lb ed="#V" n="52"/>ante alterum; ergo non eternitas. Sed 
+      <lb ed="#V" n="53"/>tantum est ibi generatio productio in esse 
+      <lb ed="#V" n="54"/>substantiae per modum naturae, ut supra 
+      <lb ed="#V" n="55"/>expositum est. 
+    </p>
+            <p xml:id="mm30o9-d1e737-d1e165">
+               <lb ed="#V" n="56"/>(b) Ex hoc ostendo, quod sit terna. 
+      <lb ed="#V" n="57"/>Nunc Doctor ostendit generationem in 
+      <lb ed="#V" n="58"/>divinis esse eternam. Et ratio stat in hoc : 
+      <lb ed="#V" n="59"/>Quia Pater generat per modum naturae, 
+      <lb ed="#V" n="60"/>et est agens omnino sufficiens et in nullo 
+      <lb ed="#V" n="61"/>dependens, et non producit per motum; 
+      <lb ed="#V" n="62"/>ergo generatio Filii est aeterna; ergo et 
+      <lb ed="#V" n="63"/>Filius est eternus. Quod enim producens 
+      <lb ed="#V" n="64"/>precedat duratione productum, hoc non 
+      <lb ed="#V" n="65"/>potest esse, nisi quia vel producens agit 
+      <lb ed="#V" n="66"/>contingenter, vel quia non est sufficiens, 
+      <lb ed="#V" n="67"/>vel quia agit per motum, vel quia est 
+      <lb ed="#V" n="68"/>impedimentum, nullum vero istorum est 
+      <lb ed="#V" n="69"/>in Patre producente Filium. Et sic 
+      sequi<lb ed="#V" break="no" n="70"/>tur, quod generatio Filii sit aeterna, et 
+      <lb ed="#V" n="71"/>Filius similiter. 
+    </p>
+            <p xml:id="mm30o9-d1e737-d1e202">
+               <lb ed="#V" n="72"/>(c) Per istam rationem. Et littera stat in 
+      <lb ed="#V" n="73"/>hoc, quod ratio productionis est 
+      commu<lb ed="#V" break="no" n="74"/>nior ratione causalionis; patet, quia omne' 
+      <lb ed="#V" n="75"/>causans producit, sed non omne 
+      produ<lb ed="#V" break="no" n="76"/>cens causat, quia Pater in divinis vere 
+      <lb ed="#V" n="77"/>producit Filium, quem tamen non causat; 
+      <lb ed="#V" n="78"/>producere enim est commune, et ad 
+      pro<lb ed="#V" break="no" n="79"/>ducere in ordine ad productum alterius 
+      <lb ed="#V" n="80"/>naturae essentialiter, et in ordine ad pro-' 
+      <lb ed="#V" n="81"/>ductum ejusdem naturae. Sed causare 
+      tan<lb ed="#V" break="no" n="82"/>tum respicit aliud in natura. Si ergo 
+      cau<lb ed="#V" break="no" n="83"/>sans potest habere effectum sibi coaevum 
+      <lb ed="#V" n="84"/>etiam inquantum causans, a fortiori 
+      pote<lb ed="#V" break="no" n="85"/>rit habere coevum inquantum producens, 
+      <lb ed="#V" n="86"/>quia ratio causandi non potest separari a - 
+      <!--0776.xml-->
+      <pb ed="#V" n="776"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>ratione producendi, sed bene ratio 
+      pro<lb ed="#V" break="no" n="2"/>ducendi potest separari a ratione 
+      causan<lb ed="#V" break="no" n="3"/>di. Et hoc est quod dicit. 
+    </p>
+            <p xml:id="mm30o9-d1e737-d1e250">
+               <lb ed="#V" n="4"/>(d) Ista solutio etiam confirmatur. Hic 
+      <lb ed="#V" n="5"/>Doctor ostendit per bonum exemplum 
+      <lb ed="#V" n="6"/>quomodo generatio Filii sit aeterna, ita 
+      <lb ed="#V" n="7"/>quod Filius semper generetur et semper 
+      <lb ed="#V" n="8"/>sil genitus, accipiendo quod est 
+      perfecti<lb ed="#V" break="no" n="9"/>onis in permanentibus, relinquendo quod 
+      <lb ed="#V" n="10"/>est imperfectionis; et similiter accipiendo 
+      <lb ed="#V" n="11"/>quod est perfectionis in successivis, 
+      relin<lb ed="#V" break="no" n="12"/>quendo que sunt imperfectionis. 
+    </p>
+            <p xml:id="mm30o9-d1e737-d1e272">
+               <lb ed="#V" n="13"/>Occurunt hic alique difficultates. 
+      Pri<lb ed="#V" break="no" n="14"/>ma, quia si Filius eternaliter generatur a 
+      <lb ed="#V" n="15"/>Patre, ita quod ista sit vera : Filius 
+      sem<lb ed="#V" break="no" n="16"/>per generatur; ergo Filius generat se 
+      <lb ed="#V" n="17"/>ipsum, patet, quia habens principium 
+      for<lb ed="#V" break="no" n="18"/>malem productivum A in aliquo instanti, 
+      <lb ed="#V" n="19"/>in quo non preeintelligitur habere 
+      termi<lb ed="#V" break="no" n="20"/>num productum, illo semper potest 
+      pro<lb ed="#V" break="no" n="21"/>ducere ; hoc patet a Doctore supra dist. 2. 
+      <lb ed="#V" n="22"/>et 7. et per hoc probat infra dist 10. quest. 
+      <lb ed="#V" n="23"/>1. quod Filius producit Spiritum sanctum, 
+      <lb ed="#V" n="24"/>quia in generatione Filii communicatur 
+      <lb ed="#V" n="25"/>Filio principium productivum Spiritus 
+      san<lb ed="#V" break="no" n="26"/>cti, et hoc in aliquo priori in quo non 
+      <lb ed="#V" n="27"/>preintelligitur habere Spiritum sanctum, 
+      <lb ed="#V" n="28"/>ut productum. Si ergo Filius in primo 
+      <lb ed="#V" n="29"/>instanti eternitatis (in quo possunt 
+      imagi<lb ed="#V" break="no" n="30"/>nari plura instantia, nedum originis et 
+      <lb ed="#V" n="31"/>nature, sed etiam plura temporis, quia 
+      <lb ed="#V" n="32"/>inslans eternitatis coexistit omni parti 
+      <lb ed="#V" n="33"/>temporis, ut patet in ista quest. et infra 
+      <lb ed="#V" n="34"/>dist. 39. et 40.) per generationem accipit 
+      <lb ed="#V" n="35"/>idem principium formale productivum, 
+      <lb ed="#V" n="36"/>scilice eamdem memoriam fcecundam 
+      <lb ed="#V" n="37"/>quam Pater habet; ergo in secundo 
+      in<lb ed="#V" break="no" n="38"/>stanti, pula nature vel temporis 
+      coexi<lb ed="#V" break="no" n="39"/>stens instanti aelernitatis Filius eodem 
+      <lb ed="#V" n="40"/>principio producit Filium. Patet 
+      conse<lb ed="#V" break="no" n="41"/>quentia, quia in illo secundo instanti 
+      me<lb ed="#V" break="no" n="42"/>moria fcecunda est vere principium 
+      gene<lb ed="#V" break="no" n="43"/>randi Patri, aliter in secundo instanli ista 
+      <lb ed="#V" n="44"/>non esset vera : Pater in islo inslanti 
+      <!--0776.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>generat, et sic generatio non esset aeterna; 
+      <lb ed="#V" n="46"/>ergo et Filio in isto inslanti est principium 
+      <lb ed="#V" n="47"/>formale generandi Filium; ergo Filius 
+      <lb ed="#V" n="48"/>nunc generat se ipsum, et semper 
+      gene<lb ed="#V" break="no" n="49"/>rabit se ipsum. 
+    </p>
+            <p xml:id="mm30o9-d1e737-d1e360">
+               <lb ed="#V" n="50"/>Confirmatur, quia pono casum, quod 
+      <lb ed="#V" n="51"/>calor nunc existens in igne per mensem 
+      <lb ed="#V" n="52"/>continue calefaciat lignum, producendo 
+      <lb ed="#V" n="53"/>in illo caliditalem, ita quod in quolibet 
+      <lb ed="#V" n="54"/>instanti illius mensis ista est vera : Calor 
+      <lb ed="#V" n="55"/>calefacit lignum. Si terlio die illius mensis 
+      <lb ed="#V" n="56"/>idem calor exislens in igne 
+      communicare<lb ed="#V" break="no" n="57"/>tur ligno, nonne illo calore calefaceret 
+      <lb ed="#V" n="58"/>lignum ? certum est quod sic, quia habet 
+      <lb ed="#V" n="59"/>idem principium formale calefaciendi, ut 
+      <lb ed="#V" n="60"/>preintelligitur non habere terminum 
+      pro<lb ed="#V" break="no" n="61"/>ductum pro quarto vel quinto die. 
+    </p>
+            <p xml:id="mm30o9-d1e737-d1e389">
+               <lb ed="#V" n="62"/>Confirmatur iterum ex dictis Doctoris. 
+      <lb ed="#V" n="63"/>Ipse enim vult in 2. dist. 2. quest. 2. de 
+      <lb ed="#V" n="64"/>mensura Angelorum, quod creare et 
+      con<lb ed="#V" break="no" n="65"/>servare sunt idem, et exponendo D. 
+      Bona<lb ed="#V" break="no" n="66"/>venturam dicit, quod in alio et alio 
+      in<lb ed="#V" break="no" n="67"/>stanti ponit ipsam creaturam in esse, sicut 
+      <lb ed="#V" n="68"/>etiam Sol semper illuminat, ita quod 
+      con<lb ed="#V" break="no" n="69"/>servare semper est aliquid efficere. Et hoc 
+      <lb ed="#V" n="70"/>etiam expressius ponit in quodlibet. quest. 
+      <lb ed="#V" n="71"/>12. Ex his pono, quod (per possibile vel 
+      <lb ed="#V" n="72"/>impossibile) communicet Angelo 
+      poten<lb ed="#V" break="no" n="73"/>tiam creandi lapidem, sic intelligendo 
+      <lb ed="#V" n="74"/>quod Deus in hoc instanti creet lapidem 
+      <lb ed="#V" n="75"/>el conservel per annum, et crastina die 
+      <lb ed="#V" n="76"/>communicet Angelo eamdem potentiam 
+      <lb ed="#V" n="77"/>creandi ipsi Angelo; ergo videtur quod 
+      <lb ed="#V" n="78"/>Angelus mediante illa potentia possit 
+      <lb ed="#V" n="79"/>creare lapidem pro tempore sequenli, 
+      <lb ed="#V" n="80"/>quia in tempore sequenti non 
+      praeintelli<lb ed="#V" break="no" n="81"/>gitur lapis habere esse; ergo pro illo 
+      tem<lb ed="#V" break="no" n="82"/>pore poterit creare. Sic erit in proposito, 
+      <lb ed="#V" n="83"/>quia pro tempore futuro non 
+      praeintelli<lb ed="#V" break="no" n="84"/>gitur Filius habere esse, quia Pater pro 
+      <lb ed="#V" n="85"/>quolibet instanti vere producit illum; 
+      <lb ed="#V" n="86"/>ergo Filius nunc habens idem principium 
+      <lb ed="#V" n="87"/>formale productivum, quod Pater habet; 
+      <lb ed="#V" n="88"/>ergo Filius mediante tali principio poterit 
+      <!--0777.xml-->
+      <pb ed="#V" n="777"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>producere se ipsum pro tempore futuro, 
+      <lb ed="#V" n="2"/>quia pro illo tempore non preintelligitur 
+      <lb ed="#V" n="3"/>habere esse, si producitur a Patre in 
+      <lb ed="#V" n="4"/>tali esse, ergo sicut tale pincipium est 
+      <lb ed="#V" n="5"/>Patri ratio producendi Filium, erit 
+      simili<lb ed="#V" break="no" n="6"/>ter ratio Filio producendi se ipsum; et si 
+      <lb ed="#V" n="7"/>sic, tunc idem Filius distingueretur 
+      reali<lb ed="#V" break="no" n="8"/>ter a se ipso, quia inter producens et 
+      <lb ed="#V" n="9"/>productum est realis distinctio. 
+    </p>
+            <p xml:id="mm30o9-d1e737-d1e476">
+               <lb ed="#V" n="10"/>Ultimo confirmatur, et accipio quoddam 
+      <lb ed="#V" n="11"/>dictum Doctoris in secundo dist. 1. quaest. 
+      <lb ed="#V" n="12"/>1. quod Filius non potest produci de 
+      <lb ed="#V" n="13"/>lapide secundum quid in illo instanti quo 
+      <lb ed="#V" n="14"/>producitur a Palre, quia in illo instanti 
+      <lb ed="#V" n="15"/>lapis nullum esse habet, vel simpliciteri 
+      <lb ed="#V" n="16"/>vel secundum quid; tamen in secundo 
+      in<lb ed="#V" break="no" n="17"/>stanti in quo inlelligitur lapis habere 
+      <lb ed="#V" n="18"/>esse secundum quid in memoria divina, 
+      <lb ed="#V" n="19"/>Pater producit Filium de lapide, non sim. 
+      <lb ed="#V" n="20"/>pliciter, sed secundum quid; et quia Filius 
+      <lb ed="#V" n="21"/>habet etiam ipsum lapidem, ut in 
+      memo<lb ed="#V" break="no" n="22"/>ria divina, non ex natura rei, sed per 
+      <lb ed="#V" n="23"/>actum intellectus divini, Filius producit se 
+      <lb ed="#V" n="24"/>ipsum de lapide habente tale esse 
+      secun<lb ed="#V" break="no" n="25"/>dum gquid. Imo plus dico (ut ib exposui) 
+      <lb ed="#V" n="26"/>quod idem Filius producit se ipsum de se 
+      <lb ed="#V" n="27"/>ipso, ut habenle esse in memoria divina, 
+      <lb ed="#V" n="28"/>quia ut sic, producit se ipsum in esse 
+      <lb ed="#V" n="29"/>cognito et etiam in esse volito, quod est 
+      <lb ed="#V" n="30"/>esse secundum quid tantum; ergo a simili 
+      <lb ed="#V" n="31"/>in proposito poterit simpliciter producere 
+      <lb ed="#V" n="32"/>se ipsum in esse simpliciter. Patet 
+      conse<lb ed="#V" break="no" n="33"/>quentia, quia eo modo quo habet 
+      princi<lb ed="#V" break="no" n="34"/>pium productivum, eo modo potest 
+      pro<lb ed="#V" break="no" n="35"/>ducere ; si simpliciter, simpliciter; si 
+      <lb ed="#V" n="36"/>secundum quid, secundum uid. Ideo 
+      <lb ed="#V" n="37"/>enim producit se ipsum secundum quid 
+      <lb ed="#V" n="38"/>de lapide, quia lapis habel tantum esse 
+      <lb ed="#V" n="39"/>secundum quid in memoria divina; ergo 
+      <lb ed="#V" n="40"/>nunc producit simpliciter, quia memoria 
+      <lb ed="#V" n="41"/>divina est ibi ex natura rei et in esse 
+      <lb ed="#V" n="42"/>simpliciter. 
+    </p>
+            <p xml:id="mm30o9-d1e737-d1e550">
+               <lb ed="#V" n="43"/>Secunda difficultas est, quia videtur 
+      <lb ed="#V" n="44"/>quod non tantum Pater producat Filium, 
+      <!--0777.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>sed etiam ipsum conservet, quod videtur 
+      <lb ed="#V" n="46"/>inconveniens ; conservare enim sonat 
+      im<lb ed="#V" break="no" n="47"/>perfectionem in re conservata, quod 
+      se<lb ed="#V" break="no" n="48"/>quatur ipsum a Patre conservari, patet, 
+      <lb ed="#V" n="49"/>quia secundum Doctorem in 2. dist. 2. et 
+      <lb ed="#V" n="50"/>in quodl. q. 12. et alibi. si consideretur esse 
+      <lb ed="#V" n="51"/>creaturae in primo instanti, ut transit de 
+      <lb ed="#V" n="52"/>non esse ad esse, in quo esse in primo 
+      <lb ed="#V" n="53"/>inslanli dicat ordinem immediate ad non 
+      <lb ed="#V" n="54"/>esse precedens, tunc dicitur creari; in 
+      <lb ed="#V" n="55"/>secundo vero instanti dicitur conservari, 
+      <lb ed="#V" n="56"/>quia in secundo instanti dicit ordinem 
+      <lb ed="#V" n="57"/>ipsius esse, ut accepti in secundo instanti 
+      <lb ed="#V" n="58"/>ad se ipsum, ut habens esse in primo 
+      in<lb ed="#V" break="no" n="59"/>stanti, et dicit etiam ordinem ad non esse 
+      <lb ed="#V" n="60"/>non immediate precedens, sed lantum ad 
+      <lb ed="#V" n="61"/>non esse mediate praecedens, et sic in isto 
+      <lb ed="#V" n="62"/>secundo instanli vere conservatur. Sic in 
+      <lb ed="#V" n="63"/>proposito, licet non esse Filii non 
+      praeces<lb ed="#V" break="no" n="64"/>serit esse ipsius pro aliqua duratione, quia 
+      <lb ed="#V" n="65"/>habet esse ab eterno, tamen non esse pro 
+      <lb ed="#V" n="66"/>aliquo instanti originis, et forte naturae 
+      <lb ed="#V" n="67"/>precedit esse ipsius Filii, ita quod in illo 
+      <lb ed="#V" n="68"/>instanti in quo accipit esse a Patre, dicit 
+      <lb ed="#V" n="69"/>ordinem ad non esse precedens, saltem 
+      <lb ed="#V" n="70"/>origine; cum ergo in secundo instanti 
+      <lb ed="#V" n="71"/>vere accipiat esse a Patre, in illo secundo 
+      <lb ed="#V" n="72"/>instanti dicit ordinem immediatum ad esse 
+      <lb ed="#V" n="73"/>acceptum in primo instanti, et dicit 
+      ordi<lb ed="#V" break="no" n="74"/>nem ad non esse praecedens esse in primo 
+      <lb ed="#V" n="75"/>instanti acceptum; ordinem dico mediate 
+      <lb ed="#V" n="76"/>tantum et non immediate, et talis ordo 
+      <lb ed="#V" n="77"/>videtur suo modo imporlare 
+      conservati<lb ed="#V" break="no" n="78"/>onem, et sic Filius videtur conservari. 
+    </p>
+            <p xml:id="mm30o9-d1e737-d1e635">
+               <lb ed="#V" n="79"/>Respondeo ad has difficultates, 
+      praemit<lb ed="#V" break="no" n="80"/>tendo aliqua. Primo, quod principium 
+      for<lb ed="#V" break="no" n="81"/>male productivum, si non est de 
+      formali<lb ed="#V" break="no" n="82"/>tate sive quidditate producentis, non, 
+      <lb ed="#V" n="83"/>potest esse principium alicui producenti, 
+      <lb ed="#V" n="84"/>nisi presupponat illud in se habere esse, 
+      <lb ed="#V" n="85"/>sicut dicimus quod calor est principium 
+      <lb ed="#V" n="86"/>formale calefaciendi ipsi igni calefacienti; 
+      <lb ed="#V" n="87"/>vel si est constitutivum, saltem partialiter 
+      <lb ed="#V" n="88"/>suppositi producentis, tunc supposilum 
+      <!--0778.xml-->
+      <pb ed="#V" n="778"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>non potest illo producere, nisi actu 
+      exi<lb ed="#V" break="no" n="2"/>slens per ipsum, sicut forma substantialis 
+      <lb ed="#V" n="3"/>ignis est ratio formalis generandi ipsi igni. 
+      <lb ed="#V" n="4"/>Sic in proposito, memoria fecunda in 
+      <lb ed="#V" n="5"/>divinis est principium formale generandi 
+      <lb ed="#V" n="6"/>Filium, et constituit saltem suo modo 
+      par<lb ed="#V" break="no" n="7"/>tialiter personam divinam, quae 
+      constitui<lb ed="#V" break="no" n="8"/>tur ex essentia et proprietale, ut salis 
+      <lb ed="#V" n="9"/>infra patet dist. 26. Non posset ergo esse 
+      <lb ed="#V" n="10"/>principium formale productivum alicui 
+      <lb ed="#V" n="11"/>personae, nisi ipsam personam 
+      presuppo<lb ed="#V" break="no" n="12"/>neret, et hoc si non sit ipsius constilutiva; 
+      <lb ed="#V" n="13"/>vel si est constituliva, tunc in eodem 
+      <lb ed="#V" n="14"/>instanti, quo est illi principium 
+      producti<lb ed="#V" break="no" n="15"/>vum, persona per ipsum producens 
+      intel<lb ed="#V" break="no" n="16"/>ligitur habere verum esse. 
+    </p>
+            <p xml:id="mm30o9-d1e737-d1e700">
+               <lb ed="#V" n="17"/>Secundo, premitto quod principium 
+      <lb ed="#V" n="18"/>productivum, ut hujusmodi in quocumque 
+      <lb ed="#V" n="19"/>preintelligitur ipso producto, et prius 
+      <lb ed="#V" n="20"/>est producenti ratio formalis producendi 
+      <lb ed="#V" n="21"/>quam intelligatur habere productum, ut 
+      <lb ed="#V" n="22"/>supra patuit dist. 2. parte 2. quaest. 3. et 
+      <lb ed="#V" n="23"/>dist. 7. et infra dist. 26. et 27. in quodlib. 
+      <lb ed="#V" n="24"/>quaest. 4. Et sic memoria fcecunda est 
+      <lb ed="#V" n="25"/>prius Patri ratio producendi Filium quam 
+      <lb ed="#V" n="26"/>intelligatur Filius productus, et sic 
+      pro<lb ed="#V" break="no" n="27"/>ducens in essendo est prius producto. 
+    </p>
+            <p xml:id="mm30o9-d1e737-d1e727">
+               <lb ed="#V" n="28"/>Tertio, premitto quod Pater in divinis 
+      <lb ed="#V" n="29"/>producit Filium, ut terminum adaequatum 
+      <lb ed="#V" n="30"/>et totalem; et communicat Filio 
+      memo<lb ed="#V" break="no" n="31"/>riam fcecundam, ut terminum formalem, 
+      <lb ed="#V" n="32"/>ut supra patuit dist 5. q. 2. et sic Filius 
+      <lb ed="#V" n="33"/>totaliter accipit esse a Patre per illam 
+      pro<lb ed="#V" break="no" n="34"/>ductionem. 
+    </p>
+            <p xml:id="mm30o9-d1e737-d1e745">
+               <lb ed="#V" n="35"/>Quarto, praemitto quod Patrem 
+      produ<lb ed="#V" break="no" n="36"/>cere semper Filium in esse, est ipsum pro 
+      <lb ed="#V" n="37"/>quocumque instanti ponere in esse suo 
+      <lb ed="#V" n="38"/>personali, ita quod Pater ita vere producit 
+      <lb ed="#V" n="39"/>Filium in secundo instanti sicut in primo; 
+      <lb ed="#V" n="40"/>et sicut in primo instanti dicitur Filius 
+      <lb ed="#V" n="41"/>perfecte productus a Patre, ila similiter 
+      <lb ed="#V" n="42"/>in secundo instanti perfecte producitur a 
+      <lb ed="#V" n="43"/>Patre. Et si (per impossibile) Pater in 
+      <lb ed="#V" n="44"/>secundo instanti non produceret Filium, 
+      <!--0778.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>Filius nullum esse haberet, ut posset ex 
+      <lb ed="#V" n="46"/>multis deduci. Et sic ista est vera : Filius 
+      <lb ed="#V" n="47"/>in divinis in presenti instanti A est vere 
+      <lb ed="#V" n="48"/>productus a Patre, et ista est falsa : quod 
+      <lb ed="#V" n="49"/>Filius pro instanti futuro sit productus a 
+      <lb ed="#V" n="50"/>Patre. Sicut etiam tenendo quod 
+      conser<lb ed="#V" break="no" n="51"/>vare A, sit ipsum productione ponere in 
+      <lb ed="#V" n="52"/>esse pro quocumque instanti in quo 
+      con<lb ed="#V" break="no" n="53"/>servat, et hec est vera :A pro isto instanti 
+      <lb ed="#V" n="54"/>vere creatur, et ista est falsa : quod A pro 
+      <lb ed="#V" n="55"/>instanti futuro sit nunc creatum. Sic 
+      pari<lb ed="#V" break="no" n="56"/>formiter dico de Filio. 
+    </p>
+            <p xml:id="mm30o9-d1e737-d1e800">
+               <lb ed="#V" n="57"/>Istis praemissis dico, quod Filius in 
+      <lb ed="#V" n="58"/>divinis, nec pro secundo, nec pro tertio, 
+      <lb ed="#V" n="59"/>nec pro quocumque instanti, potest 
+      gene<lb ed="#V" break="no" n="60"/>rare se ipsum, quia generans prius est 
+      <lb ed="#V" n="61"/>genito. Si ergo in secundo instanti posset 
+      <lb ed="#V" n="62"/>generare mediante principio formali 
+      pro<lb ed="#V" break="no" n="63"/>ductivo, ipse Filius de necessitate esset 
+      <lb ed="#V" n="64"/>prior se ipso. Cum ergo arguitur : Filius 
+      <lb ed="#V" n="65"/>in secundo instanti habet potentiam 
+      gene<lb ed="#V" break="no" n="66"/>randi eamdem cum Patre, ut potentia illa 
+      <lb ed="#V" n="67"/>preintelligitur producto. Dico, quod in 
+      <lb ed="#V" n="68"/>illo secundo instanti habet memoriam 
+      <lb ed="#V" n="69"/>fecundam quam Pater habet, sed non 
+      <lb ed="#V" n="70"/>habet potentiam generandi, ut supra 
+      <lb ed="#V" n="71"/>patuit dist. 7. ergo in tertio instanti 
+      me<lb ed="#V" break="no" n="72"/>diante illa memoria, poterit generare una 
+      <lb ed="#V" n="73"/>cum Patre. Negatur ista consequentia, 
+      <lb ed="#V" n="74"/>quia in illo tertio instanti, in quo Pater 
+      <lb ed="#V" n="75"/>generat Filium, Filius non est, et loquor 
+      <lb ed="#V" n="76"/>de instanti originis; et quod Filius non 
+      <lb ed="#V" n="77"/>sit, patet ex praemissis, quia in illo tertio 
+      <lb ed="#V" n="78"/>instanti ipsum generat. ut supra patuit; 
+      <lb ed="#V" n="79"/>ergo Fihus in illo instanti accipit esse a 
+      <lb ed="#V" n="80"/>Patre, et si Pater in tertio instanti non 
+      <lb ed="#V" n="81"/>produceret Filium, Filius nullo modo 
+      <lb ed="#V" n="82"/>esset. Si ergo argumentum valeret, 
+      opor<lb ed="#V" break="no" n="83"/>teret arguere sic : Filius in instant A 
+      <lb ed="#V" n="84"/>accipit esse a Patre, et in eodem instanti 
+      <lb ed="#V" n="85"/>communicatur sibi eadem memoria, et 
+      <lb ed="#V" n="86"/>instanti B quo Pater producit Filium, sive 
+      <lb ed="#V" n="87"/>in quo Pater habet memoriam, ut 
+      prin<lb ed="#V" break="no" n="88"/>cipium producendi, inquantum intelligitur 
+      <!--0779.xml-->
+      <pb ed="#V" n="779"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>prior producto, in eodem instanti B Filius 
+      <lb ed="#V" n="2"/>est, ut habens eamdem memoriam, ergo 
+      <lb ed="#V" n="3"/>Filius potest generare. Posset concedi hoc 
+      <lb ed="#V" n="4"/>ultimum consequens, sed negatur quod 
+      <lb ed="#V" n="5"/>Filius in eodem instanti B sil hujumodi, 
+      <lb ed="#V" n="6"/>imo si Pater non produceret Filium, Filius 
+      <lb ed="#V" n="7"/>nullo modo esset; quia ergo Filius in 
+      <lb ed="#V" n="8"/>quocumque instanti accipit esse totaliter 
+      <lb ed="#V" n="9"/>a Patre, et in quocumque potest intelligi 
+      <lb ed="#V" n="10"/>posterior Patre, quia in quocumque vere 
+      <lb ed="#V" n="11"/>producitur a Patre, et semper 
+      commu<lb ed="#V" break="no" n="12"/>nicatur ei memoria, ut praehabens 
+      produ<lb ed="#V" break="no" n="13"/>clum adequalum, ideo non sequitur, 
+      <lb ed="#V" n="14"/>quod Filius generet se ipsum, quia quod 
+      <lb ed="#V" n="15"/>non esi, generare non potest; sed ipse 
+      <lb ed="#V" n="16"/>Pater producit pro tertio vel quarto 
+      in<lb ed="#V" break="no" n="17"/>stanti, ergo non intelligitur Filius habere 
+      <lb ed="#V" n="18"/>esse, quia in illo producitur, ut terminus 
+      <lb ed="#V" n="19"/>adaequalus suae productioni. Ex his 
+      appa<lb ed="#V" break="no" n="20"/>ret quomodo ratio non concludit. 
+    </p>
+            <p xml:id="mm30o9-d1e737-d1e922">
+               <lb ed="#V" n="21"/>Ad primam confirmationem de calore. 
+      <lb ed="#V" n="22"/>Dico quod non est simile, quia calor 
+      com<lb ed="#V" break="no" n="23"/>municatur ligno non accipienti esse in 
+      <lb ed="#V" n="24"/>eodem instanti, quo sibi communicatur; 
+      <lb ed="#V" n="25"/>quia ergo lignum, cui communicatur 
+      ca<lb ed="#V" break="no" n="26"/>lor in instanti A habet verum esse in se, 
+      <lb ed="#V" n="27"/>el eumdem calorem pro inslanti B, quo 
+      <lb ed="#V" n="28"/>ignis producit caliditatem, ideo in illo 
+      <lb ed="#V" n="29"/>instanti lignum habens eumdem calorem 
+      <lb ed="#V" n="30"/>vere producit una cum igne caliditatem, 
+      <lb ed="#V" n="31"/>posito tamen quod possit lignum 
+      calefa<lb ed="#V" break="no" n="32"/>cere se ipsum, sed exempla ponimus, etc. 
+      <lb ed="#V" n="33"/>primo Priorum. Sed si ignis habens 
+      calo<lb ed="#V" break="no" n="34"/>rem in inslanli B causaret lignum, 
+      com<lb ed="#V" break="no" n="35"/>municando sibi eumdem calorem, lignum 
+      <lb ed="#V" n="36"/>mcdianle illo calore pro inslanti B non 
+      <lb ed="#V" n="37"/>causaret eamdem caliditalem, quia in illo 
+      <lb ed="#V" n="38"/>instanti quo caliditas producitur ab igne, 
+      <lb ed="#V" n="39"/>accipit esse ab ipso igne. Et si iterum in 
+      <lb ed="#V" n="40"/>inslanti C, in quo ignis producit 
+      calidi<lb ed="#V" break="no" n="41"/>talem, vere produceret ipsum lignum, 
+      <lb ed="#V" n="42"/>communicando eumdem calorem, 
+      nun<lb ed="#V" break="no" n="43"/>quam lignum pro instanti C produceret 
+      <lb ed="#V" n="44"/>simul cum igne caliditatem. Et sic pa- 
+      <!--0779.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>tet quod confirmatio illa non includit. 
+    </p>
+            <p xml:id="mm30o9-d1e737-d1e983">
+               <lb ed="#V" n="46"/>Ad secunda confirmationem, dico sicut 
+      <lb ed="#V" n="47"/>dixi de calore. Si enim Angelus nunc 
+      <lb ed="#V" n="48"/>creatus et existens per mensem, 
+      accipe<lb ed="#V" break="no" n="49"/>ret eamdem virtutem creandi quam 
+      <lb ed="#V" n="50"/>Deus habet, et continue haberet illam 
+      <lb ed="#V" n="51"/>per totum mensem, dico quod Angelus 
+      <lb ed="#V" n="52"/>pro quocumque instanti sequenti in quo 
+      <lb ed="#V" n="53"/>Deus crearet, et Angelus crearet, quia 
+      <lb ed="#V" n="54"/>potenlia creandi esset in Angelo, ut 
+      <lb ed="#V" n="55"/>preintellecta ipsa creatura producta. Sed 
+      <lb ed="#V" n="56"/>si Angelus pro illo eodem signo, quo 
+      <lb ed="#V" n="57"/>Deus crearet Angelum, ita quod 
+      Ange<lb ed="#V" break="no" n="58"/>lus nullo modo precederet B in 
+      quo<lb ed="#V" break="no" n="59"/>cumque signo, licet tunc acciperet 
+      po<lb ed="#V" break="no" n="60"/>tentiam illam creandi, tamen illa 
+      me<lb ed="#V" break="no" n="61"/>diante non crearet B, quia non esset in 
+      <lb ed="#V" n="62"/>Angelo ut prior B, imo simpliciter in 
+      <lb ed="#V" n="63"/>illo signo quo B producitur, et sic dico 
+      <lb ed="#V" n="64"/>de omni alio instanti. 
+    </p>
+            <p xml:id="mm30o9-d1e737-d1e1027">
+               <lb ed="#V" n="65"/>Ad aliam confirmationem patet solutio 
+      <lb ed="#V" n="66"/>per superius dicta. Concedo enim 
+      abso<lb ed="#V" break="no" n="67"/>lute quod si Filius in divinis pro 
+      quo<lb ed="#V" break="no" n="68"/>cumque instanti posteriori haberet 
+      prin<lb ed="#V" break="no" n="69"/>cipium productivum, ut preintellectum 
+      <lb ed="#V" n="70"/>Filio producto, quod illo posset ita vere 
+      <lb ed="#V" n="71"/>producere sicut et Pater. Sed quia in 
+      <lb ed="#V" n="72"/>quocumque instanti posteriori 
+      sem<lb ed="#V" break="no" n="73"/>per Filius intelligitur produci a Patre, 
+      <lb ed="#V" n="74"/>et sic principium formale productivum 
+      <lb ed="#V" n="75"/>in Patre intelligitur non habere pro 
+      in<lb ed="#V" break="no" n="76"/>stanti posteriori productum, ideo Patri 
+      <lb ed="#V" n="77"/>est principium ; et quia in illo signo 
+      <lb ed="#V" n="78"/>non intelligitur Filius, ideo Filius pro illo 
+      <lb ed="#V" n="79"/>signo non producit se ipsum. 
+    </p>
+            <p xml:id="mm30o9-d1e737-d1e1063">
+               <lb ed="#V" n="80"/>Ad secundam difficultatem,dico quod 
+      <lb ed="#V" n="81"/>est facilis solutio, quia conservare rem 
+      <lb ed="#V" n="82"/>proprie respicit rem possibilem et 
+      con<lb ed="#V" break="no" n="83"/>tingentem; et omnis talis quantum est 
+      <lb ed="#V" n="84"/>ex se, dicit ordinem ipsius ad'non esse 
+      <lb ed="#V" n="85"/>precedens duratione, et agens primum 
+      <lb ed="#V" n="86"/>non de necessitate producit illam, quia 
+      <lb ed="#V" n="87"/>tunc ab aeterno produceret illam, ut 
+      <lb ed="#V" n="88"/>supra patuit dist. 8. q. ult. Si enim 
+      <lb ed="#V" n="89"/>Angelus produceretur de necessitate na- 
+      <!--0780.xml-->
+      <pb ed="#V" n="780"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>ture, esset simpliciter necesse esse, et 
+      <lb ed="#V" n="2"/>esset impossibile praecedere duratione non 
+      <lb ed="#V" n="3"/>esse ipsum esse. In proposito ergo, quia 
+      <lb ed="#V" n="4"/>Filius de necessilate nature producitur 
+      <lb ed="#V" n="5"/>a Patre, ideo in ipso non potest 
+      prece<lb ed="#V" break="no" n="6"/>dere non esse ipsum esse Filii, imo 
+      simpli<lb ed="#V" break="no" n="7"/>citer pro quocumque instanti producitur 
+      <lb ed="#V" n="8"/>de necessitate naturae, et sic nec 
+      simpli<lb ed="#V" break="no" n="9"/>citer, nec secundum quid potest dici 
+      con<lb ed="#V" break="no" n="10"/>servari. 
+    </p>
+            <p xml:id="mm30o9-d1e737-d1e1115">
+               <lb ed="#V" n="11"/>Dico etiam, quod posito quod Angelus 
+      <lb ed="#V" n="12"/>causaretur necessario a prima causa, et 
+      <lb ed="#V" n="13"/>haberet necesse esse, adhuc posset dici 
+      <lb ed="#V" n="14"/>magis conservari quam Filius in divinis, 
+      <lb ed="#V" n="15"/>quia in Filio non tantum est necessitas 
+      <lb ed="#V" n="16"/>productionis, sed etiam esset in eo tota 
+      <lb ed="#V" n="17"/>ratio essendi necessario, scilicet essentia 
+      <lb ed="#V" n="18"/>divina et eadem quae in Patre. In 
+      An<lb ed="#V" break="no" n="19"/>gelo vero, etsi esset necessitas 
+      causati<lb ed="#V" break="no" n="20"/>onis, non tamen esset necessitas 
+      forma<lb ed="#V" break="no" n="21"/>liter, quae esset in causa producente, ut 
+      <lb ed="#V" n="22"/>patet a Doctore supra dist. 2. parte 2. 
+      <lb ed="#V" n="23"/>quaest. 3. in responsione ad primum 
+      ar<lb ed="#V" break="no" n="24"/>gumentum. Absolute ergo concedendum 
+      <lb ed="#V" n="25"/>est, quod Pater pro quocumque instanti 
+      <lb ed="#V" n="26"/>perfecte producit Filium ; et si ( per 
+      im<lb ed="#V" break="no" n="27"/>possibile) Filium non produceret in 
+      se<lb ed="#V" break="no" n="28"/>cundo instanti, Filius nullum esse 
+      sim<lb ed="#V" break="no" n="29"/>pliciter haberet productum pro 
+      quo<lb ed="#V" break="no" n="30"/>cumque instanti de necessitate simpliciter, 
+      <lb ed="#V" n="31"/>et absoluta. 
+    </p>
+            <p xml:id="mm30o9-d1e737-d1e1163"><!-- lycht-l1d9q1-n3 -->
+               <lb ed="#V" n="21"/>COMMENTARIUS. 
+      <lb ed="#V" n="22"/>(a) Ad argumenta principalia. Ad primum, 
+      <lb ed="#V" n="23"/>respondet Doctor et responsio stat in 
+      <lb ed="#V" n="24"/>his dictis. Primum, quod principium 
+      ac<lb ed="#V" break="no" n="25"/>cipitur multipliciter, ut patet <ref xml:id="mm30o9-d1e737-Rd1e1177">4. Metaph. 
+      <lb ed="#V" n="26"/>cap. 1. text. com. 1</ref>, Primo pro 
+      termi<lb ed="#V" break="no" n="27"/>no a quo, pula alicujus durationis, vel 
+      <lb ed="#V" n="28"/>alicujus magnitudinis vel motus. 
+      Secun<lb ed="#V" break="no" n="29"/>do, sicut dicimus quod fundamentum est 
+      <lb ed="#V" n="30"/>principium domus, et sedile est 
+      princi<lb ed="#V" break="no" n="31"/>pium navis. Tertio, pro principio 
+      extrin<lb ed="#V" break="no" n="32"/>seco, puta pro principio effectivo vel 
+      <lb ed="#V" n="33"/>productivo, et multis aliis modis 
+      accipi<lb ed="#V" break="no" n="34"/>tur ibi principium, vide ibi a principio 
+      <lb ed="#V" n="35"/>illius capituli. 
+    </p>
+            <p xml:id="mm30o9-d1e737-d1e1202">
+               <lb ed="#V" n="36"/>Secundum dictum est, quod quando 
+      <lb ed="#V" n="37"/>principium construitur cum genitivo 
+      du<lb ed="#V" break="no" n="38"/>rationis, ut cum dico principium 
+      dura<lb ed="#V" break="no" n="39"/>tionis, tunc de vi sermonis non 
+      accipi<lb ed="#V" break="no" n="40"/>tur principium durationis pro principio 
+      <lb ed="#V" n="41"/>originativo, quia de vi sermonis 
+      princi<lb ed="#V" break="no" n="42"/>pium durationis dicitur terminus a quo 
+      <!--0782.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>illius durationis, id est, quod incipit 
+      <lb ed="#V" n="44"/>duratio talis. 
+    </p>
+            <p xml:id="mm30o9-d1e737-d1e1228">
+               <lb ed="#V" n="45"/>Tertium dictum est, quod cum dico : 
+      <lb ed="#V" n="46"/>Pater est principium durationis Filil, de vi 
+      <lb ed="#V" n="47"/>sermonis intelligitur, quod sit terminus 
+      <lb ed="#V" n="48"/>a quo durationis Filii, et non potest 
+      ac<lb ed="#V" break="no" n="49"/>cipi pro principio originativo, nisi addatur 
+      <lb ed="#V" n="50"/>aliquid, puta sic dicendo : Pater est 
+      prin<lb ed="#V" break="no" n="51"/>cipium originativum sive productivum 
+      <lb ed="#V" n="52"/>durationis Filii, et hoc modo accipitur 
+      <lb ed="#V" n="53"/>pro principio productivo. 
+    </p>
+            <p xml:id="mm30o9-d1e737-d1e1250">
+               <lb ed="#V" n="54"/>Cum vero dicit in littera de fallacia 
+      <lb ed="#V" n="55"/>equivocationis formetur sic syllogismus : 
+      <lb ed="#V" n="56"/>Quidquid est principium esse Filii est 
+      <lb ed="#V" n="57"/>principium durationis illius; sed Pater 
+      <lb ed="#V" n="58"/>in divinis est principium esse Filii, ergo 
+      <lb ed="#V" n="59"/>Pater est principium durationis Filii. Si 
+      <lb ed="#V" n="60"/>in majori principium accipiatur pro 
+      prin<lb ed="#V" break="no" n="61"/>cipio productivo est vera ; si in minori 
+      <lb ed="#V" n="62"/>accipitur pro principio productivo est 
+      <lb ed="#V" n="63"/>vera, et sic sequitur conclusio de 
+      prin<lb ed="#V" break="no" n="64"/>cipio productivo durationis. Si vero in 
+      <lb ed="#V" n="65"/>majori accipitur pro termino a quo, est 
+      <lb ed="#V" n="66"/>vera ; si in minori pro principio a quo est 
+      <lb ed="#V" n="67"/>falsa, et tunc non sequitur conclusio. Si 
+      ve<lb ed="#V" break="no" n="68"/>ro in minori accipitur pro principio 
+      produ<lb ed="#V" break="no" n="69"/>ctivo, et in majori pro principio a quo 
+      utra<lb ed="#V" break="no" n="70"/>que est vera, sed non sequitur 
+      conclu<lb ed="#V" break="no" n="71"/>sio, quia syllogismus est in quatuor 
+      ter<lb ed="#V" break="no" n="72"/>minis, quia medium variatur, et sic 
+      com<lb ed="#V" break="no" n="73"/>mittitur fallacia aequivocationis. Potest 
+      <lb ed="#V" n="74"/>etiam esse fallacia amphibologiae propter 
+      <lb ed="#V" n="75"/>diversa significata, ut cum dicimus : 
+      sae<lb ed="#V" break="no" n="76"/>culum scit, potest intelligi, vel quod 
+      <lb ed="#V" n="77"/>saeculum habeat scientiam de aliquo, et 
+      <lb ed="#V" n="78"/>hoc falsum est; vel quod aliquis habeat 
+      <lb ed="#V" n="79"/>scientiam de seculo, et hoc verum est. 
+      <lb ed="#V" n="80"/>Sic in proposito, ista : Paler est 
+      princi<lb ed="#V" break="no" n="81"/>pium durationis Filii, potest habere 
+      du<lb ed="#V" break="no" n="82"/>plicem sensum, scilicet quod Pater sit 
+      <lb ed="#V" n="83"/>terminus a uo, sic est falsum; vel quod 
+      <lb ed="#V" n="84"/>sit principium originativum, et sic est 
+      <lb ed="#V" n="85"/>verum, et fit tertius modus amphibologiae, 
+      <lb ed="#V" n="86"/>et parum differt ab equivocatione, quia 
+      <!--0783.xml-->
+      <pb ed="#V" n="783"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>fallacia aequivocationis attenditur penes 
+      <lb ed="#V" n="2"/>diversa significata termini, sed terlius 
+      <lb ed="#V" n="3"/>modus amphibologiae attenditur penes 
+      <lb ed="#V" n="4"/>diversa significata propositionis. Et sic 
+      pa<lb ed="#V" break="no" n="5"/>tet ista littera. 
+    </p>
+            <p xml:id="mm30o9-d1e737-d1e1342">
+               <lb ed="#V" n="6"/>(b) Ad secundum. Respondet quod 
+      ver<lb ed="#V" break="no" n="7"/>bum nostrum potest dici dupliciter in 
+      <lb ed="#V" n="8"/>fieri. Uno modo dicitur in fieri, quod est 
+      <lb ed="#V" n="9"/>propria gignitio ipsius, id est, verbum fit, 
+      <lb ed="#V" n="10"/>scilicet verbum gignitur sive producitur, 
+      <lb ed="#V" n="11"/>el hoc non est imperfectionis. Alio modo 
+      <lb ed="#V" n="12"/>dicitur in fieri, quod est propria inquisitio 
+      <lb ed="#V" n="13"/>illius gignitionis, et hoc modo est 
+      imper<lb ed="#V" break="no" n="14"/>fectionis, quia ponit novitatem in verbo, 
+      <lb ed="#V" n="15"/>et etiam ex parte intellectus nostri ponit 
+      <lb ed="#V" n="16"/>imperfectam causalitatem, si enim 
+      intel<lb ed="#V" break="no" n="17"/>lectus esset perfectus, statim gigneret. 
+      <lb ed="#V" n="18"/>Primo modo accipitur Verbum gigni in 
+      <lb ed="#V" n="19"/>divinis, non secundo modo. 
+    </p>
+            <p xml:id="mm30o9-d1e737-d1e1375">
+               <lb ed="#V" n="20"/>(e) Ad tertium. Respondet dicens 
+      se<lb ed="#V" break="no" n="21"/>cundum Augustinum quod sermo iste : 
+      <lb ed="#V" n="22"/>semper nascitur, non significat 
+      generati<lb ed="#V" break="no" n="23"/>onem ita esse perfectam, sicut sermo iste 
+      <lb ed="#V" n="24"/>significat eamdem generationem ita esse 
+      <lb ed="#V" n="25"/>perfectam, scilicet semper natus est ; ista 
+      <lb ed="#V" n="26"/>enim, semper est natus, magis exprimit 
+      <lb ed="#V" n="27"/>verilatem quam ista : semper nascitur, 
+      <lb ed="#V" n="28"/>licet ulraque sit vera. Ideo Auguslinus 
+      <lb ed="#V" n="29"/>magis utitur ista : semper nalus est, quam 
+      <lb ed="#V" n="30"/>ista : semper nascitur; unde ait : Non 
+      pos<lb ed="#V" break="no" n="31"/>stmus, inquit, dicere semper nascitur, ne 
+      <lb ed="#V" n="32"/>imperfectum aliquid videatur, non dicit 
+      <lb ed="#V" n="33"/>imperfectio est, si dicatur semper nasci, 
+      <lb ed="#V" n="34"/>sed videtur significari imperfectio. 
+    </p>
+            <p xml:id="mm30o9-d1e737-d1e1410">
+               <lb ed="#V" n="35"/>(d) Ad cujus intellectum. IIic docet 
+      Do<lb ed="#V" break="no" n="36"/>ctor quomodo verba cujuscumque 
+      tempo<lb ed="#V" break="no" n="37"/>ris possent dici de divinis. Dicit ergo : 
+      <lb ed="#V" n="38"/>Verba cujuscumque temporis dicuntur de 
+      <lb ed="#V" n="39"/>Deo, sive signiflcent actus personales, id 
+      <!--0783.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="40"/>est, actus pertinentes ad personas, sicul 
+      <lb ed="#V" n="41"/>generare, generari, spirare, spirari; sive 
+      <lb ed="#V" n="42"/>significent actus essentiales, id est, actus 
+      <lb ed="#V" n="43"/>communes tribus personis, ut intelligere, 
+      <lb ed="#V" n="44"/>scire, velle, creare, gubernare et 
+      hujus<lb ed="#V" break="no" n="45"/>modi; ista enim est vera : Deus Pater 
+      ge<lb ed="#V" break="no" n="46"/>nerant Filium, generat Filium, et 
+      genera<lb ed="#V" break="no" n="47"/>bit Filium, sicut ista : Deus cognovit 
+      <lb ed="#V" n="48"/>creaturas, cognoscit et cognoscet, et sic 
+      <lb ed="#V" n="49"/>de aliis. 
+    </p>
+            <p xml:id="mm30o9-d1e737-d1e1449">
+               <lb ed="#V" n="50"/>(e) Sed quid significant verba istorum 
+      <lb ed="#V" n="51"/>diversorum temporum cum dicuntur de 
+      <lb ed="#V" n="52"/>Deo? Dicit Doctor, quod cum dico : 
+      Pa<lb ed="#V" break="no" n="53"/>ter generavit, non consignificat tempus 
+      <lb ed="#V" n="54"/>praeteritum, quia tunc generare 
+      mensu<lb ed="#V" break="no" n="55"/>raretur tempore, nec similiter 
+      quodcum<lb ed="#V" break="no" n="56"/>que aliud verbum dictum de Deo 
+      consi<lb ed="#V" break="no" n="57"/>gnificat aliquam differentiam temporis. 
+      <lb ed="#V" n="58"/>Sed significant potius nunc aeternitatis, 
+      <lb ed="#V" n="59"/>non taen absolute, quia in illo nunc, 
+      <lb ed="#V" n="60"/>quod est mensura Dei, non est aliqua 
+      <lb ed="#V" n="61"/>successio, cum eternitas sit omnino 
+      in<lb ed="#V" break="no" n="62"/>divisibilis tota simul et perfecta possessio ; 
+      <lb ed="#V" n="63"/>tunc enim non esset variatio diversorum 
+      <lb ed="#V" n="64"/>temporum, et sic de rigore sermonis ista 
+      <lb ed="#V" n="65"/>negaretur : Paler generavit Filium, quia 
+      <lb ed="#V" n="66"/>in elernitate non potest esse preteritio. 
+      <lb ed="#V" n="67"/>Significat ergo nunc eternitatis non 
+      abso<lb ed="#V" break="no" n="68"/>lute, sed inquantum coexistit diversis 
+      tem<lb ed="#V" break="no" n="69"/>poribus. Et sic cum dico : Pater 
+      genera<lb ed="#V" break="no" n="70"/>vit, ly generavit consignificat nunc 
+      <lb ed="#V" n="71"/>aelernitatis, ut coexistens tempori 
+      praete<lb ed="#V" break="no" n="72"/>rito ; et similiter cum dico : Deus generat, 
+      <lb ed="#V" n="73"/>significat nunc eternitatis inquantum 
+      <lb ed="#V" n="74"/>coexistit tempori nosiro praesenti; et 
+      <lb ed="#V" n="75"/>0enerabit, significat idem nunc 
+      aeterni<lb ed="#V" break="no" n="76"/>tatis, ut coexistet tempori futuro. Et de 
+      <lb ed="#V" n="77"/>hujusmodi significatione, vide etiam infra 
+      <lb ed="#V" n="78"/>quae dicit Doctor dist 39. et dist. 40.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

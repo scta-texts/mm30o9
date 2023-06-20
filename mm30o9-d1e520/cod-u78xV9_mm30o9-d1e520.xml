@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <author ref="#per-FLBca3">Franciscus Lychetus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title/>
+               <date when="2023-06-19">June 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78xV9">Vives, Paris, 1891, volume 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="404"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="mm30o9-d1e520"><!-- mm30o9-b1d3p3q4 -->
+            <p xml:id="mm30o9-d1e520-d1e101"><!-- lycht-l1d3q9-n1 -->
+      <!--0404.xml-->
+               <pb ed="#V" n="404"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>COMMENTARIUS. 
+      <lb ed="#V" n="2"/>Titulus questionis sic debet intelligi : 
+      <lb ed="#V" n="3"/>An in anim intellectiva sint aliqua que 
+      <lb ed="#V" n="4"/>distincte representent Trinitatem, id est, 
+      <lb ed="#V" n="5"/>ex quo Trinitas dicit unitatem essentiae, 
+      <lb ed="#V" n="6"/>distinctionem personarum et originationem 
+      <lb ed="#V" n="7"/>unius personae ab alia, an in anima 
+      intel<lb ed="#V" break="no" n="8"/>lectiva ista tria possint reperiri, scilicet 
+      <lb ed="#V" n="9"/>unitas essentie et realis distinctio inter 
+      <lb ed="#V" n="10"/>aliqua tria, que repraesentant Patrem, 
+      Fi<lb ed="#V" break="no" n="11"/>lium et Spiritum sanctum, et vere sit 
+      ori<lb ed="#V" break="no" n="12"/>ginatio unius ab alio. 
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e137">
+               <lb ed="#V" n="13"/>Primo arguit sic : Imago repraesentat 
+      <lb ed="#V" n="14"/>illud distincte, etc. quia idea est Dei 
+      in<lb ed="#V" break="no" n="15"/>quantum est causa, quia idea est ratio 
+      ae<lb ed="#V" break="no" n="16"/>terna in mente divina, secundum quam 
+      <lb ed="#V" n="17"/>aliquid est formabile extra, ut secundum 
+      <lb ed="#V" n="18"/>propriam, ut infra patebit, dist. 3, idea 
+      <lb ed="#V" n="19"/>ergo ut idea, respicit causabile a Deo; sed 
+      <lb ed="#V" n="20"/>Deus non est causa nisi inquantum unus, 
+      <lb ed="#V" n="21"/>cum ratio formalis causandi sit tantum 
+      <lb ed="#V" n="22"/>voluntas divina, ut patet ex Doctore in 2. 
+      <lb ed="#V" n="23"/>d. 2. q. 1. et quodl. 9. 8. imo causare 
+      <lb ed="#V" n="24"/>primo convenit Deo ut est hic Deus non 
+      <lb ed="#V" n="25"/>ut est in tribus suppositis; si enim illa 
+      <lb ed="#V" n="26"/>supposita non essent, adhuc perfectissima 
+      <lb ed="#V" n="27"/>ratio causandi esset in eo, ut patet infra 
+      <lb ed="#V" n="28"/>dist. 4. q. 2. et in 2. dist. 1. q. 1. 
+      Secun<lb ed="#V" break="no" n="29"/>dum argumentum patet. 
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e176">
+               <lb ed="#V" n="30"/>Tertium stat in hoc, quia si in mente 
+      <lb ed="#V" n="31"/>est imago Trinitatis, ergo est ibi aliquod 
+      <lb ed="#V" n="32"/>productum; sed nihil est ibi productum, 
+      <lb ed="#V" n="33"/>quia actus secundi non sunt ibi producti, 
+      <lb ed="#V" n="34"/>patet, quia actionis non est actio, nec ut 
+      <lb ed="#V" n="35"/>subjecti, nec ut termini, ut dicit 
+      Aristote<lb ed="#V" break="no" n="36"/>les 5. Physic. text. comm. 10. qui sic 
+      <lb ed="#V" n="37"/>ait : Neque in agere et pati est motus, 
+      ne<lb ed="#V" break="no" n="38"/>que motoris aut moti, quoniam motus non 
+      <lb ed="#V" n="39"/>habet motum, negue generatio habet 
+      ge<lb ed="#V" break="no" n="40"/>erationem, et universaliter nequte 
+      trans<lb ed="#V" break="no" n="41"/>mutatio transmutationem. Et ibi 
+      Commen<lb ed="#V" break="no" n="42"/>tator : Actio, inquit, et passio non habent 
+      <lb ed="#V" n="43"/>motus, eqte motoris et moti, neque e- 
+      <!--0404.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="44"/>nerati generantis, et universaliter 
+      trans<lb ed="#V" break="no" n="45"/>mutantis et transmutali, quoniam 
+      mo<lb ed="#V" break="no" n="46"/>tus non habet motum, neque transmutatio 
+      <lb ed="#V" n="47"/>habet transmutationem universaliter : 
+      <lb ed="#V" n="48"/>hec ille ; et in textu sequenti dicit 
+      <lb ed="#V" n="49"/>Aristoteles expresse quod motus non 
+      <lb ed="#V" n="50"/>habet motum, ut subjectum, neque ut 
+      <lb ed="#V" n="51"/>transmutando aliquid: vide ibi. 
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e231">
+               <lb ed="#V" n="52"/>Dico ergo quod actionis non est actio, 
+      <lb ed="#V" n="53"/>neque ut termini, quia una actio de 
+      gene<lb ed="#V" break="no" n="54"/>re Actionis non potest esse terminus 
+      pro<lb ed="#V" break="no" n="55"/>ductus ab alia actione, quia tunc 
+      quere<lb ed="#V" break="no" n="56"/>rem de illa producente si esset 
+      producibi<lb ed="#V" break="no" n="57"/>lis, aut non. Si prime, ergo mediante alia 
+      <lb ed="#V" n="58"/>actione, et sic processus in infinitum. 
+      Si<lb ed="#V" break="no" n="59"/>militer si aliqua actio potest produci, ergo 
+      <lb ed="#V" n="60"/>alia actione producitur, etc. et quaero 
+      <lb ed="#V" n="61"/>de illa alia, etc. Item actionis non est 
+      <lb ed="#V" n="62"/>actio ut subjecti, quia una actio non est 
+      <lb ed="#V" n="63"/>subjectum alterius, cum ergo actus 
+      secun<lb ed="#V" break="no" n="64"/>di, scilicet intellectio et volitio sint 
+      for<lb ed="#V" break="no" n="65"/>maliter actiones, ergo non sunt 
+      produ<lb ed="#V" break="no" n="66"/>ctae, quia si esset producte, tunc essent 
+      <lb ed="#V" n="67"/>termini actionum, et sic actionis esset 
+      <lb ed="#V" n="68"/>actio. 
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e270"><!-- lycht-l1d3q9-n2 -->
+               <lb ed="#V" n="31"/>COMMENTARIUS. 
+        <lb ed="#V" n="32"/>(a) Hic primo videndum est quid sit ratio 
+        <lb ed="#V" n="33"/>imaginis in corporibus. Dicit Doctor quod 
+        <lb ed="#V" n="34"/>imago in corporibus dicitur esse 
+      repre<lb ed="#V" break="no" n="35"/>sentativa totius immediate, sicut si totum 
+        <lb ed="#V" n="36"/>corpus esset impressum pulveri, illud 
+      re<lb ed="#V" break="no" n="37"/>preesentativum derelictum in pulvere 
+      di<lb ed="#V" break="no" n="38"/>ceretur imago illius corporis, quia totum 
+        <lb ed="#V" n="39"/>distincte repraesentaret; est ergo imago 
+        <lb ed="#V" n="40"/>in corporibus similitudo totius. Et addit, 
+        <lb ed="#V" n="41"/>quod etiam requiritur imitatio, quia non 
+        <lb ed="#V" n="42"/>sequitur, hoc est simile huic, ergo est 
+        <!--0405.xml-->
+        <cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>imago illius, ut patet de duobus ovis 
+      om<lb ed="#V" break="no" n="44"/>nino similibus; requiritur ergo imitatio, 
+        <lb ed="#V" n="45"/>ita quod illud quod dicitur imago, vere 
+        <lb ed="#V" n="46"/>imitetur imaginatum, quae imitatio dicit 
+        <lb ed="#V" n="47"/>dependentiam essentialem imaginis ad 
+        <lb ed="#V" n="48"/>imaginatum, vel causati ad causam, vel 
+        <lb ed="#V" n="49"/>mensurati ad mensuram, vel ut 
+      participa<lb ed="#V" break="no" n="50"/>ti ad imparticipatum; nisi enim diceret 
+        <lb ed="#V" n="51"/>ordinem et essentialem dependentiam ad 
+        <lb ed="#V" n="52"/>imaginatum, non diceretur imago proprie. 
+        <lb ed="#V" n="53"/>In imagine ergo Trinitatis creata 
+      requiri<lb ed="#V" break="no" n="54"/>tur, quod talis imago sit similitudo totius 
+        <lb ed="#V" n="55"/>Trinitatis, et cum hoc dicat veram 
+      imita<lb ed="#V" break="no" n="56"/>tionem ad totam Trinitatem.
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e335">
+               <lb ed="#V" n="57"/>(b) De secundo sciendum, etc. Pro 
+      intelli<lb ed="#V" break="no" n="58"/>gentia hujus litterae nota, quod esse 
+      par<lb ed="#V" break="no" n="59"/>tem alicujus contingit dupliciter. Primo 
+        <lb ed="#V" n="60"/>proprie, sicut caput est pars hominis. 
+      Se<lb ed="#V" break="no" n="61"/>cundo improprie, scilicet pro conceptu de 
+        <lb ed="#V" n="62"/>aliqua re formato, non complectente totam 
+        <lb ed="#V" n="63"/>entitatem rei, sicut conceptus animalis in 
+        <lb ed="#V" n="64"/>homine, vel conceptus intellectus 
+      possibi<lb ed="#V" break="no" n="65"/>lis de intellectu absolute, et sicut 
+      intelle<lb ed="#V" break="no" n="66"/>ctus possibilis sic conceptus, potest dici 
+        <lb ed="#V" n="67"/>pars intellectus, ut intellectus 
+      compre<lb ed="#V" break="no" n="68"/>hendit agentem et possibilem, quamvis 
+        <lb ed="#V" n="69"/>non sit vere pars, sic in Trinitate 
+      accipi<lb ed="#V" break="no" n="70"/>tur ratio partis et ratio totius improprie; 
+        <lb ed="#V" n="71"/>non enim Trinitas est quoddam totum 
+        <lb ed="#V" n="72"/>proprie constitutum ex partibus, cum in 
+        <lb ed="#V" n="73"/>Deo non sit pars, sed in conceptu potest 
+        <lb ed="#V" n="74"/>dici pars Trinitatis, et ipsa Trinitas 
+      po<lb ed="#V" break="no" n="75"/>test dici quoddam totum. Dicit ergo 
+      Do<lb ed="#V" break="no" n="76"/>ctor quod cum conceptus unius personae 
+        <lb ed="#V" n="77"/>in intellectu nostro sit partialis respectu 
+        <lb ed="#V" n="78"/>conceptus Trinitatis, illa creatura, que 
+        <lb ed="#V" n="79"/>ducet nos in cognitionem Trinitatis per 
+        <lb ed="#V" n="80"/>modum imaginis repreesentabilis 
+      Trinita<lb ed="#V" break="no" n="81"/>tem quantum ad illum conceptum, quem 
+        <lb ed="#V" n="82"/>intellectus noster potest habere de ea, et 
+        <lb ed="#V" n="83"/>dicit per modum imaginis, quia non 
+      se<lb ed="#V" break="no" n="84"/>quitur : aliquid ducit nos in cognitionem 
+        <lb ed="#V" n="85"/>Trinitatis, ergo erit imago Trinitatis. 
+        <lb ed="#V" n="86"/>Quia species intelligibilis impressa in in- 
+      <!--0406.xml-->
+      <pb ed="#V" n="406"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tellectu Angelico representans Deum sub 
+      <lb ed="#V" n="2"/>ratione objecti intelligibilis ducit 
+      intelle<lb ed="#V" break="no" n="3"/>ctum Angeli in cognitionem Trinitatis, ut 
+      <lb ed="#V" n="4"/>patet a Doctore in 2. d. 3. quest. 9. et 
+      <lb ed="#V" n="5"/>tamen non est imago Trinitatis. Et 
+      simili<lb ed="#V" break="no" n="6"/>ter visio Beatorum ducit in cognitionem 
+      <lb ed="#V" n="7"/>Trinitatis, et tamen non est imago. Ad 
+      <lb ed="#V" n="8"/>hoc ergo ut aliquid dicatur imago, 
+      opor<lb ed="#V" break="no" n="9"/>tet quod ducat nos in cognitionem 
+      Trini<lb ed="#V" break="no" n="10"/>tatis per modum imaginis, ita quod illud 
+      <lb ed="#V" n="11"/>sit repraesentativum unitatis essentie 
+      <lb ed="#V" n="12"/>Trinitatis personarum et originationis 
+      <lb ed="#V" n="13"/>unius personae ab alia, et hoc semper 
+      <lb ed="#V" n="14"/>cum imitatione essentiali ad ipsam 
+      Trini<lb ed="#V" break="no" n="15"/>tatem quam representat. 
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e442"><!-- lycht-l1d3q9-n3 -->
+               <lb ed="#V" n="24"/>COMMENTARIUS. 
+      <lb ed="#V" n="25"/>(a) De tertio, scilicet in quibus 
+      consi<lb ed="#V" break="no" n="26"/>stat imago in nobis. Et declarat tria in 
+      is<lb ed="#V" break="no" n="27"/>to articulo. Primum est de his, quae 
+      ma<lb ed="#V" break="no" n="28"/>nifesta sunt in nobis. Secundum, in 
+      qui<lb ed="#V" break="no" n="29"/>bus non consistit imago. Tertium, in 
+      <lb ed="#V" n="30"/>quibus consistit. 
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e461">
+               <lb ed="#V" n="31"/>Primum ibi : Quantum ad primum. Hic 
+      <lb ed="#V" n="32"/>ostendit quomodo notum est nobis per 
+      ex<lb ed="#V" break="no" n="33"/>perientiam habere actum intelligendi et 
+      <lb ed="#V" n="34"/>actum volendi, qui actus sunt aliquo 
+      mo<lb ed="#V" break="no" n="35"/>do in potestate nostra, quando objectum 
+      <lb ed="#V" n="36"/>est presens ; et si sic, oportet ponere in 
+      <lb ed="#V" n="37"/>nobis aliquo modo principia activa et 
+      po<lb ed="#V" break="no" n="38"/>tentias, quibus sumus potentes respectu 
+      <lb ed="#V" n="39"/>ipsorum actuum, aliter non essent in 
+      po<lb ed="#V" break="no" n="40"/>testate nostra, ut supra patuit quest. 7. 
+      <lb ed="#V" n="41"/>presentis dist. arguendo contra 
+      opinio<lb ed="#V" break="no" n="42"/>nem <name xml:id="mm30o9-d1e520-Nd1e489">Goffredi</name>. Et addit, quod eadem po- 
+      <!--0412.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>tentia sub eadem ratione formali non 
+      <lb ed="#V" n="44"/>potest esse principium actus 
+      intelligen<lb ed="#V" break="no" n="45"/>di et actus volendi, propter oppositos 
+      mo<lb ed="#V" break="no" n="46"/>dos principiandi, quia actus volendi 
+      cau<lb ed="#V" break="no" n="47"/>satur per modum libertatis, et actus 
+      intel<lb ed="#V" break="no" n="48"/>ligendi per modum nature, qui modi sunt 
+      <lb ed="#V" n="49"/>repugnantes, ut supra vidimus dist. 2. 
+      <lb ed="#V" n="50"/>parte 2. experimur ergo in nobis actum 
+      <lb ed="#V" n="51"/>intelligendi, et potentiam intellectivam 
+      <lb ed="#V" n="52"/>quae est principium actus intelligendi; 
+      ex<lb ed="#V" break="no" n="53"/>perimur etiam actum volendi, et 
+      poten<lb ed="#V" break="no" n="54"/>tiam volitivam quae est principium 
+      eliciti<lb ed="#V" break="no" n="55"/>vum actus volendi. 
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e524">
+               <lb ed="#V" n="56"/>(b) De secundo in isto articulo. Hic 
+      <lb ed="#V" n="57"/>Doctor ostendit in quibus non consistit 
+      <lb ed="#V" n="58"/>imago. Consistit enim imago in his, quae 
+      <lb ed="#V" n="59"/>experimur in nobis; experimur autem 
+      <lb ed="#V" n="60"/>duos actus primos, scilicet intellectum et 
+      <lb ed="#V" n="61"/>voluntatem, et dicuntur actus primi, quia 
+      <lb ed="#V" n="62"/>sunt principia operationis. Experimur 
+      <lb ed="#V" n="63"/>etiam in genere duos actus secundos, 
+      sci<lb ed="#V" break="no" n="64"/>licet actum intelligendi et actum volendi, 
+      <lb ed="#V" n="65"/>qui dicuntur actus secundi, quia sunt 
+      ope<lb ed="#V" break="no" n="66"/>rationes producte ab actibus primis. 
+      Di<lb ed="#V" break="no" n="67"/>cit ergo, quod imago Trinitatis non 
+      con<lb ed="#V" break="no" n="68"/>sistit in solis actibus primis, scilicet in 
+      <lb ed="#V" n="69"/>intellectu et voluntate; tum cun sint 
+      tan<lb ed="#V" break="no" n="70"/>tum duo, non representarent Trinitatem, 
+      <lb ed="#V" n="71"/>sed magis dualitatem; tum quia etsi 
+      in<lb ed="#V" break="no" n="72"/>ter intellectum et voluntatem sit 
+      consub<lb ed="#V" break="no" n="73"/>stantialitas et realis identitas, ut 
+      subtili<lb ed="#V" break="no" n="74"/>ter probat Doctor in 2. dist. 16. non 
+      ta<lb ed="#V" break="no" n="75"/>men inter illas est distinctio realis, quae 
+      <lb ed="#V" n="76"/>requiritur in Trinitate, nec ordo originis, 
+      <lb ed="#V" n="77"/>quia nec intellectus originatur a 
+      volunta<lb ed="#V" break="no" n="78"/>te, nec e contra. Nec est imago in solis 
+      <lb ed="#V" n="79"/>actibus secundis, puta in actu 
+      intelligen<lb ed="#V" break="no" n="80"/>di et in actu volendi; tum quia tantum 
+      re<lb ed="#V" break="no" n="81"/>praesentarent dualitatem; tum quia inter 
+      <lb ed="#V" n="82"/>illos non est consubstantialitas, ut patet. 
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e585">
+               <lb ed="#V" n="83"/>(c) Ex his sequitur tertium. Hic Doctor 
+      <lb ed="#V" n="84"/>dicit, quod imago consistit simul in 
+      <lb ed="#V" n="85"/>actibus primis et in actibus secundis, 
+      <lb ed="#V" n="86"/>id est, quod imago simul compre-. 
+      <lb ed="#V" n="87"/>hendit intellectum et voluntatem, 
+      <!--0413.xml-->
+      <pb ed="#V" n="413"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>actum intelligendi et actum volendi. Et 
+      <lb ed="#V" n="2"/>expono istam litteram. Cum dicit : 
+      Ani<lb ed="#V" break="no" n="3"/>ma habet in se aliquam perfectionem, 
+      se<lb ed="#V" break="no" n="4"/>cundum quam formaliter est actus primus 
+      <lb ed="#V" n="5"/>respectu notitie genite, quia habet in se 
+      <lb ed="#V" n="6"/>formaliter intellectum, qui dicitur actus 
+      <lb ed="#V" n="7"/>primus sive principium notitie genite, et 
+      <lb ed="#V" n="8"/>habet in se aliam perfectionem secundum 
+      <lb ed="#V" n="9"/>quam recipit formaliter notitiam genitam, 
+      <lb ed="#V" n="10"/>et illa perfectio est intellectus possibilis, 
+      <lb ed="#V" n="11"/>secundum quem anima recipit notitiam 
+      <lb ed="#V" n="12"/>genitam, quia intellectus possibilis est 
+      ra<lb ed="#V" break="no" n="13"/>tio formalis recipiendi illam. 
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e633">
+               <lb ed="#V" n="14"/>Si dicatur, quod intellectus possibilis 
+      <lb ed="#V" n="15"/>est actus primus, sive principium 
+      produc<lb ed="#V" break="no" n="16"/>tivum notitiae genitae, ut videtur innuere 
+      <lb ed="#V" n="17"/>Doctor 15. q. quodlib. 
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e645">
+               <lb ed="#V" n="18"/>Dico tunc, quod intellectus possibilis 
+      <lb ed="#V" n="19"/>potest dupliciter considerari. Uno modo in 
+      <lb ed="#V" n="20"/>ratione principii activi, et sic dicitur 
+      ac<lb ed="#V" break="no" n="21"/>tus primus respectu notitiae genite. Alio 
+      <lb ed="#V" n="22"/>modo in ratione receptivi, et sic est id 
+      se<lb ed="#V" break="no" n="23"/>cundum quod anima intellectiva recipit 
+      <lb ed="#V" n="24"/>notitiam genitam. Sequitur: Et habet in 
+      <lb ed="#V" n="25"/>se aliam perfectionem, secundum quam 
+      <lb ed="#V" n="26"/>recipit formaliter volitionem. Voluntas 
+      <lb ed="#V" n="27"/>enim potest dupliciter considerari. Uno 
+      <lb ed="#V" n="28"/>modo in ratione principii activi, et sic est 
+      <lb ed="#V" n="29"/>actus primus respectu volitionis. Alio 
+      mo<lb ed="#V" break="no" n="30"/>do in ratione principii receptivi, et sic est 
+      <lb ed="#V" n="31"/>id secundum quod anima recipit 
+      voliti<lb ed="#V" break="no" n="32"/>onem. Voluntas enim est ratio formalis 
+      re<lb ed="#V" break="no" n="33"/>cipiendi volitionem. Sequitur : 
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e682">
+               <lb ed="#V" n="34"/>Iste tres perfectiones dicuntur 
+      memo<lb ed="#V" break="no" n="35"/>ria, intelligentia et voluntas. Accipit hic 
+      <lb ed="#V" n="36"/>memoriam pro principio productivo 
+      tota<lb ed="#V" break="no" n="37"/>li respectu notitia genitae, et talis 
+      me<lb ed="#V" break="no" n="38"/>moria includit intellectum et objectum 
+      <lb ed="#V" n="39"/>presens, vel in se vel in aliquo 
+      repre<lb ed="#V" break="no" n="40"/>sentativo. Comprehendit etiamsub 
+      memo<lb ed="#V" break="no" n="41"/>ria perfecta voluntatem, quae est 
+      princi<lb ed="#V" break="no" n="42"/>pium productivum actus volendi. 
+      Intelli<lb ed="#V" break="no" n="43"/>gentia accipitur hic pro intellectu ut 
+      infor<lb ed="#V" break="no" n="44"/>mato actu intelligendi, et voluntas acci- 
+      <!--0413.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>pitur pro voluntate ut informata actu 
+      vo<lb ed="#V" break="no" n="46"/>lendi, ita quod per memoriam 
+      repreesen<lb ed="#V" break="no" n="47"/>tatur Pater in quo est perfectissima 
+      fe<lb ed="#V" break="no" n="48"/>cunditas respectu Filii et Spiritus sancti; 
+      <lb ed="#V" n="49"/>per intelligentiam representatur Filius 
+      <lb ed="#V" n="50"/>qui producitur ut notitia genita, et per 
+      <lb ed="#V" n="51"/>voluntatem repraesentatur Spiritus 
+      san<lb ed="#V" break="no" n="52"/>ctus, qui producit per modum amoris, 
+      Se<lb ed="#V" break="no" n="53"/>quitur : 
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e732">
+               <lb ed="#V" n="54"/>Anima igitur inquantum habens 
+      ac<lb ed="#V" break="no" n="55"/>tum primum totalem respectu 
+      intellecti<lb ed="#V" break="no" n="56"/>onis, scilicet anima vel aliquid anime, 
+      <lb ed="#V" n="57"/>et objectum sibi presens in ratione 
+      intel<lb ed="#V" break="no" n="58"/>ligibilis dicitur memoria, id est, quod ipsa 
+      <lb ed="#V" n="59"/>anima, ut est intellectus habens objectum 
+      <lb ed="#V" n="60"/>praesens, dicitur memoria. Sequitur : Et 
+      <lb ed="#V" n="61"/>hoc memoria perfecta, includendo tam 
+      <lb ed="#V" n="62"/>intellectum quam illud quo objectum est 
+      <lb ed="#V" n="63"/>sibi presens, id est, quod tunc est 
+      memo<lb ed="#V" break="no" n="64"/>ria perfecta, quando includit intellectum 
+      <lb ed="#V" n="65"/>ut actum primum respectu notitie 
+      geni<lb ed="#V" break="no" n="66"/>te, et ut includit objectum vel in se 
+      pre<lb ed="#V" break="no" n="67"/>sens, sive ut includit id quo objectum est 
+      <lb ed="#V" n="68"/>prcesens, puta speciem intelligibilem, per 
+      <lb ed="#V" n="69"/>quam objectum est presens in ratione 
+      in<lb ed="#V" break="no" n="70"/>telligibilis, et hoc totum vocatur memoria 
+      <lb ed="#V" n="71"/>perfecta, que attribuitur Patri. Sequitur: 
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e774">
+               <lb ed="#V" n="72"/>Ipsa eadem anima, inquantum recipit 
+      <lb ed="#V" n="73"/>notitiam genitam dicitur intelligentia, et 
+      <lb ed="#V" n="74"/>intelligentia perfecta ut est sub illa notitia 
+      <lb ed="#V" n="75"/>genita, non enim vult Doctor quod 
+      secun<lb ed="#V" break="no" n="76"/>da pars imaginis sit notitia genita, quia 
+      <lb ed="#V" n="77"/>illa non dicit consubstantialitatem cum 
+      a<lb ed="#V" break="no" n="78"/>nima cum realiter distinguatur; sed vult 
+      <lb ed="#V" n="79"/>quod anima, ut est habens intellectum 
+      <lb ed="#V" n="80"/>informatum notitia genita, sit secunda 
+      <lb ed="#V" n="81"/>pars imaginis, id est, quod intellectus 
+      <lb ed="#V" n="82"/>ut informatus notitia genita est 
+      secun<lb ed="#V" break="no" n="83"/>da pars imaginis, quia dicit 
+      consubstan<lb ed="#V" break="no" n="84"/>tialitatem cum anima saltem ratione 
+      in<lb ed="#V" break="no" n="85"/>tellectus. Sequitur: Voluntas etiam 
+      dici<lb ed="#V" break="no" n="86"/>tur perfecta, inquantum est sub illo actu 
+      <lb ed="#V" n="87"/>volendi, non enim Doctor vult quod 
+      ac<lb ed="#V" break="no" n="88"/>tus volendi sive amor productus sit ter- 
+      <!--0414.xml-->
+      <pb ed="#V" n="414"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tia pars imaginis, cum non dicat aliquam 
+      <lb ed="#V" n="2"/>consubstantialitatem cum anima, quia 
+      re<lb ed="#V" break="no" n="3"/>aliter distinguitur ab ipsa, sed vult quod 
+      <lb ed="#V" n="4"/>ipsa voluntas ut informata actu volendi, 
+      <lb ed="#V" n="5"/>sive amore sit tertia pars imaginis, quia 
+      <lb ed="#V" n="6"/>ratione voluntatis dicit 
+      consubstantialita<lb ed="#V" break="no" n="7"/>tem. Sequitur : Accipiendo igitur ista 
+      <lb ed="#V" n="8"/>tria ex parte anime, ut sunt sub 
+      predic<lb ed="#V" break="no" n="9"/>tis actibus suis, etc. 
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e839">
+               <lb ed="#V" n="10"/>Pro intelligentia hujus litterae, nota quod 
+      <lb ed="#V" n="11"/>si accipiatur memoria productiva pro 
+      in<lb ed="#V" break="no" n="12"/>tellectu agente (qui tunc dicitur esse sub 
+      <lb ed="#V" n="13"/>actu suo, ut habet praesentiam objecti in 
+      <lb ed="#V" n="14"/>se vel in specie, nam objectum dicitur 
+      ac<lb ed="#V" break="no" n="15"/>tus, quia pars memoriae et intellectus 
+      pos<lb ed="#V" break="no" n="16"/>sibilis sit virtus tantum receptiva) tunc 
+      <lb ed="#V" n="17"/>sunt tres entitates, que sunt una res 
+      rea<lb ed="#V" break="no" n="18"/>liter, scilicet intellectus agens, possibilis, 
+      <lb ed="#V" n="19"/>et voluntas, et sic ibi vera 
+      consubstantia<lb ed="#V" break="no" n="20"/>litas. Sed si possibilis pertinet proprie ad 
+      <lb ed="#V" n="21"/>memoriam productivam, ut supra dixi, 
+      <lb ed="#V" n="22"/>non esset forte inconveniens ipsum 
+      se<lb ed="#V" break="no" n="23"/>cundum unam realitem esse proluctivum, 
+      <lb ed="#V" n="24"/>et secundum aliam receptivum, et hoc 
+      mo<lb ed="#V" break="no" n="25"/>do diceretur memoria vel pars memoriae 
+      <lb ed="#V" n="26"/>ut productivus, et intelligentia ut 
+      pro<lb ed="#V" break="no" n="27"/>ductiva intellectus, et realitas 
+      recepti<lb ed="#V" break="no" n="28"/>vus. Et similiter voluntas diceretur 
+      pa<lb ed="#V" break="no" n="29"/>rens ut productiva, et ut receptiva 
+      dicere<lb ed="#V" break="no" n="30"/>tur voluntas ut habens actum volendi, et 
+      <lb ed="#V" n="31"/>sic voluntas et intellectus ut productiva 
+      <lb ed="#V" n="32"/>complent perfectam rationem parentis, ut 
+      <lb ed="#V" n="33"/>patet a Doctore, et sic realitas 
+      produ<lb ed="#V" break="no" n="34"/>ctiva intellectus et realitas receptiva 
+      <lb ed="#V" n="35"/>(ponendo ibi aliqualem distinctionem), et 
+      <lb ed="#V" n="36"/>similiter voluntas sunt una res realiter 
+      <lb ed="#V" n="37"/>cum anima; et realitas intellectus 
+      produ<lb ed="#V" break="no" n="38"/>ctiva dicitur esse sub actu quando habet 
+      <lb ed="#V" n="39"/>objectum praesens in se, vel in aliquo alio 
+      <lb ed="#V" n="40"/>ut partem memoriae, quia tunc dicitur 
+      es<lb ed="#V" break="no" n="41"/>se in potentia propinqua, et realitas 
+      re<lb ed="#V" break="no" n="42"/>ceptiva dicitur esse sub actu suo 
+      inquan<lb ed="#V" break="no" n="43"/>tum habet actualem intellectionem. Et 
+      si<lb ed="#V" break="no" n="44"/>militer voluntas ut productiva dicitur esse 
+      <lb ed="#V" n="45"/>sub actu, quando est in potentia propinqua 
+      <lb ed="#V" n="46"/>ad volendum, quod tunc contingit quando 
+      <!--0414.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="47"/>habet omnia requisita ad actum volendi, 
+      <lb ed="#V" n="48"/>et dicitur ut receptiva sub actu, quando 
+      <lb ed="#V" n="49"/>actu habet in se amorem objecti. Si etiam 
+      <lb ed="#V" n="50"/>dicatur, quod in intellectu possibili non sunt 
+      <lb ed="#V" n="51"/>istae duae realitates, tunc debemus dicere 
+      <lb ed="#V" n="52"/>quod realitas intellectus possibilis ut 
+      pro<lb ed="#V" break="no" n="53"/>ductiva habens objectum praesens, 
+      repre<lb ed="#V" break="no" n="54"/>sentat Patrem. Secundo eadem realitas 
+      in<lb ed="#V" break="no" n="55"/>tellectus possibilis ut habens in se 
+      formali<lb ed="#V" break="no" n="56"/>ter intelligentiam actualem objecti, 
+      reprae<lb ed="#V" break="no" n="57"/>sentat Filium, idem dico de voluntate. 
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e950">
+               <lb ed="#V" n="58"/>Quando ergo dicit Doctor: Iste tres 
+      rea<lb ed="#V" break="no" n="59"/>litates ut sub actibus suis, etc. Secundum 
+      <lb ed="#V" n="60"/>istum tertium modum, prima realitas est 
+      <lb ed="#V" n="61"/>intellectus possibilis ut pars memorie 
+      <lb ed="#V" n="62"/>productive, et voluntas ut principium 
+      pro<lb ed="#V" break="no" n="63"/>ductivum; secunda est idem intellectus ut 
+      <lb ed="#V" n="64"/>habens actualem intellectionem ; tertia est 
+      <lb ed="#V" n="65"/>eadem voluntas ut habens actualem 
+      amo<lb ed="#V" break="no" n="66"/>rem. Est ergo consubstantialitas, quia istae 
+      <lb ed="#V" n="67"/>entitates, que sunt simpliciter una res, 
+      <lb ed="#V" n="68"/>realiter habent in se notitiam et amorem; 
+      <lb ed="#V" n="69"/>sic paternitas,et filiatio, et spiratio passiva 
+      <lb ed="#V" n="70"/>in divinis sunt eadem essentialiter, quia 
+      <lb ed="#V" n="71"/>tantum est una essentia fundans in se, et 
+      <lb ed="#V" n="72"/>identificans sibi realiter illa. In imagine 
+      <lb ed="#V" n="73"/>vero nostra est tantum similitudo quoad 
+      <lb ed="#V" n="74"/>hoc, quia una essentia animae, ut 
+      inclu<lb ed="#V" break="no" n="75"/>dens tres realitates modo predicto, est 
+      <lb ed="#V" n="76"/>eadem respectu notitie et amoris, etc. 
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e995">
+               <lb ed="#V" n="77"/>(d) Sed hic occurrunt duo dubia. Nunc 
+      <lb ed="#V" n="78"/>Doctor contra superius dicta innuit duas 
+      <lb ed="#V" n="79"/>difficultates. Prima est de voluntate, que 
+      <lb ed="#V" n="80"/>est actus primus volitionis, quia non 
+      per<lb ed="#V" break="no" n="81"/>tinet ad primam partem imaginis, quia 
+      <lb ed="#V" n="82"/>non est memoria, nec pertinet ad 
+      memo<lb ed="#V" break="no" n="83"/>riam ; nec ad secundam partem, quia non 
+      <lb ed="#V" n="84"/>est notitia genita; nec ad tertiam, quia non 
+      <lb ed="#V" n="85"/>est amor productus, ergo in anima non 
+      <lb ed="#V" n="86"/>est assignanda perfecta ratio imaginis. 
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e1019">
+               <lb ed="#V" n="87"/>Secunda difficultas est in hoc, quia 
+      <lb ed="#V" n="88"/>prima persona in divinis originat 
+      secun<lb ed="#V" break="no" n="89"/>dam, et prima et secunda originant 
+      ter<lb ed="#V" break="no" n="90"/>tiam ; sed certum est quod tertia pars 
+      <!--0415.xml-->
+      <pb ed="#V" n="415"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>imaginis nostrae non originatur simul a 
+      <lb ed="#V" n="2"/>prima et secunda, ut patet. 
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e1041">
+               <lb ed="#V" n="3"/>Respondet Doctor ad primum, quod 
+      ac<lb ed="#V" break="no" n="4"/>cipiendo primam partem imaginis, sicut 
+      <lb ed="#V" n="5"/>accipit <ref xml:id="mm30o9-d1e520-Rd1e1049">Augustinus 9. de Trinit. cap. 4.</ref>
+               <lb ed="#V" n="6"/>et deinceps mens, notitia et amor ; per 
+      <lb ed="#V" n="7"/>mentem intelligit actum primum 
+      perfe<lb ed="#V" break="no" n="8"/>ctum respectu utriusque actus secundi, et 
+      <lb ed="#V" n="9"/>hoc modo mens habet rationem perfecte 
+      <lb ed="#V" n="10"/>parentis. Similiter accipiendo primam 
+      <lb ed="#V" n="11"/>partem imaginis, ut accipit <ref xml:id="mm30o9-d1e520-Rd1e1064">Augustinus 
+      <lb ed="#V" n="12"/>10. de Trinit. cap. 10.</ref> et deinceps 
+      me<lb ed="#V" break="no" n="13"/>moria, intelligentia et voluntas ; accipit ibi 
+      <lb ed="#V" n="14"/>memoriam pro actu primo perfecto 
+      res<lb ed="#V" break="no" n="15"/>pectu utriusque actus secundi, qui dit 
+      <lb ed="#V" n="16"/>perfectam fecunditatem, et patet littera. 
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e1079">
+               <lb ed="#V" n="17"/>Et quod dicit ibi contra Henricum 
+      quod<lb ed="#V" break="no" n="18"/>lib. 6. quest. 2. qui videtur dicere quod 
+      <lb ed="#V" n="19"/>Pater non habeat ex se fecunditatem ad 
+      <lb ed="#V" n="20"/>spirandum, sed eam habeat quodammodo 
+      <lb ed="#V" n="21"/>sibi derelictam ex productione Filii. 
+      Con<lb ed="#V" break="no" n="22"/>tra hoc arguit Doctor, licet in simili hanc 
+      <lb ed="#V" n="23"/>positionem prius reprobaverit, supra dist. 
+      <lb ed="#V" n="24"/>1. q. 2.tamen hic specialiter hoc reprobat, 
+      <lb ed="#V" n="25"/>et improbatio clara est. 
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e1101">
+               <lb ed="#V" n="26"/>(e) Ad secundum dico. Dicit Doctor 
+      <lb ed="#V" n="27"/>quod etsi in nobis sit imago Trinitatis 
+      <lb ed="#V" n="28"/>quantum ad hoc, quod est repraesentativa 
+      <lb ed="#V" n="29"/>unitatis essentie, distinctionis 
+      persona<lb ed="#V" break="no" n="30"/>rum et originationis, non tamen in 
+      no<lb ed="#V" break="no" n="31"/>bis est sic imago, ut sit secundum 
+      om<lb ed="#V" break="no" n="32"/>nia representativa ; sufficit onim quod 
+      <lb ed="#V" n="33"/>sit representativa. Trinitatis et unitatis, 
+      <lb ed="#V" n="34"/>que requirunt consubstantialitatem, 
+      di<lb ed="#V" break="no" n="35"/>stinctionem et originem, licet non sit 
+      <lb ed="#V" n="36"/>repraesentativa secundum omnem modum, 
+      <lb ed="#V" n="37"/>quia tertia persona in divinis est vere 
+      <lb ed="#V" n="38"/>producta a prima et secunda persona, sed 
+      <lb ed="#V" n="39"/>in imagine nostra, tertia pars imaginis non 
+      <lb ed="#V" n="40"/>est simul producta a prima et secunda, 
+      <lb ed="#V" n="41"/>ut patet, et rationem hujus assignat, que 
+      <lb ed="#V" n="42"/>stat in duobus dictis. 
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e1140">
+               <lb ed="#V" n="43"/>Primum est : Filius potest producere 
+      <lb ed="#V" n="44"/>Spiritum sanctum, quia in productione 
+      <lb ed="#V" n="45"/>Filii communicatur a Patre tota fecundi- 
+      <!--0415.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="46"/>tas, sive tota ratio formalis producendi 
+      <lb ed="#V" n="47"/>Spiritum sanctum,ut infra patebit dist.10. 
+      <lb ed="#V" n="48"/>et ideo Filius vere producit Spiritum 
+      <lb ed="#V" n="49"/>sanctum. 
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e1163">
+               <lb ed="#V" n="50"/>Secundum est : Memoria in nobis, que 
+      <lb ed="#V" n="51"/>est intellectus cum praesentia objecti, 
+      pro<lb ed="#V" break="no" n="52"/>ducendo notitiam non communicant sibi 
+      <lb ed="#V" n="53"/>rationem formalem producendi amorem, 
+      <lb ed="#V" n="54"/>quia tunc talis notitia que est accidens, 
+      <lb ed="#V" n="55"/>esset formaliter voluntas, que voluntas 
+      <lb ed="#V" n="56"/>est ratio formalis producendi amorem, et 
+      <lb ed="#V" n="57"/>patet littera. Et similiter si poneretur 
+      <lb ed="#V" n="58"/>notitia genita aliquo modo productiva 
+      ter<lb ed="#V" break="no" n="59"/>tie partis imaginis, non esset productiva 
+      <lb ed="#V" n="60"/>nisi per modum naturee, quia non esset 
+      <lb ed="#V" n="61"/>formaliter voluntas, nec haberet in se 
+      <lb ed="#V" n="62"/>formaliter voluntatem, et tamen tertia 
+      <lb ed="#V" n="63"/>pars imaginis non producitur per modum 
+      <lb ed="#V" n="64"/>nature, sicut nec Spiritus sanctus, sed 
+      <lb ed="#V" n="65"/>producitur per modum voluntatis. 
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e1200">
+               <lb ed="#V" n="66"/>(f) Est tamen hic aliquis ordo inter 
+      se<lb ed="#V" break="no" n="67"/>cundam partem imaginis, et tertiam, 
+      <lb ed="#V" n="68"/>quia tertia presupponit secundam 
+      natu<lb ed="#V" break="no" n="69"/>raliter, licet non sit ab ea, saltem ut a 
+      <lb ed="#V" n="70"/>causa totali, licet forte possit esse ab ea, 
+      <lb ed="#V" n="71"/>ut a causa partiali secundum illam 
+      opinio<lb ed="#V" break="no" n="72"/>nem positam a Doctore in 2. dist. 25. et 
+      <lb ed="#V" n="73"/>patet littera. 
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e1220">
+               <lb ed="#V" n="74"/>(g) Ulterius in speciali. Ista littera est 
+      <lb ed="#V" n="75"/>satis clara, stat in tribus dictis fundatis 
+      <lb ed="#V" n="76"/>super dictis Augustini, ut patet in littera. 
+      <lb ed="#V" n="77"/>Primum est, quod in anima potest esse 
+      <lb ed="#V" n="78"/>imago, imperfecte tamen, quando 
+      intelli<lb ed="#V" break="no" n="79"/>git inferiora et amat illa. Secundum est, 
+      <lb ed="#V" n="80"/>quod in anima potest esse imago 
+      perfe<lb ed="#V" break="no" n="81"/>ctior, quando habet intelligentiam sui et 
+      <lb ed="#V" n="82"/>diligit se. Tertium est, quod in anima 
+      <lb ed="#V" n="83"/>tunc est perfectissima imago quando, actu 
+      <lb ed="#V" n="84"/>intelligit Trinitatem, et actu amat, 
+      <lb ed="#V" n="85"/>quia tunc non tantum est ibi imago 
+      Trini<lb ed="#V" break="no" n="86"/>tatis, sed etiam similitudo, quia actus 
+      <lb ed="#V" n="87"/>intelligendi est similitudo objecti. 
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e1253">
+               <lb ed="#V" n="88"/>(h) Ad primum argumentum 
+      princi<lb ed="#V" break="no" n="89"/>pale. Respondet, quod quaelibet essentia 
+      <!--0416.xml-->
+      <pb ed="#V" n="416"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>creata, inquantum haec essentia producta 
+      <lb ed="#V" n="2"/>secundum talem ideam, non repreesentat 
+      <lb ed="#V" n="3"/>Deum sub ratione trini, sed sub ratione 
+      <lb ed="#V" n="4"/>unius, quia non causatur, nec ideatur a 
+      <lb ed="#V" n="5"/>Deo sub ratione trini, sed sub ratione 
+      <lb ed="#V" n="6"/>unius, sed tantum aliqua natura ratione 
+      <lb ed="#V" n="7"/>essentie suae et multorum concurrentium 
+      <lb ed="#V" n="8"/>in ea tanquam unum aggregatum, potest 
+      <lb ed="#V" n="9"/>esse representativum Trinitatis et eorum 
+      <lb ed="#V" n="10"/>que comprehenduntur in Trinitate, tale 
+      <lb ed="#V" n="11"/>quid est mens accepta in se et cum 
+      operi<lb ed="#V" break="no" n="12"/>bus suis, quia ibi est unitas, et distinctio, 
+      <lb ed="#V" n="13"/>et ordo originis, tale autem etiam 
+      quan<lb ed="#V" break="no" n="14"/>tum ad talem concursum nihil est, quod 
+      <lb ed="#V" n="15"/>sit inferius mente, sicut patuit in parte 
+      <lb ed="#V" n="16"/>sensitiva. 
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e1301">
+               <lb ed="#V" n="17"/>(i) Sed cum arguitur, quod si ibi esset 
+      <lb ed="#V" n="18"/>imago. Respondet ista concurrentia in 
+      <lb ed="#V" n="19"/>mente valent credenti Trinitatem ad 
+      per<lb ed="#V" break="no" n="20"/>scrutandum et persuadendum quomodo 
+      <lb ed="#V" n="21"/>possit esse. Sed hoc clarius, vide in 
+      quod<lb ed="#V" break="no" n="22"/>lib. q. 14. quia imago dicit relationem ad 
+      <lb ed="#V" n="23"/>imaginatum, cognoscere ergo menlem sub 
+      <lb ed="#V" n="24"/>ratione imaginis est cognoscere 
+      relatio<lb ed="#V" break="no" n="25"/>nem imaginis ad imaginatum; sed relatio 
+      <lb ed="#V" n="26"/>cognosci non potest, nisi termino 
+      preco<lb ed="#V" break="no" n="27"/>gnito, oportet ergo prius cognoscere 
+      Tri<lb ed="#V" break="no" n="28"/>nitatem, sed hoc vide ibi, et multa alia 
+      <lb ed="#V" n="29"/>que faciunt ad propositum. 
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e1332">
+               <lb ed="#V" n="30"/>Ad secundum, patet responsio.
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e1338">
+               <lb ed="#V" n="31"/>(j) Ad tertium dico, quod actus secundi 
+      <lb ed="#V" n="32"/>sunt producti. Responsio stat in hoc : 
+      in<lb ed="#V" break="no" n="33"/>tellectio, volitio, visio, auditio, et sic de 
+      <lb ed="#V" n="34"/>omnibus aliis actibus aliarum 
+      potentia<lb ed="#V" break="no" n="35"/>rum, licet sint qualitates absolute, ut 
+      pro<lb ed="#V" break="no" n="36"/>bat Doctor q. 13. quodlib. et vere sint 
+      pro<lb ed="#V" break="no" n="37"/>ducta per actionem intellectus et objecti, 
+      <lb ed="#V" n="38"/>et nullo modo dicantur actiones de genere 
+      <lb ed="#V" n="39"/>Actionis, quia ille tantum sunt entia 
+      res<lb ed="#V" break="no" n="40"/>pectiva, tamen quoad aliquas conditiones, 
+      <lb ed="#V" n="41"/>que conveniunt actioni de genere 
+      Acti<lb ed="#V" break="no" n="42"/>onis, possunt dici actiones sive actus 
+      <lb ed="#V" n="43"/>secundi. 
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e1369">
+               <lb ed="#V" n="44"/>Prima conditio actionis est, quod ces- 
+      <!--0416.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>sante agente non habet esse permanens, 
+      <lb ed="#V" n="46"/>sed tantum habet esse quantum agens 
+      <lb ed="#V" n="47"/>continuat actionem. Secunda est, quod 
+      <lb ed="#V" n="48"/>actio necessario est alicujus, vel ut 
+      pro<lb ed="#V" break="no" n="49"/>ducti vel ut objecti. Tertia, quod actio 
+      <lb ed="#V" n="50"/>propriissime est ad formam divisibilem, 
+      <lb ed="#V" n="51"/>cujus una pars acquiritur post aliam. 
+      In<lb ed="#V" break="no" n="52"/>tellectio, volitio, ete. dicuntur actus 
+      se<lb ed="#V" break="no" n="53"/>cundi sive actiones, licet sint qualitates 
+      <lb ed="#V" n="54"/>absolute quoad secundas primas 
+      condi<lb ed="#V" break="no" n="55"/>tiones, quia tamdiu habent esse quamdiu 
+      <lb ed="#V" n="56"/>potentie continuant illa. Secundo 
+      termi<lb ed="#V" break="no" n="57"/>nantur de necessitate ad objectum. Lumen 
+      <lb ed="#V" n="58"/>vero, quia non est alterius a se, vel ut 
+      <lb ed="#V" n="59"/>termini producti, vel ut objecti, circa 
+      <lb ed="#V" n="60"/>quod non dicitur actus secundus sive 
+      <lb ed="#V" n="61"/>actio, imo nec intellectio, nec visio, nec 
+      <lb ed="#V" n="62"/>lumen acquiruntur actione proprie dicta, 
+      <lb ed="#V" n="63"/>que terminatur ad formam, cujus una 
+      <lb ed="#V" n="64"/>pars nata est acquiri post aliam. 
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e1421">
+               <lb ed="#V" n="65"/>(k) Ad aliam probationem, cum dicitur 
+      <lb ed="#V" n="66"/>quod actus talis est generativus habitus, 
+      <lb ed="#V" n="67"/>est facilis responsio, quia esse 
+      generati<lb ed="#V" break="no" n="68"/>vum ut actio, nihil aliud est nisi actionem 
+      <lb ed="#V" n="69"/>ipsam, que est relatio de genere Actionis 
+      <lb ed="#V" n="70"/>terminari ad productum, esse vero 
+      prin<lb ed="#V" break="no" n="71"/>cipium formale productivum, est habere 
+      <lb ed="#V" n="72"/>in se virtutem producendi. In proposito 
+      <lb ed="#V" n="73"/>intellectio producit habitum secundo 
+      mo<lb ed="#V" break="no" n="74"/>do, id est, ut est quedam ratio for malis 
+      <lb ed="#V" n="75"/>absolute producendi, et non primo modo, 
+      <lb ed="#V" n="76"/>supple ut sit actio de genere Actionis, 
+      <lb ed="#V" n="77"/>quia ut supra patuit est ens absolutum, 
+      <lb ed="#V" n="78"/>et nullo modo actio de genere Actionis,' 
+      <lb ed="#V" n="79"/>imo primo modo non est producere, quia 
+      <lb ed="#V" n="80"/>ut sic, est tantum quedam relatio et via 
+      <lb ed="#V" n="81"/>ad prod uctum. 
+    </p>
+            <p xml:id="mm30o9-d1e520-d1e1460">
+               <lb ed="#V" n="82"/>Quia tamen haec littera videtur 
+      aliquali<lb ed="#V" break="no" n="83"/>ter obscura, ipsam declaro. Cum dicit: 
+      <lb ed="#V" n="84"/>Actio de genere Actionis non potest esse 
+      <lb ed="#V" n="85"/>ejusdem rationis, nisi termini sint 
+      ejus<lb ed="#V" break="no" n="86"/>dem rationis, patet, quia due calefactiones 
+      <lb ed="#V" n="87"/>dicuntur esse ejusdem rationis, quia 
+      calo<lb ed="#V" break="no" n="88"/>res terminantes sunt ejusdem rationis .Se- 
+      <!--0417.xml-->
+      <pb ed="#V" n="417"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>quitur: Ergo si actus generaret habitum, 
+      <lb ed="#V" n="2"/>etc. Vult dicere,si unus actus intelligendi 
+      <lb ed="#V" n="3"/>sit generativus habitus ut actio de genere 
+      <lb ed="#V" n="4"/>Actionis, sequeretur quod alius actus 
+      in<lb ed="#V" break="no" n="5"/>telligendi ejusdem rationis esset 
+      generati<lb ed="#V" break="no" n="6"/>vus habitus; hoc tamen patet esse falsum, 
+      <lb ed="#V" n="7"/>quia aliquis actus intelligendi ejusdem 
+      <lb ed="#V" n="8"/>rationis non est generativus habitus, ut 
+      <lb ed="#V" n="9"/>patet; non enim una intellectio remissa 
+      <lb ed="#V" n="10"/>est generativa habitus, ut patet, cum 
+      ha<lb ed="#V" break="no" n="11"/>bitus generetur ex frequentatis actibus, 
+      <lb ed="#V" n="12"/>vel ex uno valde intenso et perfecto. Si 
+      <lb ed="#V" n="13"/>ergo actus intelligendi est generativus 
+      <lb ed="#V" n="14"/>habitus, non est generativus ut est actio 
+      <lb ed="#V" n="15"/>de genere Actionis, sed ut est quedam 
+      <lb ed="#V" n="16"/>forma absoluta. Sequitur : Tunc dico 
+      bre<lb ed="#V" break="no" n="17"/>viter, quod actus est generativus habitus 
+      <lb ed="#V" n="18"/>sicut forma aliqua, supple absoluta, est 
+      <!--0417.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="19"/>causa vel ratio causandi aliam formam; 
+      <lb ed="#V" n="20"/>non est autem talis actus gignitivus ut 
+      <lb ed="#V" n="21"/>actio de genere Actionis, tali enim 
+      acti<lb ed="#V" break="no" n="22"/>one de genere Actionis gignitur tam actus 
+      <lb ed="#V" n="23"/>quam proprius habitus terminativus talis 
+      <lb ed="#V" n="24"/>actionis, eo modo quo dicimus producens 
+      <lb ed="#V" n="25"/>productione producit, vel agens actione 
+      <lb ed="#V" n="26"/>agit, ut supra declaravi. Sequitur : Et ad 
+      <lb ed="#V" n="27"/>significandum gignitionem talem, que est 
+      <lb ed="#V" n="28"/>actio de genere Actionis, dicimus 
+      poten<lb ed="#V" break="no" n="29"/>tiam elicere actum intelligendi, id est, 
+      <lb ed="#V" n="30"/>quod nomine actionis utimur elicitione, 
+      <lb ed="#V" n="31"/>sicut enim dicimus agens actione agit, ita 
+      <lb ed="#V" n="32"/>dicimus, quod potentia eliciens actum, 
+      <lb ed="#V" n="33"/>elicitione elicit, ita quod tam actio quam 
+      <lb ed="#V" n="34"/>elicitio in re idem important, sed 
+      diffe<lb ed="#V" break="no" n="35"/>runt nomine vel ratione.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

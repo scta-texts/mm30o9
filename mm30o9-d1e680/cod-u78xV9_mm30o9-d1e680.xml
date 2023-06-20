@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <author ref="#per-FLBca3">Franciscus Lychetus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title/>
+               <date when="2023-06-19">June 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78xV9">Vives, Paris, 1891, volume 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="576"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="mm30o9-d1e680"><!-- mm30o9-b1d8p1q2 -->
+            <p xml:id="mm30o9-d1e680-d1e101"><!-- lycht-l1d8q2-n1 -->
+               <lb ed="#V" n="37"/>COMMENTARIUS. 
+      <lb ed="#V" n="38"/>Htc dicitur, ete. Hic ponitur opinio 
+      <lb ed="#V" n="39"/>Thome, qui dicit quod quelibet 
+      creatu<lb ed="#V" break="no" n="40"/>ra est composita ex actu, etc. 
+      <!--0574.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="41"/>Sensus hujus litterae est, quod si aliqua 
+      <lb ed="#V" n="42"/>creatura daretur, quae non esset 
+      composi<lb ed="#V" break="no" n="43"/>ta ex actu et potentia ; aut illa esset pura 
+      <lb ed="#V" n="44"/>potentia tantum, cujus oppositum 
+      experi<lb ed="#V" break="no" n="45"/>mur ; aut esset actus tantum, et sic esset 
+      <lb ed="#V" n="46"/>purus actus, et per consequens esset 
+      <lb ed="#V" n="47"/>Deus. 
+    </p>
+            <p xml:id="mm30o9-d1e680-d1e133">
+               <lb ed="#V" n="48"/>Secundo dicit, quod quaelibet creatura 
+      <lb ed="#V" n="49"/>est ens per participationem, quod est ens 
+      <lb ed="#V" n="50"/>ab alio causatum, sed ens 
+      imparticipa<lb ed="#V" break="no" n="51"/>tum est causa illius, ita quod participans 
+      <lb ed="#V" n="52"/>dicitur esse causatum. 
+    </p>
+            <p xml:id="mm30o9-d1e680-d1e146">
+               <lb ed="#V" n="53"/>Contra istam conclusionem arguo sic : 
+      <lb ed="#V" n="54"/>presupponendo tamen unum, scilicet 
+      <lb ed="#V" n="55"/>quod si Thomas intelligit omnem 
+      creatu<lb ed="#V" break="no" n="56"/>ram componi ex actu et potentia sicut ex 
+      <lb ed="#V" n="57"/>diversis rebus, ratio Doctoris concludit 
+      <lb ed="#V" n="58"/>contra Thomam. Si vero intelligit quod 
+      <lb ed="#V" n="59"/>sit composita ex actu, id est, ex aliqua 
+      en<lb ed="#V" break="no" n="60"/>titate et ex potentia, id est, carentia 
+      alte<lb ed="#V" break="no" n="61"/>rius entitatis, argumentum Doctoris non 
+      <lb ed="#V" n="62"/>concludit contra Thomam ; arguit ergo 
+      <lb ed="#V" n="63"/>Doctor contra hoc, scilicet quod sit 
+      com<lb ed="#V" break="no" n="64"/>posita ex diversis rebus. Et argumentum 
+      <lb ed="#V" n="65"/>clarum est, quia si in quolibet sit 
+      compo<lb ed="#V" break="no" n="66"/>sitio ex re et re, accipio illam rem 
+      com<lb ed="#V" break="no" n="67"/>ponentem, et quero si est simplex, aut 
+      <lb ed="#V" n="68"/>composita ? si simplex, habetur 
+      proposi<lb ed="#V" break="no" n="69"/>tum ; si composita, erit processus in 
+      infi<lb ed="#V" break="no" n="70"/>nitum. 
+    </p>
+            <p xml:id="mm30o9-d1e680-d1e188"><!-- lycht-l1d8q2-n2 -->
+               <lb ed="#V" n="60"/>COMMIENTARIUS. 
+      <lb ed="#V" n="61"/>(a) Concedo igitur, quod aliqua 
+      creatu<lb ed="#V" break="no" n="62"/>ra est simplex. Et hec est positio 
+      Docto<lb ed="#V" break="no" n="63"/>ris. Et declarat modum compositionis in 
+      <lb ed="#V" n="64"/>qualibet creatura. Et vult in sententia, 
+      <lb ed="#V" n="65"/>quod quelibet creatura quantumcumque 
+      <lb ed="#V" n="66"/>perfecta, sit composita ex aliqua entitate 
+      <lb ed="#V" n="67"/>positiva, et carentia alicujus gradus 
+      entita<lb ed="#V" break="no" n="68"/>tis. Et littera stat in hoc, quod nulla 
+      cre<lb ed="#V" break="no" n="69"/>atura habet entitatem secundum totam 
+      per<lb ed="#V" break="no" n="70"/>fectionem, quae nata est esse entitatis in se, 
+      <lb ed="#V" n="71"/>nam entitati non repugnat infinitas 
+      in<lb ed="#V" break="no" n="72"/>tensiva; accipiendo ergo perfectissimam 
+      <lb ed="#V" n="73"/>creaturam, patet quod non continet 
+      <lb ed="#V" n="74"/>totam perfectionem entitatis, quia sic 
+      <lb ed="#V" n="75"/>esset formaliter infinita;ergo continet 
+      enti<lb ed="#V" break="no" n="76"/>tatem propriam et carentiam alterius 
+      gra<lb ed="#V" break="no" n="77"/>dus entitatis, qui non repugnat sibi, 
+      in<lb ed="#V" break="no" n="78"/>quantum talis creatura suprema est ens. 
+      <lb ed="#V" n="79"/>Similiter accipio lapidem, entitas propria 
+      <lb ed="#V" n="80"/>lapidis est perfecta ut quatuor, et omnis 
+      <lb ed="#V" n="81"/>alia perfectio repugnat lapidi inquantum 
+      <lb ed="#V" n="82"/>lapis est, non autem repugnat sibi 
+      in<lb ed="#V" break="no" n="83"/>quantum lapis est ens ; sicut talpae 
+      in<lb ed="#V" break="no" n="84"/>quantum talpa repugnat videre, non 
+      ta<lb ed="#V" break="no" n="85"/>men sibi repugnat inquantum animal, ut 
+      <!--0577.xml-->
+      <pb ed="#V" n="577"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>patet 5. Metaph. cap. de Privatione, 
+      <lb ed="#V" n="2"/>text. com. 27. 
+    </p>
+            <p xml:id="mm30o9-d1e680-d1e259">
+               <lb ed="#V" n="3"/>(b) Ad istam etiam, supple 
+      compositi<lb ed="#V" break="no" n="4"/>onem, sequitur compositio actus et 
+      polen<lb ed="#V" break="no" n="5"/>tie objective, et sic omnis creatura est 
+      <lb ed="#V" n="6"/>composita ex propria entitate, et potentia 
+      <lb ed="#V" n="7"/>objectiva ejusdem entitatis, supple, quod 
+      <lb ed="#V" n="8"/>nulla creatura est necessaria, ut infra 
+      pa<lb ed="#V" break="no" n="9"/>tebit quest. ultima presentis dist. et ideo 
+      <lb ed="#V" n="10"/>omnis creatura est possibilis fieri 
+      ante<lb ed="#V" break="no" n="11"/>quam liat, tunc illa potentia et actus ejus 
+      <lb ed="#V" n="12"/>dicuntur componere ipsam. 
+    </p>
+            <p xml:id="mm30o9-d1e680-d1e284">
+               <lb ed="#V" n="13"/>Est etiam quaelibet creatura 
+      componi<lb ed="#V" break="no" n="14"/>bilis, quod patet de accidente, quod est 
+      <lb ed="#V" n="15"/>componibile cum subjecto. In substantia 
+      <lb ed="#V" n="16"/>etiam patet tam de forma quam de 
+      mate<lb ed="#V" break="no" n="17"/>ria, quae sunt componibiles ad invicem. 
+      <lb ed="#V" n="18"/>De substantia etiam per se generabili et 
+      <lb ed="#V" n="19"/>corruptibili, patet quod est receptiva 
+      acci<lb ed="#V" break="no" n="20"/>dentis; nulla igitur substantia esset non 
+      <lb ed="#V" n="21"/>receptiva, nisi propter sui perfectionem, 
+      <lb ed="#V" n="22"/>sed perfectissima Intelligentia est 
+      rece<lb ed="#V" break="no" n="23"/>pliva accidentis,quia capax est suae 
+      intel<lb ed="#V" break="no" n="24"/>lectionis et volitionis, quee non est 
+      sub<lb ed="#V" break="no" n="25"/>stantia sua. Et quod tales operationes 
+      <lb ed="#V" n="26"/>sint accidentia probat dupliciter. Primo, 
+      <lb ed="#V" n="27"/>quia tunc esset formaliter beata seipsa, 
+      <lb ed="#V" n="28"/>patet, quia si intellectio et volitio 
+      Intelli<lb ed="#V" break="no" n="29"/>gentiae sint formaliter sua substantia; 
+      er<lb ed="#V" break="no" n="30"/>go erit formaliter beata et quidditative in 
+      <lb ed="#V" n="31"/>seipsa, quod est falsum. Secundo, quia 
+      <lb ed="#V" n="32"/>ex quo potest intelligere infinita, si 
+      intel<lb ed="#V" break="no" n="33"/>lectio sua esset sua essentia, posset 
+      ha<lb ed="#V" break="no" n="34"/>bere essentiam infinitam, quia haberet 
+      in<lb ed="#V" break="no" n="35"/>tellectionem infinitorum. Et quomodo hoc 
+      <lb ed="#V" n="36"/>concludat, supra patet dist. 2. parte 
+      pri<lb ed="#V" break="no" n="37"/>ma, quest. prima, dist. 3. quest. 7. 
+      Se<lb ed="#V" break="no" n="38"/>quitur etiam, quod si intellectio esset sua 
+      <lb ed="#V" n="39"/>substantia, tunc non dependeret ab aliquo 
+      <lb ed="#V" n="40"/>objecto, nisi a quo dependet suum esse, 
+      <lb ed="#V" n="41"/>et ita nihil inferius se, nec etiam se 
+      pos<lb ed="#V" break="no" n="42"/>set intelligere in genere proprio, nam 
+      in<lb ed="#V" break="no" n="43"/>telligere in genere proprio est, quod 
+      obje<lb ed="#V" break="no" n="44"/>ctum saltem partialiter causet cogniti- 
+      <!--0577.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>onem, ut patebit in 2. dist. 3. quest. 10. 
+      <lb ed="#V" n="46"/>et 11. Et tunc si lapis cognosceretur ab 
+      <lb ed="#V" n="47"/>Intelligentia in genere proprio, saltem 
+      <lb ed="#V" n="48"/>partialiter posset causare substantiam 
+      abs<lb ed="#V" break="no" n="49"/>tractam a materia, cum sua intellectio 
+      <lb ed="#V" n="50"/>sit sua substantia; et multa alia 
+      inconve<lb ed="#V" break="no" n="51"/>nientia possent poni, que brevitatis 
+      cau<lb ed="#V" break="no" n="52"/>sa transeo. 
+    </p>
+            <p xml:id="mm30o9-d1e680-d1e378">
+               <lb ed="#V" n="53"/>(c) Ad argumentum principale. Ad 
+      <lb ed="#V" n="54"/>primum, concedo quod nulla creatura 
+      <lb ed="#V" n="55"/>est pure simplex, quia saltem est 
+      compo<lb ed="#V" break="no" n="56"/>sita aliquo praedictorum modorum. 
+    </p>
+            <p xml:id="mm30o9-d1e680-d1e389">
+               <lb ed="#V" n="57"/>Et per idem patet ad argumenta pro 
+      <lb ed="#V" n="58"/>opinione, etc. 
+    </p>
+            <p xml:id="mm30o9-d1e680-d1e396">
+               <lb ed="#V" n="59"/>Ad aliud de participare dicit Doctor, 
+      <lb ed="#V" n="60"/>quod participare notat duplicem 
+      <lb ed="#V" n="61"/>respectum. Unum partis ad totum, 
+      <lb ed="#V" n="62"/>alium capientis ad captum. Primus 
+      <lb ed="#V" n="63"/>respectus est realis , alius rationis 
+      <lb ed="#V" n="64"/>tantum. Et non capitur pars proprie 
+      <lb ed="#V" n="65"/>pro parte reali, realiter distincta ab alio 
+      <lb ed="#V" n="66"/>toto, sed capitur hic totum pro infinito, et 
+      <lb ed="#V" n="67"/>pars dicitur aliquod finitum vel minus 
+      <lb ed="#V" n="68"/>bonum. Deinde dicit quod omnis 
+      perfe<lb ed="#V" break="no" n="69"/>ctio simpliciter est nata esse infinita, et 
+      <lb ed="#V" n="70"/>ideo quan lo in creaturis est finita, dicitur 
+      <lb ed="#V" n="71"/>esse pars suiipsius ut est in Deo, ubi est 
+      <lb ed="#V" n="72"/>infinita, puta sapientia est perfectio 
+      sim<lb ed="#V" break="no" n="73"/>pliciter, et ipsa in Deo est formaliter 
+      infi<lb ed="#V" break="no" n="74"/>nita, et in nobis est formaliter finita; et 
+      <lb ed="#V" n="75"/>ideo sapientia in nobis dicitur pars 
+      respe<lb ed="#V" break="no" n="76"/>ctu sapientie in Deo,quia minus ens sive 
+      <lb ed="#V" n="77"/>minus perfecta. Deinde notat quod pars 
+      po<lb ed="#V" break="no" n="78"/>test capi tripliciter. Primo, ut totum 
+      ca<lb ed="#V" break="no" n="79"/>ptum sit tantum pars capientis, ut species 
+      <lb ed="#V" n="80"/>capit genus, quod est tantum pars 
+      speci<lb ed="#V" break="no" n="81"/>ei. Secundo, quod pars capti sit pars 
+      ca<lb ed="#V" break="no" n="82"/>pientis, ut cum aliquod monstrum habet 
+      <lb ed="#V" n="83"/>duo capita et duas animas, et tamen 
+      reli<lb ed="#V" break="no" n="84"/>quum corpus est tantum unum; ibi 
+      quod<lb ed="#V" break="no" n="85"/>libet dicitur capere corpus alterius, quod 
+      <lb ed="#V" n="86"/>est solum pars utriusque.Tertio,quod pars 
+      <lb ed="#V" n="87"/>capti sit totum capiens, ut finita perfectio 
+      <lb ed="#V" n="88"/>hominis est totus homo capiens, et tamen 
+      <!--0578.xml-->
+      <pb ed="#V" n="578"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>est tantum pars infinite perfectionis Dei 
+      <lb ed="#V" n="2"/>capte, id est, minor perfectio habita a Deo 
+      <lb ed="#V" n="3"/>perfectiore vel infinito. Primis duobus 
+      <lb ed="#V" n="4"/>modis potest concedi relatio realis. Tertio 
+      <lb ed="#V" n="5"/>vero modo non. Ex his patet, quod 
+      tan<lb ed="#V" break="no" n="6"/>tum tertio molo debet intelligi S. Thomas 
+      <lb ed="#V" n="7"/>de participatione. 
+    </p>
+            <p xml:id="mm30o9-d1e680-d1e485">
+               <lb ed="#V" n="8"/>Circa aliqua dicta Doctoris in ista 
+      ma<lb ed="#V" break="no" n="9"/>teria occurrunt alique difficultates. Primo 
+      <lb ed="#V" n="10"/>circa hoc quod dicit, quod omnis 
+      creatu<lb ed="#V" break="no" n="11"/>ra est saltem composita e aliqua 
+      entita<lb ed="#V" break="no" n="12"/>te et carentia alterius entitalis sibi non 
+      <lb ed="#V" n="13"/>repugnantis inquantum ens. Ex hoc 
+      vi<lb ed="#V" break="no" n="14"/>detur sequi, quod paternitas in divinis 
+      <lb ed="#V" n="15"/>sit hoc modo composita, patet, quia dicit 
+      <lb ed="#V" n="16"/>aliquam entitatem et carentiam alterius 
+      <lb ed="#V" n="17"/>entitatis inquantum ipsa est ens. 
+    </p>
+            <p xml:id="mm30o9-d1e680-d1e509">
+               <lb ed="#V" n="18"/>Sequitur etiam, quod essentia divina 
+      <lb ed="#V" n="19"/>sic sit composita, quia etsi dicat 
+      entita<lb ed="#V" break="no" n="20"/>tem infinitam formaliter, tamen 
+      inquan<lb ed="#V" break="no" n="21"/>tum ens non repugnat sibi formaliter 
+      en<lb ed="#V" break="no" n="22"/>titas lapidis, et tamen caret ea; ergo est 
+      <lb ed="#V" n="23"/>composita ex entitate et carentia alterius 
+      <lb ed="#V" n="24"/>entitatis, quod tamen est falsum dicere. 
+    </p>
+            <p xml:id="mm30o9-d1e680-d1e528">
+               <lb ed="#V" n="25"/>Respondeo ad primum dubium 
+      pre<lb ed="#V" break="no" n="26"/>mittendo aliqua. Primo, quod paternitas, 
+      <lb ed="#V" n="27"/>quee est ratio subsistendi persone 
+      Pa<lb ed="#V" break="no" n="28"/>tris, ex sua ratione formali et 
+      quidditati<lb ed="#V" break="no" n="29"/>va (si tamen dicat quidditatem) ita est 
+      <lb ed="#V" n="30"/>ex se formaliter talis entitas, quod 
+      nul<lb ed="#V" break="no" n="31"/>lam perfectionem, nec imperfectionem 
+      di<lb ed="#V" break="no" n="32"/>cit, etiam circumscripto omni eo quod 
+      <lb ed="#V" n="33"/>non est de ratione formali ipsius; et hoc 
+      <lb ed="#V" n="34"/>patere potest ex multis dictis Scoti in 
+      di<lb ed="#V" break="no" n="35"/>versis locis, maxime infra dist. 13. ubi 
+      <lb ed="#V" n="36"/>vult quod productiones in divinis seipsis 
+      <lb ed="#V" n="37"/>distinguantur, et in 2. quest. Quodlib. 
+      <lb ed="#V" n="38"/>ubi expresse vult quod paternitas sive 
+      <lb ed="#V" n="39"/>generatio activa est talis entitatis, quod 
+      <lb ed="#V" n="40"/>si ipsa eadem, que nunc est per 
+      impos<lb ed="#V" break="no" n="41"/>sibile non esset, nulla alia paternitas vel 
+      <lb ed="#V" n="42"/>generatio activa esset. Et expresse vult 
+      <lb ed="#V" n="43"/>quod hujusmodi relationes nullam 
+      perfe<lb ed="#V" break="no" n="44"/>ctionem includant ex sua ratione forma- 
+      <!--0578.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>li, ut supra patuit dist. 1. contra 
+      opini<lb ed="#V" break="no" n="46"/>onem Henrici, et infra patebit dist. 13. 
+      <lb ed="#V" n="47"/>et 26. et 28. et in Quodlib. quest. 3. et 
+      <lb ed="#V" n="48"/>. et alibi. 
+    </p>
+            <p xml:id="mm30o9-d1e680-d1e587">
+               <lb ed="#V" n="49"/>Secundo premitto, quod quando Scotus 
+      <lb ed="#V" n="50"/>dicit, quod omnis creatura est composita 
+      <lb ed="#V" n="51"/>ex realitate positiva et carentia alterius 
+      <lb ed="#V" n="52"/>entitatis, etc. non intelligit de 
+      perfecti<lb ed="#V" break="no" n="53"/>one, qua unum dicitur esse perfectum, 
+      <lb ed="#V" n="54"/>ex hoc quod est idem realiter alicui 
+      enti<lb ed="#V" break="no" n="55"/>tati dicenti perfectionem; sed intelligit, 
+      <lb ed="#V" n="56"/>quod accepto ente aliquo in sua 
+      formali<lb ed="#V" break="no" n="57"/>tate, quod dicat aliquam entitatem 
+      posi<lb ed="#V" break="no" n="58"/>tivam et carentiam alicujus perfectionis, 
+      <lb ed="#V" n="59"/>quee perfectio nata esset esse gradus 
+      in<lb ed="#V" break="no" n="60"/>trinsecus, et hoc inquantum ens. 
+      Exem<lb ed="#V" break="no" n="61"/>plum : Homini inest carentia perfectionis 
+      <lb ed="#V" n="62"/>infinite, que perfectio non repugnat 
+      en<lb ed="#V" break="no" n="63"/>ti, quia tunc cuilibet enti repugnaret. 
+    </p>
+            <p xml:id="mm30o9-d1e680-d1e622">
+               <lb ed="#V" n="64"/>Tertio premitto, quod perfectio 
+      entita<lb ed="#V" break="no" n="65"/>tiva, sive que est gradus intrinsecus 
+      en<lb ed="#V" break="no" n="66"/>tis, tantum competit enti quanto, 
+      scili<lb ed="#V" break="no" n="67"/>cet enti dicenti perfectionem aliquam, et 
+      <lb ed="#V" n="68"/>non enti non quanto, id est, non dicenti 
+      <lb ed="#V" n="69"/>perfectionem. 
+    </p>
+            <p xml:id="mm30o9-d1e680-d1e638">
+               <lb ed="#V" n="70"/>Quarto praemitto, quod hujusmodi 
+      com<lb ed="#V" break="no" n="71"/>positio, scilicet ex entitate et carentia,etc. 
+      <lb ed="#V" n="72"/>quod res sic composita includat entitatem 
+      <lb ed="#V" n="73"/>quantam et carentiam ulterioris entitatis 
+      <lb ed="#V" n="74"/>quantee. Exemplum : Homo dicit ex sua 
+      <lb ed="#V" n="75"/>entitate aliquam entitatem quantam, cui 
+      <lb ed="#V" n="76"/>entitati non repugnat ulterior perfectio 
+      <lb ed="#V" n="77"/>ut perfectio Angeli, et hoc inquantum 
+      <lb ed="#V" n="78"/>ens; oportet ergo quod in se sit ens 
+      <lb ed="#V" n="79"/>quantum, cui non ut tali enti, sed ut 
+      <lb ed="#V" n="80"/>enti absolute nata est inesse ulterior 
+      <lb ed="#V" n="81"/>perfectio, qua ut tale ens caret ; ut 
+      <lb ed="#V" n="82"/>homo inquantum homo caret 
+      perfecti<lb ed="#V" break="no" n="83"/>one Angeli,que repugnat homini 
+      inquan<lb ed="#V" break="no" n="84"/>tum homo, tamen inquantum ens non 
+      ca<lb ed="#V" break="no" n="85"/>ret tali perfectione, id est, non repugnat 
+      <lb ed="#V" n="86"/>sibi talis perfectio Angeli; quia ergo homo 
+      <lb ed="#V" n="87"/>ut homo, est ens quantum, et ut sic,caret 
+      <lb ed="#V" n="88"/>perfectione, puta Angeli, que perfectio 
+      <!--0579.xml-->
+      <pb ed="#V" n="579"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>sibi non repugnat, et hoc inquantum ens 
+      <lb ed="#V" n="2"/>dicitur esse componi, scilicet ex ente 
+      <lb ed="#V" n="3"/>quanto et carentia ulterioris perfectionis, 
+      <lb ed="#V" n="4"/>qua est ens perfectibile. 
+    </p>
+            <p xml:id="mm30o9-d1e680-d1e697">
+               <lb ed="#V" n="5"/>Et si dicatur, quod ex hoc videtur 
+      se<lb ed="#V" break="no" n="6"/>qui quod talpa, que inquantum animal 
+      <lb ed="#V" n="7"/>nata est habere visum, quod etiam 
+      in<lb ed="#V" break="no" n="8"/>quantum talpa videtur aliqualiter apta 
+      <lb ed="#V" n="9"/>habere visionem. 
+    </p>
+            <p xml:id="mm30o9-d1e680-d1e710">
+               <lb ed="#V" n="10"/>Dico quod est simile quantum ad hoc, 
+      <lb ed="#V" n="11"/>quod sicut non repugnat talpae inquantum 
+      <lb ed="#V" n="12"/>animal, habere visionem, et repugnat 
+      si<lb ed="#V" break="no" n="13"/>bi inquantum talpa, sic cuilibet creature 
+      <lb ed="#V" n="14"/>inquantum ens, non repugnat sibi etiam 
+      <lb ed="#V" n="15"/>perfectio infinita, cui tamen repugnat 
+      in<lb ed="#V" break="no" n="16"/>quantum talis vel talis creatura. Sed non 
+      <lb ed="#V" n="17"/>est simile quantum ad hoc, quod 
+      creatu<lb ed="#V" break="no" n="18"/>ra composita ex ente et carentia, etc. sit 
+      <lb ed="#V" n="19"/>in se ens quantum, etc. Et ideo Doctor 
+      <lb ed="#V" n="20"/>limitate loquitur, quod omnis creatura sit 
+      <lb ed="#V" n="21"/>sic composita; nam omnis creatura, quae 
+      <lb ed="#V" n="22"/>est per se terminus creationis, est ens 
+      <lb ed="#V" n="23"/>quantum, et hoc loquendo de creatura, 
+      <lb ed="#V" n="24"/>sive proprie sive generaliter, ut patet in 
+      <lb ed="#V" n="25"/>tertio. 
+    </p>
+            <p xml:id="mm30o9-d1e680-d1e748">
+               <lb ed="#V" n="26"/>Ex his apparet responsio ad primum 
+      <lb ed="#V" n="27"/>dubium. Dico enim quod paternitas divina 
+      <lb ed="#V" n="28"/>non est sic composita, quia in se non est 
+      <lb ed="#V" n="29"/>ens quantum; licet enim inquantum ens 
+      <lb ed="#V" n="30"/>absolute non repugnet infinitas, ut 
+      gra<lb ed="#V" break="no" n="31"/>dus sibi intrinsecus, et ut paternitas 
+      ca<lb ed="#V" break="no" n="32"/>reat tali infinitate, tamen non dicitur 
+      <lb ed="#V" n="33"/>componi ex ente et tali carentia, cum 
+      pa<lb ed="#V" break="no" n="34"/>ternitas ( ut dixi) non dicat entitatem 
+      po<lb ed="#V" break="no" n="35"/>sitivam quantam. 
+    </p>
+            <p xml:id="mm30o9-d1e680-d1e772">
+               <lb ed="#V" n="36"/>Dico etiam,quod dictum Scoti potest sic 
+      <lb ed="#V" n="37"/>exponi, videlicet, quod omne ens est 
+      <lb ed="#V" n="38"/>compositum, quod includit aliquam 
+      enti<lb ed="#V" break="no" n="39"/>tatem positivam et carentiam ulterioris 
+      <lb ed="#V" n="40"/>perfectionis, quod hoc est verum, si 
+      enti<lb ed="#V" break="no" n="41"/>tas illa positiva non sit in se infinita, 
+      <lb ed="#V" n="42"/>nec alteri entitati formaliter infinitae 
+      i<lb ed="#V" break="no" n="43"/>dem realiter. In proposito, paternitas et 
+      <lb ed="#V" n="44"/>omnis relatio divina, quamvis non dicat 
+      <!--0579.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>entitatem formaliter infinitam, dicit tamen 
+      <lb ed="#V" n="46"/>entitatem realiter infinitam, quia est 
+      rea<lb ed="#V" break="no" n="47"/>liter essentia divina, (ut omnes concedunt) 
+      <lb ed="#V" n="48"/>et sic etiam inquantum ens, non est 
+      ca<lb ed="#V" break="no" n="49"/>pax ulterioris perfectionis, quia infinitum 
+      <lb ed="#V" n="50"/>non potest intelligi excedi. Et sic 
+      sequi<lb ed="#V" break="no" n="51"/>tur quod non sit composita illa ulteriori 
+      <lb ed="#V" n="52"/>compositione, scilicet actus et potentiae 
+      <lb ed="#V" n="53"/>objectivee; quidquid enim est ens et caret 
+      <lb ed="#V" n="54"/>aliqua perfectione entis, et hoc formaliter 
+      <lb ed="#V" n="55"/>vel realiter, est simpliciter possibile, et 
+      <lb ed="#V" n="56"/>terminus potentie simpliciter, cujus 
+      ter<lb ed="#V" break="no" n="57"/>minus non potest esse ens infinitum quod 
+      <lb ed="#V" n="58"/>est necesse esse. Illud ergo quod est 
+      rea<lb ed="#V" break="no" n="59"/>liter vel formaliter infinitum, nullo modo 
+      <lb ed="#V" n="60"/>est compositum. 
+    </p>
+            <p xml:id="mm30o9-d1e680-d1e833">
+               <lb ed="#V" n="61"/>Ad secundum dubium patet solutio ex 
+      <lb ed="#V" n="62"/>supra dictis, licet enim essentia divina 
+      <lb ed="#V" n="63"/>careat formaliter et realiter perfectione 
+      <lb ed="#V" n="64"/>lapidis, quia non est nec formaliter, nec 
+      <lb ed="#V" n="65"/>realiter lapis, non tamen caret aliqua 
+      per<lb ed="#V" break="no" n="66"/>fectione entis ut ens, patet, quia ipsa 
+      for<lb ed="#V" break="no" n="67"/>maliter et realiter est infinita, et ideo non 
+      <lb ed="#V" n="68"/>caret aliqua perfectione, qua ulterius 
+      pos<lb ed="#V" break="no" n="69"/>sit perfici, etiam inquantum ipsa est ens, 
+      <lb ed="#V" n="70"/>quia infinitum intensive non potest 
+      ulte<lb ed="#V" break="no" n="71"/>rius perfici. Imo eminenter includit 
+      to<lb ed="#V" break="no" n="72"/>tam perfectionem lapidis, et cujuscumque 
+      <lb ed="#V" n="73"/>entis finiti ct limitati. 
+    </p>
+            <p xml:id="mm30o9-d1e680-d1e864">
+               <lb ed="#V" n="74"/>Tertio dubitatur in hoc quod dicit, 
+      <lb ed="#V" n="75"/>quod omne ens carens aliqua perfectione 
+      <lb ed="#V" n="76"/>entis, est simpliciter possibile, et 
+      termi<lb ed="#V" break="no" n="77"/>nus potentie simpliciter, quia multa sunt 
+      <lb ed="#V" n="78"/>entia, que carent aliqua perfectione 
+      en<lb ed="#V" break="no" n="79"/>tis, et tamen non sunt objectum potentie 
+      <lb ed="#V" n="80"/>simpliciter et possibilia ; patet,quia relatio 
+      <lb ed="#V" n="81"/>creature ad Deum caret aliqua 
+      perfectio<lb ed="#V" break="no" n="82"/>ne entis,et tamen non est objectum 
+      poten<lb ed="#V" break="no" n="83"/>tie productivae,; patet, quia nullam per se 
+      <lb ed="#V" n="84"/>terminat productionem, cum in Ad 
+      ali<lb ed="#V" break="no" n="85"/>quid non sit motus, ut patet <ref xml:id="mm30o9-d1e680-Rd1e892">4. Phys. 
+      <lb ed="#V" n="86"/>text. 5. com. 10.</ref>
+            </p>
+            <p xml:id="mm30o9-d1e680-d1e898">
+               <lb ed="#V" n="87"/>Dico quod Scotus intelligit, quod omne 
+      <lb ed="#V" n="88"/>tale, vel est per se objectum potentie 
+      <!--0580.xml-->
+      <pb ed="#V" n="580"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>causativae sive per se terminus alicujus 
+      <lb ed="#V" n="2"/>productionis, vel de necessitate 
+      concomi<lb ed="#V" break="no" n="3"/>tatur ad aliquid,quod est per se terminus, 
+      <lb ed="#V" n="4"/>etc. Et sic dico, quod licet relatio 
+      creatu<lb ed="#V" break="no" n="5"/>rae ad Deum non possit esse per se 
+      termi<lb ed="#V" break="no" n="6"/>nus alicujus productionis, de necessitate 
+      <lb ed="#V" n="7"/>tamen concomitatur suum fundamentum, 
+      <lb ed="#V" n="8"/>quod vere creatur et quod est vere 
+      obje<lb ed="#V" break="no" n="9"/>ctum potentie simpliciter. Et sicut dixi 
+      <lb ed="#V" n="10"/>de relatione creature ad Deum, sic dico 
+      <lb ed="#V" n="11"/>de quocumque alio quod est in creaturis. 
+    </p>
+            <p xml:id="mm30o9-d1e680-d1e935">
+               <lb ed="#V" n="12"/>Videtur etiam quod carens aliquo 
+      gra<lb ed="#V" break="no" n="13"/>du entis, etc. non sit simpliciter 
+      possibi<lb ed="#V" break="no" n="14"/>le. Tum quia ideae in mente divina sunt 
+      <lb ed="#V" n="15"/>hujusmodi, et tamen non sunt possibile, 
+      <lb ed="#V" n="16"/>nec etiam respectu alicujus possibilis, ut 
+      <lb ed="#V" n="17"/>infra patebit dist. 35. et 36. Tum quia 
+      <lb ed="#V" n="18"/>etiam omnia, que producuntur ab actu 
+      <lb ed="#V" n="19"/>intellectus divini (loquendo de 
+      producti<lb ed="#V" break="no" n="20"/>one ad extra, et ut producuntur ante 
+      om<lb ed="#V" break="no" n="21"/>nem actum voluntatis divine ad extra) 
+      <lb ed="#V" n="22"/>sunt necessaria, et nullo modo possibilia, 
+      <lb ed="#V" n="23"/>ut supra patuit dist. 3. q. 4. 
+    </p>
+            <p xml:id="mm30o9-d1e680-d1e965">
+               <lb ed="#V" n="24"/>Dico, quod Sotus tantum intelligit de 
+      <lb ed="#V" n="25"/>entibus, quoad esse existentie, non autem 
+      <lb ed="#V" n="26"/>quoad esse secundum quid, et talia sunt 
+      <lb ed="#V" n="27"/>idee, cum tantum sint objecta 
+      secunda<lb ed="#V" break="no" n="28"/>ria intellectus divini, habentia tantum esse 
+      <lb ed="#V" n="29"/>cognitum, ut infra patebit a Doctore 
+      dis<lb ed="#V" break="no" n="30"/>tinct. 35. et dist. 39. et alibi saepe, etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

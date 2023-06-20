@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <author ref="#per-FLBca3">Franciscus Lychetus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title/>
+               <date when="2023-06-19">June 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78xV9">Vives, Paris, 1891, volume 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="854"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="mm30o9-d1e800"><!-- mm30o9-b1d12q1 -->
+            <p xml:id="mm30o9-d1e800-d1e101"><!-- lycht-l1d12q1-n2 -->
+      <!--0854.xml-->
+               <pb ed="#V" n="854"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>COMMENTARIUS. 
+      <lb ed="#V" n="2"/>(a) In ista questione planum est, etc. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e115">
+               <lb ed="#V" n="3"/>Ratio autem hujus veritatis est ista, 
+      <lb ed="#V" n="4"/>quia Pater prius origine, etc. Hic debet 
+      <lb ed="#V" n="5"/>accipi prius origine, id est, prius natura, 
+      <lb ed="#V" n="6"/>quia certum est quod Pater prius natura 
+      <lb ed="#V" n="7"/>intelligitur principiare Filium quam 
+      <lb ed="#V" n="8"/>principiare Spiritum sanctum, quia 
+      <lb ed="#V" n="9"/>sicut intellectus intelligitur prior 
+      na<lb ed="#V" break="no" n="10"/>tura voluntate, ita et prius natura 
+      <lb ed="#V" n="11"/>est operativus quam voluntas, et 
+      si<lb ed="#V" break="no" n="12"/>militer est prius productivus quam 
+      vo<lb ed="#V" break="no" n="13"/>luntas. Si enim acciperet prius origine 
+      <lb ed="#V" n="14"/>proprie, id est, prius origine ut habet a 
+      <lb ed="#V" n="15"/>se, et posterius origine ut habet ab alio, 
+      <lb ed="#V" n="16"/>tunc sequeretur quod Pater a se haberet 
+      <lb ed="#V" n="17"/>actum fecunditatis intellectus, et ab alio 
+      <lb ed="#V" n="18"/>actum fecunditatis voluntatis, quod est 
+      <lb ed="#V" n="19"/>inconveniens; accipit ergo hic prius 
+      <lb ed="#V" n="20"/>origine pro priori naturae. Potest tamen 
+      <lb ed="#V" n="21"/>dici prius origine, non referendo habere 
+      <lb ed="#V" n="22"/>esse a se vel ab alio, sed referendo ad 
+      <lb ed="#V" n="23"/>originationem, quia originatio 
+      intelle<lb ed="#V" break="no" n="24"/>ctus est prior originatione voluntatis, 
+      ta<lb ed="#V" break="no" n="25"/>men in re illa originatio est prius 
+      natu<lb ed="#V" break="no" n="26"/>ra, et tamen dicimus quod una originatio 
+      <lb ed="#V" n="27"/>est prior alia, etc. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e172"><!-- lycht-l1d12q1-n3 -->
+               <lb ed="#V" n="11"/>COMMENTARIUS. 
+      <lb ed="#V" n="12"/>(a) Htc dicitur sic, quod supposita, etc. 
+      <lb ed="#V" n="13"/>Positio Henrici consistit in aliquibus dictis. 
+      <lb ed="#V" n="14"/>Primum quod supposita producentia, puta 
+      <lb ed="#V" n="15"/>Pater et Filius,sunt vere distincta,et tamen 
+      <lb ed="#V" n="16"/>non dicuntur spirare inquantum plura, 
+      <lb ed="#V" n="17"/>quia habent unam vim spirativam. 
+      Secun<lb ed="#V" break="no" n="18"/>dum ibi: Sed ulterius. Vult quod vis 
+      spi<lb ed="#V" break="no" n="19"/>rativa non dicatur proximum principium 
+      <lb ed="#V" n="20"/>fecundum, quo Pater et Filius spirant 
+      in<lb ed="#V" break="no" n="21"/>quantum est omnino una, sed sub ratione 
+      <lb ed="#V" n="22"/>concordis, id est,quod ipsa voluntas 
+      abso<lb ed="#V" break="no" n="23"/>lute sumpta vel amor absolute sumptus 
+      <lb ed="#V" n="24"/>non est principium proximum 
+      producti<lb ed="#V" break="no" n="25"/>vum Spiritus sancti, sed inquantum 
+      vo<lb ed="#V" break="no" n="26"/>luntas est concors, id est, quod 
+      inquan<lb ed="#V" break="no" n="27"/>tum est sub amore concordi, quia amor 
+      <lb ed="#V" n="28"/>concors, licet in se sit unus, potest 
+      ta<lb ed="#V" break="no" n="29"/>men diversificari secundum diversos 
+      re<lb ed="#V" break="no" n="30"/>spectus, ut puta ; nam quando est id, quo 
+      <lb ed="#V" n="31"/>Pater amat Filium, tunc includit unum 
+      <lb ed="#V" n="32"/>respectum Pater amantis ad Filium 
+      ama<lb ed="#V" break="no" n="33"/>tum; et ut est id,quo Filius amat Patrom, 
+      <lb ed="#V" n="34"/>includit alium respectum, scilicet Filii 
+      <lb ed="#V" n="35"/>amantis ad Patrem amatum. Et hoc modo 
+      <lb ed="#V" n="36"/>voluntas sub tali amore, vel amor iste sub 
+      <lb ed="#V" n="37"/>illis respectibus dicitur ab Henrico 
+      funda<lb ed="#V" break="no" n="38"/>mentum proximum productivum Spiritus 
+      <lb ed="#V" n="39"/>sancti, et talis amor ut sic, mutuus vel 
+      <lb ed="#V" n="40"/>voluntas sub tali amore dicitur perfectum 
+      <lb ed="#V" n="41"/>principium,quia ut sic, est amor 
+      perfectis<lb ed="#V" break="no" n="42"/>simus, ut dicit ibidem Richardus. 
+      <!--0856.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>Dicit Henricus quod Patris et Filii 
+      di<lb ed="#V" break="no" n="44"/>stinctio dupliciter est consideranda. Primo 
+      <lb ed="#V" n="45"/>modo, ut dicuntur elicientes actum 
+      spira<lb ed="#V" break="no" n="46"/>tionis, et sic non sunt dicendi spirare ut 
+      <lb ed="#V" n="47"/>plures, quia licet sint plures in se, non 
+      ta<lb ed="#V" break="no" n="48"/>men propter pluralitatem illam spiravit, 
+      <lb ed="#V" n="49"/>quia, ut sic habent unam vim spirativam, 
+      <lb ed="#V" n="50"/>sed possunt dici ut plures spirare solum 
+      <lb ed="#V" n="51"/>ex distinctione eorum connotata, que 
+      di<lb ed="#V" break="no" n="52"/>stinctio prius dicta est, quia ex quo amor 
+      <lb ed="#V" n="53"/>ille, ut est Patris ad Filium, et e contra, 
+      <lb ed="#V" n="54"/>dicitur principium formale productivum 
+      <lb ed="#V" n="55"/>vel voluntas sub tali amore; et quia 
+      in<lb ed="#V" break="no" n="56"/>cludit hos respectus Patris amantis ad 
+      Fi<lb ed="#V" break="no" n="57"/>lium amatum, et e contra, ideo Pater et 
+      <lb ed="#V" n="58"/>Filius possunt dici spirare ut plures, 
+      plu<lb ed="#V" break="no" n="59"/>ralitate non primo modo sumpta, ut 
+      di<lb ed="#V" break="no" n="60"/>cuntur plures elicientes actum, sed 
+      plura<lb ed="#V" break="no" n="61"/>litate connotata ( ut dixi), et sic patet tota 
+      <lb ed="#V" n="62"/>illa opinio. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e293"><!-- lycht-l1d12q1-n4 -->
+      <!--0861.xml-->
+               <pb ed="#V" n="861"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>COMMENTARIUS. 
+      <lb ed="#V" n="2"/>(a) Contra istam opinionem. In ista 
+      <lb ed="#V" n="3"/>ratione plura sunt notan da et supponenda. 
+      <lb ed="#V" n="4"/>Primum est, quod Spiritus sanctus 
+      dici<lb ed="#V" break="no" n="5"/>tur libere productus a principio formali 
+      <lb ed="#V" n="6"/>libere productivo, quod est sola voluntas, 
+      <lb ed="#V" n="7"/>ut communiter conceditur. Secundum, 
+      <lb ed="#V" n="8"/>quod quando dicit Doctor quod voluntas 
+      <lb ed="#V" n="9"/>infinita intellecta ante omne velle, etc. 
+      <lb ed="#V" n="10"/>hoc potest intelligi dupliciter. Primo, 
+      <lb ed="#V" n="11"/>quod voluntas divina prius est 
+      princi<lb ed="#V" break="no" n="12"/>pium productivum Spiritus sancti 
+      ante<lb ed="#V" break="no" n="13"/>quam eliciat velle, [sive actum amoris, et 
+      <lb ed="#V" n="14"/>hoc non potest esse, quia, ut dixit dist. 2. 
+      <lb ed="#V" n="15"/>et 6. primi, quando aliqua potentia est 
+      <lb ed="#V" n="16"/>operativa et productiva, prius est 
+      opera<lb ed="#V" break="no" n="17"/>tiva quam productiva; et sic voluntas 
+      <lb ed="#V" n="18"/>divina cum sit operativa, que operatio 
+      <lb ed="#V" n="19"/>est ipsum velle, et vere productiva, que 
+      <lb ed="#V" n="20"/>productio est spiratio; ergo prius vult 
+      <lb ed="#V" n="21"/>objectum infinitum quam spiret, vel quam 
+      <lb ed="#V" n="22"/>sit principium spirativum. Secundo ante 
+      <lb ed="#V" n="23"/>omne velle, etc. potest sic intelligi, quod 
+      <lb ed="#V" n="24"/>ad productionem Spiritus sancti 
+      requiri<lb ed="#V" break="no" n="25"/>tur aliquo modo ipsum velle ut 
+      princi<lb ed="#V" break="no" n="26"/>pium formale productivum, vel ut ratio 
+      <lb ed="#V" n="27"/>formalis productiva, vel aliquo modo 
+      per<lb ed="#V" break="no" n="28"/>tinens ad rationem formalem producendi, 
+      <lb ed="#V" n="29"/>sicut posuit Henricus; et hoc modo 
+      in<lb ed="#V" break="no" n="30"/>telligitur, quod voluntas ante omne 
+      vel<lb ed="#V" break="no" n="31"/>le, etc. et sic voluntas est principium 
+      pro<lb ed="#V" break="no" n="32"/>ductivum, ita quod per impossibile 
+      cir<lb ed="#V" break="no" n="33"/>cumscripto ipso velle, adhuc vere esset 
+      <lb ed="#V" n="34"/>principium productivum. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e377">
+               <lb ed="#V" n="35"/>Tertio, principaliter suppono, quod 
+      <lb ed="#V" n="36"/>velle quomodocumque accipiatur, sive ut 
+      <lb ed="#V" n="37"/>est amor absolute, sive ut amor mutuus 
+      <lb ed="#V" n="38"/>Patris et Filii, nunquam potest esse 
+      prin<lb ed="#V" break="no" n="39"/>cipium liberum, ut patet. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e391">
+               <lb ed="#V" n="40"/>His declaratis sequitur intentum, quod 
+      <lb ed="#V" n="41"/>ex quo sola voluntas est principium 
+      for<lb ed="#V" break="no" n="42"/>male productivum et mere liberum, 
+      se<lb ed="#V" break="no" n="43"/>quitur quod habens illam ante productum 
+      <!--0861.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="44"/>in eodem instanti producit illa, ut 
+      prin<lb ed="#V" break="no" n="45"/>cipio formali oductivo, ergo et sic 
+      ha<lb ed="#V" break="no" n="46"/>bebitur Spiritus sanctus. Et si (per 
+      Hen<lb ed="#V" break="no" n="47"/>ricum) Pater et Filius producunt 
+      Spiri<lb ed="#V" break="no" n="48"/>tum sanctum amore concordi, ut formali 
+      <lb ed="#V" n="49"/>principio productivo, ergo habebitur 
+      du<lb ed="#V" break="no" n="50"/>plex Spiritus sanctus, et hoc est quod 
+      <lb ed="#V" n="51"/>intendit Doctor, et haec omnia patent 
+      us<lb ed="#V" break="no" n="52"/>que ibi : Secundo probo consequentiam 
+      <lb ed="#V" n="53"/>principalem sic, etc. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e428">
+               <lb ed="#V" n="54"/>(b) In ista ratione sunt aliqua valde 
+      no<lb ed="#V" break="no" n="55"/>tanda. Primo, quod sicut respectu 
+      intel<lb ed="#V" break="no" n="56"/>lectus duplex est objectum, scilicet 
+      pri<lb ed="#V" break="no" n="57"/>marium et secundarium; et primarium 
+      <lb ed="#V" n="58"/>dicitur, a quo essentialiter (ut ita loquar) 
+      <lb ed="#V" n="59"/>operatio intellectus dependet, ut saltem 
+      <lb ed="#V" n="60"/>a principio partiali; et secundarium, a 
+      <lb ed="#V" n="61"/>quo talis operatio non dependet. Hoc patet 
+      <lb ed="#V" n="62"/>a Doctore supra distinct. 1. quest. 2. 
+      <lb ed="#V" n="63"/>Idem dico de voluntate. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e452">
+               <lb ed="#V" n="64"/>Secundo suppono, quod in divinis 
+      es<lb ed="#V" break="no" n="65"/>sentia divina est objectum primarium, et 
+      <lb ed="#V" n="66"/>relationes sunt objecta secundaria, et 
+      in<lb ed="#V" break="no" n="67"/>tellectio intellectus divini sicsuo modo 
+      de<lb ed="#V" break="no" n="68"/>pendet ab essentia respectu cujuscumque 
+      <lb ed="#V" n="69"/>intelligibilis maxime necessarii, quod ipsa 
+      <lb ed="#V" n="70"/>circumscripta esset impossibile intellectum 
+      <lb ed="#V" n="71"/>divinum cognoscere aliquid ; 
+      circumscri<lb ed="#V" break="no" n="72"/>pta vero omni relatione sive persona, in 
+      <lb ed="#V" n="73"/>divinis adhuc posset intelligere, quia 
+      es<lb ed="#V" break="no" n="74"/>sentia divina est primarium objectum et 
+      <lb ed="#V" n="75"/>motivum, ut patet a Doctore ubi supra, 
+      <lb ed="#V" n="76"/>et quest. 1. Prolog. et 36. et 35. dist. 
+      <lb ed="#V" n="77"/>primi. Idem dico de voluntate, quia velle 
+      <lb ed="#V" n="78"/>ipsius sic suo modo dependet ab essentia, 
+      <lb ed="#V" n="79"/>ut ab objecto formaliter infinito et amore 
+      <lb ed="#V" n="80"/>infinito amabili, quod ipsa circumscripta 
+      <lb ed="#V" n="81"/>non posset habere amorem, quia a sola 
+      <lb ed="#V" n="82"/>bonitate infinita movetur saltem 
+      partiali<lb ed="#V" break="no" n="83"/>ter; circumscripta vero omni alia 
+      pro<lb ed="#V" break="no" n="84"/>prietate hypostatica, perfecte eliceretur 
+      <lb ed="#V" n="85"/>amor a voluntate et ab essentia. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e502">
+               <lb ed="#V" n="86"/>Tertio suppono, quod sicut intellectus 
+      <lb ed="#V" n="87"/>ut operativus quasi dependet ab essentia, 
+      <!--0862.xml-->
+      <pb ed="#V" n="862"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>modo preexposito, ita et intellectus ut 
+      pro<lb ed="#V" break="no" n="2"/>ductivus sic dependet, id est, quod sicut 
+      <lb ed="#V" n="3"/>operatio intellectus est primo ab essentia 
+      <lb ed="#V" n="4"/>et intellectu, ita et productio erit primo ab 
+      <lb ed="#V" n="5"/>essentia et intellectu, ut a duobus principiis 
+      <lb ed="#V" n="6"/>partialiter productivis integrantibus unum 
+      <lb ed="#V" n="7"/>totale ; sic et voluntas ut productiva, id 
+      <lb ed="#V" n="8"/>est, quod sicut operatio voluntatis 
+      essen<lb ed="#V" break="no" n="9"/>tialiter ( ut ita loquar) est a voluntate et 
+      <lb ed="#V" n="10"/>ab essentia, et ita productio Spiritus 
+      san<lb ed="#V" break="no" n="11"/>cti erit a voluntate et ab essentia, ut a 
+      <lb ed="#V" n="12"/>duobus principiis partialiter productivis 
+      <lb ed="#V" n="13"/>integrantibus unum totale. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e544">
+               <lb ed="#V" n="14"/>Quarto, sequitur ex dictis, quod ex quo 
+      <lb ed="#V" n="15"/>voluntas ut habens essentiam sibi 
+      perfe<lb ed="#V" break="no" n="16"/>cte presentem, tanquam objectum 
+      pri<lb ed="#V" break="no" n="17"/>marium erit principium Spiritus sancti, 
+      <lb ed="#V" n="18"/>et non ut habens personam ut objectum 
+      <lb ed="#V" n="19"/>amatum ; ergo si ( per Henricum) 
+      volun<lb ed="#V" break="no" n="20"/>tas est principium Spiritus sancti sive 
+      <lb ed="#V" n="21"/>amoris, ut habet personam amatam, 
+      se<lb ed="#V" break="no" n="22"/>quitur quod habebitur duplex Spiritus 
+      <lb ed="#V" n="23"/>sanctus quod est haereticum, quia 
+      volun<lb ed="#V" break="no" n="24"/>tas ut habet essentiam presentem, erit 
+      <lb ed="#V" n="25"/>etiam principium productivum Spiritus 
+      <lb ed="#V" n="26"/>sancti, et ut habens personam amatam 
+      <lb ed="#V" n="27"/>erit aliud principium; et sic patet tota 
+      <lb ed="#V" n="28"/>ista littera, cujus expositio est valde 
+      no<lb ed="#V" break="no" n="29"/>tanda. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e581">
+               <lb ed="#V" n="30"/>(c) Si dicatur essentiam, id est, si 
+      di<lb ed="#V" break="no" n="31"/>catur quod ipsa essentia non est primum 
+      <lb ed="#V" n="32"/>objectum voluntatis,  sed ratio formalis 
+      <lb ed="#V" n="33"/>illius objecti et ratio formalis est persona. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e593">
+               <lb ed="#V" n="34"/>Dicit Doctor quod hoc est falsum, 
+      sci<lb ed="#V" break="no" n="35"/>licet quod persona vel proprietas 
+      persona<lb ed="#V" break="no" n="36"/>lis sit ratio formalis objecti primi ; et 
+      pa<lb ed="#V" break="no" n="37"/>tet, quia unius objecti est tantum una 
+      <lb ed="#V" n="38"/>ratio formalis, que ratio formalis (ut alias 
+      <lb ed="#V" n="39"/>dixi) est entitas perfectissima constituens 
+      <lb ed="#V" n="40"/>intrinsece illud, quod dicitur ohjectum in 
+      <lb ed="#V" n="41"/>tali ratione objectali, et sic ratio formalis 
+      <lb ed="#V" n="42"/>essentie erit ipsa Deitas vel essentia, ut 
+      <lb ed="#V" n="43"/>hec. Tum, quia ratio formalis objecti 
+      ama<lb ed="#V" break="no" n="44"/>ti prius amatur, et habetur propositum, 
+      <!--0862.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>quia tunc illa ratio formalis erit ratio 
+      spi<lb ed="#V" break="no" n="46"/>randi, eo modo quo concurrit objectum 
+      pri<lb ed="#V" break="no" n="47"/>mum ad spirare; littera sequens est clara 
+      <lb ed="#V" n="48"/>ex dictis supra dist. 2. dist. 6. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e632">
+               <lb ed="#V" n="49"/>(d) Secundo sic, principium eque 
+      per<lb ed="#V" break="no" n="50"/>fectum, etc. In ista ratione est tantum 
+      <lb ed="#V" n="51"/>notandum unum dictum, scilicet quod 
+      to<lb ed="#V" break="no" n="52"/>ta perfectio producentis non est a 
+      suppo<lb ed="#V" break="no" n="53"/>sito producente, sed a principio formali 
+      <lb ed="#V" n="54"/>producendi, ita quod suppositum 
+      produ<lb ed="#V" break="no" n="55"/>cens non requiritur in producendo, ut 
+      <lb ed="#V" n="56"/>aliqua perfectio addenda principio formali 
+      <lb ed="#V" n="57"/>productivo, sed tantum requiritur, ut 
+      quae<lb ed="#V" break="no" n="58"/>dam dispositio, id est, quod quando illud 
+      <lb ed="#V" n="59"/>principium productivum requirit 
+      produ<lb ed="#V" break="no" n="60"/>ctum realiter distinctum ; et quando non 
+      <lb ed="#V" n="61"/>distinguitur ab ipso realiter, tunc requirit 
+      <lb ed="#V" n="62"/>suppositum in quo sit, quod 
+      distingua<lb ed="#V" break="no" n="63"/>tur realiter ab alio supposito producto, 
+      si<lb ed="#V" break="no" n="64"/>cut memoria fecunda quamvis sit 
+      princi<lb ed="#V" break="no" n="65"/>pium formale productivum et 
+      perfectissi<lb ed="#V" break="no" n="66"/>mum, non tamen est in potentia 
+      propin<lb ed="#V" break="no" n="67"/>qua, quia Filius in divinis non distinguitur 
+      <lb ed="#V" n="68"/>realiter ab illo. Ad hoc ergo ut sit in 
+      <lb ed="#V" n="69"/>potentia propinqua, oportet quod sit in 
+      <lb ed="#V" n="70"/>aliquo supposito quod distinguatur realiter 
+      <lb ed="#V" n="71"/>a producto, quod suppositum mediante 
+      <lb ed="#V" n="72"/>illo principio producit. Si ergo 
+      supposi<lb ed="#V" break="no" n="73"/>tum requiritur tantum ut principium 
+      pro<lb ed="#V" break="no" n="74"/>ductivum sit in potentia propinqua, et si 
+      <lb ed="#V" n="75"/>perfecte reperitur in aliquo supposito, 
+      <lb ed="#V" n="76"/>hoc sufficit. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e695">
+               <lb ed="#V" n="77"/>(e) Et si dicas, quod illud. Vult dicere, 
+      <lb ed="#V" n="78"/>quod voluntas ut in Patre, sive amor 
+      <lb ed="#V" n="79"/>mutuus absolute, non est principium, 
+      <lb ed="#V" n="80"/>nisi ipsa etiam voluntas sit in alia 
+      perso<lb ed="#V" break="no" n="81"/>na, scilicet in Filio, et quamprimum est 
+      <lb ed="#V" n="82"/>in Filio, derelinquitur quod ut in Patre 
+      <lb ed="#V" n="83"/>sit principium, et sic ad hoc, ut Pater 
+      <lb ed="#V" n="84"/>habeat ipsam ut principium, habet 
+      in<lb ed="#V" break="no" n="85"/>quantum prior est in Filio. Et ideo 
+      Do<lb ed="#V" break="no" n="86"/>ctor sic arguit, quia Pater omnem 
+      realita<lb ed="#V" break="no" n="87"/>tem quam potest habere, habet a 
+      semet<lb ed="#V" break="no" n="88"/>ipso, etiam (per impossibile) Filio non 
+      <!--0863.xml-->
+      <pb ed="#V" n="863"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>intellecto ; et loquor semper de realitate 
+      <lb ed="#V" n="2"/>propria relative, quia relatio similitudinis 
+      <lb ed="#V" n="3"/>et aequalitatis, cum non possint esse nisi 
+      <lb ed="#V" n="4"/>saltem inter duo, ut puta, quia Pater non 
+      <lb ed="#V" n="5"/>est sibi similis, sed Filio similis, ideo talis 
+      <lb ed="#V" n="6"/>similitudo etiam dependet a Filio ut a 
+      <lb ed="#V" n="7"/>termino, dicentia vero perfectionem, 
+      <lb ed="#V" n="8"/>quamvis communia sunt in Patre a 
+      semet<lb ed="#V" break="no" n="9"/>ipso. Possumus etiam dicere quod omnis 
+      <lb ed="#V" n="10"/>relatio sive ad intra sive ad extra sit in 
+      <lb ed="#V" n="11"/>Patre a semetipso, quia fundamentum 
+      <lb ed="#V" n="12"/>earum est in Patre a semetipso. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e756">
+               <lb ed="#V" n="13"/>Si dicatur, nonne paternitas dependet 
+      <lb ed="#V" n="14"/>a Filio. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e763">
+               <lb ed="#V" n="15"/>Dico quod non, quia prius origine 
+      Pa<lb ed="#V" break="no" n="16"/>ter est Pater quam Filius sit, cum talis 
+      <lb ed="#V" n="17"/>relatio sit constitutiva Patris, secus est in 
+      <lb ed="#V" n="18"/>creaturis, ubi relationes non 
+      consti<lb ed="#V" break="no" n="19"/>tuunt, etc. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e776">
+               <lb ed="#V" n="20"/>(f) Item, aut Pater voluntate, etc. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e782">
+               <lb ed="#V" n="21"/>Sensus hujus littere est, quod si volitio 
+      <lb ed="#V" n="22"/>Patris vel voluntas, ut habet respectum 
+      <lb ed="#V" n="23"/>ad Filium amatum sit sufficiens 
+      princi<lb ed="#V" break="no" n="24"/>pium eliciendi ; ergo circumscripto Filio 
+      <lb ed="#V" n="25"/>ut amante, poterit esse principium ; ergo 
+      <lb ed="#V" n="26"/>non requiritur amor ut mutuus. Si 
+      dica<lb ed="#V" break="no" n="27"/>tur quod non, sed requiritur ad hoc quod 
+      <lb ed="#V" n="28"/>sit principium in Patre, quod includat 
+      <lb ed="#V" n="29"/>respectum ad Filium, et similiter in Filio, 
+      <lb ed="#V" n="30"/>ut includat respectum ad Patrem, et sic 
+      <lb ed="#V" n="31"/>hoc principium esset unum aggregatum ex 
+      <lb ed="#V" n="32"/>duobus imperfectis, quod est inconveniens. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e811">
+               <lb ed="#V" n="33"/>(g) Preterea, amor. In hoc quod dicit 
+      <lb ed="#V" n="34"/>Doctor quod cognitio illius amoris videtur 
+      <lb ed="#V" n="35"/>esse magis immediata ratio principii. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e820">
+               <lb ed="#V" n="36"/>Contra hoc quidam arguit, quia non est 
+      <lb ed="#V" n="37"/>immediata ratio producendi, ut patet a 
+      <lb ed="#V" n="38"/>Doctore dist. 2. et 6. et 1. primi d. 1. 
+      <lb ed="#V" n="39"/>q. 1. secundi. Similiter intellectus divinus 
+      <lb ed="#V" n="40"/>prius intelligit essentiam quam voluntas 
+      <lb ed="#V" n="41"/>velit vel spiret, et tamen talis intellectio 
+      <lb ed="#V" n="42"/>non est immediata ratio producendi vel 
+      <lb ed="#V" n="43"/>spirandi. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e840">
+               <lb ed="#V" n="44"/>Respondeo, quod non bene perpendit 
+      <!--0863.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>verba Doctoris ut omnes alii, qui contra 
+      <lb ed="#V" n="46"/>ipsum arguunt. Nam sensus litterae est 
+      <lb ed="#V" n="47"/>talis : Quia Henricus dixit, quod amor 
+      <lb ed="#V" n="48"/>perfectus, qui tunc est perfectus, quia 
+      <lb ed="#V" n="49"/>mutuus, et quanto perfectior ei quanto 
+      <lb ed="#V" n="50"/>jucundior, tanto est ratio formalis 
+      produ<lb ed="#V" break="no" n="51"/>cendi ; et quia cognoscere diligenter vere 
+      <lb ed="#V" n="52"/>condiligere, talis cognitio necessario 
+      re<lb ed="#V" break="no" n="53"/>quiritur ad hoc, ut amor sit jucundior, 
+      <lb ed="#V" n="54"/>nam per impossibile ipsa cognitione 
+      cir<lb ed="#V" break="no" n="55"/>cumscripta, amor non esset jucundior, 
+      <lb ed="#V" n="56"/>patet. Si ergo per illam est jucundior, 
+      <lb ed="#V" n="57"/>sequitur quod erit ratio magis immediata 
+      <lb ed="#V" n="58"/>producendi, non sic est de cognitione 
+      re<lb ed="#V" break="no" n="59"/>spectu Filii, quia hoc est ex ordine 
+      po<lb ed="#V" break="no" n="60"/>tentie operative et productive, nam prius 
+      <lb ed="#V" n="61"/>est operativa, ut Patet a Doctore supra, et 
+      <lb ed="#V" n="62"/>si (per impossibile) non intelligeret, adhuc 
+      <lb ed="#V" n="63"/>ipse intellectus esset vere productivus. 
+      <lb ed="#V" n="64"/>Hoc idem dico de voluntate. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e892">
+               <lb ed="#V" n="65"/>(h) Preterea, contra opinantem. 
+      Sen<lb ed="#V" break="no" n="66"/>sus littere est, quia tenet quod Spiritus 
+      <lb ed="#V" n="67"/>sanctus distingueretur a Filio, dato quod 
+      <lb ed="#V" n="68"/>non esset a Filio. Ex quo sequitur 
+      Spiri<lb ed="#V" break="no" n="69"/>tum sanctum, vel non necessario 
+      require<lb ed="#V" break="no" n="70"/>re Filium ad sui productionem, nec per 
+      <lb ed="#V" n="71"/>consequens amorem mutuum, vel quod 
+      <lb ed="#V" n="72"/>illud dictum suum sit falsum, scilicet quod 
+      <lb ed="#V" n="73"/>distingueretur a Filio, quia, 
+      distinguere<lb ed="#V" break="no" n="74"/>tur a Filio si non esset a Filio, quia 
+      di<lb ed="#V" break="no" n="75"/>stinguitur a Filio propter alium modum 
+      <lb ed="#V" n="76"/>procedendi. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e921"><!-- lycht-l1d12q1-n6 -->
+               <lb ed="#V" n="35"/>COMMENTARIUS 
+      <lb ed="#V" n="36"/>(a) Juxta questionem istam. In ista 
+      litte<lb ed="#V" break="no" n="37"/>ra sunt aliqua notanda. Primum, nomen 
+      <lb ed="#V" n="38"/>verbale est tale, quod significat actum 
+      <lb ed="#V" n="39"/>per modum habitus et quietis; et accipio 
+      <lb ed="#V" n="40"/>habitum pro quiete, eo modo quo dicimus, 
+      <lb ed="#V" n="41"/>habitibus presentibus cessat motus, et 
+      <lb ed="#V" n="42"/>quod tale nomen verbale significat 
+      prin<lb ed="#V" break="no" n="43"/>cipium productivum, si tale, ut tale prin- 
+      <!--0869.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="44"/>cipium denominat suppositum vel aliud 
+      <lb ed="#V" n="45"/>singulare. Exemplum, Genitor significat 
+      <lb ed="#V" n="46"/>principium generandi, ut tale principium 
+      <lb ed="#V" n="47"/>denominat suppositum quod dicitur 
+      geni<lb ed="#V" break="no" n="48"/>tor; non enim dicimus principium 
+      gene<lb ed="#V" break="no" n="49"/>randi est genitor. Et similiter lectio 
+      signi<lb ed="#V" break="no" n="50"/>ficat actum per modum quietis, et lector 
+      <lb ed="#V" n="51"/>significat principium legendi, ut 
+      denomi<lb ed="#V" break="no" n="52"/>nat suppositum, quia principium legendi 
+      <lb ed="#V" n="53"/>non est lector, sed suppositum 
+      <lb ed="#V" n="54"/>Secundum dictum : Quando verbum 
+      <lb ed="#V" n="55"/>significat aliquid per modum fluxus et 
+      <lb ed="#V" n="56"/>fieri, sicut generare, legere, et 
+      hujusmo<lb ed="#V" break="no" n="57"/>di, nomen participium sumptum ab illis, 
+      <lb ed="#V" n="58"/>'ut legens, generans, significat per modum 
+      <lb ed="#V" n="59"/>fluxus et fieri; nomen vero verbale, 
+      geni<lb ed="#V" break="no" n="60"/>tor vel lector, tantum significat per 
+      mo<lb ed="#V" break="no" n="61"/>dum quietis, et sic est quando dico 
+      spi<lb ed="#V" break="no" n="62"/>rans et spirator; nam spirator significat 
+      <lb ed="#V" n="63"/>principium spirandi per modum quietis. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e993">
+               <lb ed="#V" n="64"/>Tertium, quod omnis numerus ponit 
+      <lb ed="#V" n="65"/>suum significatum, quod est numerare 
+      <lb ed="#V" n="66"/>circa significutum determinabilis ab ipso, 
+      <lb ed="#V" n="67"/>sicut cum dico duo homines. Nam 
+      signili<lb ed="#V" break="no" n="68"/>catum hominis est determinabile per 
+      nu<lb ed="#V" break="no" n="69"/>merum, et sic numerus binarius ponit 
+      <lb ed="#V" n="70"/>suum significatum, scilicet dualitatem 
+      <lb ed="#V" n="71"/>circa hominem, ut vere dicantur duae 
+      na<lb ed="#V" break="no" n="72"/>turae distincte, sicut cum dico spiratores, 
+      <lb ed="#V" n="73"/>ponit suum significatum numerus circa 
+      <lb ed="#V" n="74"/>significatum determinabilis, quod est 
+      spi<lb ed="#V" break="no" n="75"/>rator, et significatum spiratoris est 
+      prin<lb ed="#V" break="no" n="76"/>cipium formale productivum; et sic 
+      sen<lb ed="#V" break="no" n="77"/>sus esset, quod si Pater et Filius essent 
+      <lb ed="#V" n="78"/>duo spiratores, non tamen essent duo 
+      sup<lb ed="#V" break="no" n="79"/>posita, sed in eis essent duo principia 
+      <lb ed="#V" n="80"/>productiva Spiritus sancti, non sic cum 
+      <lb ed="#V" n="81"/>dico: duo spirantes.
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e1035">
+               <lb ed="#V" n="82"/>(b) Sed que est ratio quare terminus, 
+      <lb ed="#V" n="83"/>etc. Thomas dicit in sententia, quod 
+      ad<lb ed="#V" break="no" n="84"/>jectivum, quia significat formam 
+      adjacen<lb ed="#V" break="no" n="85"/>tem suppositis, ideo distinguitur ad 
+      di<lb ed="#V" break="no" n="86"/>stinctionem suppositorum. Substantiva 
+      <lb ed="#V" n="87"/>vero, quia non significant formam per 
+      <!--0870.xml-->
+      <pb ed="#V" n="870"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>modum adjacentis, sed absolute, ideo non 
+      <lb ed="#V" n="2"/>numerantur ad numerationem 
+      supposito<lb ed="#V" break="no" n="3"/>rum. Exemplum est de albo et albedine. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e1064">
+               <lb ed="#V" n="4"/>Sed Doctor ex hoc arguit contra, quia 
+      <lb ed="#V" n="5"/>cum substantivum et adjectivum 
+      simpli<lb ed="#V" break="no" n="6"/>citer significent idem, licet non eodem 
+      <lb ed="#V" n="7"/>modo, non videtur possibile adjectivum 
+      <lb ed="#V" n="8"/>numerari quin et substantivum, sicut si 
+      <lb ed="#V" n="9"/>sunt duo alba; ergo et due albedines. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e1080">
+               <lb ed="#V" n="10"/>Sed videtur, quod opinio Thomae 
+      pos<lb ed="#V" break="no" n="11"/>sit stare, quia quando eadem forma 
+      nu<lb ed="#V" break="no" n="12"/>mero plura denominat, adjectiva 
+      nume<lb ed="#V" break="no" n="13"/>rantur ad numerationem suppositorum, et 
+      <lb ed="#V" n="14"/>tamen forma illa non numeratur, sicut 
+      <lb ed="#V" n="15"/>non sequitur, eadem intellectio est in' 
+      <lb ed="#V" n="16"/>Patre et Filio et Spiritu sancto; et 
+      deno<lb ed="#V" break="no" n="17"/>minat illas personas, et per ipsam 
+      dicun<lb ed="#V" break="no" n="18"/>tur tres intelligentes, ergo et tres 
+      intelle<lb ed="#V" break="no" n="19"/>ctiones, non sequitur. Sic est in proposito 
+      <lb ed="#V" n="20"/>de virtute spirativa, que denominat 
+      Pa<lb ed="#V" break="no" n="21"/>trem et Filium. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e1109">
+               <lb ed="#V" n="22"/>Dico, quod instantia Scoti bene valet 
+      <lb ed="#V" n="23"/>contra Thomam,quia de virtute sermonis, 
+      <lb ed="#V" n="24"/>cum dico tres intelligentes, sequitur ergo 
+      <lb ed="#V" n="25"/>tres intellectores, quia ex quo intellector 
+      <lb ed="#V" n="26"/>idem simpliciter significat quod 
+      intelli<lb ed="#V" break="no" n="27"/>ens,sequitur propositum. Secus si 
+      dicere<lb ed="#V" break="no" n="28"/>tur, tres persone intelligentes, quia tunc 
+      <lb ed="#V" n="29"/>sensus est, quod una intellectio in 
+      propo<lb ed="#V" break="no" n="30"/>sito denominat tres personas, sed cum 
+      <lb ed="#V" n="31"/>dico absolute tres intelligentes, videtur 
+      <lb ed="#V" n="32"/>importari distinctio in forma.
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e1135">
+               <lb ed="#V" n="33"/>(c) Assigno aliam rationem. In ista 
+      litte<lb ed="#V" break="no" n="34"/>ra sunt plura notanda. Primo, quod omne 
+      <lb ed="#V" n="35"/>dependens de necessitate terminatur ad 
+      <lb ed="#V" n="36"/>aliquod independens, et hoc accipiendo 
+      de<lb ed="#V" break="no" n="37"/>pendens et independens ejusdem 
+      ge<lb ed="#V" break="no" n="38"/>neris ; nam effectus dependet a sua 
+      cau<lb ed="#V" break="no" n="39"/>sa effectiva, ideo terminatur ad illam, 
+      <lb ed="#V" n="40"/>et finitum ad finem, et accidens 
+      <lb ed="#V" n="41"/>ad subjectum; et haec ultimo modo 
+      <lb ed="#V" n="42"/>accipitur hic in proposito. Secundo, 
+      <lb ed="#V" n="43"/>quando sunt aliqua duo aeque 
+      dependen<lb ed="#V" break="no" n="44"/>tia eodem genere dependentiae, unum non 
+      <!--0870.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>potest terminare dependentiam alterius; 
+      <lb ed="#V" n="46"/>et dixi equali dependentia, quia quantitas 
+      <lb ed="#V" n="47"/>quamvis dependeat ad substantiam in 
+      <lb ed="#V" n="48"/>ratione subjecti, potest tamen 
+      determina<lb ed="#V" break="no" n="49"/>re dependentiam albedinis, ut patet in 
+      <lb ed="#V" n="50"/>Sacramento Altaris, et quando aequaliter 
+      <lb ed="#V" n="51"/>dependent, utrumque terminatur ad 
+      terti<lb ed="#V" break="no" n="52"/>um independens. Tertio, cum dico duo 
+      <lb ed="#V" n="53"/>spirantes, ista duo adjectiva equaliter 
+      <lb ed="#V" n="54"/>dependent eodem genere dependentiae, 
+      <lb ed="#V" n="55"/>ideo ly duo non potest dependere vel 
+      ter<lb ed="#V" break="no" n="56"/>minari ad spirantes, quia sic terminari est 
+      <lb ed="#V" n="57"/>ponere suum significatum circa spirantes, 
+      <lb ed="#V" n="58"/>quod non potest esse, cum equaliter 
+      de<lb ed="#V" break="no" n="59"/>pendeant; ergo ista duo terminantur ad 
+      <lb ed="#V" n="60"/>tertium, puta ad personas, et est 
+      sen<lb ed="#V" break="no" n="61"/>sus : duo spirantes, id est, duae 
+      per<lb ed="#V" break="no" n="62"/>sone spirantes. Cum vero adjectivum 
+      <lb ed="#V" n="63"/>terminatur ad substantivum, ponit 
+      su<lb ed="#V" break="no" n="64"/>um significatum circa illud, et sic 
+      di<lb ed="#V" break="no" n="65"/>cendo : duo spiratores,ly duo ponit suum 
+      <lb ed="#V" n="66"/>significatum circa spiratoris 
+      significa<lb ed="#V" break="no" n="67"/>tum, et sic ponit suum significatum circa 
+      <lb ed="#V" n="68"/>vim spirativam, et sic essent due 
+      vi<lb ed="#V" break="no" n="69"/>res spirative, quod est falsum. Quarto, 
+      <lb ed="#V" n="70"/>cum dicit quod adjectivum in divinis 
+      vi<lb ed="#V" break="no" n="71"/>detur posse substantivari in masculino 
+      <lb ed="#V" n="72"/>genere, hoc debet intelligi, quod semper 
+      <lb ed="#V" n="73"/>subintelligitur aliquod substantivum, ut 
+      <lb ed="#V" n="74"/>cum dico creans statim subintelligitur 
+      <lb ed="#V" n="75"/>Deus; et similiter subintelligitur persona, 
+      <lb ed="#V" n="76"/>et similiter cum dicitur, Pater et Filius 
+      <lb ed="#V" n="77"/>sunt unus, ly unus quamvis sit 
+      adjecti<lb ed="#V" break="no" n="78"/>vum, dicitur substantivari, quia statim 
+      <lb ed="#V" n="79"/>subintelligitur aliquis, id est, sunt unus 
+      <lb ed="#V" n="80"/>Deus ; et similiter hic Pater et Filius non 
+      <lb ed="#V" n="81"/>sunt unus, id est, non sunt unus aliquis 
+      <lb ed="#V" n="82"/>vel una persona, etc. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e1251">
+               <lb ed="#V" n="83"/>(d) Tunc ad illam consequentiam, etc. 
+      <lb ed="#V" n="84"/>Quando dicit Doctor quod verum est,
+      quan<lb ed="#V" break="no" n="85"/>do consequens distinguitur in illis,non 
+      ac<lb ed="#V" break="no" n="86"/>oipitur hic consequens pro omni eo quod 
+      <lb ed="#V" n="87"/>sequitur ad antecedens, sed accipitur 
+      con<lb ed="#V" break="no" n="88"/>sequens prout accipitur in fallacia conse- 
+      <!--0871.xml-->
+      <pb ed="#V" n="871"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>quentis, quod est superius vel commune 
+      <lb ed="#V" n="2"/>ad plura, et antecedens, quod est 
+      quodam<lb ed="#V" break="no" n="3"/>modo inferius, et sic ad numerationem 
+      an<lb ed="#V" break="no" n="4"/>tecedentis, sequitur numeratio 
+      consequen<lb ed="#V" break="no" n="5"/>tis,quando ipsum consequens, id est, 
+      com<lb ed="#V" break="no" n="6"/>mune, distinguitur in inferioribus, sicut 
+      <lb ed="#V" n="7"/>hic : sunt duo homines; ergo duo 
+      anima<lb ed="#V" break="no" n="8"/>lia, quia animal distinguitur in illis. In 
+      <lb ed="#V" n="9"/>proposito vero, quia vis spirativa, que 
+      <lb ed="#V" n="10"/>est communis Patri et Filio, non 
+      distin<lb ed="#V" break="no" n="11"/>guitur in illis, imo est tantum una, ideo 
+      <lb ed="#V" n="12"/>non sequitur ad numerum personarum 
+      <lb ed="#V" n="13"/>numerus virtutis spirative, et ideo non 
+      <lb ed="#V" n="14"/>sequitur, sunt duo spirantes, id est, due 
+      <lb ed="#V" n="15"/>persone spirantes, ergo duo spiratores, 
+      <lb ed="#V" n="16"/>quia in consequente significatur vis 
+      spira<lb ed="#V" break="no" n="17"/>tiva distingui. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e1310">
+               <lb ed="#V" n="18"/>Ad argumenta. Omnia videntur mihi 
+      <lb ed="#V" n="19"/>clara, praeter pauca, quee ponimus. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e1317">
+               <lb ed="#V" n="20"/>(e) Ad secundum dico. Quia licet actio 
+      <lb ed="#V" n="21"/>vere sit alicujus singularis existentis, ut 
+      <lb ed="#V" n="22"/>ipsemet Doctor declaravit supra dist. 4. 
+      <lb ed="#V" n="23"/>quest. 2. et in Quodlib. q. 2. Et hoc non 
+      <lb ed="#V" n="24"/>improbat ; sed quia dicit quod spirare est 
+      <lb ed="#V" n="25"/>alicujus spiratoris singularis existentis 
+      <lb ed="#V" n="26"/>communis Patri et Filio, contra hoc 
+      argu<lb ed="#V" break="no" n="27"/>it, quia spirator dicit relationem realem ad 
+      <lb ed="#V" n="28"/>Spiritum sanctum, sicut generator ad 
+      ge<lb ed="#V" break="no" n="29"/>nitum, et sic aliquid, quod esset commune 
+      <lb ed="#V" n="30"/>Patri et Filio, diceret relationem realem 
+      <lb ed="#V" n="31"/>ad Spiritum sanctum, et si spirator prius 
+      <lb ed="#V" n="32"/>intelligeretur in se, videretur habere 
+      re<lb ed="#V" break="no" n="33"/>lationem realem ad Spiritum sanctum ; 
+      <lb ed="#V" n="34"/>hoc autem est inconveniens, quia relatio 
+      <lb ed="#V" n="35"/>realis in divinis est tantum persone ad 
+      <lb ed="#V" n="36"/>personam, ut patet. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e1356">
+               <lb ed="#V" n="37"/>Si dicatur nonne principium 
+      producti<lb ed="#V" break="no" n="38"/>vum in divinis, puta memoria fecunda, 
+      <lb ed="#V" n="39"/>dicit relationem realem ad productum ? 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e1365">
+               <lb ed="#V" n="40"/>Dico quod non, ut, patet supra dist. 2. 
+      <lb ed="#V" n="41"/>et . q. 1. in divinis producentis ad 
+      pro<lb ed="#V" break="no" n="42"/>ductum est relatio realis,sed principii 
+      pro<lb ed="#V" break="no" n="43"/>ductivi ad productum, non, quia tunc 
+      <!--0871.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="44"/>memoria fecunda realiter distingueretur 
+      <lb ed="#V" n="45"/>a producto. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e1385">
+               <lb ed="#V" n="46"/>Secundam hujus distinctionis 
+      quaesti<lb ed="#V" break="no" n="47"/>onem pertranseo, cum ex se pateat, 
+      maxi<lb ed="#V" break="no" n="48"/>me in Scotica via imbutis. Nec judicio 
+      <lb ed="#V" n="49"/>meo, ibi aliqua video, qute majori nostra 
+      <lb ed="#V" n="50"/>expositione egeat,nisi ad responsionem 
+      il<lb ed="#V" break="no" n="51"/>lius confirmationis ibi : Respondeo de istis 
+      <lb ed="#V" n="52"/>ordinibus. 
+    </p>
+            <p xml:id="mm30o9-d1e800-d1e1404">
+               <lb ed="#V" n="53"/>Pro cujus dilucidatione nota glossam 
+      <lb ed="#V" n="54"/>nostram super dist. presenti in principio 
+      <lb ed="#V" n="55"/>responsionis, que sic incipit : In ista 
+      <lb ed="#V" n="56"/>questione planum est, quod Pater et 
+      Fi<lb ed="#V" break="no" n="57"/>lius, ete.Vide etiam Doctorem in 2. dist.1. 
+      <lb ed="#V" n="58"/>q. 1. et in Quodlib. q. 4. et in Reportatis 
+      <lb ed="#V" n="59"/>q. 1. prolog. et in Formalitatibus, et in 
+      <lb ed="#V" n="60"/>Theorematibus, et alibi. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

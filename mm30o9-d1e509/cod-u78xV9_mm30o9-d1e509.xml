@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <author ref="#per-FLBca3">Franciscus Lychetus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title/>
+               <date when="2023-06-19">June 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78xV9">Vives, Paris, 1891, volume 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="399"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="mm30o9-d1e509"><!-- mm30o9-b1d3p3q3 -->
+            <p xml:id="mm30o9-d1e509-d1e101"><!-- lycht-l1d3q8-n2 -->
+               <lb ed="#V" n="69"/>COMMENTARIUS. 
+    </p>
+            <p xml:id="mm30o9-d1e509-d1e107">
+               <lb ed="#V" n="70"/>(a) Respondeo, quod pars intellectiva. 
+        <lb ed="#V" n="71"/>etc. Hic Doctor intendit probare per duas 
+        <lb ed="#V" n="72"/>rationes, quod intellectus sit principalior 
+        <lb ed="#V" n="73"/>causa respectu intellectionis quam 
+      obje<lb ed="#V" break="no" n="74"/>ctum, et hoc loquendo de illis objectis, 
+        <lb ed="#V" n="75"/>que naturaliter a nobis cognoscuntur. Et 
+        <lb ed="#V" n="76"/>prima ratio que fundatur super hoc, 
+        <lb ed="#V" n="77"/>quod intellectus est causa illimitatior et 
+        <lb ed="#V" n="78"/>universalior quam objectum, patet in 
+      lit<lb ed="#V" break="no" n="79"/>tera. Et similiter secunda ratio, que 
+      fun<lb ed="#V" break="no" n="80"/>datur super hoc quod intellectu nostro 
+        <lb ed="#V" n="81"/>agente ad intellectionem objectum in se, 
+        <lb ed="#V" n="82"/>vel in sua specie coagit, et non e contra, 
+        <lb ed="#V" n="83"/>patet. 
+    </p>
+            <p xml:id="mm30o9-d1e509-d1e140">
+               <lb ed="#V" n="84"/>In ista tamen littera possunt occurrere 
+        <lb ed="#V" n="85"/>alique difficultates. Prima, si Doctor tan- 
+      <!--0400.xml-->
+      <pb ed="#V" n="400"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tum intelligitur de objectis, que movent 
+      <lb ed="#V" n="2"/>intellectum nostrum pro statu isto, nulla 
+      <lb ed="#V" n="3"/>est difficultas, quia objecta motiva 
+      intel<lb ed="#V" break="no" n="4"/>lectus nostri pro statu isto sunt tantum 
+      <lb ed="#V" n="5"/>sensibilia, ut supra patuit. Sed si 
+      loqua<lb ed="#V" break="no" n="6"/>tur de intellectu ex natura potentiae, tunc 
+      <lb ed="#V" n="7"/>est difficultas, presertim si comparetur 
+      <lb ed="#V" n="8"/>ad naturam creatam perfectiorem ipso 
+      in<lb ed="#V" break="no" n="9"/>tellectu. Posito ergo, quod essentia 
+      Ange<lb ed="#V" break="no" n="10"/>li sit perfecte praesens intellectui nostro 
+      <lb ed="#V" n="11"/>in ratione objecti, an talis essentia sit 
+      <lb ed="#V" n="12"/>principalior causa? Et videtur quod sic, quia 
+      <lb ed="#V" n="13"/>causalitas sequitur entitatem, et quanto 
+      <lb ed="#V" n="14"/>entitas est perfectior, tanto causalitas 
+      e<lb ed="#V" break="no" n="15"/>rit perfectior. Cum ergo essentia Angeli 
+      <lb ed="#V" n="16"/>sit simpliciter perfectior intellectu nostro, 
+      <lb ed="#V" n="17"/>ergo videtur quod sit causa principalior. 
+    </p>
+            <p xml:id="mm30o9-d1e509-d1e190">
+               <lb ed="#V" n="18"/>Respondeo, quod si principalitas 
+      cau<lb ed="#V" break="no" n="19"/>salitatis accipitur a perfectiori ratione 
+      <lb ed="#V" n="20"/>causandi, essentia Angeli in ratione 
+      ob<lb ed="#V" break="no" n="21"/>jecti erit principalior causa. Si vero 
+      princi<lb ed="#V" break="no" n="22"/>palitas accipitur ratione majoris 
+      illimitati<lb ed="#V" break="no" n="23"/>onis vel universalitatis, intellectus erit 
+      <lb ed="#V" n="24"/>causa principalior, quia partialiter potest 
+      <lb ed="#V" n="25"/>concurrere ad cognitionem cujuscumque 
+      <lb ed="#V" n="26"/>objecti, non sic essentia Angeli in ratione 
+      <lb ed="#V" n="27"/>objecti, ut patet. Si etiam principalitas in 
+      <lb ed="#V" n="28"/>causa accipitur ex hoc quod una agente 
+      <lb ed="#V" n="29"/>alia coagit, et non e contra, posset dici 
+      <lb ed="#V" n="30"/>quod intellectus est causa principalior, 
+      <lb ed="#V" n="31"/>nam existente presente essentia Angeli, 
+      <lb ed="#V" n="32"/>intellectu causante cognitionem Angeli, 
+      <lb ed="#V" n="33"/>essentia Angeli necessario coagit 
+      intel<lb ed="#V" break="no" n="34"/>lectui, non autem e contra, quia 
+      volun<lb ed="#V" break="no" n="35"/>tas posset avertere intellectum ab 
+      essen<lb ed="#V" break="no" n="36"/>tia Angeli et convertere ad aliud objectum. 
+      <lb ed="#V" n="37"/>Sed quidquid sit de hoc, scilicet an 
+      <lb ed="#V" n="38"/>voluntas possit impedire sive avertere 
+      in<lb ed="#V" break="no" n="39"/>tellectum ab essentia Angeli ad aliud 
+      ob<lb ed="#V" break="no" n="40"/>jectum, prolixius habet videri in 2. d. 9. 
+    </p>
+            <p xml:id="mm30o9-d1e509-d1e242">
+               <lb ed="#V" n="41"/>Secunda difficultas est de illo textu 
+      A<lb ed="#V" break="no" n="42"/>ristotelis 2. de Anima, text. com. 5. et 
+      <lb ed="#V" n="43"/>60. quod intelligimus cum volumus, ait 
+      <lb ed="#V" n="44"/>enim sic : Ille autem, quia volens possi- 
+      <!--0400.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>bilis est considerare nisi aliquid 
+      prohi<lb ed="#V" break="no" n="46"/>beat exterius, Est enim in facultate 
+      <lb ed="#V" n="47"/>intellectus, habita specie intelligibili 
+      <lb ed="#V" n="48"/>objectum ipsum intelligere, sic quod 
+      <lb ed="#V" n="49"/>non indiget aliquo exteriori, non sic 
+      <lb ed="#V" n="50"/>est de sensu, qui etsi habeat speciem 
+      <lb ed="#V" n="51"/>sensibilem in organo, actu tamen sentire 
+      <lb ed="#V" n="52"/>non potest nisi objectum sensibile sit in 
+      <lb ed="#V" n="53"/>se presens. Nec est intelligendum 
+      abso<lb ed="#V" break="no" n="54"/>lute, quod sit in facultate intellectus 
+      in<lb ed="#V" break="no" n="55"/>telligere objectum vel non intelligere, 
+      <lb ed="#V" n="56"/>posita praesentia objecti in se vel in 
+      ali<lb ed="#V" break="no" n="57"/>quo representativo, quia tunc Doctor 
+      <lb ed="#V" n="58"/>contradiceret sibi ipsi.Vult enim in d. 1. 
+      <lb ed="#V" n="59"/>quest. 3. quod intellectus necessario 
+      <lb ed="#V" n="60"/>assentiat objecto presenti, hoc idem in 
+      <lb ed="#V" n="61"/>q. 4. respondendo ad argumenta, quod 
+      <lb ed="#V" n="62"/>intellectus quantum est ex se de 
+      necessi<lb ed="#V" break="no" n="63"/>tate assentit primis principiis et 
+      conclu<lb ed="#V" break="no" n="64"/>sionibus propter illa, hoc idem vult 
+      ibi<lb ed="#V" break="no" n="65"/>dem, ponendo differentiam inter 
+      intelle<lb ed="#V" break="no" n="66"/>ctum et voluntatem, dicit quod non est 
+      <lb ed="#V" n="67"/>in potestate intellectus dissentire vero. 
+      <lb ed="#V" n="68"/>Et in d. 2. parte 2. vult quod 
+      intelle<lb ed="#V" break="no" n="69"/>ctus, ut comparatur ad operationem 
+      pro<lb ed="#V" break="no" n="70"/>priam similiter agat per modum naturae, 
+      <lb ed="#V" n="71"/>et quod quantum est ex se necessario sit 
+      <lb ed="#V" n="72"/>contrariorum, et multa alia possent 
+      addu<lb ed="#V" break="no" n="73"/>ci. Non est ergo intelligenda illa 
+      auctori<lb ed="#V" break="no" n="74"/>tas sic absolute, quod sit in facultate 
+      in<lb ed="#V" break="no" n="75"/>tellectus intelligere et non intelligere, 
+      <lb ed="#V" n="76"/>posita presentia objecti, sed sic debet 
+      in<lb ed="#V" break="no" n="77"/>telligi, vel quod intelligimus cum 
+      volu<lb ed="#V" break="no" n="78"/>mus, quia habita specie intelligibili 
+      pos<lb ed="#V" break="no" n="79"/>sumus intelligere absque presentia 
+      ob<lb ed="#V" break="no" n="80"/>jecti exterioris, vel possumus intelligere 
+      <lb ed="#V" n="81"/>cum volumus propter libertatem 
+      volunta<lb ed="#V" break="no" n="82"/>tis, quae non tantum potest sibi 
+      impera<lb ed="#V" break="no" n="83"/>re et potentiis sensitivis, sed etiam 
+      po<lb ed="#V" break="no" n="84"/>test imperare intellectui, ut utatur modo 
+      <lb ed="#V" n="85"/>una specie intelligibili, modo una alia, 
+      <lb ed="#V" n="86"/>praehabita tamen cognitione objecti, ut 
+      <lb ed="#V" n="87"/>supra patuit a Doctore in q. 6. presentis 
+      <lb ed="#V" n="88"/>d. et hoc idem in d. 9. secundi. Sed 
+      <!--0401.xml-->
+      <pb ed="#V" n="401"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>hoc clarius vide in 2. d. 42. et vide ibi 
+      <lb ed="#V" n="2"/>quee prolixe exposui, quest. 1. 
+    </p>
+            <p xml:id="mm30o9-d1e509-d1e365"><!-- lycht-l1d3q8-n3 -->
+      <!--0402.xml-->
+               <cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>COMMENTARIUS. 
+      <lb ed="#V" n="44"/>(a) Ad primum argumentum. 
+      Respon<lb ed="#V" break="no" n="45"/>det Doctor, et responsio stat in hoc, quia 
+      <lb ed="#V" n="46"/>intellectus respectu objectorum, quae non 
+      <lb ed="#V" n="47"/>sunt in se presentia, duplicem actum 
+      ha<lb ed="#V" break="no" n="48"/>bet, scilicet speciem intelligibilem, et 
+      <lb ed="#V" n="49"/>actum intelligendi, et respectu utriusque 
+      <lb ed="#V" n="50"/>actus est principalior causa. De specie 
+      in<lb ed="#V" break="no" n="51"/>telligibili patet, quee causatur a 
+      phantas<lb ed="#V" break="no" n="52"/>mate et ab intellectu agente, qui intellectus' 
+      <lb ed="#V" n="53"/>agens est principalior causa; similiter 
+      <lb ed="#V" n="54"/>respectu actus intelligendi et respectu 
+      <lb ed="#V" n="55"/>utriusque actus non dicitur moveri ab 
+      ob<lb ed="#V" break="no" n="56"/>jecto, sic intelligendo quod in actione sua 
+      <lb ed="#V" n="57"/>dependeat ab objecto. Et quando dicitur, 
+      <lb ed="#V" n="58"/>quod intellectus non movet nisi motus, sic 
+      <lb ed="#V" n="59"/>exponitur : quod non potest movere ad 
+      <lb ed="#V" n="60"/>actum secundum, causando illum 
+      par<lb ed="#V" break="no" n="61"/>tialiter, nisi prius sit motus ad actum 
+      pri<lb ed="#V" break="no" n="62"/>mum, scilicet recipiendo speciem 
+      intelli<lb ed="#V" break="no" n="63"/>gibilem per quam objectum est praesens, 
+      <lb ed="#V" n="64"/>in utraque tamen motione semper est 
+      <lb ed="#V" n="65"/>principalior causa. Et quod dicit, quod 
+      <lb ed="#V" n="66"/>objectum movet non motum, sic 
+      intelli<lb ed="#V" break="no" n="67"/>gitur : quod licet sit partialis causa 
+      spe<lb ed="#V" break="no" n="68"/>ciei intelligibilis, et quantum ad hoc 
+      mo<lb ed="#V" break="no" n="69"/>veat, quia tamen illam non recipit, nec 
+      <lb ed="#V" n="70"/>similiter actum intelligendi, ideo non 
+      di<lb ed="#V" break="no" n="71"/>citur moveri. 
+    </p>
+            <p xml:id="mm30o9-d1e509-d1e436">
+               <lb ed="#V" n="72"/>(b) Ad secundum. Respondet primo 
+      <lb ed="#V" n="73"/>quod argumentum est magis ad 
+      opposi<lb ed="#V" break="no" n="74"/>tum, quia effectus magis assimilantur 
+      <lb ed="#V" n="75"/>causae proxime et minus principali, quam 
+      <lb ed="#V" n="76"/>causee remotae et magis principali, ut 
+      pa<lb ed="#V" break="no" n="77"/>tet de homine producto ab alio homine, a 
+      <lb ed="#V" n="78"/>Sole et a Deo, et sic actus intelligendi 
+      <lb ed="#V" n="79"/>magis assimilatur objecto, ut causae 
+      pro<lb ed="#V" break="no" n="80"/>xime et minus principali. 
+    </p>
+            <p xml:id="mm30o9-d1e509-d1e458">
+               <lb ed="#V" n="81"/>Dat aliam responsionem, dicens quod 
+      <lb ed="#V" n="82"/>duplex est assimilatio, scilicet aequivoca 
+      <lb ed="#V" n="83"/>et univoca; loquendo de assimilatione 
+      ae<lb ed="#V" break="no" n="84"/>quivoca, principalior causa magis 
+      assimi<lb ed="#V" break="no" n="85"/>lat equivoce, quia perfectius concurrit ad
+    <!--0403.xml-->
+      <pb ed="#V" n="403"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>effectum, et magis ad formam qua effectus 
+      <lb ed="#V" n="2"/>assimilatur sibi equivoce, non autem 
+      <lb ed="#V" n="3"/>univoce, quia hoc esset imperfectionis in 
+      <lb ed="#V" n="4"/>causa prima si assimilaret effectum sibi 
+      <lb ed="#V" n="5"/>univoce, quia tunc non esset simpliciter 
+      <lb ed="#V" n="6"/>perfectior suo effectu. Dicit etiam unum 
+      <lb ed="#V" n="7"/>notabile, quod loquendo de assimilatione 
+      <lb ed="#V" n="8"/>univoca, principalior causa magis 
+      assimi<lb ed="#V" break="no" n="9"/>lat effectum formaliter, et univoce non 
+      <lb ed="#V" n="10"/>sibi, sed cause proxime, quia magis et 
+      <lb ed="#V" n="11"/>perfectius dat formam et entitatem, qua 
+      <lb ed="#V" n="12"/>effectus est similis univoce cause 
+      proxi<lb ed="#V" break="no" n="13"/>me quam ipsa causa proxima det. 
+    </p>
+            <p xml:id="mm30o9-d1e509-d1e506">
+               <lb ed="#V" n="14"/>Tertium argumentum cum sua 
+      respon<lb ed="#V" break="no" n="15"/>sione patet hic, et ex dictis supra, in 
+      fi<lb ed="#V" break="no" n="16"/>ne, quaest. precedentis, ubi aliqualiter 
+      <lb ed="#V" n="17"/>exposui de unitate scientiae, quomodo ab 
+      <lb ed="#V" n="18"/>objecto dicatur una.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

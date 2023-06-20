@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <author ref="#per-FLBca3">Franciscus Lychetus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title/>
+               <date when="2023-06-19">June 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78xV9">Vives, Paris, 1891, volume 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="838"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="mm30o9-d1e783"><!-- mm30o9-b1d11q2 -->
+            <p xml:id="mm30o9-d1e783-d1e101"><!-- lycht-l1d11q2-n2 -->
+               <lb ed="#V" n="3"/>COMMENTARIUS. 
+      <lb ed="#V" n="4"/>(a) Hic dicitur quod questio nulla est. 
+      <lb ed="#V" n="5"/>In ista positione sunt aliqua notanda. 
+      Pri<lb ed="#V" break="no" n="6"/>mo, quod dicta positio que includit 
+      in<lb ed="#V" break="no" n="7"/>compossibilia non debet sustineri, quia 
+      sta<lb ed="#V" break="no" n="8"/>tim sustinens posset redargui. Exemplum, 
+      <lb ed="#V" n="9"/>si quis sustineret istam, quod homo esset 
+      <lb ed="#V" n="10"/>non animal, absolute ab arguente posset 
+      <lb ed="#V" n="11"/>redargui, quia sustinens tenetur 
+      concede<lb ed="#V" break="no" n="12"/>re omne consequens, et sic arguens 
+      ar<lb ed="#V" break="no" n="13"/>guit : homo per te est non animal, ergo 
+      <lb ed="#V" n="14"/>homo est homo, sequitur ex ista 
+      positi<lb ed="#V" break="no" n="15"/>one, et ultra, homo non est animal, ergo 
+      <lb ed="#V" n="16"/>homo non est, a negatione superioris ad 
+      <lb ed="#V" n="17"/>negationem inferioris; ergo sustinens 
+      <lb ed="#V" n="18"/>concederet hominem esse et non esse, et 
+      <lb ed="#V" n="19"/>sic esset redargutus. Secundo, due sunt 
+      <lb ed="#V" n="20"/>regule disputationis pertinentes ad 
+      re<lb ed="#V" break="no" n="21"/>spondentem. Prima est,quod debet 
+      conce<lb ed="#V" break="no" n="22"/>dere sequens ex sua positione. Secunda, 
+      <lb ed="#V" n="23"/>quod debet negare repugnans sue 
+      positi<lb ed="#V" break="no" n="24"/>oni. Exemplum, nam Franciscus ponit 
+      <lb ed="#V" n="25"/>istam, quod homo est animal, arguens 
+      <lb ed="#V" n="26"/>infert, ergo est corpus, ergo 
+      substan<lb ed="#V" break="no" n="27"/>tia,ergo ens ; respondens concedit heec 
+      <lb ed="#V" n="28"/>omnia, quia sequuntur ad suam 
+      positi<lb ed="#V" break="no" n="29"/>onem. Si vero arguens sic arguat, per te, 
+      <lb ed="#V" n="30"/>homo est animal, ergo homo est asinus, 
+      <lb ed="#V" n="31"/>quia etiam asinus est animal, respondens 
+      <lb ed="#V" n="32"/>debet negare, ut repugnans suae 
+      positi<lb ed="#V" break="no" n="33"/>oni. Tertio, ista opinio dicit, quod positio, 
+      <lb ed="#V" n="34"/>qua ponitur : Si Spiritus sanctus non 
+      pro<lb ed="#V" break="no" n="35"/>cederet a Filio, an posset distingui, 
+      in<lb ed="#V" break="no" n="36"/>cludit duo incompossibilia, scilicet Filium 
+      <lb ed="#V" n="37"/>esse et Filium non esse, et sic ponens 
+      <lb ed="#V" n="38"/>illam posset redargui. Nam arguens 
+      pos<lb ed="#V" break="no" n="39"/>set arguere sic : Si Spiritus sanctus non 
+      <lb ed="#V" n="40"/>procederet a Filio, an distingueretur ab 
+      <lb ed="#V" n="41"/>ipso, ergo Filius est; patet, quia si non 
+      <lb ed="#V" n="42"/>esset, non posset distingui, respondens 
+      <!--0838.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>habet concedere. Deinde arguens arguat 
+      <lb ed="#V" n="44"/>sic: sed Filius de necessitate spirat 
+      Spiri<lb ed="#V" break="no" n="45"/>tum sanctum, ergo spirare inest Filio de 
+      <lb ed="#V" n="46"/>necessitate ; ergo si non spiraret, non esset 
+      <lb ed="#V" n="47"/>Filius, patet, quia removetur ab illo quod 
+      <lb ed="#V" n="48"/>sibi de necessitate inest, et sic ponens 
+      <lb ed="#V" n="49"/>hanc positionem ista duo incompossibilia 
+      <lb ed="#V" n="50"/>posset redargui. 
+    </p>
+            <p xml:id="mm30o9-d1e783-d1e213">
+               <lb ed="#V" n="51"/>(b) Contra istam positionem. Hic sunt 
+      <lb ed="#V" n="52"/>duo notanda. Primo, quod aliud est 
+      po<lb ed="#V" break="no" n="53"/>nere aliquam positionem in se et ex suo 
+      <lb ed="#V" n="54"/>intellectu, et absolute includentem 
+      incom<lb ed="#V" break="no" n="55"/>possibilia, ut in ista : homo est non 
+      ani<lb ed="#V" break="no" n="56"/>mal ; et aliud est ponere aliquam 
+      positi<lb ed="#V" break="no" n="57"/>onem quamvis includentem 
+      incompossibi<lb ed="#V" break="no" n="58"/>lia, non tamen in se absolute, sed ut 
+      in<lb ed="#V" break="no" n="59"/>quiratur aliqua veritas, sicut si 
+      quaerere<lb ed="#V" break="no" n="60"/>tur sic: Posito quod homo non sit 
+      ani<lb ed="#V" break="no" n="61"/>mal, an rationale possit esse ratio 
+      <lb ed="#V" n="62"/>formalis distinguendi hominem ab asino ? 
+      <lb ed="#V" n="63"/>Nam hic non ponitur absolute positio, ut 
+      <lb ed="#V" n="64"/>includit incompossibilia,sicut ponendo 
+      ab<lb ed="#V" break="no" n="65"/>solute, homo non est animal ; sed ponitur 
+      <lb ed="#V" n="66"/>sic, an ratio distinguendi hominem ab 
+      <lb ed="#V" n="67"/>asino sit ipsa animalitas, vel ipsa 
+      rationa<lb ed="#V" break="no" n="68"/>litas, et tunc ad videndum hoc, 
+      circum<lb ed="#V" break="no" n="69"/>scribamus per impossibile ipsam 
+      animali<lb ed="#V" break="no" n="70"/>tatem, an rationalitas distinguat vel ne, et 
+      <lb ed="#V" n="71"/>sic est in proposito; aliud est enim 
+      pone<lb ed="#V" break="no" n="72"/>re, Filius est non spirans Spiritum 
+      san<lb ed="#V" break="no" n="73"/>ctum, et aliud est ponere, si non spiraret 
+      <lb ed="#V" n="74"/>Spiritum sanctum, an distingueretur. Nam 
+      <lb ed="#V" n="75"/>queritur hic de ratione formali 
+      distinguen<lb ed="#V" break="no" n="76"/>di Filium a Spiritu sancto, id est, an 
+      filia<lb ed="#V" break="no" n="77"/>tio distinguat personaliter Filium a Spiritu 
+      <lb ed="#V" n="78"/>sancto, an ipsa spiratio ? et sic quaeritur 
+      <lb ed="#V" n="79"/>circumscripta ipsa spiratione activa 
+      Fi<lb ed="#V" break="no" n="80"/>lii, an ipsa filiatio distingueret 
+      personali<lb ed="#V" break="no" n="81"/>ter Filium a Spiritu sancto ? et sic est 
+      in<lb ed="#V" break="no" n="82"/>tentio Doctoris. 
+    </p>
+            <p xml:id="mm30o9-d1e783-d1e285">
+               <lb ed="#V" n="83"/>(c) Preterea, licet positio quam 
+      sta<lb ed="#V" break="no" n="84"/>tim, ete. Tota ista littera dicit duo, 
+      scili<lb ed="#V" break="no" n="85"/>licet quod aliqua positio ponit duo 
+      in<lb ed="#V" break="no" n="86"/>compossibilia ex intellectu formali et quid- 
+      <!--0839.xml-->
+      <pb ed="#V" n="839"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>ditativo, et formali consequentia, non 
+      su<lb ed="#V" break="no" n="2"/>mendo formalem consequentiam, quae 
+      acci<lb ed="#V" break="no" n="3"/>pitur communiter, quae est, quando 
+      queli<lb ed="#V" break="no" n="4"/>bet sibi similis in forma est vera, ut ista 
+      <lb ed="#V" n="5"/>homo currit, ergo animal currit, est 
+      con<lb ed="#V" break="no" n="6"/>sequentia formalis, quia quelibet sibi 
+      <lb ed="#V" n="7"/>consimilis in forma, hoc est, ab inferiori 
+      <lb ed="#V" n="8"/>ad superius; eo modo arguitur, sicut haec 
+      <lb ed="#V" n="9"/>erit vera, asinus est albus, ergo animal 
+      <lb ed="#V" n="10"/>est album. Sed accipitur hic consequentia 
+      <lb ed="#V" n="11"/>formalis, quando extrema sic se habent, 
+      <lb ed="#V" n="12"/>quod unum est de essentia alterius, sicut 
+      <lb ed="#V" n="13"/>in ista: homo est, ergo animal est. Dicit 
+      <lb ed="#V" n="14"/>ergo Doctor quod positio, quee ponit 
+      in<lb ed="#V" break="no" n="15"/>compossibilia consequentia formali sive 
+      <lb ed="#V" n="16"/>essentiali non debet admitti, ut ista : 
+      ho<lb ed="#V" break="no" n="17"/>mo est non animal, nam statim 
+      conse<lb ed="#V" break="no" n="18"/>quentia formali concluduntur duo 
+      incom<lb ed="#V" break="no" n="19"/>possibilia, patet, nam bene sequitur, 
+      ho<lb ed="#V" break="no" n="20"/>no est, ergo animal est et ex alia parte 
+      <lb ed="#V" n="21"/>tu dicis, quod non est animal, et sic idem 
+      <lb ed="#V" n="22"/>praedicatum essentiale simul verificatur 
+      <lb ed="#V" n="23"/>de aliquo et negatur. Similiter hic : 
+      ho<lb ed="#V" break="no" n="24"/>mo est non animal, statim sequitur, ergo 
+      <lb ed="#V" n="25"/>homo est,et ex alia parte non est 
+      ani<lb ed="#V" break="no" n="26"/>mal, ergo homo non est; patet, quia illud 
+      <lb ed="#V" n="27"/>quod est de essentia hominis removetur 
+      <lb ed="#V" n="28"/>ab illo. 
+    </p>
+            <p xml:id="mm30o9-d1e783-d1e363">
+               <lb ed="#V" n="29"/>Secundum dictum est, consequentia 
+      ac<lb ed="#V" break="no" n="30"/>cidentalis, vel per locum extrinsecum in 
+      <lb ed="#V" n="31"/>isto loco dicitur illa, quando illud quod 
+      <lb ed="#V" n="32"/>concluditur de aliquo, non concluditur per 
+      <lb ed="#V" n="33"/>aliquod essentiale illius, nec removetur 
+      <lb ed="#V" n="34"/>per remotionem alicujus essentialis. 
+      Ex<lb ed="#V" break="no" n="35"/>emplum, homo est non risibilis, sequitur 
+      <lb ed="#V" n="36"/>hominem non esse consequentia 
+      acciden<lb ed="#V" break="no" n="37"/>tali ; nam bene sequitur, homo non est 
+      <lb ed="#V" n="38"/>risibilis, ergo homo est; et ex alia parte 
+      <lb ed="#V" n="39"/>risibile non est, ergo homo non est. 
+      Pa<lb ed="#V" break="no" n="40"/>tet, quia sunt idem realiter,destructo uno, 
+      <lb ed="#V" n="41"/>destruitur et reliquum, ergo destructo 
+      ri<lb ed="#V" break="no" n="42"/>sibili, destruitur homo. Dico quod 
+      sequi<lb ed="#V" break="no" n="43"/>tur hominem non esse,tantum 
+      consequen<lb ed="#V" break="no" n="44"/>tia accidentali, sive per locum extrinse- 
+      <!--0839.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>cum, quia per remotionem alicujus, puta 
+      <lb ed="#V" n="46"/>risibilis, quod non est de essentia 
+      homi<lb ed="#V" break="no" n="47"/>nis. Tertio dico, quod in ista positione : 
+      <lb ed="#V" n="48"/>Si Spiritus sanctus non esset a Filio, an 
+      <lb ed="#V" n="49"/>distingueretur ab illo, consequentia 
+      es<lb ed="#V" break="no" n="50"/>sentiali sequitur ipsum Filium esse ; 
+      con<lb ed="#V" break="no" n="51"/>sequentia vero accidentali sequitur ipsum 
+      <lb ed="#V" n="52"/>non esse, quia si spiratio Filii non esset, 
+      <lb ed="#V" n="53"/>que est idem realiter ipsi, licet non sit de 
+      <lb ed="#V" n="54"/>essentia illius, ergo Filius non est, et sic 
+      <lb ed="#V" n="55"/>consequentia accidentali, id est, per 
+      remo<lb ed="#V" break="no" n="56"/>tionem alicujus, quod non est de essentia 
+      <lb ed="#V" n="57"/>Filii, sequitur non esse; licet ergo prima 
+      <lb ed="#V" n="58"/>positio, quee ex intellectu suo et 
+      conse<lb ed="#V" break="no" n="59"/>quentia essentiali includat incompossibilia 
+      <lb ed="#V" n="60"/>non sit ponenda, tamen ista quae includit 
+      <lb ed="#V" n="61"/>incompossibilitatem, consequentia tantum 
+      <lb ed="#V" n="62"/>accidentali est ponenda. Et nota, quod 
+      <lb ed="#V" n="63"/>Scotus accipit ibi locum extrinsecum 
+      so<lb ed="#V" break="no" n="64"/>lum pro eo quod non est de essentia. 
+    </p>
+            <p xml:id="mm30o9-d1e783-d1e448">
+               <lb ed="#V" n="65"/>(d) Item si aliquid essentialiter. Ex 
+      di<lb ed="#V" break="no" n="66"/>ctis supra patet totum usque ibi : Item 
+      <lb ed="#V" n="67"/>Philosophus 4. Physic. text. comm. 58. 
+      <lb ed="#V" n="68"/>Nam ibi Philosophus arguit, posito quod 
+      <lb ed="#V" n="69"/>aliquod spatium non haberet aliquod 
+      cor<lb ed="#V" break="no" n="70"/>pus sensibile, sed sonum vel colorem, 
+      <lb ed="#V" n="71"/>querit utrum esset vacuum, etc. et tamen 
+      <lb ed="#V" n="72"/>heec positio includit incompossibilia, 
+      sci<lb ed="#V" break="no" n="73"/>licet quod color vel sonus sit in vacuo. 
+      <lb ed="#V" n="74"/>Nam sequitur formali consequentia, color 
+      <lb ed="#V" n="75"/>vel sonus in vacuo, ergo est ; sequitur 
+      <lb ed="#V" n="76"/>etiam ipsum non esse, quia subjectum 
+      <lb ed="#V" n="77"/>non est, consequentia non naturali, sed 
+      <lb ed="#V" n="78"/>sicut ad impossibile sequitur quodlibet. 
+    </p>
+            <p xml:id="mm30o9-d1e783-d1e482"><!-- lycht-l1d11q2-n4 -->
+      <!--0844.xml-->
+               <pb ed="#V" n="844"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>COMMENTARIUS. 
+      <lb ed="#V" n="2"/>(a) Contra istam opinionem. Arguit 
+      <lb ed="#V" n="3"/>Doctor, primo ex medio sumpto ex ratione 
+      <lb ed="#V" n="4"/>formalis constitutivi. Secundo ex medio 
+      <lb ed="#V" n="5"/>sumpto ex distinctione emanationum, et 
+      <lb ed="#V" n="6"/>patet littera. 
+    </p>
+            <p xml:id="mm30o9-d1e783-d1e505">
+               <lb ed="#V" n="7"/>Quidam novus expositor primae partis 
+      <lb ed="#V" n="8"/>S. Thome quest, 36. art. 2. nititur 
+      sol<lb ed="#V" break="no" n="9"/>vere istas rationes quas Doctor facit 
+      con<lb ed="#V" break="no" n="10"/>tra Thomam. Et primo premittit sic 
+      di<lb ed="#V" break="no" n="11"/>cens: Scito quod cum in divinis non sit 
+      <lb ed="#V" n="12"/>formaliter, nisi substantia et relatio, et 
+      <lb ed="#V" n="13"/>substantia, utpote communis, nec 
+      consti<lb ed="#V" break="no" n="14"/>tuat, nec distinguat hypostases, oportet 
+      <lb ed="#V" n="15"/>quod utrumque relationi tribuatur. 
+      Rela<lb ed="#V" break="no" n="16"/>tioni autem cum possit aliquid convenire 
+      <lb ed="#V" n="17"/>dupliciter, secundum scilicet propria 
+      rela<lb ed="#V" break="no" n="18"/>tionis, et secundum communia sibi et 
+      ab<lb ed="#V" break="no" n="19"/>solutis ; quecumque attribuuntur divinis 
+      <lb ed="#V" n="20"/>relationibus necesse est convenire eis 
+      in<lb ed="#V" break="no" n="21"/>quantum relationes, et sic constituere ac 
+      <lb ed="#V" n="22"/>distinguere relationi divinae prout 
+      relati<lb ed="#V" break="no" n="23"/>Va res est convenit. Inter rem autem 
+      ab<lb ed="#V" break="no" n="24"/>solutam et relativam hoc interest, quia res 
+      <lb ed="#V" n="25"/>absoluta constituit rem in se, relatio vero 
+      <lb ed="#V" n="26"/>constituit rem ad aliam. Et quoniam 
+      <lb ed="#V" n="27"/>unumquodque sicut est ens, ita unum et 
+      <lb ed="#V" n="28"/>distinctum constitutivum absolutum, 
+      si<lb ed="#V" break="no" n="29"/>cut constituit ens in se, ita distinguit 
+      il<lb ed="#V" break="no" n="30"/>lud secundum se, et consequenter ab 
+      uni<lb ed="#V" break="no" n="31"/>versis aliis; constitutivum vero in esse 
+      re<lb ed="#V" break="no" n="32"/>lativo, quia constituit ens ad aliud unum 
+      <lb ed="#V" n="33"/>correlativum, scilicet ita distinguit illud 
+      <lb ed="#V" n="34"/>ab illo uno tantum, alioquin diversitas 
+      <lb ed="#V" n="35"/>sive distinctio non esset proportionata 
+      <lb ed="#V" n="36"/>passio entis; plus enim faceret 
+      consti<lb ed="#V" break="no" n="37"/>tutivum aliquid distinguendo quam 
+      con<lb ed="#V" break="no" n="38"/>stituendo, quod non videtur intelligibile. 
+      <lb ed="#V" n="39"/>Si igitur in divinis sola relatio 
+      multipli<lb ed="#V" break="no" n="40"/>cat Trinitatem, et hoc non convenit 
+      rela<lb ed="#V" break="no" n="41"/>tioni per accidens, sed quatenus res 
+      <lb ed="#V" n="42"/>relativa est; et res relativa ut sic, 
+      con<lb ed="#V" break="no" n="43"/>stituit et distinguit relative tantum, quam- 
+      <!--0844.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="44"/>cumque enim aliam distinctionem habet, 
+      <lb ed="#V" n="45"/>non facit inquantum res relativa, sed 
+      ha<lb ed="#V" break="no" n="46"/>beret eam ex communibus sibi et 
+      absolu<lb ed="#V" break="no" n="47"/>tis, ut patet de disparatione; hec enim 
+      <lb ed="#V" n="48"/>non est propria relativis, et sic non potest 
+      <lb ed="#V" n="49"/>causari a relatione secundum rationem 
+      <lb ed="#V" n="50"/>relationis. Consequens est, quod in 
+      divi<lb ed="#V" break="no" n="51"/>nis nulla sit distinctio realis nisi 
+      rela<lb ed="#V" break="no" n="52"/>tiva, ita quod non solum res distinctae 
+      <lb ed="#V" n="53"/>sunt relative, sed distinctio ipsa est 
+      re<lb ed="#V" break="no" n="54"/>lativa. Et cum constet distinctionem 
+      rela<lb ed="#V" break="no" n="55"/>tivam non esse sine oppositione, relatione 
+      <lb ed="#V" n="56"/>et respectu correlativi tantum, manifeste 
+      <lb ed="#V" n="57"/>sequitur, quod sola oppositio relativa 
+      di<lb ed="#V" break="no" n="58"/>stinguit realiter divinas personas. 
+    </p>
+            <p xml:id="mm30o9-d1e783-d1e625">
+               <lb ed="#V" n="59"/>Ex his respondet ad objectiones ex 
+      <lb ed="#V" n="60"/>parte constitutivi. Cum enim dicitur, quod 
+      <lb ed="#V" n="61"/>idem est constitutivum et distinctivum 
+      <lb ed="#V" n="62"/>alicujus ab omni alio, distinguendum est 
+      <lb ed="#V" n="63"/>de duplici constitutivo, scilicet absoluto 
+      <lb ed="#V" n="64"/>vel respectivo, et quod in absolutis 
+      ve<lb ed="#V" break="no" n="65"/>rum est; in relativis vero 
+      subdistinguen<lb ed="#V" break="no" n="66"/>dum est duplici distinctione, scilicet 
+      relati<lb ed="#V" break="no" n="67"/>va vel quacumque alia, puta disparata vel 
+      <lb ed="#V" n="68"/>contraria, vel contradictoria seu etiam 
+      pri<lb ed="#V" break="no" n="69"/>vativa. Et dicendum, quod de distinctione 
+      <lb ed="#V" n="70"/>relativa loquendo, falsum est assumptum, 
+      <lb ed="#V" n="71"/>quoniam constitutivum alicujus in esse 
+      <lb ed="#V" n="72"/>relativo non est distinctivum illius 
+      distin<lb ed="#V" break="no" n="73"/>ctione relativa, nisi a suo correlativo, 
+      pro<lb ed="#V" break="no" n="74"/>pter ipsam relationis naturam, a caeteris 
+      <lb ed="#V" n="75"/>autem distinguit quovis alio modo. 
+      Du<lb ed="#V" break="no" n="76"/>plum enim ut sic, quia non est nisi ad 
+      di<lb ed="#V" break="no" n="77"/>midium, non distinguitur etiam relative 
+      <lb ed="#V" n="78"/>nisi a dimidio; a triplo autem et 
+      quadru<lb ed="#V" break="no" n="79"/>plo, et reliquis entibus distinguitur 
+      qui<lb ed="#V" break="no" n="80"/>dem duplicitate inquantum est hoc ens, 
+      <lb ed="#V" n="81"/>non relative, ut de se patet. Et quia in 
+      <lb ed="#V" n="82"/>divinis persona est formaliter relatio, non 
+      <lb ed="#V" n="83"/>est distinctio personalis, neque realis, 
+      ni<lb ed="#V" break="no" n="84"/>si sit relativa. Et propterea de facto ista 
+      <lb ed="#V" n="85"/>est falsa: Filius distinguitur realiter 
+      si<lb ed="#V" break="no" n="86"/>ve personaliter a Spiritu sancto filiatione, 
+      <lb ed="#V" n="87"/>quia ista est falsa: Filius filiatione di- 
+      <!--0845.xml-->
+      <pb ed="#V" n="845"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>stinguitur relative a Spiritu sancto, 
+      quam<lb ed="#V" break="no" n="2"/>vis ista sit vera : Filius distinguitur 
+      fili<lb ed="#V" break="no" n="3"/>atione a Spiritu sancto, sed talis distinctio 
+      <lb ed="#V" n="4"/>non sufficit ad realem distinctionem. Haec 
+      <lb ed="#V" n="5"/>ille. 
+    </p>
+            <p xml:id="mm30o9-d1e783-d1e708">
+               <lb ed="#V" n="6"/>Sed ista responsio nec est ad mentem 
+      <lb ed="#V" n="7"/>S. Thome, nec solvit rationes Scoti. Et 
+      <lb ed="#V" n="8"/>quod divertat a S. Thoma, patet in littera 
+      <lb ed="#V" n="9"/>ejus in 1. parte quest. 36. art. 2. qui sic 
+      <lb ed="#V" n="10"/>dicit: Necesse est, ( inquit) dicere 
+      Spiri<lb ed="#V" break="no" n="11"/>tum sanctum esse a Filio, si enim non 
+      <lb ed="#V" n="12"/>esset ab eo, nullo modo posset ab eo 
+      <lb ed="#V" n="13"/>personaliter distingui. Non enim est 
+      pos<lb ed="#V" break="no" n="14"/>sibile dicere, quod secundum aliquid 
+      ab<lb ed="#V" break="no" n="15"/>solutum divine persone ab invicem 
+      di<lb ed="#V" break="no" n="16"/>stinguantur, quia sequeretur quod non 
+      <lb ed="#V" n="17"/>esset trium una essentia. (uidquid enim 
+      <lb ed="#V" n="18"/>in divinis absolute dicitur, ad unitatem 
+      <lb ed="#V" n="19"/>essentie pertinet. Relinquitur ergo, quod 
+      <lb ed="#V" n="20"/>solum relationibus divine persone ad 
+      in<lb ed="#V" break="no" n="21"/>vicem distinguantur, relationes autem 
+      <lb ed="#V" n="22"/>personas distinguere non possunt nisi 
+      se<lb ed="#V" break="no" n="23"/>cundum quod sunt opposite. Quod ex his 
+      <lb ed="#V" n="24"/>patet, quia Pater habet duas relationes, 
+      <lb ed="#V" n="25"/>quarum una refertur ad Filium et alia 
+      <lb ed="#V" n="26"/>ad Spiritum sanctum, que tamen, quia 
+      <lb ed="#V" n="27"/>non sun opposite, non constituunt duas 
+      <lb ed="#V" n="28"/>personas, sed ad unam personam Patris 
+      <lb ed="#V" n="29"/>tantum pertinent. Si ergo in Filio et 
+      Spi<lb ed="#V" break="no" n="30"/>rit sancto non esset invenire nisi duas 
+      <lb ed="#V" n="31"/>relationes, quibus uterque refertur ad 
+      <lb ed="#V" n="32"/>Patrem, ille relationes non essent ad 
+      <lb ed="#V" n="33"/>invicem opposite, sicut neque due 
+      relati<lb ed="#V" break="no" n="34"/>ones, quibus Pater refertur ad illos, 
+      un<lb ed="#V" break="no" n="35"/>de sicut persona Patris est una, ita 
+      seque<lb ed="#V" break="no" n="36"/>retur quod persona Filii et Spiritus 
+      san<lb ed="#V" break="no" n="37"/>cti esset una habens duas relationes 
+      op<lb ed="#V" break="no" n="38"/>positas duabus relationibus Patris; hoc 
+      <lb ed="#V" n="39"/>autem est hereticum, cum tollat fidem 
+      <lb ed="#V" n="40"/>Trinitatis, oportet ergo quod Filius et 
+      <lb ed="#V" n="41"/>Spiritus sanctus ad invicem referantur 
+      <lb ed="#V" n="42"/>Oppositis relationibus, non autem possunt 
+      <lb ed="#V" n="43"/>esse in divinis alie relationes opposite, 
+      <lb ed="#V" n="44"/>nisi relationes originis. pposite autem 
+      <!--0845.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>relationes accipiuntur secundum 
+      princi<lb ed="#V" break="no" n="46"/>pium, et secundum quod est a principio. 
+      <lb ed="#V" n="47"/>Hec sanctus Thomas. 
+    </p>
+            <p xml:id="mm30o9-d1e783-d1e806">
+               <lb ed="#V" n="48"/>Ex ista littera expresse patet, quod si 
+      <lb ed="#V" n="49"/>Filius non spiraret Spiritum sanctum, 
+      <lb ed="#V" n="50"/>nullo modo distingueretur a Spiritu 
+      san<lb ed="#V" break="no" n="51"/>cto, neque distinctione relativa, neque 
+      <lb ed="#V" n="52"/>alia distinctione; ubi enim habetur littera 
+      <lb ed="#V" n="53"/>clara et aperta sancti Thome, non 
+      opor<lb ed="#V" break="no" n="54"/>tet ipsam ad alium sensum divertere. 
+    </p>
+            <p xml:id="mm30o9-d1e783-d1e824">
+               <lb ed="#V" n="55"/>Dico secundo, quod iste novus 
+      exposi<lb ed="#V" break="no" n="56"/>tor non solvit Scoti rationes. Ad quod 
+      in<lb ed="#V" break="no" n="57"/>telligendum premitto aliqua. 
+    </p>
+            <p xml:id="mm30o9-d1e783-d1e834">
+               <lb ed="#V" n="58"/>Primum, quod queecumque sunt 
+      prin<lb ed="#V" break="no" n="59"/>cipia essendi, eo modo quo sunt 
+      prin<lb ed="#V" break="no" n="60"/>cipia essendi, sunt etiam principia 
+      di<lb ed="#V" break="no" n="61"/>stinguendi. Haec propositio supra patuit, 
+      <lb ed="#V" n="62"/>qucest. ult. prologi resp. ad argumenta 
+      <lb ed="#V" n="63"/>principalia. Si enim sunt principia 
+      cons<lb ed="#V" break="no" n="64"/>tituendi essentialiter sive quidditative, 
+      <lb ed="#V" n="65"/>sunt etiam principia distinguendi illud 
+      <lb ed="#V" n="66"/>essentialiter et quidditative a quocumque 
+      <lb ed="#V" n="67"/>alio. Similiter si sunt principia 
+      constitu<lb ed="#V" break="no" n="68"/>endi accidentaliter, sunt principia 
+      distin<lb ed="#V" break="no" n="69"/>guendi accidentaliter. Si vero sunt 
+      prin<lb ed="#V" break="no" n="70"/>cipia constituendi personaliter, sunt 
+      prin<lb ed="#V" break="no" n="71"/>cipia distinguendi personaliter. 
+    </p>
+            <p xml:id="mm30o9-d1e783-d1e867">
+               <lb ed="#V" n="72"/>Secundum est, quod eo modo quo 
+      rela<lb ed="#V" break="no" n="73"/>tio constituit relativum, eo modo est 
+      ra<lb ed="#V" break="no" n="74"/>tio distinguendi illud, si essentialiter, 
+      <lb ed="#V" n="75"/>essentialiter; si suppositaliter, 
+      supposita<lb ed="#V" break="no" n="76"/>liter; si accidentaliter, accidentaliter. 
+      Re<lb ed="#V" break="no" n="77"/>latio vero unde relatio, non constituit 
+      re<lb ed="#V" break="no" n="78"/>lativum, inquantum ipsa dicit 
+      habitudi<lb ed="#V" break="no" n="79"/>nem ad correlativum ut correlativum, quia 
+      <lb ed="#V" n="80"/>non est de ratione relationis habere 
+      habi<lb ed="#V" break="no" n="81"/>tudinem sive terminari ad correlativum ; 
+      <lb ed="#V" n="82"/>sufficit enim quod terminetur ad 
+      absolu<lb ed="#V" break="no" n="83"/>tum correlativi, ut patet infra dist. 30. 
+      <lb ed="#V" n="84"/>quidquid sit in divinis tenendo personas 
+      <lb ed="#V" n="85"/>constitui per relationes, Si enim 
+      tenere<lb ed="#V" break="no" n="86"/>tur ipsas constitui per absoluta,de quo 
+      vi<lb ed="#V" break="no" n="87"/>debitur infra dist. 26. relatio 
+      terminare<lb ed="#V" break="no" n="88"/>tur ad absolutum correlativi.
+    </p>
+            <p xml:id="mm30o9-d1e783-d1e906">
+      <!--0846.xml-->
+               <pb ed="#V" n="846"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>Tertium est, quod quecumque 
+      conve<lb ed="#V" break="no" n="2"/>niunt suis rationibus, formalibus 
+      conve<lb ed="#V" break="no" n="3"/>niunt, loquendo de quacumque 
+      convenien<lb ed="#V" break="no" n="4"/>tia, sive essentiali, sive formali, sive 
+      rea<lb ed="#V" break="no" n="5"/>li, sive ex natura rei, etc. Similiter 
+      quee<lb ed="#V" break="no" n="6"/>cumque differunt, suis rationibus 
+      forma<lb ed="#V" break="no" n="7"/>libus differunt, loquendo de quacumque 
+      <lb ed="#V" n="8"/>dilferentia sive diversitate. Ista regula 
+      <lb ed="#V" n="9"/>patet a Doctore in pluribus locis. 
+    </p>
+            <p xml:id="mm30o9-d1e783-d1e935">
+               <lb ed="#V" n="10"/>Quartum est, quod quando in uno 
+      con<lb ed="#V" break="no" n="11"/>stituto tantum sunt due entitates 
+      consti<lb ed="#V" break="no" n="12"/>tuentes, quarum una est ratio conveniendi 
+      <lb ed="#V" n="13"/>tantum, et alia ratio distinguendi tantum, 
+      <lb ed="#V" n="14"/>illa entitas que est ratio distinguendi erit 
+      <lb ed="#V" n="15"/>precisa ratio distinguendi a quocumque 
+      <lb ed="#V" n="16"/>quod non est ipsum. Sicut si ponatur, 
+      <lb ed="#V" n="17"/>quod in homine tantum sint animalitas et 
+      <lb ed="#V" n="18"/>rationalitas , et animalitas sit ratio 
+      conve<lb ed="#V" break="no" n="19"/>nientie, et rationalitas ratio differentie, 
+      <lb ed="#V" n="20"/>tunc homo distingueretur a quolibet alio 
+      <lb ed="#V" n="21"/>precise per rationalitatem. In proposito, 
+      <lb ed="#V" n="22"/>cum Filius precise constituatur in esse 
+      <lb ed="#V" n="23"/>per essentiam et filiationem, et essentia 
+      <lb ed="#V" n="24"/>est ratio tantum convenientie personarum 
+      <lb ed="#V" n="25"/>ad invicem, ut patet, et filiatio est ratio 
+      <lb ed="#V" n="26"/>precise distinguendi unam personam ab 
+      <lb ed="#V" n="27"/>alia; posito ergo, quod Spiritus 
+      san<lb ed="#V" break="no" n="28"/>ctus non procederet a Filio, certum est 
+      <lb ed="#V" n="29"/>quod Filius distingueretur a Spiritu 
+      san<lb ed="#V" break="no" n="30"/>cto et non per essentiam, ergo per 
+      filiati<lb ed="#V" break="no" n="31"/>onem tantum ; falsum esset ergo dicere 
+      <lb ed="#V" n="32"/>quod non per filiationem. Ex his patet 
+      <lb ed="#V" n="33"/>quod responsio novi expositoris non 
+      con<lb ed="#V" break="no" n="34"/>cludit intentum. Cum enim Filius 
+      prceci<lb ed="#V" break="no" n="35"/>se constituatur in esse per essentiam et 
+      <lb ed="#V" n="36"/>filiationem, ipsa filiatio ut filiatio,erit 
+      ra<lb ed="#V" break="no" n="37"/>tio distinguendi, non tantum a correlativo, 
+      <lb ed="#V" n="38"/>sed etiam a disparato. Cum dicit, quod 
+      <lb ed="#V" n="39"/>tantum constituit in habitudine ad 
+      corre<lb ed="#V" break="no" n="40"/>lativum, dico quod hoc posito adhuc 
+      se<lb ed="#V" break="no" n="41"/>quitur quod erit ratio distinguendi non 
+      <lb ed="#V" n="42"/>tantum a correlativo, sed etiam a 
+      dispa<lb ed="#V" break="no" n="43"/>rato. Posito enim, quod Pater in creaturis 
+      <lb ed="#V" n="44"/>constituatur in esse per paternitatem, 
+      <!--0846.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>tunc paternitas non tantum erit ratio 
+      di<lb ed="#V" break="no" n="46"/>stinguendi Patrem a Filio, sed etiam a 
+      <lb ed="#V" n="47"/>quolibet alio absoluto quod non est Pater. 
+      <lb ed="#V" n="48"/>Et sic patet quomodo filiatio tantum uno 
+      <lb ed="#V" n="49"/>modo distinguit Filium a Spiritu sancto, 
+      <lb ed="#V" n="50"/>et non illo duplici modo, quem ipse 
+      niti<lb ed="#V" break="no" n="51"/>tur assignare. 
+    </p>
+            <p xml:id="mm30o9-d1e783-d1e1033">
+               <lb ed="#V" n="52"/>Praeterea,si Spiritus sanctus non 
+      proce<lb ed="#V" break="no" n="53"/>deret a Filio, sed tantum a Patre, certum 
+      <lb ed="#V" n="54"/>est quod Filius non esset Spiritus sanctus, 
+      <lb ed="#V" n="55"/>quero quomodo tunc distingueret ab 
+      <lb ed="#V" n="56"/>illo ? non essentia divina, ut patet , non 
+      <lb ed="#V" n="57"/>aliquo alio a filiatione per suppositum, 
+      <lb ed="#V" n="58"/>quod tantum constituatur in esse per 
+      es<lb ed="#V" break="no" n="59"/>sentiamet filiationem ; ergo 
+      distinguere<lb ed="#V" break="no" n="60"/>tur sola filiatione, et per consequens non 
+      <lb ed="#V" n="61"/>aliter distingueretur filiatione a Patre 
+      <lb ed="#V" n="62"/>quam a Spiritu sancto, ita enim filiatione 
+      <lb ed="#V" n="63"/>realiter distingueretur a Spiritu sancto 
+      sic<lb ed="#V" break="no" n="64"/>ut a Patre. 
+    </p>
+            <p xml:id="mm30o9-d1e783-d1e1064">
+               <lb ed="#V" n="65"/>Preterea, sicut idem absolutum est 
+      ra<lb ed="#V" break="no" n="66"/>tio distinguendi essentialiter constitutum 
+      <lb ed="#V" n="67"/>per ipsum, non tantum ab alio absoluto, 
+      <lb ed="#V" n="68"/>sed etiam a quolibet alio respectivo, sic 
+      <lb ed="#V" n="69"/>relatio erit ratio distinguendi relativum 
+      <lb ed="#V" n="70"/>(loquendo de relatione constituente) non 
+      <lb ed="#V" n="71"/>tantum ab alio correlativo, sed etiam a 
+      <lb ed="#V" n="72"/>disparato relativo, necnon et ab absoluto, 
+      <lb ed="#V" n="73"/>ut patet. Sic in proposito filiatio in 
+      divi<lb ed="#V" break="no" n="74"/>nis erit ratio distinguendi non tantum 
+      Fi<lb ed="#V" break="no" n="75"/>lium a Patre, sed etiam a Spiritu sancto. 
+    </p>
+            <p xml:id="mm30o9-d1e783-d1e1091">
+               <lb ed="#V" n="76"/>Multa alia dicit in littera, quee non 
+      cre<lb ed="#V" break="no" n="77"/>do esse vera, sed brevitatis causa omitto. 
+      <lb ed="#V" n="78"/>Quod enim dicit, quod persona Filii sit 
+      <lb ed="#V" n="79"/>formaliter ipsa filiatio, falsum est. Tum, 
+      <lb ed="#V" n="80"/>quia Filius includit formaliter essentiam 
+      <lb ed="#V" n="81"/>et filiationem, ut supra patuit 
+      responden<lb ed="#V" break="no" n="82"/>do ad objectiones Gregorii dist. 2. part. 2. 
+      <lb ed="#V" n="83"/>q. 1. Tum, quia filiatio non potest praedica-; 
+      <lb ed="#V" n="84"/>ri formaliter et in recto de Filio, haec enim 
+      <lb ed="#V" n="85"/>est falsa : Filius est formaliter filiatio. 
+      <lb ed="#V" n="86"/>Item, quod dicit assumptum esse falsum, 
+      <lb ed="#V" n="87"/>etc. patet quomodo assumptum illud est 
+      <!--0847.xml-->
+      <pb ed="#V" n="847"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>manifeste verum, nec oportet hic 
+      immo<lb ed="#V" break="no" n="2"/>rari. 
+    </p>
+            <p xml:id="mm30o9-d1e783-d1e1130">
+               <lb ed="#V" n="3"/>Ex his etiam apparet quid dicendum 
+      <lb ed="#V" n="4"/>ad Gregorium de Arimino in 1. dist. 11. 
+      <lb ed="#V" n="5"/>quest. unica, art. 1. vide ibi. 
+    </p>
+            <p xml:id="mm30o9-d1e783-d1e1139">
+               <lb ed="#V" n="6"/>(b) Secundo sic, per formale. Hic sunt 
+      <lb ed="#V" n="7"/>aliqua dicta. Primum, quod aliquid 
+      distin<lb ed="#V" break="no" n="8"/>gui ab altero adaequate contingit 
+      duplici<lb ed="#V" break="no" n="9"/>ter. Primo, quando extrema, inter que 
+      <lb ed="#V" n="10"/>est distinctio, convertuntur, sic 
+      intelli<lb ed="#V" break="no" n="11"/>gendo quod si A universaliter 
+      distingui<lb ed="#V" break="no" n="12"/>tur a B, quod B universaliter 
+      distingui<lb ed="#V" break="no" n="13"/>tur ab A. Exemplum, rationale et lapis 
+      <lb ed="#V" n="14"/>sic adequate distinguuntur, ut sint 
+      ex<lb ed="#V" break="no" n="15"/>trema distinctionis, quia bene 
+      sequi<lb ed="#V" break="no" n="16"/>tur, nullum rationale est lapis; ergo 
+      <lb ed="#V" n="17"/>nullus lapis est rationale, vel omne 
+      <lb ed="#V" n="18"/>rationale distinguitur ab omni lapide; 
+      er<lb ed="#V" break="no" n="19"/>go omnis lapis distinguitur a rationali, 
+      <lb ed="#V" n="20"/>et sic rationale est ratio distinguendi 
+      <lb ed="#V" n="21"/>quodlibet, de quo preedicatur ab omni 
+      la<lb ed="#V" break="no" n="22"/>pide, et similiter differentia ultima 
+      lapi<lb ed="#V" break="no" n="23"/>dis est ratio formalis distinguendi omne 
+      <lb ed="#V" n="24"/>illud de quo praedicatur ab omni 
+      rationa<lb ed="#V" break="no" n="25"/>li. Et sic intelligit Doctor cum dicit, quod 
+      <lb ed="#V" n="26"/>formale constitutivum distinguit 
+      constitu<lb ed="#V" break="no" n="27"/>tum ab omni alio, etiam si per 
+      impossibi<lb ed="#V" break="no" n="28"/>le quodcumque aliud ab illo, supple 
+      for<lb ed="#V" break="no" n="29"/>mali constitutivo, circumscribatur, et per 
+      <lb ed="#V" n="30"/>illud, supple constitutivum, ipsum 
+      consti<lb ed="#V" break="no" n="31"/>tutum distinguitur primo, id est, 
+      ade<lb ed="#V" break="no" n="32"/>quate ab omni non tali, quod, sopple, 
+      <lb ed="#V" n="33"/>non habet illam formam constitutivam, 
+      <lb ed="#V" n="34"/>et sic homo distinguitur essentialiter per 
+      <lb ed="#V" n="35"/>rationale ab omni eo quod non est 
+      ratio<lb ed="#V" break="no" n="36"/>nale, et hoc adaequate, id est, 
+      convertibili<lb ed="#V" break="no" n="37"/>ter, modo supradicto, quia bene 
+      sequi<lb ed="#V" break="no" n="38"/>tur: omnis homo per rationale 
+      distingui<lb ed="#V" break="no" n="39"/>tur a lapide, ab asino et hujusmodi, et 
+      <lb ed="#V" n="40"/>sic convertibiliter sequitur; ergo omnis 
+      <lb ed="#V" n="41"/>lapis, omnis asinus, etc. distinguitur 
+      es<lb ed="#V" break="no" n="42"/>sentialiter ab homine. Secundo accipitur 
+      <lb ed="#V" n="43"/>adaequate, id est, convertibiliter, et hoc 
+      <lb ed="#V" n="44"/>comparando membrum distinctum non ad 
+      <!--0847.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>aliud membrum distinctum, sed ad ipsum 
+      <lb ed="#V" n="46"/>distingui. Exemplum, nam finitum et 
+      in<lb ed="#V" break="no" n="47"/>finitum hoc modo distinguuntur, quia 
+      om<lb ed="#V" break="no" n="48"/>ne finitum distinguitur ab infinito, et 
+      om<lb ed="#V" break="no" n="49"/>ne distinctum ab infinito est finitum, et 
+      <lb ed="#V" n="50"/>e contra, et hoc loquendo de distinctione 
+      <lb ed="#V" n="51"/>essentiali ; quia sapientia divina 
+      distingui<lb ed="#V" break="no" n="52"/>tur a bonitate divina infinita, et tamen 
+      <lb ed="#V" n="53"/>sapientia divina est infinita, et hoc modo 
+      <lb ed="#V" n="54"/>rationale non distinguitur adequate a 
+      la<lb ed="#V" break="no" n="55"/>pide, ut ipsum rationale habet ipsum esse 
+      <lb ed="#V" n="56"/>distinctum pro extremo, quia non 
+      sequi<lb ed="#V" break="no" n="57"/>tur : omne rationale distinguitur a lapide; 
+      <lb ed="#V" n="58"/>ergo omne distinctum a lapide est 
+      rati<lb ed="#V" break="no" n="59"/>onale. Similiter hic in genere corporis, 
+      <lb ed="#V" n="60"/>corpus animatum et corpus inanimatum 
+      <lb ed="#V" n="61"/>adequate distinguuntur, quia bene 
+      sequi<lb ed="#V" break="no" n="62"/>tur : omne corpus animatum distinguitur 
+      <lb ed="#V" n="63"/>a corpore inanimato; ergo omne corpus 
+      <lb ed="#V" n="64"/>distinctum a corpore inanimato est 
+      anima<lb ed="#V" break="no" n="65"/>tum, et sic patet ista ratio. Et cum dicit, 
+      <lb ed="#V" n="66"/>quod adequate in genere corporis primo 
+      <lb ed="#V" n="67"/>distinguitur, supple homo, a lapide per 
+      <lb ed="#V" n="68"/>animatum, non debet intelligi sic, quod 
+      <lb ed="#V" n="69"/>omnis homo ut animatus, distinguitur a 
+      la<lb ed="#V" break="no" n="70"/>pide; ergo omne corpus distinctum a 
+      lapi<lb ed="#V" break="no" n="71"/>de erit animatum, non sequitur, sed sic 
+      in<lb ed="#V" break="no" n="72"/>telligitur quod prima ratio distinguendi 
+      ho<lb ed="#V" break="no" n="73"/>minem in genere corporis a lapide est 
+      ani<lb ed="#V" break="no" n="74"/>matum, non tamen est precise, quia ( per 
+      <lb ed="#V" n="75"/>impossibile) circumscripto animato, adhuc 
+      <lb ed="#V" n="76"/>distingueretur per rationale. 
+    </p>
+            <p xml:id="mm30o9-d1e783-d1e1300">
+               <lb ed="#V" n="77"/>(c) Ex secundo medio, scilicet ex 
+      di<lb ed="#V" break="no" n="78"/>stinctione emanationum arguitur sic: 
+      Ge<lb ed="#V" break="no" n="79"/>neratio, supple passiva, distinguitur a 
+      <lb ed="#V" n="80"/>spiratione passiva, etc. dum staret tamen 
+      <lb ed="#V" n="81"/>distinctio principiorum generandi et 
+      spi<lb ed="#V" break="no" n="82"/>randi, scilicet distinctio intellectus et 
+      vo<lb ed="#V" break="no" n="83"/>luntatis ; ergo et quolibet tali 
+      circumscri<lb ed="#V" break="no" n="84"/>plo, puta spiratione activa Filii, staret 
+      di<lb ed="#V" break="no" n="85"/>stinctio Filii et Spiritus sancti, patet, 
+      <lb ed="#V" n="86"/>circumscripta spiratione activa, generatio 
+      <lb ed="#V" n="87"/>passiva et spiratio passiva distinguuntur, 
+      <lb ed="#V" n="88"/>ergo generatio passiva, cum sit constitu- 
+      <!--0848.xml-->
+      <pb ed="#V" n="848"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tiva Filii, distinguit Filium a Spiritu 
+      san<lb ed="#V" break="no" n="2"/>cto, constituto per spirationem passivam, 
+      <lb ed="#V" n="3"/>et sic distinguerentur circumscripta 
+      spi<lb ed="#V" break="no" n="4"/>ratione activa. Probatio consequentie, 
+      <lb ed="#V" n="5"/>scilicet ergo et quolibet tali circumscripto, 
+      <lb ed="#V" n="6"/>scilicet spiratione activa, etc. quia 
+      impos<lb ed="#V" break="no" n="7"/>sibile est unam personam, etc. Vult 
+      dice<lb ed="#V" break="no" n="8"/>re hic Doctor quod si etiam spiratio 
+      acti<lb ed="#V" break="no" n="9"/>va Filii distinguat personaliter ipsum 
+      Fi<lb ed="#V" break="no" n="10"/>lium a Spiritu sancto, ergo erit 
+      constitu<lb ed="#V" break="no" n="11"/>tiva ipsius Filii, quia distinctivum 
+      essen<lb ed="#V" break="no" n="12"/>tiale alicujus est constitutivum ejusdem 
+      <lb ed="#V" n="13"/>essentialiter, et sic Filius dependeret 
+      es<lb ed="#V" break="no" n="14"/>sentialiter a filiatione sive generatione 
+      <lb ed="#V" n="15"/>passiva, et spiratione passiva, quod est 
+      <lb ed="#V" n="16"/>impossibile, ut patet in littera. 
+    </p>
+            <p xml:id="mm30o9-d1e783-d1e1370">
+               <lb ed="#V" n="17"/>Ad argumenta principalia, etc. 
+    </p>
+            <p xml:id="mm30o9-d1e783-d1e1375">
+               <lb ed="#V" n="18"/>(d) Ad auctoritatem Boetii, scilicet 
+      <lb ed="#V" n="19"/>quod relatio multiplicat Trinitatem, 
+      conce<lb ed="#V" break="no" n="20"/>dit quod relatio dicitur opponi relationi, 
+      <lb ed="#V" n="21"/>vel relative, vel disparate; relatio, que 
+      <lb ed="#V" n="22"/>opponitur alteri relative, est correlativa 
+      <lb ed="#V" n="23"/>ad illam, sicut paternitas et filiatio, et 
+      <lb ed="#V" n="24"/>illa cui opponitur disparate, non est 
+      cor<lb ed="#V" break="no" n="25"/>relativa, ut paternitas opponitur disparate 
+      <lb ed="#V" n="26"/>spirationi passivae. 
+    </p>
+            <p xml:id="mm30o9-d1e783-d1e1398">
+               <lb ed="#V" n="27"/>Si dicatur, nonne omnes species inter 
+      <lb ed="#V" n="28"/>se opponuntur disparate. 
+    </p>
+            <p xml:id="mm30o9-d1e783-d1e1405">
+               <lb ed="#V" n="29"/>Dico, quod aliquae tantum opponuntur 
+      <lb ed="#V" n="30"/>disparate, aliquae et disparate et relative, 
+      <lb ed="#V" n="31"/>et sic paternitas et filiatio, ut sunt species, 
+      <lb ed="#V" n="32"/>opponuntur disparate, et ut sunt 
+      correla<lb ed="#V" break="no" n="33"/>tiva opponuntur relative. Caetera patent. 
+    </p>
+            <p xml:id="mm30o9-d1e783-d1e1418">
+               <lb ed="#V" n="34"/>(e) Ad Augustinum. Sententia littere 
+      <lb ed="#V" n="35"/>est, quod in divinis aliqua persona dicitur 
+      <lb ed="#V" n="36"/>habere aliquid dupliciter. Primo, ut 
+      corre<lb ed="#V" break="no" n="37"/>lativum, sicut Pater habet Filium, et e 
+      con<lb ed="#V" break="no" n="38"/>tra. Secundo, intrinsece et quodammodo 
+      <lb ed="#V" n="39"/>essentialiter, ut Pater habet Deitatem, 
+      ha<lb ed="#V" break="no" n="40"/>bet bonitatem, et hujusmodi. Primo 
+      ha<lb ed="#V" break="no" n="41"/>bens non est res habita, quia Pater non est 
+      <!--0848.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="42"/>Filius. Secundo modo habens est res 
+      habi<lb ed="#V" break="no" n="43"/>ta, quia Pater est Deus et sapiens, 
+      prae<lb ed="#V" break="no" n="44"/>dicatione formali, et Pater et Deitas, et 
+      sa<lb ed="#V" break="no" n="45"/>pientia predicatione identica, accipiendo 
+      <lb ed="#V" n="46"/>Patrem substantive, ut patet supra dist. 5. 
+      <lb ed="#V" n="47"/>quest. 2. Spiritus sanctus non habet 
+      Fi<lb ed="#V" break="no" n="48"/>lium, neque ut correlativum, quia est 
+      tan<lb ed="#V" break="no" n="49"/>tum correlativum Patris,neque intrinsece, 
+      <lb ed="#V" n="50"/>patet, quia una persona non est intrinsece 
+      <lb ed="#V" n="51"/>in alia ; et sic patet quod si Spiritus 
+      san<lb ed="#V" break="no" n="52"/>ctus non procederet a Filio, et sic non 
+      ha<lb ed="#V" break="no" n="53"/>beret Filium ut correlativum, non tamen 
+      <lb ed="#V" n="54"/>sequitur quod sit Filius, quia non haberet 
+      <lb ed="#V" n="55"/>illum intrinsece. 
+    </p>
+            <p xml:id="mm30o9-d1e783-d1e1473">
+               <lb ed="#V" n="56"/>(f) Ad rationes pro secunda opinione, 
+      <lb ed="#V" n="57"/>scilicet sancti Thomae. 
+    </p>
+            <p xml:id="mm30o9-d1e783-d1e1480">
+               <lb ed="#V" n="58"/>Hic Doctor accipit relationem secundum 
+      <lb ed="#V" n="59"/>esse pro proprio esse relationis, quod est 
+      <lb ed="#V" n="60"/>esse ad aliud, quidditas enim relationis est 
+      <lb ed="#V" n="61"/>esse ad aliud. Si etiam acciperetur 
+      secun<lb ed="#V" break="no" n="62"/>dum esse realis existentie, non esset 
+      in<lb ed="#V" break="no" n="63"/>conveniens, ut supra exposui dist. 1. 
+      <lb ed="#V" n="64"/>quest. 2. et dist. 2. part. 2. q. 1. Dicit 
+      <lb ed="#V" n="65"/>ergo Doctor quod relatio in divinis manet 
+      <lb ed="#V" n="66"/>et secundum quidditatem et secundum 
+      <lb ed="#V" n="67"/>esse, quia quidditas relationis non potest 
+      <lb ed="#V" n="68"/>esse sine esse ad aliud, quia aliter esset 
+      <lb ed="#V" n="69"/>absolutum secundum Augustinum 7. de 
+      <lb ed="#V" n="70"/>Trinit. c. 1. vel 6. Si est ad aliud, non 
+      <lb ed="#V" n="71"/>est substantia, et si est substantia sive ad 
+      <lb ed="#V" n="72"/>se, jam non est relatio. Deinde addit 
+      Do<lb ed="#V" break="no" n="73"/>ctor quod quocumque modo transit esse, 
+      <lb ed="#V" n="74"/>transit et quidditas, quia sicut esse ad 
+      <lb ed="#V" n="75"/>aliud, quod est esse relationis,vere est idem 
+      <lb ed="#V" n="76"/>essentiae, (scilicet realiter, non autem 
+      for<lb ed="#V" break="no" n="77"/>maliter, quia tunc essentia esset 
+      formali<lb ed="#V" break="no" n="78"/>ter ad aliud) ita et quidditas relationis est 
+      <lb ed="#V" n="79"/>idem essentie, nihil enim est ibi quod non 
+      <lb ed="#V" n="80"/>est idem, videlicet realiter et essentialiter. 
+      <lb ed="#V" n="81"/>Manet igitur quidditas et esse, quia relatio 
+      <!--0849.xml-->
+      <pb ed="#V" n="849"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>non est formaliter essentia, quia 
+      secun<lb ed="#V" break="no" n="2"/>dum Augustinum 7. de Trinit. non eo 
+      <lb ed="#V" n="3"/>Verbum quo sapientia. 
+    </p>
+            <p xml:id="mm30o9-d1e783-d1e1548">
+               <lb ed="#V" n="4"/>Cum igitur dicit Thomas, aut 
+      distingui<lb ed="#V" break="no" n="5"/>tur secundum esse, aut secundum 
+      quiddi<lb ed="#V" break="no" n="6"/>tatem. 
+    </p>
+            <p xml:id="mm30o9-d1e783-d1e1558">
+               <lb ed="#V" n="7"/>Dicit, quod secundum esse et secundum 
+      <!--0849.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="8"/>quidditatem. Cum dicis, secundum esse 
+      <lb ed="#V" n="9"/>transit in essentiam, ergo non sic 
+      distin<lb ed="#V" break="no" n="10"/>guit ; dicit Doctor quod transit secundum 
+      <lb ed="#V" n="11"/>identitatem, supple realem, sed manet 
+      se<lb ed="#V" break="no" n="12"/>cundum formalitatem, ut satis supra 
+      pa<lb ed="#V" break="no" n="13"/>tuit dist. 5. q. 2. et dist. 8. q. 3. et dist. 2. 
+      <lb ed="#V" n="14"/>p. 2. q. 1.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <author ref="#per-FLBca3">Franciscus Lychetus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title/>
+               <date when="2023-06-19">June 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78xV9">Vives, Paris, 1891, volume 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="432"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="mm30o9-d1e561"><!-- mm30o9-b1d4p2q1 -->
+            <p xml:id="mm30o9-d1e561-d1e101"><!-- lycht-l1d4q2-n2 -->
+               <lb ed="#V" n="19"/>COMMENTARIUS 
+      <lb ed="#V" n="20"/>(a) Respondeo,quod propositio est vera. 
+      <lb ed="#V" n="21"/>Respondet Doctor, et primo declarat quid 
+      <lb ed="#V" n="22"/>sit propositio affirmativa vera, dicens 
+      <lb ed="#V" n="23"/>quod illa propositio affirmativa est vera 
+      <lb ed="#V" n="24"/>quando terminus subjectus, quod primo 
+      <lb ed="#V" n="25"/>significat hoc primo ponit in 
+      propositio<lb ed="#V" break="no" n="26"/>ne, et quando predicatum est idem 
+      sub<lb ed="#V" break="no" n="27"/>jecto ; semper enim in propositione 
+      af<lb ed="#V" break="no" n="28"/>firmativa vera intelligitur praedicatum 
+      es<lb ed="#V" break="no" n="29"/>se idem subjecto, saltem aliqua identitate, 
+      <lb ed="#V" n="30"/>vel essentiali, vel formali, vel reali, vel 
+      <lb ed="#V" n="31"/>saltem sic intelligitur esse idem quando 
+      <lb ed="#V" n="32"/>predicatum sic convenit subjecto, quod 
+      <lb ed="#V" n="33"/>supponit pro eo, vel quod habeat 
+      ali<lb ed="#V" break="no" n="34"/>quam identitatem, saltem unionis vere 
+      <lb ed="#V" n="35"/>in ratione qua predicatur. Secundo 
+      de<lb ed="#V" break="no" n="36"/>clarat quomodo ista propositio : Deus est 
+      <lb ed="#V" n="37"/>Pater, etc. sit vera, quia terminus 
+      sub<lb ed="#V" break="no" n="38"/>jectus, scilicet Deus, quod primo significat 
+      <lb ed="#V" n="39"/>hoc primo ponit in oratione, significat 
+      <lb ed="#V" n="40"/>enim Deitatem, et sic illud 
+      signifi<lb ed="#V" break="no" n="41"/>catum primo ponit in oratione et 
+      addi<lb ed="#V" break="no" n="42"/>tur praedicatum, cujus significatum est 
+      <lb ed="#V" n="43"/>vere idem significato subjecti, quia tres 
+      <!--0432.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="44"/>persone sunt realiter et essentialiter 
+      <lb ed="#V" n="45"/>idem Deitati ; Deitas enim est communis 
+      <lb ed="#V" n="46"/>tribus personis per veram identitatem 
+      <lb ed="#V" n="47"/>realem et essentialem. 
+    </p>
+            <p xml:id="mm30o9-d1e561-d1e172">
+               <lb ed="#V" n="48"/>(b) Verum est tamen quod in ejus 
+      con<lb ed="#V" break="no" n="49"/>versa. Licet hec littera ponatur extra 
+      <lb ed="#V" n="50"/>textum Doctoris, tamen verum est quod 
+      <lb ed="#V" n="51"/>ista praedicatio : Pater est Deus, est 
+      for<lb ed="#V" break="no" n="52"/>malior, et magis per se, quam ista : 
+      <lb ed="#V" n="53"/>Deus est Pater ; sicut etiam ista est 
+      for<lb ed="#V" break="no" n="54"/>malior, homo est animal, quam ista : 
+      <lb ed="#V" n="55"/>animal est homo. 
+    </p>
+            <p xml:id="mm30o9-d1e561-d1e192">
+               <lb ed="#V" n="56"/>(e) Sed numquid eadem est veritas, 
+      <lb ed="#V" n="57"/>etc. Dicit quod licet in re sit eadem 
+      veri<lb ed="#V" break="no" n="58"/>tas propter veram identitatem realem, 
+      ta<lb ed="#V" break="no" n="59"/>men logice loquendo una predicatio 
+      mul<lb ed="#V" break="no" n="60"/>tum differt ab alia. Nam cum dico : Deus 
+      <lb ed="#V" n="61"/>est Pater, etc. hec est praedicatio 
+      for<lb ed="#V" break="no" n="62"/>malis. Cum vero dico : Deitas est Pater, 
+      <lb ed="#V" n="63"/>est predicatio per identitatem, sive 
+      iden<lb ed="#V" break="no" n="64"/>tica, de qua infra patebit dist. 5. quest. 1. 
+      <lb ed="#V" n="65"/>In re tamen est eadem, quia Deus et 
+      Dei<lb ed="#V" break="no" n="66"/>tas tantum nomine, vel tantum ratione 
+      <lb ed="#V" n="67"/>differunt, ut supra patuit dist. 2 part. 2. 
+      <lb ed="#V" n="68"/>questio 1. et infra patebit dist. 8. quest. 
+      <lb ed="#V" n="69"/>penult. 
+    </p>
+            <p xml:id="mm30o9-d1e561-d1e225">
+               <lb ed="#V" n="70"/>Et nota pro intelligentia hujus litterae, 
+      <lb ed="#V" n="71"/>quod in praedicatione formali semper 
+      <lb ed="#V" n="72"/>praedicatum convenit formaliter subjecto, 
+      <lb ed="#V" n="73"/>id est, quod quando predicatum convenit 
+      <lb ed="#V" n="74"/>subjecto per quamdam inhesionem, sive 
+      <lb ed="#V" n="75"/>per modum forme informantis, sive 
+      inhae<lb ed="#V" break="no" n="76"/>rentis, et hoc vel essentialiter vel 
+      denomi<lb ed="#V" break="no" n="77"/>native. Essentialiter ut homo est animal. 
+      <lb ed="#V" n="78"/>Denominative, ut homo est albus; semper 
+      <lb ed="#V" n="79"/>enim concretum, sive substantiale, sive 
+      <lb ed="#V" n="80"/>accidentale ut sic,natum est praedicari 
+      for<lb ed="#V" break="no" n="81"/>maliter, ut infra declarabo dist. seq. 
+      Prae<lb ed="#V" break="no" n="82"/>dicari vero identice nihil aliud est, nisi 
+      <lb ed="#V" n="83"/>predicatum esse realiter idem cum suo 
+      <lb ed="#V" n="84"/>subjecto, et non per modum forme sive 
+      <lb ed="#V" n="85"/>inhesionis, et maxime propter 
+      infinita<lb ed="#V" break="no" n="86"/>tem utriusque extremi,vel saltem alterius, 
+      <lb ed="#V" n="87"/>quia quando unum extremum est forma- 
+      <!--0433.xml-->
+      <pb ed="#V" n="433"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>liter infinitum propter sui infinitatem et 
+      <lb ed="#V" n="2"/>simplicitatem, identificat sibi realiter 
+      om<lb ed="#V" break="no" n="3"/>ne quod convenit illi.Si ergo predicatum 
+      <lb ed="#V" n="4"/>non est natum praedicari formaliter, 
+      sci<lb ed="#V" break="no" n="5"/>licet per inherentiam, saltem in modo 
+      <lb ed="#V" n="6"/>praedicandi, si predicatur de infinito 
+      in<lb ed="#V" break="no" n="7"/>tensive, praedicatur tantum per 
+      identita<lb ed="#V" break="no" n="8"/>tem sive identice, sicut hec : Deitas est 
+      <lb ed="#V" n="9"/>Pater et Filius, etc. est tantum 
+      preedica<lb ed="#V" break="no" n="10"/>tio identica, et sic patet littera. 
+    </p>
+            <p xml:id="mm30o9-d1e561-d1e295">
+               <lb ed="#V" n="11"/>(d) Sed pro quo supponit Deus, 
+      intelli<lb ed="#V" break="no" n="12"/>gendo istam esse veram, qasi 
+      predica<lb ed="#V" break="no" n="13"/>tione formali. 
+    </p>
+            <p xml:id="mm30o9-d1e561-d1e305">
+               <lb ed="#V" n="14"/>Respondet Doctor per aliqua dicta. 
+      Pri<lb ed="#V" break="no" n="15"/>mum, quod unicuique quo correspondet 
+      <lb ed="#V" n="16"/>proprium quod, vel quis, et hoc 
+      adequa<lb ed="#V" break="no" n="17"/>te, licet alicui quo, possint correspondere 
+      <lb ed="#V" n="18"/>plura quod, non tamen adaequate, patet, 
+      <lb ed="#V" n="19"/>quia humanitas est quo respectu 
+      cujus<lb ed="#V" break="no" n="20"/>cumque suppositi hominis. He enim 
+      <lb ed="#V" n="21"/>sunt vere : Hic homo est humanitate hic 
+      <lb ed="#V" n="22"/>homo, et similiter : Ille homo est 
+      huma<lb ed="#V" break="no" n="23"/>nitate homo. Sed proprium adequatum 
+      <lb ed="#V" n="24"/>quod humanitatis in communi est homo 
+      <lb ed="#V" n="25"/>in communi, et proprium adequatum, 
+      <lb ed="#V" n="26"/>quod hujus humanitatis est hic homo; 
+      si<lb ed="#V" break="no" n="27"/>cut ergo Deitas est de se hec, ideo 
+      pro<lb ed="#V" break="no" n="28"/>prium et adaequatum quod est hic Deus, 
+      <lb ed="#V" n="29"/>et sic hic Deus est hac Deitate Deus. Et 
+      <lb ed="#V" n="30"/>in hoc quod dico, hic Deus, non 
+      intelli<lb ed="#V" break="no" n="31"/>go aliquod incommunicabile, imo 
+      sim<lb ed="#V" break="no" n="32"/>pliciter est communicabile tribus 
+      supposi<lb ed="#V" break="no" n="33"/>tis ; proprium ergo et adaequatum quod 
+      <lb ed="#V" n="34"/>Deitatis est hic Deus, non includendo 
+      ali<lb ed="#V" break="no" n="35"/>quem conceptum personae, et ut sic, ista 
+      <lb ed="#V" n="36"/>est vera : Deus est Pater, Filius et 
+      Spi<lb ed="#V" break="no" n="37"/>ritus sanctus, ut nullum simpliciter 
+      con<lb ed="#V" break="no" n="38"/>cernit suppositum. 
+    </p>
+            <p xml:id="mm30o9-d1e561-d1e362">
+               <lb ed="#V" n="39"/>Et addit Doctor quod forte ista est 
+      ve<lb ed="#V" break="no" n="40"/>ra : Deus creat, accipiendo ly Deum ut 
+      <lb ed="#V" n="41"/>est adequatum quod Deitatis,et ut non 
+      in<lb ed="#V" break="no" n="42"/>cludit conceptum alicujus 
+      incommunica<lb ed="#V" break="no" n="43"/>bilis. Et quod dicit hic de colore, cum 
+      <lb ed="#V" n="44"/>dicitur : hic color disgregat, quod ly color 
+      <!--0433.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>supponit pro primo significato suo, puta 
+      <lb ed="#V" n="46"/>pro hoc colore existente, non autem pro 
+      <lb ed="#V" n="47"/>colore existente in superficie, quia 
+      vide<lb ed="#V" break="no" n="48"/>tur dicere quod si hic color esset 
+      separa<lb ed="#V" break="no" n="49"/>tus a superficie, adhuc hoc praedicatum. 
+      <lb ed="#V" n="50"/>quod est disgreare, conveniret sibi ita 
+      <lb ed="#V" n="51"/>quod posse vere disgregare ; hoc non 
+      de<lb ed="#V" break="no" n="52"/>bet sic absolute intelligi, nam si color per 
+      <lb ed="#V" n="53"/>possibile vel impossibile, esset separatus 
+      <lb ed="#V" n="54"/>ab omni superficie, non posset immutare 
+      <lb ed="#V" n="55"/>sensum, ut expresse patet a Doctore in 4. 
+      <lb ed="#V" n="56"/>dist 12. quest. 2. Dico ergo, 'quod si 
+      co<lb ed="#V" break="no" n="57"/>lor esset separatus a quantitate, adhuc 
+      <lb ed="#V" n="58"/>esset vere immutativus sensus, non 
+      ta<lb ed="#V" break="no" n="59"/>men potentia propinqua, quia ut sic, actu 
+      <lb ed="#V" n="60"/>non potest immutare, sed bene potentia 
+      <lb ed="#V" n="61"/>remota, quia ratio formalis immutandi non 
+      <lb ed="#V" n="62"/>est a quantitate, sed ab ipso colore 
+      singu<lb ed="#V" break="no" n="63"/>lari existente, non est tamen 
+      immutati<lb ed="#V" break="no" n="64"/>Vus actu nisi ut existens in debita 
+      quan<lb ed="#V" break="no" n="65"/>titate; requiritur ergo quantitas, non ut 
+      <lb ed="#V" n="66"/>aliquid pertinens ad rationem immutandi 
+      <lb ed="#V" n="67"/>sensum, sed tantum dispositio requisita, 
+      <lb ed="#V" n="68"/>vide Doctorem in 4. ubi supra. 
+    </p>
+            <p xml:id="mm30o9-d1e561-d1e434">
+               <lb ed="#V" n="69"/>Sed posset dubitari, an hic Deus, ut 
+      <lb ed="#V" n="70"/>non includit conceptum alicujus 
+      incom<lb ed="#V" break="no" n="71"/>municabilis, possit generare Filium, sicut 
+      <lb ed="#V" n="72"/>conceditur ipsum posse creare, et 
+      guber<lb ed="#V" break="no" n="73"/>nare, et conservare mundum ? 
+    </p>
+            <p xml:id="mm30o9-d1e561-d1e447">
+               <lb ed="#V" n="74"/>Dico quod non, et ratio est quia inter 
+      <lb ed="#V" n="75"/>generans et genitum semper estrealis 
+      dis<lb ed="#V" break="no" n="76"/>tinctio. Si ergo hic Deus, ut non includit 
+      <lb ed="#V" n="77"/>conceptum persone possit generare 
+      De<lb ed="#V" break="no" n="78"/>um, tunc hic Deus generans realiter 
+      dis<lb ed="#V" break="no" n="79"/>tingueretur a Deo genito; et cum hic Deus 
+      <lb ed="#V" n="80"/>ut sic, tantum dicat Deitatem, 
+      sequere<lb ed="#V" break="no" n="81"/>tur quod Deitas realiter distingueretur a 
+      <lb ed="#V" n="82"/>se ipsa. Et ideo necesse est hunc Deum 
+      <lb ed="#V" n="83"/>supponere pro aliquo supposito, cum 
+      di<lb ed="#V" break="no" n="84"/>cimus: hic Deus g2nerat, sed non est 
+      si<lb ed="#V" break="no" n="85"/>mile, quando dicimus quod hic Deus ( ut 
+      <lb ed="#V" n="86"/>non supponit pro aliquo supposito) creat 
+      <lb ed="#V" n="87"/>mundum, quia ut sic includit omnia 
+      ne<lb ed="#V" break="no" n="88"/>cessaria ad creationem ; est enim ens infi- 
+      <!--0434.xml-->
+      <pb ed="#V" n="434"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>nittm actualissime existens per se, licet 
+      <lb ed="#V" n="2"/>non sit incommunicabile, non enim actio 
+      <lb ed="#V" n="3"/>de necessitate praesupponit suppositum, 
+      <lb ed="#V" n="4"/>ut supra declaravi. 
+    </p>
+            <p xml:id="mm30o9-d1e561-d1e497">
+               <lb ed="#V" n="5"/>Et addit Doctor quod ratio 
+      incommuni<lb ed="#V" break="no" n="6"/>cabilitatis non est ratio agendi sive 
+      cre<lb ed="#V" break="no" n="7"/>andi. Sed haec ratio non videtur sufficere, 
+      <lb ed="#V" n="8"/>quia diceretur quod etsi non sit ratio 
+      for<lb ed="#V" break="no" n="9"/>malis agendi, est tamen conditio 
+      agen<lb ed="#V" break="no" n="10"/>tis necessario requisita ad agendum, sicut 
+      <lb ed="#V" n="11"/>etiam ipse dicit quod singularitas non est 
+      <lb ed="#V" n="12"/>ratio formalis agendi, sed tantum conditio 
+      <lb ed="#V" n="13"/>agentis, ut supra patuit dist. 3. quest. 6. 
+    </p>
+            <p xml:id="mm30o9-d1e561-d1e519">
+               <lb ed="#V" n="14"/>Dico, quod non est simile de ratione 
+      <lb ed="#V" n="15"/>suppositi et ratione singularitatis, quia 
+      <lb ed="#V" n="16"/>singularitas est conditio simpliciter 
+      ne<lb ed="#V" break="no" n="17"/>cessaria respectu actionis, quia natura 
+      <lb ed="#V" n="18"/>nunquam potest esse ratio formalis 
+      agen<lb ed="#V" break="no" n="19"/>di, nisi realiter existat in aliquo 
+      singula<lb ed="#V" break="no" n="20"/>ri, ut exposui supra dist.3. quest. 6. Non 
+      <lb ed="#V" n="21"/>est autem simpliciter necesse ad hoc, 
+      <lb ed="#V" n="22"/>ut sit ratio formalis agendi et propinqua, 
+      <lb ed="#V" n="23"/>quod actu existat in aliquo supposito, 
+      <lb ed="#V" n="24"/>nam calor separatus a substantia esset 
+      ve<lb ed="#V" break="no" n="25"/>re ratio formalis calefaciendi, et proxima 
+      <lb ed="#V" n="26"/>etiam, tamen non includit cationem 
+      sup<lb ed="#V" break="no" n="27"/>positi. 
+    </p>
+            <p xml:id="mm30o9-d1e561-d1e553">
+               <lb ed="#V" n="28"/>Si dicatur, si ratio suppositi non esset 
+      <lb ed="#V" n="29"/>simpliciter necessaria ad actionem; ergo 
+      <lb ed="#V" n="30"/>Deitas, vel memoria fecunda ut non 
+      in<lb ed="#V" break="no" n="31"/>cludit rationem suppositi, poterit esse 
+      ra<lb ed="#V" break="no" n="32"/>tio formalis generandi filium et 
+      propin<lb ed="#V" break="no" n="33"/>qua. Dico primo, quod ratio suppositi est 
+      <lb ed="#V" n="34"/>necessaria non simpliciter propter 
+      gene<lb ed="#V" break="no" n="35"/>rationem, sed propter distinctionem 
+      <!--0434.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="36"/>realem producentis et producti, quia 
+      <lb ed="#V" n="37"/>enim getteratio requirit extrema 
+      teali<lb ed="#V" break="no" n="38"/>ter distincta, ideo in divinis necesse 
+      <lb ed="#V" n="39"/>est ponere rationem suppositi respectu 
+      <lb ed="#V" n="40"/>generantis, et si generatio per possibile, 
+      <lb ed="#V" n="41"/>vel impossibile posset esse in divinis 
+      si<lb ed="#V" break="no" n="42"/>ne reali distinctione generantis et geniti, 
+      <lb ed="#V" n="43"/>non esset inconveniens dicere memoriam 
+      <lb ed="#V" n="44"/>fecundam esse simpliciter rationem 
+      for<lb ed="#V" break="no" n="45"/>malem generandi proximam et optime 
+      di<lb ed="#V" break="no" n="46"/>spositam, ut patet ex dictis Doctoris infra 
+      <lb ed="#V" n="47"/>dist. T. et in quodlib. quest. 3. Et vide 
+      <lb ed="#V" n="48"/>expositionem, quam supra fecl dist. f. 
+    </p>
+            <p xml:id="mm30o9-d1e561-d1e605">
+               <lb ed="#V" n="49"/>(e) Ad primum argumentum in 
+      oppo<lb ed="#V" break="no" n="50"/>situm. Respondetur quod ista : nullus 
+      <lb ed="#V" n="51"/>Deus est Pater, etc. non est 
+      contradicto<lb ed="#V" break="no" n="52"/>ria huic : Deus est Pater, etc. si precise 
+      <lb ed="#V" n="53"/>fiat distributio pro personis, quia tunc 
+      <lb ed="#V" n="54"/>non negatur quod primo affirmatur in 
+      af<lb ed="#V" break="no" n="55"/>firmativa ; nam in affirmativa affirmatuir, 
+      <lb ed="#V" n="56"/>tres personas dici tantum de Deo, ut ly 
+      <lb ed="#V" n="57"/>Deus non includit aliquam rationem 
+      in<lb ed="#V" break="no" n="58"/>communicabilitatis, sive ut tantum 
+      sup<lb ed="#V" break="no" n="59"/>ponit pro Deo precise et non pro aliquo 
+      <lb ed="#V" n="60"/>supposito, sed in ista, quando dicitur : 
+      <lb ed="#V" n="61"/>nullus Deus est Pater, etc. accipitur ly 
+      <lb ed="#V" n="62"/>Deus, ut supponit pro suppositis. Si 
+      ve<lb ed="#V" break="no" n="63"/>ro acciperetur Deus, ut non includit 
+      ali<lb ed="#V" break="no" n="64"/>quod suppositum, hec est falsa : nullus 
+      <lb ed="#V" n="65"/>Deus est Pater, Filius et Spiritus 
+      san<lb ed="#V" break="no" n="66"/>c tus. 
+    </p>
+            <p xml:id="mm30o9-d1e561-d1e647">
+               <lb ed="#V" n="67"/>Secunda ratio cum sua responsione 
+      <lb ed="#V" n="68"/>clara est in littera, licet responsio sit 
+      ex<lb ed="#V" break="no" n="69"/>tra textum Doctoris.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

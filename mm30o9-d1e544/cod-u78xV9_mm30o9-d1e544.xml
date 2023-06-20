@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <author ref="#per-FLBca3">Franciscus Lychetus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title/>
+               <date when="2023-06-19">June 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78xV9">Vives, Paris, 1891, volume 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="422"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="mm30o9-d1e544"><!-- mm30o9-b1d4p1q1 -->
+            <p xml:id="mm30o9-d1e544-d1e101"><!-- lycht-l1d4q1-n2 -->
+               <lb ed="#V" n="10"/>COMMENTARIUS. 
+      <lb ed="#V" n="11"/>(a) Respondeo ad questionem quod non 
+      <lb ed="#V" n="12"/>genuit alium Deum. Sensus hujus 
+      litte<lb ed="#V" break="no" n="13"/>re est, quod cuilibet entitati abstractive 
+      <lb ed="#V" n="14"/>sumptee, et maxime ultimate abstractae, 
+      <lb ed="#V" n="15"/>de qua infra patebit dist. 5. quest. 1. 
+      <lb ed="#V" n="16"/>correspondet aliquod ens, scilicet 
+      con<lb ed="#V" break="no" n="17"/>cretum, quod est tale tali entitate ut 
+      hu<lb ed="#V" break="no" n="18"/>manitati correspondet homo, qui dicitur 
+      <lb ed="#V" n="19"/>primo homo humanitate, et humanitas 
+      <lb ed="#V" n="20"/>est seipsa talis, accipiendo se ipsum tale 
+      <lb ed="#V" n="21"/>formaliter, et sic Deitati correspondet 
+      pri<lb ed="#V" break="no" n="22"/>mo ipse Deus; cum ergo Deitas sit ex se, 
+      <lb ed="#V" n="23"/>sive ex sua ratione formali haec, quia 
+      nul<lb ed="#V" break="no" n="24"/>lo modo contrahibilis per aliquam 
+      heccei<lb ed="#V" break="no" n="25"/>tatem, ut infra patebit dist. 5. q. 2. et 
+      <lb ed="#V" n="26"/>in quodlib. sequitur quod ipse Deus erit 
+      <lb ed="#V" n="27"/>primo hic, sicut dicimus quod hic homo 
+      <lb ed="#V" n="28"/>est hac humanitate homo, et homo in 
+      <lb ed="#V" n="29"/>communi est homo humanitate in 
+      com<lb ed="#V" break="no" n="30"/>muni. Sequitur in littera : Illi autem, 
+      <lb ed="#V" n="31"/>quod est de se hoc. Sensus hujus littere 
+      <lb ed="#V" n="32"/>est : Omne ens quod de se est hoc, id 
+      <lb ed="#V" n="33"/>est, ex natura sua sive ex sua ratione 
+      for<lb ed="#V" break="no" n="34"/>mali intrinseca est hoc, est simpliciter 
+      <lb ed="#V" n="35"/>multiplicabile in plura. Sed Deitas est de 
+      <lb ed="#V" n="36"/>se haec; ergo Deus adequate 
+      correspon<lb ed="#V" break="no" n="37"/>dens Deitati est de se hic, ergo repugnat 
+      <lb ed="#V" n="38"/>ei alietas, sicut enim est impossibile esse 
+      <lb ed="#V" n="39"/>plures Deitates, ita est impossibile esse 
+      <lb ed="#V" n="40"/>plures Deos. Realiter ergo loquendo haec 
+      <lb ed="#V" n="41"/>est falsa : Deus genuit alium Deum, quia 
+      <lb ed="#V" n="42"/>in re importatur alietas Deitatis. 
+    </p>
+            <p xml:id="mm30o9-d1e544-d1e176">
+               <lb ed="#V" n="43"/>(b) Quantum ad Logicam dico, quod 
+      <lb ed="#V" n="44"/>hec tria differunt. Et expono ista tria 
+      <!--0422.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>singillatim. Nam quando dicitur, 
+      Socra<lb ed="#V" break="no" n="46"/>tes est alius ab homine, ly homo stat 
+      <lb ed="#V" n="47"/>confuse, distributive, mobiliter, quia isti 
+      <lb ed="#V" n="48"/>termini, alius, aliud, non idem, et 
+      hujus<lb ed="#V" break="no" n="49"/>modi, ratione negationis inclusae 
+      confun<lb ed="#V" break="no" n="50"/>dunt terminum sequentem (si est capax 
+      <lb ed="#V" n="51"/>confusionis) confuse, distributive, 
+      mobi<lb ed="#V" break="no" n="52"/>liter, quia licet descendere sub illo 
+      copu<lb ed="#V" break="no" n="53"/>lative, ut patet in ista : Socrates est alius 
+      <lb ed="#V" n="54"/>ab asino, et isti sunt omnes asini; ergo 
+      <lb ed="#V" n="55"/>est alius ab isto asino et ab isto, etc. 
+      Sen<lb ed="#V" break="no" n="56"/>sus enim est: Socrates est alius ab 
+      asi<lb ed="#V" break="no" n="57"/>no, id est, Socrates non est asinus, ideo 
+      <lb ed="#V" n="58"/>ista est falsa: Socrates est alius ab homine, 
+      <lb ed="#V" n="59"/>quia esset alius a se ipso, nam si est 
+      <lb ed="#V" n="60"/>alius ab homine, statim sequitur quod 
+      <lb ed="#V" n="61"/>non sit homo. 
+    </p>
+            <p xml:id="mm30o9-d1e544-d1e224">
+               <lb ed="#V" n="62"/>(c) Unde nota quod licet ratio 
+      forma<lb ed="#V" break="no" n="63"/>lis alietatis, etc. Pro intelligentia hujus 
+      <lb ed="#V" n="64"/>littere dico, quod de rigore sermonis in 
+      <lb ed="#V" n="65"/>ista : Socrates est humanitate alius a 
+      <lb ed="#V" n="66"/>Brunello, ratio formalis illius alietatis stat 
+      <lb ed="#V" n="67"/>universaliter, id est, confundit 
+      universa<lb ed="#V" break="no" n="68"/>liter, quia sensus est, quod Socrates in 
+      <lb ed="#V" n="69"/>nullo individuo humanitatis convenit cum 
+      <lb ed="#V" n="70"/>Brunello, quia humanitas est ratio 
+      conve<lb ed="#V" break="no" n="71"/>nientiae eorum tantum, quae sunt 
+      indivi<lb ed="#V" break="no" n="72"/>dua humanitatis, unde Socrates 
+      humani<lb ed="#V" break="no" n="73"/>tate est idem Platoni. Sed humanitas, 
+      <lb ed="#V" n="74"/>que est ratio differentie, quae affirmatur 
+      <lb ed="#V" n="75"/>de individuis humanitatis, non stat, nec 
+      <lb ed="#V" n="76"/>distributive mobiliter, quia tunc 
+      seque<lb ed="#V" break="no" n="77"/>retur quod Socrates esset alius a Brunello 
+      <lb ed="#V" n="78"/>hac humanitate, et sic de aliis, et sic es-' 
+      <lb ed="#V" n="79"/>set alius a Brunello humanitate Platonis, 
+      <lb ed="#V" n="80"/>quod est falsum. Nec stat determinate, 
+      <lb ed="#V" n="81"/>quia non licet descendere disjunctive, 
+      lo<lb ed="#V" break="no" n="82"/>quendo generaliter, quia de rigore 
+      ser<lb ed="#V" break="no" n="83"/>monis hec est falsa : Socrates est alius 
+      <lb ed="#V" n="84"/>a Platone, ergo hac humanitate est alius 
+      <lb ed="#V" n="85"/>a Platone, non sequitur, quia ipsa non 
+      <lb ed="#V" n="86"/>est ratio differentie, et sic patet 
+      lit<lb ed="#V" break="no" n="87"/>tera. 
+    </p>
+            <p xml:id="mm30o9-d1e544-d1e283">
+               <lb ed="#V" n="88"/>(d) In tertia cum dicitur, etc. et distin- 
+      <!--0423.xml-->
+      <pb ed="#V" n="423"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>gui ipsis extremis, sicut in ista : 
+      Socra<lb ed="#V" break="no" n="2"/>tes est alius in humanitate a Joanne; 
+      <lb ed="#V" n="3"/>ista autem est falsa : Socrates est alius 
+      <lb ed="#V" n="4"/>in humanitate a Joanne, extrema sunt : 
+      <lb ed="#V" n="5"/>Socrates et Joannes, et determinabile 
+      <lb ed="#V" n="6"/>per alietatem humanitatis, quee notatur 
+      <lb ed="#V" n="7"/>distingui in Socrate et Joanne, et sic 
+      <lb ed="#V" n="8"/>ista est vera: Socrates est alius in 
+      hu<lb ed="#V" break="no" n="9"/>manitate a Brunello, quia tunc 
+      notare<lb ed="#V" break="no" n="10"/>tur humanitas distingui in Socrate et 
+      <lb ed="#V" n="11"/>Brunello, et esse communis eis, quod 
+      <lb ed="#V" n="12"/>est manifeste falsum, et patet littera. 
+    </p>
+            <p xml:id="mm30o9-d1e544-d1e320">
+               <lb ed="#V" n="13"/>(e) Ad propositum igitur quam 
+      ista<lb ed="#V" break="no" n="14"/>rum trium, etc. Hec est falsa : Filius est 
+      <lb ed="#V" n="15"/>alius Deus Deitate a Patre, quia tunc 
+      <lb ed="#V" n="16"/>notaretur, quod Deitas esset ratio 
+      forma<lb ed="#V" break="no" n="17"/>lis distinguendi Filium a Patre, quod est 
+      <lb ed="#V" n="18"/>falsum, est enim ratio formalis 
+      conve<lb ed="#V" break="no" n="19"/>nientiae personarum ad invicem. 
+      Sequi<lb ed="#V" break="no" n="20"/>tur : Sed significat tertium, etc. Sensus 
+      <lb ed="#V" n="21"/>hujus litterae est cum dicitur : Filius 
+      <lb ed="#V" n="22"/>genitus est alius Deus a Patre 
+      generan<lb ed="#V" break="no" n="23"/>te; ly alius ponit suum significatum, 
+      scili<lb ed="#V" break="no" n="24"/>cet alietatem circa per se significatum 
+      <lb ed="#V" n="25"/>extremorum, quae sunt Filius genitus et 
+      <lb ed="#V" n="26"/>Pater generans, denotans unum esse ab 
+      <lb ed="#V" n="27"/>alio sive distingui ab alio ; etiam ly alius 
+      <lb ed="#V" n="28"/>ponit suum significatum, scilicet 
+      alieta<lb ed="#V" break="no" n="29"/>tem circa significatum determinabilis, 
+      <lb ed="#V" n="30"/>scilicet Deus, denotans ipsum Deum esse 
+      <lb ed="#V" n="31"/>communem utrique extremo, scilicet 
+      Fi<lb ed="#V" break="no" n="32"/>lio et Patri, et distingui in eis, ita quod 
+      <lb ed="#V" n="33"/>Deus in Filio sit alius a Deo in Patre, 
+      <lb ed="#V" n="34"/>quod est falsum. Et sic ista propositio est 
+      <lb ed="#V" n="35"/>falsa : Filius genitus est alius in Deitate 
+      <lb ed="#V" n="36"/>a Patre generante, vel Filius genitus est 
+      <lb ed="#V" n="37"/>alius Deus a Patre. 
+    </p>
+            <p xml:id="mm30o9-d1e544-d1e378"><!-- lycht-l1d4q1-n3 -->
+               <lb ed="#V" n="65"/>COMMENTARIUS. 
+      <lb ed="#V" n="66"/>(a) Ad primum argumentum. 
+      Respon<lb ed="#V" break="no" n="67"/>det Doctor concedendo antecedens, quia 
+      <lb ed="#V" n="68"/>termini,etc. id est,quod terminus concretus 
+      <lb ed="#V" n="69"/>in suppositione personali potest supponere 
+      <lb ed="#V" n="70"/>pro suppositis. Sicut in ista, homo currit, 
+      <lb ed="#V" n="71"/>ly homo supponit personaliter, quia talia 
+      <lb ed="#V" n="72"/>sunt subjecta, qualia permittunt eorum 
+      <lb ed="#V" n="73"/>praedicata, nam hoc predicatum currere 
+      <lb ed="#V" n="74"/>tantum verificatur de suppositis, et per 
+      <lb ed="#V" n="75"/>consequens supposita hominis non 
+      extra<lb ed="#V" break="no" n="76"/>neantur huic praedicato. Si vero dicatur, 
+      <lb ed="#V" n="77"/>homo est species, ly homo non. potest 
+      <lb ed="#V" n="78"/>supponere pro suppositis, quia species 
+      tan<lb ed="#V" break="no" n="79"/>tum nata est verificari de homine in 
+      com<lb ed="#V" break="no" n="80"/>muni et non de aliquo supposito hominis, 
+      <lb ed="#V" n="81"/>ideo supposita hominis respectu hujus 
+      <lb ed="#V" n="82"/>predicati extraneantur ; modo in 
+      propo<lb ed="#V" break="no" n="83"/>sito cum dicimus : Deus genuit Deum, ly 
+      <lb ed="#V" n="84"/>Deus stat personaliter, quia hoc 
+      praedica<lb ed="#V" break="no" n="85"/>tum enerare non verificatur nisi de 
+      suppo<lb ed="#V" break="no" n="86"/>sito. Non enim poterit verificari de Deitate, 
+      <lb ed="#V" n="87"/>quia Deitas, nec generat, nec generatur, ut 
+      <!--0426.xml-->
+      <pb ed="#V" n="426"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>infra patebit d. 5. q. 1. Sed non 
+      sequi<lb ed="#V" break="no" n="2"/>tur modo: Deus genuit Deum, id est, 
+      <lb ed="#V" n="3"/>Deus Pater genuit Deum Filium; ergo 
+      <lb ed="#V" n="4"/>genuit se Deum aut alium Deum. Patet 
+      <lb ed="#V" n="5"/>quod nec se Deum, nec alium Deum ; 
+      <lb ed="#V" n="6"/>non alium Deum, quia alietas notat 
+      su<lb ed="#V" break="no" n="7"/>um determinabile, puta Deitatem 
+      distin<lb ed="#V" break="no" n="8"/>gui in extremis, quod non significatur 
+      <lb ed="#V" n="9"/>in antecedente, in quo dicitur, Deus 
+      ge<lb ed="#V" break="no" n="10"/>nuit Deum. Sequitur: 
+    </p>
+            <p xml:id="mm30o9-d1e544-d1e459">
+               <lb ed="#V" n="11"/>(b) Unde sicut propositio est falsa ubi 
+      <lb ed="#V" n="12"/>alietas additur determinabili, quod non 
+      <lb ed="#V" n="13"/>est commune suis extremis. Sicut haec 
+      <lb ed="#V" n="14"/>est falsa : Franciscus est alius homo a 
+      <lb ed="#V" n="15"/>Brunello, sive est alius in humanitate a 
+      <lb ed="#V" n="16"/>Brunello, ut supra patuit. Similiter heec 
+      <lb ed="#V" n="17"/>est falsa : Sol est alius mus, quia tunc 
+      <lb ed="#V" n="18"/>notaretur, quod natura muris esset 
+      divi<lb ed="#V" break="no" n="19"/>sa in Solem et in murem, sicut cum 
+      di<lb ed="#V" break="no" n="20"/>co Joannes est alius homo, denotatur quod 
+      <lb ed="#V" n="21"/>homo distinguitur, nec enim conceditur 
+      <lb ed="#V" n="22"/>quod Joannes sit alius asinus, quia tunc 
+      <lb ed="#V" n="23"/>natura asini conveniret Joanni; sic in 
+      pro<lb ed="#V" break="no" n="24"/>posito cum dicitur: Sol est alius mus, 
+      <lb ed="#V" n="25"/>sequitur quod natura muris convenit 
+      So<lb ed="#V" break="no" n="26"/>li, et sic Sol esset unus mus distinctus 
+      <lb ed="#V" n="27"/>ab alio mure. Si ergo Sol generat 
+      mu<lb ed="#V" break="no" n="28"/>rem, igitur se murem aut alium murem ? 
+      <lb ed="#V" n="29"/>sed alium, qui est mus. Ita in proposito, 
+      <lb ed="#V" n="30"/>propositio est falsa, in qua alietas 
+      ad<lb ed="#V" break="no" n="31"/>ditur determinabili, quod non 
+      distingui<lb ed="#V" break="no" n="32"/>tur in extremis. Sic hec est falsa: Pater 
+      <lb ed="#V" n="33"/>in Deitate est alus a Filio, et ideo non 
+      <lb ed="#V" n="34"/>sequitur, Deus Pater genuit Deum, aut 
+      <lb ed="#V" n="35"/>igitur se Deum aut alium Deum, sed 
+      <lb ed="#V" n="36"/>sequitur quod genuit alium, qui est Deus, 
+      <lb ed="#V" n="37"/>sicut exponit Magister in littera. 
+      Sequi<lb ed="#V" break="no" n="38"/>tur: 
+    </p>
+            <p xml:id="mm30o9-d1e544-d1e522">
+               <lb ed="#V" n="39"/>(c) Quod si probetur illa consequentia 
+      <lb ed="#V" n="40"/>sic, omne namque, scilicet ens, aut 
+      di<lb ed="#V" break="no" n="41"/>versum, aut idem, et secundum aliam 
+      <lb ed="#V" n="42"/>litteram : Omne enim ens aut diversum, 
+      <lb ed="#V" n="43"/>aut idem, et ponit ibi differentiam inter 
+      <lb ed="#V" n="44"/>diversum et differens, vide ibi. Respon- 
+      <!--0426.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>det Doctor, et responsio clara est, et 
+      con<lb ed="#V" break="no" n="46"/>cedit quod Deus genuit eumdem Deum, 
+      <lb ed="#V" n="47"/>quia Filium qui est idem Deus; sed non 
+      <lb ed="#V" n="48"/>sequitur, ergo genuit se Deum, quia 
+      <lb ed="#V" n="49"/>pronomen reciprocum, cujusmodi est ly 
+      <lb ed="#V" n="50"/>se, denotat actum terminari ad idem 
+      sup<lb ed="#V" break="no" n="51"/>positum, a quo procedit ille actus; patet 
+      <lb ed="#V" n="52"/>quia cum dico, Franciscus diligit se, 
+      de<lb ed="#V" break="no" n="53"/>notatur quod dilectio, que egreditur a 
+      <lb ed="#V" n="54"/>Francisco, terminetur ad eumdem 
+      Fran<lb ed="#V" break="no" n="55"/>ciscum. Sic in proposito, si ista essent 
+      <lb ed="#V" n="56"/>vere reciproca, Deus Pater genuit se Deum, 
+      <lb ed="#V" n="57"/>denotaretur quod generatio ipsa 
+      egrede<lb ed="#V" break="no" n="58"/>retur a supposito Patris, et terminaretur 
+      <lb ed="#V" n="59"/>ad illud suppositum, et sic idem 
+      suppo<lb ed="#V" break="no" n="60"/>situm generaret se ipsum, quod est 
+      im<lb ed="#V" break="no" n="61"/>possibile. Ideo non sequitur: Deus Pater 
+      <lb ed="#V" n="62"/>genuit eumdem Deum; ergo se Deum, 
+      <lb ed="#V" n="63"/>quia antecedens non est reciprocum, 
+      no<lb ed="#V" break="no" n="64"/>tatur enim generatio egredi a supposito 
+      <lb ed="#V" n="65"/>Patris, et terminari ad suppositum Filii, 
+      <lb ed="#V" n="66"/>qui est idem Deus cum Patre. Et hoc 
+      <lb ed="#V" n="67"/>est, quod dicit, et commititur fallacia 
+      <lb ed="#V" n="68"/>consequentis, et figure dictionis. 
+    </p>
+            <p xml:id="mm30o9-d1e544-d1e594">
+               <lb ed="#V" n="69"/>De fallacia consequentis patet, quia 
+      ar<lb ed="#V" break="no" n="70"/>guitur a propositione consequentis ad 
+      po<lb ed="#V" break="no" n="71"/>sitionem antecedentis, nam cum dicitur : 
+      <lb ed="#V" n="72"/>Deus genuit eumdem Deum; ergo se Deum 
+      <lb ed="#V" n="73"/>non sequitur, quia antecedens in plus 
+      <lb ed="#V" n="74"/>habet, quia bene sequitur, Deus genuit 
+      <lb ed="#V" n="75"/>se Deum, ergo genuit eumdem Deum, non 
+      <lb ed="#V" n="76"/>tamen e converso, sicut si argueretur : 
+      <lb ed="#V" n="77"/>homo currit, ergo animal currit, bene 
+      se<lb ed="#V" break="no" n="78"/>quitur, quia arguitur a positione 
+      antece<lb ed="#V" break="no" n="79"/>dentis ad positionem consequentis, sive 
+      <lb ed="#V" n="80"/>a minus universali ad magis universale, 
+      <lb ed="#V" n="81"/>sed e converso non sequitur : animal 
+      cur<lb ed="#V" break="no" n="82"/>rit, ergo homo currit; arguitur enim a 
+      <lb ed="#V" n="83"/>positione consequentis, sive a positione 
+      <lb ed="#V" n="84"/>magis communis ad positionem minus 
+      <lb ed="#V" n="85"/>communis sive antecedentis. Similiter 
+      <lb ed="#V" n="86"/>committitur fallacia figure dictionis, que 
+      <lb ed="#V" n="87"/>potest contingere dupliciter, quia in 
+      an<lb ed="#V" break="no" n="88"/>tecedente supponit Deus pro Filio, et in 
+      <!--0427.xml-->
+      <pb ed="#V" n="427"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>consequente pro Patre, scilicet dicendo : 
+      <lb ed="#V" n="2"/>Deus genuit eumdem Deum; ergo se 
+      De<lb ed="#V" break="no" n="3"/>um vel alium Deum, ly se Deum supponit 
+      <lb ed="#V" n="4"/>pro Patre, et ly alium Deum supponit 
+      <lb ed="#V" n="5"/>pro alio a Deitate Patris. Secundo ex 
+      <lb ed="#V" n="6"/>quadam similitudine, quia cum dicitur, 
+      <lb ed="#V" n="7"/>Deus genuit eumdem Deum; ergo se 
+      De<lb ed="#V" break="no" n="8"/>um vel alium Deum, non sequitur, quia 
+      <lb ed="#V" n="9"/>propter similitudinem persone generantis 
+      <lb ed="#V" n="10"/>ad personam genitam in Deitate, quia 
+      i<lb ed="#V" break="no" n="11"/>dem Deus dicitur de utraque, velle modo 
+      <lb ed="#V" n="12"/>concludere hoc de ipso Deo, vel tantum 
+      <lb ed="#V" n="13"/>de una persona, committitur fallacia 
+      <lb ed="#V" n="14"/>figurae dictionis, nam ly se Deum stat 
+      <lb ed="#V" n="15"/>pro Patre, et ly alium Deum stat pro 
+      a<lb ed="#V" break="no" n="16"/>lio in Deitate, et sic committitur fallacia 
+      <lb ed="#V" n="17"/>figure dictionis. 
+    </p>
+            <p xml:id="mm30o9-d1e544-d1e683">
+               <lb ed="#V" n="18"/>(d) Ad secundum. Respondet quod ista 
+      <lb ed="#V" n="19"/>argumentatio reducenda est ad duos 
+      syllo<lb ed="#V" break="no" n="20"/>gismos, qui patent in littera ; et dicit, 
+      <lb ed="#V" n="21"/>quod in isto syllogismo, generans 
+      dis<lb ed="#V" break="no" n="22"/>tinguitur a genito, etc. 
+    </p>
+            <p xml:id="mm30o9-d1e544-d1e696">
+               <lb ed="#V" n="23"/>Et nota, quod medium accipitur hic 
+      <lb ed="#V" n="24"/>pro subjecto minoris, et licet generans 
+      <lb ed="#V" n="25"/>et genitum sint idem ipsi absolute et 
+      <lb ed="#V" n="26"/>essentialiter, quia generans est 
+      essen<lb ed="#V" break="no" n="27"/>tialiter Deus, et genitum est 
+      essentiali<lb ed="#V" break="no" n="28"/>ter idem Deus, tamen Deus 
+      extranea<lb ed="#V" break="no" n="29"/>tur utrique extremo, ut unum extremum 
+      <lb ed="#V" n="30"/>distinguitur realiter ab altero ; 
+      conclu<lb ed="#V" break="no" n="31"/>dere ergo distinctionem realem vel 
+      es<lb ed="#V" break="no" n="32"/>sentialem Dei a genito propter 
+      distin<lb ed="#V" break="no" n="33"/>ctionem generantis et geniti, quibus, ut 
+      <lb ed="#V" n="34"/>sic Deus extraneatur, est facere 
+      falla<lb ed="#V" break="no" n="35"/>ciam accidentis. Unde fit fallacia 
+      acci<lb ed="#V" break="no" n="36"/>dentis nisi major extremitas, scilicet 
+      ge<lb ed="#V" break="no" n="37"/>nitum dicatur de medio, scilicet de 
+      mi<lb ed="#V" break="no" n="38"/>nori extremitate in conclusione 
+      secun<lb ed="#V" break="no" n="39"/>dum illam rationem secundum quam 
+      <lb ed="#V" n="40"/>medium, scilicet Deus, dicatur de 
+      extre<lb ed="#V" break="no" n="41"/>mis, scilicet generante et genito ; 
+      dici<lb ed="#V" break="no" n="42"/>tur autem Deus de eis, ut est idem 
+      es<lb ed="#V" break="no" n="43"/>sentialiter et realiter illis. In 
+      conclu<lb ed="#V" break="no" n="44"/>sione vero genitum dicitur de Deo, ut 
+      <!--0427.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>aliud ab ipso. Et accipitur hic medium 
+      <lb ed="#V" n="46"/>pro illo, in quo conveniunt duo 
+      extre<lb ed="#V" break="no" n="47"/>ma, et non accipitur hic proprie pro 
+      <lb ed="#V" n="48"/>medio syllogismi. Similiter dico, quod 
+      <lb ed="#V" n="49"/>in alio syllogismo committitur fallacia 
+      <lb ed="#V" n="50"/>accidentis, quando arguitur sic : 
+      geni<lb ed="#V" break="no" n="51"/>tum est Deus ; Deus distinguitur a ge 
+      <lb ed="#V" n="52"/>nito, ergo Deus distinguitur a Deo, 
+      <lb ed="#V" n="53"/>quia genitum est Deus, et Deus 
+      gene<lb ed="#V" break="no" n="54"/>rans est Deus, et sic Deus extraneatur 
+      ge<lb ed="#V" break="no" n="55"/>neranti Deo et Deo genito, ut generans 
+      <lb ed="#V" n="56"/>distinguitur a genito, ut supra patuit. 
+      <lb ed="#V" n="57"/>Sicut lac est dulce et album, tamen 
+      ex<lb ed="#V" break="no" n="58"/>traneatur utrique, ut album 
+      distingui<lb ed="#V" break="no" n="59"/>tur a dulci. 
+    </p>
+            <p xml:id="mm30o9-d1e544-d1e784">
+               <lb ed="#V" n="60"/>(e) Ad tertium. Respondet 
+      conceden<lb ed="#V" break="no" n="61"/>do, quod Deus genuit alium, et negat 
+      <lb ed="#V" n="62"/>quod alium Deum vel alium non Deum, 
+      <lb ed="#V" n="63"/>nec ista contradicunt. Nam loquendo 
+      <lb ed="#V" n="64"/>de contradictoriis complexis, ista 
+      con<lb ed="#V" break="no" n="65"/>tradicunt : Deus genuit alium Deum, 
+      <lb ed="#V" n="66"/>Deus non genuit alium Deum, ista 
+      se<lb ed="#V" break="no" n="67"/>secunda est vera, et prima falsa. Istae 
+      <lb ed="#V" n="68"/>autem non contradicunt : Deus genuit 
+      <lb ed="#V" n="69"/>alium Deum, et Deus genuit alium non 
+      <lb ed="#V" n="70"/>Deum . 
+    </p>
+            <p xml:id="mm30o9-d1e544-d1e810">
+               <lb ed="#V" n="71"/>(f) Et si arguitur in contradictoriis 
+      <lb ed="#V" n="72"/>incomplexis, etc. Pro intelligentia 
+      hu<lb ed="#V" break="no" n="73"/>jus littere nota, quod contradictoria 
+      <lb ed="#V" n="74"/>complexa sunt propositiones, et 
+      contra<lb ed="#V" break="no" n="75"/>dictoria complexa sunt termini. 
+      Exem<lb ed="#V" break="no" n="76"/>plum primi: Omnis homo est animal, 
+      <lb ed="#V" n="77"/>aliquis homo non est animal. 
+      Exem<lb ed="#V" break="no" n="78"/>plum secundi : Homo aut est animal, 
+      <lb ed="#V" n="79"/>aut non animal. Et aliquando in una 
+      <lb ed="#V" n="80"/>propositione erunt praedicata complexa, 
+      <lb ed="#V" n="81"/>ut homo, aut est animal rationale, aut 
+      <lb ed="#V" n="82"/>non animal rationale ; contradictoria 
+      er<lb ed="#V" break="no" n="83"/>go omnino incomplexa dicuntur de 
+      quo<lb ed="#V" break="no" n="84"/>libet, ita quod alterum necessario inest. 
+      <lb ed="#V" n="85"/>Et sic in proposito: Deus genuit aut 
+      <lb ed="#V" n="86"/>alium, aut non alium, dico quod alium. 
+      Si<lb ed="#V" break="no" n="87"/>militer Deus genuit aut Deum, aut non 
+      <lb ed="#V" n="88"/>Deum ; dico quod Deum, et sic alte- 
+      <!--0428.xml-->
+      <pb ed="#V" n="428"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>rum contradictoriorum verificatur de Deo. 
+      <lb ed="#V" n="2"/>Si vero unum illorum determinetur per 
+      <lb ed="#V" n="3"/>alterum alterius contradictionis, tunc non 
+      <lb ed="#V" n="4"/>verificatur. Exemplum primae 
+      contradi<lb ed="#V" break="no" n="5"/>ctionis, alium non alium. Exemplum 
+      se<lb ed="#V" break="no" n="6"/>cunde : Deum non Deum. Si modo 
+      a<lb ed="#V" break="no" n="7"/>lius determinetur per Dewm vel non 
+      <lb ed="#V" n="8"/>Deum, vel e contra, ita quod Deus 
+      de<lb ed="#V" break="no" n="9"/>terminetur per alium vel non alium, 
+      <lb ed="#V" n="10"/>non contradicunt. Exemplum primi : 
+      <lb ed="#V" n="11"/>Deus genuit ; ergo alium vel non alium, 
+      <lb ed="#V" n="12"/>ergo vel alium Deum vel alium non Deum. 
+      <lb ed="#V" n="13"/>Exemplum secundi : Deus genuit ; ergo 
+      <lb ed="#V" n="14"/>Deum, vel non Deum, ergo genuit alium 
+      <lb ed="#V" n="15"/>Deum, vel alium Deum, vel non alium 
+      <lb ed="#V" n="16"/>Deum. 
+    </p>
+            <p xml:id="mm30o9-d1e544-d1e893">
+               <lb ed="#V" n="17"/>Dico, quod nec hoc, nec illud, et hoc si 
+      <lb ed="#V" n="18"/>alium Deum, vel alium non Deum 
+      ac<lb ed="#V" break="no" n="19"/>cipiantur in sensu composito, quia 
+      sen<lb ed="#V" break="no" n="20"/>sus est, quod genuit vel aliud in 
+      Dei<lb ed="#V" break="no" n="21"/>tate, vel aliam personam non Deum. 
+      <lb ed="#V" n="22"/>Ista bene contradicunt : aut genuit alium 
+      <lb ed="#V" n="23"/>Deum, aut non genuit alium Deum. Et 
+      <lb ed="#V" n="24"/>secunda est vera, et est contradictio 
+      <lb ed="#V" n="25"/>in complexis. Si vero accipiantur in 
+      <lb ed="#V" n="26"/>sensu diviso, tunc contradicunt, et est 
+      <lb ed="#V" n="27"/>sensus: aut genuit alium Deum, id est, 
+      <lb ed="#V" n="28"/>genuit aliam personam, que est Deus ; 
+      <lb ed="#V" n="29"/>aut alium non Deum, id est, genuit 
+      <lb ed="#V" n="30"/>aliam personam que non est Deus. Et 
+      <lb ed="#V" n="31"/>prima propositio est vera et secunda 
+      <lb ed="#V" n="32"/>falsa. 
+    </p>
+            <p xml:id="mm30o9-d1e544-d1e930">
+               <lb ed="#V" n="33"/>Et quod dicit ibi : De divisis ad 
+      con<lb ed="#V" break="no" n="34"/>juncta, etc. sic intelligitur, quod non 
+      se<lb ed="#V" break="no" n="35"/>quitur ex divisis omnibus conjunctim, 
+      <lb ed="#V" n="36"/>quia divisim ista sunt vera: Deus genuit 
+      <lb ed="#V" n="37"/>alium, Deus genuit Deum ; et tamen non 
+      <lb ed="#V" n="38"/>sequitur conjunctim, ergo genuit alium 
+      <lb ed="#V" n="39"/>Deum. 
+    </p>
+            <p xml:id="mm30o9-d1e544-d1e948">
+               <lb ed="#V" n="40"/>(g) Ad quartum. Respondet, et 
+      respon<lb ed="#V" break="no" n="41"/>sio stat in hoc: Nam quando ly alius, stat 
+      <lb ed="#V" n="42"/>absolute substantivatur, ut hic Deus 
+      <lb ed="#V" n="43"/>genuit alium habentem Deitatem, ly Deus 
+      <lb ed="#V" n="44"/>stat pro persona. Et cum dicitur, ergo a- 
+      <!--0428.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>lium Deum, ly alius stat adjective, et 
+      sub<lb ed="#V" break="no" n="46"/>stantivum est Deus, et ponit suum 
+      signi<lb ed="#V" break="no" n="47"/>ficatum, scilicet ipsam alietatem circa 
+      <lb ed="#V" n="48"/>Deitatem, et sic est fallacia figurae 
+      dictio<lb ed="#V" break="no" n="49"/>nis, ut patet hic. Est etiam fallacia 
+      con<lb ed="#V" break="no" n="50"/>sequentis a negatione antecedentis ad 
+      ne<lb ed="#V" break="no" n="51"/>gationem consequentis, nam alius 
+      inclu<lb ed="#V" break="no" n="52"/>dit negationem. Exemplum, Franciscus 
+      <lb ed="#V" n="53"/>est alius a Joanne, et Joannes est homo; 
+      <lb ed="#V" n="54"/>ergo est alius ab homine, quia sequitur : 
+      <lb ed="#V" n="55"/>Franciscus non est Joannes, et Joannes est 
+      <lb ed="#V" n="56"/>homo; ergo Franciscus non est homo. 
+      Si<lb ed="#V" break="no" n="57"/>militer hic : Deus Pater genuit alium 
+      ha<lb ed="#V" break="no" n="58"/>bentem Deitatem, scilicet Filium, et 
+      Fili<lb ed="#V" break="no" n="59"/>us est Deus, et Pater est alius a Filio; 
+      er<lb ed="#V" break="no" n="60"/>go alius a Deo quia ex primo sequitur, 
+      <lb ed="#V" n="61"/>quod Pater non est Filius, ergo Pater non 
+      <lb ed="#V" n="62"/>est Deus, quod sequitur ex secundo. 
+    </p>
+            <p xml:id="mm30o9-d1e544-d1e1005">
+               <lb ed="#V" n="63"/>(h) Ad Damascenum cap. 5. Deus est 
+      <lb ed="#V" n="64"/>divinam habens naturam, et homo 
+      hu<lb ed="#V" break="no" n="65"/>manam. Dicit Doctor, quod descriptio 
+      <lb ed="#V" n="66"/>Damasceni est tantum quaedam 
+      explica<lb ed="#V" break="no" n="67"/>tio nominis, non autem expressio per se 
+      <lb ed="#V" n="68"/>significati, id est, hoc quod dico habens 
+      <lb ed="#V" n="69"/>Deitatem, non importat suppositum 
+      ha<lb ed="#V" break="no" n="70"/>bens Deitatem de principali significato, 
+      <lb ed="#V" n="71"/>quia concretum, quale est hoc, habens 
+      <lb ed="#V" n="72"/>Deitatem significat formam, que inest 
+      <lb ed="#V" n="73"/>supposito, et non significat suppositum, 
+      <lb ed="#V" n="74"/>sed tantum connotat, sicut album 
+      signifi<lb ed="#V" break="no" n="75"/>cat albedinem, connotando subjectum 
+      si<lb ed="#V" break="no" n="76"/>ve concernendo suppositum ; album enim 
+      <lb ed="#V" n="77"/>importat hoc, quod habens albedinem, 
+      <lb ed="#V" n="78"/>ut cum dico, Franciscus albus, id est, 
+      <lb ed="#V" n="79"/>Franciscus habens albedinem, tamen 
+      con<lb ed="#V" break="no" n="80"/>cretum et abstractum idem significant, 
+      <lb ed="#V" n="81"/>licet modus significandi sit alius, id est, 
+      <lb ed="#V" n="82"/>quod album significat eamdem albedinem, 
+      <lb ed="#V" n="83"/>sed diversimode, quia cum significat 
+      <lb ed="#V" n="84"/>eam in concreto, significat ipsam ut 
+      inhe<lb ed="#V" break="no" n="85"/>rentem, ut cum dico habens albedinem; 
+      <lb ed="#V" n="86"/>et cum significat in abstracto, significat 
+      <lb ed="#V" n="87"/>eam ut nullo modo inhaerentem, nec ut 
+      <lb ed="#V" n="88"/>sic natam denominare suppositum, ut al- 
+      <!--0429.xml-->
+      <pb ed="#V" n="429"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>bedo in se considerata, que ut sic, est 
+      <lb ed="#V" n="2"/>tantum nata praedicari de inferioribus, 
+      <lb ed="#V" n="3"/>ut de hac albedine et illa, et non de 
+      sub<lb ed="#V" break="no" n="4"/>jecto, cum ista sit falsa: A est albedo, 
+      <lb ed="#V" n="5"/>potest bene fieri major abstractio, ut 
+      di<lb ed="#V" break="no" n="6"/>cendo albedineitas, de qua infra dist. 5. 
+      <lb ed="#V" n="7"/>. 1. Et loquitur hic Doctor tantum de 
+      <lb ed="#V" n="8"/>concretis concretione ad subjectum, et 
+      <lb ed="#V" n="9"/>non de concretis concretione ad 
+      supposi<lb ed="#V" break="no" n="10"/>tum. 
+    </p>
+            <p xml:id="mm30o9-d1e544-d1e1093">
+               <lb ed="#V" n="11"/>Ad propositum applicando dico, quod 
+      <lb ed="#V" n="12"/>in hujusmodi etymologiis et 
+      descriptio<lb ed="#V" break="no" n="13"/>nibus non oportet, quod quidquid potest 
+      <lb ed="#V" n="14"/>vere conjungi cum descriptionibus et 
+      <lb ed="#V" n="15"/>descriptis. Descriptio hujus: Deus est 
+      <lb ed="#V" n="16"/>habens Deitatem, ly Deus est 
+      descrip<lb ed="#V" break="no" n="17"/>tum, ly habens Deitatem est descriptio, 
+      <lb ed="#V" n="18"/>et nota quod ly Deus, ut explicatur per 
+      <lb ed="#V" n="19"/>habens Deitatem non supponit pro Deo 
+      <lb ed="#V" n="20"/>absolute, non concernendo aliquod 
+      suppo<lb ed="#V" break="no" n="21"/>situm divinum, quia hec est falsa: Deus 
+      <lb ed="#V" n="22"/>ut Deus, est habens Deitatem, sed 
+      sup<lb ed="#V" break="no" n="23"/>positum, de quo dicitur, Deus est habens 
+      <lb ed="#V" n="24"/>Deitatem ; aliquid ergo vere 
+      conjungi<lb ed="#V" break="no" n="25"/>tur cum ista descriptione, scilicet habens 
+      <lb ed="#V" n="26"/>Deitatem, quod vere non potest 
+      conjun<lb ed="#V" break="no" n="27"/>gi cum descripto, scilicet Deo, patet, 
+      <lb ed="#V" n="28"/>quia ly alius conjungitur vere cum ista 
+      <lb ed="#V" n="29"/>descriptione habens Deitatem, quia ista 
+      <lb ed="#V" n="30"/>est vera: Deus genuit alium habentem 
+      <lb ed="#V" n="31"/>Deitatem, quia genuit Filium 
+      haben<lb ed="#V" break="no" n="32"/>tem eamdem Deitatem, qui est alius 
+      <lb ed="#V" n="33"/>a Patre; et tamen ly alius non 
+      po<lb ed="#V" break="no" n="34"/>test vere eonjungi cum hoc descripto, 
+      <lb ed="#V" n="35"/>scilicet Deus, quia ista est falsa: alius 
+      <lb ed="#V" n="36"/>Deus, et similiter ista: Deus genwit 
+      ali<lb ed="#V" break="no" n="37"/>um Deum, et ideo non sequitur, Deus 
+      ge<lb ed="#V" break="no" n="38"/>nuit alium habentem Deitatem, ergo 
+      ge<lb ed="#V" break="no" n="39"/>nuit alium Deum ; sicut etiam hinc non 
+      <lb ed="#V" n="40"/>sequitur, sciens, id est, habens scientiam. 
+      <lb ed="#V" n="41"/>Franciscus est habens duas scientias, 
+      er<lb ed="#V" break="no" n="42"/>go Franciscus est duo sciens; ly duo 
+      be<lb ed="#V" break="no" n="43"/>ne conjungitur cum hac descriptione, id 
+      <lb ed="#V" n="44"/>est, est habens scientiam, et tamen non 
+      <!--0429.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>recte conjungitur cum descripte, ut patet. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>
