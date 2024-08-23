@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#per-FLBca3">Franciscus Lychetus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2024-08-23">August 23, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-23" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="597"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="mm30o9-d1e1293"><!-- lycht-d37q1-p1 -->
+        <head xml:id="mm30o9-d1e1293-Hd1e101">Quaestio 1</head>
+        <p xml:id="mm30o9-d1e1293-d1e103">
+          <lb ed="#V" n="14" type="fixed=596"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1293-d1e108">
+          <lb ed="#V" n="15"/>(a) Utrum Deum esse praesentem 
+          ubi<lb break="no" ed="#V" n="16"/>que, etc. id est, an illa consequentia
+          <lb ed="#V" n="17"/>sit bona: Deus operatur vel potest 
+          ope<lb break="no" ed="#V" n="18"/>rari ubique ; ergo Deus est essentialiter
+          <lb ed="#V" n="19"/>ubique, secundum propriam et realem
+          <lb ed="#V" n="20"/>praesentiam su: essentia, et sic 
+          intel<lb break="no" ed="#V" n="21"/>ligitur titulus questionis.
+        </p>
+        <!--</div>
+          <div alias="lycht-d37q1-p2">-->
+        <p xml:id="mm30o9-d1e1293-d1e128">
+          <lb ed="#V" n="78" type="fixed=597"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1293-d1e134">
+          <lb ed="#V" n="79"/>(b) Respondeo, agens creatum potest
+          <lb ed="#V" n="80"/>agere ubi non est, etc. Exemplum, Sol
+          <lb ed="#V" n="81"/>in visceribus terre aliquid agit ut
+          <lb ed="#V" n="82"/>metalla, et calefacit superficiem terra
+          <lb ed="#V" n="83"/>et aerem, et illuminat colum sibi
+          <lb ed="#V" n="84"/>contiguum, et ideo non agit actione
+          <lb ed="#V" n="85"/>ejusdem rationis in passa omnia, ut
+          <lb ed="#V" n="86"/>patet in exemplo. Addit Doctor quod
+          <pb ed="#V" n="598"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>non semper agit eadem potentia in 
+          re<lb break="no" ed="#V" n="2"/>motum, et propinquum, patet, quia 
+          cor<lb break="no" ed="#V" n="3"/>pus celeste generans mineram in vis:
+          <lb ed="#V" n="4"/>ceribus terrae vel aliquod mixtum in
+          <lb ed="#V" n="5"/>his inferioribus, generat mediante sua
+          <lb ed="#V" n="6"/>forma substantiali, quia non substantia
+          <lb ed="#V" n="7"/>non potest generare substantiam, ut
+          <lb ed="#V" n="8"/>probat <ref xml:id="mm30o9-d1e1293-Rd1e172">Doctor in 4. dist. 12.</ref> et tamen
+          <lb ed="#V" n="9"/>calefacit propinquum mediante 
+          lumi<lb break="no" ed="#V" n="10"/>ne, et similiter mediante luce sua 
+          illu<lb break="no" ed="#V" n="11"/>minat coelum. Et dicit quod Aoc 
+          acci<lb break="no" ed="#V" n="12"/>dit, scilicet quod secundum unam 
+          po<lb break="no" ed="#V" n="13"/>lentiam agat in remotum,et secundum
+          <lb ed="#V" n="14"/>aliam in propinquum, vel scilicet 
+          prop<lb break="no" ed="#V" n="15"/>ter conjunctionem istarum potentiarum,
+          <lb ed="#V" n="16"/>quarum una habet pro passo 
+          proportio<lb break="no" ed="#V" n="17"/>nato propinquum, et alia. remotum.
+          <lb ed="#V" n="18"/>Reliqua patent. Concluditur ergo Deum
+          <lb ed="#V" n="19"/>esse ubique ratione su: immensitatis,
+          <lb ed="#V" n="20"/>ut alibi patebit. .
+        </p>
+        <p xml:id="mm30o9-d1e1293-d1e202">
+          <lb ed="#V" n="21"/>Sed <ref xml:id="mm30o9-d1e1293-Rd1e206">quidam novus expositor S. 
+          Tho<lb break="no" ed="#V" n="22"/>me respondet 22 prima parte, quest. 8.
+          <lb ed="#V" n="23"/>art. 2.</ref> Primo dicens, <quote xml:id="mm30o9-d1e1293-Qd1e218" source="http://scta.info/resource/TAcCaj-d1e87-d1e225@10-16">quod haec est
+          <lb ed="#V" n="24"/>falsa, quod Sol agat immediate 
+            indis<lb break="no" ed="#V" n="25"/>tans</quote>, et similiter quod <quote xml:id="mm30o9-d1e1293-Qd1e225" source="http://scta.info/resource/TAcCaj-d1e87-d1e225">forma 
+          substan<lb break="no" ed="#V" n="26"/>tialis sit principium elicitivum 
+          mine<lb break="no" ed="#V" n="27"/>re, est falsum, quoniam substantia
+          <lb ed="#V" n="28"/>nullius operationis est proximum 
+          eli<lb break="no" ed="#V" n="29"/>citivum. Nec inconvenit accidens esse
+          <lb ed="#V" n="30"/>principium instrumentale 
+          generatio<lb break="no" ed="#V" n="31"/>nis substantiae; instrumentum enim
+          <lb ed="#V" n="32"/>non est causa, sed causae organum</quote>.
+          <lb ed="#V" n="33"/>Deinde dicit quod <quote xml:id="mm30o9-d1e1293-Qd1e246" source="http://scta.info/resource/TAcCaj-d1e87-d1e233">propter neutram 
+          il<lb break="no" ed="#V" n="34"/>larum causarum, convenit agentibus
+          <lb ed="#V" n="35"/>naturalibus non posse agere in distans,
+          <lb ed="#V" n="36"/>nisi in propinquum prcagat, sed est
+          <lb ed="#V" n="37"/>propter imperfectionem negative 
+          per<lb break="no" ed="#V" n="38"/>tinentem ad virtutem activam 
+          inquan<lb break="no" ed="#V" n="39"/>tum limitata est, et ideo reservatur hoc
+          <lb ed="#V" n="40"/>soli Deo. Hanc rationem a sensibus
+          <lb ed="#V" n="41"/>accepimus. Illas vero Scotus finxit.
+            <lb ed="#V" n="42"/>Unde <ref xml:id="mm30o9-d1e1293-Rd1e259" target="http://scta.info/resource/aristdp-d1e97-d1e520@72-78">Aristoteles septimo Physicorum</ref>
+          <lb ed="#V" n="43"/>inductive es sensibilibus probat 
+          mo<lb break="no" ed="#V" n="44"/>vens etiam intentionale et motum
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>oportere esse simul, ut patet ibi de
+            <lb ed="#V" n="46"/>objectis sensuum</quote>. <quote xml:id="mm30o9-d1e1293-Qd1e284" source="http://scta.info/resource/TAcCaj-d1e87-d1e245">Et si quaeratur, qua
+          <lb ed="#V" n="47"/>universalis ratio sit, quod agens et
+          <lb ed="#V" n="48"/>immediatum patiens oportet esse 
+          si<lb break="no" ed="#V" n="49"/>mul seu conjungi, respondetur quod
+          <lb ed="#V" n="50"/>cum esse simul seu conjungi, et 
+          im<lb break="no" ed="#V" n="51"/>mediate attingere, non uniformiter se
+          <lb ed="#V" n="52"/>habeant, non potest eis uniformis 
+              ra<lb break="no" ed="#V" n="53"/>lio assignari</quote> ; <quote xml:id="mm30o9-d1e1293-Qd1e302" source="http://scta.info/resource/TAcCaj-d1e87-d1e245">praesentia enim 
+          sub<lb break="no" ed="#V" n="54"/>stantiae, et praesentia potentiae 
+          imme<lb break="no" ed="#V" n="55"/>diate in quibusdam sunt diverse 
+          om<lb break="no" ed="#V" n="56"/>nino, in quibusdam vero coincidunt. Et
+          <lb ed="#V" n="57"/>propterea dicendum est, quod ubi hae
+          <lb ed="#V" n="58"/>praesentiae sunt omnino diverse, 
+          prae<lb break="no" ed="#V" n="59"/>sentia operationis infert praesentiam
+          <lb ed="#V" n="60"/>potentiae ex limitatione agentis. Ubi
+          <lb ed="#V" n="61"/>autem sunt'quasi idem, illatio tenet ex
+          <lb ed="#V" n="62"/>identitate illarum, et propterea 
+          propo<lb break="no" ed="#V" n="63"/>sitio illa, omne agens, etc. est 
+          universa<lb break="no" ed="#V" n="64"/>liter vera in omnibus agentibus</quote>.
+        </p>
+        <p xml:id="mm30o9-d1e1293-d1e302">
+          <lb ed="#V" n="65"/>Sed istae responsiones non infringunt
+          <lb ed="#V" n="66"/>rationes Scoti. Nec pro nunc intendo
+          <lb ed="#V" n="67"/>instare contra, cum non sit praesentis
+          <lb ed="#V" n="68"/>speculationis. Et quod dicit quod
+          <lb ed="#V" n="69"/>Scotus has rationes finxit, loquitur
+          <lb ed="#V" n="70"/>more eorum qui palpitando sunt super
+          <lb ed="#V" n="71"/>terram reptantes, et vere loquitur, ut
+          <lb ed="#V" n="72"/>novus expositor, etc. Et quod Sol 
+          pos<lb break="no" ed="#V" n="73"/>sit immediate agere in remotum,
+          <lb ed="#V" n="74"/>patet de mineralibus, qus virtute Solis
+          <lb ed="#V" n="75"/>generanturin visceribus terree, et 
+          cer<lb break="no" ed="#V" n="76"/>tum est ut dicit Scotus et veritas,
+          <lb ed="#V" n="77"/>quod hujusmodi mineralia non 
+          gene<lb break="no" ed="#V" n="78"/>rantur ab aliquo accidente, quia 
+          gene<lb break="no" ed="#V" n="79"/>rans est nobilius genito, si est :
+          equi<lb break="no" ed="#V" n="80"/>vocum. Omnis autem substantia est
+          <lb ed="#V" n="81"/>prior omni accidente perfectione, ut
+          <lb ed="#V" n="82"/>patet <ref xml:id="mm30o9-d1e1293-Rd1e355">7. Metaph. text. com. 4.</ref> Nec 
+          va<lb break="no" ed="#V" n="83"/>let dicere quod accidentia generant
+          <lb ed="#V" n="84"/>in virtate substantiae, ut patebit a 
+          Do<lb break="no" ed="#V" n="85"/>ctore in 4. in materia de Eucharistia
+          <lb ed="#V" n="86"/>dist. 12, ubi subtiliter probat quod est
+          <lb ed="#V" n="87"/>simpliciter impossibile aliquod 
+          acci<lb break="no" ed="#V" n="88"/>dens attingere aliquam substantiam ut
+          <pb ed="#V" n="599"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>productam, nec in virtute propria, nec
+          <lb ed="#V" n="2"/>in virtute alterius, ut diffuse ibi patet.
+          <lb ed="#V" n="3"/>Et de hoc etiam vide Doctorem 77 2.
+          <lb ed="#V" n="4"/>dist. 18. de rationibus seminalibus,
+          <lb ed="#V" n="5"/>quae si ponuntur qualitates quedam,
+          <lb ed="#V" n="6"/>non possunt immediate attingere 
+          ali<lb break="no" ed="#V" n="7"/>quam substantiam, sed tantum 
+          ali<lb break="no" ed="#V" n="8"/>quam dispositionem ad substantiam.
+          <lb ed="#V" n="9"/>Probatis ergo quod sola substantia
+          <lb ed="#V" n="10"/>producit substantiam, et quod nullum
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="11"/>accidens potest producere substaptiam,
+          <lb ed="#V" n="12"/>statim patebit quomodo Sol potest
+          <lb ed="#V" n="13"/>immediate attingere effectum, 
+          produ<lb break="no" ed="#V" n="14"/>cens formam substantialem in passum
+          <lb ed="#V" n="15"/>et remotum ; et lumen si requiritur,
+          <lb ed="#V" n="16"/>sive calor non requiritur ut attingens
+          <lb ed="#V" n="17"/>substantiam mineralium, sed tantum,
+          <lb ed="#V" n="18"/>ut dispositive. Et sic patet quomodo
+          <lb ed="#V" n="19"/>Scotus non finxit, etc.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

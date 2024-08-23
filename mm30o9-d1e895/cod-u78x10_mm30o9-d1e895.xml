@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#per-FLBca3">Franciscus Lychetus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2024-08-23">August 23, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-23" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="108"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="mm30o9-d1e895"><!-- lycht-d17p2q1-p1 -->
+        <head xml:id="mm30o9-d1e895-Hd1e101">Quaestio 1</head>
+        <p xml:id="mm30o9-d1e895-d1e103">
+          <lb ed="#V" n="38" type="fixed=102"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e895-d1e108">
+          <lb ed="#V" n="39"/>(a) Titulus quaestionis licet sit 
+          tan<lb break="no" ed="#V" n="40"/>tum de charitate simpliciter, tamen
+          <lb ed="#V" n="41"/>intelligitur de qualibet forma 
+          intensi<lb break="no" ed="#V" n="42"/>bili et remissibili. Et. sic quaeritur per
+          <lb ed="#V" n="43"/>exemplum : Pono,quod charitas sit 
+          in<lb break="no" ed="#V" n="44"/>tensa ut quatuor, et quod intendatur
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>ut sex, an quando intenditur ut sex,
+          <lb ed="#V" n="46"/>corrumpatur tota illa ut quatuor, ita
+          <lb ed="#V" n="47"/>quod de novo generetur charitas utl
+          <lb ed="#V" n="48"/>sex? Et hoc idem dico de qualibet alia
+          <lb ed="#V" n="49"/>forma intellectuali. Similiter est eadem
+          <lb ed="#V" n="50"/>difficultas de remissione, an charitas
+          <lb ed="#V" n="51"/>ut sex si fiat remissa ut quatuor ? an
+          <lb ed="#V" n="52"/>tota illa ut sex, corrumpatur et creetur
+          <lb ed="#V" n="53"/>nova charitas ut quatuor? an tantum
+          <lb ed="#V" n="54"/>duo gradus charitatis ut sex, 
+          corrum<lb break="no" ed="#V" n="55"/>pantur? et sic de alia forma 
+          remissi<lb break="no" ed="#V" n="56"/>bili dico idem.
+        </p>
+        <!--</div>
+          <div alias="lycht-d17p2q1-p2">-->
+        <p xml:id="mm30o9-d1e895-d1e154">
+          <lb ed="#V" n="7" type="fixed=103"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e895-d1e160">
+          <lb ed="#V" n="8"/>(b) Hic dicitur, etc. Hac est opinio
+          <lb ed="#V" n="9"/>
+          <ref xml:id="mm30o9-d1e895-Rd1e166">Goffredi Quodlib. 7. q. 1.</ref> et sequacium
+          <lb ed="#V" n="10"/>ejus, qui tenent quod in augmento 
+          to<lb break="no" ed="#V" n="11"/>tum praeexistens corrumpatur, et 
+          simi<lb break="no" ed="#V" n="12"/>liter in decremento et novum 
+          genere<lb break="no" ed="#V" n="13"/>tur, eo modo quo exposui in titulo 
+          qua<lb break="no" ed="#V" n="14"/>stionis. Et probat duobus mediis :
+          <lb ed="#V" n="15"/>Primo quia quando forma intenditur,
+          <lb ed="#V" n="16"/>tunc forma movetur a forma minus
+          <lb ed="#V" n="17"/>intensa ad formam magis intensam,
+          <lb ed="#V" n="18"/>ita quod forma minus intensa est
+          <lb ed="#V" n="19"/>terminus a q«o motus, et forma magis
+          <lb ed="#V" n="20"/>intensa est terminus ad quem motus.
+          <lb ed="#V" n="21"/>Sed terminus «aemp; quo et terminus ad
+          <lb ed="#V" n="22"/>quem, sunt incompossibiles ex quaento
+          <lb ed="#V" n="23"/>Physic. ergo, etc.
+        </p>
+        <p xml:id="mm30o9-d1e895-d1e199">
+          <lb ed="#V" n="24"/>Dico, quod terminus « quo, et 
+          termi<lb break="no" ed="#V" n="25"/>nus ad quem motus sunt duplices, 
+          sci<lb break="no" ed="#V" n="26"/>licet formales et concomilantes. Primi
+          <lb ed="#V" n="27"/>(si est motus acquisitivus) sunt 
+          priva<lb break="no" ed="#V" n="28"/>tio et habitus, et sic subjectum existens
+          <lb ed="#V" n="29"/>Sub charitate ut quatuor, movetur a
+          <lb ed="#V" n="30"/>privatione charitatis ut duo, tanquam
+          <lb ed="#V" n="31"/>aemp; termino a quo ad charitatem ut duo,
+          <lb ed="#V" n="32"/>tanquam ad terminum ad quem, et isti
+          <lb ed="#V" n="33"/>sunt incompossibiles. Si vero est 
+          mo<lb break="no" ed="#V" n="34"/>tus deperditivus, tunc aliquid movetur,
+          <lb ed="#V" n="35"/>puta a charitate ut sex, ad 
+          privatio<lb break="no" ed="#V" n="36"/>nem illius. Secundi, quando movetur
+          <lb ed="#V" n="37"/>a charite ut quatuor tanquam a 
+          ter<lb break="no" ed="#V" n="38"/>mino a q*«0, ad charitatem ut sex 
+          tan<lb break="no" ed="#V" n="39"/>quam ad terminum ad quem, et sic
+          <lb ed="#V" n="40"/>charitas ut sex, et charitas ut quatuor
+          <lb ed="#V" n="41"/>sunt compossibiles, et sic patet solutio
+          <lb ed="#V" n="42"/>argumenti.
+        </p>
+        <!--</div>
+          <div alias="lycht-d17p2q1-p3">-->
+        <p xml:id="mm30o9-d1e895-d1e245">
+          <lb ed="#V" n="26" type="fixed=108"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e895-d1e250">
+          <lb ed="#V" n="27"/>(c) Contra istam positionem. 
+          Argu<lb break="no" ed="#V" n="28"/>mentum stat in hoc, supponendo 
+          pri<lb break="no" ed="#V" n="29"/>mo, quod charitas sit principium actus
+          <lb ed="#V" n="30"/>meritorii. Secundo, quod per actum
+          <lb ed="#V" n="31"/>meritorium in eodem instanti quo
+          <lb ed="#V" n="32"/>elieitur, augeatur charitas. Et tunc
+          <lb ed="#V" n="33"/>ultra quaero in instanti A elicitur actus
+          <lb ed="#V" n="34"/>meritorius a charitate, et in eodem
+          <lb ed="#V" n="35"/>instanti augetur charitas. Aut ergo
+          <lb ed="#V" n="36"/>charitas praeexistens, et habetur 
+          pro<lb break="no" ed="#V" n="37"/>positum, quod in augmento non 
+          cor<lb break="no" ed="#V" n="38"/>rumpatur praeexistens ; aut. generatur
+          <lb ed="#V" n="39"/>nova eharitas perfectior praeexistens,
+          <lb ed="#V" n="40"/>et  tunc sequitur quod actus meritorius
+          <lb ed="#V" n="41"/>in instanti 4 erit a charitate non 
+          exi<lb break="no" ed="#V" n="42"/>stente in instanti A. Et sic non ens
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="43"/>posset producere ens, quod est falsum;
+          <lb ed="#V" n="44"/>si dicatur, quod non augetur in 
+          in<lb break="no" ed="#V" n="45"/>stanti A, quo elicitur actus, sed
+          <lb ed="#V" n="46"/>post non potest effugere de habitibus
+          <lb ed="#V" n="47"/>naturaliter acquisitis, et de istis eo
+          <lb ed="#V" n="48"/>modo fiet argumentum sicut de 
+          chari<lb break="no" ed="#V" n="49"/>Late.
+        </p>
+        <p xml:id="mm30o9-d1e895-d1e305">
+          <lb ed="#V" n="50"/>(d) Sequitur quod actus augmentativus
+          <lb ed="#V" n="51"/>habitus non elicietur ab habitu, sed a
+          <lb ed="#V" n="52"/>sola potentia, quod videtur 
+          inconve<lb break="no" ed="#V" n="53"/>niens.
+        </p>
+        <p xml:id="mm30o9-d1e895-d1e317">
+          <lb ed="#V" n="54"/>Hoc debet sic intelligi, supponendo
+          <lb ed="#V" n="55"/>quod voluntas habeat habitum justitiae
+          <lb ed="#V" n="56"/>intensum ut novem, et aliquis actus
+          <lb ed="#V" n="57"/>elicitus post illum habitum intendat
+          <lb ed="#V" n="58"/>illum ut decem, si ille actus est 
+          causa<lb break="no" ed="#V" n="59"/>tus a potentia et ab habitu,  tunc in
+          <lb ed="#V" n="60"/>eodem instanti quo causatur, intendit
+          <lb ed="#V" n="61"/>habitum aut praeexistentem, et habeo
+          <lb ed="#V" n="62"/>intentum ; aut producit novum 
+          habi<lb break="no" ed="#V" n="63"/>tum justitiae. intensum ut decem, et
+          <lb ed="#V" n="64"/>tunc ille actus erit a sola potentia et
+          <lb ed="#V" n="65"/>non ab habitu, quia in eodem instanti
+          <lb ed="#V" n="66"/>quo elicitur habitus praeexistens non
+          <lb ed="#V" n="67"/>est. Hoc autem est inconveniens quod
+          <lb ed="#V" n="68"/>sit a sola voluntate, quia  tunc esset
+          <lb ed="#V" n="69"/>imperfectior alio actu, qui esset a
+          <lb ed="#V" n="70"/>voluntate et ab habitu et non 
+          augmen<lb break="no" ed="#V" n="71"/>tativo illius habitus, quia actus elicitus
+          <lb ed="#V" n="72"/>a potentia habituata agente aequali
+          <lb ed="#V" n="73"/>conatu, est perfectior illo, qui est a
+          <lb ed="#V" n="74"/>potentia sola. Et  tunc sequitur quod
+          <lb ed="#V" n="75"/>actus augmentativus ut decem, qui
+          <lb ed="#V" n="76"/>est imperfectior actu non 
+          augmenta<lb break="no" ed="#V" n="77"/>tivo, possit causare habitum justitice
+          <lb ed="#V" n="78"/>intensum ut decem, et sic 
+          imperfec<lb break="no" ed="#V" n="79"/>tius causabit omnino perfectius, et
+          <lb ed="#V" n="80"/>hoc est quod innuit Doctor.
+        </p>
+        <p xml:id="mm30o9-d1e895-d1e378">
+          <lb ed="#V" n="81"/>(e) Secunda via. Haec positio secundae
+          <lb ed="#V" n="82"/>vie consistitin hoc, supponendo primo
+          <lb ed="#V" n="83"/>quod actus voluntatis, puta primum
+          <lb ed="#V" n="84"/>velle justum, potest esse perfectius
+          <lb ed="#V" n="85"/>decimo velle elicito a voluntate. 
+          Se<lb break="no" ed="#V" n="86"/>cundo suppono, quod justitia habitua-
+          <pb ed="#V" n="109"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>lis sit in voluntate ut novem. Certum
+          <lb ed="#V" n="2"/>est quod neque per velle primum,
+          <lb ed="#V" n="3"/>neque per secundum potest fieri 
+          inten<lb break="no" ed="#V" n="4"/>sum ut decem, sed per decimum velle.
+          <lb ed="#V" n="5"/>Aut ergo decimum velle intendit 
+          habi<lb break="no" ed="#V" n="6"/>tum justitie praeexistentem, et habeo
+          <lb ed="#V" n="7"/>propositum, aut causat novum 
+          habi<lb break="no" ed="#V" n="8"/>tum justitiae intensum ut decem ; ergo
+          <lb ed="#V" n="9"/>actus imperfectior potest causare 
+          ha<lb break="no" ed="#V" n="10"/>bitum perfectum, qui non potest 
+          cau<lb break="no" ed="#V" n="11"/>sari ab actu perfecto, quod est 
+          incon<lb break="no" ed="#V" n="12"/>veniens, et hoc est quod dicit Doctor
+          <lb ed="#V" n="13"/>in ista ratione.
+        </p>
+        <p xml:id="mm30o9-d1e895-d1e426">
+          <lb ed="#V" n="14"/>(f) Si dicatur quod praecedentes actus
+          <lb ed="#V" n="15"/>elicit a charitate maneant in 
+          accepta<lb break="no" ed="#V" n="16"/>tone divina, sed non in se cum 
+          tran<lb break="no" ed="#V" n="17"/>seant, nec in alio impresso a se, puta
+          <lb ed="#V" n="18"/>in alio causato a se vel ab eis ; et si
+          <lb ed="#V" n="19"/>hoc sit verum, tamen non potest 
+          con<lb break="no" ed="#V" n="20"/>eludi de habitu naturali, ut patet per
+          <lb ed="#V" n="21"/>rationem nunc factam.
+        </p>
+        <p xml:id="mm30o9-d1e895-d1e446">
+          <lb ed="#V" n="22"/>(g) Praeterea ratio non solvitur. Patet
+          <lb ed="#V" n="23"/>ista ratio per illam nunc superius dic
+          <lb ed="#V" n="24"/>tam, quia si sit calidum ut novem, et
+          <lb ed="#V" n="25"/>adveniat sibi calidum ut unum, quaero
+          <lb ed="#V" n="26"/>aut intendit praeexistens, et habeo 
+          in<lb break="no" ed="#V" n="27"/>tentum ; aut causat calidum ut decem,
+          <lb ed="#V" n="28"/>et hoc est impossibile, quia est 
+          imper<lb break="no" ed="#V" n="29"/>fectius calido ut novem, et a fortiori
+          <lb ed="#V" n="30"/>calido ut decem.
+        </p>
+        <p xml:id="mm30o9-d1e895-d1e468">
+          <lb ed="#V" n="31"/>(h) Nec potest evadi hoc per ordinem.
+          <lb ed="#V" n="32"/>Ista evasio stat in hoc, puta, quod
+          <lb ed="#V" n="33"/>lignum si debet fieri album ut decem,
+          <lb ed="#V" n="34"/>prius fit album ut unum, et deinde fit
+          <lb ed="#V" n="35"/>album ut duo, et corrumpitur album ut
+          <lb ed="#V" n="36"/>unum, et causatur novum album ut
+          <lb ed="#V" n="37"/>duo; et similiter si fit album ut tria,
+          <lb ed="#V" n="38"/>corrumpitur album utduo, et causatur
+          <lb ed="#V" n="39"/>novum ut tria, et sic deinceps, et non
+          <lb ed="#V" n="40"/>posset causari album ut tria, nisi prius
+          <lb ed="#V" n="41"/>esset causatum album ut unum vel ut
+          <lb ed="#V" n="42"/>duo, licet non maneant illa quando
+          <lb ed="#V" n="43"/>causatur album ut tria.
+        </p>
+        <p xml:id="mm30o9-d1e895-d1e499">
+          <lb ed="#V" n="44"/>(1) Non valet, inquam, haec responsio.
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>Quia si calidum ut octo adveniat calido
+          <lb ed="#V" n="46"/>ut novem, ita quod calidum ut octo
+          <lb ed="#V" n="47"/>adveniens calido ut novem, fiat 
+          cali<lb break="no" ed="#V" n="48"/>dum ut decem. Aut ergo calidum ut
+          <lb ed="#V" n="49"/>oclo intendit calidum ut novem 
+          pra<lb break="no" ed="#V" n="50"/>existens, et calidum ut novem 
+          corrum<lb break="no" ed="#V" n="51"/>pitur, et calidum ut octo causat 
+          cali<lb break="no" ed="#V" n="52"/>dum ut decem ; ergo imperfectius 
+          cau<lb break="no" ed="#V" n="53"/>sabit perfectius, quod est falsum.
+        </p>
+        <p xml:id="mm30o9-d1e895-d1e526">
+          <lb ed="#V" n="54"/>(k) Tertia via. Hic arguit a simili,
+          <lb ed="#V" n="55"/>quia dicunt isti, quod eadem est ratio
+          <lb ed="#V" n="56"/>in intensione et remissione, quod 
+          sci<lb break="no" ed="#V" n="57"/>licet semper praeexistens 
+          corrumpi<lb break="no" ed="#V" n="58"/>tur, ut dixi in titulo quaestionis. Et
+          <lb ed="#V" n="59"/>ratio clara est.
+        </p>
+        <p xml:id="mm30o9-d1e895-d1e542">
+          <lb ed="#V" n="60"/>(l) Quarta via sumitur ex hoc. Haec
+          <lb ed="#V" n="61"/>ratio  stat in hoc, quia Aristoteles 
+          con<lb break="no" ed="#V" n="62"/>cedit in accidentibus magis et minus
+          <lb ed="#V" n="63"/>eodem modo quo non est substantia. Si
+          <lb ed="#V" n="64"/>enim diceretur substantiam esse magis,
+          <lb ed="#V" n="65"/>quia recipit nobiliorem formam aliam
+          <lb ed="#V" n="66"/>simpliciter a prima, ut si lignum est
+          <lb ed="#V" n="67"/>album ut quatuor, dicitur magis album
+          <lb ed="#V" n="68"/>quando est ut sex, non quod illa albedo
+          <lb ed="#V" n="69"/>ut quatuor fiatintensa ut sex. Sed quia
+          <lb ed="#V" n="70"/>corrumpitur illa albedo ut quatuor, et
+          <lb ed="#V" n="71"/>causatur una utsex, hoc idem erit in
+          <lb ed="#V" n="72"/>substantiis, quia una, quae est sub
+          <lb ed="#V" n="73"/>forma ligni ut quatuor, et illa corrupta
+          <lb ed="#V" n="74"/>fit sub alia forma ut sex, et sic eo
+          <lb ed="#V" n="75"/>modo erit magis et minus. Si ergo vult
+          <lb ed="#V" n="76"/>esse magis et minus in accidentibus,
+          <lb ed="#V" n="77"/>ex haec vult quod idem accidens potest
+          <lb ed="#V" n="78"/>intendi et remitti, et hoc est quod
+          <lb ed="#V" n="79"/>dicit.
+        </p>
+        <p xml:id="mm30o9-d1e895-d1e588">
+          <lb ed="#V" n="80"/>(m) Quinto arguitur per hoc. 
+          Argu<lb break="no" ed="#V" n="81"/>mentum stat in haec, supponendo 
+          ali<lb break="no" ed="#V" n="82"/>qua. Primo, quod detur aliqua natura
+          <lb ed="#V" n="83"/>ut natura, quae sitspeciesspecialissima,
+          <lb ed="#V" n="84"/>puta albedo ut albedo. Secundo, quod
+          <lb ed="#V" n="85"/>quando aliquid albedini ut albedo 
+          ad<lb break="no" ed="#V" n="86"/>venit, puta aliquis gradus,  tunc 
+          prae<lb break="no" ed="#V" n="87"/>existens corrumpitur et fit albedo ut
+          <lb ed="#V" n="88"/>duo; et similiter quando advenit al- 
+          <pb ed="#V" n="110"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>bedini ut duo, corrumpitur illa ut duo,
+          <lb ed="#V" n="2"/>et fit ut tria. Albedo ut duo est ipsa
+          <lb ed="#V" n="3"/>essentia albedinis, patet, quia 
+          constitu<lb break="no" ed="#V" n="4"/>tum ex duobus praedictis est albedo per
+          <lb ed="#V" n="5"/>se et essentialiter perfectior albedine
+          <lb ed="#V" n="6"/>ut albedo, quia, per te, gradus non
+          <lb ed="#V" n="7"/>adveniunt proexistenti. Si ergo albedo
+          <lb ed="#V" n="8"/>ut duo essentialiter sit perfectior 
+          albe<lb break="no" ed="#V" n="9"/>dine ut albedo, tunc illa ut duo 
+          predi<lb break="no" ed="#V" n="10"/>cabitur de ista albedine ut duo per se,
+          <lb ed="#V" n="11"/>et de illa ut duo per se, et sic erit
+          <lb ed="#V" n="12"/>species inferior albedine ut albedo,
+          <lb ed="#V" n="13"/>quod est inconveniens. Nos autem 
+          po<lb break="no" ed="#V" n="14"/>nimus albedinem ut albedo, esse 
+          spe<lb break="no" ed="#V" n="15"/>ciem specialissimam, et praedicari per
+          <lb ed="#V" n="16"/>se de albedine ut duo, et albedine ut
+          <lb ed="#V" n="17"/>quatuor ut sex vel ut octo, quia isti
+          <lb ed="#V" n="18"/>gradus adveniunttantum albedini 
+          sin<lb break="no" ed="#V" n="19"/>gulari et existenti, et fiunt unum per
+          <lb ed="#V" n="20"/>se, tamen albedo ut albedo, dicit totam
+          <lb ed="#V" n="21"/>essentiam omnium istorum.
+        </p>
+        <p xml:id="mm30o9-d1e895-d1e660">
+          <lb ed="#V" n="22"/>Et si dicatur, nonne albedo ut duo
+          <lb ed="#V" n="23"/>praedicatur de ista ut duo?
+        </p>
+        <p xml:id="mm30o9-d1e895-d1e667">
+          <lb ed="#V" n="24"/>Dico, quod non secundum rem, ut
+          <lb ed="#V" n="25"/>sequitur ex alia opinione, sed tantum
+          <lb ed="#V" n="26"/>secundum nomen, sicut canis; ectera
+          <lb ed="#V" n="27"/>patent.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

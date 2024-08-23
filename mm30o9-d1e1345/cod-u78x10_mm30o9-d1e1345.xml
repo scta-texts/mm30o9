@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#per-FLBca3">Franciscus Lychetus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2024-08-23">August 23, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 10</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-08-23" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="700"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="mm30o9-d1e1345"><!-- lycht-d41q1-p1 -->
+            <head xml:id="mm30o9-d1e1345-Hd1e101">Quaestio 1</head>
+            <p xml:id="mm30o9-d1e1345-d1e103">
+               <lb ed="#V" n="57" type="fixed=690"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e108">
+               <lb ed="#V" n="58"/>(a) Titulus questionis sic intelligitur:
+<lb ed="#V" n="59"/>An merita nostra, saltem ut praevisa,
+<lb ed="#V" n="60"/>sint causa praedestinationis? sive, an
+<lb ed="#V" n="61"/>Deus tantum praedestinet propter 
+me<lb break="no" ed="#V" n="62"/>rita nostra, ita quod si non essent
+<lb ed="#V" n="63"/>opera meritoria in previsione divina,
+<lb ed="#V" n="64"/>Deus non praedestinaret. Similiter, an
+<lb ed="#V" n="65"/>peccata sint. causa reprobationis 
+nos<lb break="no" ed="#V" n="66"/>tr, ita quod si peccata prius non
+<lb ed="#V" n="67"/>previderentur, nunquam Deus 
+repro<lb break="no" ed="#V" n="68"/>baret aliquem. Et sic patet titulus
+<lb ed="#V" n="69"/>questionis.
+</p>
+            <!--</div>
+<div alias="lycht-d41q1-p5">-->
+            <p xml:id="mm30o9-d1e1345-d1e139">
+               <lb ed="#V" n="54" type="fixed=700"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e145">
+               <lb ed="#V" n="55"/>(b) Potest aliter dici. HiC. est opinio
+<lb ed="#V" n="56"/>Doctoris, qua» stat in duabus 
+conclu<lb break="no" ed="#V" n="57"/>sionibus. Prima: Praedestinationis 
+nul<lb break="no" ed="#V" n="58"/>la est ratio aliquo modo prior, nec ex
+<lb ed="#V" n="59"/>parte praedestinantis, nec ex parte 
+nra<lb break="no" ed="#V" n="60"/>destinati. Et probat singulari ratione,
+<lb ed="#V" n="61"/>quia ordinate volens finem, et ea quae
+<lb ed="#V" n="62"/>sunt ad finem, prius vult finem, id
+<lb ed="#V" n="63"/>est, quod ordinate volens alicui, puta
+<lb ed="#V" n="64"/>Francisco finem, scilicet sanitatem,
+<lb ed="#V" n="65"/>et ea quae sunt ad sanitatem ordinata,
+<lb ed="#V" n="66"/>prius vult illi sanitatem, id est, prius
+<lb ed="#V" n="67"/>amat efficaciter sanitatem, et post 
+or<lb break="no" ed="#V" n="68"/>dinata ad sanitatem, ita quod vult illi
+<lb ed="#V" n="69"/>simpliciter sanitatem, id est, quod non
+<lb ed="#V" n="70"/>amat illi sanitatem propter potionem
+<lb ed="#V" n="71"/>et hujusmodi. Imo e contra, ideo amat
+<lb ed="#V" n="72"/>illi potionem amaram propter 
+sanita<lb break="no" ed="#V" n="73"/>tem prius illi amatam, ita quod in
+<lb ed="#V" n="74"/>aliquo priori actus voluntatis ordinate
+<lb ed="#V" n="75"/>volentis terminatur ad sanitatem, ut
+<lb ed="#V" n="76"/>bonum Francisco; et in illo priori
+<lb ed="#V" n="77"/>nullo modo terminatur ad necessaria
+<lb ed="#V" n="78"/>ad sanitatem, et tamen si ordinata ad
+<lb ed="#V" n="79"/>sanitatem essent ratio quare vult 
+sa<lb break="no" ed="#V" n="80"/>nitatem Francisco, prius haberet actum
+<lb ed="#V" n="81"/>circa ordinata quam circa sanitatem,
+<lb ed="#V" n="82"/>et sic palet ista propositio. Sed 
+volun<lb break="no" ed="#V" n="83"/>tasdivina ordinatissime vult 
+beatitudi<lb break="no" ed="#V" n="84"/>nem, ut finem ultimum, puta Petro;
+<lb ed="#V" n="85"/>et ordinata ad illam, puta merita, sive
+<lb ed="#V" n="86"/>opera meritoria et gratiam et hujus-
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e217">
+               <pb ed="#V" n="701"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>modi, et quod ordinate velit, patet a
+<lb ed="#V" n="2"/>Sanctis et ab omnibus Theologis. 
+Vo<lb break="no" ed="#V" n="3"/>luntas enim divina est prima regula
+<lb ed="#V" n="4"/>ordinatissima, imo tantae rectitudinis
+<lb ed="#V" n="5"/>quod non indiget rectificari etiam ab
+<lb ed="#V" n="6"/>intellectu divino, ut patet a Scoto 2»
+<lb ed="#V" n="7"/>prolog. quast. ultima, et alibi sepe;
+<lb ed="#V" n="8"/>ergo vult praedestinato prius 
+beatitu<lb break="no" ed="#V" n="9"/>dinem, ita quod actus divine 
+volun<lb break="no" ed="#V" n="10"/>tatis prius determinatur ad 
+beatitudi<lb break="no" ed="#V" n="11"/>nem volendo illam praedestinato, et
+<lb ed="#V" n="12"/>post ille idem actus terminatur ad
+<lb ed="#V" n="13"/>gratiam et ad opera meritoria, volendo
+<lb ed="#V" n="14"/>illa praedestinato propter beatitudinem
+<lb ed="#V" n="15"/>acquirendam. Et sic patet quomodo
+<lb ed="#V" n="16"/>ex parte praedestinati non assignatur
+<lb ed="#V" n="17"/>aliqua ratio prior.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e261">
+               <lb ed="#V" n="18"/>Contra istam rationem arguit 
+Oc<lb break="no" ed="#V" n="19"/>cham in 1. dist. 41. g. unica. et 
+pro<lb break="no" ed="#V" n="20"/>bat quod eadem ratione sequitur in
+<lb ed="#V" n="21"/>praedestinatione, sicut et in 
+reproba<lb break="no" ed="#V" n="22"/>lione, quia sicut Deus non est prius
+<lb ed="#V" n="23"/>ultor quam aliquis sit peccator, ita
+<lb ed="#V" n="24"/>Deus non est prius retributor quam
+<lb ed="#V" n="25"/>aliquis sit primo justificatus per 
+gra<lb break="no" ed="#V" n="26"/>liam ; ergo sicut peccatum finale 
+prae<lb break="no" ed="#V" n="27"/>visum est ex parte objecti ratio 
+repro<lb break="no" ed="#V" n="28"/>bationis, ita aliquando gratia, vel 
+me<lb break="no" ed="#V" n="29"/>ritum pracedens, sive previsum erit
+<lb ed="#V" n="30"/>ratio  praedestinationis.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e292">
+               <lb ed="#V" n="31"/>Secundo, ratio non videtur 
+conclu<lb break="no" ed="#V" n="32"/>dere, quia non semper aliquis vult
+<lb ed="#V" n="33"/>prius finem alicujus quam illud quod
+<lb ed="#V" n="34"/>est ad finem; et hoc est quando finis
+<lb ed="#V" n="35"/>iste non datur, nisi propter aliquod
+<lb ed="#V" n="36"/>praecedens quod est ad finem, et sic
+<lb ed="#V" n="37"/>videtur esse in proposito, quod 
+beati<lb break="no" ed="#V" n="38"/>tudo aliquando non datur alicui nisi
+<lb ed="#V" n="39"/>propter merita , ergo tunc non oportet
+<lb ed="#V" n="40"/>Deum prius velle finem, qui est 
+beati<lb break="no" ed="#V" n="41"/>ludo istius, quam velit illud quod est
+<lb ed="#V" n="42"/>ad finem. Similiter non videtur bene
+<lb ed="#V" n="43"/>dictum, quod Deus velit prius finem
+<lb ed="#V" n="44"/>quam illud quod est ad finem, quia ibi
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>non est talis prioritas actuum, nec
+<lb ed="#V" n="46"/>sunt ibi talia instantia, qualia ponit.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e331">
+               <lb ed="#V" n="47"/>Ad rationem Scoti respondet, dicens
+<lb ed="#V" n="48"/>quod ordinate volens finem suiipsius,
+<lb ed="#V" n="49"/>et ea quae sunt ad finem, prius vult
+<lb ed="#V" n="50"/>finem quam ordinata ad finem. Nunc
+<lb ed="#V" n="51"/>autem beatitudo respectu cujus est
+<lb ed="#V" n="52"/>praedestinatio, non est finis Dei 
+pre<lb break="no" ed="#V" n="53"/>destinantis, sed est linis peeedestinati,
+<lb ed="#V" n="54"/>et ideo oportet quod praedestinatus 
+vo<lb break="no" ed="#V" n="55"/>lens finem, et ea qua sunt ad finem,
+<lb ed="#V" n="56"/>prius velit propriam beatitudinem
+<lb ed="#V" n="57"/>quam aliquod quod est ad illum finem.
+<lb ed="#V" n="58"/>Hac Occham.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e360">
+               <lb ed="#V" n="59"/>Respondeo primo ad rationes 
+Oc<lb break="no" ed="#V" n="60"/>cham: ad primam, et prasuppono
+<lb ed="#V" n="61"/>aliqua. Primo, quod voluntas divina
+<lb ed="#V" n="62"/>posset absolute reprobare aliquem non
+<lb ed="#V" n="63"/>demerito praecedente in previsione 
+di<lb break="no" ed="#V" n="64"/>vina, quia libere se habet respectu 
+cu<lb break="no" ed="#V" n="65"/>juseumque ad extra, et non potest 
+de<lb break="no" ed="#V" n="66"/>lerminari ab aliquo creato, quia hoc
+<lb ed="#V" n="67"/>est contra rationem prima cause
+<lb ed="#V" n="68"/>agentis omnino independenter. Si
+<lb ed="#V" n="69"/>ergo non posset reprobare Petrum 
+ab<lb break="no" ed="#V" n="70"/>solute, sed quod peccatum in Petro sit
+<lb ed="#V" n="71"/>$1atio  necessaria reprobationis, 
+seque<lb break="no" ed="#V" n="72"/>retur quod in reprobando necessario
+<lb ed="#V" n="73"/>dependeret a creatura. Et posito quod
+<lb ed="#V" n="74"/>reprobaret nullo peccato pr«eviso,
+<lb ed="#V" n="75"/>adhuc justissime reprobaret, cum
+<lb ed="#V" n="76"/>omnis determinatio voluntatis divina
+<lb ed="#V" n="77"/>sit justissima, et ex se rectitudo 
+for<lb break="no" ed="#V" n="78"/>maliter, ut patet ex dictis Doctoris
+<lb ed="#V" n="79"/>sparsim in diversis, locis ut i» prolog.
+<lb ed="#V" n="80"/>q» ult. et an 1. d. 39. 41. 44. in 2. d. 23.
+<lb ed="#V" n="81"/>in quodl. De hoc vide specialiter in 4.
+<lb ed="#V" n="82"/>d. 56. q. 1. ubi etiam dicit quod si
+<lb ed="#V" n="83"/>justum esset Petrum salvari, si eum
+<lb ed="#V" n="84"/>damnaret, juste damnaret. Secundo,
+<lb ed="#V" n="85"/>suppono quod multa operatur Deus, ut
+<lb ed="#V" n="86"/>in tali operatione appareat bonitas sua,
+<lb ed="#V" n="87"/>etiam quoad nos, licet absolute 
+appa<lb break="no" ed="#V" n="88"/>reat ultima bonitas in omni opere suo,
+<pb ed="#V" n="702"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>quocumque fiat, ideo quando reprobat
+<lb ed="#V" n="2"/>aliquem tantum propter peccatum
+<lb ed="#V" n="3"/>praevisum, in eo manifestatur 
+prieci<lb break="no" ed="#V" n="4"/>pua justitia Dei; et etiam apud 
+quem<lb break="no" ed="#V" n="5"/>cumque evitatur omnis ratio injustitice
+<lb ed="#V" n="6"/>vel crudelitatis, licet, ut dixi, si repro:
+<lb ed="#V" n="7"/>baret absolute, justissime reprobaret,
+<lb ed="#V" n="8"/>et nulla esset crudelitas. Tertio, 
+sup<lb break="no" ed="#V" n="9"/>pono quod etsi liberalitas Dei 
+ap<lb break="no" ed="#V" n="10"/>pareat in omni opere positivo 
+commu<lb break="no" ed="#V" n="11"/>nicando bonum creature, et tanta
+<lb ed="#V" n="12"/>quod non expectat unde retribueretur
+<lb ed="#V" n="13"/>a creatura, tamen videtur major ratio
+<lb ed="#V" n="14"/>bonitatis et liberalitatis ordinando 
+ali<lb break="no" ed="#V" n="15"/>quem ad hereditatem :ternam 
+abso<lb break="no" ed="#V" n="16"/>lute, et non propter aliquod opus ut
+<lb ed="#V" n="17"/>previsum exhiberi; merito prius 
+pre<lb break="no" ed="#V" n="18"/>destinat quos vult, antequam habeat
+<lb ed="#V" n="19"/>actum aliquem circa media ad illum
+<lb ed="#V" n="20"/>finem. Et est maxima correspondentia
+<lb ed="#V" n="21"/>bonitatis divine, ut non. reprobet nec
+<lb ed="#V" n="22"/>malum inferat, nisi pro quanto opera
+<lb ed="#V" n="23"/>nostra mala hoc demerentur, et quod
+<lb ed="#V" n="24"/>praedestinet ad bonum supremum non
+<lb ed="#V" n="25"/>respiciendo opera nostra; non enim
+<lb ed="#V" n="26"/>est tanta excellentia liberalitatis 
+divi<lb break="no" ed="#V" n="27"/>na dicere, quod ideo te praedestinet
+<lb ed="#V" n="28"/>propter operativa, quasi si talia 
+ope<lb break="no" ed="#V" n="29"/>ra non essent previsa non 
+pradesti<lb break="no" ed="#V" n="30"/>naret, quam si mere praedestinaret, et
+<lb ed="#V" n="31"/>non propter opera. Dico ergo, quod
+<lb ed="#V" n="32"/>licet posset pradestinare, id est, 
+de<lb break="no" ed="#V" n="33"/>terminate eligere Petrum ad gloriam,
+<lb ed="#V" n="34"/>tantum propter opera bona pravisa,
+<lb ed="#V" n="35"/>quia nulla est ibi implicatio 
+contradi<lb break="no" ed="#V" n="36"/>ctionis, tamen (ut dixi) quia est 
+infi<lb break="no" ed="#V" n="37"/>nit:e liberalitatis, absolute eligit prius
+<lb ed="#V" n="38"/>ad gloriam. Et ex his patet responsio
+<lb ed="#V" n="39"/>ad argmentum Occham, quam 
+respon<lb break="no" ed="#V" n="40"/>sionem bene nofa propter multa.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e520">
+               <lb ed="#V" n="41"/>Ad secundum ipsius Occham. Dico,
+<lb ed="#V" n="42"/>quod aliud est ordinare aliquem ad
+<lb ed="#V" n="43"/>gloriam, et aliud est illam actu 
+con<lb break="no" ed="#V" n="44"/>ferte : licet ergo aliquis ordinet prius
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>ad praemium, ita quod in aliquo priori
+<lb ed="#V" n="46"/>tantam habet actum circa praemium
+<lb ed="#V" n="47"/>conferendum, et posl circa merita,
+<lb ed="#V" n="48"/>tamen determinat actu. non conferre
+<lb ed="#V" n="49"/>premium, nisi acte habeat gratiam et
+<lb ed="#V" n="50"/>opera bona. Sicut princeps prius 
+eli<lb break="no" ed="#V" n="51"/>gerel aliquos ad Curiam, ita quod pro
+<lb ed="#V" n="52"/>tunc non sit conside$1atio  ad aliqua
+<lb ed="#V" n="53"/>opera exhibenda, tamen actu non facit
+<lb ed="#V" n="54"/>illos de familia, nisi prius habuerint
+<lb ed="#V" n="55"/>tale signum vel aliquid aliud.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e557">
+               <lb ed="#V" n="56"/>Ad illud quod dicit respondendo ad
+<lb ed="#V" n="57"/>rationem Scoti, dico, quod oportet eum
+<lb ed="#V" n="58"/>probare quod intelligatur de fine ipsius
+<lb ed="#V" n="59"/>volentis. Nam Mediceus si ordinat, vult
+<lb ed="#V" n="60"/>sanitatem saegroto.ut finem, et 
+potio<lb break="no" ed="#V" n="61"/>nem utordinatam ad finem, prius 
+ha<lb break="no" ed="#V" n="62"/>betactum circa sanitatem, id est, quod
+<lb ed="#V" n="63"/>prius eligit huncvelle sanari, quam
+<lb ed="#V" n="64"/>eligat velle potionem amaram, hoc
+<lb ed="#V" n="65"/>idem dico de voluntate divina. Et sic
+<lb ed="#V" n="66"/>patet responsio ad Occham.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e583">
+               <lb ed="#V" n="67"/>Dubitatur circa dicta Doctoris, 
+pri<lb break="no" ed="#V" n="68"/>mo, quia si voluntas divina ut ordinate
+<lb ed="#V" n="69"/>volens finem, et ea quo» suntad finem,
+<lb ed="#V" n="70"/>si prius vultfinem, aut vult efficaciter,
+<lb ed="#V" n="71"/>aut non ? Si sic, arguo sic: Volens A
+<lb ed="#V" n="72"/>efficaciter, ergo si potest dare, in illo
+<lb ed="#V" n="73"/>instanti dabit, quia agens efficaciter,
+<lb ed="#V" n="74"/>si non impeditur, statim operatur, et
+<lb ed="#V" n="75"/>sequitur effectus, ut patetin agentibus
+<lb ed="#V" n="76"/>perfectis ; ergo Deus ab aeterno 
+beali<lb break="no" ed="#V" n="77"/>ficat, quem vult esse beatum, imo
+<lb ed="#V" n="78"/>antequam habeat actum circa media.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e612">
+               <lb ed="#V" n="79"/>Dico, quod hoc nihil est, quia vult
+<lb ed="#V" n="80"/>efficaciter ordinare ad gloriam, id est,
+<lb ed="#V" n="81"/>quod efficaciter ipsum ordinat ad 
+glo<lb break="no" ed="#V" n="82"/>riam, quam. famen non confert in
+<lb ed="#V" n="83"/>illo instanti, sed in illo pro quo 
+de<lb break="no" ed="#V" n="84"/>terminavit eonferre, sicut ab aeterno
+<lb ed="#V" n="85"/>determinat creare animam, non 
+ia<lb break="no" ed="#V" n="86"/>men creat nisi pro illo instanti pro
+<lb ed="#V" n="87"/>quo determinavit ipsam creare. Et cum
+<lb ed="#V" n="88"/>dicis. quod agens efficaciter statim
+<pb ed="#V" n="703"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>agit, si non impeditur, dico, quod
+<lb ed="#V" n="2"/>verum est de agenli naturali, et per
+<lb ed="#V" n="3"/>modum natur, quod agit de 
+necessi<lb break="no" ed="#V" n="4"/>lale nature, sed non est verum de
+<lb ed="#V" n="5"/>agente libero, quod ratione sux 
+liber<lb break="no" ed="#V" n="6"/>lalis potest expectare quantum vult,
+<lb ed="#V" n="7"/>maxime loquendo de primo agente,
+<lb ed="#V" n="8"/>ut patet a Doctore supra dst. 2. quest.
+<lb ed="#V" n="9"/>A. disi. 8. quasl. ult. dist. 39. imo
+<lb ed="#V" n="10"/>potest agere iu tempore, et. expectare
+<lb ed="#V" n="11"/>nos, ut patet 2» tertio dist. tertia, quast.
+<lb ed="#V" n="12"/>prima. et vide expositionem quam feci
+<lb ed="#V" n="13"/>in distinct. 31. secundi.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e669">
+               <lb ed="#V" n="14"/>Secundo dubitatur, quia si non vult
+<lb ed="#V" n="15"/>reprobare aliquem nisi propter 
+pecca<lb break="no" ed="#V" n="16"/>la, ne videatur injustus et crudelis, et
+<lb ed="#V" n="17"/>ut appareat perfectio justitia, ut patet
+<lb ed="#V" n="18"/>a Doctore praesenti distinct. ergo quare
+<lb ed="#V" n="19"/>absolute non confert gloriam, non 
+ex<lb break="no" ed="#V" n="20"/>pectando opera nostra, ut appareat
+<lb ed="#V" n="21"/>perfectio majoris liberalitatis divine?
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e689">
+               <lb ed="#V" n="22"/>Dico primo, quod liberalitas est
+<lb ed="#V" n="23"/>premiare ultra condignum, et ultra
+<lb ed="#V" n="24"/>quod opera merentur, et hoc. quando
+<lb ed="#V" n="25"/>hujusmodi opera elicita sunt propria
+<lb ed="#V" n="26"/>ulilitatem praemiantis. Ubi vero 
+pre<lb break="no" ed="#V" n="27"/>mians non indiget aliquibus operibus,
+<lb ed="#V" n="28"/>et tamen vult opera exhiberi propter
+<lb ed="#V" n="29"/>ulilitatem et majorem dignitatem
+<lb ed="#V" n="30"/>ilius qui praemiatur, tunc in 
+pre<lb break="no" ed="#V" n="31"/>miante maxima bonitas ostenditur.
+<lb ed="#V" n="32"/>Et hine est quod noluit Angelis prius
+<lb ed="#V" n="33"/>conferre gloriam ante meritum, sed
+<lb ed="#V" n="34"/>voluit eos prius mereri. Unde Doctor
+<lb ed="#V" n="35"/>in 2. dist. 2. quaest. 2. respondendo
+<lb ed="#V" n="36"/>ad primum argumentum sic ait: Deus,
+<lb ed="#V" n="37"/>inquit, po/uisset Angelus dedisse 
+beati<lb break="no" ed="#V" n="38"/>tudinem in instanti creationis, si. 
+vo<lb break="no" ed="#V" n="39"/>luisset, sed gloriosius est eam habere ex
+<lb ed="#V" n="40"/>merito, et ita disposuit sua sapientia.
+<lb ed="#V" n="41"/>Et ideo hoc modo conferendo 
+beatitu<lb break="no" ed="#V" n="42"/>dinem, ut gloriosiores inveniamur in
+<lb ed="#V" n="43"/>conspectu ejus, est signum maxime
+<lb ed="#V" n="44"/>bonitatis et liberalitatis.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e742">
+               <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>Si dicatur, ergo gloriosius est 
+pra<lb break="no" ed="#V" n="46"/>destinare propter opera meritoria, et
+<lb ed="#V" n="47"/>sie merita erunt causa 
+praedestinatio<lb break="no" ed="#V" n="48"/>nis.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e755">
+               <lb ed="#V" n="49"/>Dico, quod in eligendo nos ad 
+ulti<lb break="no" ed="#V" n="50"/>mum finem, non habende respectum
+<lb ed="#V" n="51"/>ad opera noslra, est singularissimi
+<lb ed="#V" n="52"/>liberalitatis et bonitatis; sed postea
+<lb ed="#V" n="53"/>conferendo illam, ut gloriosiores 
+inve<lb break="no" ed="#V" n="54"/>niamur, est signum excellentissimo
+<lb ed="#V" n="55"/>liberalitatis, ita quod in eligendo non
+<lb ed="#V" n="56"/>propter merita, et in conferendo eam
+<lb ed="#V" n="57"/>propter merita, et hoc propter 
+majo<lb break="no" ed="#V" n="58"/>rem ulilitatem nostram, est signum
+<lb ed="#V" n="59"/>maxim: bonitatis divine.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e781">
+               <lb ed="#V" n="60"/>Secundo posset dici, quod etiam si
+<lb ed="#V" n="61"/>praedestinaret propter opera, ut 
+glo<lb break="no" ed="#V" n="62"/>riosiores essemus in ejus conspectu,
+<lb ed="#V" n="63"/>non esset inconveniens, sic tamen
+<lb ed="#V" n="64"/>quod opera nostra non essent causa
+<lb ed="#V" n="65"/>propter quam praecise praedestinaret,
+<lb ed="#V" n="66"/>quasi quod nullo modo praedestinaret,
+<lb ed="#V" n="67"/>nisi prius haberet actum ad opera 
+nos<lb break="no" ed="#V" n="68"/>tra, sed attenta majori gloria nostra
+<lb ed="#V" n="69"/>propter opera praedestinet.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e805">
+               <lb ed="#V" n="70"/>Secunda conclusio est, quod 
+repro<lb break="no" ed="#V" n="71"/>bationis assignanda est aliqua causa
+<lb ed="#V" n="72"/>ex parte nostra, scilicet peccatum 
+fi<lb break="no" ed="#V" n="73"/>naliter praevisum, et haec probatur per
+<lb ed="#V" n="74"/>Augustinum super Genes. 4l. Noz est
+<lb ed="#V" n="75"/>prius Deus ultor, quam aliquis sit 
+pec<lb break="no" ed="#V" n="76"/>cator. Videtur enim esse crudelitatis
+<lb ed="#V" n="77"/>punire aliquem non praeexistente 
+cul<lb break="no" ed="#V" n="78"/>pa in eo, et sic non vult aliquem prius
+<lb ed="#V" n="79"/>punire, quam videat esse peccatorem.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e829">
+               <lb ed="#V" n="80"/>(c) Contra stud, Petrus et Judas
+<lb ed="#V" n="81"/>equales in naturalibus voliti a Deo.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e836">
+               <lb ed="#V" n="82"/>Respondet Doctor, quod in primo
+<lb ed="#V" n="83"/>signo voluntas divina praedestinat
+<lb ed="#V" n="84"/>Petrum, et in tali signo nullum actum
+<lb ed="#V" n="85"/>positivum habet circa Judam, et in
+<lb ed="#V" n="86"/>seeundo signo intellectus divinus
+<lb ed="#V" n="87"/>pravidet ipsos easuros, etc. Vide 
+litte<lb break="no" ed="#V" n="88"/>ram, qua clara est.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e855">
+               <pb ed="#V" n="704"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>Quidam Doctor dicit quod iste 
+mo<lb break="no" ed="#V" n="2"/>dus loquendi de prioritate, puta 
+origi<lb break="no" ed="#V" n="3"/>nis vel naturi et hujusmodi, in divinis
+<lb ed="#V" n="4"/>est simpliciter falsus et abusivus. Ideo
+<lb ed="#V" n="5"/>contra istam opinionem arguit: 
+Pri<lb break="no" ed="#V" n="6"/>mo, quando dicitur quod signa talia
+<lb ed="#V" n="7"/>originis et nature sunt ibi, ita quod in
+<lb ed="#V" n="8"/>primo signo sit unum, et in alio
+<lb ed="#V" n="9"/>aliud, quaero quid sunt illa signa, aut
+<lb ed="#V" n="10"/>sunt entia realia, aut. entia $1atio nis?
+<lb ed="#V" n="11"/>Non entia realia, quia nihil est reale
+<lb ed="#V" n="12"/>in divinis nisi absolutum, vel relatio
+<lb ed="#V" n="13"/>vel persona ; ergo dicere, quod Pater
+<lb ed="#V" n="14"/>in primo signo vel instanti originis
+<lb ed="#V" n="15"/>habeat essentialia, est dicere quod
+<lb ed="#V" n="16"/>Pater in Patre, vel in essentia, vel in
+<lb ed="#V" n="17"/>relatione, vel in aliquo absoluto habet
+<lb ed="#V" n="18"/>essentialia, quod nihilest ad 
+proposi<lb break="no" ed="#V" n="19"/>tum. Si autem illa instantia, vel 
+sig<lb break="no" ed="#V" n="20"/>na sunt entia rationis, contra, 
+cir<lb break="no" ed="#V" n="21"/>cumseriplo omni ente rationis, Pater
+<lb ed="#V" n="22"/>est prior origine Filio ; ergo 
+circum<lb break="no" ed="#V" n="23"/>seriplis omnibus talibus instantibus vel
+<lb ed="#V" n="24"/>signis, Pater est prior Filio; ergo illa
+<lb ed="#V" n="25"/>instantia vel signa frustra ponuntur.
+<lb ed="#V" n="26"/>Secundo, quando dicitur quod 
+es<lb break="no" ed="#V" n="27"/>sentialia sunt in primo instanti 
+ori<lb break="no" ed="#V" n="28"/>ginis, aut ly s2gno supponit pro ente
+<lb ed="#V" n="29"/>reali, aut pro ente rationis. Si pro ente
+<lb ed="#V" n="30"/>reali, aut proente creato, aut increato.
+<lb ed="#V" n="31"/>Non pro ente creato, certum est, quia
+<lb ed="#V" n="32"/>illa essentialia erant, quando nullum
+<lb ed="#V" n="33"/>ens creatum erat. Si proente increato,
+<lb ed="#V" n="34"/>aul pre absoluto, aut respectiva? Si
+<lb ed="#V" n="35"/>pro absoluto, et in quolibet absoluto
+<lb ed="#V" n="36"/>in quo est, Pater est Filius; ergo
+<lb ed="#V" n="37"/>sicut. Pater est in primo signo 
+origi<lb break="no" ed="#V" n="38"/>nis, ita Filius erit in primo signo 
+ori<lb break="no" ed="#V" n="39"/>ginis, quod tamen non concedunt. Si
+<lb ed="#V" n="40"/>pro respectivo, hoc esset dicere quod
+<lb ed="#V" n="41"/>essentialia essent in aliquo respectu,
+<lb ed="#V" n="42"/>et ita magis sequeretur quod respectus
+<lb ed="#V" n="43"/>esset prior essentialibus, quod e 
+con<lb break="no" ed="#V" n="44"/>Verso.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e957">
+               <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>Tertio: Quandocumque aliqua ordi.
+<lb ed="#V" n="46"/>nata, quorum unum est in uno signo
+<lb ed="#V" n="47"/>vel instanti, et aliud in alio, quamvis
+<lb ed="#V" n="48"/>repugnet posteriori esse in primo 
+in<lb break="no" ed="#V" n="49"/>stanti, tamen non repugnat priori esse
+<lb ed="#V" n="50"/>simul! eum posteriori in secundo 
+in<lb break="no" ed="#V" n="51"/>stanti, patet de ordinatis in tempore.
+<lb ed="#V" n="52"/>Quamvis enim prius et posterius, non
+<lb ed="#V" n="53"/>sint simul in primo instanti 
+duratio<lb break="no" ed="#V" n="54"/>nis, tamen poterunt simul esse in 
+se<lb break="no" ed="#V" n="55"/>cundo instanti durationis ; ergo 
+quam<lb break="no" ed="#V" n="56"/>vis Pater et Filius non possint esse
+<lb ed="#V" n="57"/>simul in primo originis, tamen 
+pote<lb break="no" ed="#V" n="58"/>runt esse simul in secundo instanti
+<lb ed="#V" n="59"/>originis; ergo Pater et Filius erunt
+<lb ed="#V" n="60"/>simul origine, saltem in aliquo 
+in<lb break="no" ed="#V" n="61"/>slanti. Sed nihil est in secundo instanti
+<lb ed="#V" n="62"/>originis nisi originatum, quia esse in
+<lb ed="#V" n="63"/>secundo instanti originis, est esse 
+ori<lb break="no" ed="#V" n="64"/>ginatum, quia esse ab alio; ergo 
+es<lb break="no" ed="#V" n="65"/>sentialia vere originarentur.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e1007">
+               <lb ed="#V" n="66"/>Quarto : Inter quaecumque est, ordo
+<lb ed="#V" n="67"/>originis, aliquod illorum vere 
+origina<lb break="no" ed="#V" n="68"/>tur; ergo si essentialia sint in primo
+<lb ed="#V" n="69"/>signo originis, et notionalia in secundo,
+<lb ed="#V" n="70"/>tunc paternitas esset in secundo signo
+<lb ed="#V" n="71"/>originis, et per consequens vel aliquod
+<lb ed="#V" n="72"/>essentiale vereoriginaretur, vel 
+pater<lb break="no" ed="#V" n="73"/>nitas, quorum utrumque est manifeste
+<lb ed="#V" n="74"/>falsum, quia  tunc Pater haberet 
+ali<lb break="no" ed="#V" n="75"/>quid vere originatum.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e1031">
+               <lb ed="#V" n="76"/>Si dicatur, quod quamvis essentialia
+<lb ed="#V" n="77"/>sint priora notionalibus, non tamen
+<lb ed="#V" n="78"/>sunt essentialia in primo signo 
+origi<lb break="no" ed="#V" n="79"/>nis, et notionalia in secundo. Contra,
+<lb ed="#V" n="80"/>iste Doctor alibi dicit sic: In primo
+<lb ed="#V" n="81"/>signo originis Pater intelligit 
+formali<lb break="no" ed="#V" n="82"/>ter, et tunc etiam potest habere actum
+<lb ed="#V" n="83"/>volendi formaliter. In secundo signo
+<lb ed="#V" n="84"/>originis gignit Filium, non tamen vult
+<lb ed="#V" n="85"/>tunc istam gignitionem volitione 
+se<lb break="no" ed="#V" n="86"/>quente illam gignitionem, sed volitione
+<lb ed="#V" n="87"/>habita in primo signo originis; ergo
+<lb ed="#V" n="88"/>palet manifeste quod in primo signo
+<pb ed="#V" n="705"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>originis est manifeste intellectio et 
+vo<lb break="no" ed="#V" n="2"/>litio secundum istum Doctorem, et in
+<lb ed="#V" n="3"/>secundo signo est ipsa gignitio. Ideo
+<lb ed="#V" n="4"/>dieo aliter, quod in divinis est prius
+<lb ed="#V" n="5"/>productivitate, quia producens est
+<lb ed="#V" n="6"/>prius producto, et hoc non est aliud
+<lb ed="#V" n="7"/>dicere, quam quod a Patre est Filius,
+<lb ed="#V" n="8"/>vel quod Pater producit Filium; non
+<lb ed="#V" n="9"/>tamen debet concedi quod Pater sit in
+<lb ed="#V" n="10"/>aliquo signo priori, nec nature, nec
+<lb ed="#V" n="11"/>durationis, nec originis, in quo non
+<lb ed="#V" n="12"/>sit Filius, ut dicunt . quidam, quod
+<lb ed="#V" n="13"/>sicut sint instantia temporis, ita sunt
+<lb ed="#V" n="14"/>instantia nature vel originis. Addit
+<lb ed="#V" n="15"/>etiam, quod ibi est prioritas 
+communi<lb break="no" ed="#V" n="16"/>talis, ita quod illud dicatur prius a
+<lb ed="#V" n="17"/>quo non eonvertitur subsistendi 
+con<lb break="no" ed="#V" n="18"/>sequentia, ut patet de essentia et 
+per<lb break="no" ed="#V" n="19"/>sonis, quia bene sequitur, A est Pater;
+<lb ed="#V" n="20"/>ergo A est essentia, non tamen e 
+con<lb break="no" ed="#V" n="21"/>ira, et sic de aliis.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e1112">
+               <lb ed="#V" n="22"/>Dico ad primum, quod sustinendo
+<lb ed="#V" n="23"/>quod hujusmodi instantia sive signa,
+<lb ed="#V" n="24"/>sint aliquid positivum ex natura rei (ut
+<lb ed="#V" n="25"/>exposui supra dst. 6. contra Gregorium
+<lb ed="#V" n="26"/>et Joannem Anglicum) quod sunt 
+en<lb break="no" ed="#V" n="27"/>litates absolute, sicut et determinate
+<lb ed="#V" n="28"/>oportet dicere. Si vero teneatur (ut 
+ex<lb break="no" ed="#V" n="29"/>posui) quod hujusmodi instantia in re
+<lb ed="#V" n="30"/>nihil sint distincta a divinis, facilis est
+<lb ed="#V" n="31"/>responsio ad omnes objectiones 
+Oc<lb break="no" ed="#V" n="32"/>cham, et die conformiter sicut 
+res<lb break="no" ed="#V" n="33"/>pondi ad argumenta Gregorii ia
+<lb ed="#V" n="34"/>isto 1. d. 6. q. unica. Nec oportet hic
+<lb ed="#V" n="35"/>instare, quia ibi prolixe ista 
+expo<lb break="no" ed="#V" n="36"/>sui.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e1147">
+               <lb ed="#V" n="37"/>Et sic patet quomodo ista instantia
+<lb ed="#V" n="38"/>sunt ponenda, ita quod in primo. 
+in<lb break="no" ed="#V" n="39"/>stanti voluntas divina vult gloriam 
+Pe<lb break="no" ed="#V" n="40"/>tro, et in secundo valt gratiam ; et in
+<lb ed="#V" n="41"/>istis duobus nullum acetum habet circa
+<lb ed="#V" n="42"/>Judam positivum. In tertio instanti
+<lb ed="#V" n="43"/>vult permittere Petrum cadere in 
+pec<lb break="no" ed="#V" n="44"/>calum, et similiter Judam ; et in isto
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>instanti uniformiter se habet circa 
+Pe<lb break="no" ed="#V" n="46"/>trum et Judam.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e1174">
+               <lb ed="#V" n="47"/>(d) Sed ex isto actu est illud verum 
+di<lb break="no" ed="#V" n="48"/>cere, Judas erit finaliter peccator.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e1181">
+               <lb ed="#V" n="49"/>Sed in ista littera. accidunt aliqua
+<lb ed="#V" n="50"/>dubia, quia videtur quod reprobet
+<lb ed="#V" n="51"/>simpliciter Judam sine aliqua causa.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e1190">
+               <lb ed="#V" n="52"/>Primo, quia habens agens in potestate
+<lb ed="#V" n="53"/>sua effectum et dispositionem ad illum,
+<lb ed="#V" n="54"/>volens effectum, quia vult 
+dispositio<lb break="no" ed="#V" n="55"/>nem ad illum, non vult illum 
+effec<lb break="no" ed="#V" n="56"/>tum propter hoc tantum, quia vult 
+dis<lb break="no" ed="#V" n="57"/>positionem ad illum quam habet 
+tota<lb break="no" ed="#V" n="58"/>liter in sua potestate. Cum ergo 
+volun<lb break="no" ed="#V" n="59"/>tas divina possit simpliciter nolle 
+Ju<lb break="no" ed="#V" n="60"/>dam cadere, si eum vult permittere
+<lb ed="#V" n="61"/>cadere, ut propter hoc eum reprobet,
+<lb ed="#V" n="62"/>quem etiam absolute reprobare posset,
+<lb ed="#V" n="63"/>non videtur quod casus ille sit 
+simpli<lb break="no" ed="#V" n="64"/>citer causa reprobationis.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e1221">
+               <lb ed="#V" n="65"/>Secundo, non videtur quod aliquis
+<lb ed="#V" n="66"/>juste puniat aliquem propter illud
+<lb ed="#V" n="67"/>quod non est in potestate puniendi,
+<lb ed="#V" n="68"/>patet. Sed si voluntas divina in tertio
+<lb ed="#V" n="69"/>signo vult efficaciter Judam permittere
+<lb ed="#V" n="70"/>cadere, et hoc intellectus divinus 
+cer<lb break="no" ed="#V" n="71"/>titudinaliter cognoscit ab aeterno; 
+er<lb break="no" ed="#V" n="72"/>8o non erit in potestate Juda non 
+ca<lb break="no" ed="#V" n="73"/>dere. Si sic ; ergo non videtur eum 
+jus<lb break="no" ed="#V" n="74"/>te reprobare; si enim Judas potest
+<lb ed="#V" n="75"/>peccare, ergo intellectus divinus 
+pote<lb break="no" ed="#V" n="76"/>rit decipi, vel voluntas divina mutari
+<lb ed="#V" n="77"/>oppositum determinando.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e1252">
+               <lb ed="#V" n="78"/>Secundo dubitatur : Posito quod in
+<lb ed="#V" n="79"/>primo signo voluntas divina habeat
+<lb ed="#V" n="80"/>actum negativum circa Judam 
+respec<lb break="no" ed="#V" n="81"/>tu glorie, et in secundo signo 
+simpli<lb break="no" ed="#V" n="82"/>citer habeat actum negativum 
+respec<lb break="no" ed="#V" n="83"/>tu gratiae, an in tertio signo possit 
+ip<lb break="no" ed="#V" n="84"/>sum praedestinare? Si sic, quare(cum
+<lb ed="#V" n="85"/>sint ex praesupposito aequales in 
+natu<lb break="no" ed="#V" n="86"/>ralibus, et ut sic, praesentes voluntati
+<lb ed="#V" n="87"/>divina) in primo instanti pra destinat
+<lb ed="#V" n="88"/>Petrum, non Judam, cum ipsum pos-
+<pb ed="#V" n="706"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tea in tertio signo praedestinare velit,
+<lb ed="#V" n="2"/>et sic videtur acceptatio personarum ?
+<lb ed="#V" n="3"/>Si non, ergo voluntas divina non erit
+<lb ed="#V" n="4"/>libera circa aliquod objectum nullo
+<lb ed="#V" n="5"/>actu posilivo circa ipsum prius elicito,
+<lb ed="#V" n="6"/>quia in primo et secundo signis 
+nul<lb break="no" ed="#V" n="7"/>lum actum positivum habuit circa 
+Ju<lb break="no" ed="#V" n="8"/>dam, ut dicit. Doctor.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e1300">
+               <lb ed="#V" n="9"/>Tertio dubitatur: An voluntas divina
+<lb ed="#V" n="10"/>in quarto signo in quo eum reprobat,
+<lb ed="#V" n="11"/>possit ipsum praedestinare? Si sic, 
+er<lb break="no" ed="#V" n="12"/>go peccatorem praedestinat, quia in
+<lb ed="#V" n="13"/>quarto signo olferturei, ut finalis 
+pec<lb break="no" ed="#V" n="14"/>cator, et sic sequitur quod dignum 
+re<lb break="no" ed="#V" n="15"/>probari praedestinat. Si non, cum illo
+<lb ed="#V" n="16"/>instanti quarto, quo ei offertur ut 
+fina<lb break="no" ed="#V" n="17"/>liter peccator, nullum actum habeat
+<lb ed="#V" n="18"/>cirea Judam nisi permissivum, 
+sequi<lb break="no" ed="#V" n="19"/>tur quod ipsum non possit 
+praedesti<lb break="no" ed="#V" n="20"/>nare.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e1330">
+               <lb ed="#V" n="21"/>Quarto dubitatur : Posito quod in
+<lb ed="#V" n="22"/>primo signo non habeat acetum 
+positi<lb break="no" ed="#V" n="23"/>vum circa Judam respectu glorie, nec
+<lb ed="#V" n="24"/>in secundo respectu gratie, et in 
+ter<lb break="no" ed="#V" n="25"/>tio vult permittere Petrum et Judam
+<lb ed="#V" n="26"/>eadere in peccatum, et in quarto
+<lb ed="#V" n="27"/>offertur Judas ut finaliter peecator, et
+<lb ed="#V" n="28"/>Petrus non ut finaliter peccator, cum
+<lb ed="#V" n="29"/>tam in Petro quam in Juda 
+prievidea<lb break="no" ed="#V" n="30"/>tur peceatum, quare magis vult 
+Pe<lb break="no" ed="#V" n="31"/>trum resurgere a peccato quam Judam,
+<lb ed="#V" n="32"/>cum uterque offeratur ut peecator? et
+<lb ed="#V" n="33"/>quare peccatum Petri non est ita 
+cau<lb break="no" ed="#V" n="34"/>sa reprobationis Petri, sicut. et 
+peeca<lb break="no" ed="#V" n="35"/>tum Judae ? Si dicatur quod quia Judas
+<lb ed="#V" n="36"/>offertur ut finaliter peccator, Petrus
+<lb ed="#V" n="37"/>vero non, hoc non videtur, quia 
+sim<lb break="no" ed="#V" n="38"/>pliciter est in potestate Dei Judam esse
+<lb ed="#V" n="39"/>finaliter peccatorem, posset enim si
+<lb ed="#V" n="40"/>vellet facere Judam non fuisse 
+finali<lb break="no" ed="#V" n="41"/>ter peccatorem, et ex alia parte 
+potuis<lb break="no" ed="#V" n="42"/>set facere Petrum finaliter peccatorem;
+<lb ed="#V" n="43"/>quare ergo magis unum quam alium,
+<lb ed="#V" n="44"/>eum hae omnia sint simpliciter in
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>potestate divina? Possent adduci 
+mul<lb break="no" ed="#V" n="46"/>ta alia dabia, qui brevitatis causa
+<lb ed="#V" n="47"/>omilto.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e1393">
+               <lb ed="#V" n="48"/>Respondeo ad dubia, sed prius 
+prae<lb break="no" ed="#V" n="49"/>mitto aliqua.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e1400">
+               <lb ed="#V" n="50"/>Primo, aliquid esse in potestate 
+ali<lb break="no" ed="#V" n="51"/>eujus potest dupliciter intelligi. Primo,
+<lb ed="#V" n="52"/>quod ita sit in potestate ejus, quod 
+tan<lb break="no" ed="#V" n="53"/>tum sit ab illo. Secundo, quod non
+<lb ed="#V" n="54"/>tantum sit ab illo primo, licet 
+conco<lb break="no" ed="#V" n="55"/>mitanter. Exemplum, vendere 
+Chris<lb break="no" ed="#V" n="56"/>tum Judis, ista venditio fit tantum a
+<lb ed="#V" n="57"/>Deo, et nullo modo a Juda, et per 
+con<lb break="no" ed="#V" n="58"/>sequens non est in potestate Judo
+<lb ed="#V" n="59"/>dare- rectitudinem actui, quia nec
+<lb ed="#V" n="60"/>actus est in potestate ejus, vel fit ista
+<lb ed="#V" n="61"/>venditio principaliter a Deo, ut a causa
+<lb ed="#V" n="62"/>prima omnis positivi, et minus 
+princi<lb break="no" ed="#V" n="63"/>paliter a Juda. Sed rectitudo etiam fit
+<lb ed="#V" n="64"/>principaliter a Deo, et minus 
+princi<lb break="no" ed="#V" n="65"/>paliter a Juda; defectus tamen dandi
+<lb ed="#V" n="66"/>rectitudinem non fit primo a Deo, qui
+<lb ed="#V" n="67"/>ideo non dat, quia Judas non dat, ut
+<lb ed="#V" n="68"/>patet a Doctore in 2. d. 37. et vide ibi
+<lb ed="#V" n="69"/>expositionem singularem. Secundo,
+<lb ed="#V" n="70"/>premitto quod voluntas divina ab
+<lb ed="#V" n="71"/>iterno determinavit relinquere 
+homi<lb break="no" ed="#V" n="72"/>nem in potestate sui liberi arbitrii, et
+<lb ed="#V" n="73"/>ideo licet posset de facto dare semper
+<lb ed="#V" n="74"/>rectitudinem actibus nostris, et sic
+<lb ed="#V" n="75"/>coagere voluntati nostrae, ut non 
+pos<lb break="no" ed="#V" n="76"/>set declinare ab hujusmodi rectitudine
+<lb ed="#V" n="77"/>non tamen hoc facit propter multas
+<lb ed="#V" n="78"/>rationes a Doctore assignatas, 27 
+se<lb break="no" ed="#V" n="79"/>cunda distinctione vigesimatertia.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e1468">
+               <lb ed="#V" n="80"/>Ex his dico,quod voluntas divina 
+et<lb break="no" ed="#V" n="81"/>si habeat in potestate sua ut possit non
+<lb ed="#V" n="82"/>dare rectitudinem actibus nostris, non
+<lb ed="#V" n="83"/>tamen facit, imo voluntate 
+antece<lb break="no" ed="#V" n="84"/>dente dat actibus nostris rectitudinem,
+<lb ed="#V" n="85"/>et consequenter sive voluntate 
+conse<lb break="no" ed="#V" n="86"/>quente, sive efficaci semper daret,
+<lb ed="#V" n="87"/>nisi esset defectus ex parte nostra, ut
+<lb ed="#V" n="88"/>probat Doctor in 2. ubi supra. Et ab
+<pb ed="#V" n="707"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>aeterno determinavit semper efficaciter
+<lb ed="#V" n="2"/>dare rectitudinem operibus Judae, nisi
+<lb ed="#V" n="3"/>ipse Judas ponat obicem, quod 
+contin<lb break="no" ed="#V" n="4"/>git quando defectus incipit prius ab
+<lb ed="#V" n="5"/>ipso Juda.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e1505">
+               <lb ed="#V" n="6"/>Dico ultra, quod si Judas voluisset a
+<lb ed="#V" n="7"/>peccato resurgere per poenitentiam
+<lb ed="#V" n="8"/>causando in se acetum attritionis, 
+sem<lb break="no" ed="#V" n="9"/>per voluntas divina concurrisset, ut
+<lb ed="#V" n="10"/>principalis causa tam actus attritionis
+<lb ed="#V" n="11"/>quam etiam rectitudinis in tali actu,
+<lb ed="#V" n="12"/>nisi ponatur obex a Juda, imo dedisset
+<lb ed="#V" n="13"/>statim gratiam per actum illum 
+attri<lb break="no" ed="#V" n="14"/>lionis delentem omnem culpam, et
+<lb ed="#V" n="15"/>hoc ab aeterno determinavit. Dico ergo
+<lb ed="#V" n="16"/>quod peccatum finale est causa 
+repro<lb break="no" ed="#V" n="17"/>bationis, quia licet voluntas divina 
+de<lb break="no" ed="#V" n="18"/>terminaverit nunquam negare 
+recti<lb break="no" ed="#V" n="19"/>tudinem actibus nostris quantum est
+<lb ed="#V" n="20"/>ex parte sua, tamen ab aeterno 
+deter<lb break="no" ed="#V" n="21"/>minavit nunquam dare rectitudinem,
+<lb ed="#V" n="22"/>si nos incipimus non dare. Et ex his
+<lb ed="#V" n="23"/>patet solutio ad rationes pro primo 
+du<lb break="no" ed="#V" n="24"/>bio.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e1549">
+               <lb ed="#V" n="25"/>Ad secundum dubium dico, posito
+<lb ed="#V" n="26"/>quod in primo signo et in secundo
+<lb ed="#V" n="27"/>nullum acetum habuerit circa Judam,
+<lb ed="#V" n="28"/>quod potest ipsum prwdestinare. Et
+<lb ed="#V" n="29"/>cum dicis, quare non in primo, cum
+<lb ed="#V" n="30"/>sint praesentes ut aequales, dico primo.
+<lb ed="#V" n="31"/>quod ostendit non velle praedestinare
+<lb ed="#V" n="32"/>propter perfectionem natura, ut notat
+<lb ed="#V" n="33"/>Doctor in 3. d. 7. q. ult. Dico secundo,
+<lb ed="#V" n="34"/>quod in his nulla est quierenda causa,
+<lb ed="#V" n="35"/>eum velle divinum sitex se simpliciter
+<lb ed="#V" n="36"/>perfectissimum, et a nullo regulatum,
+<lb ed="#V" n="37"/>et sic patet quid dicendum ad 
+secun<lb break="no" ed="#V" n="38"/>dum dubium.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e1583">
+               <lb ed="#V" n="39"/>Ad tertium dico, quod si Judas 
+pre<lb break="no" ed="#V" n="40"/>sentatur voluntati divine ut finaliter
+<lb ed="#V" n="41"/>peccator, non potest ipsum 
+praedesti<lb break="no" ed="#V" n="42"/>nare, et hoc stante determinatione 
+vo<lb break="no" ed="#V" n="43"/>luntatis divinae, quae determinavit non
+<lb ed="#V" n="44"/>salvare finaliter existentem in peeca-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>to. Et cum dicitur quod in illo quarto
+<lb ed="#V" n="46"/>instanti quo sic. praesentatur, nullum
+<lb ed="#V" n="47"/>actum positivum habet circa ipsum,
+<lb ed="#V" n="48"/>puta velle ipsum reprobare, dico quod
+<lb ed="#V" n="49"/>hoc non refert, sufficit enim quod
+<lb ed="#V" n="50"/>praecedal causa reprobationis, quie
+<lb ed="#V" n="51"/>est peccatum. Sed an posset de 
+poten<lb break="no" ed="#V" n="52"/>lia absoluta ipsum praedestinare, dico
+<lb ed="#V" n="53"/>quod nullam video repugnantiam.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e1620">
+               <lb ed="#V" n="54"/>Ad quartum dubium patet responsio
+<lb ed="#V" n="55"/>ex supradictis et. dicendis, hic enim
+<lb ed="#V" n="56"/>non est quaerenda aliqua causa quare
+<lb ed="#V" n="57"/>velit Petrum resurgere et non Judam,
+<lb ed="#V" n="58"/>sicut etiam patet per exemplum 
+Doc<lb break="no" ed="#V" n="59"/>toris positum in littera. Judicio meo, in
+<lb ed="#V" n="60"/>his omnibus tutius est se committere
+<lb ed="#V" n="61"/>voluntati divine tanquam rectissime
+<lb ed="#V" n="62"/>regula omnium actuum humanorum,
+<lb ed="#V" n="63"/>nec alliora supra nos quaerere. 
+Quiera<lb break="no" ed="#V" n="64"/>mus toto corde et totis viribus servire
+<lb ed="#V" n="65"/>majestali sus, et forte majorem 
+cu<lb break="no" ed="#V" n="66"/>ram habebitde salute nostra, quam nos
+<lb ed="#V" n="67"/>credamus sive salvetsive damnet,
+sem<lb break="no" ed="#V" n="68"/>per creature suc computali sumus
+<lb ed="#V" n="69"/>apud eum ; ipse enim scit quid vult de
+<lb ed="#V" n="70"/>nobis facere.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e1659">
+               <lb ed="#V" n="71"/>(e) Sed adhuc contra. istud instantur,
+<lb ed="#V" n="72"/>ele. Hic Doctor arguit probando quod
+<lb ed="#V" n="73"/>Deus nesciat certitudinaliter Judam
+<lb ed="#V" n="74"/>esse malum, quia si in tertio signo 
+vo<lb break="no" ed="#V" n="75"/>luntas divina vult permittere Judam
+<lb ed="#V" n="76"/>cadere in peccatum, non videtur quod
+<lb ed="#V" n="77"/>ex tali permissione prevideat 
+certitu<lb break="no" ed="#V" n="78"/>dinaliter Judam fore finaliter malum.
+<lb ed="#V" n="79"/>Nam sola certitudo alicujus actus, et
+<lb ed="#V" n="80"/>certitudo de permissione non facit 
+cer<lb break="no" ed="#V" n="81"/>titudinem de illo actu, quia oporteret
+<lb ed="#V" n="82"/>habere aliquam causam efficientem ;
+<lb ed="#V" n="83"/>igitur ex hoc solo, quod Deus 
+pre<lb break="no" ed="#V" n="84"/>scit se velle Judam permittere 
+peeca<lb break="no" ed="#V" n="85"/>re, non erit certus de Juda peecaturo.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e1694">
+               <lb ed="#V" n="86"/>(d) Et hoc si iste actus primus est 
+pec<lb break="no" ed="#V" n="87"/>catum omissionis, puta non diligere
+<lb ed="#V" n="88"/>Deum tempore determinato, vel non
+<pb ed="#V" n="708"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>subvenire proximo et hujusmodi, e/
+<lb ed="#V" n="2"/>sciendo se cooperaturum ad talem. 
+sub<lb break="no" ed="#V" n="3"/>stantiam actus cum non circumstantiis
+<lb ed="#V" n="4"/>debitis, vel non cooperaturum ei ad 
+ac<lb break="no" ed="#V" n="5"/>tum necessarium, etc. Exemplum, 
+Ju<lb break="no" ed="#V" n="6"/>das praesentatur voluntati divina, et
+<lb ed="#V" n="7"/>similiter Petrus. In primo instanti 
+nul<lb break="no" ed="#V" n="8"/>lum actum habet voluntas divina 
+circ<lb break="no" ed="#V" n="9"/>ca Judam, nec similiter in secundo
+<lb ed="#V" n="10"/>instanti, ut supra patuit. In tertio 
+in<lb break="no" ed="#V" n="11"/>stanti voluntas divina vult permittere
+<lb ed="#V" n="12"/>Judam eadere primo in peccatum 
+com<lb break="no" ed="#V" n="13"/>missionis, puta vendendi Christum
+<lb ed="#V" n="14"/>Judeis, et in illo instanti voluntas
+<lb ed="#V" n="15"/>divina non concurreret ad 
+rectitudi<lb break="no" ed="#V" n="16"/>nem actus , et hoc intellectus divinus
+<lb ed="#V" n="17"/>cognoscit, et per consequens 
+cogno<lb break="no" ed="#V" n="18"/>seit quod Judas committet tale 
+pecca<lb break="no" ed="#V" n="19"/>tum.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e1749">
+               <lb ed="#V" n="20"/>Sed hoc videtur contradicere dictis
+<lb ed="#V" n="21"/>Doctoris, qui expresse dicit z» secundo
+<lb ed="#V" n="22"/>dist. 30. et clarius Z2 37. quod voluntas
+<lb ed="#V" n="23"/>divina vult antecedenter dare 
+reetitu<lb break="no" ed="#V" n="24"/>dinem actibus nostris, et semper dat
+<lb ed="#V" n="25"/>consequenter, si non sit defectus ex
+<lb ed="#V" n="26"/>parte nostra. Si ergo determinat ab
+<lb ed="#V" n="27"/>i:eterno non dare talem rectitudinem,
+<lb ed="#V" n="28"/>videtur quod ne$1atio  rectitudinis sit
+<lb ed="#V" n="29"/>primo a voluntate divina, et tunc ipsa
+<lb ed="#V" n="30"/>erit prima ratio peccandi, ut patet in 2.
+<lb ed="#V" n="31"/>d. 37.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e1778">
+               <lb ed="#V" n="32"/>Respondeo, supponendo primo quod
+<lb ed="#V" n="33"/>voluntas divina potest se determinare
+<lb ed="#V" n="34"/>efficaciter concurrere cum voluntate
+<lb ed="#V" n="35"/>Petri, non tantum ad substantiam 
+ac<lb break="no" ed="#V" n="36"/>tus, sed etiam ad omnem 
+circumstan<lb break="no" ed="#V" n="37"/>tiam actus facientem illum bonum 
+mo<lb break="no" ed="#V" n="38"/>raliter, et ut sic, est simpliciter prima
+<lb ed="#V" n="39"/>ratio tam respectu circumstantia 
+ac<lb break="no" ed="#V" n="40"/>tus quam respectu circumstantic, et
+<lb ed="#V" n="41"/>tunc ipsa agente, ut prima ratione
+<lb ed="#V" n="42"/>agendi, sive ut prima causa, voluntas
+<lb ed="#V" n="43"/>Petri coaget illi, aliter voluntas 
+divi<lb break="no" ed="#V" n="44"/>na consequens sive efficax, non sem-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>per impleretur, quod est falsum et
+<lb ed="#V" n="46"/>contra omnes Doctores ; talis ergo 
+ac<lb break="no" ed="#V" n="47"/>tus nunquam posset poni in esse, nisi
+<lb ed="#V" n="48"/>voluntas divina efficaciter voluisset
+<lb ed="#V" n="49"/>illum poni in esse.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e1823">
+               <lb ed="#V" n="50"/>Secundo, suppono quod respectu
+<lb ed="#V" n="51"/>alicujus actus eliciendi, puta a Juda,
+<lb ed="#V" n="52"/>voluntas divina actu non. determinet
+<lb ed="#V" n="53"/>dare rectitudinem actui, nec 
+determi<lb break="no" ed="#V" n="54"/>net non dare, et sic non dicitur prima
+<lb ed="#V" n="55"/>ratio deficiendi. Diceretur enim prima
+<lb ed="#V" n="56"/>ratio deficiendi a rectitudine, si prius
+<lb ed="#V" n="57"/>aetu determinasset non dare, quod non
+<lb ed="#V" n="58"/>facit, et sic tantum habet actum 
+neu<lb break="no" ed="#V" n="59"/>irum respectu certitudinis non danda,
+<lb ed="#V" n="60"/>videlicet quia non determinatdare, nec
+<lb ed="#V" n="61"/>determinat non dare ;et stante tali ae:
+<lb ed="#V" n="62"/>tu neutro voluntatis divine, intellectus
+<lb ed="#V" n="63"/>divinus certus est quod Judas non eliciet
+<lb ed="#V" n="64"/>aclum eum rectitudine, siveelicietilium
+<lb ed="#V" n="65"/>non dando illi rectitudinem, quae 
+de<lb break="no" ed="#V" n="66"/>beret inesse. Scit enim certitudinaliter
+<lb ed="#V" n="67"/>nihil posse evenire, nisi sit 
+determina<lb break="no" ed="#V" n="68"/>tum a voluntate divinaillud fore 
+ventu<lb break="no" ed="#V" n="69"/>rum. Seit etiam aliquid simpliciter non
+<lb ed="#V" n="70"/>fore, quod est determinatum a 
+volunta<lb break="no" ed="#V" n="71"/>te divina non fore. Scit etiam 
+esseim<lb break="no" ed="#V" n="72"/>possibile rectitudinem aliquam inesse
+<lb ed="#V" n="73"/>alieui actui,stante actu voluntatis 
+divi<lb break="no" ed="#V" n="74"/>na neutro respectu talis rectitudinis.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e1880">
+               <lb ed="#V" n="75"/>Tertio, praesuppono quod voluntas
+<lb ed="#V" n="76"/>divina ab aeterno potest determinare
+<lb ed="#V" n="77"/>-velle aliquid consequenter sive 
+effica<lb break="no" ed="#V" n="78"/>citer, quod prius voluit antecedenter
+<lb ed="#V" n="79"/>sive non efficaciter, si voluntas creata
+<lb ed="#V" n="80"/>non ponat obicem, sive non sit 
+defec<lb break="no" ed="#V" n="81"/>tus ex parte voluntatis creatae. 
+Exem<lb break="no" ed="#V" n="82"/>plum, voluntas divina antecedenter
+<lb ed="#V" n="83"/>vuit Petrum amare Deum, et si 
+Pe<lb break="no" ed="#V" n="84"/>trus vult cooperari voluntati divine
+<lb ed="#V" n="85"/>ad talem amorem, vult consequenter
+<lb ed="#V" n="86"/>Petrum amare. Si vero Petrus ponat
+<lb ed="#V" n="87"/>obicem, puta nolendo cooperari 
+volun<lb break="no" ed="#V" n="88"/>lati divinae ad amorem,  tunc vult effi-
+<pb ed="#V" n="709"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>caciter Petrum non amare, quia tunc
+<lb ed="#V" n="2"/>talis amor nunquam eveniet, primus
+<lb ed="#V" n="3"/>ergo defectus est simpliciter ex parte
+<lb ed="#V" n="4"/>Petri. Et licet posset absolute 
+efficaci<lb break="no" ed="#V" n="5"/>ter nolle Petrum amare Deum, et sic
+<lb ed="#V" n="6"/>erit impossibile Petrum amare, tamen
+<lb ed="#V" n="7"/>hoc non facit propter suam libertatem
+<lb ed="#V" n="8"/>et contingentiam in operando, sed
+<lb ed="#V" n="9"/>vult quod totus defectus imputetur 
+Pe<lb break="no" ed="#V" n="10"/>tro. Determinat ergo ab cterno quod
+<lb ed="#V" n="11"/>pro quocumque instanti Petrus vult
+<lb ed="#V" n="12"/>cooperari ad amorem statim ut 
+prin<lb break="no" ed="#V" n="13"/>cipalis causa, concurrere ; et sic 
+intel<lb break="no" ed="#V" n="14"/>lectus divinus sciet certitudinaliter
+<lb ed="#V" n="15"/>Petrum pro tali tempore velle amare
+<lb ed="#V" n="16"/>Deum, quia scit certitudinaliter 
+volun<lb break="no" ed="#V" n="17"/>tatem divinam velle efficaciter 
+Pe<lb break="no" ed="#V" n="18"/>irum amare, et sic Petrus 
+cooperabi<lb break="no" ed="#V" n="19"/>tur, aliter non eveniret quod efficaciter
+<lb ed="#V" n="20"/>determinatum est evenire. Similiter
+<lb ed="#V" n="21"/>de certitudine, quod Judas non 
+ama<lb break="no" ed="#V" n="22"/>bit, et per consequens peccabil, patet
+<lb ed="#V" n="23"/>per exemplum: Voluntas divina non
+<lb ed="#V" n="24"/>determinat efficaciter Judam amare
+<lb ed="#V" n="25"/>Deum pro talitempore, quia si 
+determi<lb break="no" ed="#V" n="26"/>nasset, Judas amaret Deum. Secundo,
+<lb ed="#V" n="27"/>voluntate antecedente sive absoluta, id
+<lb ed="#V" n="28"/>est, quantum est ex parte sua vult
+<lb ed="#V" n="29"/>Judam amare Deum, et talis voluntas
+<lb ed="#V" n="30"/>non semper adimpletur. "l'ertio, 
+deter<lb break="no" ed="#V" n="31"/>minat velle efficaciter Judam amare
+<lb ed="#V" n="32"/>Deum, si Judas non ponit obicem, sive
+<lb ed="#V" n="33"/>si non sit defectus ex parte Jude, id
+<lb ed="#V" n="34"/>est, quod si Judas in instanti A. vult
+<lb ed="#V" n="35"/>Deum amare, in eodem instanti 
+vo<lb break="no" ed="#V" n="36"/>luntas divina vult efficaciter Judam
+<lb ed="#V" n="37"/>amare. Sed quia voluntas divina non
+<lb ed="#V" n="38"/>vult absolute et efficaciter Judam 
+ama<lb break="no" ed="#V" n="39"/>re, quia  tunc amaret, sed vult ipsum
+<lb ed="#V" n="40"/>amare nisi sit defectus ex parte Juda,
+<lb ed="#V" n="41"/>Judas  tunc non amabit, et quia non
+<lb ed="#V" n="42"/>amabit voluntas divina, deficiet ; et sic
+<lb ed="#V" n="43"/>intellectus divinus scit hoc modo 
+cer<lb break="no" ed="#V" n="44"/>titudinaliter Judam non amare, et per
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>consequens scit certitudinaliter Judam
+<lb ed="#V" n="46"/>peecaturum. De hoc tamen vide 
+sin<lb break="no" ed="#V" n="47"/>gularem expositionem, quam feci d/s/.
+<lb ed="#V" n="48"/>29i. secundi Doctoris, et multa ibi 
+vi<lb break="no" ed="#V" n="49"/>debis, etc.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e2026">
+               <lb ed="#V" n="50"/>(g) Ad primum argumentum 
+princi<lb break="no" ed="#V" n="51"/>pale. Hic Doctor respondet ad 
+argu<lb break="no" ed="#V" n="52"/>menia principalia posita in principio
+<lb ed="#V" n="53"/>quaestionis, quorum primum fuit tale:
+<lb ed="#V" n="54"/>Si aliquem pradestinaret et aliquem
+<lb ed="#V" n="55"/>non praedestinaret, nulla ratione 
+pre<lb break="no" ed="#V" n="56"/>cedente in praedestinato, non videretur
+<lb ed="#V" n="57"/>summe bonus sive summe liberalis,
+<lb ed="#V" n="58"/>quia si in primo signo uterque 
+pra<lb break="no" ed="#V" n="59"/>senfatur in puris naturalibus, et non
+<lb ed="#V" n="60"/>apparet major ratio, quod unus magis
+<lb ed="#V" n="61"/>praedestinetur quam alius ; ergo si sola
+<lb ed="#V" n="62"/>voluntate prwedestinat, si utrumque
+<lb ed="#V" n="63"/>non praedestinat, non videtur summe
+<lb ed="#V" n="64"/>liberalis, quia libe$1atio r est qui 
+pluri<lb break="no" ed="#V" n="65"/>bus eommunicat quam qui tantum
+<lb ed="#V" n="66"/>uni.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e2065">
+               <lb ed="#V" n="67"/>Respondet Doctor quod summe 
+libe<lb break="no" ed="#V" n="68"/>ralis potest aliquibus duobus 
+appre<lb break="no" ed="#V" n="69"/>hensis sequalibus velle bonum non
+<lb ed="#V" n="70"/>equaliter communicare, nec in hoc
+<lb ed="#V" n="71"/>fit injustitia aliqua ; tum quia nihil est
+<lb ed="#V" n="72"/>debitum ; tum etiam quia bonitas
+<lb ed="#V" n="73"/>creata non movet voluntatem 
+divi<lb break="no" ed="#V" n="74"/>nam, ut supra patuit a Doctore.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e2085">
+               <lb ed="#V" n="75"/>Secundo principaliter arguitur, quia
+<lb ed="#V" n="76"/>tunc in tali primo signo, cum uterque
+<lb ed="#V" n="77"/>ex parte sua sit ordinabilisad ultimum
+<lb ed="#V" n="78"/>finem; ergo si voluntas divina non
+<lb ed="#V" n="79"/>ordinat utrumque, videtur quod sit 
+ac<lb break="no" ed="#V" n="80"/>ceptatrix personarum.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e2101">
+               <lb ed="#V" n="81"/>(h) Ad secundum dico. Respondet
+<lb ed="#V" n="82"/>Doctor quod quando sunt aliqua duo
+<lb ed="#V" n="83"/>ieque volibilia, etc. id est, quod bonitas
+<lb ed="#V" n="84"/>in illis sit ratio, propter quam 
+volun<lb break="no" ed="#V" n="85"/>tas debet sic vel sic eligere, tunc talis
+<lb ed="#V" n="86"/>voluntas praecceptans unum illorum,
+<lb ed="#V" n="87"/>ete. Et ratio,quia nullus actus 
+volunta<lb break="no" ed="#V" n="88"/>lis ereatz:e. est ex se reetus, ut. supra
+<pb ed="#V" n="710"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>patuit a Doctore dst. 1. quaest. prima,
+<lb ed="#V" n="2"/>et dist. A7. et infra. patebit dest. 44. ef
+<lb ed="#V" n="3"/>in 2. dist. 5. 23. 34. et alibi sepe.
+<lb ed="#V" n="4"/>Oportet enim actum voluntatis esse
+<lb ed="#V" n="5"/>conformem rationi rect:' ad hoc ut
+<lb ed="#V" n="6"/>sit rectus, et quia ratio recta, quad» 
+mo<lb break="no" ed="#V" n="7"/>vetur abobjectis, judicat tale objectum
+<lb ed="#V" n="8"/>sje vel sic esse diligendum, et hoc
+<lb ed="#V" n="9"/>totum accipita bonitate objecti a qua
+<lb ed="#V" n="10"/>movetur, ut supra patuit quast. ultim.
+<lb ed="#V" n="11"/>prologi, sequitur: Non s?e voluntas in^
+<lb ed="#V" n="12"/>creata respectu alicujus bont alterius ab
+<lb ed="#V" n="13"/>essentia sua, etc. Unde seiendum est
+<lb ed="#V" n="14"/>quod voluntas divina, non amat 
+ali<lb break="no" ed="#V" n="15"/>quod objectum extra amore affectus,
+<lb ed="#V" n="16"/>sed tantum amore effectus, quod notat
+<lb ed="#V" n="17"/>Doctor in 3. distinct. 32. etc.et ideotota
+<lb ed="#V" n="18"/>dilectio voluntatis divina attenditur
+<lb ed="#V" n="19"/>penes effectum quem producit ; si enim
+<lb ed="#V" n="20"/>produeit effectum perfectiorem, 
+dici<lb break="no" ed="#V" n="21"/>mus quod illud magis amat, quia 
+com<lb break="no" ed="#V" n="22"/>municatur major bonitas. Apparet
+<lb ed="#V" n="23"/>ergo, quod in nulla creatura est aliqua
+<lb ed="#V" n="24"/>bonitas, qui: sit ratio movendi 
+volun<lb break="no" ed="#V" n="25"/>talem divinam, cum tota bonitas sit
+<lb ed="#V" n="26"/>immediate a voluntate divina, ettotum
+<lb ed="#V" n="27"/>bonum rei creat: ideo dicitur bonum,
+<lb ed="#V" n="28"/>quia sic dilectum sive productum actu
+<lb ed="#V" n="29"/>voluntatis divinae. Et quomodo 
+volun<lb break="no" ed="#V" n="30"/>las divina dicatur diligere bonum
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="31"/>creaturae, quia bonum, etc. vide 
+Doc<lb break="no" ed="#V" n="32"/>torem alibi, praecipue infra 42. d. et
+<lb ed="#V" n="33"/>44. et in 2. dist. 36. respondendo ad 
+ar<lb break="no" ed="#V" n="34"/>gumenia principalia, et in tertio dist.
+<lb ed="#V" n="35"/>18. et dist. 29. et alibi sepe.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e2204">
+               <lb ed="#V" n="36"/>(i) Ad primum in oppositum. Hic
+<lb ed="#V" n="37"/>Doctor respondet ad argumenta facta
+<lb ed="#V" n="38"/>ad oppositum in principio questionis *
+<lb ed="#V" n="39"/>quie videntur concludere quod nulla
+<lb ed="#V" n="40"/>sit ratioin creatura, etiam nec respectu
+<lb ed="#V" n="41"/>reprobati, et arguit sic: Rom. 9. Cum
+<lb ed="#V" n="42"/>enim nondum nati fuissent. Praeterea
+<lb ed="#V" n="43"/>ibidem, exemplificat de figulo, de 
+ea<lb break="no" ed="#V" n="44"/>dem massa potest formare unum vas
+<lb ed="#V" n="45"/>in honorem, et aliud in contumeliam,
+<lb ed="#V" n="46"/>ex quo videtur arguere ex simili de
+<lb ed="#V" n="47"/>praedestinatione hujus, et de 
+reproba<lb break="no" ed="#V" n="48"/>tione alterius.
+</p>
+            <p xml:id="mm30o9-d1e1345-d1e2235">
+               <lb ed="#V" n="49"/>Respondet Doctor dicens quod qui
+<lb ed="#V" n="50"/>vult tenere opinionem S. Thome, 
+po<lb break="no" ed="#V" n="51"/>test, respondere quod datur ratio in
+<lb ed="#V" n="52"/>communi, licet non in partieulari. Et
+<lb ed="#V" n="53"/>in hoc Apostolus redarguit praessum 
+p<lb break="no" ed="#V" n="54"/>tuosos inquirentes illa, quorum non
+<lb ed="#V" n="55"/>sunt capaces,quia judicium est de 
+par<lb break="no" ed="#V" n="56"/>ticulari agibili. Et de hoc infra patebit
+<lb ed="#V" n="57"/>44. distinct. et in 2. distinctione 6. 
+quas<lb break="no" ed="#V" n="58"/>tione 2. quomodo judicium differat a
+<lb ed="#V" n="59"/>lege.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

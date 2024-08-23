@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#per-FLBca3">Franciscus Lychetus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2024-08-23">August 23, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-23" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="260"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="mm30o9-d1e1004"><!-- lycht-d23q1-p2 -->
+        <head xml:id="mm30o9-d1e1004-Hd1e101">Quaestio 1</head>
+        <p xml:id="mm30o9-d1e1004-d1e103">
+          <pb ed="#V" n="260"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1" type="fixed=260"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1004-d1e112">
+          <lb ed="#V" n="2"/>(a) Contra opinionem in se. Hoc 
+          ra<lb break="no" ed="#V" n="3"/>tio clara est. Cum tamen dicit quod
+          <lb ed="#V" n="4"/>intentio secunda est relatio 
+          perti<lb break="no" ed="#V" n="5"/>nens ad extremum, vel ad actum 
+          in<lb break="no" ed="#V" n="6"/>tellectus componentis vel dividentis,
+          <lb ed="#V" n="7"/>ete. id est quod secunda intentio,
+          <lb ed="#V" n="8"/>vel per se pertinet ad extremum  
+          in<lb break="no" ed="#V" n="9"/>tellectus  componentis vel 
+          dividen<lb break="no" ed="#V" n="10"/>lis, scilicet quod est praedica um vel
+          <lb ed="#V" n="11"/>subjeetum propositionis affirmativw
+          <lb ed="#V" n="12"/>vel negativa, et sic accipitur secunda
+          <lb ed="#V" n="13"/>intentio secundum quod ponitur 2»
+          <lb ed="#V" n="14"/>libro Pradicabilium, quia omne 
+          sub<lb break="no" ed="#V" n="15"/>jeetum vel praedicatum pertinet ad
+          <lb ed="#V" n="16"/>terminos simplices (qui sunt wn?versale,
+          <lb ed="#V" n="17"/>singulare, proprium vel accidens, etc.)
+          <lb ed="#V" n="18"/>pertinet ad acetum intellectus 
+          compo<lb break="no" ed="#V" n="19"/>nentis vel dividentis, id est, quod 
+          ac<lb break="no" ed="#V" n="20"/>eipitur, vel pro relatione fabricata in
+          <lb ed="#V" n="21"/>propositione affirmativa vel negativa,
+          <lb ed="#V" n="22"/>vel ad acetum intellectus comparantis
+          <lb ed="#V" n="23"/>unum objectum ad alterum; et hoc
+          <lb ed="#V" n="24"/>ultimo modo est ad intenlionem 
+          Doc<lb break="no" ed="#V" n="25"/>toris, ut patet in suis Universalibus.
+          <lb ed="#V" n="26"/>Et cum dicit, quod intellectus 
+          nego<lb break="no" ed="#V" n="27"/>tians non potest causare circa rem 
+          pri<lb break="no" ed="#V" n="28"/>m: intentionis, puta circa objectum
+          <lb ed="#V" n="29"/>inquantum cognitum, nisi relationem
+          <lb ed="#V" n="30"/>rationis, hoc declaratum fuit supra
+          <lb ed="#V" n="31"/>dist. 8. quaest penultim. Tertio dicit
+          <lb ed="#V" n="32"/>quod si ipsa persona esset relatio 
+          ra<lb break="no" ed="#V" n="33"/>tionis, tunc necessario esset ad aliud
+          <lb ed="#V" n="34"/>tanquam ad correlativum, hoc patet
+          <lb ed="#V" n="35"/>diffuse in suis Universalibus ; et quod
+          <lb ed="#V" n="36"/>persona non sit. ad aliud, accipiendo
+          <lb ed="#V" n="37"/>ipsam iu communi, patet. infra dist.
+          <lb ed="#V" n="38"/>25.
+        </p>
+        <p xml:id="mm30o9-d1e1004-d1e195">
+          <lb ed="#V" n="39"/>(b) Praeterea, contra rationem. Quia
+          <lb ed="#V" n="40"/>si tres persona» sunt tres res, supple
+          <lb ed="#V" n="41"/>subsistentes, et res non dicit 
+          secun<lb break="no" ed="#V" n="42"/>dam intentionem, et tamen res signi-
+        </p>
+        <p xml:id="mm30o9-d1e1004-d1e206">
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="43"/>ficata per personam est communis 
+          tri<lb break="no" ed="#V" n="44"/>bus; patet, quia quando aliqua 
+          nume<lb break="no" ed="#V" n="45"/>rantur, numerantur propter aliquod
+          <lb ed="#V" n="46"/>commune divisum in illa, sicut 
+          dici<lb break="no" ed="#V" n="47"/>mus tria animalia, quia animal est 
+          di<lb break="no" ed="#V" n="48"/>visum in illa, et per eamdem rationem
+          <lb ed="#V" n="49"/>tenet illud quod dicit Magister d. 25.
+          <lb ed="#V" n="50"/>cap. 8. |
+        </p>
+        <p xml:id="mm30o9-d1e1004-d1e229"><!-- ordinatio para 14 -->
+          <lb ed="#V" n="51"/>(c) Praeterea, contra additum arguo
+          <lb ed="#V" n="52"/>sic. Quia dixit quod persona quae est
+          <lb ed="#V" n="53"/>communis tribus, est adjectivum. 
+          Ar<lb break="no" ed="#V" n="54"/>guit Doctor quomodo tale adjectivum
+          <lb ed="#V" n="55"/>potest terminare dependentiam 
+          rela<lb break="no" ed="#V" n="56"/>tionis adjectivi, cujusmodi est (res. Et
+          <lb ed="#V" n="57"/>hoc patet clare supra dist. 12.
+        </p>
+        <!--</div>
+          <div alias="lycht-d22q1-p3">-->
+        <p xml:id="mm30o9-d1e1004-d1e250">
+          <lb ed="#V" n="63" type="fixed=264"/>COMMENTARIUS
+        </p>
+        <p xml:id="mm30o9-d1e1004-d1e255">
+          <lb ed="#V" n="64"/>(a) Ad quaestionem, etc. Omnia ista
+          <lb ed="#V" n="65"/>clara sunt ex dictis hic, et singulariter
+          <lb ed="#V" n="66"/>ex dictis d. 2. art. 2. quest. 1. et 
+          habe<lb break="no" ed="#V" n="67"/>tur bona glossa ibi.
+        </p>
+        <p xml:id="mm30o9-d1e1004-d1e266">
+          <lb ed="#V" n="68"/>(c) Ad primum istorum dico. Hsec 
+          res<lb break="no" ed="#V" n="69"/>ponsio valde notanda est, et dicit in
+          <lb ed="#V" n="70"/>sententia, quod abstractum ab 
+          ulti<lb break="no" ed="#V" n="71"/>mis distinclivis (que uitima 
+          distinc<lb break="no" ed="#V" n="72"/>tiva sunt primo diversa, ut patuit
+          <lb ed="#V" n="73"/>supra d. 3. q. 3.) est. tantum vel,
+          eon<lb break="no" ed="#V" n="74"/>ceptus negativus vel conceptus 
+          po<lb break="no" ed="#V" n="75"/>silivus, dictus tantum denominative,
+          <lb ed="#V" n="76"/>accipiendo denominative, pro non 
+          pra<lb break="no" ed="#V" n="77"/>dicari essentialiter, ut satis patuit 
+          su<lb break="no" ed="#V" n="78"/>pra dist. praeallegata. Et sic conceptus
+          <lb ed="#V" n="79"/>abstractus ab ultimis differentiis non
+          <lb ed="#V" n="80"/>erit aliquo modo in quid.
+        </p>
+        <p xml:id="mm30o9-d1e1004-d1e297">
+          <lb ed="#V" n="81"/>(f) Tamen dubitatur. Nota hanc 
+          res<lb break="no" ed="#V" n="82"/>ponsionem, quia singularis est.
+        </p>
+        <p xml:id="mm30o9-d1e1004-d1e305">
+          <lb ed="#V" n="83"/>Si dicatur, nonne Doctor supra dist.
+          <lb ed="#V" n="84"/>3. quest. 1. contra Thomam et alibi, 
+          ar<lb break="no" ed="#V" n="85"/>guit quod ne$1atio  non potest inesse
+          <lb ed="#V" n="86"/>alicui, nisi per aliquam affirmatio-
+          <pb ed="#V" n="265"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>nem et tamen hic dicit quod negatio
+          <lb ed="#V" n="2"/>potest esse communis pluribus, et 
+          ne<lb break="no" ed="#V" n="3"/>gatio ejusdem rationis, et tamen non
+          <lb ed="#V" n="4"/>inest illis pluribus per aliquam 
+          affir<lb break="no" ed="#V" n="5"/>mationem communem illis, sive per
+          <lb ed="#V" n="6"/>aliquod positivum commune illis.
+        </p>
+        <p xml:id="mm30o9-d1e1004-d1e334">
+          <lb ed="#V" n="7"/>Respondeo et dico, facilis est 
+          res<lb break="no" ed="#V" n="8"/>ponsio, quia ibi dicit quod negatio non
+          <lb ed="#V" n="9"/>praedicatur de aliquo, nisi 
+          praesuppo<lb break="no" ed="#V" n="10"/>nat aliquam affirmationem in illo, 
+          si<lb break="no" ed="#V" n="11"/>cut non lapis non convenit homini, 
+          ni<lb break="no" ed="#V" n="12"/>si propter aliquam affirmationem sive
+          <lb ed="#V" n="13"/>propter aliquam realitatem positivam
+          <lb ed="#V" n="14"/>existentem in homine, cui repugnat
+          <lb ed="#V" n="15"/>affirmatio lapidis. Et sic dicit in 
+          pro<lb break="no" ed="#V" n="16"/>posito, quod illa negatio communis
+          <lb ed="#V" n="17"/>non potest competere inferiori, nisi per
+          <lb ed="#V" n="18"/>aliquod positivum vel affirmationem
+          <lb ed="#V" n="19"/>in illo, et non est necesse quod 
+          com<lb break="no" ed="#V" n="20"/>petat sibi per aliquod positivum 
+          com<lb break="no" ed="#V" n="21"/>mune inferioribus, etc. Secundo dicit
+          <lb ed="#V" n="22"/>quod negatio dicitur ejusdem rationis,
+          <lb ed="#V" n="23"/>quae repugnat affirmationi unius 
+          ratio<lb break="no" ed="#V" n="24"/>nis. Exemplum, nam affirmatio 
+          lapi<lb break="no" ed="#V" n="25"/>dis repugnat animali; ergo negatio
+          <lb ed="#V" n="26"/>opposita illi competit animali. Et 
+          dici<lb break="no" ed="#V" n="27"/>tur unius rationis, quia opponitur 
+          af<lb break="no" ed="#V" n="28"/>firmationi unius rationis, etc.
+        </p>
+        <p xml:id="mm30o9-d1e1004-d1e384">
+          <lb ed="#V" n="29"/>(g) Cum secundo objicitur. Hic 
+          dis<lb break="no" ed="#V" n="30"/>linguit quod negatio est duplex, 
+          scili<lb break="no" ed="#V" n="31"/>cet extra genus et in genere. Prima
+          <lb ed="#V" n="32"/>dicitur illa, quae non determinat sibi
+          <lb ed="#V" n="33"/>aliquod subjectum, sicut 202 ens, 
+          simi<lb break="no" ed="#V" n="34"/>liter 202 chzmzra et hujusmodi. 
+          Secun<lb break="no" ed="#V" n="35"/>da est illa, quae determinat sibi aliquod
+          <lb ed="#V" n="36"/>subjectum, sicut 0n /apis determinat
+          <lb ed="#V" n="37"/>sibi aliquod subjectum, puta illud 
+          sub<lb break="no" ed="#V" n="38"/>jeetum cui repugnat affirmatio lapidis.
+          <lb ed="#V" n="39"/>Et sic in proposito, esse 
+          incommuni<lb break="no" ed="#V" n="40"/>cabile u quo et ut quod, dicit 
+          negatio<lb break="no" ed="#V" n="41"/>nem in genere, quia determinat sibi
+          <lb ed="#V" n="42"/>aliquod subjectum, puta suppositum,
+          <lb ed="#V" n="43"/>eui repugnat affirmatio 
+          communicabi<lb break="no" ed="#V" n="44"/>litatis. Secundo, dicit quod duplex est
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>privatio, scilicet secundum se et se-,
+          <lb ed="#V" n="46"/>cundum genus, de qua patet ; et dicitur
+          <lb ed="#V" n="47"/>privatio secundum se, negatio in 
+          sub<lb break="no" ed="#V" n="48"/>jecto apto nato, quod secundum se
+          <lb ed="#V" n="49"/>formaliter est aptam natum habere 
+          ha<lb break="no" ed="#V" n="50"/>bitum oppositum tali privationi. Et 
+          se<lb break="no" ed="#V" n="51"/>cundum genus est illa, quiae negatio
+          <lb ed="#V" n="52"/>in subjecto apto nato, non secundum
+          <lb ed="#V" n="53"/>se, sed secundum genus, et sic talpa,
+          <lb ed="#V" n="54"/>licet inquantum talpa non sit apta
+          <lb ed="#V" n="55"/>nata videre, tamen inquantum animal
+          <lb ed="#V" n="56"/>est apta nata videre. Tertio dicit quod
+          <lb ed="#V" n="57"/>esse incommunicabile modo praedicto,
+          <lb ed="#V" n="58"/>est negatio in genere, et etiam est 
+          ne<lb break="no" ed="#V" n="59"/>gatio sic in genere, quod talis negatio
+          <lb ed="#V" n="60"/>opponitur privationi, quia non est 
+          ne<lb break="no" ed="#V" n="61"/>gatio in subjecto apto nato, quia eum
+          <lb ed="#V" n="62"/>dico, suppositum est incommunicabile,
+          <lb ed="#V" n="63"/>non intelligo quod illud sit aptum 
+          na<lb break="no" ed="#V" n="64"/>tum communicari ; et hoc loquendo de
+          <lb ed="#V" n="65"/>privatione secundum se, quia forte 
+          se<lb break="no" ed="#V" n="66"/>cundum genus non repugnat sibi, quia
+          <lb ed="#V" n="67"/>licet Franeiseus secundum se non sit
+          <lb ed="#V" n="68"/>aptus natus communicari, tamen 
+          in<lb break="no" ed="#V" n="69"/>quantum homo vel animal, non 
+          repu<lb break="no" ed="#V" n="70"/>gnat sibi.
+        </p>
+        <p xml:id="mm30o9-d1e1004-d1e480">
+          <lb ed="#V" n="71"/>(h) Est dubitatio ulterior. Dubitat
+          <lb ed="#V" n="72"/>Doctor, an a suppositis divinis 
+          abstra<lb break="no" ed="#V" n="73"/>hatur tantum conceptus negaltivus vel
+          <lb ed="#V" n="74"/>positivus? et videtur declinare ad 
+          se<lb break="no" ed="#V" n="75"/>cundum, ut patet expresse ab ipso in
+          <lb ed="#V" n="76"/>3. distinct. 1. quast. 1. Et cum dicit,
+          <lb ed="#V" n="77"/>quod ab individuis non tantum potest
+          <lb ed="#V" n="78"/>abstrahi species, puta a Francisco,
+          <lb ed="#V" n="79"/>Joanne, l'aulo, etc. potest abstrahi 
+          ho<lb break="no" ed="#V" n="80"/>mo, qui dicit totam quidditatem 
+          indi<lb break="no" ed="#V" n="81"/>viduorum, sed etiam aliquid, quasi
+          <lb ed="#V" n="82"/>proprium, puta ratio individualis, que
+          <lb ed="#V" n="83"/>praedicatur de ista et de ista, vel etiam
+          <lb ed="#V" n="84"/>individui, quod praedicatur de isto 
+          in<lb break="no" ed="#V" n="85"/>dividuo et de isto ; et dicitur quas? 
+          pro<lb break="no" ed="#V" n="86"/>priam, quia nullo modo dicit 
+          quiddita<lb break="no" ed="#V" n="87"/>tem, ut patet supra.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

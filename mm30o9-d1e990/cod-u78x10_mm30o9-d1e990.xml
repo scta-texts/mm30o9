@@ -1,0 +1,1662 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#per-FLBca3">Franciscus Lychetus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2024-08-23">August 23, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-23" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="231"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="mm30o9-d1e990"><!-- lycht-d22q2-p2 -->
+        <head xml:id="mm30o9-d1e990-Hd1e101">Quaestio 2</head>
+        <!-- lychtus commentary for an additio not considered to be part of ordinatio -->
+        <p xml:id="mm30o9-d1e990-d1e105">
+          <pb ed="#V" n="231"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1" type="fixed=231"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e114">
+          <lb ed="#V" n="2"/>(b) Hic est opinio talis, etc. Proponit
+          <lb ed="#V" n="3"/>Doctor sententiam Henrici, qui sub
+          <lb ed="#V" n="4"/>una majori propositione multas 
+          sub<lb break="no" ed="#V" n="5"/>sumit minores, ex quibus diversas
+          <lb ed="#V" n="6"/>infert conclusiones. Propositio major
+          <lb ed="#V" n="7"/>est, quod nomina seu voces 
+          significa<lb break="no" ed="#V" n="8"/>tive sint symbola seu signa 
+          interve<lb break="no" ed="#V" n="9"/>nientia inter loquentem et audientem,
+          <lb ed="#V" n="10"/>quibus mediantibus posset audiens
+          <lb ed="#V" n="11"/>intelligere quid velit loquens 
+          signifi<lb break="no" ed="#V" n="12"/>care, et cum hoc nequeat fieri nisi
+          <lb ed="#V" n="13"/>ulerque intelligat et significatum
+          <lb ed="#V" n="14"/>vocum, et voces esse imposita ad illa
+          <lb ed="#V" n="15"/>significanda, supponit loquentem et
+          <lb ed="#V" n="16"/>audientem debere cognoscere et rem
+          <lb ed="#V" n="17"/>significantam, et voces esse ordinatas
+          <lb ed="#V" n="18"/>ad rem significandam. Uno verbo,
+          <lb ed="#V" n="19"/>major Henrici est quod ut aliquis per
+          <lb ed="#V" n="20"/>vocem significet aliquid alicui, 
+          uter<lb break="no" ed="#V" n="21"/>que debeat cognoscere et rem 
+          signifi<lb break="no" ed="#V" n="22"/>eandam et vocem esse ejus 
+          significa<lb break="no" ed="#V" n="23"/>tivam. Sub hac majori subsumit
+          <lb ed="#V" n="24"/>primo hanc minorem: sed essentia
+          <lb ed="#V" n="25"/>divina secundum rationem, immensitatis
+          <lb ed="#V" n="26"/>sua, est soli Deo cognita, et infert inde
+          <lb ed="#V" n="27"/>solum Deum posse imponere nomen
+          <lb ed="#V" n="28"/>significativum istius essentisd sub ista
+          <lb ed="#V" n="29"/>ratione.Secundo,subsumitaliam 
+          mino<lb break="no" ed="#V" n="30"/>rem sub eadem majori: Sed Beati vident
+          <lb ed="#V" n="31"/>illam essentiam distincte sub. ratione
+          <lb ed="#V" n="32"/>propria, et infert. secundam 
+          conclu<lb break="no" ed="#V" n="33"/>sionem: Ergo Beati possunt nominare
+          <lb ed="#V" n="34"/>Deum aliquo nomine ad. significandum
+          <lb ed="#V" n="35"/>distincte essentiam divinam sub propria
+          <lb ed="#V" n="36"/>ratione imposito, sive a. Deo, sive ab
+          <lb ed="#V" n="37"/>aliquo Beato, Tertio, subsumit aliam
+          <lb ed="#V" n="38"/>minorem, quod viatores neutro modo
+          <lb ed="#V" n="39"/>cognoscant essentiam divinam, nec
+          <lb ed="#V" n="40"/>ut Deus, nec ut Beatus, et infert tertiam
+          <lb ed="#V" n="41"/>conclusionem: ergo non possuntviatores
+          <lb ed="#V" n="42"/>per nomina ad ipsum significandum
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="43"/>emposita, ut cognoscitur a Deo aut a
+          <lb ed="#V" n="44"/>Beato, perduci ad cognoscendum Deum
+          <lb ed="#V" n="45"/>Sub istis rationibus.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e214">
+          <lb ed="#V" n="46"/>Quarto, subsumitquartam minorem:
+          <lb ed="#V" n="47"/>sed creatura potest aliquo modo 
+          cogno<lb break="no" ed="#V" n="48"/>scere Deum, et infert quartam 
+          conclu<lb break="no" ed="#V" n="49"/>sionem : ergo et aliquo modo, 
+          proportio<lb break="no" ed="#V" n="50"/>nabiluer ad illam cognitionem, poterit
+          <lb ed="#V" n="51"/>ipsum nominare. Et addit tamen ad
+          <lb ed="#V" n="52"/>hanc nullum nomen proprium Deo
+          <lb ed="#V" n="53"/>impositum a viatore concipiente Deum
+          <lb ed="#V" n="54"/>modo imperfecto, quo in via 
+          eognosci<lb break="no" ed="#V" n="55"/>tur, posse esse transtatum a creaturis;
+          <lb ed="#V" n="56"/>sed nomen, quod ex institutione 
+          erea<lb break="no" ed="#V" n="57"/>ture est proprium Deo, debere esse
+          <lb ed="#V" n="58"/>primo et per se impositum ad 
+          signi<lb break="no" ed="#V" n="59"/>ficandum Deum sub illo conceptu quo
+          <lb ed="#V" n="60"/>concipitur, ut distinctus a creatura.
+          <lb ed="#V" n="61"/>Denique infert nomen Dews esse 
+          impo<lb break="no" ed="#V" n="62"/>situm ad significandum perfectiones
+          <lb ed="#V" n="63"/>Dei omnes summatim et in generali,
+          <lb ed="#V" n="64"/>alia vero nomina significare 
+          perfec<lb break="no" ed="#V" n="65"/>tiones aliquas partieulares Dei; unde
+          <lb ed="#V" n="66"/>existimat ex nominibus Latinis esse
+          <lb ed="#V" n="67"/>maxime proprium nomen ei, et non
+          <lb ed="#V" n="68"/>nisi transtative seu metaphorice dici
+          <lb ed="#V" n="69"/>de creaturis quandoque.
+        </p>
+        <!--</div>
+          <div alias="lycht-d22q2-p3">-->
+        <p xml:id="mm30o9-d1e990-d1e272">
+          <lb ed="#V" n="15" type="fixed=234"/>COMMENTARIUS .
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e277">
+          <lb ed="#V" n="16"/>(c) De ratione hujus opinionis, etc.
+          <lb ed="#V" n="17"/>Non tam dimisso quam dilato majoris
+          <lb ed="#V" n="18"/>propositionis examine, iractat hiec
+          <lb ed="#V" n="19"/>Doctor de minoribus praecedentis 
+          opi<lb break="no" ed="#V" n="20"/>nionis. Et primo primam minorem,
+          <lb ed="#V" n="21"/>quatenus negabat alium, quam Deum
+          <lb ed="#V" n="22"/>ipsum posse videre Deum ut 
+          immen<lb break="no" ed="#V" n="23"/>sum, impugnat, quia alias non 
+          satia<lb break="no" ed="#V" n="24"/>retur intellectus Beati satietate 
+          natu<lb break="no" ed="#V" n="25"/>rali, prout scilicet ceonnaturaliter natus
+          <lb ed="#V" n="26"/>est satiari et perfici ; sicut enim non
+          <lb ed="#V" n="27"/>satiaretur sic, nisi videret Deum, ut
+          <lb ed="#V" n="28"/>haic essentia est, et nisi videret ipsum
+          <lb ed="#V" n="29"/>ut est Omnipotens, omniscius et 
+          inclu<lb break="no" ed="#V" n="30"/>dens alias perfectiones, ita etiam nec
+          <lb ed="#V" n="31"/>saliaretur, nisi videret ipsum ut 
+          im<lb break="no" ed="#V" n="32"/>mensus, quia est eadem ratio. Deinde
+          <lb ed="#V" n="33"/>immensitas Dei non magis excedit 
+          ca<lb break="no" ed="#V" n="34"/>pacitatem intellectus quam infinitas,
+          <lb ed="#V" n="35"/>et omnipotentia aliaque attributa ;
+          <lb ed="#V" n="36"/>sed Beatus non solum potest videre
+          <lb ed="#V" n="37"/>infinitatem et alia attributa, sed de
+          <lb ed="#V" n="38"/>facto videt, ergo idem dicendum de
+          <lb ed="#V" n="39"/>immensitate. Confirmatur ex eo quod
+          <lb ed="#V" n="40"/>videbimus Deum sicut est, et non in
+          <lb ed="#V" n="41"/>speculo et enigmalte,sed facie ad faciem,
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="42"/>colligitur quod videbimus ipsum sub
+          <lb ed="#V" n="43"/>aliis attributis ; ergo et sub attributo
+          <lb ed="#V" n="44"/>immensitatis, quia eadem prorsus est
+          <lb ed="#V" n="45"/>ratio. GConfirmatur secundo, quia non
+          <lb ed="#V" n="46"/>est major connexio inter visionem 
+          es<lb break="no" ed="#V" n="47"/>senti: et relationum quam inter 
+          vi<lb break="no" ed="#V" n="48"/>sionem essentic et attributorum 
+          om<lb break="no" ed="#V" n="49"/>nium. Sedsecundum Henricum 
+          qwuod<lb break="no" ed="#V" n="50"/>libelo 2. quest. 1. non potest Beatus
+          <lb ed="#V" n="51"/>videre essentiam, non visis 
+          relationi<lb break="no" ed="#V" n="52"/>bus ; ergo nec potest videre eam, non
+          <lb ed="#V" n="53"/>visa immensitate.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e364">
+          <lb ed="#V" n="54"/>Impugnat Doctor eamdem minorem :
+          <lb ed="#V" n="55"/>secundo, cognitio clara Dei sub ra-,
+          <lb ed="#V" n="56"/>tione immensitalis non esset. 
+          compre<lb break="no" ed="#V" n="57"/>hensiva, sed nulla cognitio de Deo 
+          re<lb break="no" ed="#V" n="58"/>pugnat Beato, nisi qua esset. 
+          compre<lb break="no" ed="#V" n="59"/>hensiva ; ergo non repugnat ipsi 
+          ceo<lb break="no" ed="#V" n="60"/>gnitio immensilatis. Probat majorem,
+          <lb ed="#V" n="61"/>quia eognitio comprehensiva Dei 
+          de<lb break="no" ed="#V" n="62"/>beret esse infinita intensive, sicut ipse
+          <lb ed="#V" n="63"/>Deus, et hine solummodo repugnat
+          <lb ed="#V" n="64"/>creature ; sed cognitio Dei ut 
+          immen<lb break="no" ed="#V" n="65"/>sus est, non deberet esse infinita, qua
+          <lb ed="#V" n="66"/>enim ratione potest actus non esse tam
+          <lb ed="#V" n="67"/>perfectus quam objectum (ut 
+          manifes<lb break="no" ed="#V" n="68"/>tum est quod possit), eadem non 
+          de<lb break="no" ed="#V" n="69"/>beret actus versatus circa Deum, ut
+          <lb ed="#V" n="70"/>infinitus est et immensus, esse 
+          infini<lb break="no" ed="#V" n="71"/>tus et immensus, nisi repraesentative,
+          <lb ed="#V" n="72"/>quod non facit ad rem. Confirmatur,
+          <lb ed="#V" n="73"/>quia si actus deberet esse infinitus
+          <lb ed="#V" n="74"/>jutensive, qui versaretur circa Deum
+          <lb ed="#V" n="75"/>ut immensus, deberent omnes actus,
+          <lb ed="#V" n="76"/>qui versarentur circa ipsum ut sic,
+          <lb ed="#V" n="77"/>esse ejusdem perfectionis ; sed hoc
+          <lb ed="#V" n="78"/>est falsum, quia nulla apparet ratio,
+          <lb ed="#V" n="79"/>eur non possent haberi diversi actus
+          <lb ed="#V" n="80"/>inequalis perfectionis 'cirea ipsum,
+          <lb ed="#V" n="81"/>sicut de faeto Beati habent visiones
+          <lb ed="#V" n="82"/>beatificas inaequales. Confirmatur 
+          se<lb break="no" ed="#V" n="83"/>eundo, quia non magis 
+          sequereturin<lb break="no" ed="#V" n="84"/>finitas actus ex terminatione ad Deum
+          <lb ed="#V" n="85"/>ut immensum, quam ex terminatione
+          <pb ed="#V" n="235"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>ad ipsum ut est omnipotens aut 
+          omni<lb break="no" ed="#V" n="2"/>scius.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e445">
+          <lb ed="#V" n="3"/>Advertendum autem hic obiter circa
+          <lb ed="#V" n="4"/>primam improbationem Doctoris quod
+          <lb ed="#V" n="5"/>videatur sequi, visionem intuitivam
+          <lb ed="#V" n="6"/>solius essentivae divine secundum se
+          <lb ed="#V" n="7"/>formaliter, ut distinguiturab attributis,
+          <lb ed="#V" n="8"/>qualem ipse supra dist. 1. quaest. 2. 
+          con<lb break="no" ed="#V" n="9"/>cedit possibilem non esse beatificam,
+          <lb ed="#V" n="10"/>quia visio beatifica debet esse 
+          satia<lb break="no" ed="#V" n="11"/>tiva. Sed secundum ea, qua hic dicit,
+          <lb ed="#V" n="12"/>- non esset satiativa, quandoquidem per
+          <lb ed="#V" n="13"/>,eam non intueretur quis alias 
+          perfec<lb break="no" ed="#V" n="14"/>? tiones attributales, et nominatim 
+          im<lb break="no" ed="#V" n="15"/>mensitatem, sine cujus cognitione 
+          ne<lb break="no" ed="#V" n="16"/>gat Doctor intellectam satiari posse.
+          <lb ed="#V" n="17"/>Ex alia vero parte quandoquidem 
+          es<lb break="no" ed="#V" n="18"/>sentia, ut haec est, est objectum 
+          pri<lb break="no" ed="#V" n="19"/>mum beatifieum, secundum ipsum
+          <lb ed="#V" n="20"/>ibidem et omnes, videtur quod ipsa sola
+          <lb ed="#V" n="21"/>clere visa et amata, beatificaret. Et
+          <lb ed="#V" n="22"/>hoc videtur mihi magis conforme ad
+          <lb ed="#V" n="23"/>doctrinam Seoli in illa distinctione
+          <lb ed="#V" n="24"/>prima, unde existimo eum 
+          intelligen<lb break="no" ed="#V" n="25"/>dum hoc loco, non ita ut velit, quod
+          <lb ed="#V" n="26"/>non possit de potentia absoluta satiari,
+          <lb ed="#V" n="27"/>saltem intensive, Beatus per visionem
+          <lb ed="#V" n="28"/>ipsiusmet essentiae cum aliis saltem
+          <lb ed="#V" n="29"/>attribulis sine visione immensitatis
+          <lb ed="#V" n="30"/>formaliter. Sed quod non satiaretur
+          <lb ed="#V" n="31"/>intensive per illam visionem, si 
+          con<lb break="no" ed="#V" n="32"/>naturaliter non exigeret terminari ad
+          <lb ed="#V" n="33"/>immensitatem, aut secundum seipsam
+          <lb ed="#V" n="34"/>aut secundum aliam visionem 
+          conna<lb break="no" ed="#V" n="35"/>turaliter illi debitam, hoc enim tantum
+          <lb ed="#V" n="36"/>sufficiebat Doctori contra Henricum,
+          <lb ed="#V" n="37"/>qui existimavit de facto, et 
+          connatu<lb break="no" ed="#V" n="38"/>raliter loquendo, visionem essentia
+          <lb ed="#V" n="39"/>sine visione immensitatis esse 
+          beatifi<lb break="no" ed="#V" n="40"/>cam.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e530">
+          <lb ed="#V" n="41"/>(d) Ex hac parte minoris, etc. Ex 
+          dic<lb break="no" ed="#V" n="42"/>tis facile primam Henrici 
+          conclusio<lb break="no" ed="#V" n="43"/>nem, nimirum quod solus Deus posset
+          <lb ed="#V" n="44"/>imponere nomen significativum sui,
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>ut immensus est, aut. nominare 
+          seip<lb break="no" ed="#V" n="46"/>sum, refutat tribus rationibus. Prima
+          <lb ed="#V" n="47"/>esi, quod ad nominandum objectum
+          <lb ed="#V" n="48"/>sub aliqua ratione seu ad imponendum
+          <lb ed="#V" n="49"/>ipsi nomen significativum ipsius sub
+          <lb ed="#V" n="50"/>illa ratione, non requiratur 
+          compre<lb break="no" ed="#V" n="51"/>hendere ipsum sub illa ratione, sed ad
+          <lb ed="#V" n="52"/>summum sufficit distincte concipere
+          <lb ed="#V" n="53"/>ipsum sub illa ratione. Sed non solus
+          <lb ed="#V" n="54"/>Deus concipit se distincte, ut 
+          immen<lb break="no" ed="#V" n="55"/>sus est, sed Beali sic concipiunt ; ergo
+          <lb ed="#V" n="56"/>non solus Deus potest nominare se, ut
+          <lb ed="#V" n="57"/>est immensus, sed et Beati id facere
+          <lb ed="#V" n="58"/>possunt. Major hujus rationis patet.
+          <lb ed="#V" n="59"/>tum quia Adam non comprehendit
+          <lb ed="#V" n="60"/>naturas rerum omnium, quas 
+          nomi<lb break="no" ed="#V" n="61"/>navit, alias tam perfecte cognovisset
+          <lb ed="#V" n="62"/>illas omnes res quam Christus, quod
+          <lb ed="#V" n="63"/>non est dicendum ; tum quia nulla
+          <lb ed="#V" n="64"/>prorsus est ratio cur ad hoc 
+          compre<lb break="no" ed="#V" n="65"/>hensio requireretur. i
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e589">
+          <lb ed="#V" n="66"/>Secunda ratio est, quia magis 
+          repu<lb break="no" ed="#V" n="67"/>gnat dari signum naturale Dei ut 
+          im<lb break="no" ed="#V" n="68"/>mensi, quam signum ad placitum et
+          <lb ed="#V" n="69"/>ex ordinatione extrinseca, ut patet.
+          <lb ed="#V" n="70"/>Sed potest dari signum naturale 
+          crea<lb break="no" ed="#V" n="71"/>tum et finitum Dei ut sic, nam tale 
+          si<lb break="no" ed="#V" n="72"/>gnum est intellectio ejus distincta
+          <lb ed="#V" n="73"/>quam potest habere Beatus, et de facto
+          <lb ed="#V" n="74"/>habet: Passiones enim, hoc est, 
+          con<lb break="no" ed="#V" n="75"/>ceptus, sunt note rerum et naturaliter,
+          <lb ed="#V" n="76"/>hoc est sunt signa naturalia rerum 
+          in<lb break="no" ed="#V" n="77"/>teliectarum secundum Philosophum ;
+          <lb ed="#V" n="78"/>ergo potest. Beatus imponere nomina
+          <lb ed="#V" n="79"/>significantia Deum, et consequenter
+          <lb ed="#V" n="80"/>non est verum quod solus Deus 
+          pos<lb break="no" ed="#V" n="81"/>sit nominare se ut immensum.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e627">
+          <lb ed="#V" n="82"/>Tertia ratio est, quia illud nomen
+          <lb ed="#V" n="83"/>quod imponeret Deus ad significandum
+          <lb ed="#V" n="84"/>seipsum ut. immensum, secundum
+          <lb ed="#V" n="85"/>Henricum, esset nomen finitum sine
+          <lb ed="#V" n="86"/>dubio ; ergo posset intellectus finitus,
+          <lb ed="#V" n="87"/>et mediante etiam finita intellectione
+          <lb ed="#V" n="88"/>eo uti ad significandum Deum, et con-
+          <pb ed="#V" n="236"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>sequenter nominare Deum. Et 
+          quam<lb break="no" ed="#V" n="2"/>vis Deus intelligat se ut immensum
+          <lb ed="#V" n="3"/>comprehensive, et. consequenter 
+          infi<lb break="no" ed="#V" n="4"/>nities perfectius quam Beatus intelligat
+          <lb ed="#V" n="5"/>aut possit intelligere, tamen non posset
+          <lb ed="#V" n="6"/>Deus imponere nomen ullum ad 
+          si<lb break="no" ed="#V" n="7"/>gnificandum se ut immensum, quod
+          <lb ed="#V" n="8"/>excederet nomen impositum a Beato
+          <lb ed="#V" n="9"/>ad ipsum ut sic significandum, quia
+          <lb ed="#V" n="10"/>non est talis proportio inter nomina
+          <lb ed="#V" n="11"/>imposita ad significandum aliquam
+          <lb ed="#V" n="12"/>rationem objeetivam cognitam a 
+          plu<lb break="no" ed="#V" n="13"/>ribus, qualis est inter cognitiones 
+          is<lb break="no" ed="#V" n="14"/>torum plurium, ita ut si unius 
+          cogni<lb break="no" ed="#V" n="15"/>tio excederet cognitionem alterius,
+          <lb ed="#V" n="16"/>etiam nomen ab ipso impositum 
+          exce<lb break="no" ed="#V" n="17"/>deret in significando nomen 
+          imposi<lb break="no" ed="#V" n="18"/>tum ab altero, eum uterque possit uti
+          <lb ed="#V" n="19"/>indifferenter nomine ab utrovis 
+          impo<lb break="no" ed="#V" n="20"/>sito, ut ex dicendis patebit.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e692">
+          <lb ed="#V" n="21"/>Hae rationes sunt tam. urgentes, ut
+          <lb ed="#V" n="22"/>Vasquez disput. 51. putel non 
+          intelle<lb break="no" ed="#V" n="23"/>xisse Henricum, quod Deus non 
+          co<lb break="no" ed="#V" n="24"/>gnosceretur a Bealis secundum 
+          attri<lb break="no" ed="#V" n="25"/>butum immensitatis, quia haec esset
+          <lb ed="#V" n="26"/>manifeste falsum, ut optime, inquil,
+          <lb ed="#V" n="27"/>probat Scotus, sed quod non 
+          cognos<lb break="no" ed="#V" n="28"/>ceretur a Beatis comprehensive, unde
+          <lb ed="#V" n="29"/>putat Scotum hanc falsam sententiam
+          <lb ed="#V" n="30"/>ipsi imposuisse. Sed in primis non
+          <lb ed="#V" n="31"/>probat ullo modo sententiam Henrici
+          <lb ed="#V" n="32"/>non fuisse, qualem eam dicit Scotus,
+          <lb ed="#V" n="33"/>et praeterea. improprie et inusitate 
+          lo<lb break="no" ed="#V" n="34"/>queretur Henricus, vocando 
+          cognitio<lb break="no" ed="#V" n="35"/>nem comprehensivam Dei 
+          cognitio<lb break="no" ed="#V" n="36"/>nem ipsius sub ratione immensitatis,
+          <lb ed="#V" n="37"/>unde non est verisimile ipsum sic 
+          lo<lb break="no" ed="#V" n="38"/>eutum. Nec denique ullum indicium
+          <lb ed="#V" n="39"/>dat hujus expositionis, unde dum 
+          Vas<lb break="no" ed="#V" n="40"/>quez Henricum a calumnia Scoti 
+          vin<lb break="no" ed="#V" n="41"/>dicat, ut dicitur in margine istius 
+          ca<lb break="no" ed="#V" n="42"/>pitis, Scoto ipsi calumniam infert et,
+          <lb ed="#V" n="43"/>ulrumque immerito facit.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e744">
+          <lb ed="#V" n="44"/>(e) Quarta pars minoris, etc. Quando-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>quidem Doctor non  examinet hic ;
+          <lb ed="#V" n="46"/>quartam propositionem minorem Hen- :
+          <lb ed="#V" n="47"/>rici, sed polius tertiam, in qua dicit
+          <lb ed="#V" n="48"/>quod viator non posset mediante 
+          no<lb break="no" ed="#V" n="49"/>mine imposito a Deo vel Beato ad 
+          si<lb break="no" ed="#V" n="50"/>gnificandum Deum, ut ab ipsismet
+          <lb ed="#V" n="51"/>specialiter concipitur, formare 
+          ali<lb break="no" ed="#V" n="52"/>quem conceptum de Deo, nisi talem
+          <lb ed="#V" n="53"/>qualem eacus posset formare mediante -
+          <lb ed="#V" n="54"/>nomine coloris ; non dubito quin per
+          <lb ed="#V" n="55"/>errorem amanuensium, aut 
+          Lypogra<lb break="no" ed="#V" n="56"/>phi irrepserit quarta pars pro tertia
+          <lb ed="#V" n="57"/>parte inhune paragraphum. Dicit ergo
+          <lb ed="#V" n="58"/>quod licet sit vera illa tertia propositio,
+          <lb ed="#V" n="59"/>ex suppositione quod viator non 
+          ha<lb break="no" ed="#V" n="60"/>beat aliquem conceptum  
+          quidditati<lb break="no" ed="#V" n="61"/>vum de Deo, et quod Beatus imponeret
+          <lb ed="#V" n="62"/>nomen ad significandum conceptum
+          <lb ed="#V" n="63"/>aliquem quidditativum, tamen 
+          propo<lb break="no" ed="#V" n="64"/>sitio illa repugnat principiis Henrici
+          <lb ed="#V" n="65"/>Primo, quia ille concedit alibi et in
+          <lb ed="#V" n="66"/>quarta propositione praesentis sui 
+          dis<lb break="no" ed="#V" n="67"/>eursus, quod viator possit habere 
+          ali<lb break="no" ed="#V" n="68"/>quem econceplum de Deo, sed ille 
+          con<lb break="no" ed="#V" n="69"/>ceptus secundum principia Henrici:
+          <lb ed="#V" n="70"/>esset quidditativus, et talis, qualem
+          <lb ed="#V" n="71"/>habet Beatus ; ergo secundum 
+          Henri<lb break="no" ed="#V" n="72"/>eum posset viator uti nomine imposito
+          <lb ed="#V" n="73"/>a Beato ad intelligendum Deum sub
+          <lb ed="#V" n="74"/>ratione illa, sub qua intelligit ipsum
+          <lb ed="#V" n="75"/>Beatus. Probatur minor, quia non erit
+          <lb ed="#V" n="76"/>conceptus communis Deo et creaturis,
+          <lb ed="#V" n="77"/>sed omnino diversus a quocumque
+          <lb ed="#V" n="78"/>conceptu creature ; ergo erit proprius
+          <lb ed="#V" n="79"/>conceptus quidditativus ipsius Dei, et
+          <lb ed="#V" n="80"/>ille ipse quem concipit Beatus, et ad
+          <lb ed="#V" n="81"/>quem significandum imponeret 
+          no<lb break="no" ed="#V" n="82"/>men, et consequenter viator alio modo
+          <lb ed="#V" n="83"/>potest uti iso nomine, quo caecus 
+          no<lb break="no" ed="#V" n="84"/>mine coloris.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e838">
+          <lb ed="#V" n="85"/>Et si dicatur quod licet sit idem
+          <lb ed="#V" n="86"/>conceptus quiddilativus Dei, quem
+          <lb ed="#V" n="87"/>concipit viator et Beatus, tamen 
+          via<lb break="no" ed="#V" n="88"/>tor non potest intuitive cognoscere
+          <pb ed="#V" n="237"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>illum conceptum sicut Beatus. Contra
+          <lb ed="#V" n="2"/>optime Doctor, quia per nomen 
+          nun<lb break="no" ed="#V" n="3"/>quam debemus cognoscere intuitive
+          <lb ed="#V" n="4"/>rem significatam, sed tantum 
+          me<lb break="no" ed="#V" n="5"/>diante eo debet species istius rei, 
+          se<lb break="no" ed="#V" n="6"/>eundum quod significatur a nomine,
+          <lb ed="#V" n="7"/>excitari in nobis, ut patet in cc:eco non
+          <lb ed="#V" n="8"/>nato, qui scilicet aliquando habuit 
+          vi<lb break="no" ed="#V" n="9"/>sum et vidit colores, postea vero 
+          pri<lb break="no" ed="#V" n="10"/>vatus est visu ; is enim postea potest
+          <lb ed="#V" n="11"/>tam perfecte intelligere nomina 
+          colo<lb break="no" ed="#V" n="12"/>.rum quam ante, licet tamen non 
+          pos<lb break="no" ed="#V" n="13"/>sit postea intuitive cognoscere istos
+          <lb ed="#V" n="14"/>colores.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e884">
+          <lb ed="#V" n="15"/>Probatur secundo, quod ista 
+          propo<lb break="no" ed="#V" n="16"/>sitio tertia sit contra principia 
+          Hen<lb break="no" ed="#V" n="17"/>ricij quia. non possunt dari plures
+          <lb ed="#V" n="18"/>conceptus proprii de essentia divina ;
+          <lb ed="#V" n="19"/>ergo unus tantum, et consequenter, si
+          <lb ed="#V" n="20"/>viator habeat conceptum proprium et
+          <lb ed="#V" n="21"/>non communem de ipsa, ut fatetur
+          <lb ed="#V" n="22"/>Henrieus, habet illum conceptum de
+          <lb ed="#V" n="23"/>illa, quem habet Beatus, loquendo de
+          <lb ed="#V" n="24"/>conceptu objeetivo, de quo 
+          discurri<lb break="no" ed="#V" n="25"/>mus, alque adeo poterit uti nomine 
+          im<lb break="no" ed="#V" n="26"/>posito a Beato ad significandum istum
+          <lb ed="#V" n="27"/>conceptum. Probatur antecedens, quia
+          <lb ed="#V" n="28"/>alias essentia divina causaret illos 
+          plu<lb break="no" ed="#V" n="29"/>res conceptus in intellectu sibi 
+          propor<lb break="no" ed="#V" n="30"/>tionato ; objectum enim perfectum,
+          <lb ed="#V" n="31"/>quale est essentia divina, potest in 
+          in<lb break="no" ed="#V" n="32"/>tellectu sibi proportionato, qualis est
+          <lb ed="#V" n="33"/>intellectus divinus, causare 
+          quoscum<lb break="no" ed="#V" n="34"/>que conceptus, qui de seipso haberi
+          <lb ed="#V" n="35"/>possunt, sicut objectum minus 
+          perfec<lb break="no" ed="#V" n="36"/>tum facere potest. Sed essentia divina
+          <lb ed="#V" n="37"/>non causatnisi unieum conceptum in
+          <lb ed="#V" n="38"/>intellectu diviao et beato secundum
+          <lb ed="#V" n="39"/>Henrieum ; ergo non possunt plures
+          <lb ed="#V" n="40"/>haberi deipsa.lpsemet Doctor advertit,
+          <lb ed="#V" n="41"/>licet hic discursus sit probabilis, posse
+          <lb ed="#V" n="42"/>tamen negari antecedens cum sua
+          <lb ed="#V" n="43"/>probatione, quia $i comparemus 
+          es<lb break="no" ed="#V" n="44"/>sentiam divinam cum intellectu divi-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>no, quia est comprehensivus, non 
+          po<lb break="no" ed="#V" n="46"/>terit causare in ipso nisi unicum 
+          con<lb break="no" ed="#V" n="47"/>ceptum, quamvis essent plures 
+          concep<lb break="no" ed="#V" n="48"/>tus possibiles de ipsa in ali/s 
+          intellec<lb break="no" ed="#V" n="49"/>tibus. Si etiam comparemus essentiam
+          <lb ed="#V" n="50"/>divinam ad intellectum creatum, non
+          <lb ed="#V" n="51"/>est necesse ut ipsa de se possitin eo de
+          <lb ed="#V" n="52"/>se causare illos conceptus 
+          imperfec<lb break="no" ed="#V" n="53"/>tos, quos alia objecta possent de ipsa
+          <lb ed="#V" n="54"/>causare, et hoc ob perfectionem potius
+          <lb ed="#V" n="55"/>ipsius quam ob imperfectionem.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e978">
+          <lb ed="#V" n="56"/>Nihilominusexistimo rationem hanc
+          <lb ed="#V" n="57"/>esse salis urgentem contra Henricum,
+          <lb ed="#V" n="58"/>quia si conceptus, quem habet viator
+          <lb ed="#V" n="59"/>de Deo, sit proprius Dei, et nullo modo
+          <lb ed="#V" n="60"/>communis ipsi eum creaturis, vel 
+          di<lb break="no" ed="#V" n="61"/>stinguitur a conceptu, quem habet
+          <lb ed="#V" n="62"/>Beatus, vel non ; si non distinguitur,
+          <lb ed="#V" n="63"/>ergo habetur intentum ; si 
+          distingui<lb break="no" ed="#V" n="64"/>tar, profecto non potest esse 
+          imperfe<lb break="no" ed="#V" n="65"/>etus. Nullus enim conceptus proprius
+          <lb ed="#V" n="66"/>Dei (loquor semper de conceptu 
+          obje<lb break="no" ed="#V" n="67"/>eto) est imperfectus ; ergo illum potest
+          <lb ed="#V" n="68"/>causare essentia divina in intellectu
+          <lb ed="#V" n="69"/>Beati, et sic Beatus habebit plures 
+          con<lb break="no" ed="#V" n="70"/>ceptus de essentia divina ; et praeterea
+          <lb ed="#V" n="71"/>potest viator uti nomine imposito a
+          <lb ed="#V" n="72"/>Beato ad significandum Deum sub illo
+          <lb ed="#V" n="73"/>conceptu, cognito quidem a Beato 
+          in<lb break="no" ed="#V" n="74"/>tuitive, a viatore vero abstractive 
+          tan<lb break="no" ed="#V" n="75"/>tum.
+        </p>
+        <!--</div>
+          <div alias="lycht-d22q2-p4">-->
+        <p xml:id="mm30o9-d1e990-d1e1027">
+          <lb ed="#V" n="32" type="fixed=240"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e1032">
+          <lb ed="#V" n="33"/>(P) Ad quaestionem praemitto. Pro 
+          re<lb break="no" ed="#V" n="34"/>solutione questionis prassupponit 
+          pri<lb break="no" ed="#V" n="35"/>mo nomen proprium alicujus posse
+          <lb ed="#V" n="36"/>capi dupliciter. Primo, pro eo nomine,
+          <lb ed="#V" n="37"/>quo significat aliquid re vera 
+          conve<lb break="no" ed="#V" n="38"/>niens alieui et nulli alteri, et sic 
+          omn<lb break="no" ed="#V" n="39"/>potens, omniscius, iÀnmensus, est 
+          no<lb break="no" ed="#V" n="40"/>men proprium Dei. Secundo, pro 
+          no<lb break="no" ed="#V" n="41"/>mine significante rationem propriam
+          <lb ed="#V" n="42"/>alicujus, hoc est rationem partieula-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="43"/>rem et essentialem ejus, primo et per
+          <lb ed="#V" n="44"/>se ipsi competentem, et sic Aomo est
+          <lb ed="#V" n="45"/>nomen proprium naturd humana, a/-
+          <lb ed="#V" n="46"/>bedo est nomen proprium qualitatis
+          <lb ed="#V" n="47"/>sie appellatae. Ex quibus duabus 
+          ac<lb break="no" ed="#V" n="48"/>ceplionibus, quas etiam adducit ad
+          <lb ed="#V" n="49"/>propositam Vasquez disp. Di. c. 2. 
+          se<lb break="no" ed="#V" n="50"/>cunda est stlrictior, et illud nomen
+          <lb ed="#V" n="51"/>quod secundum eam est proprium,
+          <lb ed="#V" n="52"/>simpliciter loquendo, nomen proprium
+          <lb ed="#V" n="53"/>dici meretur. Unde communiter 
+          sole<lb break="no" ed="#V" n="54"/>mus dicere, quando non occurrunt 
+          no<lb break="no" ed="#V" n="55"/>bis nomina significantia propriam 
+          na<lb break="no" ed="#V" n="56"/>turam rei, licet occurrerent nobis 
+          no<lb break="no" ed="#V" n="57"/>mina significantia aliquas 
+          proprieta<lb break="no" ed="#V" n="58"/>tes ejus haberemusque descriptiones,
+          <lb ed="#V" n="59"/>quibus illam rem ab aliis possemus
+          <lb ed="#V" n="60"/>discernere, quod tamen ignoremus 
+          no<lb break="no" ed="#V" n="61"/>men proprium ejus.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e1100">
+          <lb ed="#V" n="62"/>Preesupponit secundo, aliquem posse.
+          <lb ed="#V" n="63"/>nominare aliud multipliciter. Primo
+          <lb ed="#V" n="64"/>exprimendo ae formando nomen illud
+          <lb ed="#V" n="65"/>vocale quod est impositum ad ipsum
+          <lb ed="#V" n="66"/>significandum, non intelligendo quod
+          <lb ed="#V" n="67"/>illud nomen aliquid significet, nec 
+          vo<lb break="no" ed="#V" n="68"/>lendo aliquid per ipsum significare, et
+          <lb ed="#V" n="69"/>sic posset psittaeus nominare Deum
+          <lb ed="#V" n="70"/>nomine quocumque imposito ad eum
+          <lb ed="#V" n="71"/>sub propria ratione significandum, sive
+          <lb ed="#V" n="72"/>a Deo, sive a Beato, sive a viatore ; unde
+          <lb ed="#V" n="73"/>hic modus nominandialiquid est valde
+          <lb ed="#V" n="74"/>imperfectus, et extra scopum ac 
+          inten<lb break="no" ed="#V" n="75"/>tum praesentis questionis. Secundo,
+          <lb ed="#V" n="76"/>formando istud nomen ad 
+          significatio<lb break="no" ed="#V" n="77"/>nem alicujus conceptus, quem ipsemet
+          <lb ed="#V" n="78"/>proferens verbum, non sentiret ; et sic
+          <lb ed="#V" n="79"/>si quis formaret coram Hebraeo 
+          ver<lb break="no" ed="#V" n="80"/>bum, aut nomen Hebreum ignorata
+          <lb ed="#V" n="81"/>significatione ejus, nominaret rem 
+          si<lb break="no" ed="#V" n="82"/>gnificatam per istud verbum, aut 
+          no<lb break="no" ed="#V" n="83"/>men. T'ertio, formando verbum 
+          signi<lb break="no" ed="#V" n="84"/>ficativum alicujus conceptus habiti ab
+          <lb ed="#V" n="85"/>illomet proferente verbum, et sic nos
+          <lb ed="#V" n="86"/>utimur vocibus Latinis aut vulgaribus,
+          <pb ed="#V" n="241"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>quorum significata propria 
+          intelligi<lb break="no" ed="#V" n="2"/>mus. Quarto, formando hujusmodi
+          <lb ed="#V" n="3"/>verba in ordine ad hoc ut aliquis 
+          in<lb break="no" ed="#V" n="4"/>telligat significata istorum — 
+          verbo<lb break="no" ed="#V" n="5"/>rum, aut ut menti alicujus, propric
+          <lb ed="#V" n="6"/>autaliena, ista significata objiciantur.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e1174">
+          <lb ed="#V" n="7"/>Rursus qui format verbum 
+          significa<lb break="no" ed="#V" n="8"/>tivum alicujus conceptus, quem 
+          ipse<lb break="no" ed="#V" n="9"/>met concipit, potest se habere 
+          duplici<lb break="no" ed="#V" n="10"/>ler. Primo, ita ut ipsemet concipiat
+          <lb ed="#V" n="11"/>illum conceptum distincte, sicut nos
+          <lb ed="#V" n="12"/>coneipimus significatum albedinis. 
+          Se<lb break="no" ed="#V" n="13"/>eundo, ita ut non concipiat illum 
+          dis<lb break="no" ed="#V" n="14"/>linete, sed confuse, sicut qui non 
+          co<lb break="no" ed="#V" n="15"/>gnoseeret significatum ]leopardi alio
+          <lb ed="#V" n="16"/>modo, quam quatenus cognosceret
+          <lb ed="#V" n="17"/>quod. per leopardum significaretur 
+          ali<lb break="no" ed="#V" n="18"/>quod animal. Et ex his duobus modis,
+          <lb ed="#V" n="19"/>primus est longe perfectior modus 
+          no<lb break="no" ed="#V" n="20"/>minandi rem quam secundus, ut 
+          pa<lb break="no" ed="#V" n="21"/>tet.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e1209">
+          <lb ed="#V" n="22"/>(g) His praemissis ad questionem, etc.
+          <lb ed="#V" n="23"/>Littera haec si verba ipsa 
+          consideren<lb break="no" ed="#V" n="24"/>tur, est obseura tam hic quam in 
+          utris<lb break="no" ed="#V" n="25"/>que Reportatis, propter defectum sine
+          <lb ed="#V" n="26"/>dubio amanuensium et 
+          Typographo<lb break="no" ed="#V" n="27"/>rum. Sed resolutio Doctoris est facilis
+          <lb ed="#V" n="28"/>intellectu, quam sine respectu ad 
+          con<lb break="no" ed="#V" n="29"/>textum verbalem corruptum, clare 
+          co<lb break="no" ed="#V" n="30"/>nabor proponere per conclusiones 
+          se<lb break="no" ed="#V" n="31"/>quentes.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e1233">
+          <lb ed="#V" n="32"/>Prima conclusio: Viator potest 
+          no<lb break="no" ed="#V" n="33"/>minare Deum nomine proprio, non 
+          so<lb break="no" ed="#V" n="34"/>lum utendo nomine proprio imposito
+          <lb ed="#V" n="35"/>ab alio, verbi gratia, a Deo aut Angelo,
+          <lb ed="#V" n="36"/>eo modo quo utitur psittiacus 
+          nomini<lb break="no" ed="#V" n="37"/>bus, formando scilicet. sonum illum
+          <lb ed="#V" n="38"/>materialem et Physiecum, quem 
+          no<lb break="no" ed="#V" n="39"/>men significativum materialiter 
+          im<lb break="no" ed="#V" n="40"/>portat tanquam substratum 
+          significa<lb break="no" ed="#V" n="41"/>tionis; nec solum etiam, ut quis 
+          igno<lb break="no" ed="#V" n="42"/>rans significationem vocis Hebraiex,
+          <lb ed="#V" n="43"/>potest uti isto nomine, sed etiam ita
+          <lb ed="#V" n="44"/>ut habeat aliquem conceptum confu-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>sum istius rei, quae significatur 
+          dis<lb break="no" ed="#V" n="46"/>tincle per illud nomen proprium. Hae
+          <lb ed="#V" n="47"/>quoad duas primas partes non videtur
+          <lb ed="#V" n="48"/>posse esse in controversia ; nihil enim
+          <lb ed="#V" n="49"/>impedire posset, quo minus sonum
+          <lb ed="#V" n="50"/>illum materialem edere posset homo
+          <lb ed="#V" n="51"/>non impediti organi, et nolendo et 
+          vo<lb break="no" ed="#V" n="52"/>lendo illud significare per istam 
+          vo<lb break="no" ed="#V" n="53"/>cem, ad quod significandum est 
+          im<lb break="no" ed="#V" n="54"/>posita. Tertia etiam pars non minus
+          <lb ed="#V" n="55"/>extra controversiam esse potest, nam
+          <lb ed="#V" n="56"/>viator habere potest et de facto habet
+          <lb ed="#V" n="57"/>conceplum confusum Dei, et sic 
+          pro<lb break="no" ed="#V" n="58"/>prium ipsimet ut non conveniat 
+          alte<lb break="no" ed="#V" n="59"/>ri; ergo potest edere sonum 
+          materia<lb break="no" ed="#V" n="60"/>lem impositum a Deo, ad 
+          significan<lb break="no" ed="#V" n="61"/>dum Deum sub ratione propria et 
+          dis<lb break="no" ed="#V" n="62"/>tincta ; concipiendo Deum interim non
+          <lb ed="#V" n="63"/>ita distincte, sed confuse, per 
+          mo<lb break="no" ed="#V" n="64"/>dum scilicet omnipotentis, aut. prima
+          <lb ed="#V" n="65"/>causa.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e1312">
+          <lb ed="#V" n="66"/>Conclusio secunda: Non potest 
+          via<lb break="no" ed="#V" n="67"/>tor perfecte nominare Deum nomine 
+          pro<lb break="no" ed="#V" n="68"/>prio distincte ipsum repraesentante, ita
+          <lb ed="#V" n="69"/>ut ipsemet distincte concipiat. Deum, ut
+          <lb ed="#V" n="70"/>significatur isto nomine. Hoc est 
+          com<lb break="no" ed="#V" n="71"/>munis, et patet, quia pro hocstatu non
+          <lb ed="#V" n="72"/>habemus ullum conceptum distinctum
+          <lb ed="#V" n="73"/>Dei, utcommuniter omnes supponunt;
+          <lb ed="#V" n="74"/>sicut nec habemus conceptus 
+          distinc<lb break="no" ed="#V" n="75"/>tos substantiarum etiam materialium,
+          <lb ed="#V" n="76"/>sed conceptus tantum indistinctos aut
+          <lb ed="#V" n="77"/>negativos, aut relatos ad effectus, aut
+          <lb ed="#V" n="78"/>causas earum.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e1343">
+          <lb ed="#V" n="79"/>Conclusio tertia : Non potest Deus 
+          si<lb break="no" ed="#V" n="80"/>gnificari nomine ullo ex quo creatura
+          <lb ed="#V" n="81"/>ulla posset devenire in cognitionem 
+          com<lb break="no" ed="#V" n="82"/>prehensivam ejus. Hd:e. est communis,
+          <lb ed="#V" n="83"/>et patet, quia non potest creatura 
+          in<lb break="no" ed="#V" n="84"/>dependenter a nomine cognitionem
+          <lb ed="#V" n="85"/>ullam comprehensivam Dei habere,
+          <lb ed="#V" n="86"/>ut suppono ex incomprehensibilitate
+          <lb ed="#V" n="87"/>Dei; ergo nec dependenter a nomine,
+          <lb ed="#V" n="88"/>quia cognitio rei habita mediante si-
+          <pb ed="#V" n="242"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>si gno ad placitum supponit cognitionem
+          <lb ed="#V" n="2"/>istius rei praecedentem signi 
+          cognitio<lb break="no" ed="#V" n="3"/>nem, ut signum est, et consequenter
+          <lb ed="#V" n="4"/>praecedentem illam cognitionem, quae
+          <lb ed="#V" n="5"/>habetur per signum, ut signum est.
+          <lb ed="#V" n="6"/>EL hoc sane ratio probat nullam rem
+          <lb ed="#V" n="7"/>posse alicui significari per nomen 
+          se<lb break="no" ed="#V" n="8"/>cundum ullam rationem, secundum
+          <lb ed="#V" n="9"/>quam ante non erat ista res cognita
+          <lb ed="#V" n="10"/>ipsi, et consequenter Beatos non 
+          pos<lb break="no" ed="#V" n="11"/>sesignificare Deum nobis ullo nomine,
+          <lb ed="#V" n="12"/>ut ipsi eum vident, sic ut nos audito
+          <lb ed="#V" n="13"/>illo nomine haberemus talem 
+          cogni<lb break="no" ed="#V" n="14"/>tionem de Deo qualem ipsi habent.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e1402">
+          <lb ed="#V" n="15"/>Conclusio quarta : Quicumque 
+          po<lb break="no" ed="#V" n="16"/>test Deum sub quacumque ratione sub
+          <lb ed="#V" n="17"/>qua et ab ipsomet, et ab eo cui illum 
+          si<lb break="no" ed="#V" n="18"/>gnificat, concipitur, significare nomine
+          <lb ed="#V" n="19"/>proprio tam ab alio quam a se imposito.
+          <lb ed="#V" n="20"/>Hwe est etiam certa et communis, et
+          <lb ed="#V" n="21"/>patet, quia nihil impedit, et quia hae
+          <lb ed="#V" n="22"/>potissimum ratione possumus 
+          quam<lb break="no" ed="#V" n="23"/>libet rem nomine proprio significare
+          <lb ed="#V" n="24"/>alicui sub aliqua ratione, quia et ab
+          <lb ed="#V" n="25"/>illo et a nobis res sub illa ratione 
+          con<lb break="no" ed="#V" n="26"/>cipitur.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e1431">
+          <lb ed="#V" n="27"/>Conclusio quinta : Beatus posset 
+          im<lb break="no" ed="#V" n="28"/>ponere nomen ad. significandum Deum,
+          <lb ed="#V" n="29"/>secundum illam rationem objectivam , 
+          se<lb break="no" ed="#V" n="30"/>cundum quam ipsemet eum concipit, et
+          <lb ed="#V" n="31"/>etiam significare eum isto nomine 
+          viato<lb break="no" ed="#V" n="32"/>ri, cut Deus conferret. cognitionem 
+          abs<lb break="no" ed="#V" n="33"/>tractivam distinctam Dei. Haec est 
+          Hen<lb break="no" ed="#V" n="34"/>riei supra et conformis principiis 
+          Doc<lb break="no" ed="#V" n="35"/>toris, eamque tenent Scotistae omnes,
+          <lb ed="#V" n="36"/>quos sequitur Vasq. supra z. 20. et
+          <lb ed="#V" n="37"/>Granadus 1. part.g. 13. Probatur prima
+          <lb ed="#V" n="38"/>pars, quia impositio nominis ad 
+          signi<lb break="no" ed="#V" n="39"/>ficandum aliquid dependet solummodo
+          <lb ed="#V" n="40"/>a cognitione rei significanda; et a 
+          vo<lb break="no" ed="#V" n="41"/>luntate institientis ; sed nihil impedit
+          <lb ed="#V" n="42"/>quominus Beatus posset velle quod 
+          no<lb break="no" ed="#V" n="43"/>men aliquod significaret Deum sub illa
+          <lb ed="#V" n="44"/>ratione qua cognoscit ipsum, ergo,etoe.
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>Probatur secunda pars, quia eo ipso
+          <lb ed="#V" n="46"/>quo Beatus imponerel nomen ad Deum
+          <lb ed="#V" n="47"/>sie significandum, et quo viator 
+          ha<lb break="no" ed="#V" n="48"/>bens speciem abstractivam 
+          repraesen<lb break="no" ed="#V" n="49"/>tantem Deum sub illa ratione qua 
+          in<lb break="no" ed="#V" n="50"/>tuitive cognosceretur a Beato, 
+          cognos<lb break="no" ed="#V" n="51"/>ceret istam institutionem quando actu
+          <lb ed="#V" n="52"/>non cognosceret sic abstraetive Deum,
+          <lb ed="#V" n="53"/>et Beatus proferret ipso audiente illam
+          <lb ed="#V" n="54"/>vocem, excitaretur in. ipso species
+          <lb ed="#V" n="55"/>illa repraesentativa Dei abstractive,
+          <lb ed="#V" n="56"/>non minus quam in nobis excitatur
+          <lb ed="#V" n="57"/>species albedinis, audita voce a/
+          bedi<lb break="no" ed="#V" n="58"/>nis; ergo non minus significaret isto
+          <lb ed="#V" n="59"/>nomine Beatus Deum sub ista ratione
+          <lb ed="#V" n="60"/>isti viatori quam nos significamus
+          <lb ed="#V" n="61"/>qualitatem, qua vocatur albedo, 
+          no<lb break="no" ed="#V" n="62"/>mine a/bedinis. Quod si non posset 
+          da<lb break="no" ed="#V" n="63"/>ri eognilio abstraetiva distincta Dei,
+          <lb ed="#V" n="64"/>tum non posset Beatus significare
+          <lb ed="#V" n="65"/>Deum sub ista ratione qua cognoscit
+          <lb ed="#V" n="66"/>ipsum, viatori. An autem possit dari
+          <lb ed="#V" n="67"/>talis cognitio, necne ; impertinens est
+          <lb ed="#V" n="68"/>ad propositum, sed nobis tenendum
+          <lb ed="#V" n="69"/>cum Doctore ?» 2, dist. 3. 9g: 2101 E
+          <lb ed="#V" n="70"/>eam posse dari.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e1531">
+          <lb ed="#V" n="71"/>Dices, viator habens speciem 
+          abstra<lb break="no" ed="#V" n="72"/>etivam non posset mediante illa voce
+          <lb ed="#V" n="73"/>cognoscere Deum intuitive ; ergo non
+          <lb ed="#V" n="74"/>posset cognoscere Deum, secundum
+          <lb ed="#V" n="75"/>conceptum quo conciperetur a Beato
+          <lb ed="#V" n="76"/>proferente istud nomen. Respondeo,
+          <lb ed="#V" n="77"/>distinguendo consequens, secundum
+          <lb ed="#V" n="78"/>conceptum formalem, concedo ; 
+          secun<lb break="no" ed="#V" n="79"/>dum conceptum objectivum, nego 
+          con<lb break="no" ed="#V" n="80"/>sequentiam. Itaque quamvis Beatus
+          <lb ed="#V" n="81"/>imponens nomen ad significandum
+          <lb ed="#V" n="82"/>Deum sub ista ratione qua cognoscit
+          <lb ed="#V" n="83"/>ipsum, habeat visionem intuitivam 
+          is<lb break="no" ed="#V" n="84"/>tius rationis, tamen intelligens nomen
+          <lb ed="#V" n="85"/>non debet habere talem visionem, sed
+          <lb ed="#V" n="86"/>sufficit quod habeat abstraetivam, 
+          si<lb break="no" ed="#V" n="87"/>cul de facto primo imponens nomen
+          <lb ed="#V" n="88"/>ad significandum albedinem seeun-
+          <pb ed="#V" n="243"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>dum propriam rationem ejus, 
+          cognos<lb break="no" ed="#V" n="2"/>cit ipsam intuitive; et tamen postea
+          <lb ed="#V" n="3"/>non eozgnoscit ipsam intuitive, quoties
+          <lb ed="#V" n="4"/>per nomen illud ipsam intelligit, sed
+          <lb ed="#V" n="5"/>tantum abstractive.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e1588">
+          <lb ed="#V" n="6"/>Conelusio sexta : Si, ut alicui 
+          signifi<lb break="no" ed="#V" n="7"/>cetur aliquid nomine aliquo, requiratur
+          <lb ed="#V" n="8"/>ut istud nomen causet aliquo modo in
+          <lb ed="#V" n="9"/>ipso cognitionem rei significat per 
+          no<lb break="no" ed="#V" n="10"/>men, non potest Beatus sibi aut alteri
+          <lb ed="#V" n="11"/>Beato significare Deum ; sed si sufficiat
+          <lb ed="#V" n="12"/>quod cognoscat rem significari per 
+          no<lb break="no" ed="#V" n="13"/>men seu nomen esse impositum ad 
+          si<lb break="no" ed="#V" n="14"/>gnificandum Deum, potest Beatus Beato
+          <lb ed="#V" n="15"/>significare Deum. H«c conclusio ut 
+          ja<lb break="no" ed="#V" n="16"/>cet est certa, et ex ea sequitur non esse
+          <lb ed="#V" n="17"/>nisi controversiam de nomine inter
+          <lb ed="#V" n="18"/>Vasquem supra, et Aversam quast. 15.
+          <lb ed="#V" n="19"/>sect. 3. dum ille asserit, hic negat
+          <lb ed="#V" n="20"/>Deum posse Beato significari nomine
+          <lb ed="#V" n="21"/>aliquo, sive a Beato sive a Deo ipso
+          <lb ed="#V" n="22"/>imposito al significandum Deum;
+          <lb ed="#V" n="23"/>nam Aversa ideo negat, quia putat 
+          con<lb break="no" ed="#V" n="24"/>ditionem prima partis requiri ad 
+          signi<lb break="no" ed="#V" n="25"/>ficationem, nimirum ut vi verbi seu
+          <lb ed="#V" n="26"/>nominis is, cui res significatur, 
+          dedu<lb break="no" ed="#V" n="27"/>catur in eognitionem rei significata.
+          <lb ed="#V" n="28"/>Vasquez vero ideo affirmat, quia putat
+          <lb ed="#V" n="29"/>sufficere ad significationem, quod 
+          au<lb break="no" ed="#V" n="30"/>diens nomen cognoscat et rern 
+          signi<lb break="no" ed="#V" n="31"/>ficatam et nomen esse impositum ad
+          <lb ed="#V" n="32"/>eam significandum : an autem 
+          requi<lb break="no" ed="#V" n="33"/>ratur primum ad significationem, vel
+          <lb ed="#V" n="34"/>sufficiat secundum, questio prorsus
+          <lb ed="#V" n="35"/>est de nomine.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e1657">
+          <lb ed="#V" n="36"/>Probatur prima pars conclusionis,
+          <lb ed="#V" n="37"/>quia Beatus semper est in actuali 
+          vi<lb break="no" ed="#V" n="38"/>sione Dei, semper causata et 
+          conser<lb break="no" ed="#V" n="39"/>vata a Deo ipso, independenter ab 
+          om<lb break="no" ed="#V" n="40"/>ni applicatione signi externi ullius;
+          <lb ed="#V" n="41"/>ergo non potest causari cognitio Dei
+          <lb ed="#V" n="42"/>in ipso per nomen, alias duas simul
+          <lb ed="#V" n="43"/>haberet, et cognitiones de Deo sub 
+          ea<lb break="no" ed="#V" n="44"/>dem ratione, ut patet; et consequen-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>ter si causari cognitionem rei 
+          signifi<lb break="no" ed="#V" n="46"/>cata requiratur ad significationem,
+          <lb ed="#V" n="47"/>non potest Deus significari Beato. 
+          Pro<lb break="no" ed="#V" n="48"/>batur secunda pars, quia potest Beatus
+          <lb ed="#V" n="49"/>cognoscere voluntatem, quam habuit
+          <lb ed="#V" n="50"/>alius Beatus instituendi vocem illam
+          <lb ed="#V" n="51"/>ad significandum Deum; ergo potest
+          <lb ed="#V" n="52"/>cognoscere audita voce illa, quod Deus
+          <lb ed="#V" n="53"/>significetur per illam ; et consequenter
+          <lb ed="#V" n="54"/>si hoc sufficiat ad significationem, 
+          po<lb break="no" ed="#V" n="55"/>terit ipsi significari Deus nomine illo,
+          <lb ed="#V" n="56"/>quoties eo audiente profertur ab alio
+          <lb ed="#V" n="57"/>Beato.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e1709">
+          <lb ed="#V" n="58"/>Quantum autem ad questionem
+          <lb ed="#V" n="59"/>ipsam de nomine, magis mihi placet
+          <lb ed="#V" n="60"/>modus loquendi Vasquezii, quia de
+          <lb ed="#V" n="61"/>facto loquimur vocaliter Deo, et 
+          dici<lb break="no" ed="#V" n="62"/>mur significareipsi nostros conceptus
+          <lb ed="#V" n="63"/>per voces. Sed certum est quod per
+          <lb ed="#V" n="64"/>voces non magis deducamus ipsum in
+          <lb ed="#V" n="65"/>cognitionem nostrorum conceptuum,
+          <lb ed="#V" n="66"/>quam Beatus potest alium Beatum 
+          de<lb break="no" ed="#V" n="67"/>ducere in cognitionem Dei, quia Deus
+          <lb ed="#V" n="68"/>magis intuitive actualiter et 
+          necessa<lb break="no" ed="#V" n="69"/>rio intuetur nostros conceptus 
+          inde<lb break="no" ed="#V" n="70"/>pendenter a nostris vocibus, quam
+          <lb ed="#V" n="71"/>Beatus intuetur Deum independenter
+          <lb ed="#V" n="72"/>a vocibus alterius Beati, et eatenus
+          <lb ed="#V" n="73"/>solum significamus Deo nostros 
+          con<lb break="no" ed="#V" n="74"/>ceptus, quatenus eo audiente 
+          proferi<lb break="no" ed="#V" n="75"/>mus voces significantes nostros 
+          con<lb break="no" ed="#V" n="76"/>ceptus ; ergo sufficitad significandum
+          <lb ed="#V" n="77"/>proferre verba instituta ad 
+          significa<lb break="no" ed="#V" n="78"/>lionem rei ; et non requiritur quod
+          <lb ed="#V" n="79"/>per illa verba is cui significamus, 
+          de<lb break="no" ed="#V" n="80"/>ducatur in cognitionem rei, alias non
+          <lb ed="#V" n="81"/>significaremus nostros coriceptus Deo,
+          <lb ed="#V" n="82"/>contra communem loquendi modum
+          <lb ed="#V" n="83"/>tam doctorum quam indoctorum.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e1768">
+          <lb ed="#V" n="84"/>Conclusio septima : Viator potest 
+          im<lb break="no" ed="#V" n="85"/>ponere nomen ad significandum 
+          pro<lb break="no" ed="#V" n="86"/>priam rationem. quidditativam Det, seu
+          <lb ed="#V" n="87"/>conceptum ipsum objectivum, quem 
+          ha<lb break="no" ed="#V" n="88"/>bent de ipso Beati, aut ipsemet Deus.
+          <pb ed="#V" n="244"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>Principalis difficultas totius hujus
+          <lb ed="#V" n="2"/>quaestionis consistit in hae 
+          conclu<lb break="no" ed="#V" n="3"/>sione, quam tenel hic et quistione
+          <lb ed="#V" n="4"/>praecedenti, Doctor eum suis omnibus,
+          <lb ed="#V" n="5"/>Occhamus, Gabriel et ezeteri Nominales
+          <lb ed="#V" n="6"/>ibidem, Molina 4. part. quest. 15. $
+          <lb ed="#V" n="7"/>art.1. disp. 2, Vasquez disp. 91. Aversa
+          <lb ed="#V" n="8"/>quest. 13. sect. 2. dicto tertio, contra D.
+          <lb ed="#V" n="9"/>Thomam, Cajetanum, Bannem, Zumel,
+          <lb ed="#V" n="10"/>Valentiam, Granadum eadem quest.
+          <lb ed="#V" n="11"/>13. art. 1. Suarium b. 2. de attributis
+          <lb ed="#V" n="12"/>divinis cap. 3M. n. 43. Probatur haec
+          <lb ed="#V" n="13"/>conclusio ex Scoto hie, quia si non
+          <lb ed="#V" n="14"/>posset id facere, maxime quia non
+          <lb ed="#V" n="15"/>posset distinelius significare rem aut
+          <lb ed="#V" n="16"/>imponere nomeu ad eam distinctius
+          <lb ed="#V" n="17"/>signifieandam, quam ipsemet concipit
+          <lb ed="#V" n="18"/>ipsam, nihil enim aliud impedire 
+          pos<lb break="no" ed="#V" n="19"/>set, sed hoc est falsum ; ergo. Probat
+          <lb ed="#V" n="20"/>minorem, quia si non possemus in 
+          po<lb break="no" ed="#V" n="21"/>nere nomina ad significandas res, nisi
+          <lb ed="#V" n="22"/>prout eas nos ipsi concipimus, non 
+          es<lb break="no" ed="#V" n="23"/>sent jam nomina ulla imposita a nobis
+          <lb ed="#V" n="24"/>ad signifieandam ullam substantiam
+          <lb ed="#V" n="25"/>secundum praedicata sua quidditativa
+          <lb ed="#V" n="26"/>et essentialia ; quia ut suppono hic ex
+          <lb ed="#V" n="27"/>dictis supra dist. 3. q. 1. et omnes 
+          fa<lb break="no" ed="#V" n="28"/>tentur, non habemus jam ullum 
+          con<lb break="no" ed="#V" n="29"/>ceptum quiddilativam distinctum de
+          <lb ed="#V" n="30"/>ulla substantia in particulari, verbi
+          <lb ed="#V" n="31"/>gratia, de homine auf equo, sed 
+          con<lb break="no" ed="#V" n="32"/>ceptum tantum confusum, quo 
+          conei<lb break="no" ed="#V" n="33"/>pimus illos per modum aliquarum 
+          re<lb break="no" ed="#V" n="34"/>rum per se substantium et dicentium
+          <lb ed="#V" n="35"/>ordinem ad tales vel tales operationes
+          <lb ed="#V" n="36"/>vel accidentia, quod etiam patet ex 
+          pe<lb break="no" ed="#V" n="37"/>rientia. Sed sunt nomina imposita ad
+          <lb ed="#V" n="38"/>signifieandasrationes particulares 
+          sub<lb break="no" ed="#V" n="39"/>stantiarum in particulari, secundum
+          <lb ed="#V" n="40"/>predieata essentialia et. quidditativa
+          <lb ed="#V" n="41"/>sua, verbi gratia. nomen homo ad 
+          si<lb break="no" ed="#V" n="42"/>gnificandum distincte naturam 
+          hu<lb break="no" ed="#V" n="43"/>manam, nomen equus ad. 
+          significan<lb break="no" ed="#V" n="44"/>dum equinam ; aut saltem possunt
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>esse sic imposita (quod nobis sufficit)
+          <lb ed="#V" n="46"/>quid enim impedire potest, quo minus
+          <lb ed="#V" n="47"/>velimus nos, aut voluerint primi 
+          im<lb break="no" ed="#V" n="48"/>positores nominis homo intendere 
+          si<lb break="no" ed="#V" n="49"/>gnifieare naturam humanam 
+          secun<lb break="no" ed="#V" n="50"/>dum se, non prout subjacet nostris
+          <lb ed="#V" n="51"/>imperfectis conceptibus, sed prout
+          <lb ed="#V" n="52"/>subest conceptibus perfecte 
+          conci<lb break="no" ed="#V" n="53"/>pientis illam.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e1903">
+          <lb ed="#V" n="54"/>Confirmatur secundo, quia si Adam
+          <lb ed="#V" n="55"/>imponeret nomen A0mo0 ad 
+          significan<lb break="no" ed="#V" n="56"/>dum humanam naturam, prout ipse
+          <lb ed="#V" n="57"/>eam intellexit quidditative et perfecte
+          <lb ed="#V" n="58"/>(suppono autem quod sic eam 
+          intel<lb break="no" ed="#V" n="59"/>lexerit, quod an ita sil necne, non facit
+          <lb ed="#V" n="60"/>ad praesens) sine dubio nomen omo
+          <lb ed="#V" n="61"/>esset significativam naturtae humane
+          <lb ed="#V" n="62"/>quidditative et perfecte. Et licet nos
+          <lb ed="#V" n="63"/>non haberemus per illud nomen 
+          con<lb break="no" ed="#V" n="64"/>ceptum quidditativum et perfectum 
+          is<lb break="no" ed="#V" n="65"/>lius naturae, tamen potuissemus 
+          in<lb break="no" ed="#V" n="66"/>tenderesignificare istam naturam, non
+          <lb ed="#V" n="67"/>prout nosconcipimus, sed prout Adam;
+          <lb ed="#V" n="68"/>et sic proferendo istud nomen eoram
+          <lb ed="#V" n="69"/>Adamo, significaremus ipsi naturam
+          <lb ed="#V" n="70"/>humanam prout ipse, non prout nos
+          <lb ed="#V" n="71"/>conciperemus illam, ut patet; ergo 
+          si<lb break="no" ed="#V" n="72"/>militer potuissemus ab initio nos ipsi
+          <lb ed="#V" n="73"/>primo imponere nomen A070 ad 
+          signi<lb break="no" ed="#V" n="74"/>ficandum naturam humanam, prout
+          <lb ed="#V" n="75"/>conceptam ab Adamo, quamvis nos
+          <lb ed="#V" n="76"/>ipsi distincte eam non sic 
+          concipere<lb break="no" ed="#V" n="77"/>mus. Consequentia hae patet a paritate
+          <lb ed="#V" n="78"/>$1atio nis. Confirmatur, quia posset
+          <lb ed="#V" n="79"/>Adam significare nobis, quod ipse 
+          ali<lb break="no" ed="#V" n="80"/>ter conciperet humanam naturam
+          <lb ed="#V" n="81"/>quam nos, sed tum nihil prorsus 
+          im<lb break="no" ed="#V" n="82"/>pedire£. quominus nos potuissemus
+          <lb ed="#V" n="83"/>imponere nomen ad significandum
+          <lb ed="#V" n="84"/>naturam humanam, non prout nos
+          <lb ed="#V" n="85"/>concipimus ipsam, sed prout Adam, et
+          <lb ed="#V" n="86"/>hoc posito, quoties proferremus illam
+          <lb ed="#V" n="87"/>vocem aut nomen Adamo audiente et
+          <lb ed="#V" n="88"/>cognosceente nostram impositionem,
+          <pb ed="#V" n="245"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>deduceretur in cognitionem naturae
+          <lb ed="#V" n="2"/>humane, non prout nos conciperemus,
+          <lb ed="#V" n="3"/>sed prout ipsemet eam concipere 
+          so<lb break="no" ed="#V" n="4"/>let ; ergo possumus significare per
+          <lb ed="#V" n="5"/>nomen quidditative et distincte 
+          ali<lb break="no" ed="#V" n="6"/>quam rem, quam ipsi sic non 
+          concipi<lb break="no" ed="#V" n="7"/>mus.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e2001">
+          <lb ed="#V" n="8"/>Confirmatur tertio ex eodem Doctore,
+          <lb ed="#V" n="9"/>quia licet de facto imponamus nomina
+          <lb ed="#V" n="10"/>sepissime propter aliquas proprietates
+          <lb ed="#V" n="11"/>rei, sic ut ratio movens nos ad 
+          impo<lb break="no" ed="#V" n="12"/>nendum tale. vel tale nomen, sit talis
+          <lb ed="#V" n="13"/>proprietas, sicut, verbi gratia, lesio
+          <lb ed="#V" n="14"/>pedis conveniens lapidi, est ratio cur
+          <lb ed="#V" n="15"/>voeamus illam substantiam sic dictam
+          <lb ed="#V" n="16"/>lapidem. Et sicut fuisse factum prius
+          <lb ed="#V" n="17"/>ex humo, est fortassis ratio cur nomen
+          <lb ed="#V" n="18"/>homo sit impositum ad significandum
+          <lb ed="#V" n="19"/>hominem, tamen neque universaliter
+          <lb ed="#V" n="20"/>requiritur, ut sit aliqua ratio 
+          particula<lb break="no" ed="#V" n="21"/>ris desumpta ex proprietate ulla rei, ob
+          <lb ed="#V" n="22"/>quam vocemus ipsum iali vel tali 
+          no<lb break="no" ed="#V" n="23"/>mine ; sine ulla enim ratione 
+          potuis<lb break="no" ed="#V" n="24"/>semus instituere nomen Aomo ad 
+          si<lb break="no" ed="#V" n="25"/>gnificandum quodcumque nobis 
+          pla<lb break="no" ed="#V" n="26"/>ceret, quia institutio vocum est 
+          pror<lb break="no" ed="#V" n="27"/>sus libera. Et praeterea certum est istas
+          <lb ed="#V" n="28"/>proprietates non significari per voces
+          <lb ed="#V" n="29"/>illas, sed ipsam rem secundum se, cui
+          <lb ed="#V" n="30"/>competunt ist: proprietates ; tum quia
+          <lb ed="#V" n="31"/>auditis istis vocibus non intelligimus
+          <lb ed="#V" n="32"/>istas res sub istis proprietatibus, 
+          ne<lb break="no" ed="#V" n="33"/>que ipsasmet proprietates ullo modo,
+          <lb ed="#V" n="34"/>ut patet experientia, neque enim 
+          quo<lb break="no" ed="#V" n="35"/>ties audimus /apidem, cogitamus de
+          <lb ed="#V" n="36"/>lesione pedis ; tum quia diversa 
+          no<lb break="no" ed="#V" n="37"/>mina in diversis linguis significant
+          <lb ed="#V" n="38"/>eamdem prorsus rem eodem modo, 
+          in<lb break="no" ed="#V" n="39"/>telligentibus illas linguas, quae tamen
+          <lb ed="#V" n="40"/>diversa nomina poterant fuisse 
+          insti<lb break="no" ed="#V" n="41"/>tuta ob diversas rationes motivas 
+          de<lb break="no" ed="#V" n="42"/>sumptas ex diversis proprietatibus rei ;
+          <lb ed="#V" n="43"/>ergo nomina non semper imponuntur
+          <lb ed="#V" n="44"/>ad significandum rem secundum quod
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>concipitur ab imponente nomen. Patet
+          <lb ed="#V" n="46"/>consequentia, quia si sic 
+          imponeren<lb break="no" ed="#V" n="47"/>tur, quandoquidem imponens nomen
+          <lb ed="#V" n="48"/>lapidis ad significandum substantiam
+          <lb ed="#V" n="49"/>sie vocatam ob proprietatem laesivam
+          <lb ed="#V" n="50"/>pedis quam habet, concipiat istam
+          <lb ed="#V" n="51"/>substantiam ut sic leesivam, vox /ap?s
+          <lb ed="#V" n="52"/>significaret semper substantiam ut sic
+          <lb ed="#V" n="53"/>tantum, quod ex antecedenti hujus 
+          dis<lb break="no" ed="#V" n="54"/>eursus patet esse falsum.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e2108">
+          <lb ed="#V" n="55"/>Confirmatur quarto, exemplo 
+          Doc<lb break="no" ed="#V" n="56"/>Loris, quo utitur questione praecedenti :
+          <lb ed="#V" n="57"/>Qui eognosceret esse litteras aliquas
+          <lb ed="#V" n="58"/>Hebraieas, quarum una esset prima,
+          <lb ed="#V" n="59"/>altera secunda, nec haberettamen 
+          spe<lb break="no" ed="#V" n="60"/>cies distinctasillarum litterarum, quia
+          <lb ed="#V" n="61"/>eas nunquam vidit, is posset imponere
+          <lb ed="#V" n="62"/>nomen aliquod, verbi gratia Lor ad 
+          si<lb break="no" ed="#V" n="63"/>gnificandum primam litteram, et aliud
+          <lb ed="#V" n="64"/>nomen, verbi gratia Nar, ad. 
+          signifi<lb break="no" ed="#V" n="65"/>candum secundam litteram, volendo
+          <lb ed="#V" n="66"/>scilicet quod vox Lor acciperetur pro
+          <lb ed="#V" n="67"/>prima littera, et vox Nar pro secunda ;
+          <lb ed="#V" n="68"/>quid enim impediret quominus hoc
+          <lb ed="#V" n="69"/>faceret ? Sed in tali casu quoties 
+          pro<lb break="no" ed="#V" n="70"/>ferret ipse vel alius istam vocem 
+          co<lb break="no" ed="#V" n="71"/>ram aliquo, qui cognoscit primam et
+          <lb ed="#V" n="72"/>secundam litteram Hebraicam 
+          distin<lb break="no" ed="#V" n="73"/>cte, ut eoram aliquo Hebraeo vel alio,
+          <lb ed="#V" n="74"/>qui didicit litteras Hebraicas, et 
+          recor<lb break="no" ed="#V" n="75"/>datur formd earum, et qui praeterea
+          <lb ed="#V" n="76"/>cognosceret istas voces esse impositas
+          <lb ed="#V" n="77"/>ad illas litteras significandas, profecto
+          <lb ed="#V" n="78"/>cognosceret ille Hebraeus aut peritus
+          <lb ed="#V" n="79"/>istarum litterarum, istas litteras 
+          dis<lb break="no" ed="#V" n="80"/>tincte perillas voces, et tamen 
+          impo<lb break="no" ed="#V" n="81"/>nens aut proferens illa, non sic eas 
+          co<lb break="no" ed="#V" n="82"/>gnosceret ; ergo manifeste sequitur
+          <lb ed="#V" n="83"/>quod aliquis possit imponere nomen
+          <lb ed="#V" n="84"/>ad significandum aliquid distinctius,
+          <lb ed="#V" n="85"/>eletiam actu significare distinctius
+          <lb ed="#V" n="86"/>quam ipsemet eam cognoscit. Simile
+          <lb ed="#V" n="87"/>exemplum posset proponi de caeco
+          <lb ed="#V" n="88"/>nato, qui posset imponere nomen A,
+          <pb ed="#V" n="246"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>verbi gratia, ad significandum 
+          quod<lb break="no" ed="#V" n="2"/>cumque quod actu videret videns,
+          <lb ed="#V" n="3"/>eum videret actu albedinem ; in tali
+          <lb ed="#V" n="4"/>casu quotiescumque proferret cweus
+          <lb ed="#V" n="5"/>A coram illo vidente, aut aliis 
+          cognos<lb break="no" ed="#V" n="6"/>centibus institutionem, haberent 
+          co<lb break="no" ed="#V" n="7"/>gnitionem abstractivam albedinis 
+          dis<lb break="no" ed="#V" n="8"/>tinetiorem millies quam ipsemet 
+          cce<lb break="no" ed="#V" n="9"/>cus haberet, ut est evidens ; ergo 
+          dis<lb break="no" ed="#V" n="10"/>tinelius potest quis aliquid significare
+          <lb ed="#V" n="11"/>per nomen, quam ipsemet concipit
+          <lb ed="#V" n="12"/>rem. Simile etiam exemplum proponit
+          <lb ed="#V" n="13"/>Vasquez et Aversa de iis, qui cum 
+          nun<lb break="no" ed="#V" n="14"/>quam fuissent Rome, loquerentur de
+          <lb ed="#V" n="15"/>homa eoram iis qui fuerunt. Rome ;
+          <lb ed="#V" n="16"/>nam certum est quod per loquelam
+          <lb ed="#V" n="17"/>suam perfectiorem notitiam Rome
+          <lb ed="#V" n="18"/>generarentin audiente, qui fuit Rome,
+          <lb ed="#V" n="19"/>quam in seipsis ; ergo quis potest 
+          ali<lb break="no" ed="#V" n="20"/>quid perfectius alteri significare per
+          <lb ed="#V" n="21"/>nomen quam ipsemet illud concipit.
+          <lb ed="#V" n="22"/>Probatur secundo a priori, quia ad
+          <lb ed="#V" n="23"/>significandum per nomen aliquid, nil
+          <lb ed="#V" n="24"/>aliud requiri potest quam mediante
+          <lb ed="#V" n="25"/>nomine alterum in cognitionem ipsius
+          <lb ed="#V" n="26"/>deducere ; et imponere nomen ad 
+          si<lb break="no" ed="#V" n="27"/>gnificandum aliquid, non est aliud
+          <lb ed="#V" n="28"/>quam ita ordinare nomen pro signo
+          <lb ed="#V" n="29"/>alicujus rei, ut deinceps supposita ista
+          <lb ed="#V" n="30"/>ordinatione, intelligatur ista res audito
+          <lb ed="#V" n="31"/>nomine. Sed potest quis non 
+          conci<lb break="no" ed="#V" n="32"/>piens aliquam rem distincte mediante
+          <lb ed="#V" n="33"/>voce ase prolata, in significationem
+          <lb ed="#V" n="34"/>distinctam istius rei perducere, et certe
+          <lb ed="#V" n="35"/>ipsimet psittaci per voces deducunt
+          <lb ed="#V" n="36"/>nos in. cognitionem rerum illis 
+          voci<lb break="no" ed="#V" n="37"/>bus significatarum, quas ipsimet nullo
+          <lb ed="#V" n="38"/>modo concipiunt. Et potest etiam quis
+          <lb ed="#V" n="39"/>ordinare vocem ad significandam rem
+          <lb ed="#V" n="40"/>secundum quod concipitur ab altero,
+          <lb ed="#V" n="41"/>quamvis ipsemel sic distincte illam
+          <lb ed="#V" n="42"/>rem non concipiat ; et supposita ista
+          <lb ed="#V" n="43"/>ordinatione, alter habens conceptum
+          <lb ed="#V" n="44"/>distinctum rei, distincte concipit rem
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>audita illa voce ; ergo potest quis 
+          dis<lb break="no" ed="#V" n="46"/>tinctius aliquam rem alicui significare
+          <lb ed="#V" n="47"/>quam ipsemet rem concipit, et 
+          impo<lb break="no" ed="#V" n="48"/>nere nomen ad ipsam sic distinctius
+          <lb ed="#V" n="49"/>significandam.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e2298">
+          <lb ed="#V" n="50"/>Confirmatur, quia ideo intelligit 
+          ali<lb break="no" ed="#V" n="51"/>quis rem per nomen, quia cognoscit
+          <lb ed="#V" n="52"/>ipsam rem, quae significatur nomine,
+          <lb ed="#V" n="53"/>et cognoscit nomen esse impositum ad
+          <lb ed="#V" n="54"/>significandum. Et quia supposito hoc
+          <lb ed="#V" n="55"/>ob connexionem specierum, quando
+          <lb ed="#V" n="56"/>excitatur species nominis, excitatur
+          <lb ed="#V" n="57"/>etiam species rei significata, unde
+          <lb ed="#V" n="58"/>nullum nomen significat aliquid nisi
+          <lb ed="#V" n="59"/>isti, qui ante cognovit rem 
+          significa<lb break="no" ed="#V" n="60"/>tam, et qui cognoscit impositionem
+          <lb ed="#V" n="61"/>nominis ac ordinationem ejus ad illam
+          <lb ed="#V" n="62"/>rem significandam. Sed qui cognoscit
+          <lb ed="#V" n="63"/>albedinem distincte, et simul 
+          cognos<lb break="no" ed="#V" n="64"/>cit caecum non cognoscentem 
+          albedi<lb break="no" ed="#V" n="65"/>nem distincle imposuisse nomen A,
+          <lb ed="#V" n="66"/>verbi gratia, ad albedinem 
+          significan<lb break="no" ed="#V" n="67"/>dam, non prout a ceco intelligitur,
+          <lb ed="#V" n="68"/>sed prout ab illo vidente, potest ex 
+          fre<lb break="no" ed="#V" n="69"/>quenti consideratione, quod nomen A
+          <lb ed="#V" n="70"/>erat impositum ad albedinem 
+          signifi<lb break="no" ed="#V" n="71"/>candum, habere talem connexionem
+          <lb ed="#V" n="72"/>inter speciemm albedinis quam ipse
+          <lb ed="#V" n="73"/>habet, et speciem nominis ae 
+          imposi<lb break="no" ed="#V" n="74"/>tionis ejus, ut excitata specie nominis
+          <lb ed="#V" n="75"/>A, excitetur etiam semper, vel ut 
+          plu<lb break="no" ed="#V" n="76"/>rimum, species albedinis; ergo ipse
+          <lb ed="#V" n="77"/>potest per nomen illud impositum a
+          <lb ed="#V" n="78"/>exco intelligere albedinem, non ut
+          <lb ed="#V" n="79"/>concipit eam caecus, sed ut concipit
+          <lb ed="#V" n="80"/>eam ipsemet videns. Et per hoc patet
+          <lb ed="#V" n="81"/>ad id quod dicit Suarez ad nostra 
+          ar<lb break="no" ed="#V" n="82"/>gumenta, nempe illum qui audit 
+          no<lb break="no" ed="#V" n="83"/>men et cognoscit distincte rem 
+          signi<lb break="no" ed="#V" n="84"/>ficatam, .intelleceturum quidem rem
+          <lb ed="#V" n="85"/>illam distincte, non vero beneficio 
+          no<lb break="no" ed="#V" n="86"/>minis, sed propter cognitionem, quam
+          <lb ed="#V" n="87"/>ipse ante habuit deilla, atque adeo
+          <lb ed="#V" n="88"/>non sicnifieari illam, ut sic distincte
+          <pb ed="#V" n="247"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>concipitur, isto nomine. Patet, 
+          in<lb break="no" ed="#V" n="2"/>quam, ad hoc ex dictis, quia nullum
+          <lb ed="#V" n="3"/>nomen significat, etiam supposita 
+          ins<lb break="no" ed="#V" n="4"/>litutione vi sua praecise, aut etiam vi
+          <lb ed="#V" n="5"/>impositionis, nisi supposita cognitione
+          <lb ed="#V" n="6"/>rei significatae ; ergo, vel nullum 
+          no<lb break="no" ed="#V" n="7"/>men significare dicendum est, vel 
+          is<lb break="no" ed="#V" n="8"/>tud nomen, quo audito concipitur res
+          <lb ed="#V" n="9"/>distincte, dicendum est illam rem sic
+          <lb ed="#V" n="10"/>significare, licet sic non significaret,
+          <lb ed="#V" n="11"/>nisi praesupposita ista cognitione.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e2413">
+          <lb ed="#V" n="12"/>Contra hanc conclusionem objicit
+          <lb ed="#V" n="13"/>Cajetanus supra non esse imaginabile,
+          <lb ed="#V" n="14"/>quod aliquod nomen imponatur ad 
+          dis<lb break="no" ed="#V" n="15"/>tinetius significandam rem quam ab
+          <lb ed="#V" n="16"/>imponente concipitur ista res, quia
+          <lb ed="#V" n="17"/>voces significant res mediis 
+          concepti<lb break="no" ed="#V" n="18"/>bus formalibus, quos habet imponens
+          <lb ed="#V" n="19"/>et utens vocibus de re ; ergo distincta
+          <lb ed="#V" n="20"/>signifi$1atio  oritur ex distincta 
+          cogni<lb break="no" ed="#V" n="21"/>lione imponentis nomen, aut eo jam
+          <lb ed="#V" n="22"/>imposito utentis, et consequenter non
+          <lb ed="#V" n="23"/>potest quis imponere nomen ad 
+          signi<lb break="no" ed="#V" n="24"/>fieandam rem distinctius quam 
+          ipse<lb break="no" ed="#V" n="25"/>met rem concipit. Confirmatur hcec 
+          pro<lb break="no" ed="#V" n="26"/>$1atio ex Suarez supra num. 31. quia vox
+          <lb ed="#V" n="27"/>illa non posset habere illam 
+          significa<lb break="no" ed="#V" n="28"/>tionem distinctam nisi ab imponente,
+          <lb ed="#V" n="29"/>sed imponens non potest dare quod
+          <lb ed="#V" n="30"/>non habet, non habet autem cognitio:
+          <lb ed="#V" n="31"/>nem distinctam ; ergo non potest dare
+          <lb ed="#V" n="32"/>voci significare distincle. Confirmatur
+          <lb ed="#V" n="33"/>secundo ex eodem, quia si nullo modo
+          <lb ed="#V" n="34"/>eognosceret imponens rem, non posset
+          <lb ed="#V" n="35"/>voluntas ejus imponere nomen ad 
+          si<lb break="no" ed="#V" n="36"/>gnifieandam illam ; ergo si non 
+          co<lb break="no" ed="#V" n="37"/>gnoscat distincte non poterit imponere
+          <lb ed="#V" n="38"/>ad signifieandam distincte. 
+          Confir<lb break="no" ed="#V" n="39"/>matur tertio, quia facilius est rem 
+          con<lb break="no" ed="#V" n="40"/>cipere quam verbis explicare, ut patet
+          <lb ed="#V" n="41"/>tum experientia, tum etiam 
+          aucto<lb break="no" ed="#V" n="42"/>ritate; hinc enim Augustinus 7. de
+          <lb ed="#V" n="43"/>Trinil. 4. Verius, inquit, cogitatur de
+          <lb ed="#V" n="44"/>Deo aliquid quam dicitur, et Cyrillus /2b.
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>1. contra Julianum, Nazianzenus orat.
+          <lb ed="#V" n="46"/>2. de Theologia, approbant dictum
+          <lb ed="#V" n="47"/>Platonis et Trismegisti : Dewm 
+          Zntel<lb break="no" ed="#V" n="48"/>ligere, difficile esse, loqui autem ?
+          mpos<lb break="no" ed="#V" n="49"/>sibile ; ergo qui imperfecte cognoscit
+          <lb ed="#V" n="50"/>rem, non potest. per verba a se 
+          impo<lb break="no" ed="#V" n="51"/>sita illam significare perfecte, alias 
+          fa<lb break="no" ed="#V" n="52"/>eilius esset. ipsi bene explicare, et 
+          si<lb break="no" ed="#V" n="53"/>gnifieare rem quam eam cognoscere.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e2509">
+          <lb ed="#V" n="54"/>Fatetur quidem Suarez Scoto,verum
+          <lb ed="#V" n="55"/>esse, quod aliquando loquens plura
+          <lb ed="#V" n="56"/>significet quam ipsemet concipiat, sed
+          <lb ed="#V" n="57"/>ait illad esse per accidens et non ex
+          <lb ed="#V" n="58"/>vi vocis formaliter acceptae, ut subest
+          <lb ed="#V" n="59"/>compositioni.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e2525">
+          <lb ed="#V" n="60"/>Respondetur negando id esse 
+          inima<lb break="no" ed="#V" n="61"/>ginabile, quod dicit Cajetanus esse
+          <lb ed="#V" n="62"/>tale, et ad probationem (quidquid sit
+          <lb ed="#V" n="63"/>de veritate secunde partis 
+          antece<lb break="no" ed="#V" n="64"/>dentis, qua dicitur quod voces 
+          signi<lb break="no" ed="#V" n="65"/>fieent mediis conceptibus utentis illis,
+          <lb ed="#V" n="66"/>quam omnino falsam esse patet 
+          exem<lb break="no" ed="#V" n="67"/>plo psittaci aliquo modo signifieantis
+          <lb ed="#V" n="68"/>seu deducentis in cognitionem per
+          <lb ed="#V" n="69"/>voces, quibus utitur, illa, quae nullo
+          <lb ed="#V" n="70"/>modo concipit) nego sequelam, quia
+          <lb ed="#V" n="71"/>licet aliqua cognitio requiratur 
+          neces<lb break="no" ed="#V" n="72"/>sario ad amorem voluntatis, tamen
+          <lb ed="#V" n="73"/>non necessario perfectior cognitio ad
+          <lb ed="#V" n="74"/>perfectiorem amorem, quia posita.
+          <lb ed="#V" n="75"/>eadem cognitione in diversis 
+          tempo<lb break="no" ed="#V" n="76"/>ribus potest voluntas nunc perfectius,
+          <lb ed="#V" n="77"/>nune minus perfecte amare, ut patet
+          <lb ed="#V" n="78"/>experientia. Imo in eodem instanti
+          <lb ed="#V" n="79"/>quo amavit objectum cognitum ut
+          <lb ed="#V" n="80"/>duo, amore ut unum, poterat amare
+          <lb ed="#V" n="81"/>illad ut duo; ergo similiter quamvis
+          <lb ed="#V" n="82"/>aliqua cognitio requiratur, ut 
+          impo<lb break="no" ed="#V" n="83"/>natur nomen ad significandum, tamen
+          <lb ed="#V" n="84"/>distincta cognitio non requiritur ut
+          <lb ed="#V" n="85"/>imponatur ad distincte 
+          significan<lb break="no" ed="#V" n="86"/>dum.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e2586">
+          <lb ed="#V" n="87"/>Quod ut intelligatur melius, 
+          adver<lb break="no" ed="#V" n="88"/>tendum varietatem conditionis appli-
+          <pb ed="#V" n="248"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>calivie, aut etiam causae partialis tum
+          <lb ed="#V" n="2"/>solummodo requiri ad varietatem in
+          <lb ed="#V" n="3"/>ellectu, quando causa totalis aut. 
+          par<lb break="no" ed="#V" n="4"/>lialis est naturaliter agens, et, ecetera
+          <lb ed="#V" n="5"/>omnia. prieter conditionem aut causam
+          <lb ed="#V" n="6"/>parlialem sunt. eadem. Hine enim si
+          <lb ed="#V" n="7"/>ignis causat in hoc instanti 
+          perfectio<lb break="no" ed="#V" n="8"/>rem calorem in subjecto quam in
+          <lb ed="#V" n="9"/>alio instanti, optime infertur quod
+          <lb ed="#V" n="10"/>debeat esse jam variata applicatio ejus
+          <lb ed="#V" n="11"/>aut dispositio passi, quia si non 
+          fuis<lb break="no" ed="#V" n="12"/>sel aliqua talis var$1atio , non posset
+          <lb ed="#V" n="13"/>assignari ratio cur jam  perfectius
+          <lb ed="#V" n="14"/>calefaceret polius quam ante. ALquan-.
+          <lb ed="#V" n="15"/>do causa totalis aut partialis effectus
+          <lb ed="#V" n="16"/>est libera, sine variatione conditionis
+          <lb ed="#V" n="17"/>aut alterius concausc naturaliter 
+          agen<lb break="no" ed="#V" n="18"/>tis, potest esse variatio in effectu, quia
+          <lb ed="#V" n="19"/>potest assignari causa unde proveniat
+          <lb ed="#V" n="20"/>ista variatio effectus sine variatione
+          <lb ed="#V" n="21"/>conditionis aut concause illius, 
+          nimi<lb break="no" ed="#V" n="22"/>rum libera determinatio causae libere
+          <lb ed="#V" n="23"/>aetiva.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e2647">
+          <lb ed="#V" n="24"/>Deinde advertendum, cognitionem
+          <lb ed="#V" n="25"/>rel significandi: per vocem, ut quis
+          <lb ed="#V" n="26"/>imponat vocem ad eam significandam,
+          <lb ed="#V" n="27"/>ideo solummodo requiri, quia 
+          imposi<lb break="no" ed="#V" n="28"/>tio pertinet ad voluntatem, qua: non
+          <lb ed="#V" n="29"/>potest ferri nisi in cognitum. Unde ut
+          <lb ed="#V" n="30"/>imponat vocem ad rem aliquam 
+          sig<lb break="no" ed="#V" n="31"/>nifieandam alicui sub aliqua ratione,
+          <lb ed="#V" n="32"/>solum sufficit ut possit cognoscere
+          <lb ed="#V" n="33"/>illam rem taliter, ut alius cognoscat.
+          <lb ed="#V" n="34"/>quod imposuerit illam vocem ad illam
+          <lb ed="#V" n="35"/>rem sijgnificandam tali ratione, sed
+          <lb ed="#V" n="36"/>hoc potest alius intelligere sine eo
+          <lb ed="#V" n="37"/>quod intelligat impositorem nominis
+          <lb ed="#V" n="38"/>cognovisse illam rationem distincte ;
+          <lb ed="#V" n="39"/>ergo ut imponatur vox ad 
+          signifiean<lb break="no" ed="#V" n="40"/>dam rem sub aliqua ratione etiam
+          <lb ed="#V" n="41"/>distincte, non requiritur distincta 
+          co<lb break="no" ed="#V" n="42"/>enitio istius rationis, licet requiratur
+          <lb ed="#V" n="43"/>aliqua confusa. Probatur minor, eo
+          <lb ed="#V" n="44"/>ipso quo eceus dicat, ego volo quod
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>nomen 4 significet illam rem quam
+          <lb ed="#V" n="46"/>quis percipit per oculosin hoc instanti
+          <lb ed="#V" n="47"/>(in quo quis videret albedinem) qui
+          <lb ed="#V" n="48"/>audiret ipsum hoc dicentem, et videret
+          <lb ed="#V" n="49"/>albedinem tum percipi per oculos istius
+          <lb ed="#V" n="50"/>percipientis, sciret quod vellet 
+          signifi<lb break="no" ed="#V" n="51"/>care albedinem per vocem Á, ut supra
+          <lb ed="#V" n="52"/>dictum est, et vox A non significaret
+          <lb ed="#V" n="53"/>ipsi albedinem sob illo conceptu quo
+          <lb ed="#V" n="54"/>eceus ille conciperet ipsam, sed sub
+          <lb ed="#V" n="55"/>conceptu illo distincto quo 
+          concipe<lb break="no" ed="#V" n="56"/>retur ab illo percipiente.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e2724">
+          <lb ed="#V" n="57"/>Quae doctrina roboratur primo, quia
+          <lb ed="#V" n="58"/>si per impossibile, aliquis imponeret
+          <lb ed="#V" n="59"/>vocem ad significandam aliquam
+          <lb ed="#V" n="60"/>rationem objectivam sine eo quod ullo
+          <lb ed="#V" n="61"/>modo cognosceret illam rationem, et
+          <lb ed="#V" n="62"/>alius cognosceret illam, profecto 
+          in<lb break="no" ed="#V" n="63"/>telligeret illam rationem objectivam,
+          <lb ed="#V" n="64"/>et tamen non cognosceret illam prout
+          <lb ed="#V" n="65"/>concipiebatur ab imponente. Secundo,
+          <lb ed="#V" n="66"/>quia si vox tantum significaret. rem
+          <lb ed="#V" n="67"/>secundum rationem objecetivam, qua
+          <lb ed="#V" n="68"/>conciplebatur ab instituente vocem,
+          <lb ed="#V" n="69"/>prius debuissemus cognoseere 
+          secun<lb break="no" ed="#V" n="70"/>dum quam rationem  cognoscebat
+          <lb ed="#V" n="71"/>impositor rem illam quam  
+          potuisse<lb break="no" ed="#V" n="72"/>mus cognoscere ipsius vocis 
+          signifi<lb break="no" ed="#V" n="73"/>cationem, quod est omnino falsum
+          <lb ed="#V" n="74"/>et contra experientiam. Tertio, quia si
+          <lb ed="#V" n="75"/>duo homines instituerent diversas
+          <lb ed="#V" n="76"/>voces vel etiam unam ad 
+          signifiean<lb break="no" ed="#V" n="77"/>dum naturam humanam, ex quibus
+          <lb ed="#V" n="78"/>unus conciperet illam per modum
+          <lb ed="#V" n="79"/>risibilis, alter per modum rationalis,
+          <lb ed="#V" n="80"/>nec vellent tamen vocem significare
+          <lb ed="#V" n="81"/>ipsam ut risibilem, aut rationalem 
+          for<lb break="no" ed="#V" n="82"/>maliter ; alius qui sciret institutionem
+          <lb ed="#V" n="83"/>mediantibus illis diversis vocibus vel
+          <lb ed="#V" n="84"/>una voce posset habere eumdem 
+          sem<lb break="no" ed="#V" n="85"/>per conceptum de re; ergo vox non
+          <lb ed="#V" n="86"/>significat rem, ut subest conceptui
+          <lb ed="#V" n="87"/>impositoris, quamvis aliquem 
+          conce<lb break="no" ed="#V" n="88"/>ptum de re debeat is habere.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e2796">
+          <pb ed="#V" n="249"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>Ad primam confirmationem 
+          posi<lb break="no" ed="#V" n="2"/>lam »:"m. 18. dico quod haberet vox
+          <lb ed="#V" n="3"/>illam significationem ab illo 
+          impo<lb break="no" ed="#V" n="4"/>nente, qui habet in virtute sua istam
+          <lb ed="#V" n="5"/>significationem, quia habet in virtute
+          <lb ed="#V" n="6"/>sua ordinare vocem ad illam rem 
+          si<lb break="no" ed="#V" n="7"/>gnifieandam sub tali conceplu. Nec
+          <lb ed="#V" n="8"/>debet ad hoc habere illam  
+          cogni<lb break="no" ed="#V" n="9"/>lionem, quam causat ista vox in 
+          vir<lb break="no" ed="#V" n="10"/>tute sua, ita ut ipse in se, aut in alio
+          <lb ed="#V" n="11"/>per vocem praecise possit illam 
+          cau<lb break="no" ed="#V" n="12"/>sare, sed sufficit quod possit causare
+          <lb ed="#V" n="13"/>ipsam in intellectu habente speciem
+          <lb ed="#V" n="14"/>istius rei per illam cognitionem 
+          co<lb break="no" ed="#V" n="15"/>gnite et significata? per vocem.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e2835">
+          <lb ed="#V" n="16"/>Ad secundam confirmationem patet
+          <lb ed="#V" n="17"/>responsio ex dictis ad objectionem,
+          <lb ed="#V" n="18"/>neganda enim est consequentia.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e2844">
+          <lb ed="#V" n="19"/>Ad tertiam confirmationem 
+          respon<lb break="no" ed="#V" n="20"/>deo, distinguendo antecedens: Quando
+          <lb ed="#V" n="21"/>quis haberet voces jam ante in positas
+          <lb ed="#V" n="22"/>ad signifieandam rem, ut ab ipso
+          <lb ed="#V" n="23"/>concipitur, et alii quibus res illa esset
+          <lb ed="#V" n="24"/>significanda, scirent voces esse sic
+          <lb ed="#V" n="25"/>impositas, haberentque eosdem 
+          con<lb break="no" ed="#V" n="26"/>ceptus de re, quos significarent verba,
+          <lb ed="#V" n="27"/>nego antecedens. Quando quis non
+          <lb ed="#V" n="28"/>haberet voces ad sic significandam
+          <lb ed="#V" n="29"/>rem, aut quando alii non conciperent
+          <lb ed="#V" n="30"/>rem prout ipse eam vellet per verba
+          <lb ed="#V" n="31"/>significare, concedo antecedens ; et
+          <lb ed="#V" n="32"/>similiter distinguo consequens, non
+          <lb ed="#V" n="33"/>potest hoc aliis, qui perfecte 
+          conci<lb break="no" ed="#V" n="34"/>perent, nego; qui non conciperent,
+          <lb ed="#V" n="35"/>coneedo consequentiam, neque nos
+          <lb ed="#V" n="36"/>id asserimus.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e2886">
+          <lb ed="#V" n="37"/>Itaque tota difficultas significandi
+          <lb ed="#V" n="38"/>rem per verba, oritur ex eo quod
+          <lb ed="#V" n="39"/>audiens vocem debet habere 
+          cognitio<lb break="no" ed="#V" n="40"/>nem re! significande, antequam 
+          pos<lb break="no" ed="#V" n="41"/>sit intelligere vocem, quia vox non
+          <lb ed="#V" n="42"/>habet ex se, etiam supposita 
+          qua<lb break="no" ed="#V" n="43"/>cumque institutione, causare speciem
+          <lb ed="#V" n="44"/>rei significatae in mente audientis, et
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e2906">
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>minus habet proponere ipsam rem
+          <lb ed="#V" n="46"/>significatam secundum se, qua posset
+          <lb ed="#V" n="47"/>non existere vel esse absens physice,
+          <lb ed="#V" n="48"/>unde solum habet ex se causare 
+          cog<lb break="no" ed="#V" n="49"/>nitionem rei, quatenus excital=t speciem
+          <lb ed="#V" n="50"/>ipsius in mente audientis vocem,
+          <lb ed="#V" n="51"/>atque adeo ut significet, necessario
+          <lb ed="#V" n="52"/>pressupponit speciem rei in illa mente.
+          <lb ed="#V" n="53"/>Rursus non sufficit quod species rei
+          <lb ed="#V" n="54"/>sit in illa mente, ut excitetur per
+          <lb ed="#V" n="55"/>vocem, nec ulterius etiam quod vox
+          <lb ed="#V" n="56"/>imponatur ad significandam illam
+          <lb ed="#V" n="57"/>rem, cujus habetur species, sed debet
+          <lb ed="#V" n="58"/>audiens intelligere quod vox sit 
+          impo<lb break="no" ed="#V" n="59"/>sita ad significandam rem istam. Hoc
+          <lb ed="#V" n="60"/>autem est valde difficile significare
+          <lb ed="#V" n="61"/>ipsi aliquando; et hine fit aliquando
+          <lb ed="#V" n="62"/>difficile esse, ut aliquis explicet. per
+          <lb ed="#V" n="63"/>verba suos conceptus, quia scilicet vel
+          <lb ed="#V" n="64"/>alter non habet tum species istorum
+          <lb ed="#V" n="65"/>conceptuum, vel loquens non habet
+          <lb ed="#V" n="66"/>verba jam imposita ad significationem
+          <lb ed="#V" n="67"/>istorum verborum, et si vellet ipse
+          <lb ed="#V" n="68"/>imponere nova nomina, non posset
+          <lb ed="#V" n="69"/>significare alteri quod illa imponeret
+          <lb ed="#V" n="70"/>ad significationem istorum  
+          conce<lb break="no" ed="#V" n="71"/>ptuum. At quando audiens habet 
+          spe<lb break="no" ed="#V" n="72"/>ciem conceptuum, et. potest loquens
+          <lb ed="#V" n="73"/>significare ipsi quod intendat 
+          signifi<lb break="no" ed="#V" n="74"/>care per voces res illas, quarum 
+          spe<lb break="no" ed="#V" n="75"/>cies habet, profecto nullam habebit
+          <lb ed="#V" n="76"/>difficultatem loquens in significando
+          <lb ed="#V" n="77"/>suo conceptu.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e2983">
+          <lb ed="#V" n="78"/>Hanc autem doctrinam uon advertit
+          <lb ed="#V" n="79"/>Suarez swpra num. 1aemp;4. dum videtur
+          <lb ed="#V" n="80"/>supponere quod vox habet ex se 
+          signi<lb break="no" ed="#V" n="81"/>ficare aliquid independenter a specie- |
+          <lb ed="#V" n="82"/>bus, quas audiens habet de re ; quod
+          <lb ed="#V" n="83"/>manifeste patet ex modo dictis esse
+          <lb ed="#V" n="84"/>falsum.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e3001">
+          <lb ed="#V" n="85"/>Nec argumentum, quoad hoc 
+          sen<lb break="no" ed="#V" n="86"/>tiendum ducitur hic Doctor, ullius est
+          <lb ed="#V" n="87"/>momenti, sed procedit ex malo hujus
+          <lb ed="#V" n="88"/>rei examine, ut patebit ex solutione.
+          <pb ed="#V" n="250"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>Est autem hoc ejus argumentum : si
+          <lb ed="#V" n="2"/>nomen haberet significare rem, prout
+          <lb ed="#V" n="3"/>repriesentaretur per speciem, aut prout
+          <lb ed="#V" n="4"/>coneiperetur res perfectius, aut 
+          di<lb break="no" ed="#V" n="5"/>stinetius ab audiente nomen, 
+          seque<lb break="no" ed="#V" n="6"/>retur quod idem nomen impositum ad
+          <lb ed="#V" n="7"/>significandum eamdem rem secundum
+          <lb ed="#V" n="8"/>eamdem rationem, nou haberet 
+          deter<lb break="no" ed="#V" n="9"/>minatam perfectionem significandi.
+          <lb ed="#V" n="10"/>Sed quod pro varielate audientium
+          <lb ed="#V" n="11"/>haberet perfectiorem ac perfectiorem
+          <lb ed="#V" n="12"/>vim significativam, quia scilicet. quo
+          <lb ed="#V" n="13"/>intellectus esset perfectior aut 
+          perfe<lb break="no" ed="#V" n="14"/>eliores species rei haberet, eo 
+          perfec<lb break="no" ed="#V" n="15"/>lius audito nomine intelligeret rem,
+          <lb ed="#V" n="16"/>sed hoc est frivolum, inquit Suarez ;
+          <lb ed="#V" n="17"/>ergo, etc.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e3053">
+          <lb ed="#V" n="18"/>Respondeo in primis si 
+          concedere<lb break="no" ed="#V" n="19"/>tur sequela, id non esse nec frivolum
+          <lb ed="#V" n="20"/>nee absurdum, cum enim nomen 
+          sup<lb break="no" ed="#V" n="21"/>ponat pro re significata, sicut ipsa
+          <lb ed="#V" n="22"/>res significata non habet ex se 
+          deter<lb break="no" ed="#V" n="23"/>minatam perfectionem causativam
+          <lb ed="#V" n="24"/>cognitionis, sed pro varietate 
+          intelle<lb break="no" ed="#V" n="25"/>cluum eorumque dispositione et pro
+          <lb ed="#V" n="26"/>varietate specierum, quae causarentur
+          <lb ed="#V" n="27"/>in intellectu, haberet causare 
+          perfe<lb break="no" ed="#V" n="28"/>ctiorem aut imperfectiorem cognitio:
+          <lb ed="#V" n="29"/>nem, nec hoc sit frivolum, ita quod
+          <lb ed="#V" n="30"/>vox non haberet determinatam 
+          per<lb break="no" ed="#V" n="31"/>fectionem significationis, sed juxta
+          <lb ed="#V" n="32"/>dispositionem  intellectuum, haberet
+          <lb ed="#V" n="33"/>causare diversas intellectiones 
+          per<lb break="no" ed="#V" n="34"/>fectiorem et imperfectiorem, nullo
+          <lb ed="#V" n="35"/>modo esset absurdum aut frivolum.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e3095">
+          <lb ed="#V" n="36"/>Respondeo secundo et magis ad rem
+          <lb ed="#V" n="37"/>praesentem, distinguendo  sequelam
+          <lb ed="#V" n="38"/>majoris : si nomen haberet significare
+          <lb ed="#V" n="39"/>rem, prout repraesentaretur per 
+          spe<lb break="no" ed="#V" n="40"/>ciem, aut conciperetur perfectius,
+          <lb ed="#V" n="41"/>quantum ad perfectionem conceptus
+          <lb ed="#V" n="42"/>objeetivi, qui conciperetur et 
+          reprae<lb break="no" ed="#V" n="43"/>senlaretur, nego sequelam majoris ;
+          <lb ed="#V" n="44"/>semper enim eamdem rationem obje-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>ctivam ex se eodem modo quantum
+          <lb ed="#V" n="46"/>est ex parte objecti signifiearet, ad
+          <lb ed="#V" n="47"/>quam signifieandam erat institutum.
+          <lb ed="#V" n="48"/>Quantum ad perfectionem ipsius 
+          co<lb break="no" ed="#V" n="49"/>gnitionis desumpta a perfectione
+          <lb ed="#V" n="50"/>ipsius intellectus aut speciel, concedo
+          <lb ed="#V" n="51"/>sequelam majoris ; neque nos dicimus
+          <lb ed="#V" n="52"/>vocem habere ex se significare rem,
+          <lb ed="#V" n="53"/>ut perfectius coneiperetur hae 
+          perfe<lb break="no" ed="#V" n="54"/>ctione.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e3141">
+          <lb ed="#V" n="55"/>Ut autem h:ee responsio intelligatur,
+          <lb ed="#V" n="56"/>et etiam tota res percipiatur melius,
+          <lb ed="#V" n="57"/>hic etiam advertendum' est, quod vox
+          <lb ed="#V" n="58"/>habet, ut supra dixi, supponi pro re,
+          <lb ed="#V" n="59"/>ila ut quemadmodum res ipsa si 
+          pro<lb break="no" ed="#V" n="60"/>poneretur sensibus externis, vel 
+          pro<lb break="no" ed="#V" n="61"/>duceret vel excitaret in intellectu
+          <lb ed="#V" n="62"/>speciem sui, qua abstractive 
+          cogno<lb break="no" ed="#V" n="63"/>sceretur; ita etiam quando non adest
+          <lb ed="#V" n="64"/>ipsa res, vox habeat excitare speciem
+          <lb ed="#V" n="65"/>ejus conformiter ad illud quod 
+          commu<lb break="no" ed="#V" n="66"/>niter dicitur, nimirum, quod quia res
+          <lb ed="#V" n="67"/>ipsas ad Scholas adducere non 
+          possu<lb break="no" ed="#V" n="68"/>mus, vocibus utamur. Hine fit ut
+          <lb ed="#V" n="69"/>sicut differentia cognitionum de una
+          <lb ed="#V" n="70"/>re secundum eamdem rationem, non
+          <lb ed="#V" n="71"/>potest tribui ipsimet rei si applicata
+          <lb ed="#V" n="72"/>fuisset, ita etiam differentia 
+          cognitio<lb break="no" ed="#V" n="73"/>num mediante una voce non debet
+          <lb ed="#V" n="74"/>attribui ipsi voci, sed perfectiori 
+          in<lb break="no" ed="#V" n="75"/>tellectui aut speciei aut dispositioni
+          <lb ed="#V" n="76"/>intellectus, aut applicationi vocis. Sicut
+          <lb ed="#V" n="77"/>vero differentia cognitionum de 
+          diver<lb break="no" ed="#V" n="78"/>sis rebus, aut conceptibus objeclivis
+          <lb ed="#V" n="79"/>immediate cognitis tribuitur ipsis
+          <lb ed="#V" n="80"/>rebus, ita etiam diversitas cognitionum
+          <lb ed="#V" n="81"/>de diversis rebus, aut conceptibus
+          <lb ed="#V" n="82"/>habitarum mediantibus vocibus 
+          im<lb break="no" ed="#V" n="83"/>mediate sine discursu, attribuenda est
+          <lb ed="#V" n="84"/>ipsis vocibus. Illa ergo perfectio, quae
+          <lb ed="#V" n="85"/>est major in cognitione, ex eo quod
+          <lb ed="#V" n="86"/>cognitio sit de tali ratione objectiva,
+          <lb ed="#V" n="87"/>quam perfectionem non habet alia
+          <lb ed="#V" n="88"/>cognitio, quae est de alia ratione ob-
+          <pb ed="#V" n="251"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>jeetiva minus perfecta, est attribuenda
+          <lb ed="#V" n="2"/>voci, non vero illa major perfectio,
+          <lb ed="#V" n="3"/>qua est in cognitione ex perfectiori
+          <lb ed="#V" n="4"/>intellectu, aut aliis quibuseumque 
+          ca<lb break="no" ed="#V" n="5"/>pitibus. Qua doctrina si bene 
+          intelli<lb break="no" ed="#V" n="6"/>gatur, et enervat totaliter 
+          fundamen<lb break="no" ed="#V" n="7"/>tum Suarez, et sententiam nostram
+          <lb ed="#V" n="8"/>clarissime demonstrat.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e3239">
+          <lb ed="#V" n="9"/>Objicies: Praeterea sequeretur ex
+          <lb ed="#V" n="10"/>nostra doctrina quod Deus esset 
+          effa<lb break="no" ed="#V" n="11"/>bilis, maxime si posset a viatore 
+          im<lb break="no" ed="#V" n="12"/>poni nomen, quod eum distincte 
+          si<lb break="no" ed="#V" n="13"/>gnificaret, sed hoc est contra Patres
+          <lb ed="#V" n="14"/>et Scripturam ; ergo, etc. Respondeo,
+          <lb ed="#V" n="15"/>eatenus Deum esse ineffabilem, 
+          quate<lb break="no" ed="#V" n="16"/>nus non possit a creatura nomen 
+          im<lb break="no" ed="#V" n="17"/>poni, per quod aut comprehensive,
+          <lb ed="#V" n="18"/>aut etiam distincte, sive  intuiüive,
+          <lb ed="#V" n="19"/>sive abstractive cognosceretur 
+          natu<lb break="no" ed="#V" n="20"/>raliter ab aliquo non habente 
+          cogni<lb break="no" ed="#V" n="21"/>lionem supernaturalem ipsius, non
+          <lb ed="#V" n="22"/>vero quatenus possit imponi nomen,
+          <lb ed="#V" n="23"/>quod eum confuse et indistincte 
+          re<lb break="no" ed="#V" n="24"/>praesentaret, aut quod eum distincte
+          <lb ed="#V" n="25"/>etiam repraesentaret habentibus 
+          spe<lb break="no" ed="#V" n="26"/>ciem, quibus antecedenter ad nomen
+          <lb ed="#V" n="27"/>distincte cognosci possit. Et per hoc
+          <lb ed="#V" n="28"/>patet ad omnes rationes et argumenta
+          <lb ed="#V" n="29"/>principalia in initio questionis 
+          pro<lb break="no" ed="#V" n="30"/>posita, quae propterea Doctor in 
+          parti<lb break="no" ed="#V" n="31"/>eulari solvere non curavit, nec hie
+          <lb ed="#V" n="32"/>proponenda videbantur.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e3295">
+          <lb ed="#V" n="33"/>Suppositis hactenus dictis, et 
+          prae<lb break="no" ed="#V" n="34"/>sertim quod viatores possint imponere
+          <lb ed="#V" n="35"/>nomen, quod distincte significet Deum
+          <lb ed="#V" n="36"/>sub ratione sua propria et quidditativa,
+          <lb ed="#V" n="37"/>restat quaerendum, an de facto dentur
+          <lb ed="#V" n="38"/>aliqua nomina apud viatores sic ipsuni
+          <lb ed="#V" n="39"/>significantia ? Scotus quaest. praeced.
+          <lb ed="#V" n="40"/>num. 4. ait verisimile esse in 
+          Serip<lb break="no" ed="#V" n="41"/>tura sacra esse talia nomina sive 
+          im<lb break="no" ed="#V" n="42"/>posita sint ab homine, sive ab Angelo
+          <lb ed="#V" n="43"/>aut Deo; et specialiter existimat tale
+          <lb ed="#V" n="44"/>nomen esse illud, de quo fit mentio
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>Exodi 3. ubi dicit Deus Moysi: cc |
+          <lb ed="#V" n="46"/>dices filiis Israel : Qui est misit me ad
+          <lb ed="#V" n="47"/>vos. Hoc nomen mihi in est elernum,
+          <lb ed="#V" n="48"/>quo in loco ponitur hebraice nomen
+          <lb ed="#V" n="49"/>Jehova, quod Te/ragrammaton dicitur,
+          <lb ed="#V" n="50"/>et erat in summa apud Hebraos 
+          obser<lb break="no" ed="#V" n="51"/>vatione, sic ut ipsis non esset fas
+          <lb ed="#V" n="52"/>ipsum proferre, sed quoties occurrebat,
+          <lb ed="#V" n="53"/>ejus loco legebant Adona? vel Elohim,
+          <lb ed="#V" n="54"/>praesertim extra templum ; in templo
+          <lb ed="#V" n="55"/>vero cum Sacerdosbenediceret populo,
+          <lb ed="#V" n="56"/>illud nomen proprio exprimebat sono.
+          <lb ed="#V" n="57"/>Tale etiam nomen, hoc est, 
+          signifi<lb break="no" ed="#V" n="58"/>eans Deum quidditative, verisimile est,
+          <lb ed="#V" n="59"/>esse nomen Jes seu esas, quod 
+          deriva<lb break="no" ed="#V" n="60"/>tur secundum etymologiam nominis,
+          <lb ed="#V" n="61"/>vel a verbo 6c, quod significat 
+          guber<lb break="no" ed="#V" n="62"/>nare seu continere et fovere, quia
+          <lb ed="#V" n="63"/>Deus conservat et gubernat omnes
+          <lb ed="#V" n="64"/>creaturas, vel a verbo aigss, hoc est
+          <lb ed="#V" n="65"/>urere, quia Deus ignis consumens est,
+          <lb ed="#V" n="66"/>ut habetur Deutoron. 4. non solum
+          <lb ed="#V" n="67"/>quia consumit peccata et 
+          imperfectio<lb break="no" ed="#V" n="68"/>nes, sed quia etiam creaturas $1atio 
+          na<lb break="no" ed="#V" n="69"/>les igne sui amoris fovet, et quia igne
+          <lb ed="#V" n="70"/>infernali eonsumit peccatores, et 
+          de<lb break="no" ed="#V" n="71"/>nique quia igne infernali consumit
+          <lb ed="#V" n="72"/>peccatores, et denique quia igne 
+          con<lb break="no" ed="#V" n="73"/>sumpturus est novissimo die mundum;
+          <lb ed="#V" n="74"/>vel denique a verbo gsas0«: hoc est, pros
+          <lb ed="#V" n="75"/>picere et contemplari, quia Deus 
+          in<lb break="no" ed="#V" n="76"/>time omnia cognoscit, serutans renes
+          <lb ed="#V" n="77"/>et corda. Quod autem h«c duo nomina
+          <lb ed="#V" n="78"/>significent ipsam propriam naturam
+          <lb ed="#V" n="79"/>Dei, licet occasio imponendi illa 
+          de<lb break="no" ed="#V" n="80"/>sumpta forte fuerit ab aliqua 
+          operatio<lb break="no" ed="#V" n="81"/>ne Dei ad extra, sicut nomen /dis 
+          si<lb break="no" ed="#V" n="82"/>gnificat naturam propriam et 
+          sub<lb break="no" ed="#V" n="83"/>slantiam lapidis, licet occasio 
+          impo<lb break="no" ed="#V" n="84"/>nendi ipsum desumpta fuerit a laesione
+          <lb ed="#V" n="85"/>pedis. Probatur, tum quia nihil 
+          impe<lb break="no" ed="#V" n="86"/>dit, tum quia valde videtur 
+          conve<lb break="no" ed="#V" n="87"/>niens ut nomen aliquod haberemus sic
+          <lb ed="#V" n="88"/>significeans essentiam divinam.
+        </p>
+        <p xml:id="mm30o9-d1e990-d1e3421">
+          <pb ed="#V" n="252"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>Dices eum Cajetano supra, esset tale
+          <lb ed="#V" n="2"/>nomen frustra et contra experientiam.
+          <lb ed="#V" n="3"/>Contra, quia saepe conamur discurrere
+          <lb ed="#V" n="4"/>de Deo ipso secundum propriam suam
+          <lb ed="#V" n="5"/>naturam, secundum quod est in se.
+          <lb ed="#V" n="6"/>Et licet ut sic, non concipiamusipsum
+          <lb ed="#V" n="7"/>distincte, tamen volumus intelligi 
+          ser<lb break="no" ed="#V" n="8"/>monem nostrum de Deo, non 
+          secun<lb break="no" ed="#V" n="9"/>dum quod apparet nobis, sed 
+          secun<lb break="no" ed="#V" n="10"/>dum quod est a parte rei; ergo non
+          <lb ed="#V" n="11"/>essel, inutile nomen quod significaret
+          <lb ed="#V" n="12"/>eum ut sic, licet non ut sic, ipsum 
+          dis<lb break="no" ed="#V" n="13"/>tinete non cognosceremus. Illud vero
+          <lb ed="#V" n="14"/>de experientia, quod subjunezit Cajeta-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="15"/>nus, est frivolum, quia nos non 
+          con<lb break="no" ed="#V" n="16"/>lendimus nos intelligere significata
+          <lb ed="#V" n="17"/>nominum horum, secundum quod a
+          <lb ed="#V" n="18"/>parte rei significantur ab illis, neque
+          <lb ed="#V" n="19"/>ex experientia tali colligimus dari ista
+          <lb ed="#V" n="20"/>nomina, sed alia experientia, qua
+          <lb ed="#V" n="21"/>constat, ut dixi, non discurrere velle
+          <lb ed="#V" n="22"/>de Deo secundum propriam naturam
+          <lb ed="#V" n="23"/>suam. Plura alia de his nominibus 
+          vi<lb break="no" ed="#V" n="24"/>deri possunt apud recentiores, qua
+          <lb ed="#V" n="25"/>quia et in se facilia sunt et propterea
+          <lb ed="#V" n="26"/>non tanguntur a Doctore, omittenda
+          <lb ed="#V" n="27"/>hie videbantur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

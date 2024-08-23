@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#per-FLBca3">Franciscus Lychetus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2024-08-23">August 23, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 10</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-08-23" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="491"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="mm30o9-d1e1197"><!-- lycht-d31q1-p2 -->
+            <head xml:id="mm30o9-d1e1197-Hd1e101">Quaestio 1</head>
+            <p xml:id="mm30o9-d1e1197-d1e103">
+               <lb ed="#V" n="22" type="fixed=491"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1197-d1e108">
+               <lb ed="#V" n="23"/>(a) Ad questionem videtur dicendum,
+<lb ed="#V" n="24"/>etc. Ex istis patet expresse quod ad 
+re<lb break="no" ed="#V" n="25"/>lationem realem requiritur necessario
+<lb ed="#V" n="26"/>distinctio realis extremorum, et hoc
+<lb ed="#V" n="27"/>nota propter illud quod habetur supra
+<lb ed="#V" n="28"/>dist. 28. quod alias notavi quod sit 
+ex<lb break="no" ed="#V" n="29"/>tra textum.
+</p>
+            <p xml:id="mm30o9-d1e1197-d1e126">
+               <lb ed="#V" n="30"/>(b) Quantum ad primam, etc. Opinio
+<lb ed="#V" n="31"/>Henrici est, quod :qualitas, 
+similitu<lb break="no" ed="#V" n="32"/>do, etc. non sit relatio nisi rationis in
+<lb ed="#V" n="33"/>divinis, quia magnitudo qua est 
+fun<lb break="no" ed="#V" n="34"/>damentum «qualitatis, non est ibi ex
+<lb ed="#V" n="35"/>natura rei, sed transit totaliter in 
+es<lb break="no" ed="#V" n="36"/>sentiam divinam, ita quod ex natura
+<lb ed="#V" n="37"/>rei non est nisi essentia divina.
+</p>
+            <p xml:id="mm30o9-d1e1197-d1e146">
+               <lb ed="#V" n="38"/>(c) Sed contra istud. Hoc 
+argumen<lb break="no" ed="#V" n="39"/>tum clarum est, ut patet supra dist. 8.
+<lb ed="#V" n="40"/>quast. penultim.
+</p>
+            <p xml:id="mm30o9-d1e1197-d1e156">
+               <lb ed="#V" n="41"/>(d) Item Intellectus. Hic nota quod
+<lb ed="#V" n="42"/>supponit Doctor, quod essentia divina
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>sit formaliter infinita, quod probavit
+<lb ed="#V" n="44"/>supra d. 2. g. 1. Secundo, quod actus
+<lb ed="#V" n="45"/>comprehensivus alicujus objecti 
+com<lb break="no" ed="#V" n="46"/>mensuretur ipsi objecto in perfectione,
+<lb ed="#V" n="47"/>ita quod si essentia divina est 
+formali<lb break="no" ed="#V" n="48"/>ter infinita, intellectio comprehensiva
+<lb ed="#V" n="49"/>erit formaliter infinita, et hoc patet a
+<lb ed="#V" n="50"/>Doctore q.14. quod(ib. Tertio, quod 
+ac<lb break="no" ed="#V" n="51"/>tus comprehensivus essentiae praecedit
+<lb ed="#V" n="52"/>omnem actum negotiativum 
+intellec<lb break="no" ed="#V" n="53"/>tus. Imo habito actu comprehensivo,
+<lb ed="#V" n="54"/>potest circa essentiam reducere omnes
+<lb ed="#V" n="55"/>relationes in actu, id est, quod potest
+<lb ed="#V" n="56"/>efficere omnes relationes rationis, quae
+<lb ed="#V" n="57"/>nate sunt fierl circa essentiam. 
+Quar<lb break="no" ed="#V" n="58"/>to, sequitur ex dictis quod illa 
+intellec<lb break="no" ed="#V" n="59"/>tio et intellectus erunt ibi formaliter
+<lb ed="#V" n="60"/>infinita et ex natura rei; ergo erit ibi
+<lb ed="#V" n="61"/>magnitudo infinita ex natura rei.
+</p>
+            <p xml:id="mm30o9-d1e1197-d1e206">
+               <lb ed="#V" n="62"/>(e) Praeterea, ratio illorum non valet.
+<lb ed="#V" n="63"/>Hicnota aliqua. Primo, quod quantitas
+<lb ed="#V" n="64"/>aceidentalis est aliquid simpliciter 
+ad<lb break="no" ed="#V" n="65"/>ditum nature subjecti, et sic repugnat
+<lb ed="#V" n="66"/>sibi quod possit transire in identitatem
+<lb ed="#V" n="67"/>realem subjecti, et manere sub ratione
+<lb ed="#V" n="68"/>formali quantitatis molis, quod patet.
+<lb ed="#V" n="69"/>Secundo, magnitudo virtutis sive
+<lb ed="#V" n="70"/>quantitatis virtualis, est simpliciter
+<lb ed="#V" n="71"/>idem realiter cum ente cujus est, et
+<lb ed="#V" n="72"/>tamen potest manere sub sua ratione
+<lb ed="#V" n="73"/>formali.
+</p>
+            <p xml:id="mm30o9-d1e1197-d1e235">
+               <lb ed="#V" n="74"/>Sed videtur difficultas contra hoc.
+<lb ed="#V" n="75"/>Nam Doctor supra d. 8. dicit quod 
+gra<lb break="no" ed="#V" n="76"/>dus intrinsecus, cujusmodi est 
+quanti<lb break="no" ed="#V" n="77"/>tas virtualis, non dicit distinctam 
+for<lb break="no" ed="#V" n="78"/>malitatem a re cujus est, ita quod res
+<lb ed="#V" n="79"/>illa sit quodammodo in potentia 
+per<lb break="no" ed="#V" n="80"/>fectibili ad illum, ut patet supra. Et
+<lb ed="#V" n="81"/>ultra, non dicit distinctam 
+formalita<lb break="no" ed="#V" n="82"/>tem, accipiendo /ormalitatem proprie,
+<lb ed="#V" n="83"/>ut sit objectum formale distinctum
+<lb ed="#V" n="84"/>formaliter a re cujus est, ut patet 
+su<lb break="no" ed="#V" n="85"/>pra dist. 8. Ipsa tamen aliquo modo
+<lb ed="#V" n="86"/>secundum suam rationem distingui-
+<pb ed="#V" n="492"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tur a re, cujus est. Et sic Doctor,
+<lb ed="#V" n="2"/>cum dicit hic quod manet 
+secun<lb break="no" ed="#V" n="3"/>dum propriam rationem distinctam a
+<lb ed="#V" n="4"/>re cujus est, non debet intelligi 
+secun<lb break="no" ed="#V" n="5"/>dum distinctam formalitatem, modo
+<lb ed="#V" n="6"/>praeexposito. Tertio, ex isto 
+argumen<lb break="no" ed="#V" n="7"/>to vult inferre quod si quantitas 
+virtua<lb break="no" ed="#V" n="8"/>lis est eadem res realiter quod 
+essen<lb break="no" ed="#V" n="9"/>tia divina, licet sit non idem 
+formali<lb break="no" ed="#V" n="10"/>ter, ut patet supra d. 8. sequitur quod
+<lb ed="#V" n="11"/>eum essentia divina sit ibi ex natura
+<lb ed="#V" n="12"/>rei, quod sic etiam talis quantitas 
+vir<lb break="no" ed="#V" n="13"/>tualis, qui est infinitas intensiva, sit
+<lb ed="#V" n="14"/>ibi ex natura rei, et sic fundamentum
+<lb ed="#V" n="15"/>aequalitatis erit ibi ex natura rei.
+</p>
+            <!--</div>
+<div alias="lycht-d31q1-p3">-->
+            <p xml:id="mm30o9-d1e1197-d1e305">
+               <lb ed="#V" n="69" type="fixed=492"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1197-d1e310">
+               <lb ed="#V" n="70"/>(f) Secundum principale. Hic ratio
+<lb ed="#V" n="71"/>clara est. Cum dicit quod in Filio est.
+<lb ed="#V" n="72"/>equalitas, sic debet intelligi, quod
+<lb ed="#V" n="73"/>cum nihil possit esse realiter sibi 
+aequa<lb break="no" ed="#V" n="74"/>le, et sic Pater non potest esse sibi
+<lb ed="#V" n="75"/>aequalis realiter, sequitur quod Filio
+<lb ed="#V" n="76"/>producto, qui distinguitur realiter a
+<lb ed="#V" n="77"/>Patre eui communicatur omnis perfec
+<lb ed="#V" n="78"/>tio, statim erit aequalis Patri 
+secun<lb break="no" ed="#V" n="79"/>dum illam perfectionem, et e contra.
+<lb ed="#V" n="80"/>Et sic intelligitur quod in Filio est 
+pri<lb break="no" ed="#V" n="81"/>ma qualitas, :scilicet quod producto
+<lb ed="#V" n="82"/>Filio statim sequitur prima 
+ecequali<lb break="no" ed="#V" n="83"/>tas.
+</p>
+            <!--</div>
+<div alias="lycht-d31q1-p4">-->
+            <p xml:id="mm30o9-d1e1197-d1e346">
+               <lb ed="#V" n="73" type="fixed=497"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1197-d1e351">
+               <lb ed="#V" n="74"/>(g) Quantum ad tertiam conditionem,
+<lb ed="#V" n="75"/>infra : Sed de aequalitate, etc. Primo
+<lb ed="#V" n="76"/>videtur quod aequalitas nullo modo
+<lb ed="#V" n="77"/>distinguatur a similitudine et 
+identi<lb break="no" ed="#V" n="78"/>tate in divinis. Et suppono quod 
+es<lb break="no" ed="#V" n="79"/>sentia ut una, est fundamentum 
+iden<lb break="no" ed="#V" n="80"/>titatis, et magnitudo ut una, est 
+fun<lb break="no" ed="#V" n="81"/>damentum qualitatis in divinis ; 
+si<lb break="no" ed="#V" n="82"/>militer qualitas essentialis ut. una, est
+<lb ed="#V" n="83"/>fundamentum similitudinis, ut patet
+<lb ed="#V" n="84"/>supra d. 20, q. 1. Secundo, suppono
+<lb ed="#V" n="85"/>quod ipsa magnitudo sit perfecte 
+ea<lb break="no" ed="#V" n="86"/>dem eum essentia divina, et similiter
+<pb ed="#V" n="498"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>cum omnibus attributis ; eum ergo
+<lb ed="#V" n="2"/>Pater dicatur idem Filio propter 
+uni<lb break="no" ed="#V" n="3"/>tatem essentia, etsi est perfecte idem,
+<lb ed="#V" n="4"/>eril idem, quia habet eamdem 
+simpli<lb break="no" ed="#V" n="5"/>citer essentiam secundum omnem
+<lb ed="#V" n="6"/>perfectionem ; ergo wqualitas Patris
+<lb ed="#V" n="7"/>et Filii non videtur differre ab 
+identi<lb break="no" ed="#V" n="8"/>tate. Nam ex quo dicuntur perfecte
+<lb ed="#V" n="9"/>idem essentialiter, quia est eadem
+<lb ed="#V" n="10"/>essentia perfectissime in utroque, et
+<lb ed="#V" n="11"/>non potest esse perfectissime in 
+utro<lb break="no" ed="#V" n="12"/>que, nisi sitibi cum omni perfectione,
+<lb ed="#V" n="13"/>quia est impossibile quod detur 
+essen<lb break="no" ed="#V" n="14"/>lia actu existens sine gradu intrinseco,
+<lb ed="#V" n="15"/>ut patet supra d. 8. ergo secundum
+<lb ed="#V" n="16"/>eamdem essentiam sic perfectam 
+di<lb break="no" ed="#V" n="17"/>cuntur aquales. Et sic. aequalitas et
+<lb ed="#V" n="18"/>identitas sunt idem in Deo, hoc idem
+<lb ed="#V" n="19"/>dico de similitudine.
+</p>
+            <p xml:id="mm30o9-d1e1197-d1e427">
+               <lb ed="#V" n="20"/>(h) Ad primum potest concedi. Hic 
+no<lb break="no" ed="#V" n="21"/>ta singularem responsionem, qua stat
+<lb ed="#V" n="22"/>in hoc: Ex quo enim qualitas dicit
+<lb ed="#V" n="23"/>proprium modum fundamenti 
+similitu<lb break="no" ed="#V" n="24"/>dinis et identitatis, et. etiam proprium
+<lb ed="#V" n="25"/>modum utriusque relationis, sequitur
+<lb ed="#V" n="26"/>quod sit alia a qualibet illarum. Et
+<lb ed="#V" n="27"/>quod dicat proprium modum 
+funda<lb break="no" ed="#V" n="28"/>menti, patet, nam si essentia esset in
+<lb ed="#V" n="29"/>Patre ut infinita, haec eadem esset in
+<lb ed="#V" n="30"/>Filio ut centum gradus, Pater esset
+<lb ed="#V" n="31"/>idem Filio secundum essentiam, et
+<lb ed="#V" n="32"/>tamen non esset aequalis secundum
+<lb ed="#V" n="33"/>essentiam, quia perfectior esset in
+<lb ed="#V" n="34"/>Patre, verumtamen non esset ibi 
+per<lb break="no" ed="#V" n="35"/>feelissima identitas. Si ergo esset 
+es<lb break="no" ed="#V" n="36"/>sentia formaliter infinita in Patre et
+<lb ed="#V" n="37"/>in Filio,  tunc Pater secundum 
+essen<lb break="no" ed="#V" n="38"/>liam esset perfectissime idem Filio,
+<lb ed="#V" n="39"/>quia esset sibi aequalis secundum 
+om<lb break="no" ed="#V" n="40"/>nem perfectionem essentiae ; et sic
+<lb ed="#V" n="41"/>equalitas dicit proprium modum 
+fun<lb break="no" ed="#V" n="42"/>damenli perfectissima — identilalis.
+<lb ed="#V" n="43"/>Nam illud est perfectissime idem alicui
+<lb ed="#V" n="44"/>secundum aliquam perfectionem ,quod
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>est sibi aequale secundum eamdem
+<lb ed="#V" n="46"/>perfectionem. Hoc idem dico de 
+simi<lb break="no" ed="#V" n="47"/>litudine, nam si Pater haberet 
+sapien<lb break="no" ed="#V" n="48"/>tiam formaliter infinitam, et Filius
+<lb ed="#V" n="49"/>eamdem, sed finitam, Pater secundum
+<lb ed="#V" n="50"/>sapientiam esset similis Filio, non 
+ta<lb break="no" ed="#V" n="51"/>men «qualis secundum sapientiam,
+<lb ed="#V" n="52"/>quia perfectior in Patre. Si ergo Pater
+<lb ed="#V" n="53"/>et Filius haberent eamdem sapientiam
+<lb ed="#V" n="54"/>secundum omnem perfectionem, tune
+<lb ed="#V" n="55"/>Pater esset similis perfectissime Fiiio
+<lb ed="#V" n="56"/>secundum sapientiam, quia esset
+<lb ed="#V" n="57"/>wqualis sibi secundum sapientiam.
+<lb ed="#V" n="58"/>Et sic aequalis dicit proprium modum
+<lb ed="#V" n="59"/>fundamenti similitudinis 
+perfectissi<lb break="no" ed="#V" n="60"/>ma. se
+</p>
+            <p xml:id="mm30o9-d1e1197-d1e521">
+               <lb ed="#V" n="61"/>(h) Ad secundum potest concedi. 
+Do<lb break="no" ed="#V" n="62"/>clor dicit hic duo. Primum, quod in
+<lb ed="#V" n="63"/>Palre possunt esse tot aequalitates 
+for<lb break="no" ed="#V" n="64"/>maliter distinctae quot magnitudines
+<lb ed="#V" n="65"/>sunt, ibi formaliter distincte. Et quia
+<lb ed="#V" n="66"/>quodlibet attributum distinguitur 
+for<lb break="no" ed="#V" n="67"/>maliter ei a se invicem, et quodlibet
+<lb ed="#V" n="68"/>est formaliter infinitum, ut patet supra
+<lb ed="#V" n="69"/>dist. 8. quast. penult. ergo quodlibet
+<lb ed="#V" n="70"/>habet propriam infinitatem, et sic 
+pro<lb break="no" ed="#V" n="71"/>priam magnitudinem perfectionalem,
+<lb ed="#V" n="72"/>et per consequens secundum omnes
+<lb ed="#V" n="73"/>istas magnitudines potest esse aequa'is
+<lb ed="#V" n="74"/>Filio, et e contra. Secundum, quia
+<lb ed="#V" n="75"/>essentia et omnia attributa et. 
+magni<lb break="no" ed="#V" n="76"/>tudo omnium istorum sunt 
+simplici<lb break="no" ed="#V" n="77"/>ter una res realiter, ideo in Patre 
+se<lb break="no" ed="#V" n="78"/>cundum omnia ista erit una aequalitas
+<lb ed="#V" n="79"/>ad Filium realiter, licet sint plures
+<lb ed="#V" n="80"/>distinct: formaliter, et hoc est quod
+<lb ed="#V" n="81"/>dicit.
+</p>
+            <p xml:id="mm30o9-d1e1197-d1e569">
+               <lb ed="#V" n="82"/>(j) Ad primum argumentum — dico.
+<lb ed="#V" n="83"/>Hac responsio clara est. Nam Pater
+<lb ed="#V" n="84"/>secundum essentiam inünitam est
+<lb ed="#V" n="85"/>equalis Filio fundamentaliter, et 
+se<lb break="no" ed="#V" n="86"/>eundum qualitatem est :equalis Fi:
+<lb ed="#V" n="87"/>lio formaliter. Et similiter secundum
+<lb ed="#V" n="88"/>sapientiam est similis Filio fundamen-
+<pb ed="#V" n="499"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>taliter, quia est fundamentum 
+simili<lb break="no" ed="#V" n="2"/>tudinis, et secundum similitudinem
+<lb ed="#V" n="3"/>est similis formaliter.
+</p>
+            <p xml:id="mm30o9-d1e1197-d1e598">
+               <lb ed="#V" n="4"/>(k) Et objicias, tunc posset dici 
+Pa<lb break="no" ed="#V" n="5"/>ter secundum essentiam. Quod tamen
+<lb ed="#V" n="6"/>negatum est supra dist. 5. quaest 1.
+<lb ed="#V" n="7"/>in responsione illius argumenti : Pater
+<lb ed="#V" n="8"/>et Filius est essentia. Ultra 
+responsio<lb break="no" ed="#V" n="9"/>nem hic datam a Doctore, posset dici
+<lb ed="#V" n="10"/>quod aliud est dicere Patrem 
+secun<lb break="no" ed="#V" n="11"/>dum essentiam, et Patrem esse idem
+<lb ed="#V" n="12"/>secundum essentiam vel aequalem,
+<lb ed="#V" n="13"/>quia licet paternitas fundetur in 
+es<lb break="no" ed="#V" n="14"/>sentia, non tamen habet vim 
+quo<lb break="no" ed="#V" n="15"/>dammodo denominandi illam, vel
+<lb ed="#V" n="16"/>quod quasi formaliter sit in illa. Est
+<lb ed="#V" n="17"/>enim sicut subsistens in natura in
+<lb ed="#V" n="18"/>qua subsistit, ut patet supra dist. 5. q.
+<lb ed="#V" n="19"/>2. et 26. Identitas sive aequalitas non
+<lb ed="#V" n="20"/>suntin essentia sicut subsistens, sed
+<lb ed="#V" n="21"/>magis formaliter denominative, licet
+<lb ed="#V" n="22"/>non per informationem, ut patet 
+su<lb break="no" ed="#V" n="23"/>pra d?sf. 5. quast. 2. et. dist. 26. 
+Res<lb break="no" ed="#V" n="24"/>ponsio tamen Doctoris clara est, quia
+<lb ed="#V" n="25"/>essentia ut est fundamentum 
+similitu<lb break="no" ed="#V" n="26"/>dinis, etc. accipitur sub illa ratione,
+<lb ed="#V" n="27"/>qua est perfectissima una in tribus, ut
+<lb ed="#V" n="28"/>patet supra dist. 19. quast. 1. et sic
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="29"/>potest dici, quod Pater secundum 
+es<lb break="no" ed="#V" n="30"/>sentiam est similis Filio. Cum vero
+<lb ed="#V" n="31"/>dicitur Pater secundum essentiam,
+<lb ed="#V" n="32"/>de virtute sermonis non habetur quod
+<lb ed="#V" n="33"/>essentia ut una sub ratione 
+perfectis<lb break="no" ed="#V" n="34"/>sima unitatis sit in tribus, imo magis
+<lb ed="#V" n="35"/>ex haec quod dico, Pater qui producit
+<lb ed="#V" n="36"/>distinctum realitera se, ex virtute 
+ser<lb break="no" ed="#V" n="37"/>monis videtur quodammodo distincta,
+<lb ed="#V" n="38"/>ut patet. Nam ut in Patre est, 
+simpli<lb break="no" ed="#V" n="39"/>citer consideratur ut est principium
+<lb ed="#V" n="40"/>formale productivum, et ut in Filio ut
+<lb ed="#V" n="41"/>terminus formalis generationis, licet
+<lb ed="#V" n="42"/>tamen in re sit simpliciter indivisa
+<lb ed="#V" n="43"/>in tribus. Si ergo diceretur Pater 
+se<lb break="no" ed="#V" n="44"/>cundum essentiam, et similiter Filius
+<lb ed="#V" n="45"/>secundum essentiam, ita quod . Pater
+<lb ed="#V" n="46"/>dieatur Pater Filii secundum 
+essen<lb break="no" ed="#V" n="47"/>tiam, et Filius dicatur filius Patris 
+se<lb break="no" ed="#V" n="48"/>cundum essentiam, sequeretur quod
+<lb ed="#V" n="49"/>de virtute sermonis essentia sub 
+ra<lb break="no" ed="#V" n="50"/>tione perfectissima unitatis esset. 
+fun<lb break="no" ed="#V" n="51"/>damentum harum relationum.
+</p>
+            <p xml:id="mm30o9-d1e1197-d1e708">
+               <lb ed="#V" n="52"/>(l) Ad quartum. Ex hae responsione
+<lb ed="#V" n="53"/>videtur declinare Doctor ad hanc 
+opi<lb break="no" ed="#V" n="54"/>nionem, quod persone sint constitute
+<lb ed="#V" n="55"/>per absoluta, quia dicit Aristoteles
+<lb ed="#V" n="56"/>difficile est, etc.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

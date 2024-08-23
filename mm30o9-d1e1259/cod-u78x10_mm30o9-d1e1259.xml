@@ -1,0 +1,1491 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaesito 1</title>
+            <author ref="#per-FLBca3">Franciscus Lychetus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaesito 1</title>
+               <date when="2024-08-23">August 23, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 10</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-08-23" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="537"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="mm30o9-d1e1259"><!-- lycht-d35q1-p1 -->
+            <head xml:id="mm30o9-d1e1259-Hd1e101">Quaesito 1</head>
+            <p xml:id="mm30o9-d1e1259-d1e103">
+               <lb ed="#V" n="81" type="fixed=537"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e108">
+               <lb ed="#V" n="82"/>(a) CIrca istam. quaestionem. 
+Notan<lb break="no" ed="#V" n="83"/>dum est, quod ad intellectionem  
+ali<lb break="no" ed="#V" n="84"/>eujus tria requiruntur. Primo, 
+obje<lb break="no" ed="#V" n="85"/>ctum cognoscibile, quod maxime 
+re<lb break="no" ed="#V" n="86"/>quiritur in ratione termini, et quod
+<pb ed="#V" n="538"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>active concurrat ad intellectionem,
+<lb ed="#V" n="2"/>hocc non est principaliter ex ratione
+<lb ed="#V" n="3"/>objecti, sed quasi accidit sibi. Secundo,
+<lb ed="#V" n="4"/>requiritur intellectus, ut recipiens 
+ta<lb break="no" ed="#V" n="5"/>lem intellectionem, qua formaliter 
+in<lb break="no" ed="#V" n="6"/>telligit, ut patet supra d. 3. Qg. 7. Et
+<lb ed="#V" n="7"/>quod intellectus ut intelligens, 
+concur<lb break="no" ed="#V" n="8"/>ral active ad intellectionem, hoc non
+<lb ed="#V" n="9"/>est ex ratione intellectus, patet, quia
+<lb ed="#V" n="10"/>si Deus infunderet intellectionem la 
+pi<lb break="no" ed="#V" n="11"/>dis in intellectu, intellectus  tunc 
+dice<lb break="no" ed="#V" n="12"/>retur intelligere, et tamen non 
+concur<lb break="no" ed="#V" n="13"/>rel active. Tertio, requiritur ratio 
+co<lb break="no" ed="#V" n="14"/>gnoscendi,et haec ratio du pliciter 
+intel<lb break="no" ed="#V" n="15"/>ligi potest. Aut quod sit simpliciterratio
+<lb ed="#V" n="16"/>repraesentandi objectum in ratione 
+in<lb break="no" ed="#V" n="17"/>telligibilis, sicut. species intelligibilis
+<lb ed="#V" n="18"/>in cognitione abstractiva, ut patet 
+su<lb break="no" ed="#V" n="19"/>pra dist. 3. q. 6. et penultim. Aut quod
+<lb ed="#V" n="20"/>sit $1atio  repressentandi in cognitione
+<lb ed="#V" n="21"/>intuitiva, et sic quidditas actu existens
+<lb ed="#V" n="22"/>potest esse ratio repraesentandi se in
+<lb ed="#V" n="23"/>ratione intelligibilis intuitive, quod
+<lb ed="#V" n="24"/>tunc dicitur perfecte praesens, quando
+<lb ed="#V" n="25"/>est in potentia perfecta ad causandum
+<lb ed="#V" n="26"/>partialiter cognitionem intuitivam, et
+<lb ed="#V" n="27"/>hoc dupliciter : quia aut est ratio 
+re<lb break="no" ed="#V" n="28"/>praesentandi se sub ratione propric
+<lb ed="#V" n="29"/>essenti et sub propria 
+praesentiali<lb break="no" ed="#V" n="30"/>tate; aut sit. ratio repraesentandi non
+<lb ed="#V" n="31"/>tantum se, sed etiam aliud eminenter
+<lb ed="#V" n="32"/>contentum in illo. Primo modo 
+qua<lb break="no" ed="#V" n="33"/>libet creatura actu existens in propria
+<lb ed="#V" n="34"/>existentia, (et maxime loquendo de
+<lb ed="#V" n="35"/>creatura absoluta) poterit esse ratio
+<lb ed="#V" n="36"/>repraesentandi se cuilibet intellectui
+<lb ed="#V" n="37"/>creato. Secundo modo, essentia divina
+<lb ed="#V" n="38"/>est ratio repressentandise perfectissime
+<lb ed="#V" n="39"/>et quodlibet aliud distinctum ab ipsa,
+<lb ed="#V" n="40"/>ut patet a Doctore supra qg. penult. 
+pro<lb break="no" ed="#V" n="41"/>log. dist. 2. et 8. et infra 39. et alibi,
+<lb ed="#V" n="42"/>nam aliud ab essentia divina ex sua
+<lb ed="#V" n="43"/>ratione non fit praesens intellectui
+<lb ed="#V" n="44"/>divino, ut patet a Doctore.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e221">
+               <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>Secundo principaliter, ratio 
+intelli<lb break="no" ed="#V" n="46"/>gendi potest intelligi requiri, aut ut
+<lb ed="#V" n="47"/>$1atio  movendi, id est, producendi 
+par<lb break="no" ed="#V" n="48"/>Hialiter ipsam intellectionem, et hoc
+<lb ed="#V" n="49"/>modo in cognitione abstractiva 
+spe<lb break="no" ed="#V" n="50"/>cies intelligibilis dicitur ratio 
+cognos<lb break="no" ed="#V" n="51"/>cendi objectum, quia ipsa est causa
+<lb ed="#V" n="52"/>parlialis intellectionis abstractivae, ut
+<lb ed="#V" n="53"/>patet supra dist. 3. g. 6. et penultam. et
+<lb ed="#V" n="54"/>d. 18. et hoc, loquendo de cognitione
+<lb ed="#V" n="55"/>naturaliter acquisita, quia Deus posset
+<lb ed="#V" n="56"/>infundere cognitionem abstractivam
+<lb ed="#V" n="57"/>alicujus objecti, ut patet a Doctore in
+<lb ed="#V" n="58"/>secundo d. 3. Aut in cognitione 
+intui<lb break="no" ed="#V" n="59"/>tiva requiritur $1atio  cognoscendi in
+<lb ed="#V" n="60"/>ratione motivi, et sic quaelibet creatura
+<lb ed="#V" n="61"/>habens propriam existentiam 
+distin<lb break="no" ed="#V" n="62"/>ctam ab alia (maxime si est absoluta)
+<lb ed="#V" n="63"/>potest esse ratio cognoscendi in ratione
+<lb ed="#V" n="64"/>molivi, id est, quod partialiter potest
+<lb ed="#V" n="65"/>concurrere ad productionem 
+intelle<lb break="no" ed="#V" n="66"/>ctionis sui. Et hoc modo nulla 
+erea<lb break="no" ed="#V" n="67"/>tura potest esse ratio cognoscendi se
+<lb ed="#V" n="68"/>respectu intellectus divini, ut patet a
+<lb ed="#V" n="69"/>Doctore supra g. penult. prolog. d. 1.
+<lb ed="#V" n="70"/>et 2. et hic infra, et 39. et alibi. Potest
+<lb ed="#V" n="71"/>etiam aliquid esse ratio cognoscendi
+<lb ed="#V" n="72"/>aliquid in ratione motivi, non tantum
+<lb ed="#V" n="73"/>se, sed et quodlibet eminenter 
+con<lb break="no" ed="#V" n="74"/>tentum in illo, et quodlibet 
+identifica<lb break="no" ed="#V" n="75"/>tum realiter illi, et sic essentia divina
+<lb ed="#V" n="76"/>est ratio cognoscendi se in ratione
+<lb ed="#V" n="77"/>quasi motivi, et proprietates 
+hypos<lb break="no" ed="#V" n="78"/>taticas et relationes communes in
+<lb ed="#V" n="79"/>ipsa, ut. aequalitas, similitudo, 
+iden<lb break="no" ed="#V" n="80"/>litas, et omnem aliam creaturam,
+<lb ed="#V" n="81"/>ut patet a Doctore sparsim in 
+diver<lb break="no" ed="#V" n="82"/>sis locis, maxime in prolog. q. 1. et
+<lb ed="#V" n="83"/>penultim. d. 3.| et 35. 99: 24 Um
+<lb ed="#V" n="84"/>quodlib. et alibi. Ex hoc ultimo modo
+<lb ed="#V" n="85"/>probat Doctor quod essentia divina
+<lb ed="#V" n="86"/>est ratio cognoscendi respectu 
+intel<lb break="no" ed="#V" n="87"/>lectus divini omne aliud ab ipsa, non
+<lb ed="#V" n="88"/>tantum in ratione motivi vel quasi
+<pb ed="#V" n="539"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>motivi, sed etiam in ratione 
+repraesen<lb break="no" ed="#V" n="2"/>tativi, nam ipsa sola sufficit ad 
+haben<lb break="no" ed="#V" n="3"/>dam cognitionem cujuscumque.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e332">
+               <lb ed="#V" n="4"/>Si dicatur, nonne intellectus divinus
+<lb ed="#V" n="5"/>eoneurrit ad hujusmodi cognitionem
+<lb ed="#V" n="6"/>respectu aliorum ?
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e342">
+               <lb ed="#V" n="7"/>Dico quod sic, tamen objectum 
+dici<lb break="no" ed="#V" n="8"/>tur concurrere respectu cognitionis
+<lb ed="#V" n="9"/>sui et omnium contentorum in illo,
+<lb ed="#V" n="10"/>quia talis cognitio principaliter 
+speci<lb break="no" ed="#V" n="11"/>ficatur ab objecto, ideo magis 
+appro<lb break="no" ed="#V" n="12"/>priate dicitur essentiam esse rationem
+<lb ed="#V" n="13"/>cognoscendi se, et omnia alia a se, et
+<lb ed="#V" n="14"/>sic patet titulus hujus quaestionis, 
+quo<lb break="no" ed="#V" n="15"/>modo debent intelligi.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e364">
+               <lb ed="#V" n="16"/>(b) Ponuntur igitur relationes esse
+<lb ed="#V" n="17"/>eternas in. Deo.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e371">
+               <lb ed="#V" n="18"/>Dicit Thomas, quod essentia divina
+<lb ed="#V" n="19"/>non est $1atio  cognoscendi omnia alia
+<lb ed="#V" n="20"/>ab ipsa. Sed tot relationes rationis 
+re<lb break="no" ed="#V" n="21"/>quiruntur in ipsa. quot sunt objecta
+<lb ed="#V" n="22"/>cognoscibilia inter se distincta alia ab
+<lb ed="#V" n="23"/>ipsa, ita quod essentia sub relatione
+<lb ed="#V" n="24"/>rationis repraesentativa lapidis, est
+<lb ed="#V" n="25"/>ratio  cognoscendi ipsum lapidem. Et
+<lb ed="#V" n="26"/>similiter sub alia relatione rationis
+<lb ed="#V" n="27"/>repraesentativa hominis, est ratio 
+co<lb break="no" ed="#V" n="28"/>gnoscendi hominem, et sic de aliis.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e397">
+               <lb ed="#V" n="29"/>(c) Aliter ponitur, etc. Henricus vult
+<lb ed="#V" n="30"/>quod essentia nude sumpta non sit
+<lb ed="#V" n="31"/>ratio cognoscendi alia objecta a se, sed
+<lb ed="#V" n="32"/>essentia sub ista relatione rationis,
+<lb ed="#V" n="33"/>qua eomparatur ad creaturam in 
+ra<lb break="no" ed="#V" n="34"/>tione imitabilis, et sic illa relatio erit
+<lb ed="#V" n="35"/>ratio cognoscendi omnem creaturam.
+<lb ed="#V" n="36"/>Et haec opinio differt a prima in hoc,
+<lb ed="#V" n="37"/>quod hee vult quod ipsa essentia 
+di<lb break="no" ed="#V" n="38"/>vina, ut cognita sub ista relatione 
+ra<lb break="no" ed="#V" n="39"/>lionis sit simpliciter ratio cognoscendi
+<lb ed="#V" n="40"/>alia. Alia dicit, quod ipsa essentia sub
+<lb ed="#V" n="41"/>distinctis relationibus rationis est ratio
+<lb ed="#V" n="42"/>cognoscendi alia, ita quod quodlibet
+<lb ed="#V" n="43"/>objectum cognoscibile requirit in 
+essen<lb break="no" ed="#V" n="44"/>tia divina propriam relationem ratio-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>nis, qua sit propria ratio cognoscendi
+<lb ed="#V" n="46"/>illud. Et sic patent istae duae opiniones.
+</p>
+            <!--</div>
+<div alias="lycht-d35q1-p2">-->
+            <p xml:id="mm30o9-d1e1259-d1e443">
+               <lb ed="#V" n="27" type="fixed=541"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e449">
+               <lb ed="#V" n="28"/>(d) Contra conclusionem in qua 
+con<lb break="no" ed="#V" n="29"/>cordant istae opiniones. Concordant
+<lb ed="#V" n="30"/>enim in hoc, quod essentia divina non
+<lb ed="#V" n="31"/>est $1atio  cognoscendi distincta 
+obje<lb break="no" ed="#V" n="32"/>cta, sed est ratio cognoscendi 
+inquan<lb break="no" ed="#V" n="33"/>tum habet relationem rationis ad ipsa.
+<lb ed="#V" n="34"/>Contra hoc arguit Doctor, cujus ratio
+<lb ed="#V" n="35"/>stat in haec: Quia eum ille rationes
+<lb ed="#V" n="36"/>eognoseendi sint distincta objecta
+<lb ed="#V" n="37"/>inter se, sunt ita cognoscibiles ab 
+in<lb break="no" ed="#V" n="38"/>tellectu divino, sicut objecta distincta
+<lb ed="#V" n="39"/>repraesentata per illas; ergo si 
+essen<lb break="no" ed="#V" n="40"/>lia divina non potest esse ratio 
+cognos<lb break="no" ed="#V" n="41"/>cendi distincta objecta, nisi sub alia
+<lb ed="#V" n="42"/>et alia ratione, si est ratio cognoscen-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>di per illas rationes distincta objecta,
+<lb ed="#V" n="44"/>sequitur quod erit ratio cognoscendi
+<lb ed="#V" n="45"/>sub alia et alia ratione repraesentante
+<lb ed="#V" n="46"/>illas alias rationes, et sicin infinitum ;
+<lb ed="#V" n="47"/>ergo si essentia ut nude accepta, est
+<lb ed="#V" n="48"/>$1atio  cognoscendi illas distinctas 
+ra<lb break="no" ed="#V" n="49"/>tiones, cum sint distincta objeeta 
+co<lb break="no" ed="#V" n="50"/>gnoscibilia, erit etiam ratio  
+cognos<lb break="no" ed="#V" n="51"/>cendi, ut nude accepta objecta 
+repra<lb break="no" ed="#V" n="52"/>sentata per illas rationes, etc. Et eum
+<lb ed="#V" n="53"/>dicit quod essent/a s?f $1atio  cognoscendi,
+<lb ed="#V" n="54"/>vel ut objectum cognitum, vel ut $1atio ,
+<lb ed="#V" n="55"/>sie intelligitur quod eognitio essentice
+<lb ed="#V" n="56"/>est ratio cognoscendi alia objecta, et
+<lb ed="#V" n="57"/>hocc est. quod dicit, vel objectum 
+co<lb break="no" ed="#V" n="58"/>genitum, vel ipsa sit ratio cognoscendi
+<lb ed="#V" n="59"/>in repraesentando, vel in movendo, ut
+<lb ed="#V" n="60"/>dixi supra. Et similiter secundum illos,
+<lb ed="#V" n="61"/>qui ponunt rationem communis, etc.
+<lb ed="#V" n="62"/>vel illa ratio communis est ratio 
+co<lb break="no" ed="#V" n="63"/>gnoscendi, ut objectum, id est, quod
+<lb ed="#V" n="64"/>cognitio illius rationis sit ratio 
+cognos<lb break="no" ed="#V" n="65"/>cendi objectum repraesentatum, vel
+<lb ed="#V" n="66"/>quod ipsa sit ratio repraesentandi vel
+<lb ed="#V" n="67"/>movendi. Et sic patet ista ratio.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e540">
+               <lb ed="#V" n="68"/>(e) Praeterea secundo, cujuscumque
+<lb ed="#V" n="69"/>objecti ratio. Tota ista ratio stat in hoc:
+<lb ed="#V" n="70"/>si enim aliquod objectum, puta A, sit
+<lb ed="#V" n="71"/>ratio cognoscendi se perfecte, id est,
+<lb ed="#V" n="72"/>quod ipsum A sub ratione sua absoluta,
+<lb ed="#V" n="73"/>et ut nude acceptum, est ratio limitata,
+<lb ed="#V" n="74"/>puta eognoscendi se tantum. Sed si
+<lb ed="#V" n="75"/>aliquod objectum sit ratio illimitata
+<lb ed="#V" n="76"/>cognoscendi se et alia, sequitur quod
+<lb ed="#V" n="77"/>sicut nude acceptum est ratio 
+cognos<lb break="no" ed="#V" n="78"/>cendi se, ita ut nude acceptum, est
+<lb ed="#V" n="79"/>ratio cognoscendi alia, nam illa alia
+<lb ed="#V" n="80"/>secundum suam entitatem absolutam
+<lb ed="#V" n="81"/>eminenter continel. Et patet quod sub
+<lb ed="#V" n="82"/>ratione absoluta est ratio cognoscendi
+<lb ed="#V" n="83"/>alia, quia illimitatio objecti non aufert
+<lb ed="#V" n="84"/>ab aliquo aliquam perfectionem, imo
+<lb ed="#V" n="85"/>magis addit, ut patet; nam si ignis
+<lb ed="#V" n="86"/>sub ratione absoluta ignis est ratio
+<pb ed="#V" n="542"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>limitata producendi ignem in alia 
+ma<lb break="no" ed="#V" n="2"/>teria, Sol qui est illimitatus ad 
+produ<lb break="no" ed="#V" n="3"/>cendum plura specie distincta, etiam
+<lb ed="#V" n="4"/>sub ratione sua absoluta et essentiali
+<lb ed="#V" n="5"/>erit ratio producendi illa absoluta.
+<lb ed="#V" n="6"/>Cum enim essentia divina sit 
+simpli<lb break="no" ed="#V" n="7"/>citer ratio illimilata respectu omnium
+<lb ed="#V" n="8"/>cognoscibilium, et respectu 
+cognitio<lb break="no" ed="#V" n="9"/>nissus est ratio ut nude accepta ; ergo
+<lb ed="#V" n="10"/>ut nude accepta erit ratio cognoscendi
+<lb ed="#V" n="11"/>omnia alia, etc.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e612">
+               <lb ed="#V" n="12"/>Et tangit Doctor hic unum de 
+deter<lb break="no" ed="#V" n="13"/>minato ad plura positiva, et de 
+inde<lb break="no" ed="#V" n="14"/>terminato ad plura contradictoria ;
+<lb ed="#V" n="15"/>hoc vide supra d. 28. q. ult. Hicin
+<lb ed="#V" n="16"/>proposito essentia divina sub ratione
+<lb ed="#V" n="17"/>sua absoluta est indeterminata ad
+<lb ed="#V" n="18"/>omnia objecta cognoscibilia tanquam
+<lb ed="#V" n="19"/>ad plura positiva, quia ipsa est ratio
+<lb ed="#V" n="20"/>cognoscendi omnia. Non est autem
+<lb ed="#V" n="21"/>indeterminata contradictorie, ita quod
+<lb ed="#V" n="22"/>sit indeterminata ratio cognoscendi
+<lb ed="#V" n="23"/>A, vel non cognoscendi A, imo est
+<lb ed="#V" n="24"/>determinata $1atio  sic simpliciter 
+co<lb break="no" ed="#V" n="25"/>gnoscendi A4, quod contradictorium
+<lb ed="#V" n="26"/>hujus simpliciter repugnat sibi, 
+scili<lb break="no" ed="#V" n="27"/>eet esse rationem non cognoscendi 4.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e649">
+               <lb ed="#V" n="28"/>(f) Praeterea tertio. Hic nota aliqua.
+<lb ed="#V" n="29"/>Primum, quod una operatio maxime
+<lb ed="#V" n="30"/>intellectiva et perfecta debet habere
+<lb ed="#V" n="31"/>unum principium per se, quod sit
+<lb ed="#V" n="32"/>ratio formalis principiandi illam 
+ope<lb break="no" ed="#V" n="33"/>rationem, et unum per se objectum
+<lb ed="#V" n="34"/>ad quod Lerminetur illa operatio per
+<lb ed="#V" n="35"/>se, ut patet. Secundum, essentia 
+di<lb break="no" ed="#V" n="36"/>vina et relatio rationis sunt. unum
+<lb ed="#V" n="37"/>per accidens, ut patet hie, et supra d.
+<lb ed="#V" n="38"/>8. q. penult. Cum ergo intellectio, puta
+<lb ed="#V" n="39"/>lapidis in intellectu divino sit una per
+<lb ed="#V" n="40"/>se operatio, et lapis sit unum objectum
+<lb ed="#V" n="41"/>per se respectu hujus operationis,
+<lb ed="#V" n="42"/>oportet assignare aliquod principium
+<lb ed="#V" n="43"/>quo per se unum ; illud non potest esse
+<lb ed="#V" n="44"/>constitutum ex essentia divina et illa
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>relatione, cum sit unum per accidens,
+<lb ed="#V" n="46"/>ergo vel ista relatio erit principium
+<lb ed="#V" n="47"/>per se, aut essentia sola. Non primum,
+<lb ed="#V" n="48"/>patet, quia relatio rationis non potest
+<lb ed="#V" n="49"/>esse ratio cognoscendi lapidem, nec ut
+<lb ed="#V" n="50"/>objectum cognitum, nec ut $1atio  
+co<lb break="no" ed="#V" n="51"/>gnoscendi, quia cognitio lapidis in
+<lb ed="#V" n="52"/>Deo est perfectio simpliciter. Nec 
+po<lb break="no" ed="#V" n="53"/>test dici quod sit ratio recipiendi 
+co<lb break="no" ed="#V" n="54"/>gnitionem lapidis in intellect» divino,
+<lb ed="#V" n="55"/>sicut dicimus, quod rationale est ratio
+<lb ed="#V" n="56"/>recipiendirisibile inhomine. Nam si sic
+<lb ed="#V" n="57"/>esset ratio,  tunc ens rationis esset ratio
+<lb ed="#V" n="58"/>recipiendi perfectionem simpliciter, et
+<lb ed="#V" n="59"/>sie ens rationis praeexigeretur de 
+ne<lb break="no" ed="#V" n="60"/>cessitate ad entitatem perfectionis
+<lb ed="#V" n="61"/>simpliciter, quod est falsum, et supra
+<lb ed="#V" n="62"/>improbatum dise. 8. q. penultim. 
+Re<lb break="no" ed="#V" n="63"/>linquitur ergo quod ipsa essentia 
+di<lb break="no" ed="#V" n="64"/>vina, vel ut proprium objectum 
+cogni<lb break="no" ed="#V" n="65"/>tum, vel ut ratio cognoscendi, sit ratio
+<lb ed="#V" n="66"/>cognoscendi lapidem et omnia alia.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e738">
+               <lb ed="#V" n="67"/>Sed oritur difficultas, primo, quia
+<lb ed="#V" n="68"/>dicit quod essentia cum tali relatione
+<lb ed="#V" n="69"/>non potest esse principium, etc. Nam
+<lb ed="#V" n="70"/>supra d. 3. g. penultim. d. 17. 
+intelle<lb break="no" ed="#V" n="71"/>cius et species intelligibilis faeiunt
+<lb ed="#V" n="72"/>unum per accidens, et tamen sunt
+<lb ed="#V" n="73"/>unum principium quo cognoscendi;
+<lb ed="#V" n="74"/>ergo similiter erit hic.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e758">
+               <lb ed="#V" n="75"/>Dico quod supra dixit Doctor, quod
+<lb ed="#V" n="76"/>accidit intellectui quod informetur tali
+<lb ed="#V" n="77"/>specie, imo intellectus ut intellectus,
+<lb ed="#V" n="78"/>est causa partialis, et similiter species
+<lb ed="#V" n="79"/>intelligibilis ut hujusmodi. Hic autem
+<lb ed="#V" n="80"/>non est sic, quia isti ponunt illam 
+re<lb break="no" ed="#V" n="81"/>lationem rationis esse totalem rationem
+<lb ed="#V" n="82"/>cognoscendi, vel ipsam essentiam sub
+<lb ed="#V" n="83"/>tali relatione, quod est falsum.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e781">
+               <lb ed="#V" n="84"/>Si dicatur quod sicut species 
+intelli<lb break="no" ed="#V" n="85"/>gibilis concurrit partialiter, ita et haec
+<lb ed="#V" n="86"/>relatio.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e790">
+               <lb ed="#V" n="87"/>Dico quod non sequitur, quia ibi
+<lb ed="#V" n="88"/>species intelligibilis est unum ens
+<pb ed="#V" n="543"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>reale habens propriam existentiam, ut
+<lb ed="#V" n="2"/>supra patuit d. 3. g. 6. 7. et 8. d. 47.
+<lb ed="#V" n="3"/>et in 2. d. 3. Hic autem relatio est ens
+<lb ed="#V" n="4"/>$1atio nis, cognitio autem lapidis est ens
+<lb ed="#V" n="5"/>absolutum et perfectio simpliciter.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e812">
+               <lb ed="#V" n="6"/>Secundo dubitatur ibi, quando dicit
+<lb ed="#V" n="7"/>quod cognitio lapidis est perfectio 
+sim<lb break="no" ed="#V" n="8"/>pliciter. atu intelligit, quod ipsa 
+co<lb break="no" ed="#V" n="9"/>gnitio absolute sumpta, est perfectio
+<lb ed="#V" n="10"/>simpliciter, aut ut est lapidis, tanquam
+<lb ed="#V" n="11"/>lermini cogniti. Primo modo verum
+<lb ed="#V" n="12"/>dicit, sed nihil ad rem. Secundo modo
+<lb ed="#V" n="13"/>talis respectus non est perfectio 
+sim<lb break="no" ed="#V" n="14"/>plieiter, ut patet a Doctore q. 1.
+<lb ed="#V" n="15"/>quodlib.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e836">
+               <lb ed="#V" n="16"/>Dico quod ipsa intellectio potest 
+tri<lb break="no" ed="#V" n="17"/>pliciter intelligi perfectio simpliciter.
+<lb ed="#V" n="18"/>Primo inse et absolute sumpta. Secundo,
+<lb ed="#V" n="19"/>ut est ratio proxima producendi omnia
+<lb ed="#V" n="20"/>entia-in esse cognito, ut palet supra d.
+<lb ed="#V" n="21"/>34. q. 4. d. 36. Tertio modo, ut 
+termi<lb break="no" ed="#V" n="22"/>natur ad esse cognitum. Primo et 
+se<lb break="no" ed="#V" n="23"/>cundo modis, est simpliciter perfectio
+<lb ed="#V" n="24"/>simpliciter. Tertio modo, licet in se
+<lb ed="#V" n="25"/>formaliter, ut dicit talem respectum
+<lb ed="#V" n="26"/>non sit perfectio simpliciter, est tamen
+<lb ed="#V" n="27"/>talis perfectio, quod de necessitate
+<lb ed="#V" n="28"/>preexigit perfectionem simpliciter ;
+<lb ed="#V" n="29"/>aliquam enim intellectionem 
+termi<lb break="no" ed="#V" n="30"/>nari ad omnia objecta perfectissime
+<lb ed="#V" n="31"/>preexigit ipsam esse formaliter 
+infini<lb break="no" ed="#V" n="32"/>tam, ut ex intentione Doctoris patere
+<lb ed="#V" n="33"/>potest, supra dist. 2. et in quodl. quast.
+<lb ed="#V" n="34"/>1. Potest etiam dici, quod intellectio
+<lb ed="#V" n="35"/>lapidis in Deo est perfectio simpliciter
+<lb ed="#V" n="36"/>eompletive, hoc scilicet modo, quod
+<lb ed="#V" n="37"/>licet in se sit formaliter infinita, ut
+<lb ed="#V" n="38"/>patet supra distinct. 8. quest. penultim.
+<lb ed="#V" n="39"/>tamen quodammodo dicitur compleri
+<lb ed="#V" n="40"/>ex hoc quod terminatur ad omnia 
+co<lb break="no" ed="#V" n="41"/>gnoscibilia, non quod talis terminatio
+<lb ed="#V" n="42"/>addat sibi aliquam novam 
+perfectio<lb break="no" ed="#V" n="43"/>nem, quia si, per impossibile,. talis
+<lb ed="#V" n="44"/>intellectio non terminaretur ad aliquod
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>objeetum extra, adhuc esset formaliter
+<lb ed="#V" n="46"/>infinita, sed quoad hoc quod illa 
+intel<lb break="no" ed="#V" n="47"/>leetio non videtur ita manifesta 
+sa<lb break="no" ed="#V" n="48"/>pientia, nisi terminetur ad omne 
+co<lb break="no" ed="#V" n="49"/>gnoscibile, et hoc patet supra 
+respon<lb break="no" ed="#V" n="50"/>dendo ad Augustinum.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e917">
+               <lb ed="#V" n="51"/>Tertio est dubium in hoc quod dicit
+<lb ed="#V" n="52"/>Doctor in principio, quod 
+intellectio<lb break="no" ed="#V" n="53"/>nis per se debet esse unum objectum
+<lb ed="#V" n="54"/>et unum principium q40. Nam ipse
+<lb ed="#V" n="55"/>expresse vult, quod principium 
+for<lb break="no" ed="#V" n="56"/>male q40 productivum, est objectum et
+<lb ed="#V" n="57"/>intellectus, ut patet supra dist. 2. et
+<lb ed="#V" n="58"/>dist. 9. quast. 1. 8.et 9. et dist. 7. quaest.
+<lb ed="#V" n="59"/>5. quodlib. Quomodo ergo si objectum
+<lb ed="#V" n="60"/>sit principium quo, sit etiam objectum
+<lb ed="#V" n="61"/>requisitum ut terminus?
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e943">
+               <lb ed="#V" n="62"/>Dico, quod tenendo quod essentia
+<lb ed="#V" n="63"/>divina et intellectus divinus sit 
+prin<lb break="no" ed="#V" n="64"/>cipium quo respectu cognitionis 
+lapi<lb break="no" ed="#V" n="65"/>dis, clara est responsio, quia objectum
+<lb ed="#V" n="66"/>puta lapis, tantum requiritur in 
+ratio<lb break="no" ed="#V" n="67"/>ne termini, et nullo modo ut 
+princi<lb break="no" ed="#V" n="68"/>pium quo, ut patet a Doctore in 
+pluri<lb break="no" ed="#V" n="69"/>bus locis. Et sic est de quolibet 
+objec<lb break="no" ed="#V" n="70"/>to, quod virtualiter continet aliud vel
+<lb ed="#V" n="71"/>essentialiter illud objectum, si est 
+cau<lb break="no" ed="#V" n="72"/>sa cognitionis alterius contenti 
+essen<lb break="no" ed="#V" n="73"/>taliter vel virtualiter erit principium
+<lb ed="#V" n="74"/>quo, et illud aliud contentum erit 
+ob<lb break="no" ed="#V" n="75"/>jectum tantum terminativum, ut. 
+pa<lb break="no" ed="#V" n="76"/>tet supra a Doctore d. 3.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e979">
+               <lb ed="#V" n="77"/>Sed est difficultas de objecto, quod
+<lb ed="#V" n="78"/>est principium sue cognitionis, 
+quo<lb break="no" ed="#V" n="79"/>modo requiratur et ut quo et ut 
+termi<lb break="no" ed="#V" n="80"/>nativum.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e990">
+               <lb ed="#V" n="81"/>Dico, quod objectum ut est perfecte
+<lb ed="#V" n="82"/>praesens intellectui in ratione objecti,
+<lb ed="#V" n="83"/>est simpliciter principium qwo 
+produ<lb break="no" ed="#V" n="84"/>cendi cognitionem sui. Et quia talis
+<lb ed="#V" n="85"/>cognitio erit alicujus termini, ut patet
+<lb ed="#V" n="86"/>supra a Doctore dist. 3. q. ult. in 
+res<lb break="no" ed="#V" n="87"/>ponsione ultimi argumenti, illa 
+cogni<lb break="no" ed="#V" n="88"/>tio non poterit esse alterius termini.
+<pb ed="#V" n="544"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>nisi objecti cogniti ; et sic idem potest
+<lb ed="#V" n="2"/>esse principium g»o producendi 
+cogni<lb break="no" ed="#V" n="3"/>tionem et objectum terminans, nam
+<lb ed="#V" n="4"/>terminare cognitionem, non dicit 
+re<lb break="no" ed="#V" n="5"/>lationem realem in ipso termino, ut
+<lb ed="#V" n="6"/>patet infra d. 36.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e1027">
+               <lb ed="#V" n="7"/>Ultimo dubitatur, quia dicit Doctor,
+<lb ed="#V" n="8"/>quod cognitio lapidis in Deo est una
+<lb ed="#V" n="9"/>operatio per se. Hoc videtur contra 
+ip<lb break="no" ed="#V" n="10"/>sum, quia ipse vult expresse quod ens
+<lb ed="#V" n="11"/>absolutum et ens rationis dicantur 
+tan<lb break="no" ed="#V" n="12"/>tum unum per accidens, ut patet hie,
+<lb ed="#V" n="13"/>et supra d. 2. q. penullim. et d. 2T. q.
+<lb ed="#V" n="14"/>ult. et vult quod omnis 
+respectusadex<lb break="no" ed="#V" n="15"/>tra sit tantum ens rationis, ut patet ab
+<lb ed="#V" n="16"/>ipso d. 27. g. 3. et d. 18. in 
+Reportatio<lb break="no" ed="#V" n="17"/>nibus, d. 4. g. 4. secundi. g. 1. quodl.
+<lb ed="#V" n="18"/>d. A. ter(üi. dist. 30. primi. Cum ergo
+<lb ed="#V" n="19"/>cognitio lapidis dicat respectum ad
+<lb ed="#V" n="20"/>ipsum lapidem ut patet, quia ipse 
+di<lb break="no" ed="#V" n="21"/>xit supra dist. 2. et infra dist. 39. quod
+<lb ed="#V" n="22"/>talis intellectio in se non 
+diversifica<lb break="no" ed="#V" n="23"/>tur, sed tantum secundum diversos 
+res<lb break="no" ed="#V" n="24"/>pectus rationis; ergo cognitio lapidis
+<lb ed="#V" n="25"/>ut lapidis, includit aliquem respectum
+<lb ed="#V" n="26"/>rationis; ergo talis cognitio lapidis
+<lb ed="#V" n="27"/>non erit una operatio per se.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e1075">
+               <lb ed="#V" n="28"/>Dico breviter, quod ipsa cognitio 
+di<lb break="no" ed="#V" n="29"/>vina est una operatio per se, et quod
+<lb ed="#V" n="30"/>terminetur ad lapidem. Dico, quod :
+er<lb break="no" ed="#V" n="31"/>minari ad lapidem, non dicit aliquem
+<lb ed="#V" n="32"/>respectum rationis, ut patet infra dist.
+<lb ed="#V" n="33"/>36. et patet supra dst. 30. imo prior
+<lb ed="#V" n="34"/>est intellectio lapidis quam sit 
+respec<lb break="no" ed="#V" n="35"/>tus rationis, ut patet infra Zsta distinct.
+<lb ed="#V" n="36"/>Et cum dicitur, quod zpsa divers?
+fica<lb break="no" ed="#V" n="37"/>tur non in se, sed secundum diversos
+<lb ed="#V" n="38"/>respectus, prout terminatur ad aliud et
+<lb ed="#V" n="39"/>ahud objectum, dico quod hoc non 
+de<lb break="no" ed="#V" n="40"/>bet intelligi, quod diversificetur quoad
+<lb ed="#V" n="41"/>respectus diversos formaliter 
+existen<lb break="no" ed="#V" n="42"/>tes, sed tantum secundum diversas 
+ter<lb break="no" ed="#V" n="43"/>minationes, qua attenduntur penes
+<lb ed="#V" n="44"/>diversos terminos, hoc est, quod termi-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>natur ad alium et ad alium terminum,
+<lb ed="#V" n="46"/>et talis diversitas in illa est ibi 
+secun<lb break="no" ed="#V" n="47"/>dum denominationem extrinsecam 
+ter<lb break="no" ed="#V" n="48"/>minorum. Sieut etiam dicitur, quod 
+vo<lb break="no" ed="#V" n="49"/>litio divina diversificatursecundum 
+di<lb break="no" ed="#V" n="50"/>versa producta vel creata, non. quod
+<lb ed="#V" n="51"/>sil ibi alia et alia relatio ad creaturas,
+<lb ed="#V" n="52"/>sed denominatione extrinseca, quia
+<lb ed="#V" n="53"/>alia et alia creatura secundum aliam
+<lb ed="#V" n="54"/>et aliam relationem terminatur 
+adip<lb break="no" ed="#V" n="55"/>sam, ut patet supra d. 30. et Aic, et 
+in<lb break="no" ed="#V" n="56"/>fra dist. 36.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e1143">
+               <lb ed="#V" n="57"/>(g) Et ex hoc ultra ostenditur. Quia
+<lb ed="#V" n="58"/>dicit ista opinio, quod essentia sub
+<lb ed="#V" n="59"/>ista relatione est ita formaliter 
+in<lb break="no" ed="#V" n="60"/>finita et illimitata sicut in se, et
+<lb ed="#V" n="61"/>per consequens si potest esse sub 
+is<lb break="no" ed="#V" n="62"/>ta relatione, ita et sub alia et alia,
+<lb ed="#V" n="63"/>et sub quacumque ponatur semper
+<lb ed="#V" n="64"/>erit illimitata respectu omnis 
+co<lb break="no" ed="#V" n="65"/>gnoscibilis ; falsum est dicere quod 
+ta<lb break="no" ed="#V" n="66"/>lis relatio terminet illam, etc.
+</p>
+            <!--</div>
+<div alias="lycht-d35q1-p3">-->
+            <p xml:id="mm30o9-d1e1259-d1e1170">
+               <pb ed="#V" n="546"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1" type="fixed=546"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e1179">
+               <lb ed="#V" n="2"/>(h) Contra opinionem primam. Hic
+<lb ed="#V" n="3"/>Doctor reducit Thomam ad hoc 
+incon<lb break="no" ed="#V" n="4"/>veniens, quod si in essentia divina 
+re<lb break="no" ed="#V" n="5"/>quiritur relatio rationis respectu lapidis
+<lb ed="#V" n="6"/>et alia respectu hominis, erunt ibi 
+rea<lb break="no" ed="#V" n="7"/>les, quod probat, quia relatio rationis
+<lb ed="#V" n="8"/>est fabricata per intellectionem 
+nego<lb break="no" ed="#V" n="9"/>tiativam 4 ista relatio rationis non erit
+<lb ed="#V" n="10"/>causata per intellectionem lapidis, ut
+<lb ed="#V" n="11"/>lapidis. Patet, quia ratio cognoscendi
+<lb ed="#V" n="12"/>lapidem pr:wcedit cognitionem lapidis:
+<lb ed="#V" n="13"/>ut lapis est, nec erit causata per 
+intel<lb break="no" ed="#V" n="14"/>lectionem terminatam ad Deum. Et
+<lb ed="#V" n="15"/>hoc ipsi concedunt ; ergo si ponuntur
+<lb ed="#V" n="16"/>hujusmodi relationes, erunt ibi reales,
+<lb ed="#V" n="17"/>quod falsum est. Et quod dicit ibi,quod
+<lb ed="#V" n="18"/>conceditur ab eis ubi minus videtur.
+<lb ed="#V" n="19"/>Nam ipsi concedunt quod persone 
+di<lb break="no" ed="#V" n="20"/>vine, sive proprietates relativas, non
+<lb ed="#V" n="21"/>sunt ibi causate per intellectionem
+<lb ed="#V" n="22"/>Dei, nec principia producendi illas
+<lb ed="#V" n="23"/>proprietates sunt ibi per hujusmodi
+<lb ed="#V" n="24"/>cognitionem. Si ille non sunt ibi per
+<lb ed="#V" n="25"/>cognitionem Dei, multo minus, nec
+<lb ed="#V" n="26"/>istae. relationes rationis.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e1236">
+               <lb ed="#V" n="27"/>(i) Praeterea, secundum aliquos 
+isto<lb break="no" ed="#V" n="28"/>rum. Haec est opinio Henriei, qui 
+pa<lb break="no" ed="#V" n="29"/>tet. Si, ergo relatio rationis lapidis et
+<lb ed="#V" n="30"/>relatio rationis albedinis inquiruntur
+<lb ed="#V" n="31"/>de necessitate, cum sint illa tantum
+<lb ed="#V" n="32"/>distinctz:e. ratione et dicuntur, ideo
+<lb ed="#V" n="33"/>erunt sufficientes ad distinctionem
+<lb ed="#V" n="34"/>realem ipsius, puta A et 7, nam 
+idea<lb break="no" ed="#V" n="35"/>ta producuntur ad extra secundum 
+ra<lb break="no" ed="#V" n="36"/>tiones ideales. et hoc videtur 
+inconve<lb break="no" ed="#V" n="37"/>niens.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e1262">
+               <lb ed="#V" n="38"/>(k) Praeterea res extra. 
+Hicsupponi<lb break="no" ed="#V" n="39"/>tur unum, quod quidquid Deus 
+intelli<lb break="no" ed="#V" n="40"/>git est intra se, id est quod talis 
+intel<lb break="no" ed="#V" n="41"/>lectio terminatur ad objectum, ut 
+re<lb break="no" ed="#V" n="42"/>lucet in Deo et non in se. Cum ergo
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>isti, maxime Henricus velit, quod 
+om<lb break="no" ed="#V" n="44"/>nis distinctio, qua ponitur infra, 
+pre<lb break="no" ed="#V" n="45"/>cedat intellectionem ; ergo nihil intra
+<lb ed="#V" n="46"/>terminat intellectionem quam 
+objec<lb break="no" ed="#V" n="47"/>tum secundarium.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e1288">
+               <lb ed="#V" n="48"/>(l) Contra secundam positionem. Hic
+<lb ed="#V" n="49"/>Doctor reducit Henricum ad hoc 
+in<lb break="no" ed="#V" n="50"/>conveniens, quod essentia divina sub
+<lb ed="#V" n="51"/>tali relatione si necessario requiritur,
+<lb ed="#V" n="52"/>ita esset ratio cognoscendi lapidem,
+<lb ed="#V" n="53"/>siin se non existeret, supple essentia,
+<lb ed="#V" n="54"/>sicut si in.se existeret, quod est valde
+<lb ed="#V" n="55"/>inconveniens. Et hee .ratio est salis
+<lb ed="#V" n="56"/>clara, hic et supra d. 8. quaest. 
+penul<lb break="no" ed="#V" n="57"/>tim.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e1312">
+               <lb ed="#V" n="58"/>(m) Praeterea, Deus prius naturaliter.
+<lb ed="#V" n="59"/>Alice due rationes sequentes sunt clara.
+<lb ed="#V" n="60"/>Quarum prima stat in hoc, quia 
+essen<lb break="no" ed="#V" n="61"/>tia est prius imitabilis a creatura quam
+<lb ed="#V" n="62"/>comparetur ad creaturam ut 
+imitabi<lb break="no" ed="#V" n="63"/>lis, aliter non posset vere comparari
+<lb ed="#V" n="64"/>sub tali ratione ; ergo ante istam 
+com<lb break="no" ed="#V" n="65"/>parationem est in essentia imitabilitas.
+<lb ed="#V" n="66"/>Sed secundum aliquos istius vic, 
+rela<lb break="no" ed="#V" n="67"/>tio aptitudinalis est eadem eum actuali,
+<lb ed="#V" n="68"/>propter quam identitatem in Deo 
+di<lb break="no" ed="#V" n="69"/>cunt non esseatiam relationem novam
+<lb ed="#V" n="70"/>et antiquam, nec etiam aliam creativi et
+<lb ed="#V" n="71"/>creantis ; ergo islc relationes in 
+essen<lb break="no" ed="#V" n="72"/>tia, ut in objecto comparato non erunt
+<lb ed="#V" n="73"/>prima ad extra, sed erunt alice priores
+<lb ed="#V" n="74"/>et reales, ut videtur. Secunda stat in
+<lb ed="#V" n="75"/>hoc: Posito quod essentia ut cognita
+<lb ed="#V" n="76"/>sit ratio deveniendi in notitiam lapidis,
+<lb ed="#V" n="77"/>tamen videtur postea, quod intellectus
+<lb ed="#V" n="78"/>divinus possit cognoscere lapidem in
+<lb ed="#V" n="79"/>se, etl non praecise per hoc quod 
+com<lb break="no" ed="#V" n="80"/>parat essentiam suam ad lapidem,
+<lb ed="#V" n="81"/>quia sic sine tali comparatione 
+alte<lb break="no" ed="#V" n="82"/>rius ad ipsum possumus nos 
+intellige<lb break="no" ed="#V" n="83"/>re lapidem. In ista intellectione lapidis,
+<lb ed="#V" n="84"/>quaero in quo est, relatio ad lapidem?
+<lb ed="#V" n="85"/>non in essentia ut in objecto 
+compa<lb break="no" ed="#V" n="86"/>rato, quia in isto objecto ut sic, non
+<pb ed="#V" n="547"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>est intelligere ut objectum 
+compara<lb break="no" ed="#V" n="2"/>tum; ergo oportet quaerere eam in 
+in<lb break="no" ed="#V" n="3"/>tellectione vel in ratione intelligendi,
+<lb ed="#V" n="4"/>et redibit ad aliquam illarum 
+opinio<lb break="no" ed="#V" n="5"/>num.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e1394">
+               <lb ed="#V" n="6"/>Sed in haec, quod dicit Doctor quod
+<lb ed="#V" n="7"/>intellectus divinus poterit postea 
+co<lb break="no" ed="#V" n="8"/>gnoscere lapidem in se, videtur sibi
+<lb ed="#V" n="9"/>contradicere, quia in qwod/. q. 15.
+<lb ed="#V" n="10"/>a. ull. sicut ad litteram: //(wd quod
+<lb ed="#V" n="11"/>cognoscitur per aliud, bene potest 
+im<lb break="no" ed="#V" n="12"/>mediate cognosci, sed mon sic illud
+<lb ed="#V" n="13"/>quod pracise cognoscitur in. illo, sicut
+<lb ed="#V" n="14"/>anlellectus divinus praecise cognoscit
+<lb ed="#V" n="15"/>creaturam in essentia divina, et non
+<lb ed="#V" n="16"/>per illam creaturam ut objectum 
+imme<lb break="no" ed="#V" n="17"/>diatum, quia tunc intellectio ejus 
+viles<lb break="no" ed="#V" n="18"/>ceret. Haec ibi.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e1425">
+               <lb ed="#V" n="19"/>Respondeo. Primo, posito quod 
+in<lb break="no" ed="#V" n="20"/>lellectus divinus non cognoscat 
+lapi<lb break="no" ed="#V" n="21"/>dem, nisi praeciseinessentiasua, adhuc
+<lb ed="#V" n="22"/>non contradicit sibi, quia hic accipit
+<lb ed="#V" n="23"/>lapidem posse in se cognosci, ut 
+praeci<lb break="no" ed="#V" n="24"/>se distinguitur contra hoc quod est 
+co<lb break="no" ed="#V" n="25"/>gnosci praecise per essentiam, ut actu
+<lb ed="#V" n="26"/>comparatam ad ipsum lapidem, quasi
+<lb ed="#V" n="27"/>talis comparatio sit ratio cognoscendi
+<lb ed="#V" n="28"/>ipsum lapidem. In Qwolibetis vero 
+ac<lb break="no" ed="#V" n="29"/>cipit prout ipse lapis cognoscitur 
+ab<lb break="no" ed="#V" n="30"/>solute in essentia cognita, et non 
+pre<lb break="no" ed="#V" n="31"/>cise in essentia, inquantum 
+compara<lb break="no" ed="#V" n="32"/>tur ad ipsum lapidem.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e1458">
+               <lb ed="#V" n="33"/>Dico secundo, quod lapidem 
+cognos<lb break="no" ed="#V" n="34"/>ci in se potest dupliciter intelligi. Uno
+<lb ed="#V" n="35"/>modo, ut in se praesens intellectui 
+di<lb break="no" ed="#V" n="36"/>vino. Alio modo, ut tantum praesens
+<lb ed="#V" n="37"/>in essentia divina. Primo modo, non
+<lb ed="#V" n="38"/>potest in se cognosci, quia  tunc 
+intel<lb break="no" ed="#V" n="39"/>lectus divinus vilesceret, quia tunc ex
+<lb ed="#V" n="40"/>natura sua non haberet urde posset
+<lb ed="#V" n="41"/>habere praesentiam cujuscumque 
+ob<lb break="no" ed="#V" n="42"/>jecti, et per consequens non haberet
+<lb ed="#V" n="43"/>ase unde posset quodcumque 
+intelli<lb break="no" ed="#V" n="44"/>gibile intelligere. Secundo modo potest
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>intelligere lapidem in se, ut supra 
+pa<lb break="no" ed="#V" n="46"/>tuit dist. 2. quast. 1. modo in 
+Qwod<lb break="no" ed="#V" n="47"/>libelis, vult quod creatura non 
+cognos<lb break="no" ed="#V" n="48"/>catur in se primo modo, licet bene
+<lb ed="#V" n="49"/>secundo modo. Forte etiam potest 
+in<lb break="no" ed="#V" n="50"/>telligi, quod non eognoscit lapidem in
+<lb ed="#V" n="51"/>se, id est, per motionem ipsius 
+lapi<lb break="no" ed="#V" n="52"/>dis, etc.
+</p>
+            <!--</div>
+<div alias="lycht-d35q1-p4">-->
+            <p xml:id="mm30o9-d1e1259-d1e1508">
+               <lb ed="#V" n="81" type="fixed=549"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e1513">
+               <lb ed="#V" n="82"/>(n) Potest dici ad quaestionem. Nunc
+<lb ed="#V" n="83"/>Doctor respondendo ad questionem
+<lb ed="#V" n="84"/>ponit plura dicta.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e1523">
+               <lb ed="#V" n="85"/>Primum, quod relatio praecipue 
+rea<lb break="no" ed="#V" n="86"/>lis, terminatur ad absolutum ut absolu-
+<pb ed="#V" n="550"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tum, ut supra patuit dist 30. et ibi 
+im<lb break="no" ed="#V" n="2"/>probate sunt multe opiniones. Et si
+<lb ed="#V" n="3"/>diceretur quod aliqua relatio 
+termina<lb break="no" ed="#V" n="4"/>tur etiam ad aliquod relativum, patet
+<lb ed="#V" n="5"/>in relationibus, quarum una fundatur
+<lb ed="#V" n="6"/>in alia, ut patet de proportionalitate
+<lb ed="#V" n="7"/>et proportione, de quibus supra patuit.
+<lb ed="#V" n="8"/>Dico primo, quod relatio realis 
+ulti<lb break="no" ed="#V" n="9"/>mate terminatur ab absolutum. Dico
+<lb ed="#V" n="10"/>secundo, quod quamvis aliqua relatio
+<lb ed="#V" n="11"/>terminetur ad relativum aliquod, non
+<lb ed="#V" n="12"/>tamen terminatur ad illud sub ratione
+<lb ed="#V" n="13"/>relativa, sed magis sub ratione 
+abso<lb break="no" ed="#V" n="14"/>luti, id est, quod non terminatur ut
+<lb ed="#V" n="15"/>ad correlativum,licet enim relativum
+<lb ed="#V" n="16"/>terminet, non tamen sub ratione qua
+<lb ed="#V" n="17"/>sit correlativum.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e1571">
+               <lb ed="#V" n="18"/>Secundum dictum, quod objectum
+<lb ed="#V" n="19"/>intellectionis nostra terminat 
+relatio<lb break="no" ed="#V" n="20"/>nem ipsius inquantum mere absolutum,
+<lb ed="#V" n="21"/>et sic ipsa intellectio est mensurata per
+<lb ed="#V" n="22"/>?psum. Hoc debet sane intelligi de 
+is<lb break="no" ed="#V" n="23"/>ta mensura, quia forte non 
+quodcum<lb break="no" ed="#V" n="24"/>que objectum terminativum est 
+men<lb break="no" ed="#V" n="25"/>sura intellectionis, quia intellectio 
+ali<lb break="no" ed="#V" n="26"/>quando terminatur ad ens rationis, et
+<lb ed="#V" n="27"/>forte ens rationis non erit mensura
+<lb ed="#V" n="28"/>entis absoluti, cujusmodi est 
+intellec<lb break="no" ed="#V" n="29"/>tio Ipsius, et ideo de hujusmodi 
+mensu<lb break="no" ed="#V" n="30"/>ra, vide Doctorem 2» quodlib quast.13.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e1602">
+               <lb ed="#V" n="31"/>Tertium dictum est, quod intellectio
+<lb ed="#V" n="32"/>divina est mensura omnium aliorum a
+<lb ed="#V" n="33"/>se intelligibilium, et sic sequitur quod
+<lb ed="#V" n="34"/>omnia alia praecise referuntur ad 
+in<lb break="no" ed="#V" n="35"/>tellectionem divinam, et ipsa 
+termina<lb break="no" ed="#V" n="36"/>bit relationem istam sub ratione mere
+<lb ed="#V" n="37"/>absoluti.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e1620">
+               <lb ed="#V" n="38"/>Hic videtur aliqualis contradictio.
+<lb ed="#V" n="39"/>Tum quia Doctor vult in 4. dist. 10.
+<lb ed="#V" n="40"/>quaest. 5. quod non requiratur 
+praesen<lb break="no" ed="#V" n="41"/>tia objecti propter terminationem 
+in<lb break="no" ed="#V" n="42"/>tellectionis, licet requiratur propter
+<lb ed="#V" n="43"/>causationem ;. et sic licet creatura
+<lb ed="#V" n="44"/>etiam ab «terno nullum esse habeat,
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>tamen poterit terminare actum 
+intel<lb break="no" ed="#V" n="46"/>lectus divini, et per consequens 
+objec<lb break="no" ed="#V" n="47"/>tum tale non terminatur ad ipsum 
+ae<lb break="no" ed="#V" n="48"/>tum. Tum quia alibi vult quod de
+<lb ed="#V" n="49"/>ratione objecti sit terminare actum
+<lb ed="#V" n="50"/>intellectus et non movere ipsum 
+in<lb break="no" ed="#V" n="51"/>tellectum ; ergo respectu intellectus
+<lb ed="#V" n="52"/>divini, objectum terminabit actum 
+in<lb break="no" ed="#V" n="53"/>telligendi divinum. Tum quia ipse 
+in<lb break="no" ed="#V" n="54"/>fra dist. 9. vult quod idem actus 
+in<lb break="no" ed="#V" n="55"/>tellectus divini possit diversificari 
+se<lb break="no" ed="#V" n="56"/>cundum diversos respectus,inquantum
+<lb ed="#V" n="57"/>scilicet terminatur ad aliud et aliud
+<lb ed="#V" n="58"/>objectum. Tum quia hic praesenti 
+dis<lb break="no" ed="#V" n="59"/>tinctione, dicit quod objectum, quia
+<lb ed="#V" n="60"/>terminat intellectionem, est 
+mensu<lb break="no" ed="#V" n="61"/>ra ipsius; ergo ut hic terminat, 
+habe<lb break="no" ed="#V" n="62"/>bit rationem mensure, et non ipsa 
+in<lb break="no" ed="#V" n="63"/>tellectio divina.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e1681">
+               <lb ed="#V" n="64"/>Dico quod intellectio divina ideo 
+di<lb break="no" ed="#V" n="65"/>citur mensura omnis objecti alterius
+<lb ed="#V" n="66"/>a seipsa, quia omnia tali actu 
+intelli<lb break="no" ed="#V" n="67"/>gendi producuntur in esse cognito.
+<lb ed="#V" n="68"/>Tum quia hujusmodi objecta non sunt
+<lb ed="#V" n="69"/>in memoria divina ex natura rei, sed i
+<lb ed="#V" n="70"/>tantum per actum intellectus divini,
+<lb ed="#V" n="71"/>ut patet a Doctore in 2. dist. 1. quest.
+<lb ed="#V" n="72"/>1. et in quodlib. quest. 15. Tum quia
+<lb ed="#V" n="73"/>totum eorum esse possibile est ab actu
+<lb ed="#V" n="74"/>intellectus divini, ut infra patebit d/sf.
+<lb ed="#V" n="75"/>36. et dist. 43. et sic dicimus, quod
+<lb ed="#V" n="76"/>hujusmodi objecta terminantur ad 
+ac<lb break="no" ed="#V" n="77"/>tum intellectus divini, et per 
+conse<lb break="no" ed="#V" n="78"/>quens est mensura omnium illorum.
+<lb ed="#V" n="79"/>Non negamus tamen quin intellectus
+<lb ed="#V" n="80"/>divinus cognoscat illa, et per 
+conse<lb break="no" ed="#V" n="81"/>quens quin talis intellectio terminetur
+<lb ed="#V" n="82"/>ad hujusmodi objecta habentia esse
+<lb ed="#V" n="83"/>per actum intellectus divini. Sed non
+<lb ed="#V" n="84"/>terminatur ad illa, ut habentia esse
+<lb ed="#V" n="85"/>ex natura rei, id est, ut inquantum
+<lb ed="#V" n="86"/>sunt in memoria divina ex natura rei,
+<lb ed="#V" n="87"/>quia  tunc intellectus divinus 
+vilesce<lb break="no" ed="#V" n="88"/>ret. Ex his patet ad objectiones.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e1738">
+               <pb ed="#V" n="551"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>Quartum dictum. Prima intellectio
+<lb ed="#V" n="2"/>divina, quae beatifica est, est essentiae
+<lb ed="#V" n="3"/>ut essentia sine omni respectu rei vel
+<lb ed="#V" n="4"/>rationis, et hoc propter identitatem
+<lb ed="#V" n="5"/>realem perfectam intellectus ad 
+essen<lb break="no" ed="#V" n="6"/>tiam absolutam. De hoc clarius vide
+<lb ed="#V" n="7"/>in quodlib. quest. 13. ubi Doctor vult
+<lb ed="#V" n="8"/>quod non est necesse intellectionem
+<lb ed="#V" n="9"/>includere relationem ad objectum,
+<lb ed="#V" n="10"/>etiam ut actu existens, et patet de 
+in<lb break="no" ed="#V" n="11"/>tellectione divina. Vide ibi. Et quod
+<lb ed="#V" n="12"/>non sit relatio realis inter primam 
+in<lb break="no" ed="#V" n="13"/>tellectionem beatificam et essentiam
+<lb ed="#V" n="14"/>divinam, patet, quia relatio realis est
+<lb ed="#V" n="15"/>inter extrema realiter distincta. Et si
+<lb ed="#V" n="16"/>etiam extrema non sunt realiter 
+dis<lb break="no" ed="#V" n="17"/>tincta, et sit relatio realis, cujusmodi
+<lb ed="#V" n="18"/>est relatio moventis et. mobilis in 
+ea<lb break="no" ed="#V" n="19"/>dem re, puta voluntate, tamen talis
+<lb ed="#V" n="20"/>relatio non erit realis, nisi ipsa 
+volun<lb break="no" ed="#V" n="21"/>tas ut movens et, ut mota comparetur
+<lb ed="#V" n="22"/>ad aliquid realiter distinctum, cujus
+<lb ed="#V" n="23"/>ipsa sit principium productivum et
+<lb ed="#V" n="24"/>ejusdem principium receptivum, puta
+<lb ed="#V" n="25"/>quando comparatur ad velle 
+produc<lb break="no" ed="#V" n="26"/>tum. De hoc vide in 2. dist. 25. 
+exposi<lb break="no" ed="#V" n="27"/>tionem quam ibi feci. In proposito 
+au<lb break="no" ed="#V" n="28"/>tem intellectus divinus et essentia 
+di<lb break="no" ed="#V" n="29"/>vina, nec realiter distinguuntur nec
+<lb ed="#V" n="30"/>comparantur ad aliquid tertium, sic,
+<lb ed="#V" n="31"/>quod possit realiter recipi, ut 
+distinc<lb break="no" ed="#V" n="32"/>tum realiter. Si ergo patet quomodo
+<lb ed="#V" n="33"/>ibi non est relatio realis nec etiam 
+ra<lb break="no" ed="#V" n="34"/>tionis, quia relatio rationis est per 
+ac<lb break="no" ed="#V" n="35"/>tum comparativum intellectus, et 
+ta<lb break="no" ed="#V" n="36"/>lis actus praesupponit actum rectum,
+<lb ed="#V" n="37"/>et ideo dixit Doctor quod intellectio
+<lb ed="#V" n="38"/>divina omnino prima non includit,
+<lb ed="#V" n="39"/>etc.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e1830">
+               <lb ed="#V" n="40"/>Quintum dictum, quod est 
+conclu<lb break="no" ed="#V" n="41"/>sio principalis illata ex aliis dictis est,
+<lb ed="#V" n="42"/>quod 202 oportet propter intellectionem
+<lb ed="#V" n="43"/>alicujus objecti praecise quaerere 
+relatio<lb break="no" ed="#V" n="44"/>nem, nec in utroque extremo, scilicet
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>intellectione et objecto, nec in altero ;
+<lb ed="#V" n="46"/>ergo oportet aliquid aliud addere,
+<lb ed="#V" n="47"/>propter quod sit relatio in utroque 
+ex<lb break="no" ed="#V" n="48"/>tremorum, vel in altero. illud autem
+<lb ed="#V" n="49"/>non videtur esse, nisi vel mutua 
+coe<lb break="no" ed="#V" n="50"/>xigentia si est relatio mutua, vel 
+de<lb break="no" ed="#V" n="51"/>pendentia in altero extremo si non est
+<lb ed="#V" n="52"/>mutua. Hic autem quando Deus 
+in<lb break="no" ed="#V" n="53"/>lelligit aliquid aliud a se, non potest
+<lb ed="#V" n="54"/>poni mutua coexigentia in utroque 
+ex<lb break="no" ed="#V" n="55"/>iremo ; ergo praecise sufficit ponere
+<lb ed="#V" n="56"/>relationem in altero extremo, ubi est
+<lb ed="#V" n="57"/>dependentia, illud est objectum, ut 
+co<lb break="no" ed="#V" n="58"/>gnitum. Adverte tamen quod objecti
+<lb ed="#V" n="59"/>cogniti ad acetum cognoscendi 
+divi<lb break="no" ed="#V" n="60"/>num non est dependentia aliqua realis
+<lb ed="#V" n="61"/>nec essentialis, quia talis proprie 
+fun<lb break="no" ed="#V" n="62"/>datur in aliquo reali actu existente, et
+<lb ed="#V" n="63"/>patebit infra dist. 36. et supra patuit
+<lb ed="#V" n="64"/>dist. 3. quest. 4. Sed eo modo quo 
+ob<lb break="no" ed="#V" n="65"/>jectum cognitum habet esse, eodem
+<lb ed="#V" n="66"/>modo dicitur dependere, et quia habet
+<lb ed="#V" n="67"/>655e kantum secundum quid, ideo est
+<lb ed="#V" n="68"/>ibi dependentia tantum secundum
+<lb ed="#V" n="69"/>quid.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e1900">
+               <lb ed="#V" n="70"/>(o) Praeterea voluntas fruens fine non
+<lb ed="#V" n="71"/>producit a/£wd ab ?pso fine in esse 
+vo<lb break="no" ed="#V" n="72"/>lito, sed.tantum producit ipsum finem
+<lb ed="#V" n="73"/>in esse tali, puta volito vel amato ; et
+<lb ed="#V" n="74"/>hocc comparando ipsum finem ad
+<lb ed="#V" n="75"/>aliud, id est, quod quando voluntas
+<lb ed="#V" n="76"/>amat finem ultimum comparando 
+ip<lb break="no" ed="#V" n="77"/>sum, puta ad Joannem, nihil producit
+<lb ed="#V" n="78"/>in ipso fine praeter ipsum esse volitum
+<lb ed="#V" n="79"/>sive amatum, id est, quod nullum 
+res<lb break="no" ed="#V" n="80"/>pectum ultra respectum quod est esse
+<lb ed="#V" n="81"/>amatum, producit in ipso fine, sed
+<lb ed="#V" n="82"/>magis e contra, scilicet amando 4
+<lb ed="#V" n="83"/>propter finem, comparando ipsum A
+<lb ed="#V" n="84"/>producit in ipso A respectum aliquem
+<lb ed="#V" n="85"/>rationis ; ergo a simili, in intellectu
+<lb ed="#V" n="86"/>eognoscente primum objectum, et ex
+<lb ed="#V" n="87"/>illius cognitione cognoscente 
+objec<lb break="no" ed="#V" n="88"/>tum secundarium, nulla relatio vide-
+<pb ed="#V" n="552"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tur produci in ipso primo objecto ad
+<lb ed="#V" n="2"/>secundum objectum, sed e contra. 
+Ad<lb break="no" ed="#V" n="3"/>verte tamen quod non negat Doctor
+<lb ed="#V" n="4"/>quin possit causari aliqua relatio 
+ra<lb break="no" ed="#V" n="5"/>lionis in ipso fine, quia intellectus
+<lb ed="#V" n="6"/>potest ipsum comparare in ratione
+<lb ed="#V" n="7"/>amabilis, etc. Sed vult quod voluntas
+<lb ed="#V" n="8"/>ex hoc solo quod diligit ultimum 
+fi<lb break="no" ed="#V" n="9"/>nem, puta ut summum bonum, mihi
+<lb ed="#V" n="10"/>non causat in ipso summo bono a!
+i<lb break="no" ed="#V" n="11"/>quem respectum, prater hoc quod est
+<lb ed="#V" n="12"/>esse amatum ut summum bonum. Sed
+<lb ed="#V" n="13"/>si tamen per hujusmodi cognitionem
+<lb ed="#V" n="14"/>debet causari aliquis respectus, 
+ma<lb break="no" ed="#V" n="15"/>gis erit aman do aliquid propter finem,
+<lb ed="#V" n="16"/>et hoc est quod dicit.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e1983">
+               <lb ed="#V" n="17"/>(p) Concedi potest, etc. Hic declarat
+<lb ed="#V" n="18"/>intentum principale de hujusmodi 
+re<lb break="no" ed="#V" n="19"/>lationibus aeeternis. Dicit ergo quod 
+po<lb break="no" ed="#V" n="20"/>lest concedi quod in Deo sunt 
+relatio<lb break="no" ed="#V" n="21"/>nes aeterna ad objecta cognita, sed
+<lb ed="#V" n="22"/>non priores naturaliter ipsis cognitis
+<lb ed="#V" n="23"/>in ratione objectorum. Et declarat per
+<lb ed="#V" n="24"/>exemplum : Deus in primo instanti 
+in<lb break="no" ed="#V" n="25"/>telligit, etc.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e2005">
+               <lb ed="#V" n="26"/>Adverte tamen quod quando Doctor
+<lb ed="#V" n="27"/>dicit quod in primo instanti cognoscit
+<lb ed="#V" n="28"/>essentiam sub ratione absoluta, 
+aeci<lb break="no" ed="#V" n="29"/>pitur illud instans pro instanti ut
+<lb ed="#V" n="30"/>complectitur omnia instantia, quae
+<lb ed="#V" n="31"/>respiciunt omnia illa quae sunt ad 
+in<lb break="no" ed="#V" n="32"/>tra. Suntenim ibi plura instantia quam
+<lb ed="#V" n="33"/>unum, ut patet a Doctore supra d?s/. 2.
+<lb ed="#V" n="34"/>dist. 1. dist. 26. et sic antequam 
+com<lb break="no" ed="#V" n="35"/>paretur ad exira, prius intelligit 
+om<lb break="no" ed="#V" n="36"/>nia qua sunt ad intra, scilicet 
+essen<lb break="no" ed="#V" n="37"/>liam, attributa, proprietates 
+persona<lb break="no" ed="#V" n="38"/>les, personas, relationes communes.
+<lb ed="#V" n="39"/>Et post comparatur ad extra, et sic
+<lb ed="#V" n="40"/>debet intelligi illud secundum 
+ins<lb break="no" ed="#V" n="41"/>tans, in quo scilicet intellectus divinus
+<lb ed="#V" n="42"/>comparatur ad extra.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e2044">
+               <lb ed="#V" n="43"/>Item nota quod dicit, quod in illo
+<lb ed="#V" n="44"/>secundo instanti producit omnia in esse
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>intelligibili, debet sic intelligi, quod
+<lb ed="#V" n="46"/>antequam actus intellectus — divini
+<lb ed="#V" n="47"/>comparetur ad extra, creaturae nullum
+<lb ed="#V" n="48"/>esse habent, nec etiam secundum quid ;
+<lb ed="#V" n="49"/>sed actu suo facit illa in esse objectali,
+<lb ed="#V" n="50"/>id est, quod producit illa in esse 
+co<lb break="no" ed="#V" n="51"/>gnito, sic quod ante illud esse 
+cogni<lb break="no" ed="#V" n="52"/>tum nullum penitus esse habent, sed
+<lb ed="#V" n="53"/>hocc magis patet infra dist. 36. et dist.
+<lb ed="#V" n="54"/>423. et in 2. dist. 1. quast. 1.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e2075">
+               <lb ed="#V" n="55"/>Deinde eum dicit, quod forte 
+intel<lb break="no" ed="#V" n="56"/>lectus divinus, etc. Dubitatur quomodo
+<lb ed="#V" n="57"/>talis relatio rationis dicatur cognosci
+<lb ed="#V" n="58"/>ab intellectu divino, eum sit primum
+<lb ed="#V" n="59"/>ens rationis, et per consequens non
+<lb ed="#V" n="60"/>sit ibi ex natura rei, et proprie non
+<lb ed="#V" n="61"/>contineatur nec virtualiter nec 
+emi<lb break="no" ed="#V" n="62"/>nenter in Deo, nec intellectus divinus
+<lb ed="#V" n="63"/>possit aliquo modo cognoscere 
+abs<lb break="no" ed="#V" n="64"/>tractive, sed tantam intuitive. Vide
+<lb ed="#V" n="65"/>prolixam expositionem quam prius
+<lb ed="#V" n="66"/>feci, ubi singularia dubia sunt soluta,
+<lb ed="#V" n="67"/>etc. Pater ergo ex his quod si 
+rela<lb break="no" ed="#V" n="68"/>tiones aeterne ponantur in essentia
+<lb ed="#V" n="69"/>divina ad omnes creaturas, quod tales
+<lb ed="#V" n="70"/>relationes non sunt priores ipsis 
+ob<lb break="no" ed="#V" n="71"/>jectis cognitis, quia fiunt in tertio 
+ins<lb break="no" ed="#V" n="72"/>tanti. Et sic patet quomodo relatio 
+ra<lb break="no" ed="#V" n="73"/>tionisnon est necessaria ad 
+intelligen<lb break="no" ed="#V" n="74"/>dum lapidem tanquam prior lapide,
+<lb ed="#V" n="75"/>ut objectum. Imo ipsa, ut causata est
+<lb ed="#V" n="76"/>posterior, quia in tertio instanti, et
+<lb ed="#V" n="77"/>adhucerit posterior ut cognita, quia in
+<lb ed="#V" n="78"/>quarto instanti.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e2131">
+               <lb ed="#V" n="79"/>Ultimo dicit, quod ista via videtur
+<lb ed="#V" n="80"/>lenere istam propositionem, qua 
+vi<lb break="no" ed="#V" n="81"/>detur probabilis, quod relatio non 
+na<lb break="no" ed="#V" n="82"/>turaliter cognoscitur nisi cognito 
+ter<lb break="no" ed="#V" n="83"/>mino. Hoc magis supra patuit in 
+pro<lb break="no" ed="#V" n="84"/>logo quaest. 1. et patet diffuse in 
+quod<lb break="no" ed="#V" n="85"/>lib. quaest. 14. Et quomodo cognitio
+<lb ed="#V" n="86"/>relationis dependeat a termino, 
+expo<lb break="no" ed="#V" n="87"/>sui supra dist. 3. quaest. 3.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e2153">
+               <lb ed="#V" n="88"/>Sed hic occurrit dubium, quia dicit
+<pb ed="#V" n="553"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>quod relatio non potest cognosci nisi
+<lb ed="#V" n="2"/>termino praecognito, et expresse dicit
+<lb ed="#V" n="3"/>in prologo quast. penultim. quod 
+co<lb break="no" ed="#V" n="4"/>gnitio relationis dependet a 
+cogni<lb break="no" ed="#V" n="5"/>lione terminorum ; hoc idem in isto 1.
+<lb ed="#V" n="6"/>quest. 2. dist. 8. hoc idem ix quodlib.
+<lb ed="#V" n="7"/>quast. 14. ergo ex his sequitur quod
+<lb ed="#V" n="8"/>cognitio relationis quam cognoscit 
+in<lb break="no" ed="#V" n="9"/>tellectus divinus, ex quo terminatur
+<lb ed="#V" n="10"/>ad creaturam, non poterit cognosci
+<lb ed="#V" n="11"/>sine creatura, et sic dependebit a 
+cre<lb break="no" ed="#V" n="12"/>atura, quod est falsum, et contra 
+ip<lb break="no" ed="#V" n="13"/>sum in prologo quast. penultim. et in
+<lb ed="#V" n="14"/>quodlib. quest. 15.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e2192">
+               <lb ed="#V" n="15"/>Respondeo, quod licet relationis 
+co<lb break="no" ed="#V" n="16"/>gnitio dependeat a fundamento et 
+ter<lb break="no" ed="#V" n="17"/>"mino sicut in esse, ita et in cognosci ;
+<lb ed="#V" n="18"/>talis tamen cognitio poterit causari
+<lb ed="#V" n="19"/>ab aliquo virtualiter continente 
+ter<lb break="no" ed="#V" n="20"/>minum et fundamentum secundum
+<lb ed="#V" n="21"/>totam suam entitatem, ipsa tamen
+<lb ed="#V" n="22"/>cognitio non poterit haberi, nisi 
+pre<lb break="no" ed="#V" n="23"/>cognitis fundamento et termino.
+<lb ed="#V" n="24"/>Quamvis enim intellectus divinus
+<lb ed="#V" n="25"/>possit vere causare cognitionem 
+pa<lb break="no" ed="#V" n="26"/>ternitatis, non tamen poterit 
+cognos<lb break="no" ed="#V" n="27"/>cere distincte paternitatem, nisi 
+pre<lb break="no" ed="#V" n="28"/>cognoscat terminum et fundamentum,
+<lb ed="#V" n="29"/>quia cognoscere paternitatem in se,
+<lb ed="#V" n="30"/>et non cognoscere esse ad aliquid, est
+<lb ed="#V" n="31"/>nou cognoscere paternitatem. Sic 
+di<lb break="no" ed="#V" n="32"/>co in proposito, quamvis cognitio 
+il<lb break="no" ed="#V" n="33"/>lius relationis sit tantum a Deo, ipsam
+<lb ed="#V" n="34"/>non potest distincte cognoscere, nisi
+<lb ed="#V" n="35"/>praecognita ipsa creatura ad quam
+<lb ed="#V" n="36"/>terminatur ; continet enim virtualiter
+<lb ed="#V" n="37"/>secundum totam entitatem omnem
+<lb ed="#V" n="38"/>creaturam in quocumque esse, sive
+<lb ed="#V" n="39"/>reali sive secundum quid, et sic patet
+<lb ed="#V" n="40"/>quomodo Doctor non contradicit sibi
+<lb ed="#V" n="41"/>in aliquo.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e2253">
+               <lb ed="#V" n="42"/>(q) Contra istud arguitur. Hic 
+Doc<lb break="no" ed="#V" n="43"/>tor arguit probando quod ideae sint
+<lb ed="#V" n="44"/>relationes, et quod sint in Deo ante-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>quam intelligantur objecta 
+secunda<lb break="no" ed="#V" n="46"/>ria.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e2269">
+               <lb ed="#V" n="47"/>Item, qua sunt divisa in inferioribus,
+<lb ed="#V" n="48"/>qua sunt alterius rationis, non. 
+redu<lb break="no" ed="#V" n="49"/>euntur ad aliquid unum in superiori,
+<lb ed="#V" n="50"/>ad unum dico formaliter et ejusdem
+<lb ed="#V" n="51"/>rationis, ut patet de intellectu et 
+vo<lb break="no" ed="#V" n="52"/>luntate in nobis et in Deo ; ergo sicut
+<lb ed="#V" n="53"/>intellectus in. nobis secundum suam
+<lb ed="#V" n="54"/>formalem rationem est passivus, ila
+<lb ed="#V" n="55"/>erit in Deo, et per consequens oportet
+<lb ed="#V" n="56"/>sibi dare aliquam formam antequam
+<lb ed="#V" n="57"/>operetur actu, etc.
+</p>
+            <!--</div>
+<div alias="lycht-d35q1-p5">-->
+            <p xml:id="mm30o9-d1e1259-d1e2298">
+               <lb ed="#V" n="15" type="fixed=557"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e2303">
+               <lb ed="#V" n="16"/>(a) Ad ista. Sententia Augustini, etc.
+<lb ed="#V" n="17"/>Hic Doctor exponit mentem propriam
+<lb ed="#V" n="18"/>quid sit idea, ipsam declarando per
+<lb ed="#V" n="19"/>dicta Augustini, et exponit omnes
+<lb ed="#V" n="20"/>parliceulas. Probatio prima particule,
+<lb ed="#V" n="21"/>scilicet quod idea sit ratio aeterna in
+<lb ed="#V" n="22"/>mente divina, et probat sic : Deus 
+om<lb break="no" ed="#V" n="23"/>nia potest causare rationabiliter, id est,
+<lb ed="#V" n="24"/>intelligendo et videndo, ut. supra 
+pa<lb break="no" ed="#V" n="25"/>tuit dist. 2. quast. 1. quia est 
+impos<lb break="no" ed="#V" n="26"/>sibile Deum aliquid causare ad extra,
+<lb ed="#V" n="27"/>nisi preintelligat illud, et voluntas
+<lb ed="#V" n="28"/>velit, ut infra etiam patebit dist. 39.
+<lb ed="#V" n="29"/>et 45. [gitur habet rationem. secundum
+<lb ed="#V" n="30"/>quam format, id est, si Deus causat A,
+<lb ed="#V" n="31"/>intelligendo illud et volendo, oportet
+<lb ed="#V" n="32"/>quod prius habeat objectum creabile
+<lb ed="#V" n="33"/>praesens non in se nec in memoria
+<lb ed="#V" n="34"/>est natura rei, sed tantum in esse 
+co<lb break="no" ed="#V" n="35"/>gnito, et illud esse cognitum vocat
+<lb ed="#V" n="36"/>rationem, secundum quam format, ut
+<lb ed="#V" n="37"/>patet in 2. dist. 1. quaest. 1. Sequitur:
+<lb ed="#V" n="38"/>Non autem eamdem, scilicet rationem
+<lb ed="#V" n="39"/>omnium, supple causabilium, sed 
+szn<lb break="no" ed="#V" n="40"/>gula causabilia propriis rationibus 
+for<lb break="no" ed="#V" n="41"/>mat, id est, quod omne causabile a
+<lb ed="#V" n="42"/>voluntate divina habet prius esse co-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>gnitum, et tale esse cognitum (ut dixi)
+<lb ed="#V" n="44"/>vocatur ratio. Et quia non potest distinc:-
+<lb ed="#V" n="45"/>la causabilia causare nisi 
+priecognos<lb break="no" ed="#V" n="46"/>cat illa, ideo singulum causabile a 
+vo<lb break="no" ed="#V" n="47"/>luntate divina est prius cognitum ab
+<lb ed="#V" n="48"/>intellectu divino ; ergo quodlibet 
+cau<lb break="no" ed="#V" n="49"/>sabile habet in mente divina propriam
+<lb ed="#V" n="50"/>rationem, id est, proprium esse 
+co<lb break="no" ed="#V" n="51"/>gnitum. Sequitur : Von autem 
+rationi<lb break="no" ed="#V" n="52"/>bus extra se, quia non eget in 
+efficien<lb break="no" ed="#V" n="53"/>do aliquo alio a se, id est, quod iste
+<lb ed="#V" n="54"/>rationes sic necessarie ad causandum
+<lb ed="#V" n="55"/>non sunt extra intellectum divinum,
+<lb ed="#V" n="56"/>supple in esse reali, quia  tunc 
+cau<lb break="no" ed="#V" n="57"/>sando dependeret ab aliquo ente reali
+<lb ed="#V" n="58"/>extra se, quod est impossibile, sed
+<lb ed="#V" n="59"/>sunt in intellectu divino tantum in
+<lb ed="#V" n="60"/>esse objectivo et non ex natura rei,
+<lb ed="#V" n="61"/>quia  tunc intellectus divinus 
+vilesce<lb break="no" ed="#V" n="62"/>ret; sed tantum sunt ibi per actum
+<lb ed="#V" n="63"/>intellectus divini necessario 
+causan<lb break="no" ed="#V" n="64"/>tis talia causabilia in esse cognito, ut
+<lb ed="#V" n="65"/>supra patuit, et sic hujusmodi esse
+<lb ed="#V" n="66"/>cognita dicuntur rationes in mente 
+di<lb break="no" ed="#V" n="67"/>vina, non quod sint idem realiter,
+<lb ed="#V" n="68"/>cum illasint tantum ibi, sicut 
+cogni<lb break="no" ed="#V" n="69"/>tum in cognoscente objective. 
+Sequi<lb break="no" ed="#V" n="70"/>tur: Nihil autem est in mente. divina
+<lb ed="#V" n="71"/>nisi incommutabile, id est, quod tale
+<lb ed="#V" n="72"/>esse cognitum, ut est in mente divina
+<lb ed="#V" n="73"/>est incommutabile. Hoc prolixe 
+expo<lb break="no" ed="#V" n="74"/>situm est supra dist. 3. quest. 4. de
+<lb ed="#V" n="75"/>sinceris veritatibus. Sequitur : ergo
+<lb ed="#V" n="76"/>omne formabile,id est, omne 
+causa<lb break="no" ed="#V" n="77"/>bile, potest formare, id' est, secundum
+<lb ed="#V" n="78"/>proprium esse cognitum aeternum in
+<lb ed="#V" n="79"/>mente divina. Nam omnia objecta 
+se<lb break="no" ed="#V" n="80"/>eundaria prius omni actu voluntatis
+<lb ed="#V" n="81"/>ad extra producuntur ab intellectu 
+di<lb break="no" ed="#V" n="82"/>vino de necessitate nature, ut supra
+<lb ed="#V" n="83"/>patuit dist. 3. q. de sinceris veritatibus,
+<lb ed="#V" n="84"/>et sic patet.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e2457">
+               <lb ed="#V" n="85"/>(b) Istud videtur consonare cum dicto
+<lb ed="#V" n="86"/>Platonis. In ista littera occurrunt ali-
+<pb ed="#V" n="558"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>quae difficultates. Prima in hoc quod
+<lb ed="#V" n="2"/>dicit, quod esse cognitum lapidis ut
+<lb ed="#V" n="3"/>causabilis, est $1atio aeterna in mente
+<lb ed="#V" n="4"/>divina, id est, quod tale esse cognitum
+<lb ed="#V" n="5"/>necessario praecedit quid sit illud esse
+<lb ed="#V" n="6"/>cognitum, an sit. esse quidditativum
+<lb ed="#V" n="7"/>rei, et tunc tale esse erit unum per 
+ac<lb break="no" ed="#V" n="8"/>cidens ; et sic de illo nihil per se 
+po<lb break="no" ed="#V" n="9"/>test praedicari, ut patet a Doctore 
+su<lb break="no" ed="#V" n="10"/>pra dist. 2. q. 2. et in 3. dist. T. Et sic
+<lb ed="#V" n="11"/>omnes propositiones de quidditatibus
+<lb ed="#V" n="12"/>erunt per accidens, et nulle erunt. in
+<lb ed="#V" n="13"/>primo modo dicendi per se, aut 
+hu<lb break="no" ed="#V" n="14"/>jusmodi quidditates dicunt  esse 
+possi<lb break="no" ed="#V" n="15"/>bile rei praecedens esse cognitum, et
+<lb ed="#V" n="16"/>hoc non. ut infra patebit, dis/. 36. ef
+<lb ed="#V" n="17"/>43.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e2505">
+               <lb ed="#V" n="18"/>Secundo dubitatur in hoc quod 
+di<lb break="no" ed="#V" n="19"/>cit, quod respectu omnis causabilis
+<lb ed="#V" n="20"/>praecedit ratio, secundum quam illud
+<lb ed="#V" n="21"/>est causabile, et talis ratio dicitur
+<lb ed="#V" n="22"/>idea ; ergo videtur sibi contradicere,
+<lb ed="#V" n="23"/>quia vult expresse, ut patebit infra
+<lb ed="#V" n="24"/>dist. 39. contra D. Bonaventuram,
+<lb ed="#V" n="25"/>quod idea est tantum respectu 
+neces<lb break="no" ed="#V" n="26"/>sariorum et non respectu 
+contingen<lb break="no" ed="#V" n="27"/>tium. Modo causabile est contingens,
+<lb ed="#V" n="28"/>eum illud sit producibile in actuali
+<lb ed="#V" n="29"/>existentia ; ergo lapis ut existens, 
+ha<lb break="no" ed="#V" n="30"/>bet ideam in mente divina.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e2536">
+               <lb ed="#V" n="31"/>Tum etiam videtur sibi contradicere
+<lb ed="#V" n="32"/>in hoc quod dicit, quod reale causabile
+<lb ed="#V" n="33"/>habet rationem in mente divina, 
+se<lb break="no" ed="#V" n="34"/>cundum quam voluntas divina potest
+<lb ed="#V" n="35"/>illud causare, et sic tale esse cognitum
+<lb ed="#V" n="36"/>necessario praecedit hoc quod est 
+cau<lb break="no" ed="#V" n="37"/>sabilea voluntate divina. Et 
+contra<lb break="no" ed="#V" n="38"/>dicit his qua supra dixit in quaest. ult.
+<lb ed="#V" n="39"/>prolog. ubi vult quod voluntas divina
+<lb ed="#V" n="40"/>prius determinet aliquid fore quam
+<lb ed="#V" n="41"/>intellectus divinus intelligat illud fore,
+<lb ed="#V" n="42"/>hoc idem patet infra 4. 39. et sic 
+vide<lb break="no" ed="#V" n="43"/>tur sibi contradicere.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e2567">
+               <lb ed="#V" n="44"/>Item dubitatur, quia ponit ipsum
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>esse cognitum sive ideas esse in mente
+<lb ed="#V" n="46"/>divina, et quod ut ibi habet relationem
+<lb ed="#V" n="47"/>dependentiae ad actum intellectus 
+di<lb break="no" ed="#V" n="48"/>vini, ut supra patuit. Tunc quaero,
+<lb ed="#V" n="49"/>quam relationem habet. Si rationis,
+<lb ed="#V" n="50"/>ergo et lapis, ut sic, fundans 
+hujus<lb break="no" ed="#V" n="51"/>modi relationem, erit tantum ens 
+ra<lb break="no" ed="#V" n="52"/>tionis, patet, quia talis relatio non 
+po<lb break="no" ed="#V" n="53"/>neretur distingui ab ipso lapide 
+co<lb break="no" ed="#V" n="54"/>gnito, sicut nec dependentia creature
+<lb ed="#V" n="55"/>in esse reali ponitur distingui realiter
+<lb ed="#V" n="56"/>ab ipsa, ut patet a Doctore in 2. dist. 1.
+<lb ed="#V" n="57"/>Tum etiam, quia talis relatio esset
+<lb ed="#V" n="58"/>causata ab aliquo, et hoc tantum.ab
+<lb ed="#V" n="59"/>intellectu divino; ergo per actum 
+tan<lb break="no" ed="#V" n="60"/>tum cpllativum ; ergo prius creatura
+<lb ed="#V" n="61"/>habet esse cognitum quam 
+compare<lb break="no" ed="#V" n="62"/>tur, et in tali esse cognito vere 
+depen<lb break="no" ed="#V" n="63"/>det ab actu intellectus divini, ergo. Si
+<lb ed="#V" n="64"/>ponitur relatio realis, ergo creatura
+<lb ed="#V" n="65"/>fundans illam ab aeterno habet esse
+<lb ed="#V" n="66"/>reale, et sic existit ab aeterno, quod est
+<lb ed="#V" n="67"/>impossibile ; non enim ens reale 
+po<lb break="no" ed="#V" n="68"/>test fundari in ente non reali, ut 
+pa<lb break="no" ed="#V" n="69"/>tet. Tum etiam, quia essentia et 
+exis<lb break="no" ed="#V" n="70"/>tentia sunt idem realiter, ut patet a
+<lb ed="#V" n="71"/>Doctore in 2.4. 1. ergo nec habuit
+<lb ed="#V" n="72"/>esse realis essentia, et tanc quaero esse
+<lb ed="#V" n="73"/>cognitum, quod esse habet? si esse
+<lb ed="#V" n="74"/>tantum rationis, ergo non fundat 
+re<lb break="no" ed="#V" n="75"/>lationem realem. Si esse reale 
+praece<lb break="no" ed="#V" n="76"/>dens existentiam, et hoc non, ut 
+pa<lb break="no" ed="#V" n="77"/>tebit infra a Doctore dist. 36.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e2646">
+               <lb ed="#V" n="78"/>Tum etiam, quia si tale esse 
+cogni<lb break="no" ed="#V" n="79"/>tum habet tantum esse secundum quid
+<lb ed="#V" n="80"/>et non esse reale, sequitur quod non
+<lb ed="#V" n="81"/>erit differentia inter lapidem cognitum
+<lb ed="#V" n="82"/>et intentionem secundam. Et mulia
+<lb ed="#V" n="83"/>alia possent adduci, qua transeo pro
+<lb ed="#V" n="84"/>nunc.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e2664">
+               <lb ed="#V" n="85"/>Respondeo ad primum dubium, ut
+<lb ed="#V" n="86"/>exposui in secundo dist. 1. quomodo
+<lb ed="#V" n="87"/>esse et essentia distinguuntur, vide
+<lb ed="#V" n="88"/>ibi. Dico secundo, quod tale esse. quod
+<pb ed="#V" n="559"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>dicitur ab aeterno esse quidditativum,
+<lb ed="#V" n="2"/>est esse possibile, quod esse possibile
+<lb ed="#V" n="3"/>fundatur in esse cognito, ut infra 
+pa<lb break="no" ed="#V" n="4"/>tebit, dst. 36. Intellectus enim 
+divi<lb break="no" ed="#V" n="5"/>nus prius producit rem in esse 
+cogni<lb break="no" ed="#V" n="6"/>to, et post in esse possibili. Unde 
+Do<lb break="no" ed="#V" n="7"/>etor infra dist. 43. probat quod 
+possi<lb break="no" ed="#V" n="8"/>bilitas rerum est primo ab actu 
+intel<lb break="no" ed="#V" n="9"/>lectus divini.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e2699">
+               <lb ed="#V" n="10"/>Ad secundum dubium dico, 
+prae<lb break="no" ed="#V" n="11"/>mittendo aliqua. Primum, quod idea
+<lb ed="#V" n="12"/>proprie respicit terminos, ita quod
+<lb ed="#V" n="13"/>termini in esse cognito dicuntur ide,
+<lb ed="#V" n="14"/>et non sunt propria respectu 
+proposi<lb break="no" ed="#V" n="15"/>tionum, nisi forte necessariarum, ut
+<lb ed="#V" n="16"/>infra patebit, dist. 39. Secundum,
+<lb ed="#V" n="17"/>quod esse existentice, puta lapidis, habet
+<lb ed="#V" n="18"/>ideam, ita quod in mente divina non
+<lb ed="#V" n="19"/>tantum fuit ab adeterno esse cognitum
+<lb ed="#V" n="20"/>lapidis inquantum lapidis, sed etiam
+<lb ed="#V" n="21"/>ab aeterno fuit esse cognitum esse 
+exis<lb break="no" ed="#V" n="22"/>tentiae aptitudinalis, et ab aeterno ante
+<lb ed="#V" n="23"/>omnem actum voluntatis divina ista
+<lb ed="#V" n="24"/>fuit cognita: lapis est aptus natus 
+exis<lb break="no" ed="#V" n="25"/>tere. Sed quod lapis actu existat 
+tan<lb break="no" ed="#V" n="26"/>tum fuit cognitum post 
+determinatio<lb break="no" ed="#V" n="27"/>nem divine voluntatis, quae 
+determi<lb break="no" ed="#V" n="28"/>navit producere lapidem in esse 
+ac<lb break="no" ed="#V" n="29"/>tualis existentia, et sic praecessit 
+tan<lb break="no" ed="#V" n="30"/>tum cognitio terminorum. Et similiter
+<lb ed="#V" n="31"/>ab aeterno ante omnem actum 
+volun<lb break="no" ed="#V" n="32"/>tatis divinae ad extra intellectus 
+divi<lb break="no" ed="#V" n="33"/>nus cognovit Joannem, et etiam 
+dis<lb break="no" ed="#V" n="34"/>tinete cognovit albedinem, et isti 
+ter<lb break="no" ed="#V" n="35"/>mini, ut sic dicuntur proprie ideati ;
+<lb ed="#V" n="36"/>sed quod Joannes erit albus in tali,
+<lb ed="#V" n="37"/>vel tali tempore, cognovit post 
+deter<lb break="no" ed="#V" n="38"/>minationem divine voluntatis. 
+Vo<lb break="no" ed="#V" n="39"/>luntas enim divina necessario 
+praesup<lb break="no" ed="#V" n="40"/>ponit cognitionem terminorum 
+pro<lb break="no" ed="#V" n="41"/>positionis contingentis, sed non 
+pre<lb break="no" ed="#V" n="42"/>supponit cognitionem — propositionis
+<lb ed="#V" n="43"/>contingentis ; illa enim sequitur 
+de<lb break="no" ed="#V" n="44"/>terminationem voluntatis divine, ut
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>patebit infra dist. 38. et 39. et Doctor
+<lb ed="#V" n="46"/>loquitur de causabili, etc. Et hoc 
+mo<lb break="no" ed="#V" n="47"/>do intelligendus est Scotus in qwast.
+<lb ed="#V" n="48"/>ult. prolog. Ex his patet responsio ad
+<lb ed="#V" n="49"/>aliud dubium, videlicet quomodo idea
+<lb ed="#V" n="50"/>dicatur prior determinatione 
+volunta<lb break="no" ed="#V" n="51"/>tis divine, quia respectu 
+contingen<lb break="no" ed="#V" n="52"/>tium tantum esse cognitum 
+termino<lb break="no" ed="#V" n="53"/>rum vocatur proprie idea, et tale esse
+<lb ed="#V" n="54"/>praecedit simpliciter actum voluntatis
+<lb ed="#V" n="55"/>divine, ut comparatur ad extra.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e2803">
+               <lb ed="#V" n="56"/>Ad aliud dubium de relatione. Dico,
+<lb ed="#V" n="57"/>quod relatio rationis potest 
+multiplici<lb break="no" ed="#V" n="58"/>ter intelligi. Uno modo, quod tantum
+<lb ed="#V" n="59"/>fiat ex comparatione duorum 
+objecto<lb break="no" ed="#V" n="60"/>rum cognitorum, ut communiter fiunt
+<lb ed="#V" n="61"/>secunde intentiones. Aliquando non
+<lb ed="#V" n="62"/>fit ex tali comparatione, sed quia sic
+<lb ed="#V" n="63"/>denominatur tale, quia aliud 
+termina<lb break="no" ed="#V" n="64"/>tur ad ipsum, sicut dicimus quod Ja.
+<lb ed="#V" n="65"/>pis est visus. Aliquando etiam dicitur
+<lb ed="#V" n="66"/>relatio realis, quia actu est inter 
+ex<lb break="no" ed="#V" n="67"/>trema realia et realiter distincta, et
+<lb ed="#V" n="68"/>hocc ex natura rei. Aliquando, quia est
+<lb ed="#V" n="69"/>inter extrema non actu existentia, sed
+<lb ed="#V" n="70"/>apta nata existere. Aliquando quia est
+<lb ed="#V" n="71"/>inter extrema, quorum unum actu
+<lb ed="#V" n="72"/>existit, quod est tantum terminus talis
+<lb ed="#V" n="73"/>relationis, et aliud est tantum aptum
+<lb ed="#V" n="74"/>natum existere, ut in proposito, 
+rela<lb break="no" ed="#V" n="75"/>tio lapidis aeternaliter cogniti 
+termi<lb break="no" ed="#V" n="76"/>nata ad actum intellectus divini. Et
+<lb ed="#V" n="77"/>hoc ultimo modo ponitur relatio inter
+<lb ed="#V" n="78"/>ideam et actum intellectus divini, et
+<lb ed="#V" n="79"/>sic partim potest dici realis. Tum quia
+<lb ed="#V" n="80"/>terminatur ad actum intellectus 
+di<lb break="no" ed="#V" n="81"/>vinl, et hoc sub ratione absoluta.
+<lb ed="#V" n="82"/>Tum quia fundatur in aliquo, quod
+<lb ed="#V" n="83"/>licet non sit actu existens, tamen est
+<lb ed="#V" n="84"/>aptum natum existere, et hoc etiam
+<lb ed="#V" n="85"/>quia oritur ex natura extremorum.
+<lb ed="#V" n="86"/>Tamen non dicitur proprie realis, quia
+<lb ed="#V" n="87"/>ex natura rei non consequitur 
+funda<lb break="no" ed="#V" n="88"/>mentum reale actu existens. Et sic
+<pb ed="#V" n="560"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>quia magis recedit ab esse existentiae
+<lb ed="#V" n="2"/>fundamenti, et accedit ad 0^ esse
+<lb ed="#V" n="3"/>existentiae, ideo quoad hoc potest dici
+<lb ed="#V" n="4"/>rationis per illad argumentum, quod
+<lb ed="#V" n="5"/>facit Doctor supra in prolog. q. utt. de
+<lb ed="#V" n="6"/>scientia vere practica, quod quwan/o
+<lb ed="#V" n="7"/>aliquid recedit ab uno extremo et 
+appro<lb break="no" ed="#V" n="8"/>pinquat ad aliud, etc.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e2899">
+               <lb ed="#V" n="9"/>Ad ultimum dico quod est magna
+<lb ed="#V" n="10"/>differentia inter lapidem cognitum et
+<lb ed="#V" n="11"/>secundam intentionem, quia lapidi
+<lb ed="#V" n="12"/>cognito non repugnat esse realis 
+exis<lb break="no" ed="#V" n="13"/>tentice ; imo per definitionem lapidis 
+po<lb break="no" ed="#V" n="14"/>test demonstrari de lapide quod non
+<lb ed="#V" n="15"/>repugnat lapidi actualis existentia, ut
+<lb ed="#V" n="16"/>patet a Doctore in secundo dist. 1.
+<lb ed="#V" n="17"/>quast. 3. Sed secunde intentioni 
+re<lb break="no" ed="#V" n="18"/>pugnat realiter posse existere, nam
+<lb ed="#V" n="19"/>ratio formalis secunde intentionis est
+<lb ed="#V" n="20"/>rationaliter repugnans actuali 
+existen<lb break="no" ed="#V" n="21"/>tie iplius. Et sic patet differentia 
+la<lb break="no" ed="#V" n="22"/>pidis cogniti ut cogniti et secunde 
+in<lb break="no" ed="#V" n="23"/>tentionis, ut alias exposui. Et sic 
+pa<lb break="no" ed="#V" n="24"/>tet responsio ad ista dubia.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e2936">
+               <lb ed="#V" n="25"/>(c) Hoc posito non oportet laborare,
+<lb ed="#V" n="26"/>ete. Nunc Doctor respondet ad 
+argu<lb break="no" ed="#V" n="27"/>menta prius facta. Et primo ad 
+Au<lb break="no" ed="#V" n="28"/>gustinum. Responsio stat in hoc,
+<lb ed="#V" n="29"/>quod nemo est plene sapiens nisi
+<lb ed="#V" n="30"/>etiam cognoscat ideas, licet enim
+<lb ed="#V" n="31"/>principalis sapientia sit in essentia,
+<lb ed="#V" n="32"/>non tamen potest dici plena, nisi
+<lb ed="#V" n="33"/>etiam idee cognoscantur. Et addit,
+<lb ed="#V" n="34"/>quod ponitur Deus perfecte sapiens
+<lb ed="#V" n="35"/>in primo instanti, videlicet in quo
+<lb ed="#V" n="36"/>cognoscit essenfiam divinam et 
+om<lb break="no" ed="#V" n="37"/>nia intrinseca. Et si per possibile vel
+<lb ed="#V" n="38"/>impossibile nihil aliud cognosceret,
+<lb ed="#V" n="39"/>adhucdiceretur perfectissime sapiens,
+<lb ed="#V" n="40"/>non tamen diceretur plene sapiens, et
+<lb ed="#V" n="41"/>hoc extensive, nisi etiam cognosceret
+<lb ed="#V" n="42"/>in secundo instanti (in quo 
+compara<lb break="no" ed="#V" n="43"/>tur ad extra) omnes ideas. Si tamen
+<lb ed="#V" n="44"/>non cognosceret ens, nihil minus in-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>tensive esset perfectissime sapiens,
+<lb ed="#V" n="46"/>quia tota perfectio intensiva 
+cogni<lb break="no" ed="#V" n="47"/>tionis Dei est ab essentia divina, et
+<lb ed="#V" n="48"/>nullo modo a creaturis, ut patet.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e2994">
+               <lb ed="#V" n="49"/>(d) Et si Augustinus aliquando 
+loqua<lb break="no" ed="#V" n="50"/>tur, etc. Vult dicere, quod etsi 
+nomi<lb break="no" ed="#V" n="51"/>net ideas esse rationes cognoscendi,
+<lb ed="#V" n="52"/>non debet intelligi quod maneant in
+<lb ed="#V" n="53"/>intellectu divino, sic quod moveant
+<lb ed="#V" n="54"/>intellectum divinum vel quod sint
+<lb ed="#V" n="55"/>*vcausoc intellectionis earum, sed quod
+<lb ed="#V" n="56"/>tantum sint objecta, qua intelliguntur
+<lb ed="#V" n="57"/>et non movent ; sed divina essentia
+<lb ed="#V" n="58"/>movet ad notitiam earum, ut exposui
+<lb ed="#V" n="59"/>supra. Et sic dicuntur tantum objecta
+<lb ed="#V" n="60"/>secundaria, non moventia intellectum
+<lb ed="#V" n="61"/>divinum ad earum cognitionem, sed
+<lb ed="#V" n="62"/>quod tantum sint terminantia 
+cogni<lb break="no" ed="#V" n="63"/>tionem divinam.
+</p>
+            <p xml:id="mm30o9-d1e1259-d1e3029">
+               <lb ed="#V" n="64"/>(e) Ad secundum qualiter. Ad 
+secun<lb break="no" ed="#V" n="65"/>dum de intellectu passivo, quomodo
+<lb ed="#V" n="66"/>dieatur passivus in nobis, aliqualiter
+<lb ed="#V" n="67"/>dictum est supra in quest. 1. nrolog. et
+<lb ed="#V" n="68"/>dist. 3. quest. 7. et prolixius vide n
+<lb ed="#V" n="69"/>quodlib. quest. 15. Est enim vere 
+pas<lb break="no" ed="#V" n="70"/>sivus quantum ad hoc, quia 
+recepti<lb break="no" ed="#V" n="71"/>vus speciei intelligibilis, et etiam 
+in<lb break="no" ed="#V" n="72"/>tellectionis, ut supra patuit qst. 3.
+<lb ed="#V" n="73"/>quast. 6. et T. De intellectu autem di--
+<lb ed="#V" n="74"/>vino, patet quod non dicitur proprie
+<lb ed="#V" n="75"/>passivus. Nullius enim est receptivus,
+<lb ed="#V" n="76"/>quia recipere proprie est respectu 
+re<lb break="no" ed="#V" n="77"/>cepli realiter distincti, et hoc non
+<lb ed="#V" n="78"/>contingitin intellectu divino, ut patet.
+<lb ed="#V" n="79"/>Potest tamen  impropriissime dici
+<lb ed="#V" n="80"/>quasi passivus, id est, quasi receptivus
+<lb ed="#V" n="81"/>intellectionis. Declarat tamen litteram
+<lb ed="#V" n="82"/>sequentem, cum dicit quod essentia
+<lb ed="#V" n="83"/>divina est quasi forma qua intellectus
+<lb ed="#V" n="84"/>divinus operatur, quia ipsa est ratio
+<lb ed="#V" n="85"/>cognoscendi, non tantum ipsammet,
+<lb ed="#V" n="86"/>sed etiam est ratio cognoscendi omne
+<lb ed="#V" n="87"/>aliud sub quaecumque ratione 
+cognos<lb break="no" ed="#V" n="88"/>cibili, et hoc isto modo intelligendo.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

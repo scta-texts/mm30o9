@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#per-FLBca3">Franciscus Lychetus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2024-08-23">August 23, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 10</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-08-23" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="606"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="mm30o9-d1e1311"><!-- lycht-d38q1-p2 -->
+            <head xml:id="mm30o9-d1e1311-Hd1e101">Quaestio 1</head>
+            <p xml:id="mm30o9-d1e1311-d1e103">
+               <pb ed="#V" n="606"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1" type="fixed=606"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1311-d1e112">
+               <lb ed="#V" n="2"/>(a) Et ex hoc sciendum ulterius, quod
+<lb ed="#V" n="3"/>licet cognitio practica actualissima et
+<lb ed="#V" n="4"/>procüna prazi sid aliqua. scientia de
+<lb ed="#V" n="5"/>praxi elicienda, puta — judicium — de
+<lb ed="#V" n="6"/>conclusione syllogismi practici.. 
+Ju<lb break="no" ed="#V" n="7"/>dicium enim de conclusione est 
+co<lb break="no" ed="#V" n="8"/>gnitio, qua intellectus assentit illi
+<lb ed="#V" n="9"/>conclusioni, qui cognitio dicitur 
+pro<lb break="no" ed="#V" n="10"/>priissime practica. Exemplum, cum
+<lb ed="#V" n="11"/>per diseursum syllogisticum 
+conclu<lb break="no" ed="#V" n="12"/>do quod talis herba est medium 
+or<lb break="no" ed="#V" n="13"/>dinatum ad sanitatem acquirendam,
+<lb ed="#V" n="14"/>talis cognitio de illo medio dicitur 
+pro<lb break="no" ed="#V" n="15"/>prie practica et judicium de 
+conclu<lb break="no" ed="#V" n="16"/>sione. Judicium enim proprie est de
+<lb ed="#V" n="17"/>particularibus, ut patebit infra dist.
+<lb ed="#V" n="18"/>44. Sequitur: Qwee conclusio finis est
+<lb ed="#V" n="19"/>motus intelligentiae, sed ab ea incipit
+<lb ed="#V" n="20"/>operatio, id est, quod conclusio est
+<lb ed="#V" n="21"/>proprie finis discursus syllogistiei, et
+<lb ed="#V" n="22"/>sic motus intelligenti; dicitur 
+diseur<lb break="no" ed="#V" n="23"/>sus. Habita ergo conclusione ut fine,
+<lb ed="#V" n="24"/>discursus ab ea incipit operari, quia
+<lb ed="#V" n="25"/>cum talis cognitio conclusionis dictet
+<lb ed="#V" n="26"/>voluntati hoc esse eligendum,  tunc 
+vo<lb break="no" ed="#V" n="27"/>luntas potest incipere recte operari.
+<lb ed="#V" n="28"/>De qua cognitione propriissime 
+prac<lb break="no" ed="#V" n="29"/>tica, in quaestione de praxi 
+responden<lb break="no" ed="#V" n="30"/>do ad argumenta pro opinione 
+Hen<lb break="no" ed="#V" n="31"/>rici prolixe patet. Sequitur : Sed etiam
+<lb ed="#V" n="32"/>cognitio principiorum practicorum, quae
+<lb ed="#V" n="33"/>virtualiter continet istam, id est, quod
+<lb ed="#V" n="34"/>cognitiotalium principiorum, qua 
+co<lb break="no" ed="#V" n="35"/>gnitio continet virtualiter cognitionem
+<lb ed="#V" n="36"/>conclusionis, dicitur practica cognitio,
+<lb ed="#V" n="37"/>licet tamen non ita proprie. Sequitur:
+<lb ed="#V" n="38"/>Et etiam cognitio quidditativa 
+termino<lb break="no" ed="#V" n="39"/>rum, id est, qua cognosco quidditative
+<lb ed="#V" n="40"/>terminos principiorum  practicorum,
+<lb ed="#V" n="41"/>que cognitio terminorum continet 
+vir<lb break="no" ed="#V" n="42"/>tualiter cognitionem principiorum ; ta-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>lis cognitio terminorum adhuc dicitur
+<lb ed="#V" n="44"/>praetiea, et minus proprie quam 
+co<lb break="no" ed="#V" n="45"/>gnilio principiorum, quia talis 
+cogni<lb break="no" ed="#V" n="46"/>lio plus recedita vera cognitione 
+prac<lb break="no" ed="#V" n="47"/>liea, quae est cognitio conclusionis,
+<lb ed="#V" n="48"/>ut potest patere a Doctore ubi supra
+<lb ed="#V" n="49"/>in questione de praxi.
+</p>
+            <p xml:id="mm30o9-d1e1311-d1e221">
+               <lb ed="#V" n="50"/>(b) Hic instatur primo, etc. et tunc
+<lb ed="#V" n="51"/>posset esse non recta, quia si 
+impera<lb break="no" ed="#V" n="52"/>ret intellectui, ne specularetur 
+facien<lb break="no" ed="#V" n="53"/>da et regulanda,  tunc esset non recta,
+<lb ed="#V" n="54"/>sicut voluntas mea, si imperaret 
+intel<lb break="no" ed="#V" n="55"/>leetui non speculari ordinata ad 
+ulti<lb break="no" ed="#V" n="56"/>mum finem.
+</p>
+            <p xml:id="mm30o9-d1e1311-d1e239">
+               <lb ed="#V" n="57"/>Respondet. Et primo dicit quod 
+in<lb break="no" ed="#V" n="58"/>tellectus divinus necessario est 
+specu<lb break="no" ed="#V" n="59"/>lativus, et non est ad hoc libertas, quia
+<lb ed="#V" n="60"/>preesente objecto, necessario intelligit
+<lb ed="#V" n="61"/>illud, licet non sit sine voluntate 
+com<lb break="no" ed="#V" n="62"/>placente; complacet enim voluntati
+<lb ed="#V" n="63"/>ut intellectus speculetur, sed talis 
+com<lb break="no" ed="#V" n="64"/>placentia non fit proprie per actum
+<lb ed="#V" n="65"/>voluntatis libere elieitum, sicut 
+com<lb break="no" ed="#V" n="66"/>muniter dicimus quod ipsa complacet
+<lb ed="#V" n="67"/>quidditatibus rerum. Cum arguitur,
+<lb ed="#V" n="68"/>ergo si voluntas non potest non velle
+<lb ed="#V" n="69"/>intellectum speculari, ergo non est
+<lb ed="#V" n="70"/>summe libera. Non sequitur, quia 
+li<lb break="no" ed="#V" n="71"/>bertas ejus est tantum ad factibilia, et
+<lb ed="#V" n="72"/>hic loquitur de libertate qua potest ad
+<lb ed="#V" n="73"/>utrumlibet, qua» proprie respicit 
+con<lb break="no" ed="#V" n="74"/>tingentia, et non de libertate absolute
+<lb ed="#V" n="75"/>sumpta, quia illa etiam perfectissime
+<lb ed="#V" n="76"/>est ad intra, ut patet a Doctore supra
+<lb ed="#V" n="77"/>dist. 10. et in quodlib. q. 16. Et ideo
+<lb ed="#V" n="78"/>est necesse ponere primam 
+determina<lb break="no" ed="#V" n="79"/>lionem in voluntate respectu 
+faelibi<lb break="no" ed="#V" n="80"/>lium, non sic autem esset, si 
+intellec<lb break="no" ed="#V" n="81"/>tus priedeterminaret, 7mo nec proprie
+<lb ed="#V" n="82"/>libertas posset salvari respectu 
+factibi<lb break="no" ed="#V" n="83"/>lium, etc.
+</p>
+            <p xml:id="mm30o9-d1e1311-d1e301">
+               <lb ed="#V" n="84"/>Sed occurrit dubium. Primo, quia
+<lb ed="#V" n="85"/>Doctor supra in questione de praxi
+<lb ed="#V" n="86"/>dixit, quod cognitio practica dicitur
+<pb ed="#V" n="607"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>practica ab objecto a quo 
+sumun<lb break="no" ed="#V" n="2"/>tur principia practica, etc. Cum 
+er<lb break="no" ed="#V" n="3"/>go ante actum voluntatis divine
+<lb ed="#V" n="4"/>intellectus divinus cognoscat omnes
+<lb ed="#V" n="5"/>terminos quorumcumque factibilium ;
+<lb ed="#V" n="6"/>ergo ex illis potest formare 
+factibi<lb break="no" ed="#V" n="7"/>lia, et sic cognoscere illa, et 
+tan<lb break="no" ed="#V" n="8"/>dem conclusiones deducendas. 'Ex
+<lb ed="#V" n="9"/>quo enim cognitio contingentis 
+depen<lb break="no" ed="#V" n="10"/>det a cognitione terminorum ; ergo
+<lb ed="#V" n="11"/>prehabens cognitionem terminorum,
+<lb ed="#V" n="12"/>potest praehabere cognitionem 
+contin<lb break="no" ed="#V" n="13"/>gentium, et sic habere cognitionem
+<lb ed="#V" n="14"/>practicam.
+</p>
+            <p xml:id="mm30o9-d1e1311-d1e345">
+               <lb ed="#V" n="15"/>Dico quod cognitio practica, (quae
+<lb ed="#V" n="16"/>virtualiter includitur in objecto,) est
+<lb ed="#V" n="17"/>tantum respectu necessariorum, ut 
+su<lb break="no" ed="#V" n="18"/>pra in quaestione de praxi patet; et
+<lb ed="#V" n="19"/>ideo cognitio tam principiorum quam
+<lb ed="#V" n="20"/>conclusionum necessariarum 
+virtua<lb break="no" ed="#V" n="21"/>liter includitur in fine ut objecto, non
+<lb ed="#V" n="22"/>ut causa finali, sed non sic est de 
+co<lb break="no" ed="#V" n="23"/>gnitione contingentium, ut ibi patuit.
+<lb ed="#V" n="24"/>Et cum dicitur, quod habens 
+cogni<lb break="no" ed="#V" n="25"/>tionem terminorum alicujus 
+contin<lb break="no" ed="#V" n="26"/>gentis, potest cognoscere 
+illudessecon<lb break="no" ed="#V" n="27"/>tingens ; dico quod notitia propositionis
+<lb ed="#V" n="28"/>contingentis non tantum dependet a
+<lb ed="#V" n="29"/>notitia terminorum, sed etiam 
+depen<lb break="no" ed="#V" n="30"/>det ab actuali unione eorum, ut supra
+<lb ed="#V" n="31"/>expositum est in quwstione de 
+subjec<lb break="no" ed="#V" n="32"/>to Theologic. Et quia unio talium 
+ter<lb break="no" ed="#V" n="33"/>minorum primo est a voluntate divina
+<lb ed="#V" n="34"/>sic vel sic determinante, ideo 
+cogni<lb break="no" ed="#V" n="35"/>lio hujus : Antichristus est futurus, 
+de<lb break="no" ed="#V" n="36"/>pendet a determinatione divina vo:
+<lb ed="#V" n="37"/>luntatis determinantis ab :eterno 
+An<lb break="no" ed="#V" n="38"/>liehristum fore. lt sic patet quomodo
+<lb ed="#V" n="39"/>nulla esthie contradictio.
+</p>
+            <p xml:id="mm30o9-d1e1311-d1e402">
+               <lb ed="#V" n="40"/>Secundo dubitatur in hoc quod dicit,
+<lb ed="#V" n="41"/>quod si intellectus praedeterminaret.
+<lb ed="#V" n="42"/>tunc voluntas necessario 
+conformare<lb break="no" ed="#V" n="43"/>tur illi. Hoc videtur esse contra illa,
+<lb ed="#V" n="44"/>que supra dixit in quaestione de Theo-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>logia, an sit practica, ubi dicit quod ad
+<lb ed="#V" n="46"/>hoc quod cognitio necessariorum 
+di<lb break="no" ed="#V" n="47"/>catur praetiea, tria requiruntur. Primo,
+<lb ed="#V" n="48"/>quod sit prior praxi elieieuda. 
+Secun<lb break="no" ed="#V" n="49"/>do, quod sit conformis, sive 
+conforma<lb break="no" ed="#V" n="50"/>tiva, sive directiva. Tertio, quod 
+res<lb break="no" ed="#V" n="51"/>pieiat voluntatem regulabilem et 
+de<lb break="no" ed="#V" n="52"/>terminabilem. Et hoc ultimum videtur
+<lb ed="#V" n="53"/>negare, quia videtur importare 
+imper<lb break="no" ed="#V" n="54"/>fectionem, quod sit determinabilis
+<lb ed="#V" n="55"/>aliunde ; et hic dicit, quod de 
+necessi<lb break="no" ed="#V" n="56"/>tate conformaretur, et sic contradictio.
+</p>
+            <p xml:id="mm30o9-d1e1311-d1e444">
+               <lb ed="#V" n="57"/>Dico primo, quod Scotus non asserit
+<lb ed="#V" n="58"/>expresse, quod voluntas non sit aliquo
+<lb ed="#V" n="59"/>modo regulabilis ab intellectu divino,
+<lb ed="#V" n="60"/>ut patet ibi.
+</p>
+            <p xml:id="mm30o9-d1e1311-d1e455">
+               <lb ed="#V" n="61"/>Dico secundo, quod posito quod hoc
+<lb ed="#V" n="62"/>assereret, adhuc sibi non contradicit,
+<lb ed="#V" n="63"/>quia ibi loquitur tantum de his quae
+<lb ed="#V" n="64"/>sunt ad intra, et quae sunt simpliciter
+<lb ed="#V" n="65"/>necessaria; hic autem loquitur de 
+fac<lb break="no" ed="#V" n="66"/>tibilibus, et  tunc esset inconveniens,
+<lb ed="#V" n="67"/>quod divina voluntas determinaretur
+<lb ed="#V" n="68"/>necessario ab inlellectu divino 
+respec<lb break="no" ed="#V" n="69"/>tu factibilium, quia  tunc 
+necessitare<lb break="no" ed="#V" n="70"/>tur producere illa.
+</p>
+            <p xml:id="mm30o9-d1e1311-d1e479">
+               <lb ed="#V" n="71"/>Et tertio posset dicti, quod posito
+<lb ed="#V" n="72"/>quod voluntas divina esset potentia
+<lb ed="#V" n="73"/>vere regulabilis,  tunc vere 
+determina<lb break="no" ed="#V" n="74"/>retur de necessitate, et sic produceret
+<lb ed="#V" n="75"/>omnia factibilia de necessitate, imo ab
+<lb ed="#V" n="76"/>eterno, eum talis determinatio fuisset
+<lb ed="#V" n="77"/>ab aeterno.
+</p>
+            <p xml:id="mm30o9-d1e1311-d1e498">
+               <lb ed="#V" n="78"/>Ad argumenta principalia, patet 
+lit<lb break="no" ed="#V" n="79"/>tera hae, et ex his qui supra exposita
+<lb ed="#V" n="80"/>sunt quast. «lt. prolog. et cetera.
+</p>
+            <p xml:id="mm30o9-d1e1311-d1e507">
+               <lb ed="#V" n="81"/>Hic quidam expositor novus S. 
+Tho<lb break="no" ed="#V" n="82"/>mi In. p. quast. art. 14. ult. respondet -
+<lb ed="#V" n="83"/>primo ad aliqua dicta a Scoto in pro- «
+<lb ed="#V" n="84"/>logo dicens sic: Scotus in prologo, dicit
+<lb ed="#V" n="85"/>scientiam Dei de seipso esse practicam,
+<lb ed="#V" n="86"/>aut nihil sibi deest quin sit practica,
+<lb ed="#V" n="87"/>nisi quia voluntas Dei non est bona ex
+<lb ed="#V" n="88"/>regula, sed naturaliter ex seipsa ; et in
+<pb ed="#V" n="608"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>38. d. primi lenet quod Deus non 
+ha<lb break="no" ed="#V" n="2"/>bet scientiam practicam de aliisa se,
+<lb ed="#V" n="3"/>sed speeulativam. Ratio primi est, quia
+<lb ed="#V" n="4"/>scientia Dei de essentia, est prior 
+na<lb break="no" ed="#V" n="5"/>turaliter amore illius scientic, et 
+rec<lb break="no" ed="#V" n="6"/>lificativa illius; ergo. Ratio secundi,
+<lb ed="#V" n="7"/>nulla notitia de rebus ante 
+determina<lb break="no" ed="#V" n="8"/>tionem divin; voluntatis dictat res
+<lb ed="#V" n="9"/>esse agendas ; ergo.
+</p>
+            <p xml:id="mm30o9-d1e1311-d1e551">
+               <lb ed="#V" n="10"/>Ad has rationes respondet sic: Ad
+<lb ed="#V" n="11"/>primam negatur consequentia, quia
+<lb ed="#V" n="12"/>plus exigitur ad notitiam praeticam,
+<lb ed="#V" n="13"/>et tane valeret, si Deus, aut operatio
+<lb ed="#V" n="14"/>qua a se amatur fieret, vel etiam 
+regu<lb break="no" ed="#V" n="15"/>laretur scientia praetiea. Oportet 
+nam<lb break="no" ed="#V" n="16"/>que omnem causam esse causam vel
+<lb ed="#V" n="17"/>operationis vel effectus ; seientia 
+au<lb break="no" ed="#V" n="18"/>lem practica causam sonat, ut patet ex
+<lb ed="#V" n="19"/>nomine, et 9. Met. Et respectu quidem
+<lb ed="#V" n="20"/>creaturarum factibilium, causa in Deo
+<lb ed="#V" n="21"/>ponitur in ordine ad effectum, non in
+<lb ed="#V" n="22"/>ordine ad faetionem, quia illa est 
+sub<lb break="no" ed="#V" n="23"/>stantia Dei. Respectu autem ipsius Dei,
+<lb ed="#V" n="24"/>quoad neutrum poni potest, quia nec
+<lb ed="#V" n="25"/>ipse, aut operatio fit aut pendet. 
+Ridi<lb break="no" ed="#V" n="26"/>culum ergo est audire Deum esse 
+ope<lb break="no" ed="#V" n="27"/>rabilem scientia sua praetiea.
+</p>
+            <p xml:id="mm30o9-d1e1311-d1e593">
+               <lb ed="#V" n="28"/>Ad objectionem aliam, negatur 
+con<lb break="no" ed="#V" n="29"/>sequentia, quia falsum est quod notitia
+<lb ed="#V" n="30"/>practica debeat esse dictativa ad 
+ope<lb break="no" ed="#V" n="31"/>randum, satis enim est quod sit 
+regu<lb break="no" ed="#V" n="32"/>lativa. Ars enim domificativa non 
+dic<lb break="no" ed="#V" n="33"/>tat domificandum esse, imo est 
+indif<lb break="no" ed="#V" n="34"/>ferens ad opposita, ut patet 9. Met. et
+<lb ed="#V" n="35"/>per hoc patet responsio ad objectionem
+<lb ed="#V" n="36"/>secundo loco adductam ; falsum 
+quip<lb break="no" ed="#V" n="37"/>pe est assumptum, quoniam ut dicitur
+<lb ed="#V" n="38"/>9. Met. potentia rationalis quam 
+con<lb break="no" ed="#V" n="39"/>stat esse notitiam praecticam,
+determi<lb break="no" ed="#V" n="40"/>natur ab appetitu, et non e converso,
+<lb ed="#V" n="41"/>ideo praesupponitur ab appetitu ut 
+in<lb break="no" ed="#V" n="42"/>differens. Unde mirum est de isto
+<lb ed="#V" n="43"/>homine, quomodo praeclarum ejus 
+in<lb break="no" ed="#V" n="44"/>ceniurm non advertit, quod quemadmo-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>dum ars domificativa absolute pra»
+ve<lb break="no" ed="#V" n="46"/>nit actum voluntatis, et praevenitur a
+<lb ed="#V" n="47"/>voluntate ut determinativa ipsius ad
+<lb ed="#V" n="48"/>operandum, et praevenit executionem,
+<lb ed="#V" n="49"/>scilicet ipsam domificationem, ita 
+ra<lb break="no" ed="#V" n="50"/>liones omnium factibilium a Deo 
+na<lb break="no" ed="#V" n="51"/>turaliter in essentia divina relucent,
+<lb ed="#V" n="52"/>preveniendo omnem voluntatis actum,
+<lb ed="#V" n="53"/>et pra»veniri eas oportet a voluntate 
+di<lb break="no" ed="#V" n="54"/>vina, ut determinentur ad operandum.
+<lb ed="#V" n="55"/>Unde quaedam rationes sunt 
+determi<lb break="no" ed="#V" n="56"/>nale ad operandum, et quaedam non.
+<lb ed="#V" n="57"/>Et illae etiam quia determinate sunt a
+<lb ed="#V" n="58"/>divina voluntate preveniunt 
+execu<lb break="no" ed="#V" n="59"/>lionem, scilicet factionem ad extra
+<lb ed="#V" n="60"/>Hoc ille novus expositor.
+</p>
+            <p xml:id="mm30o9-d1e1311-d1e669">
+               <lb ed="#V" n="61"/>Respondeo. Et quando primo dicit,
+<lb ed="#V" n="62"/>quod non sufficit ad scientiam 
+praeti<lb break="no" ed="#V" n="63"/>cam quod ipsa sit prior praxi, et 
+con<lb break="no" ed="#V" n="64"/>formativa ejusdem, etsi respiciat 
+vo<lb break="no" ed="#V" n="65"/>luntatem regulabilem, hoc non sane
+<lb ed="#V" n="66"/>dicit, quia scientia praetiea proprie
+<lb ed="#V" n="67"/>dicitur practica, quia directiva in 
+ve<lb break="no" ed="#V" n="68"/>ram praxim, et de hoc satis dictum est,
+<lb ed="#V" n="69"/>supra in questione de, praxi. Et quod
+<lb ed="#V" n="70"/>addit, quod oportet scientiam 
+praeti<lb break="no" ed="#V" n="71"/>cam esse causam operationis vel 
+ef<lb break="no" ed="#V" n="72"/>fectus, hoc minus vere dicit; sufficit
+<lb ed="#V" n="73"/>enim quod sit directiva operationis
+<lb ed="#V" n="74"/>vel effectus, licet operationis primo,
+<lb ed="#V" n="75"/>quia actus eliciti primo, et. imperati
+<lb ed="#V" n="76"/>non primo. Et quando dicitur quod
+<lb ed="#V" n="77"/>scientia practica est activa, sive 
+cau<lb break="no" ed="#V" n="78"/>sativa operationis vel effectus, 
+loquen<lb break="no" ed="#V" n="79"/>do proprie de scientia praetiea) 
+nega<lb break="no" ed="#V" n="80"/>tur quod Philosophus hoc dicat 9. Met.
+<lb ed="#V" n="81"/>nec alibi, licet distinguat practicam in
+<lb ed="#V" n="82"/>activam et factivam ; sed hoc 
+exposi<lb break="no" ed="#V" n="83"/>tum est supra in prologo, quomodo
+<lb ed="#V" n="84"/>intelligatur. Et quando dicit de 
+domi<lb break="no" ed="#V" n="85"/>ficativa arte, id est, de cognitione 
+do<lb break="no" ed="#V" n="86"/>mificandi, non dictat, etc. falsum 
+di<lb break="no" ed="#V" n="87"/>cit, quia talis cognitio est apta nata
+<lb ed="#V" n="88"/>dictare domum, sic esse fiendam a do-
+<pb ed="#V" n="609"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>mificatore, nec accipiendo hoc modo
+<lb ed="#V" n="2"/>dictare est ad opposita, cum dictet 
+na<lb break="no" ed="#V" n="3"/>turaliter, sicut cognitio sanitatis est
+<lb ed="#V" n="4"/>dictativa sive directiva (quod habeo
+<lb ed="#V" n="5"/>pro eodem) actus voluntatis quo 
+vo<lb break="no" ed="#V" n="6"/>luntas velit sanitatem. Hoc idem dico
+<lb ed="#V" n="7"/>de mediis ad sanitatem, nec hoc 
+mo<lb break="no" ed="#V" n="8"/>do, Arist. 9. Mel. dicit artem esse ad
+<lb ed="#V" n="9"/>opposita. Et. quod infert de potentia
+<lb ed="#V" n="10"/>$1atio nali 9. Me/. qua est ad opposita,
+<lb ed="#V" n="11"/>quomodo hoc intelligatur, vide Scotum
+<lb ed="#V" n="12"/>supra dist. 2. et in quodlib. q. 6.
+</p>
+            <p xml:id="mm30o9-d1e1311-d1e763">
+               <lb ed="#V" n="13"/>Nec est verum, quod potentia 
+ratio<lb break="no" ed="#V" n="14"/>nalis, ut hujusmodi, proprie dicatur
+<lb ed="#V" n="15"/>practica, quia intellectus ut 
+intellec<lb break="no" ed="#V" n="16"/>ius, qui proprie dicitur potentia 
+ratio<lb break="no" ed="#V" n="17"/>nalis, est practica potentia, ut supra
+<lb ed="#V" n="18"/>exposui 2» questione de prazi. Et quod
+<lb ed="#V" n="19"/>admiratur quod Scotus non viderit,
+<lb ed="#V" n="20"/>ego miror qui dicit, non probando,
+<lb ed="#V" n="21"/>sed ad placitum ; quando ergo dicit
+<lb ed="#V" n="22"/>quod ars domificativa prevenitur a 
+vo<lb break="no" ed="#V" n="23"/>luntate, ut determinativa ipsius ad
+<lb ed="#V" n="24"/>operandum ; si intelligit quod ars sit
+<lb ed="#V" n="25"/>vere operativa ex determinatione 
+vo<lb break="no" ed="#V" n="26"/>luntatis, hoc. patet esse falsum, quia
+<lb ed="#V" n="27"/>principium artificialium est agens a
+<lb ed="#V" n="28"/>proposito, ut patet. PAys. 9. et tale
+<lb ed="#V" n="29"/>agensestproprie voluntas, quae in 
+agen<lb break="no" ed="#V" n="30"/>do praesupponit in intellectu notitiam
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="31"/>practicam, directivam ad opus ; nullo
+<lb ed="#V" n="32"/>enim modo est effectiva operis 
+extrin<lb break="no" ed="#V" n="33"/>seci, sed voluntas est primo elicitiva,
+<lb ed="#V" n="34"/>et deinde imperat potentiis 
+executi<lb break="no" ed="#V" n="35"/>vis, ut patet per experientiam. Et 
+mul<lb break="no" ed="#V" n="36"/>to magis falsum est, scilicet quod 
+ra<lb break="no" ed="#V" n="37"/>tiones omnium factibilium a Deo 
+na<lb break="no" ed="#V" n="38"/>taraliter in essentia divina reluceant,
+<lb ed="#V" n="39"/>ut infra patebit dst. 39. cognitio enim
+<lb ed="#V" n="40"/>contingentis, ut hujusmodi, 
+necessa<lb break="no" ed="#V" n="41"/>rio est posterior actu voluntatis 
+divi<lb break="no" ed="#V" n="42"/>ni, quo vult aliquid esse ad extra. Et
+<lb ed="#V" n="43"/>ideo licet in nobis prweecedat notitia
+<lb ed="#V" n="44"/>faetibiliam actum voluntatis nostra,
+<lb ed="#V" n="45"/>quia prima contingentia non est a
+<lb ed="#V" n="46"/>voluntate creata, in Deo tamen est
+<lb ed="#V" n="47"/>manifeste falsum, ut supra patuit i»
+<lb ed="#V" n="48"/>questione de pra.ci, et infra patebit d. 9.
+</p>
+            <p xml:id="mm30o9-d1e1311-d1e847">
+               <lb ed="#V" n="49"/>Item iste novus expositor non bene
+<lb ed="#V" n="50"/>studuit doctrine Scotieae, non enim
+<lb ed="#V" n="51"/>Scotus asserit (ut ipse fatetur) 
+cogni<lb break="no" ed="#V" n="52"/>tionem Dei de seipso esse simpliciter
+<lb ed="#V" n="53"/>practicam, et ideo parum eurandum
+<lb ed="#V" n="54"/>est de dictis expositoris, qui fere in
+<lb ed="#V" n="55"/>omnibus, dum disceptare studet in
+<lb ed="#V" n="56"/>quinternis suis de doetrina Scoti, aut
+<lb ed="#V" n="57"/>sensum retorquet, aut quid dicturus
+<lb ed="#V" n="58"/>sit non intelligit, aut totaliter, et a via
+<lb ed="#V" n="59"/>suorum  communique deviare 
+vide<lb break="no" ed="#V" n="60"/>tur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

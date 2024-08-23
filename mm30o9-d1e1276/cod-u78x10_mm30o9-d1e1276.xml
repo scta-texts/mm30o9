@@ -1,0 +1,1312 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#per-FLBca3">Franciscus Lychetus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2024-08-23">August 23, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 10</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-08-23" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="565"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="mm30o9-d1e1276"><!-- lycht-d36q1-p1 -->
+            <head xml:id="mm30o9-d1e1276-Hd1e101">Quaestio 1</head>
+            <p xml:id="mm30o9-d1e1276-d1e103">
+               <lb ed="#V" n="53" type="fixed=565"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e108">
+               <lb ed="#V" n="54"/>(a) Quidam titulum questionis sic 
+ex<lb break="no" ed="#V" n="55"/>ponunt, quia creatura ut cognita, 
+ha<lb break="no" ed="#V" n="56"/>bet relationem ad Deum ut 
+cognos<lb break="no" ed="#V" n="57"/>centem; illa relatio dicitur cognosci,
+<lb ed="#V" n="58"/>et illa similitudo creatur: cognitae 
+di<lb break="no" ed="#V" n="59"/>citur fundamentum illius relationis,
+<lb ed="#V" n="60"/>et non ipsa creatura, quia nulla 
+erea<lb break="no" ed="#V" n="61"/>tura fuit ab aeterno. Mens ergo 
+quas<lb break="no" ed="#V" n="62"/>üonis est, utrum illa similitudo 
+cujus<lb break="no" ed="#V" n="63"/>libet rei, quam Deus apud se habet, sit
+<lb ed="#V" n="64"/>vera essentia illius cujus est 
+simili<lb break="no" ed="#V" n="65"/>tudo?
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e137">
+               <lb ed="#V" n="66"/>Sed, judicio meo, titulus hujus 
+quaes<lb break="no" ed="#V" n="67"/>tionis non debet sic intelligi, ut patet
+<lb ed="#V" n="68"/>ex dictis, infraa Doctore. Unde 
+prce<lb break="no" ed="#V" n="69"/>milto aliqua pro notitia hujus tituli.
+<lb ed="#V" n="70"/>Primo praemitto, quod dicit Doctor 
+su<lb break="no" ed="#V" n="71"/>pra dist. 35. quod in primo instanti
+<lb ed="#V" n="72"/>intellectus est in actu per essentiam
+<lb ed="#V" n="73"/>sub ratione mere absoluta, et haec in
+<lb ed="#V" n="74"/>actu primo sufficienti ad 
+producen<lb break="no" ed="#V" n="75"/>dum quodlibet in actu intelligibili. In
+<lb ed="#V" n="76"/>secundo instanti producit lapidem in
+<lb ed="#V" n="77"/>esse intellecto, ita quod terminus iste
+<lb ed="#V" n="78"/>habet respectum ad divinam 
+intellec<lb break="no" ed="#V" n="79"/>tionem, nullus autem est respectus e
+<lb ed="#V" n="80"/>converso in intellectu divino. Ex hoc
+<lb ed="#V" n="81"/>apparet, quod lapis habeat prius esse
+<lb ed="#V" n="82"/>cognitum, quam fundet relationem ad
+<lb ed="#V" n="83"/>Deum ut cognoscentem, ut etiam 
+pa<lb break="no" ed="#V" n="84"/>tet ex littera superiore dist. 35. 
+Secun<lb break="no" ed="#V" n="85"/>do praemitto, quod dicit Doctor in prae-
+<pb ed="#V" n="566"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>senti dist. de Caesare si esset 
+annihila<lb break="no" ed="#V" n="2"/>Lus, etc. vide exemplum.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e192">
+               <lb ed="#V" n="3"/>Titulus ergo quaestionis potest 
+intel<lb break="no" ed="#V" n="4"/>ligi, quod fundamentum talis relationis
+<lb ed="#V" n="5"/>est tantum esse, vel cognitum vel 
+pos<lb break="no" ed="#V" n="6"/>sibile, sic intelligendo, quod lapis 
+ha<lb break="no" ed="#V" n="7"/>bet prius esse cognitum quam fundet
+<lb ed="#V" n="8"/>relationem ad Deum ut cognoscentem,
+<lb ed="#V" n="9"/>et tale esse cognitum non dicitur 
+pro<lb break="no" ed="#V" n="10"/>prie similitudo creature, puta lapis,
+<lb ed="#V" n="11"/>ut habens esse cognitum ab intellectu
+<lb ed="#V" n="12"/>divino, non dicitur similitudo lapidis
+<lb ed="#V" n="13"/>ut existentis. Et tunc qusritur an tale
+<lb ed="#V" n="14"/>esse cognitum, quod lapis habuit ab
+<lb ed="#V" n="15"/>eterno, fuerit verum esse essentis;e 
+rea<lb break="no" ed="#V" n="16"/>le ipsius lapidis? Vel si exponatur de
+<lb ed="#V" n="17"/>fundamento talis relationis, quod esse
+<lb ed="#V" n="18"/>possibile ipsius lapidis, quod esse 
+pos<lb break="no" ed="#V" n="19"/>sibile fundatur in esse cognito, an 
+ta<lb break="no" ed="#V" n="20"/>le esse possibile fuerit verum esse 
+essen<lb break="no" ed="#V" n="21"/>tice ? Et sic (ut credo) debet, sive potest
+<lb ed="#V" n="22"/>intelligi titulus quaestionis, licet 
+Sco<lb break="no" ed="#V" n="23"/>tus magis videatur declinare ad 
+pri<lb break="no" ed="#V" n="24"/>mum modum, scilicet quod 
+funda<lb break="no" ed="#V" n="25"/>mentum talis relationis, ut ad Deum
+<lb ed="#V" n="26"/>cognoscentem,sit ipsum esse cognitum,
+<lb ed="#V" n="27"/>ut salis patet in littera ejus.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e250">
+               <lb ed="#V" n="28"/>(b) Hic quidam dicunt, quod. sic. Hic
+<lb ed="#V" n="29"/>Doctor recitat opinionem Henrici, qui
+<lb ed="#V" n="30"/>vult quod creatura fuerit ab aeterno
+<lb ed="#V" n="31"/>secundum esse essentiz, ita quod 
+fun<lb break="no" ed="#V" n="32"/>damentum ipsius relationis ut ad Deum
+<lb ed="#V" n="33"/>cognoscentem, fuit, verum esse 
+essen<lb break="no" ed="#V" n="34"/>tiae. Et hanc opinionem probat multis
+<lb ed="#V" n="35"/>mediis, qua post adducentur 
+solven<lb break="no" ed="#V" n="36"/>do illa media. Prius ergo Doctor 
+im<lb break="no" ed="#V" n="37"/>probat subtiliter hanc opinionem,
+<lb ed="#V" n="38"/>deinde solvet.
+</p>
+            <!--</div>
+<div alias="lycht-d36q1-p2">-->
+            <p xml:id="mm30o9-d1e1276-d1e278">
+               <lb ed="#V" n="56" type="fixed=568"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e283">
+               <lb ed="#V" n="57"/>(c) Contra ista. arguit Doctor. Primo
+<lb ed="#V" n="58"/>sic : Si lapis habuit verum esse reale ;
+<lb ed="#V" n="59"/>ergo non creatur. Hic Doctor 
+suppo<lb break="no" ed="#V" n="60"/>nit, quod illud dicitur vere creari, 
+cu<lb break="no" ed="#V" n="61"/>jus nihil reale pertinens ad esse 
+pre<lb break="no" ed="#V" n="62"/>cessit, quia creari est de nihilo sui
+<lb ed="#V" n="63"/>aliquid fieri, ita quod in esse aliquod
+<lb ed="#V" n="64"/>ipsius praecedat. Licet enim praecedat
+<lb ed="#V" n="65"/>esse cognitum ipsius, illud tamen non
+<lb ed="#V" n="66"/>dicitur ens reale, et realiter dans esse;
+<lb ed="#V" n="67"/>ergo si lapis fuit ab aeterno secundum
+<lb ed="#V" n="68"/>aliquod esse reale, lapis non dicitur
+<lb ed="#V" n="69"/>creari de novo, quia ejus esse vere
+<lb ed="#V" n="70"/>praecessit.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e316">
+               <lb ed="#V" n="71"/>(d) Similiter secundo arguit ex dictis
+<lb ed="#V" n="72"/>Henrici, qui dicit quod aliquid ex hoc
+<lb ed="#V" n="73"/>videtur vere de novo creari, non quod
+<lb ed="#V" n="74"/>accipiat esse post non esse, quia suum
+<lb ed="#V" n="75"/>esse reale praecessit, sed quia accipit
+<lb ed="#V" n="76"/>novum respectum ad efficiens, ita
+<lb ed="#V" n="77"/>quod creatio lapidis non dicitur 
+ter<lb break="no" ed="#V" n="78"/>minari ad esse absolutum in lapide,
+<lb ed="#V" n="79"/>sed tantum ad ipsum lapidem, ut sub
+<lb ed="#V" n="80"/>novo respectu ad primum efficiens
+<lb ed="#V" n="81"/>terminato. Ex hoc arguit Doctor, erea- .
+<lb ed="#V" n="82"/>tio est productio ad esse simfliciter, ;
+<lb ed="#V" n="83"/>praesertim quando est creatio 
+substan<lb break="no" ed="#V" n="84"/>tice ; sed lapis ut sub tali respectu, non
+<lb ed="#V" n="85"/>habet esse simpliciter, sicut nec homo
+<lb ed="#V" n="86"/>ut sub albedine dicitur habere esse
+<pb ed="#V" n="569"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>simpliciter secundum quod 
+considera<lb break="no" ed="#V" n="2"/>tur sub illa ; albedo enim, et si sit esse
+<lb ed="#V" n="3"/>simpliciter in se, non tamen erit esse
+<lb ed="#V" n="4"/>simpliciter hominis.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e366">
+               <lb ed="#V" n="5"/>(e) Tertio arguit ex dictis Henrici,
+<lb ed="#V" n="6"/>probando quod si lapis diceretur 
+crea<lb break="no" ed="#V" n="7"/>ri secundum respectum actualem ad
+<lb ed="#V" n="8"/>Deum, tunc lapis diceretur creari, et
+<lb ed="#V" n="9"/>tamen nihil de novo acciperet, quod
+<lb ed="#V" n="10"/>est impossibile, quia omnis productio
+<lb ed="#V" n="11"/>est de 20n esse ad esse. Quod autem in
+<lb ed="#V" n="12"/>lapide secundum talem respectum de
+<lb ed="#V" n="13"/>novo nihil acquireretur, patet 
+secun<lb break="no" ed="#V" n="14"/>dum ipsum Henricum, qui vult quod
+<lb ed="#V" n="15"/>relatio aptitudinalis in Deo, qua est
+<lb ed="#V" n="16"/>apius creare, vel qua dicitur creativus,
+<lb ed="#V" n="17"/>nullo modo differat a relatione 
+actua<lb break="no" ed="#V" n="18"/>li, qua dicitur actu creans; ergo 
+sim<lb break="no" ed="#V" n="19"/>pliciter hoc erit increabile, quia 
+rela<lb break="no" ed="#V" n="20"/>tio qua lapis dicitur cereabilis, et 
+re<lb break="no" ed="#V" n="21"/>latio qua dicitur actu creari, nullo
+<lb ed="#V" n="22"/>modo differunt; ergo si lapis dicitur
+<lb ed="#V" n="23"/>ereari secundum hanc relationem 
+ac<lb break="no" ed="#V" n="24"/>tualem, tunc lapis nihil accipit de 
+no<lb break="no" ed="#V" n="25"/>vo, quod non habuerit ab aeterno, et
+<lb ed="#V" n="26"/>sic nullo modo creatur.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e417">
+               <lb ed="#V" n="27"/>(f) Et quarto, ex eodem fundamento
+<lb ed="#V" n="28"/>arguit et probat quo est impossibile
+<lb ed="#V" n="29"/>ipsum lapidem creari secundum 
+no<lb break="no" ed="#V" n="30"/>vum respectum, ita quod talis 
+respec<lb break="no" ed="#V" n="31"/>tus est impossibile quod sit novus.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e430">
+               <lb ed="#V" n="32"/>Hoc patet, quia non potest esse relatio
+<lb ed="#V" n="33"/>nova, nisi propternovitatem, 
+velfunda<lb break="no" ed="#V" n="34"/>menti vel termini, quia aliterin Ad a£-
+<lb ed="#V" n="35"/>quid posset esse motus et mutatio, quod
+<lb ed="#V" n="36"/>est contra Aristotelem 5. PAysic. f. c.
+<lb ed="#V" n="37"/>10. et patet ibi per Commentatorem, et
+<lb ed="#V" n="38"/>subliliter est expositum in tertio d. 4.
+<lb ed="#V" n="39"/>q. 1. Et sic sequitur quod nulla facta
+<lb ed="#V" n="40"/>mutatione, nec in termino nec in 
+fun<lb break="no" ed="#V" n="41"/>damento, nulla relatio poterit esse de
+<lb ed="#V" n="42"/>novo. Cum ergo esse essentiae per
+<lb ed="#V" n="43"/>Henricum sit fundamentum talis 
+re<lb break="no" ed="#V" n="44"/>lationis, et illud fuit ab aeterno, et nul-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>lo modo mutatur nec variatur, et 
+ta<lb break="no" ed="#V" n="46"/>lis relatio terminetur ad Deum, ut ad
+<lb ed="#V" n="47"/>primum efficiens, qui omnino est 
+im<lb break="no" ed="#V" n="48"/>mutabilis; ergo talis respectus non
+<lb ed="#V" n="49"/>poterit esse novus, et sic lapis non 
+po<lb break="no" ed="#V" n="50"/>terit esse novus, et sic lapis non 
+pole<lb break="no" ed="#V" n="51"/>terit creari.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e478">
+               <lb ed="#V" n="52"/>(g) Et quinto, ex eodem fundamento
+<lb ed="#V" n="53"/>arguitur. Hic Doctor intendit 
+deduce<lb break="no" ed="#V" n="54"/>re ad hoc. inconveniens, scilicet quod
+<lb ed="#V" n="55"/>lapis dicatur creari ab aeterno, et per
+<lb ed="#V" n="56"/>consequens non erit creatus, quia in
+<lb ed="#V" n="57"/>creatione 2202 esse semper praecedit 
+du<lb break="no" ed="#V" n="58"/>ratione ipsum esse, ut supra patuit
+<lb ed="#V" n="59"/>d.2. g-A. et d. 8. g. ult. et 3n 2. d. X.
+<lb ed="#V" n="60"/>g. 9. Tunc arguit sic : Productio de
+<lb ed="#V" n="61"/>non esse absolute ad esse dicitur 
+crea<lb break="no" ed="#V" n="62"/>lio, ut patet, sed per te esse lapidis fuit
+<lb ed="#V" n="63"/>productum ab aeterno ; ergo lapis fuit
+<lb ed="#V" n="64"/>creatus ab «terno, quod est 
+impliea<lb break="no" ed="#V" n="65"/>lio contradielionis, scilicet quod sit
+<lb ed="#V" n="66"/>creatus ab aeterno, eum creatio 
+neces<lb break="no" ed="#V" n="67"/>sario importet novitatem, et tamen 
+ip<lb break="no" ed="#V" n="68"/>se Henricus nititur ostendere, quod
+<lb ed="#V" n="69"/>creatio fuerit ab aeterno.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e520">
+               <lb ed="#V" n="70"/>Nec valet hic responsio Francisci
+<lb ed="#V" n="71"/>de Mayronis Z2 suo Conflatu, ubi 
+niti<lb break="no" ed="#V" n="72"/>tur sustentare quod esse essentia fuit
+<lb ed="#V" n="73"/>ab aeterno, sed tale esse. non fuit 
+pro<lb break="no" ed="#V" n="74"/>ductum, nec non productum, sed 
+abs<lb break="no" ed="#V" n="75"/>trahit. Nec enim est manifesta 
+impli<lb break="no" ed="#V" n="76"/>$1atio  contradietionis, scilicet quod
+<lb ed="#V" n="77"/>tale esse sit verum esse reale, etiam
+<lb ed="#V" n="78"/>distinctum ab existentia. Quamvis
+<lb ed="#V" n="79"/>hoc sit impossibile, ultra est 
+impossi<lb break="no" ed="#V" n="80"/>bile quod non sit productum,cum 
+om<lb break="no" ed="#V" n="81"/>ne aliud a Deo, eo modo quod est aliud,
+<lb ed="#V" n="82"/>est etiam productum, ita quod si habet
+<lb ed="#V" n="83"/>esse secundum quwid, est productum
+<lb ed="#V" n="84"/>secundum quid. Imo si habet esse 
+tan<lb break="no" ed="#V" n="85"/>tum possibile, secundum illud esse est
+<lb ed="#V" n="86"/>productum, ut infra patebit a Doctore
+<lb ed="#V" n="87"/>d. 43. a fortiori, quando habet esse 
+es<lb break="no" ed="#V" n="88"/>sentiae, quod est esse simpliciter, erit
+<pb ed="#V" n="570"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>productum, et sic non oportet fingere,
+<lb ed="#V" n="2"/>quod tale esse non erit productum nec
+<lb ed="#V" n="3"/>improductum.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e575">
+               <lb ed="#V" n="4"/>(h) Sexto, secundum eamdem viam
+<lb ed="#V" n="5"/>per oppositum de annihilatione, statim
+<lb ed="#V" n="6"/>sequitur quod nihil potest annihilari.
+<lb ed="#V" n="7"/>Tum quia annihilatio est ab esse in
+<lb ed="#V" n="8"/>non esse simpliciter, sed per tale esse
+<lb ed="#V" n="9"/>fuit ab aeterno; ergo annihilatio potest
+<lb ed="#V" n="10"/>fuisse ab :terno, quod est impossibile.
+<lb ed="#V" n="11"/>Tum etiam quia tale esse,per te, est 
+ne<lb break="no" ed="#V" n="12"/>ceessarium. Tum etiam, si ponatur
+<lb ed="#V" n="13"/>creari secundum illum respectum, et
+<lb ed="#V" n="14"/>per eonsequens annihilari secundum
+<lb ed="#V" n="15"/>talem respectum. Contra hoc possunt
+<lb ed="#V" n="16"/>fieri argumenta prius facta, et 
+prxci<lb break="no" ed="#V" n="17"/>pue illud, videlicet quod talis relatio
+<lb ed="#V" n="18"/>non poterit non esse, quia sicut in
+<lb ed="#V" n="19"/>Ad aliquid non est generatio, ita nec
+<lb ed="#V" n="20"/>corruptio, ut. patet ubi supra. Modo
+<lb ed="#V" n="21"/>fundamento manente immutabili, et
+<lb ed="#V" n="22"/>similiter termino, relatio inter illa
+<lb ed="#V" n="23"/>non poterit destrui.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e621">
+               <lb ed="#V" n="24"/>() Praeterea. secundo principaliter
+<lb ed="#V" n="25"/>contra hanc opinionem possunt fieri
+<lb ed="#V" n="26"/>rationes facte contra Avicennam,
+<lb ed="#V" n="27"/>quod nihil aliud a Deo sit formaliter
+<lb ed="#V" n="28"/>necessarium, vide d. 8. q. ult.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e635">
+               <lb ed="#V" n="29"/>() Praeterea tertio principaliter 
+ar<lb break="no" ed="#V" n="30"/>guit ex dictis Henrici, et intendit 
+re<lb break="no" ed="#V" n="31"/>ducere ad hoc inconveniens, quod
+<lb ed="#V" n="32"/>aliquid in Deo per acetum intellectus
+<lb ed="#V" n="33"/>divini existens poterit mutari, cujus
+<lb ed="#V" n="34"/>oppositum probatum est d. 30. 
+Addu<lb break="no" ed="#V" n="35"/>cendo hic argumentum, expono illud.
+<lb ed="#V" n="36"/>Cum dixit: Ates secundum esse essentia,
+<lb ed="#V" n="37"/>aut est terminus relationis idez, quam
+<lb ed="#V" n="38"/>?psi ponunt in. Deo, aut non ? (supra
+<lb ed="#V" n="39"/>dist. 35. patuit quomodo Henricus 
+po<lb break="no" ed="#V" n="40"/>nit ideam esse quamdam relationem
+<lb ed="#V" n="41"/>in mente divina, qua est ratio 
+cognos<lb break="no" ed="#V" n="42"/>cendi rem, sed secundum aliud esse
+<lb ed="#V" n="43"/>cognitum, id est, quod ipsa res non
+<lb ed="#V" n="44"/>est terminus talis relationis secundum
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>suum esse essentiae, sed tantum 
+se<lb break="no" ed="#V" n="46"/>cundum esse cognitum,;. Si secundo,
+<lb ed="#V" n="47"/>lune sequitur quod ipse res 
+secun<lb break="no" ed="#V" n="48"/>dum esse essentia» frustra ponuntur,
+<lb ed="#V" n="49"/>quia secundum eos non videntur
+<lb ed="#V" n="50"/>aliter poni, nisi inquantum . sunt 
+ter<lb break="no" ed="#V" n="51"/>mini relationum idealium, quie. 
+aeter<lb break="no" ed="#V" n="52"/>naliter sunt in Deo. Si primo modo,
+<lb ed="#V" n="53"/>scilicet. quod terminant secundum
+<lb ed="#V" n="54"/>esse. essentia, ergo aliquid est in Deo
+<lb ed="#V" n="55"/>per actum intellectus divini, 
+secun<lb break="no" ed="#V" n="56"/>dum quod .Deus potest aliter se 
+ha<lb break="no" ed="#V" n="57"/>bere, patet, quia per Henricum omne
+<lb ed="#V" n="58"/>aliud a Deo non est formaliter 
+neces<lb break="no" ed="#V" n="59"/>sarium ex se. Ponatur igitur (licet per
+<lb ed="#V" n="60"/>impossibile) istud ens quidditative 
+ali<lb break="no" ed="#V" n="61"/>ter se habere, sequitur quod illa 
+enti<lb break="no" ed="#V" n="62"/>las in Deo, sive rei siverationis, id est,
+<lb ed="#V" n="63"/>illa relatio, qua vocatur idea, quae 
+ha<lb break="no" ed="#V" n="64"/>bet istud esse pro termino, aliter se
+<lb ed="#V" n="65"/>habebit, et sic ex positione alicujus
+<lb ed="#V" n="66"/>circa aliud a Deo mutari poterit 
+ali<lb break="no" ed="#V" n="67"/>quid, quod est in Deo per actum 
+in<lb break="no" ed="#V" n="68"/>tellectus sui, quod est impossibile. 
+Po<lb break="no" ed="#V" n="69"/>nunt enim isti, quod ist:e relationes,
+<lb ed="#V" n="70"/>qua dicuntur ide»,sunt in ipso Deo per
+<lb ed="#V" n="71"/>actum intellectus divini, et sic illud 
+ta<lb break="no" ed="#V" n="72"/>le poterit non esse per non esse talium
+<lb ed="#V" n="73"/>rerum in esse quidditativo.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e737">
+               <lb ed="#V" n="74"/>Hic tamen oritur difficultas contra
+<lb ed="#V" n="75"/>Doctorem, quia ipse ponit quod 
+intel<lb break="no" ed="#V" n="76"/>lectus divinus per actum suum potest
+<lb ed="#V" n="77"/>causare relationem rationis, 
+compa<lb break="no" ed="#V" n="78"/>rando se ut intelligent»m, ad rem ut
+<lb ed="#V" n="79"/>intellectam, ut patuit supra dst. 30.
+<lb ed="#V" n="80"/>et 35. Sed talis relatio rationis 
+neces<lb break="no" ed="#V" n="81"/>sario est ad aliquem terminum, puta
+<lb ed="#V" n="82"/>ad esse cognitum creature; ergo ex
+<lb ed="#V" n="83"/>quo tale esse cognitum non sit ex se
+<lb ed="#V" n="84"/>necessarium, si ponatur (licet per 
+im<lb break="no" ed="#V" n="85"/>possibile) ipsum non esse, sequitur
+<lb ed="#V" n="86"/>quod aliquid quod est in Deo per 
+ac<lb break="no" ed="#V" n="87"/>tum intellectus divini poterit non esse,
+<lb ed="#V" n="88"/>et sic aliter se habere. Si ergo contra
+<pb ed="#V" n="571"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>Henricum est impossibile de illis ideis,
+<lb ed="#V" n="2"/>non minus hoc erit impossibile apud
+<lb ed="#V" n="3"/>Doctorem.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e783">
+               <lb ed="#V" n="4"/>Item ipse expresse ponit quod 
+intel<lb break="no" ed="#V" n="5"/>lectus divinus ab aeterno non tantum
+<lb ed="#V" n="6"/>potest. comparare voluntatem 
+divi<lb break="no" ed="#V" n="7"/>nam, ut potentem creare, sed etiam
+<lb ed="#V" n="8"/>potest comparare, ut actum volentem
+<lb ed="#V" n="9"/>creare ad ipsam creaturam ut sic 
+vo<lb break="no" ed="#V" n="10"/>litam. Et ex tali comparatione causat
+<lb ed="#V" n="11"/>in voluntate divina, ut sic comparata,
+<lb ed="#V" n="12"/>aliquam relationem rationis, quae 
+ne<lb break="no" ed="#V" n="13"/>cessario terminatur ad creaturam ad
+<lb ed="#V" n="14"/>quam comparatur voluntas divina ut
+<lb ed="#V" n="15"/>volens ereare; ergo posito (licet per
+<lb ed="#V" n="16"/>impossibile) quod talis in creatura in
+<lb ed="#V" n="17"/>tali esse non sit, sequitur quod talis
+<lb ed="#V" n="18"/>relatio causata per actum intellectus
+<lb ed="#V" n="19"/>divini poterit non esse, quod est 
+im<lb break="no" ed="#V" n="20"/>possibile. Si ergo argumentum Scoti
+<lb ed="#V" n="21"/>concludit contra Henrieum, non 
+mi<lb break="no" ed="#V" n="22"/>nus ista videntur concludere contra
+<lb ed="#V" n="23"/>Scotum.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e829">
+               <lb ed="#V" n="24"/>Respondeo primo, quod non est 
+si<lb break="no" ed="#V" n="25"/>mile, quia Henricus posuit illud esse,
+<lb ed="#V" n="26"/>non esse ex se necesse esse formaliter ;
+<lb ed="#V" n="27"/>posuit enim illud posse non esse, et per
+<lb ed="#V" n="28"/>consequens sequitur quod Soeotus 
+ar<lb break="no" ed="#V" n="29"/>guit contra ipsum. Sed esse cognitum,
+<lb ed="#V" n="30"/>quod Doctor posuit, licet non dicatur
+<lb ed="#V" n="31"/>necessarium simpliciter, quia tantum
+<lb ed="#V" n="32"/>habet esse diminutum, est tamen sic
+<lb ed="#V" n="33"/>necessarium, quod est simpliciter 
+im<lb break="no" ed="#V" n="34"/>possibile ipsum non esse, cum 
+produ<lb break="no" ed="#V" n="35"/>eatur ab actu intellectus divini ante
+<lb ed="#V" n="36"/>omnem actum. voluntatis ad extra
+<lb ed="#V" n="37"/>comparatum. Per idem dico, quod 
+in<lb break="no" ed="#V" n="38"/>tellectus divinus necessario cognoscit
+<lb ed="#V" n="39"/>voluntatem divinam ab aeterno ut 
+vo<lb break="no" ed="#V" n="40"/>lentem creare pro A, et similiter 
+co<lb break="no" ed="#V" n="41"/>gnoscit creaturam ad quam ut 
+cogni<lb break="no" ed="#V" n="42"/>tam fit comparatio, et sic stat talis 
+re<lb break="no" ed="#V" n="43"/>latio rationis, licet voluntas divina
+<lb ed="#V" n="44"/>contingenter determinet creare pro
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>A, tamen facta determinatione ab
+<lb ed="#V" n="46"/>eterno intellectus divinus cognoscit
+<lb ed="#V" n="47"/>illam, et sic potest comparare.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e886">
+               <lb ed="#V" n="48"/>Si dicatur, quod iste rationes faelae
+<lb ed="#V" n="49"/>possent esse contra aliqua prius 
+deter<lb break="no" ed="#V" n="50"/>minata a Doctore d. 8. g. u/t. ubi 
+pro<lb break="no" ed="#V" n="51"/>bavit quod si Deus causaret creaturam
+<lb ed="#V" n="52"/>de necessitate,  tunc haberet relatio -
+<lb ed="#V" n="53"/>nem realem ad illam. Et talis relatio
+<lb ed="#V" n="54"/>esset idem quod Deus, ut probatum
+<lb ed="#V" n="55"/>est. dist. 8. quia nihil est ibi 
+formali<lb break="no" ed="#V" n="56"/>ter quin sit idem realiter ipsi Deo, et
+<lb ed="#V" n="57"/>per consequens cum relatio necessario
+<lb ed="#V" n="58"/>dependeat a termino, ergo termino non
+<lb ed="#V" n="59"/>existente, talis relatio non existet ; ergo
+<lb ed="#V" n="60"/>nec Deus, etsic magis necesse esse 
+po<lb break="no" ed="#V" n="61"/>terit non esse per aliquid minus ecesse
+<lb ed="#V" n="62"/>esse. Sic arguo in proposito : talisrelatio
+<lb ed="#V" n="63"/>causata in tertio instanti, aut est idem
+<lb ed="#V" n="64"/>quod Deus aut aliud. Si aliud, contra,
+<lb ed="#V" n="65"/>quia intellectus divinus causat illam
+<lb ed="#V" n="66"/>de necessitate in essentia sua ; ergo
+<lb ed="#V" n="67"/>ibi habet esse necessarium, et omne
+<lb ed="#V" n="68"/>tale in Deo est idem quod ipse Deus.
+<lb ed="#V" n="69"/>Si ponitur idem, ergo ipso destructo
+<lb ed="#V" n="70"/>destruitur Deus, patet, quia qua sunt
+<lb ed="#V" n="71"/>idem, destructo uno destruitur et 
+reli<lb break="no" ed="#V" n="72"/>quum. Sed talis relatio necessario 
+ter<lb break="no" ed="#V" n="73"/>minatur ad aliquid aliud a Deo, et sic
+<lb ed="#V" n="74"/>per possibile vel impossibile, 
+destruc<lb break="no" ed="#V" n="75"/>to tali termino alio ab ipso Deo, 
+des<lb break="no" ed="#V" n="76"/>truitur et, relatio, et per consequens
+<lb ed="#V" n="77"/>ipse Deus; et sic magis impossibile
+<lb ed="#V" n="78"/>poterit sequi ex minus impossibile 
+po<lb break="no" ed="#V" n="79"/>terit sequi ex minus impossibili, et
+<lb ed="#V" n="80"/>magis necessarium poterit non esse
+<lb ed="#V" n="81"/>ex 0n esse minus necessarii.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e962">
+               <lb ed="#V" n="82"/>Respondeo, praemittendo unum quod
+<lb ed="#V" n="83"/>dicit Doctor in 2. dist. 1. quod aliquid
+<lb ed="#V" n="84"/>non posse esse sine alio, nec e contra,
+<lb ed="#V" n="85"/>potest dupliciter intelligi. Primo, ex
+<lb ed="#V" n="86"/>rationibus suis entitativis, ita quod
+<lb ed="#V" n="87"/>simpliciter repugnet A esse sine 7, et
+<lb ed="#V" n="88"/>e contra, ratione entitatis 4 et P, quia
+<pb ed="#V" n="572"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>enim 4A est talis entitas, ideo A non
+<lb ed="#V" n="2"/>potest esse sine B; similiter quia Z
+<lb ed="#V" n="3"/>esL talis entitas, ideo repugnat sibi
+<lb ed="#V" n="4"/>posse esse sine A, ita quod talis 
+repu<lb break="no" ed="#V" n="5"/>gnantia non essendi unum sine altero,
+<lb ed="#V" n="6"/>esL ab intrinseca entitate eorum. 
+Se<lb break="no" ed="#V" n="7"/>cundo, quod talis inseparabilitas sit
+<lb ed="#V" n="8"/>tantum a causa extrinseca necessario
+<lb ed="#V" n="9"/>causante aliquid in alio, sicut ponitur
+<lb ed="#V" n="10"/>quod coelum non potest esse sine 
+mo<lb break="no" ed="#V" n="11"/>tu; et hoc non est ratione entitatis
+<lb ed="#V" n="12"/>coli, sed tantum ab agente extrinseco,
+<lb ed="#V" n="13"/>necessario movente coelum, et 
+causan<lb break="no" ed="#V" n="14"/>te motum in colo. Sic dico in 
+propo<lb break="no" ed="#V" n="15"/>sito quod talis relatio rationis dicitur
+<lb ed="#V" n="16"/>inseparabile ab essentia divina, et haec
+<lb ed="#V" n="17"/>tantum est ab intellectu divino 
+neces<lb break="no" ed="#V" n="18"/>sario causante talem relationem 
+ra<lb break="no" ed="#V" n="19"/>tionis, et per consequens non est
+<lb ed="#V" n="20"/>idem realiter cum essentia divina,
+<lb ed="#V" n="21"/>et sic non sequitur quod ipsa 
+de<lb break="no" ed="#V" n="22"/>sirueta — destruatur essentia, sicut
+<lb ed="#V" n="23"/>nec corrupto motu corrumpitur 
+ec<lb break="no" ed="#V" n="24"/>lum.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e1037">
+               <lb ed="#V" n="25"/>Dico ultra, quod esse cognitum 
+lapi<lb break="no" ed="#V" n="26"/>dis non est minus necesse esse quam
+<lb ed="#V" n="27"/>talis relatio, imo magis erit necesse
+<lb ed="#V" n="28"/>esse. Tum quia prius necessario 
+cau<lb break="no" ed="#V" n="29"/>satur ab intellectu divino. Tum quia
+<lb ed="#V" n="30"/>tale esse praesupponitur relationi illi,
+<lb ed="#V" n="31"/>ut terminus, et sic talis relatio 
+de<lb break="no" ed="#V" n="32"/>pendet ab illo, etc.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e1057">
+               <lb ed="#V" n="33"/>(k) Praeterea quarto principaliter 
+ar<lb break="no" ed="#V" n="34"/>guit, ducens ad hoc inconveniens, 
+sci<lb break="no" ed="#V" n="35"/>licet quod idee habeant perfectius esse
+<lb ed="#V" n="36"/>ipsis rebus ideatis, quod est 
+inconve<lb break="no" ed="#V" n="37"/>niens. Et arguit sic : Ex quo sunt prius
+<lb ed="#V" n="38"/>producta ab intellectu divino per 
+mo<lb break="no" ed="#V" n="39"/>dum nature et secundum totam 
+vir<lb break="no" ed="#V" n="40"/>tutem ipsius intellectus, videntur ex
+<lb ed="#V" n="41"/>hoc habere perfectius esse, quia causa
+<lb ed="#V" n="42"/>perfecta, et independens naturaliter
+<lb ed="#V" n="43"/>in causando, et agens per modum 
+na<lb break="no" ed="#V" n="44"/>ture, videtur producere immediatiora
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>sibi perfectiora, hoc etiam patuit 
+su<lb break="no" ed="#V" n="46"/>pra d. 3. q. 2.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e1092">
+               <lb ed="#V" n="47"/>(l) Praeterea quinto arguit sic: Jstas
+<lb ed="#V" n="48"/>essentias producit in esse, ei hoc 
+expres<lb break="no" ed="#V" n="49"/>se patet supra 4. 6. q. unica, et in 
+si<lb break="no" ed="#V" n="50"/>mili d. 10. de productione Spiritus
+<lb ed="#V" n="51"/>sancti, videquaibi notavi. Pater enim
+<lb ed="#V" n="52"/>producit Filium, ut Filius est prius 
+in<lb break="no" ed="#V" n="53"/>tellectus, licet intellectio qua ipsum
+<lb ed="#V" n="54"/>intelligit, non sit ratio formalis 
+pro<lb break="no" ed="#V" n="55"/>ducendi Filium, ut patuit supra d. 26:
+<lb ed="#V" n="56"/>eL 13. et alibi; ergo multum erit 
+ab<lb break="no" ed="#V" n="57"/>surdum dicere, quod intellectus 
+divi<lb break="no" ed="#V" n="58"/>nus producataliquid non intelligens
+<lb ed="#V" n="59"/>illud, sed quod producat eo modo quo
+<lb ed="#V" n="60"/>ignis producit.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e1125">
+               <lb ed="#V" n="61"/>Hic tamen occurrit difficulta sex 
+die<lb break="no" ed="#V" n="62"/>tis Scoti. Videtur enim in hoc sibi 
+con<lb break="no" ed="#V" n="63"/>tradicere. Tum quia quando producit
+<lb ed="#V" n="64"/>rem in esse cognito, aut prius intelligit
+<lb ed="#V" n="65"/>illam aut non, sive aut producit 
+in<lb break="no" ed="#V" n="66"/>telligens aut non. Si sic, ergo prius
+<lb ed="#V" n="67"/>preintelliguntur quam producuntur;
+<lb ed="#V" n="68"/>non ergo producit mere naturaliter,
+<lb ed="#V" n="69"/>sicut ignis producit lignum calidum.
+<lb ed="#V" n="70"/>Tum quia per Doctorem intellectus 
+di<lb break="no" ed="#V" n="71"/>vinus in tertio instanti producit 
+rela<lb break="no" ed="#V" n="72"/>tionem rationis, ut. supra patuit dist.
+<lb ed="#V" n="73"/>30. et 35. aut producit intelligens aut
+<lb ed="#V" n="74"/>non. Si sic, ergo talis relatio fuit 
+pre<lb break="no" ed="#V" n="75"/>cognita, et  tunc certum erit quod non
+<lb ed="#V" n="76"/>actu reflexo, sicut ipse ponit ipsam
+<lb ed="#V" n="77"/>cognosci ; aut non intelligens, et tune
+<lb ed="#V" n="78"/>producit mere naturaliter. Tum quia
+<lb ed="#V" n="79"/>ipse concedit, quod intellectio divina
+<lb ed="#V" n="80"/>est quasi producta. Tunc sic, aut 
+pro<lb break="no" ed="#V" n="81"/>ducit eam, ut intelligens, aut non. Si
+<lb ed="#V" n="82"/>primo, ergo prius preintelligebatur,
+<lb ed="#V" n="83"/>ettunc alia intellecetione, et sic 
+pro<lb break="no" ed="#V" n="84"/>cessus in infinitum. Si secundo, ergo
+<lb ed="#V" n="85"/>mere naturaliter producit, sicut ignis
+<lb ed="#V" n="86"/>producit ignem. Tum quia voluntas
+<lb ed="#V" n="87"/>divina vult Joannem esse album, aut
+<lb ed="#V" n="88"/>hoc, quod est Joannem esse album est
+<pb ed="#V" n="573"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>praeintellectum aut non. Si sic, 
+con<lb break="no" ed="#V" n="2"/>ira ipsum, qui vult quod contingens
+<lb ed="#V" n="3"/>inquantum hujusmodi, non sit 
+pre<lb break="no" ed="#V" n="4"/>cognitum antequam voluntas 
+deter<lb break="no" ed="#V" n="5"/>minet, imo ipsa prius determinat, ef
+<lb ed="#V" n="6"/>post intelligitur, ut patuit supra d. 39.
+<lb ed="#V" n="7"/>et in prolog. q. ult. In materia an 
+Theo<lb break="no" ed="#V" n="8"/>logia sit scientia practiea, vide ibi.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e1210">
+               <lb ed="#V" n="9"/>Respondeo, quod nulla est. 
+contra<lb break="no" ed="#V" n="10"/>dictio. Et praemitto aliqua, quod aliud
+<lb ed="#V" n="11"/>est producere aliquid tantum 
+secun<lb break="no" ed="#V" n="12"/>dum esse secundum quid, et aliud est
+<lb ed="#V" n="13"/>producere secundum esse simpliciter.
+<lb ed="#V" n="14"/>Esset enim inconveniens intellectum
+<lb ed="#V" n="15"/>divinum omnino independentem, et
+<lb ed="#V" n="16"/>in essendo et in causando producere
+<lb ed="#V" n="17"/>aliquid secundum verum esse 
+simpli<lb break="no" ed="#V" n="18"/>citer et reale, et non preintelligere
+<lb ed="#V" n="19"/>illud. Et posuit Doctor independens in
+<lb ed="#V" n="20"/>agendo, quia hoc non est inconveniens
+<lb ed="#V" n="21"/>de agente omnino dependente, ut de
+<lb ed="#V" n="22"/>Sole, quod producat non intelligendo,
+<lb ed="#V" n="23"/>ut supra patuit dist. 2. parte 1. quaest.
+<lb ed="#V" n="24"/>1. in. illis preambulis, tanc enim 
+diri<lb break="no" ed="#V" n="25"/>geretur ad finem ab alio 
+cognoscen<lb break="no" ed="#V" n="26"/>te et amante finem, utibi patuit. Esset
+<lb ed="#V" n="27"/>ergo inconveniens in intellectu divino
+<lb ed="#V" n="28"/>producere aliquid in esse simpliciter
+<lb ed="#V" n="29"/>non cognoscendo illud. Loquendo 
+ve<lb break="no" ed="#V" n="30"/>ro de esse secundum quid, nullum est
+<lb ed="#V" n="31"/>ineonveniens. Modo Henricus posuit
+<lb ed="#V" n="32"/>res ab aeterno habere verum esse 
+essea<lb break="no" ed="#V" n="33"/>tie, quod est esse simpliciter. Et sic
+<lb ed="#V" n="34"/>patuit ad argumenta.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e1269">
+               <lb ed="#V" n="35"/>Potest etiam aliter responderi ad 
+om<lb break="no" ed="#V" n="36"/>nia argumenta singillatim. Ad 
+pri<lb break="no" ed="#V" n="37"/>mum dico, quod producit intelligendo,
+<lb ed="#V" n="38"/>sic tamen quod actu illo quo producit
+<lb ed="#V" n="39"/>etiam intelligit, ita quod ante illam 
+in<lb break="no" ed="#V" n="40"/>tellectionem, nihil creature fuit in
+<lb ed="#V" n="41"/>quocumque esse, et sufficit quod 
+pro<lb break="no" ed="#V" n="42"/>ducat in esse intellecto sive in esse 
+co<lb break="no" ed="#V" n="43"/>gnito. Et sic producere aliquid ut 
+in<lb break="no" ed="#V" n="44"/>tellizens, potest dupliciter intelliei.
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>Primo, quod intellectio prius 
+termine<lb break="no" ed="#V" n="46"/>tur ad ipsum producibile, quam 
+pro<lb break="no" ed="#V" n="47"/>dueatur in esse. Secundo, quod ipsa
+<lb ed="#V" n="48"/>intellectio tantum terminetur ad esse
+<lb ed="#V" n="49"/>cognitum in eodem instanti, quo 
+pro<lb break="no" ed="#V" n="50"/>ducit illud in tali esse, et sic 
+intellec<lb break="no" ed="#V" n="51"/>tus divinus isto secundo modo 
+produ<lb break="no" ed="#V" n="52"/>cit intelligens.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e1314">
+               <lb ed="#V" n="53"/>Ad aliud de relatione rationis, dico
+<lb ed="#V" n="54"/>quod non est producta, sed tantum de--
+<lb ed="#V" n="55"/>relinquitur ex tali comparatione, et
+<lb ed="#V" n="56"/>quod entia rationis non dicantur 
+pro<lb break="no" ed="#V" n="57"/>prie produci, supra exposui ad 
+men<lb break="no" ed="#V" n="58"/>tem Doctoris d. 3. g. 7. Posito etiam
+<lb ed="#V" n="59"/>quod sit producta, non est 
+inconve<lb break="no" ed="#V" n="60"/>niens producere ipsam non intelligens,
+<lb ed="#V" n="61"/>non enim est aliquod producibile, ut
+<lb ed="#V" n="62"/>in ultimum finem ordinabile. Et forte
+<lb ed="#V" n="63"/>nullum etiam esset inconveniens 
+in<lb break="no" ed="#V" n="64"/>tellectum divinum producere illam ut
+<lb ed="#V" n="65"/>intelligens, sic intelligendo, quod 
+pro<lb break="no" ed="#V" n="66"/>ducit illam ut prius terminum et 
+fun<lb break="no" ed="#V" n="67"/>damentum intelligens, et hoc. modo
+<lb ed="#V" n="68"/>ipse concedit, ut supra patuit dist. 35.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e1351">
+               <lb ed="#V" n="69"/>Ad aliud de divina intellectione, 
+pa<lb break="no" ed="#V" n="70"/>tet responsio, quia non est producta,
+<lb ed="#V" n="71"/>cum sit idem realiter et essentialiter.
+<lb ed="#V" n="72"/>Et ultra intellectuas non comparatur
+<lb ed="#V" n="73"/>ad ipsam operationem qua intelligit,
+<lb ed="#V" n="74"/>ipsa enim praesupponitur omni 
+pro<lb break="no" ed="#V" n="75"/>duetioni, aliter oporteret procedere in
+<lb ed="#V" n="76"/>infinitum in intellectionibus.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e1371">
+               <lb ed="#V" n="77"/>Ad ultimum de voluntate, dico, ut
+<lb ed="#V" n="78"/>infra patebit d. 39. quod voluntas de
+<lb ed="#V" n="79"/>necessitate fertur in praecognitum. Et
+<lb ed="#V" n="80"/>hoc debet intelligi de terminis, 
+nun<lb break="no" ed="#V" n="81"/>quam enim posset velle Joannem fore
+<lb ed="#V" n="82"/>album, nisi intellectus divinus 
+prein<lb break="no" ed="#V" n="83"/>telligeret Joannem et albedinem, et
+<lb ed="#V" n="84"/>non oportet ipsum fpreintelligere ut
+<lb ed="#V" n="85"/>album. Et sic patet quomodo Doctor
+<lb ed="#V" n="86"/>Subtilis sibi non contradicit, et 
+quo<lb break="no" ed="#V" n="87"/>modo argumentum concludit contra
+<lb ed="#V" n="88"/>Henricum et non contra seipsum.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e1400">
+               <pb ed="#V" n="574"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>(m) Praeterea sexto arguit Doctor, 
+di<lb break="no" ed="#V" n="2"/>cens quod non videtur probabile quod
+<lb ed="#V" n="3"/>dicit Henricus, scilicet quod 
+respec<lb break="no" ed="#V" n="4"/>tu causae exemplaris sit unus effectus
+<lb ed="#V" n="5"/>alius ab effectu causa: efficientis. 
+Di<lb break="no" ed="#V" n="6"/>cit enim, quod res in esse cognito,
+<lb ed="#V" n="7"/>causantur a Deo ut a causa exemplari,
+<lb ed="#V" n="8"/>quia Deus ut habens illas relationes
+<lb ed="#V" n="9"/>ideales, producit diversas res in esse
+<lb ed="#V" n="10"/>cognito, et producuntur ab ipso Deo in
+<lb ed="#V" n="11"/>esse existenti:e. ut a causa efliciente.
+<lb ed="#V" n="12"/>Contra hoc arguit, quia causa efficiens
+<lb ed="#V" n="13"/>et exemplaris non videntur distingui,
+<lb ed="#V" n="14"/>causa enim exemplaris videtur 
+ef<lb break="no" ed="#V" n="15"/>ficiens; efficiens enim dividitur in 
+ef<lb break="no" ed="#V" n="16"/>ficiens per intellectum sive a proposito
+<lb ed="#V" n="17"/>et efficiens per naturam, ut patet 2.
+<lb ed="#V" n="18"/>Physic. t. c. 49. Sed de ista 
+distinc<lb break="no" ed="#V" n="19"/>tione supra patuit d. 2. parte 2. q. 3. et
+<lb ed="#V" n="20"/>de hoc vide prolixius 2 quodlib. q. 16.
+<lb ed="#V" n="21"/>Sicut igitur naturaliter producens non
+<lb ed="#V" n="22"/>est alia causa ab efficiente, ita nec
+<lb ed="#V" n="23"/>exemplaris nec exemjlariter 
+produ<lb break="no" ed="#V" n="24"/>cens, et ita idem est effectum, et 
+exem<lb break="no" ed="#V" n="25"/>plariter productum alicujus 
+intelligen<lb break="no" ed="#V" n="26"/>tis inquantum est intelligens et 
+in<lb break="no" ed="#V" n="27"/>quantum exemplans. Et proprie 
+lo<lb break="no" ed="#V" n="28"/>quendo causa exemplaris est causa
+<lb ed="#V" n="29"/>libera, qua» ideo dicitur exemplaris,
+<lb ed="#V" n="30"/>quia in mente semper habet 
+similitu<lb break="no" ed="#V" n="31"/>dinem rei causabilis, ut exemplar 
+di<lb break="no" ed="#V" n="32"/>rigens in opere. Nam ut z» prolog. q.
+<lb ed="#V" n="33"/>de prari exposui, omnis actus elicitus
+<lb ed="#V" n="34"/>vel imperatus a voluntate non potest
+<lb ed="#V" n="35"/>dici rectus, nisi pro quanto elicitur
+<lb ed="#V" n="36"/>vel imperatur eonformiter rationi 
+rec<lb break="no" ed="#V" n="37"/>te; praecedit enim in intellectu ratio
+<lb ed="#V" n="38"/>recta sive cognitio practica, qua puta
+<lb ed="#V" n="39"/>artifex cognoscit tale opus sic debere
+<lb ed="#V" n="40"/>fieri, et talis cognitio dicitur exemplar,
+<lb ed="#V" n="41"/>et pro tanto voluntas dicitur causa
+<lb ed="#V" n="42"/>efficiens exemplaris, pro quanto vult
+<lb ed="#V" n="43"/>illud opus fieri conformiter tali 
+cogni<lb break="no" ed="#V" n="44"/>tioni. Utrum modo tale exemplar con-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>currat effective ad actum voluntatis,
+<lb ed="#V" n="46"/>patuit supra quid dicendum in q. de
+<lb ed="#V" n="47"/>prazi, et magis patet in 2. d. 25.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e1511">
+               <lb ed="#V" n="48"/>(n) Quod etiam addit compositionem.
+<lb ed="#V" n="49"/>Henrieus posuit quod ex ipso esse 
+es<lb break="no" ed="#V" n="50"/>sentiae et esse existentia ipsius 
+creatu<lb break="no" ed="#V" n="51"/>ri componitur ipsa creatura. Doctor
+<lb ed="#V" n="52"/>contra hoc arguit, quia secundum 
+is<lb break="no" ed="#V" n="53"/>los esse essentic et esse existentiae sunt
+<lb ed="#V" n="54"/>simpliciter idem; ergo non [faciunt
+<lb ed="#V" n="55"/>compositionem rei et rei; patet per
+<lb ed="#V" n="56"/>eos qui volunt quod relatio non facit
+<lb ed="#V" n="57"/>compositionem eum fundamento, quia
+<lb ed="#V" n="58"/>ipsa non est aliud a fundamento, ergo.
+<lb ed="#V" n="59"/>Et in hoc Doctor non sibi contradicit,
+<lb ed="#V" n="60"/>qui supra d. 8. 4. de simplicitate, an
+<lb ed="#V" n="61"/>scilicet creatura sit simplex, vult quod
+<lb ed="#V" n="62"/>omnis creatura sit composita ex actu
+<lb ed="#V" n="63"/>et potentia objectiva, quia hic loquitur,
+<lb ed="#V" n="64"/>quod ex actu et potentia objectiva non
+<lb ed="#V" n="65"/>componitur tanquam ex duabus rebus,
+<lb ed="#V" n="66"/>quia ens tantum in potentia objectiva
+<lb ed="#V" n="67"/>non potest dici res realis, cum tantum
+<lb ed="#V" n="68"/>habeat esse secundum quid. Et sic 
+pa<lb break="no" ed="#V" n="69"/>tet quantum ad improbationem 
+opinio<lb break="no" ed="#V" n="70"/>nis.
+</p>
+            <!--</div>
+<div alias="lycht-d36q1-p3">-->
+            <p xml:id="mm30o9-d1e1276-d1e1566">
+               <lb ed="#V" n="35" type="fixed=582"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e1571">
+               <lb ed="#V" n="36"/>(a) Concedo conclusionem istarum 
+ra<lb break="no" ed="#V" n="37"/>tionum, scilicet quod creatura, 
+inquan<lb break="no" ed="#V" n="38"/>ium fundamentum relationis zterna
+<lb ed="#V" n="39"/>ad Deum ut cognoscentem,habeat vere
+<lb ed="#V" n="40"/>esse essentia ex hoc, quod est sub tali
+<lb ed="#V" n="41"/>respectu. Et hoc specialiter probatur,
+<lb ed="#V" n="42"/>quia 0n tantu esse essentiae fundat
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>relationem talem ad Deum, etc. ergo pari
+<lb ed="#V" n="44"/>ratione non est concedendum de esse
+<lb ed="#V" n="45"/>essentic, id est, quod Deus ab terno,
+<lb ed="#V" n="46"/>sicut produxit Joannem in esse 
+co<lb break="no" ed="#V" n="47"/>gnito quoad esse essentia, ita produxit
+<lb ed="#V" n="48"/>ab «terno quoad esse existentiae, quia
+<lb ed="#V" n="49"/>producendo Joannem in esse cognito
+<lb ed="#V" n="50"/>quantum ad esse essentiae ; et quia
+<lb ed="#V" n="51"/>sibi non repugnat esse existentia, ideo
+<lb ed="#V" n="52"/>ab aeterno produxit in esse cognito
+<lb ed="#V" n="53"/>quantum ad esse existentiae, et tamen
+<lb ed="#V" n="54"/>non est necesse quod ut cognoscatur,
+<lb ed="#V" n="55"/>sive ut habeat esse cognitum 
+secun<lb break="no" ed="#V" n="56"/>dum esse existentiae, quod talis 
+exis<lb break="no" ed="#V" n="57"/>tentia fuerit in vero esse reali ; sufficit
+<lb ed="#V" n="58"/>enim quod fuerit in esse cognito, in
+<lb ed="#V" n="59"/>quo esse forte fundatur existentia in
+<lb ed="#V" n="60"/>esse possibili, hoc idem videtur 
+dicen<lb break="no" ed="#V" n="61"/>dum de esse essentiae.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e1632">
+               <lb ed="#V" n="62"/>(b) Omnia etiam motiva, etc. Nec
+<lb ed="#V" n="63"/>etiam est. differentia quoad. hoc, nisi
+<lb ed="#V" n="64"/>quod intellectus divinus producit illa
+<lb ed="#V" n="65"/>intelligibilia in esse intelligibili 
+pri<lb break="no" ed="#V" n="66"/>mo, ita quod ante illum actum nullum
+<lb ed="#V" n="67"/>esse habent, necreale, nec intelligibile,
+<lb ed="#V" n="68"/>nee simpliciter nec secundum quid.
+<lb ed="#V" n="69"/>Sed intellectus noster non producit
+<lb ed="#V" n="70"/>primo, quia omnia per se intelligibilia
+<lb ed="#V" n="71"/>ab aeterno fuerunt de necessitate 
+na<lb break="no" ed="#V" n="72"/>ture producta ab actu intellectus 
+di<lb break="no" ed="#V" n="73"/>vini in esse intelligibiii. Et sic patet
+<lb ed="#V" n="74"/>quid dicendum ad questionem 
+prin<lb break="no" ed="#V" n="75"/>cipalem.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e1665">
+               <lb ed="#V" n="76"/>(c) Contra istud objicitur, etc. Hie
+<lb ed="#V" n="77"/>Doctor per ista duo argumenta 
+inten<lb break="no" ed="#V" n="78"/>dit probare quod esse essentiae vere
+<lb ed="#V" n="79"/>fuerit ab aevterno. Et probat sic primo,
+<lb ed="#V" n="80"/>quia omne fundamentum relationis
+<lb ed="#V" n="81"/>secundum quod fundat relationem,
+<lb ed="#V" n="82"/>sic est ; patet, quia si album secundum
+<lb ed="#V" n="83"/>esse albi fundat similitudinem, 
+secun<lb break="no" ed="#V" n="84"/>dum tale esse erit. Sed lapis secundum
+<lb ed="#V" n="85"/>verum esse essentia, etc.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e1689">
+               <lb ed="#V" n="86"/>(d) Ad primum dico. Doctor respon-
+<pb ed="#V" n="583"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>det ad ista duo argumenta, et licet
+<lb ed="#V" n="2"/>responsio ad primum sit facilis, nota
+<lb ed="#V" n="3"/>tamen aliqua dicta ibi. Primum : 
+2is<lb break="no" ed="#V" n="4"/>tractum non. est respectu. distrahentis
+<lb ed="#V" n="5"/>distractum, sed respectu tertii ad. quod
+<lb ed="#V" n="6"/>comparatur sub ratione  distrahentis,
+<lb ed="#V" n="7"/>ut patet 2. Perihermenias cap. 2. 
+Dis<lb break="no" ed="#V" n="8"/>trahere proprie est propriam termini
+<lb ed="#V" n="9"/>significationem mutare et oppositum
+<lb ed="#V" n="10"/>inducere, ut homo mortuus ; ly 
+mor<lb break="no" ed="#V" n="11"/>tuus distrahit ly Aomo, quia tollit rem
+<lb ed="#V" n="12"/>significatam per ly Aomo, et oppositum
+<lb ed="#V" n="13"/>inducit, scilicet privationem hominis
+<lb ed="#V" n="14"/>sive humanitatis. Et sic, ly homo non
+<lb ed="#V" n="15"/>distrahitur respectu ly »nortwus, sed
+<lb ed="#V" n="16"/>respectu cadaveris, de quo praedicatur
+<lb ed="#V" n="17"/>homo mortuus ; est enim 
+contradic<lb break="no" ed="#V" n="18"/>tio, homo mortuus, puta dicendo, 
+ca<lb break="no" ed="#V" n="19"/>daver est homo mortuus. Similiter 
+di<lb break="no" ed="#V" n="20"/>minutum respectu diminuentis, non
+<lb ed="#V" n="21"/>diminuitur, sed respectu tertii, ut 
+ho<lb break="no" ed="#V" n="22"/>mo albus secundum dentes respectu
+<lb ed="#V" n="23"/>JEthiopis, de quo dicitur. Et dicitur
+<lb ed="#V" n="24"/>diminui, quando non tollitur 
+signifi<lb break="no" ed="#V" n="25"/>catum diminuli, sed aliqua pars, ct
+<lb ed="#V" n="26"/>pars major, ut album secundum 
+den<lb break="no" ed="#V" n="27"/>tes, dicitur diminutum album, quia
+<lb ed="#V" n="28"/>si secundum dentes non. adderetur, 
+si<lb break="no" ed="#V" n="29"/>gnifiearet quod princi$1atio r pars esset
+<lb ed="#V" n="30"/>alba, sed cum additur, significatur
+<lb ed="#V" n="31"/>oppositum, id est, quod non 
+principa<lb break="no" ed="#V" n="32"/>lior pars sit alba.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e1767">
+               <lb ed="#V" n="33"/>Secundum dictum : haec determinatio
+<lb ed="#V" n="34"/>esse in. opinione est determi$1atio   
+di<lb break="no" ed="#V" n="35"/>minuens, secundum Philosophum ubi
+<lb ed="#V" n="36"/>supra, et similiter esse in 
+intellectio<lb break="no" ed="#V" n="37"/>ne, sive esse exemplatum, sive esse 
+co<lb break="no" ed="#V" n="38"/>gnitum, sive esse repreesentatum, quae
+<lb ed="#V" n="39"/>omnia equivalent. Esse enim Homeri
+<lb ed="#V" n="40"/>simpliciter et non diminutum est 
+ob<lb break="no" ed="#V" n="41"/>jectum opinionis, sed istud esse 
+sim<lb break="no" ed="#V" n="42"/>pliciter, ut in opinione est esse 
+secun<lb break="no" ed="#V" n="43"/>dum quid, et ideo non sequitur : 
+Ho<lb break="no" ed="#V" n="44"/>merus est in opinione, ideo Homerus
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>est ; est enim fallacia secundum quid.
+<lb ed="#V" n="46"/>Sic in proposito, lapis simpliciter
+<lb ed="#V" n="47"/>comparatur ad intellectionem  
+divi<lb break="no" ed="#V" n="48"/>nam, et non tantum secundum esse
+<lb ed="#V" n="49"/>essenlic;e lapidis, sed etiam secundum
+<lb ed="#V" n="50"/>esse existentiae, tamen illud ut 
+accep<lb break="no" ed="#V" n="51"/>tumsub ista comparatione ad 
+scien<lb break="no" ed="#V" n="52"/>liam Dei, diminuitur. Non quidem
+<lb ed="#V" n="53"/>distrahitur, quasinon staret ens 
+sim<lb break="no" ed="#V" n="54"/>pliciter eum tali respectu, sed 
+dimi<lb break="no" ed="#V" n="55"/>nuitur, ita quod talis respectus non
+<lb ed="#V" n="56"/>ponit necessario suum determinabile
+<lb ed="#V" n="57"/>esse ens simpliciter.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e1827">
+               <lb ed="#V" n="58"/>Ex hoc apparet, quod quidam 
+expo<lb break="no" ed="#V" n="59"/>nentes Scotum non ipsum intelligunt.
+<lb ed="#V" n="60"/>Dieunt enim sic: Esse in opinione
+<lb ed="#V" n="61"/>velintellectu tantum est 
+determina<lb break="no" ed="#V" n="62"/>lio diminuens, imo distrahens, quia
+<lb ed="#V" n="63"/>est esse similitudinem rei cognita, et
+<lb ed="#V" n="64"/>cognosci, qua est relatio tantum 
+fun<lb break="no" ed="#V" n="65"/>data in similitudine rei. In hoc enim
+<lb ed="#V" n="66"/>contradicit Doctori, qui expresse vult
+<lb ed="#V" n="67"/>quod non sit determinatio distrahens,
+<lb ed="#V" n="68"/>sed tantum diminuens, quia cum 
+de<lb break="no" ed="#V" n="69"/>terminatione distrahente nullo modo
+<lb ed="#V" n="70"/>potest stare oppositum, etc. Nam cum
+<lb ed="#V" n="71"/>dieo omo mortuus, est impossibile,
+<lb ed="#V" n="72"/>quod cum ly mortuo stet significatum
+<lb ed="#V" n="73"/>hominis, ut patet, sed non in opinione;
+<lb ed="#V" n="74"/>stat enim quod Franciscus habeat esse
+<lb ed="#V" n="75"/>in opinione, et quod etiam habeat 
+ve<lb break="no" ed="#V" n="76"/>rum esse.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e1871">
+               <lb ed="#V" n="77"/>(e) Tunc ad formam argumenti, eic.
+<lb ed="#V" n="78"/>Dicit, quod quando dicitur 
+fundamen<lb break="no" ed="#V" n="79"/>tum relationis, est secundum illud
+<lb ed="#V" n="80"/>esse, secundum quod fundat 
+relatio<lb break="no" ed="#V" n="81"/>nem. Verum est quando relatio ista
+<lb ed="#V" n="82"/>fundata non est simpliciter diminuens
+<lb ed="#V" n="83"/>esse fandamenti. Sic est in proposito,
+<lb ed="#V" n="84"/>lapis ab aeterno habet tantum osse
+<lb ed="#V" n="85"/>cognitum, et sic tantum est in 
+co<lb break="no" ed="#V" n="86"/>enoseente, sicut cognitum dicitur
+<lb ed="#V" n="87"/>esse in cognoscente, et sic patet quod
+<lb ed="#V" n="88"/>talis relatio diminuit. Cum enim di-
+<pb ed="#V" n="584"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>citur, lapis est in intellectu, ibi lapis
+<lb ed="#V" n="2"/>verus accipitur in subjecto, quia verus
+<lb ed="#V" n="3"/>lapis cognoscitur, ideo respectu 
+co<lb break="no" ed="#V" n="4"/>gnitionis non diminuitur ; tamen
+<lb ed="#V" n="5"/>comparando ad cognosci, quod habet
+<lb ed="#V" n="6"/>in cognitione,  tunc diminuitur, et
+<lb ed="#V" n="7"/>ideo non sequitur, lapis habet esse 
+co<lb break="no" ed="#V" n="8"/>gnitum ; ergo lapis existit, vel lapis
+<lb ed="#V" n="9"/>est verum ens, sed est fallacia 
+secun<lb break="no" ed="#V" n="10"/>dum quid ad simpliciter. Et Doctor
+<lb ed="#V" n="11"/>assignat rationem realem hujus, 
+sci<lb break="no" ed="#V" n="12"/>licet. secundum quid et simpliciter,
+<lb ed="#V" n="13"/>quia prima distinctio videtur esse in
+<lb ed="#V" n="14"/>ens extra animam, et in ens in anima.
+<lb ed="#V" n="15"/>Et ens extra animam potest distingui
+<lb ed="#V" n="16"/>in actum et potentiam essentiae et
+<lb ed="#V" n="17"/>existentiae, et. quodcumque istorum
+<lb ed="#V" n="18"/>potest habere esse in anima, et illud
+<lb ed="#V" n="19"/>esse in anima aliud est ab omni esse
+<lb ed="#V" n="20"/>extra animam, et ideo de nullo ente
+<lb ed="#V" n="21"/>sequitur : si habet esse diminutum in
+<lb ed="#V" n="22"/>anima, quod propter hoc habeat esse
+<lb ed="#V" n="23"/>simpliciter, quia illud esse est. 
+secun<lb break="no" ed="#V" n="24"/>dum quid absolute, quod tamen 
+acci<lb break="no" ed="#V" n="25"/>pitur simpliciter inquantum 
+compa<lb break="no" ed="#V" n="26"/>ratur ad animam, ut fundamentum
+<lb ed="#V" n="27"/>illius esse in anima.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e1962">
+               <lb ed="#V" n="28"/>Nota tamen secundum aliquos, quod
+<lb ed="#V" n="29"/>quando Doctor accipit actum et 
+po<lb break="no" ed="#V" n="30"/>tentiam esse extra animam, accipit
+<lb ed="#V" n="31"/>ibi materiam et formam, et non 
+ac<lb break="no" ed="#V" n="32"/>cipit pro esse in potentia objectiva,
+<lb ed="#V" n="33"/>quia tale ens in potentia nihil est.
+<lb ed="#V" n="34"/>Sed hoc non videtur ad mentem 
+Doc<lb break="no" ed="#V" n="35"/>toris, quia actus et potentia pertinent
+<lb ed="#V" n="36"/>ad idem genus, loquendo de potentia
+<lb ed="#V" n="37"/>objeetiva, ut ipse exponit in 2. 
+dis<lb break="no" ed="#V" n="38"/>tinct. 12. et 16. Eadem enim est albedo
+<lb ed="#V" n="39"/>numero, qua est in potentia objectiva,
+<lb ed="#V" n="40"/>et quia existit, et ideo non videtur
+<lb ed="#V" n="41"/>aecipere ens in potentia objectiva pro
+<lb ed="#V" n="42"/>ente rationis. Enti enim proprie 
+ra<lb break="no" ed="#V" n="43"/>tionis repugnat esse existenti, non
+<lb ed="#V" n="44"/>autem lapidi in potentia objectiva,
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>ideo etiam non sequitur, habet esse 
+co<lb break="no" ed="#V" n="46"/>gnitum ; ergo est ens possibile 
+exis<lb break="no" ed="#V" n="47"/>tere. Chimara enim habet esse 
+cogni<lb break="no" ed="#V" n="48"/>tum, et similiter secunda intentiones,
+<lb ed="#V" n="49"/>et tamen non sunt possibiles existere ;
+<lb ed="#V" n="50"/>non ergo videtur accipere ens inm 
+po<lb break="no" ed="#V" n="51"/>lentia pro materia prima.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e2019">
+               <lb ed="#V" n="52"/>(f) Ad secundum dico. Dicit, quod
+<lb ed="#V" n="53"/>productio in esse cognito est alterius
+<lb ed="#V" n="54"/>rationis ab omni productione 
+secun<lb break="no" ed="#V" n="55"/>dura esse simpliciter, et talis productio
+<lb ed="#V" n="56"/>in esse cognito non est relationis 
+tan<lb break="no" ed="#V" n="57"/>tum, scilicet cognosci, id est, quod
+<lb ed="#V" n="58"/>non est tantum ipsum cognosci 
+pas<lb break="no" ed="#V" n="59"/>sive, sed etiam est fundamenti 
+abso<lb break="no" ed="#V" n="60"/>luti, non secundum esse essentia vel
+<lb ed="#V" n="61"/>existentide quod est. verum esse, sed
+<lb ed="#V" n="62"/>secundum esse diminutum quod est
+<lb ed="#V" n="63"/>esse secundum quid, etiam entis 
+ab<lb break="no" ed="#V" n="64"/>soluti, quod tamen ens absolutum 
+se<lb break="no" ed="#V" n="65"/>cundum istud esse diminutum 
+con<lb break="no" ed="#V" n="66"/>comitatur esse relationis. Ex ista 
+litte<lb break="no" ed="#V" n="67"/>ra (uL videtur) non recte exponunt hic
+<lb ed="#V" n="68"/>Doctorem sic dicentes: Productio rei
+<lb ed="#V" n="69"/>in esse cognilo, non est tantum 
+pro<lb break="no" ed="#V" n="70"/>ductio illius relationis, quod est 
+co<lb break="no" ed="#V" n="71"/>gnosci passive, sed etiam fundamenti
+<lb ed="#V" n="72"/>absoluti, id est, similitudinis rei 
+co<lb break="no" ed="#V" n="73"/>gnile, quam similitudinem 
+concomi<lb break="no" ed="#V" n="74"/>tatur illa relatio rationis, qua» est. 
+co<lb break="no" ed="#V" n="75"/>gnosci. Hd:c enim non videtur 
+inten<lb break="no" ed="#V" n="76"/>tio Doctoris, quia non video quod ab
+<lb ed="#V" n="77"/>eterno producatur similitudo lapidis
+<lb ed="#V" n="78"/>in qua fundetur illa relatio rationis,
+<lb ed="#V" n="79"/>quia oporteret quarere, quod esse 
+ha<lb break="no" ed="#V" n="80"/>bet illa similitudo. Si rationis tantum,
+<lb ed="#V" n="81"/>ergo relatio rationis, scilicet cognosci
+<lb ed="#V" n="82"/>passive fundaretur in alia relatione
+<lb ed="#V" n="83"/>rationis, et ultra non ceognoscereltur
+<lb ed="#V" n="84"/>tvne lapis, nec proprie diceretur 
+la<lb break="no" ed="#V" n="85"/>pis cognitus; ideo melius videtur 
+di<lb break="no" ed="#V" n="86"/>cendum quod ipse lapis secundum
+<lb ed="#V" n="87"/>esse diminutum est fundamentum 
+ta<lb break="no" ed="#V" n="88"/>lis re$1atio nis. Et haec etiam patet per
+<pb ed="#V" n="585"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>exemplum sequens in littera de 
+Caesa<lb break="no" ed="#V" n="2"/>re, etc.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e2110">
+               <lb ed="#V" n="3"/>(g) Et si velis quaerere, etc. Dicit
+<lb ed="#V" n="4"/>Doctor, quod lapis ab aeterno cognitus,
+<lb ed="#V" n="5"/>nullum esse verum habet, sed tantum
+<lb ed="#V" n="6"/>habet esse secundum qud, quod 
+scili<lb break="no" ed="#V" n="7"/>cet esse verum formaliter praedicetur
+<lb ed="#V" n="8"/>de lapide cognito. Si tamen loquamur
+<lb ed="#V" n="9"/>de aliquo esse terminative, haec modo
+<lb ed="#V" n="10"/>lapis habet verum esse reale, quia 
+ter<lb break="no" ed="#V" n="11"/>minatur ut sic cognitus, ad 
+intellec<lb break="no" ed="#V" n="12"/>lionem divinam sub ratione absoluta,
+<lb ed="#V" n="13"/>et sic parlicipative et. denominatione
+<lb ed="#V" n="14"/>extrinseca, lapis ab aeterno cognitus
+<lb ed="#V" n="15"/>potest dici habere verum esse 
+simpli<lb break="no" ed="#V" n="16"/>citer. Et quod addit de regulis aeternis,
+<lb ed="#V" n="17"/>ete., vide qua exposui supra d. 3. q. 4.
+<lb ed="#V" n="18"/>Nunc restat solvere argumenta 
+prin<lb break="no" ed="#V" n="19"/>cipalia.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e2149">
+               <lb ed="#V" n="20"/>(h) Ad. primum principale dco. Ad
+<lb ed="#V" n="21"/>argumenta principalia. Primo 
+argue<lb break="no" ed="#V" n="22"/>batur sic : Homo non est ex se ens 
+ra<lb break="no" ed="#V" n="23"/>tum, quia  tunc esset Deus, et tamen
+<lb ed="#V" n="24"/>est ens ratum, aliter non posset 
+defi<lb break="no" ed="#V" n="25"/>niri. Et non dicitur ens ratum per
+<lb ed="#V" n="26"/>respectum ad Deum ut efficientem,
+<lb ed="#V" n="27"/>quia tunc haberet verum esse 
+existen<lb break="no" ed="#V" n="28"/>üiee, et ub sic non posset definiri; ergo
+<lb ed="#V" n="29"/>erit ens ratum per respectum ad
+<lb ed="#V" n="30"/>exemplar in Deo, etsic erit ens ratum
+<lb ed="#V" n="31"/>per talem respectum, quoad esse
+<lb ed="#V" n="32"/>essentic, ergo.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e2181">
+               <lb ed="#V" n="33"/>Respondet Doctor dicens, quod homo
+<lb ed="#V" n="34"/>non est ex se ens ratum, accipiendo
+<lb ed="#V" n="35"/>ens ratum pro ente firmo,sive essentia
+<lb ed="#V" n="36"/>sive existentia, quia ista non 
+separan<lb break="no" ed="#V" n="37"/>tur qualitereumque distinguantur, sed
+<lb ed="#V" n="38"/>ab efficiente hoc modo est ens ratum.
+<lb ed="#V" n="39"/>Est tamen ens ratum, accipiendo ens
+<lb ed="#V" n="40"/>ratum pro omni eo, cui non repugnat
+<lb ed="#V" n="41"/>verum esse essentic et existentia, et
+<lb ed="#V" n="42"/>sic Chimaera hoc modo non potest dici
+<lb ed="#V" n="43"/>ens ratum. Et eum infertur quod non
+<lb ed="#V" n="44"/>est ens ratum, nisi effectum, concedi-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>tur de ente rato primo modo, et tale sic
+<lb ed="#V" n="46"/>effectum est existens. Et cum ultra 
+in<lb break="no" ed="#V" n="47"/>fertur, ergo non est ejus definitio, nisi
+<lb ed="#V" n="48"/>ut existens, negatur ista consequentia,
+<lb ed="#V" n="49"/>quia definitio est distincta rei cognitio
+<lb ed="#V" n="50"/>secundum omnes partes essentiales,
+<lb ed="#V" n="51"/>distincta autem cognitio potest esse
+<lb ed="#V" n="52"/>alicujus non existentis; de qua 
+defi<lb break="no" ed="#V" n="53"/>nitione supra expositum est. Sufficit
+<lb ed="#V" n="54"/>enim quod homo sit ens ratum 
+secun<lb break="no" ed="#V" n="55"/>do modo, quia ex se non repugnat
+<lb ed="#V" n="56"/>sibi esse tam essenlic: quam 
+existen<lb break="no" ed="#V" n="57"/>liae, et ut sic, potest distincte cognosci
+<lb ed="#V" n="58"/>secundum omnes ejus partes 
+essen<lb break="no" ed="#V" n="59"/>tiales, qua distincta cognitio dicitur
+<lb ed="#V" n="60"/>definitio. Et non sequitur ullra: homo
+<lb ed="#V" n="61"/>isto secundo modo est ex se ens ratum,
+<lb ed="#V" n="62"/>ergo est Deus, quia Deus non est 
+tan<lb break="no" ed="#V" n="63"/>tum cui non repugnat esse, sed est ex
+<lb ed="#V" n="64"/>se ipsum esse, ut supra patuit d/sf. 2.
+<lb ed="#V" n="65"/>Quod etiam infertur, quod homo est
+<lb ed="#V" n="66"/>formaliter ens ratum aliqua relatione,
+<lb ed="#V" n="67"/>hoc patet esse diffuse improbatum
+<lb ed="#V" n="68"/>supra dist. 3. quaest. 5. de illa 
+ratitu<lb break="no" ed="#V" n="69"/>dine contra Henricum.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e2266">
+               <lb ed="#V" n="70"/>Secundo arguitur sic: Intellectio
+<lb ed="#V" n="71"/>realis et Metaphysica estad terminum
+<lb ed="#V" n="72"/>realem, sed cognitio qua Deus 
+cogno<lb break="no" ed="#V" n="73"/>vit lapidem ab aeterno est realis et
+<lb ed="#V" n="74"/>Metaphysica, patet; ergo lapis habuit
+<lb ed="#V" n="75"/>esse reale ab aeterno.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e2282">
+               <lb ed="#V" n="76"/>(1) Ad secundum argumentum. 
+Res<lb break="no" ed="#V" n="77"/>pondet Doctor, quod cognovit lapidem
+<lb ed="#V" n="78"/>ab aeterno, et quod talis cognitio fuit
+<lb ed="#V" n="79"/>realis et Metaphysica, scilicet qua 
+co<lb break="no" ed="#V" n="80"/>gnoscitur res, et non Logica, qua 
+sci<lb break="no" ed="#V" n="81"/>licet tantum cognoscitur ens rationis,
+<lb ed="#V" n="82"/>et sic sequitur; ergo res semper fuit
+<lb ed="#V" n="83"/>cognita, ergo quando fuit cognita, fuit
+<lb ed="#V" n="84"/>vera res existens, sive secundum esse
+<lb ed="#V" n="85"/>essentiae, non sequitur. Dicitur ergo
+<lb ed="#V" n="86"/>realis, quia terminatur ad rem, qua
+<lb ed="#V" n="87"/>licet ab aeterno habeat esse diminutum,
+<lb ed="#V" n="88"/>tamen sibi non repugnat quod sit vera
+<pb ed="#V" n="586"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>res, et quantum ad essentiam, et 
+quan<lb break="no" ed="#V" n="2"/>tum ad existentiam. Cognitio vero 
+Logi<lb break="no" ed="#V" n="3"/>ea proprie terminatur ad ens rationis,
+<lb ed="#V" n="4"/>cui repugnat formaliter esse ens reale.
+<lb ed="#V" n="5"/>Ex his ergo patet responsio ad 
+argu<lb break="no" ed="#V" n="6"/>menta principalia.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e2330">
+               <lb ed="#V" n="7"/>() Per idem ad illud quod adducitur.
+<lb ed="#V" n="8"/>Nunc Doctor solvit argumenta 
+addu<lb break="no" ed="#V" n="9"/>cla pro opinione Henrici, quorum 
+pri<lb break="no" ed="#V" n="10"/>mum fuit: Objecti ad potentiam est
+<lb ed="#V" n="11"/>proportio aliqua, ut patet. Sed lapis ab
+<lb ed="#V" n="12"/>eterno fuit objectum intellectus 
+di<lb break="no" ed="#V" n="13"/>vini; ergo ab ;eterno habuit 
+propor<lb break="no" ed="#V" n="14"/>tionem ad intellectum divinum, ergo
+<lb ed="#V" n="15"/>ab aeterno habuit esse reale; patet,
+<lb ed="#V" n="16"/>quia proportio est passio entis, non
+<lb ed="#V" n="17"/>ens enim non potest proportionari enti.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e2356">
+               <lb ed="#V" n="18"/>Respondet Doctor, quod haec 
+pro<lb break="no" ed="#V" n="19"/>portio est relatio cogniti ad 
+cognos<lb break="no" ed="#V" n="20"/>centem, etc. Et cum dicis, etc. Dico,
+<lb ed="#V" n="21"/>etc. Et sensus est, quod licet 
+impossi<lb break="no" ed="#V" n="22"/>bile esse simpliciter nullam 
+proportio<lb break="no" ed="#V" n="23"/>nem habeat ad Deum, tamen ens 
+pos<lb break="no" ed="#V" n="24"/>sibile existens, licet actu non existat,
+<lb ed="#V" n="25"/>poterit habere aliqualem 
+proportio<lb break="no" ed="#V" n="26"/>nem, et sic est in proposito.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e2378">
+               <lb ed="#V" n="27"/>Secundo, arguit a commutata 
+pro<lb break="no" ed="#V" n="28"/>portione sic : sicut ens ad non ens, ita
+<lb ed="#V" n="29"/>possibile ad impossibile; ergo per
+<lb ed="#V" n="30"/>mutatam proportionem, sicut ens ad
+<lb ed="#V" n="31"/>possibile, sic non ens ad. impossibile.
+<lb ed="#V" n="32"/>Sed omne ens est possibile; ergo 
+pu<lb break="no" ed="#V" n="33"/>rum non ensest simpliciter impossibile.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e2397">
+               <lb ed="#V" n="34"/>(k) Ad illud de permutata proportione.
+<lb ed="#V" n="35"/>Respondet Doctor. Et nota primo,
+<lb ed="#V" n="36"/>quod iste modus arguendi a permutata
+<lb ed="#V" n="37"/>proporlione est sumptus ab Euclide
+<lb ed="#V" n="38"/>lib. 5. conclusione 16. Si, inquit,
+<lb ed="#V" n="39"/>quatuor quantitates proportionales 
+fue<lb break="no" ed="#V" n="40"/>rint, permutatim proportionales erunt,
+<lb ed="#V" n="41"/>quae probatur per decimam quintam
+<lb ed="#V" n="42"/>conclusionem  praecedentem ; eadem
+<lb ed="#V" n="43"/>est proportio multiplicium et 
+submul<lb break="no" ed="#V" n="44"/>tiplicium. Exemplum proportionis de-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>cime sextae conclusionis, sicut se 
+ha<lb break="no" ed="#V" n="46"/>bent 8. ad 4. ita 6. ad 3. nam sicut 8.
+<lb ed="#V" n="47"/>ad 4. est proportio dupla, sic 6. ad 3.
+<lb ed="#V" n="48"/>Permutemus ergo comparando 
+pri<lb break="no" ed="#V" n="49"/>mum ad tertium, et secundum ad
+<lb ed="#V" n="50"/>quartum, sive comparando primum
+<lb ed="#V" n="51"/>extremum proportionis ad tertium, et
+<lb ed="#V" n="52"/>ita secundum ad quartum. Permutatur
+<lb ed="#V" n="53"/>ergo sic: ergo sicut se habent 8. ad 6.
+<lb ed="#V" n="54"/>ita 4. ad duo. Sed 8. ad 6. est 
+propor<lb break="no" ed="#V" n="55"/>tio sesquitertia; patet, quia 8. continet
+<lb ed="#V" n="56"/>6. et tertiam partem, scilicet duo,
+<lb ed="#V" n="57"/>ergo 4. ad 3. erit similiter proportio
+<lb ed="#V" n="58"/>sesquilertia, quia 4. continet 3. et 
+ter<lb break="no" ed="#V" n="59"/>liam. partem trium, scilicet unum.
+<lb ed="#V" n="60"/>Exemplum secundi de multiplici: Mw
+<lb ed="#V" n="61"/>tipler enim est quantitas, qua 
+aliquo<lb break="no" ed="#V" n="62"/>lies continet aliam, sed. submultiplex
+<lb ed="#V" n="63"/>est quantitas, qua aliquoties 
+contine<lb break="no" ed="#V" n="64"/>turabilla. Ponitur ergo tale exemplum:
+<lb ed="#V" n="65"/>Sicut se habent 24. ad 8. ita 12. ad 4.
+<lb ed="#V" n="66"/>ergo permutando, sicut se habent 24.
+<lb ed="#V" n="67"/>ad 12. ita 8. ad 4. quia in prima est
+<lb ed="#V" n="68"/>proportio tripla, in secunda est 
+pro<lb break="no" ed="#V" n="69"/>portio dupla. Dicit ergo Doctor, quod
+<lb ed="#V" n="70"/>ista proportione certa in quantitatibus
+<lb ed="#V" n="71"/>utantur aliqui in argumentis, et 
+Phi<lb break="no" ed="#V" n="72"/>losophus usus est in duabus regulis in
+<lb ed="#V" n="73"/>Secundo Priorum. Si A et B 
+convertun<lb break="no" ed="#V" n="74"/>tur, et C et D convertuntur, et A et C
+<lb ed="#V" n="75"/>contradicunt, 5 et D contradicunt, et
+<lb ed="#V" n="76"/>e converso consequentia est 
+necessa<lb break="no" ed="#V" n="77"/>ria. Patet, quia si homo et risibile 
+con<lb break="no" ed="#V" n="78"/>vertantur, et similiter non homo et non
+<lb ed="#V" n="79"/>risibile convertantur, sequitur 
+permu<lb break="no" ed="#V" n="80"/>tatim, quod si homo et non homo 
+con<lb break="no" ed="#V" n="81"/>tradicant, quod etiam risibile et non
+<lb ed="#V" n="82"/>risibile contradicunt. Et addit, quod
+<lb ed="#V" n="83"/>ubicumque: potest haberi aliqua 
+pro<lb break="no" ed="#V" n="84"/>portio correspondens illi conclusioni
+<lb ed="#V" n="85"/>decime quintae Eucludis, per quam
+<lb ed="#V" n="86"/>tenet ista permutatio  correspondens
+<lb ed="#V" n="87"/>decimas sexta,  tunc permutatio est
+<lb ed="#V" n="88"/>bona, et quando non, non.
+<pb ed="#V" n="587"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>Deinde notat, quod talis permutatio
+<lb ed="#V" n="2"/>communiter tenet in terminis 
+conver<lb break="no" ed="#V" n="3"/>tibilibus, et nunquam tenet in 
+termi<lb break="no" ed="#V" n="4"/>nis, ubi unus est superior et alius 
+in<lb break="no" ed="#V" n="5"/>ferior, quia ibi committitur fallacia
+<lb ed="#V" n="6"/>consequentis, quia extrema duarum
+<lb ed="#V" n="7"/>contradictionum ad invicem 
+compa<lb break="no" ed="#V" n="8"/>rata habent proportionem conversam
+<lb ed="#V" n="9"/>in inferendo, et non eadem, id est,
+<lb ed="#V" n="10"/>quando in affirmativis arguitur ab 
+an<lb break="no" ed="#V" n="11"/>tecedente ad consequens, quia aliter
+<lb ed="#V" n="12"/>non tenet, ut homo est ; ergo animal
+<lb ed="#V" n="13"/>est. In negativis debet argui e 
+conver<lb break="no" ed="#V" n="14"/>so, ut non animal est ; ergo homo non
+<lb ed="#V" n="15"/>est, et non debet argui sicut primum
+<lb ed="#V" n="16"/>ad tertium, et secundum ad quartum,
+<lb ed="#V" n="17"/>sed debet dici, ergo sicut primum ad
+<lb ed="#V" n="18"/>tertium, ita quartum ad secundum,
+<lb ed="#V" n="19"/>quia debet negative e converso argui,
+<lb ed="#V" n="20"/>ubi in tertio loco ponitur quartum, et
+<lb ed="#V" n="21"/>secundum in quarto loco, ut sicut se
+<lb ed="#V" n="22"/>habet homoad non hominem, sic 
+ani<lb break="no" ed="#V" n="23"/>mal ad non animal; ergo sicut se habet
+<lb ed="#V" n="24"/>homo ad animal,sic non animal ad non
+<lb ed="#V" n="25"/>hominem. Sed sic arguendo: 5i 
+Bru<lb break="no" ed="#V" n="26"/>nellus est homo, Brunellus est animal,
+<lb ed="#V" n="27"/>sed non est homo, ergo non est 
+ani<lb break="no" ed="#V" n="28"/>mal, non valet consequentia ; sed debet
+<lb ed="#V" n="29"/>quartum ad secundum comparari,
+<lb ed="#V" n="30"/>quia 202 animal est quartum, et. 0n
+<lb ed="#V" n="31"/>homo est secundum ; et debet sic 
+ar<lb break="no" ed="#V" n="32"/>gui, ergo si Brunellus non est 
+ani<lb break="no" ed="#V" n="33"/>mal, Brunellus non est homo. Sic in
+<lb ed="#V" n="34"/>proposito debet argui, si omne ens est
+<lb ed="#V" n="35"/>possibile, ergo omne impossibile est
+<lb ed="#V" n="36"/>non ens, et non e converso; ergo
+<lb ed="#V" n="37"/>omne non ens est impossibile.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e2605">
+               <lb ed="#V" n="38"/>(l) Et quod additur ibi quod tunc
+<lb ed="#V" n="39"/>unum nihil est mugis nihil quam aliud
+<lb ed="#V" n="40"/>nihil. Respondet, quod /riplciter inest
+<lb ed="#V" n="41"/>negatio alicui. Primo, non propter 
+re<lb break="no" ed="#V" n="42"/>pugnantiam alicujus positivi ad 
+affirma<lb break="no" ed="#V" n="43"/>tionem iilius negationtis, sed propter
+<lb ed="#V" n="44"/>negationem causae non ponens illum
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>effectum, ut ignum non est calidum,
+<lb ed="#V" n="46"/>quiaignis non calefacitillud. Secundo,
+<lb ed="#V" n="47"/>inest negatio positivi propter 
+repugnan<lb break="no" ed="#V" n="48"/>tiam. ejus ad affirmationem oppositam
+<lb ed="#V" n="49"/>ili negationi, et tot sunt quot sunt 
+pra<lb break="no" ed="#V" n="50"/>dicata dicta in quid de utroque in suo
+<lb ed="#V" n="51"/>genere, ut Joannes non est albedo, quia
+<lb ed="#V" n="52"/>homo, substantia, animal, corpus et
+<lb ed="#V" n="53"/>hujusmodi, sic in proposito. Primo 
+mo<lb break="no" ed="#V" n="54"/>do, homo in aeternitate est non ens, quia
+<lb ed="#V" n="55"/>homini non repugnat affirmatio entis;
+<lb ed="#V" n="56"/>chim:ere autem repugnat esse ens, et
+<lb ed="#V" n="57"/>ideo non dicimus, quod chimera sit
+<lb ed="#V" n="58"/>non ens primo modo, sed bene 
+chi<lb break="no" ed="#V" n="59"/>mara lerlio modo est non ens, quia
+<lb ed="#V" n="60"/>repugnat sibi simpliciter entitas. Sed
+<lb ed="#V" n="61"/>quare homini non repugnat sibi, et
+<lb ed="#V" n="62"/>Chimere repugnat? quia hoc est hoc,
+<lb ed="#V" n="63"/>et illud est illud, et hoc in quocumque
+<lb ed="#V" n="64"/>intellectu concipiente, quia (sicut sepe
+<lb ed="#V" n="65"/>dictum est) quaecumque repugnant
+<lb ed="#V" n="66"/>suis formalibus, rationibus repugnant,
+<lb ed="#V" n="67"/>et hoc magis infra patebit d. 45.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e2675">
+               <lb ed="#V" n="68"/>(m) Ad ipsum super Joannem. Dicit
+<lb ed="#V" n="69"/>Doctor, quod quando manus litteras
+<lb ed="#V" n="70"/>format actu, et cor dirigit, et simul, et
+<lb ed="#V" n="71"/>non prius causat, et plus facit cor
+<lb ed="#V" n="72"/>quam manus, et tamen quando manus
+<lb ed="#V" n="73"/>non causat, sed solum cor, producit
+<lb ed="#V" n="74"/>litteras in. esse cognito, tunc littere
+<lb ed="#V" n="75"/>ille non habent aliquod esse verum.
+</p>
+            <p xml:id="mm30o9-d1e1276-d1e2695">
+               <lb ed="#V" n="76"/>Ad Avicennam. Dico, quod duplex
+<lb ed="#V" n="77"/>est fluxus rerum a Deo, unus in esse
+<lb ed="#V" n="78"/>cognito, alius in esse reali ; et ille in
+<lb ed="#V" n="79"/>esse cognito est primus, quia 
+intelle<lb break="no" ed="#V" n="80"/>etus divinus prius producit non ens
+<lb ed="#V" n="81"/>in esse cognito, quam voluntas habeat
+<lb ed="#V" n="82"/>actum circa illud. Sed talis fluxus in
+<lb ed="#V" n="83"/>esse cognito in nobis non est primus,
+<lb ed="#V" n="84"/>imo res prius realiter existunt, quam
+<lb ed="#V" n="85"/>producantur in nobis in esse cognito.
+<lb ed="#V" n="86"/>NecAvicenna dicit fluxumrerum in esse
+<lb ed="#V" n="87"/>cognito esse rerum in esse quidditativo,
+<lb ed="#V" n="88"/>nam esse quidditativum est esse reale.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

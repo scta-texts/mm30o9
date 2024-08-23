@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#per-FLBca3">Franciscus Lychetus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2024-08-23">August 23, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-23" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="201"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="mm30o9-d1e953"><!-- lycht-d20q1-p2 -->
+        <head xml:id="mm30o9-d1e953-Hd1e101">Quaestio 1</head>
+        <p xml:id="mm30o9-d1e953-d1e103">
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="44" type="fixed=201"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e953-d1e110">
+          <lb ed="#V" n="45"/>(a) Respondeo omittendo potentiam
+          <lb ed="#V" n="46"/>Logicam, etc. Quia alias declaravi,
+          <lb ed="#V" n="47"/>quid sit potentia Logica, ideo non
+          <lb ed="#V" n="48"/>aliter extendo me in praesenti 
+          decla<lb break="no" ed="#V" n="49"/>rare. Et cetera clara sunt.
+        </p>
+        <p xml:id="mm30o9-d1e953-d1e123">
+          <lb ed="#V" n="50"/>Incidit tamen in hac questione una
+          <lb ed="#V" n="51"/>difficultas: cum omnipotentia dicat
+          <lb ed="#V" n="52"/>vere potentiam activam, quaeritur an
+          <lb ed="#V" n="53"/>Pater respectu generationis Filii 
+          dica<lb break="no" ed="#V" n="54"/>tur omnipotens, sive posse generare
+          <lb ed="#V" n="55"/>Filium in divinis pertineat ad 
+          omni<lb break="no" ed="#V" n="56"/>potentiam? <name>Egidius</name> expresse dicit
+          <lb ed="#V" n="57"/>quod sic, et rationes sue patent,
+          <lb ed="#V" n="58"/>excepto quod quando dicit de actione
+          <lb ed="#V" n="59"/>immanente et transeunte. Vult dicere,
+          <lb ed="#V" n="60"/>quod actio transiens ad extra, quae non
+          <lb ed="#V" n="61"/>denominat agens, dicitur possibilis,
+          <lb ed="#V" n="62"/>vel ex sua ratione formali, vel quia
+          <lb ed="#V" n="63"/>terminatur ad terminum possibilem,
+          <lb ed="#V" n="64"/>puta generare ignem, ut transit in
+          <lb ed="#V" n="65"/>materiam extrinsecam dicitur esse
+          <lb ed="#V" n="66"/>possibile, et ex ratione sua formali ; et
+          <lb ed="#V" n="67"/>quia terminus ejus, scilicet ignis 
+          gene<lb break="no" ed="#V" n="68"/>ratus, est possibilis, actio vero 
+          imma<lb break="no" ed="#V" n="69"/>nens, ex hoc quod est in agente, et
+          <lb ed="#V" n="70"/>ultra praedicta, requiritur quod non
+          <lb ed="#V" n="71"/>repugnet agenti. Et sic generare 
+          sim<lb break="no" ed="#V" n="72"/>pliciter in divinis. primo modo est 
+          sim<lb break="no" ed="#V" n="73"/>pliciter possibile, ut patet; secundo
+          <lb ed="#V" n="74"/>modo est possibile tantum respectu
+          <lb ed="#V" n="75"/>Patris, quia tantum denominat Patrem
+          <lb ed="#V" n="76"/>et non Filium, et hoc est quod dicit.
+        </p>
+        <p xml:id="mm30o9-d1e953-d1e184">
+          <lb ed="#V" n="77"/>(b) Contra istud non comparando, etc.
+          <lb ed="#V" n="78"/>Doctor intendit improbare quod 
+          gene<lb break="no" ed="#V" n="79"/>rare in divinis pertineat ad 
+          omnipo<lb break="no" ed="#V" n="80"/>tentiam, ut omnipotentia dicit 
+          poten<lb break="no" ed="#V" n="81"/>liam mere activam. Et supponitunum
+          <lb ed="#V" n="82"/>ab omnibus conceessum, scilicet tres
+          <lb ed="#V" n="83"/>persone sint aequales in omnipotentia
+          <lb ed="#V" n="84"/>et in potentia, ut patet in Symbolo. Et
+          <lb ed="#V" n="85"/>ideo quaerit accipiendo generare in
+          <pb ed="#V" n="202"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>divinis, non comparando ad aliquod
+          <lb ed="#V" n="2"/>suppositum: an ipsum respectu 
+          ter<lb break="no" ed="#V" n="3"/>mini producendi, puta Filii, dicat
+          <lb ed="#V" n="4"/>potentiam activam, an non? Si primo,
+          <lb ed="#V" n="5"/>Filius non erit aemp;?que omnipotens cum
+          <lb ed="#V" n="6"/>Patre, quia non potest generare. Si
+          <lb ed="#V" n="7"/>non, ergo generare non pertinet ad
+          <lb ed="#V" n="8"/>omnipotentiam, quod est intentum.
+        </p>
+        <!--</div>
+          <div alias="lycht-d20q1-p3">-->
+        <p xml:id="mm30o9-d1e953-d1e231">
+          <lb ed="#V" n="33" type="fixed=206"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e953-d1e236">
+          <lb ed="#V" n="34"/>(c) Quantum ergo ad istum 
+          articu<lb break="no" ed="#V" n="35"/>lum, etc. Sententia hujus est, quod
+          <lb ed="#V" n="36"/>cum potenti: active correlativum sit
+          <lb ed="#V" n="37"/>ens possibile contingens, scilicet quod
+          <lb ed="#V" n="38"/>potest esse et non esse, et possibile
+          <lb ed="#V" n="39"/>objeclive, non autem subjective, quia
+          <lb ed="#V" n="40"/>possibile subjective quod est materia
+          <lb ed="#V" n="41"/>vel se habens loco materie, est 
+          corre<lb break="no" ed="#V" n="42"/>lativum potentiae active transmuta-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="43"/>live, quia transmutat materiam ab
+          <lb ed="#V" n="44"/>una forma in aliam, ut patet. de igne,
+          <lb ed="#V" n="45"/>et sic omnis potentia creata dicitur
+          <lb ed="#V" n="46"/>iransmutativa, quia de necessitate
+          <lb ed="#V" n="47"/>praesupponit subjectum, in quod agat;
+          <lb ed="#V" n="48"/>potentia vero divina est simpliciter 
+          ae<lb break="no" ed="#V" n="49"/>tiva, et respicit primo ens possibile
+          <lb ed="#V" n="50"/>objective. Et licet aliquando 
+          trans<lb break="no" ed="#V" n="51"/>mutet materiam de una forma in
+          <lb ed="#V" n="52"/>aliam, non tamen est necesse, quia
+          <lb ed="#V" n="53"/>posset producere omne possibile, nulla
+          <lb ed="#V" n="54"/>praesupposita maiteria..Et sic 
+          omni<lb break="no" ed="#V" n="55"/>potentia dicitur potentia activa ut
+          <lb ed="#V" n="56"/>respicit omne possibilesive omne 
+          cau<lb break="no" ed="#V" n="57"/>sabile, et quod talis potentia activa
+          <lb ed="#V" n="58"/>respiciat aliud inquantum aliud, 
+          pro<lb break="no" ed="#V" n="59"/>bat infra per duas auctoritates 
+          Philo<lb break="no" ed="#V" n="60"/>sophi.
+        </p>
+        <p xml:id="mm30o9-d1e953-d1e299">
+          <lb ed="#V" n="61"/>(d) Sed tunc restat dubitatio, scilicet
+          <lb ed="#V" n="62"/>ex quo in Patre est potentia generandi,
+          <lb ed="#V" n="63"/>et talis potentia respicit possibile, et
+          <lb ed="#V" n="64"/>Filius non est possibilis. Respondet
+          <lb ed="#V" n="65"/>quod possibile potest accipi primo ut
+          <lb ed="#V" n="66"/>opponitur 7;possibili, ut patet supra
+          <lb ed="#V" n="67"/>d. 2. et sic Filius est possibilis. 
+          Se<lb break="no" ed="#V" n="68"/>eundo ut opponitur zecessazio ex se
+          <lb ed="#V" n="69"/>formaliter, et sic Filius non est 
+          possi<lb break="no" ed="#V" n="70"/>bilis, eum sit necesse ex se formaliter,
+          <lb ed="#V" n="71"/>ut patet supra dist. 2. et 8. quas. ult.
+          <lb ed="#V" n="72"/>et hoc modo omnes ens aliud a Deo
+          <lb ed="#V" n="73"/>dicitur possibile, ut patet supra d. 8.
+          <lb ed="#V" n="74"/>q. ultima. Tertio ut opponitur necessario
+          <lb ed="#V" n="75"/>a se originaliter, id est, quod non est
+          <lb ed="#V" n="76"/>necesse esse a se originaliter, quia hoc
+          <lb ed="#V" n="77"/>habet a Patre, et hoc modo potest dici
+          <lb ed="#V" n="78"/>possibilis. Sed possibile primo et tertio
+          <lb ed="#V" n="79"/>modo non respiciunt proprie 
+          poten<lb break="no" ed="#V" n="80"/>liam activam, et sic non est 
+          correla<lb break="no" ed="#V" n="81"/>üivum potentiae, sed solum secundo
+          <lb ed="#V" n="82"/>modo.
+        </p>
+        <p xml:id="mm30o9-d1e953-d1e349">
+          <lb ed="#V" n="83"/>(e) Sed nec sic videntur Sancti, etc.
+          <lb ed="#V" n="84"/>Nam Philosophi et Sancti eum 
+          loquun<lb break="no" ed="#V" n="85"/>tur de possibili, quod est terminus
+          <lb ed="#V" n="86"/>potenticae productivae vel activae, lo-
+          <pb ed="#V" n="207"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>quuntur de possibili secundo modo,
+          <lb ed="#V" n="2"/>Et Doctor dicit quod licet possibile
+          <lb ed="#V" n="3"/>primo et tertio modo vere sit in 
+          divi<lb break="no" ed="#V" n="4"/>nis, quia tamen hoc nomen possibile
+          <lb ed="#V" n="5"/>sonat in voce, licet non in re, aliquam
+          <lb ed="#V" n="6"/>imperfectionem, ideo dicit quod non
+          <lb ed="#V" n="7"/>debet proprie concedi quod Filius sit
+          <lb ed="#V" n="8"/>possibilis, sed quod sit productus vel
+          <lb ed="#V" n="9"/>originatus et hujusmodi, et palet quod
+          <lb ed="#V" n="10"/>sequitur.
+        </p>
+        <p xml:id="mm30o9-d1e953-d1e386">
+          <lb ed="#V" n="11"/>(f) Hoc modo loquendo ad questionem.
+          <lb ed="#V" n="12"/>Sensus hujus littere: est, quod etiam
+          <lb ed="#V" n="13"/>posito quod in Patre sit vere potentia
+          <lb ed="#V" n="14"/>generandi, tamen Filius est ei aequalis
+          <lb ed="#V" n="15"/>in potentia. Et hic intendit Doctor
+          <lb ed="#V" n="16"/>quod Filius habet simpliciter eamdem
+          <lb ed="#V" n="17"/>mÍi1emoriam fecundam quam Pater
+          <lb ed="#V" n="18"/>habet, licet in Patre habeat terminum
+          <lb ed="#V" n="19"/>adaequatum, ut productum a Patre, et
+          <lb ed="#V" n="20"/>in Filio habeat eumdem terminum,
+          <lb ed="#V" n="21"/>sed non productum a Filio, sed solum
+          <lb ed="#V" n="22"/>a Patre. Caetera patent.
+        </p>
+        <p xml:id="mm30o9-d1e953-d1e415">
+          <lb ed="#V" n="23"/>(g) Ad argumenta principalia. Ad
+          <lb ed="#V" n="24"/>primum quod tale est: Si non potest 
+          ge<lb break="no" ed="#V" n="25"/>nerare Filium sibi :equalem, ergo non
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="26"/>est omnipotens. Si ergo potest 
+          gene<lb break="no" ed="#V" n="27"/>rare Filium sibi aequalem, erit 
+          omni<lb break="no" ed="#V" n="28"/>potens; ergo et posse generare 
+          perti<lb break="no" ed="#V" n="29"/>net ad omnipotentiam. Dicit Doctor
+          <lb ed="#V" n="30"/>quod hoc non tenet per locum 
+          intrin<lb break="no" ed="#V" n="31"/>secum (qui est quando terminus 
+          infe<lb break="no" ed="#V" n="32"/>rens contineturin termino illato, sicut
+          <lb ed="#V" n="33"/>superius in inferiori, vel totum in
+          <lb ed="#V" n="34"/>quantitate, quod est universale 
+          uni<lb break="no" ed="#V" n="35"/>versaliter sumptum respectu parlium
+          <lb ed="#V" n="36"/>substantivarum) quasi sic arguendo:
+          <lb ed="#V" n="37"/>Pater est omnipotens, id est, potest
+          <lb ed="#V" n="38"/>omnia possibilia ; ergo posse generare
+          <lb ed="#V" n="39"/>pertinet ad omnipotentiam. Non 
+          se<lb break="no" ed="#V" n="40"/>quitur, quia omnipotentia dicit 
+          poten<lb break="no" ed="#V" n="41"/>liam activam, qua respicit possibile
+          <lb ed="#V" n="42"/>objeetive secundo modo dictum ; posse
+          <lb ed="#V" n="43"/>vero generare non est posse polentize
+          <lb ed="#V" n="44"/>aclivie, qua respicit aliud, sed est posse
+          <lb ed="#V" n="45"/>potentiae productive vel originotive,
+          <lb ed="#V" n="46"/>quod in divinis non respicit aliud dis
+          <lb ed="#V" n="47"/>tinctum essentialiter, sed respicit 
+          tan<lb break="no" ed="#V" n="48"/>tum productum distinctum tantum
+          <lb ed="#V" n="49"/>personaliter. Caetera patent, usque in
+          <lb ed="#V" n="50"/>finem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

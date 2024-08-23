@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#per-FLBca3">Franciscus Lychetus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2024-08-23">August 23, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 10</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-08-23" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="775"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="mm30o9-d1e1448"><!-- lycht-d47q1-p2 -->
+            <head xml:id="mm30o9-d1e1448-Hd1e101">Quaestio 1</head>
+            <p xml:id="mm30o9-d1e1448-d1e103">
+               <lb ed="#V" n="25" type="fixed=775"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1448-d1e108">
+               <lb ed="#V" n="26"/>(a) Respondeo, in nobis potest 
+dis<lb break="no" ed="#V" n="27"/>tingui duplex actus voluntatis positivus,
+<lb ed="#V" n="28"/>scilicet velle et nolle, de quibus vide
+<lb ed="#V" n="29"/>plarius in 2. d. 6. 9.2. d. 7.et in 3. d.
+<lb ed="#V" n="30"/>30. et alibi. Nota quod ad 
+permissio<lb break="no" ed="#V" n="31"/>nem proprie dictam tria requiruntur.
+<lb ed="#V" n="32"/>Primo, quod permissum, sive sic 
+voli<lb break="no" ed="#V" n="33"/>tum volitione remissa sit malum, sive
+<lb ed="#V" n="34"/>male fiat. Secundo, quod sciatur quod
+<lb ed="#V" n="35"/>sit tale, quia non dicor proprie 
+permit<lb break="no" ed="#V" n="36"/>tere illud de quo nihil scio, vel illud
+<lb ed="#V" n="37"/>quod ita sit ab alio quod placet mihi;
+<lb ed="#V" n="38"/>sed illud permitto quo scio ab alio
+<lb ed="#V" n="39"/>male fieri et displicet, sed non 
+pro<lb break="no" ed="#V" n="40"/>hibeo, hae permitto, si possem 
+pro<lb break="no" ed="#V" n="41"/>hibere.Tertio, ergo est quod non velim
+<lb ed="#V" n="42"/>prohibere, licet possem prohibere.
+</p>
+            <p xml:id="mm30o9-d1e1448-d1e147">
+               <cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>(b) Si ista distinctio posset poni in
+<lb ed="#V" n="44"/>Deo. Et sic secundum unam 
+opinio<lb break="no" ed="#V" n="45"/>nem omnia supradicta de velle et
+<lb ed="#V" n="46"/>nolle efficaci vel remisso, sunt in Deo
+<lb ed="#V" n="47"/>respectu objectorum, ita quod aliqua
+<lb ed="#V" n="48"/>velit efficaciter, alia remisse, aliqua
+<lb ed="#V" n="49"/>nolit efficaciter vel remisse. Et sic
+<lb ed="#V" n="50"/>idem actus posset dici nolitio Dei 
+re<lb break="no" ed="#V" n="51"/>missa respectu illorum objectorum,
+<lb ed="#V" n="52"/>quse ita nollet, quod tamen non vellet
+<lb ed="#V" n="53"/>ista prohibere, et haec nolitio Dei 
+pos<lb break="no" ed="#V" n="54"/>set dici permissio ejus, et ita est actus
+<lb ed="#V" n="55"/>in Deo inquantum transit super 
+ob<lb break="no" ed="#V" n="56"/>jectum sic se habens ad voluntatem
+<lb ed="#V" n="57"/>divinam.
+</p>
+            <p xml:id="mm30o9-d1e1448-d1e184">
+               <lb ed="#V" n="58"/>(c) Si autem istud non placet, etc.
+<lb ed="#V" n="59"/>Tunc potest dici quod permissio divina,
+<lb ed="#V" n="60"/>est pura negatio volitionis, scilicet
+<lb ed="#V" n="61"/>non volendo prohibere illud quod sit
+<lb ed="#V" n="62"/>contra praeceptum, tamen voluntas
+<lb ed="#V" n="63"/>divina potest velle quod non velit
+<lb ed="#V" n="64"/>prohibere, sed illud velle non est 
+per<lb break="no" ed="#V" n="65"/>missio ; sed per ipsum dicitur Deus
+<lb ed="#V" n="66"/>velle sinere illum peccare, vel velle
+<lb ed="#V" n="67"/>non prohibere, eo modo quo dictum
+<lb ed="#V" n="68"/>est supra de Juda dist. 41. et sic 
+per<lb break="no" ed="#V" n="69"/>missio potest dici voluntaria. 
+Exem<lb break="no" ed="#V" n="70"/>plum : In primo signo offertur Judas
+<lb ed="#V" n="71"/>ut peccaturus, et voluntas divina non
+<lb ed="#V" n="72"/>habet primo velle Judam peccare, id
+<lb ed="#V" n="73"/>est, quod voluntas non vult ipsum
+<lb ed="#V" n="74"/>peccare, quia non potest velle aliquem
+<lb ed="#V" n="75"/>habere peccatum. Secundo, potest 
+in<lb break="no" ed="#V" n="76"/>telligere voluntatem suam non 
+volen<lb break="no" ed="#V" n="77"/>tem hoc, et tunc potest velle 
+volunta<lb break="no" ed="#V" n="78"/>tera suam non velle hoc, et ita dicitur
+<lb ed="#V" n="79"/>volens sinere, et voluntarie  
+permit<lb break="no" ed="#V" n="80"/>tere.
+</p>
+            <p xml:id="mm30o9-d1e1448-d1e237">
+               <lb ed="#V" n="81"/>In primo ergo instanti voluntas 
+di<lb break="no" ed="#V" n="82"/>vina habet non velle Judam peccare,
+<lb ed="#V" n="83"/>illud 202 velle non est actus positivus,
+<lb ed="#V" n="84"/>imo 0n velle est negatio actus, sicut
+<lb ed="#V" n="85"/>cum dicimus, voluntas divina habet
+<lb ed="#V" n="86"/>non velle gratiam Juda; illud 0n
+<pb ed="#V" n="776"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>velle est tantum negatio gratia Judi,
+<lb ed="#V" n="2"/>et sic habet non velle Judam peccare,
+<lb ed="#V" n="3"/>et non habet nolitionem, quia stante
+<lb ed="#V" n="4"/>nolitione peccati, et positione peccati,
+<lb ed="#V" n="5"/>videretur sequi aliqualis tristitia, quae
+<lb ed="#V" n="6"/>secundum ipsum in 2. et in 3. dist.
+<lb ed="#V" n="7"/>15. et in 4 dist. 14. et 20. et 44. 
+conco<lb break="no" ed="#V" n="8"/>mitatur nolitionem alicujus positivi ;
+<lb ed="#V" n="9"/>habet ergo tantum non velle 
+pecca<lb break="no" ed="#V" n="10"/>tum. In secundo figno intellectus 
+di<lb break="no" ed="#V" n="11"/>vinus cognoscit voluntatem divinam
+<lb ed="#V" n="12"/>habere tantum actum negativum 
+res<lb break="no" ed="#V" n="13"/>pectu peccati Jude, qui actus 
+nega<lb break="no" ed="#V" n="14"/>tivus est non volitio peccati. et tune
+<lb ed="#V" n="15"/>voluntas reflectitur supra se non 
+vo<lb break="no" ed="#V" n="16"/>lentem, et post. vult. ipsam non 
+vo<lb break="no" ed="#V" n="17"/>litionem. Modo velle non volitionem
+<lb ed="#V" n="18"/>illam, est volontarie sinere Judam pec.
+<lb ed="#V" n="19"/>care, permittere enim Judam peccare,
+<lb ed="#V" n="20"/>est non velle ipsum peccare, cum 
+ta<lb break="no" ed="#V" n="21"/>men posset prohibere, et sic non 
+pro<lb break="no" ed="#V" n="22"/>hibere cum possit, est permittere, et
+<lb ed="#V" n="23"/>significatum hujus est non» velle 
+Ju<lb break="no" ed="#V" n="24"/>dam peccare ; et sic primo est 
+permis<lb break="no" ed="#V" n="25"/>sio; secundo est permissio voluntaria
+<lb ed="#V" n="26"/>in hoc, quod voluntas vult tale non
+<lb ed="#V" n="27"/>velle, scilicet Judam peccare.
+</p>
+            <p xml:id="mm30o9-d1e1448-d1e315">
+               <lb ed="#V" n="28"/>Et ponit Doctor bonum exemplum
+<lb ed="#V" n="29"/>de praedestinatione, quomodo scilicet
+<lb ed="#V" n="30"/>voluntas divina volens non 
+praedesti<lb break="no" ed="#V" n="31"/>nat Judam, quia in primo signo non
+<lb ed="#V" n="32"/>habet circa Judam nolle dare 
+beatitu<lb break="no" ed="#V" n="33"/>dinem quod nolle in nobis est. actus
+<lb ed="#V" n="34"/>positivus, sed habet non velle dare
+<lb ed="#V" n="35"/>beatitudinem, ubi tantum negatur 
+ac<lb break="no" ed="#V" n="36"/>tus. Secundo: Intellectus divinus 
+co<lb break="no" ed="#V" n="37"/>gnoscit voluntatem divinam non velle
+<lb ed="#V" n="38"/>dare beatitudinem,  tunc voluntas 
+re<lb break="no" ed="#V" n="39"/>flectitur supra se non volentem, et
+<lb ed="#V" n="40"/>tunc vult se non velle dare beatitudi-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="41"/>nem. Ex hoc sequitur quod voluntarie
+<lb ed="#V" n="42"/>non praedestinat Judam, quia 
+volunta<lb break="no" ed="#V" n="43"/>rie vult se non velle. Primo ergo non
+<lb ed="#V" n="44"/>habet nolle absolute, sed tantum non
+<lb ed="#V" n="45"/>velle, posset etiam sustineri quod 
+pri<lb break="no" ed="#V" n="46"/>mo habeat z0//e. Sic in proposito, 
+pri<lb break="no" ed="#V" n="47"/>mo habet non velle peccatum, 
+secun<lb break="no" ed="#V" n="48"/>do habet acetum reflexivum, quo vult
+<lb ed="#V" n="49"/>se non velle. Ex hoc sequitur quod
+<lb ed="#V" n="50"/>voluntarie vult Judam peccare, non
+<lb ed="#V" n="51"/>tamen voluntarie primo, sed 
+volunta<lb break="no" ed="#V" n="52"/>rie tantum actu reflexo, modo 
+praeex<lb break="no" ed="#V" n="53"/>posito.
+</p>
+            <p xml:id="mm30o9-d1e1448-d1e376">
+               <lb ed="#V" n="54"/>Adverte tamen. quod prima opinio
+<lb ed="#V" n="55"/>non reprobatur a Doctore, imo est 
+sus<lb break="no" ed="#V" n="56"/>tentabilis; solum enim removetur,
+<lb ed="#V" n="57"/>quia videtur sonare aliqualem 
+inper<lb break="no" ed="#V" n="58"/>fectionem. Secundum tamen primam
+<lb ed="#V" n="59"/>opinionem etiam potest dici quod 
+vo<lb break="no" ed="#V" n="60"/>lens permittit, sicut et secundum 
+se<lb break="no" ed="#V" n="61"/>cundam opinionem, differenter tamen
+<lb ed="#V" n="62"/>quia in prima actus affirmativus 
+vo<lb break="no" ed="#V" n="63"/>luntatis quo reflectitur, est tantum 
+re<lb break="no" ed="#V" n="64"/>flexivus super z0//e remissum. 
+Exem<lb break="no" ed="#V" n="65"/>plum: Voluntas divina habet nolle
+<lb ed="#V" n="66"/>remissum Judam peccare; secundo,
+<lb ed="#V" n="67"/>intellectus divinus hoc cognoscit, et 
+re<lb break="no" ed="#V" n="68"/>praesentat hoc voluntati divine, et
+<lb ed="#V" n="69"/>tunc ipsa reflectitur super se nolentem,
+<lb ed="#V" n="70"/>et vult se nolle remisse Judam peccare.
+<lb ed="#V" n="71"/>Et quia talis nolitio remissa respectu
+<lb ed="#V" n="72"/>peccati quod posset prohibere, si vellet
+<lb ed="#V" n="73"/>dicitur permisso, ideo eum reflectitur
+<lb ed="#V" n="74"/>supra se nolentem, volendo se nolle,
+<lb ed="#V" n="75"/>voluntarie permittit; in secunda vero
+<lb ed="#V" n="76"/>opinione voluntarie permittit, quia 
+ae<lb break="no" ed="#V" n="77"/>tu reflexivo reflectitur supra se non
+<lb ed="#V" n="78"/>nolentem, volendo se non velle, ut
+<lb ed="#V" n="79"/>supra exposui.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

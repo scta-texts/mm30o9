@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#per-FLBca3">Franciscus Lychetus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2024-08-23">August 23, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 10</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-08-23" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="780"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="mm30o9-d1e1465"><!-- lycht-d48q1-p2 -->
+            <head xml:id="mm30o9-d1e1465-Hd1e101">Quaestio 1</head>
+            <p xml:id="mm30o9-d1e1465-d1e103">
+               <lb ed="#V" n="68" type="fixed=780"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1465-d1e108">
+               <lb ed="#V" n="69"/>(a) Respondeo secundum Dionysium.
+<lb ed="#V" n="70"/>De bonitate actus moralis. Hic Doctor
+<lb ed="#V" n="71"/>breviter se expedit, quia alibi prolixe
+<lb ed="#V" n="72"/>determinat, ut supra patuit distinct.1T.
+<lb ed="#V" n="73"/>in 2. distinct. 1. distinct. 40.42. et in 3.
+<lb ed="#V" n="74"/>distinct. 34. 36. et in 4. aliqualiter, 
+dis<lb break="no" ed="#V" n="75"/>linct. 44. quast. 2. et diffuse in quodlib.
+<lb ed="#V" n="76"/>ques'. 18. hoc supposito, scilicet de
+<lb ed="#V" n="77"/>actu morali, ponit aliquas 
+conclusio<lb break="no" ed="#V" n="78"/>nes.
+</p>
+            <p xml:id="mm30o9-d1e1465-d1e132">
+               <lb ed="#V" n="79"/>Prima: Posito quod voluntas creata
+<lb ed="#V" n="80"/>eliciat actum, puta amandi proximum,
+<lb ed="#V" n="81"/>cum omnibus circumstantiis, et 
+quan<lb break="no" ed="#V" n="82"/>tum ad substantiam et intensionem et
+<lb ed="#V" n="83"/>circumstantias actus, quantum sibi
+<lb ed="#V" n="84"/>possibile est, adhuc non oportet quod
+<lb ed="#V" n="85"/>voluutas creata esset ita bona, sicut
+<lb ed="#V" n="86"/>voluntas divina, quia non aedem 
+cir<lb break="no" ed="#V" n="87"/>cumstantiae conveniunt volitioni divi-
+<pb ed="#V" n="781"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>nae et create,quia divina infinite vult,
+<lb ed="#V" n="2"/>creata vero finite, ut patebit in 3. dist.
+<lb ed="#V" n="3"/>32. ubi ostenditur quomodo voluntas 
+di<lb break="no" ed="#V" n="4"/>vina aequaliter diligit omnia 
+comparan<lb break="no" ed="#V" n="5"/>do dilectionem divinam ad Deum, sive
+<lb ed="#V" n="6"/>accipiendo nolitionem divinam in se,
+<lb ed="#V" n="7"/>differenter tamen quantum ad 
+conno<lb break="no" ed="#V" n="8"/>tata, loquendo de dilectione effectus,
+<lb ed="#V" n="9"/>non affectus, quia nemini afficitur.
+</p>
+            <p xml:id="mm30o9-d1e1465-d1e178">
+               <lb ed="#V" n="10"/>Secunda conclusio: Posito quod 
+vo<lb break="no" ed="#V" n="11"/>luntas creata in. actu et objecto 
+con<lb break="no" ed="#V" n="12"/>formetur, adhuc non sufficit, nisi in
+<lb ed="#V" n="13"/>omnibus circumstantiis conformetur ;
+<lb ed="#V" n="14"/>sed hic non videtur quod voluntas
+<lb ed="#V" n="15"/>creata non potest elicere actum 
+ali<lb break="no" ed="#V" n="16"/>quem conformem actui recto 
+volunta<lb break="no" ed="#V" n="17"/>tis divine quoad omnes circumstantias
+<lb ed="#V" n="18"/>requisitas, aliqua enim  
+circumstan<lb break="no" ed="#V" n="19"/>lia est in actu voluntatis divine circa
+<lb ed="#V" n="20"/>idem objectum, qua non potest esse
+<lb ed="#V" n="21"/>in actu voluntatis create. Voluntas
+<lb ed="#V" n="22"/>enim divina diligit A ut omnino prima
+<lb ed="#V" n="23"/>regula, et nullo modo priori regula
+<lb ed="#V" n="24"/>determinabilis, quia hoc sonat imper-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="25"/>fectionem, ut supra patuit. 22 prolog.
+<lb ed="#V" n="26"/>quaest. ult. ae d. 38. Voluntas vero 
+erea<lb break="no" ed="#V" n="27"/>ta non potest moraliter diligere A, 
+ni<lb break="no" ed="#V" n="28"/>si inquantum regulatur ab aliqua 
+su<lb break="no" ed="#V" n="29"/>periori regula, quia actus voluntatis
+<lb ed="#V" n="30"/>creatae non est de se rectus, ut elicitur,
+<lb ed="#V" n="31"/>ut supra patuit dst. 1. quaest. 1. et dist.
+<lb ed="#V" n="32"/>4^4. et in 2. dist. 93. et. alibi. Voluntas
+<lb ed="#V" n="33"/>etiam divina cum diligit aliquod 
+bo<lb break="no" ed="#V" n="34"/>num, puta 4, nullo modo movetur ab
+<lb ed="#V" n="35"/>illo, imo illud est bonum, quia a 
+vo<lb break="no" ed="#V" n="36"/>luntate divina volitum, ut patuit 
+su<lb break="no" ed="#V" n="37"/>pra dist. 41. et in dist. 31. et in 3. dist.
+<lb ed="#V" n="38"/>1. 8. et. 19. Voluntas vero creata 
+move<lb break="no" ed="#V" n="39"/>tur a bonitate creata, et innumera
+<lb ed="#V" n="40"/>differenti:? possunt assignari. Et sic
+<lb ed="#V" n="41"/>patet quod alia est bonitas moralis 
+ac<lb break="no" ed="#V" n="42"/>tus voluntatis divinae, et alia actus 
+vo<lb break="no" ed="#V" n="43"/>luntatis create. Et sic ad bonitatem
+<lb ed="#V" n="44"/>actus moralis in voluntate creata non
+<lb ed="#V" n="45"/>requiritur omnimoda conformitas 
+ac<lb break="no" ed="#V" n="46"/>tui morali voluntatis divine circa
+<lb ed="#V" n="47"/>idem objectum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

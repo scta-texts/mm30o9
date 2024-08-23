@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#per-FLBca3">Franciscus Lychetus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2024-08-23">August 23, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 10</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-08-23" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="682"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="mm30o9-d1e1328"><!-- lycht-d40q1-p2 -->
+            <head xml:id="mm30o9-d1e1328-Hd1e101">Quaestio 1</head>
+            <p xml:id="mm30o9-d1e1328-d1e103">
+               <pb ed="#V" n="682"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1" type="fixed=682"/>COMMENTARIUS
+</p>
+            <p xml:id="mm30o9-d1e1328-d1e112">
+               <lb ed="#V" n="2"/>(a) Ad istam questionem. Pro 
+intel<lb break="no" ed="#V" n="3"/>ligentia hujus litterae praemitto aliqua.
+<lb ed="#V" n="4"/>Primo, quod tantum est unus actus
+<lb ed="#V" n="5"/>voluntatis divini, omnino indistinctus
+<lb ed="#V" n="6"/>ex parte rei, sicut etiam tantum est
+<lb ed="#V" n="7"/>unus actus intelligendi intellectus
+<lb ed="#V" n="8"/>divini, omnino indistinctus ex parte
+<lb ed="#V" n="9"/>rei, ut patuit supra dist. 2. quest. 1.
+<lb ed="#V" n="10"/>Ille tamen actus potest accipi 
+multi<lb break="no" ed="#V" n="11"/>pliciter non in se, sed secundum 
+di<lb break="no" ed="#V" n="12"/>versas comparationes sive 
+termina<lb break="no" ed="#V" n="13"/>tiones, sive transitiones super diversa
+<lb ed="#V" n="14"/>objeeta, sive super idem objectum 
+di<lb break="no" ed="#V" n="15"/>versimode consideratum. Et sic 
+vo<lb break="no" ed="#V" n="16"/>luntas divina eodem simpliciter actu
+<lb ed="#V" n="17"/>re omnino indistincta, et diligit Deum
+<lb ed="#V" n="18"/>et creaturam, ut patet a Doctore in 3.
+<lb ed="#V" n="19"/>dist. 32. et creat et gubernat, et 
+pra<lb break="no" ed="#V" n="20"/>destinat et. glorificat, ita quod transit
+<lb ed="#V" n="21"/>diversimode super aliud et aliud 
+ob<lb break="no" ed="#V" n="22"/>jectum diversificatur secundum alium
+<lb ed="#V" n="23"/>et alium respectum. Et sic quando
+<lb ed="#V" n="24"/>transit super naturam intellectualem
+<lb ed="#V" n="25"/>ordinando ipsam ad gratiam et gloriam,
+<lb ed="#V" n="26"/>dicitur praedestinatio; proprie tamen
+<lb ed="#V" n="27"/>dicitur praedestinatio, ut transit super
+<lb ed="#V" n="28"/>creaturam rationalem ordinando 
+ip<lb break="no" ed="#V" n="29"/>sam ad gloriam tanquam ad finem
+<lb ed="#V" n="30"/>ultimum. Praedestinatio enim proprie
+<lb ed="#V" n="31"/>respicit finem. ultimum, non autem
+<lb ed="#V" n="32"/>ordinata ad illum finem,cujusmodi est
+<lb ed="#V" n="33"/>gratia et merita, ut patebit in 
+quas<lb break="no" ed="#V" n="34"/>tione immediate sequenti.
+</p>
+            <p xml:id="mm30o9-d1e1328-d1e186">
+               <lb ed="#V" n="35"/>Secundo praemitto, quod electio 
+po<lb break="no" ed="#V" n="36"/>test dupliciter accipi, scilicet proprie,
+<lb ed="#V" n="37"/>ef sic. actus voluntatis respectu finis
+<lb ed="#V" n="38"/>quo voluntas vult immediate finem
+<lb ed="#V" n="39"/>in se, dicitur electio, ut palet a 
+Do<lb break="no" ed="#V" n="40"/>ctore supra quast. «ult. prolog. Aut 
+ele<lb break="no" ed="#V" n="41"/>elio accipitur proprie ut actus 
+volun<lb break="no" ed="#V" n="42"/>tatis respectu eorum, quas sunt ad
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>finem, quo voluntas vult aliquid 
+prop<lb break="no" ed="#V" n="44"/>ter finem, id est, ordinando illud ad
+<lb ed="#V" n="45"/>finem, et hoc contingit dupliciter.
+<lb ed="#V" n="46"/>Primo, volendo aliquid propter finem
+<lb ed="#V" n="47"/>praecedente dictamine intellectus, sive
+<lb ed="#V" n="48"/>cognilione. vere practica. Secundo,
+<lb ed="#V" n="49"/>nullo modo praecedente aliqua 
+eogni<lb break="no" ed="#V" n="50"/>lione vere practica, sed sola 
+appre<lb break="no" ed="#V" n="51"/>hensione simpliei terminorum. Primo
+<lb ed="#V" n="52"/>modo,in nobis est electio proprie, non
+<lb ed="#V" n="53"/>autem in voluntate divina. Secundo
+<lb ed="#V" n="54"/>modo, electio proprie est in voluntate
+<lb ed="#V" n="55"/>divina, ut patet a Doctore supra quast.
+<lb ed="#V" n="56"/>ull. prolog. Preedestinatio ergo est ele- |
+<lb ed="#V" n="57"/>ctio, sive actus electivus voluntatis
+<lb ed="#V" n="58"/>divini:, quo eligit creaturam $1atio 
+na<lb break="no" ed="#V" n="59"/>lem ad vitam aeternam. Tertio 
+prw<lb break="no" ed="#V" n="60"/>mitto, quod solus actus voluntatis 
+di<lb break="no" ed="#V" n="61"/>vina: ut comparatur ad creaturas, est
+<lb ed="#V" n="62"/>formaliter contingens, ita quod 
+volun<lb break="no" ed="#V" n="63"/>las, mediante illo, potest in opposita
+<lb ed="#V" n="64"/>contradictorie, ut supra declaratum
+<lb ed="#V" n="65"/>est, quaest. ult. prolog. et dist. 2. quast.
+<lb ed="#V" n="66"/>1. et dist. 8. quast. ult. Nullus autem
+<lb ed="#V" n="67"/>alius actus in divinis dicitur formaliter
+<lb ed="#V" n="68"/>contingens, quia tota contingentia est
+<lb ed="#V" n="69"/>a voluntate divina, mediante actu
+<lb ed="#V" n="70"/>suo, ad creaturam comparato, ut patet
+<lb ed="#V" n="71"/>a Seoto ubi supra ; ut autem actus 
+vo<lb break="no" ed="#V" n="72"/>luntatis divine comparatur ad 
+essen<lb break="no" ed="#V" n="73"/>liam divinam, etsi sit formaliter liber,
+<lb ed="#V" n="74"/>ut probat Doctor supra dist. 10. quest.
+<lb ed="#V" n="75"/>1. prolixe, ze quodlib. qucst. 46. nullo
+<lb ed="#V" n="76"/>tamen modo est formaliter contingens,
+<lb ed="#V" n="77"/>quia quidquid est in Deo ad. intra, est
+<lb ed="#V" n="78"/>simpliciter necesse esse, ut patet a
+<lb ed="#V" n="79"/>Doctore in pluribus locis. Ex hoc 
+in<lb break="no" ed="#V" n="80"/>fero, quod ex quo praedestinatio 
+res<lb break="no" ed="#V" n="81"/>pieit creaturam (non enim 
+praedesti<lb break="no" ed="#V" n="82"/>natur aliquid increatum, ut patet a
+<lb ed="#V" n="83"/>Doctore in 3. dist. 7. quaest. ull.) 
+se<lb break="no" ed="#V" n="84"/>quitur quod erit actus voluntalis 
+di<lb break="no" ed="#V" n="85"/>vinz:, cum ille solus possit esse 
+forma<lb break="no" ed="#V" n="86"/>liter contingens. Non potest ergo ae:
+<pb ed="#V" n="683"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>cipi pro actu intellectus divini, quia
+<lb ed="#V" n="2"/>ille non est, nec formaliter liber, nec
+<lb ed="#V" n="3"/>formaliter contingens, ut patet a 
+com<lb break="no" ed="#V" n="4"/>muniter Theologis, licet possit dici
+<lb ed="#V" n="5"/>liber vel contingens participative, ut
+<lb ed="#V" n="6"/>patef a Doctore in simili supra dst. 2.
+<lb ed="#V" n="7"/>parte 2. etin quodlib. quest. 16.
+</p>
+            <p xml:id="mm30o9-d1e1328-d1e323">
+               <lb ed="#V" n="8"/>Et quando dicit quod pradestinatio
+<lb ed="#V" n="9"/>potest accipi pro actu intellectus 
+conco<lb break="no" ed="#V" n="10"/>matante electionem istam, debet sic sane
+<lb ed="#V" n="11"/>intelligi, quod actus intellectus 
+di<lb break="no" ed="#V" n="12"/>vini, quo cognoscit electionem 
+volun<lb break="no" ed="#V" n="13"/>tatis divina, qua elegit creaturam
+<lb ed="#V" n="14"/>rationalem ad gloriam, est 
+priedesti<lb break="no" ed="#V" n="15"/>natio, quia est actus, quo intellectus
+<lb ed="#V" n="16"/>divinus prascit praedestinatum 
+forma<lb break="no" ed="#V" n="17"/>liter ; tamen non potest dici 
+praedesti<lb break="no" ed="#V" n="18"/>natio, sed tantum quia concomitans
+<lb ed="#V" n="19"/>actum divine voluntatis electivum 
+ali<lb break="no" ed="#V" n="20"/>eujus creature rationalis ad gloriam,
+<lb ed="#V" n="21"/>qua proprie dicitur praedestinatio, et
+<lb ed="#V" n="22"/>sie patet ista littera. Sequitur in littera
+<lb ed="#V" n="23"/>Doctoris ibi: Ez hoc dico, etc. Super
+<lb ed="#V" n="24"/>isto passu vide glossam quam feci 
+su<lb break="no" ed="#V" n="25"/>per dist. 2. quam diligenter nota.
+</p>
+            <p xml:id="mm30o9-d1e1328-d1e366">
+               <lb ed="#V" n="26"/>(b) Consimiliter dico. HicDoctor 
+di<lb break="no" ed="#V" n="27"/>cit absolute, quod ille qui est 
+praedes<lb break="no" ed="#V" n="28"/>tinatus potest damnari, quia non est
+<lb ed="#V" n="29"/>voluntas praedestinati propter ejus
+<lb ed="#V" n="30"/>praedestinationem confirmata, scilicet
+<lb ed="#V" n="31"/>ut peeeare non possit, et ita potest
+<lb ed="#V" n="32"/>peecare, et in peccato permanere, et
+<lb ed="#V" n="33"/>sicut potest damnari, ita potest non
+<lb ed="#V" n="34"/>pradestinari.
+</p>
+            <p xml:id="mm30o9-d1e1328-d1e388">
+               <lb ed="#V" n="35"/>Sed quaeritur, posito quod Joannes
+<lb ed="#V" n="36"/>sit praedestinatus, an. voluntas divina
+<lb ed="#V" n="37"/>possit non praedestinare, ita quod heri
+<lb ed="#V" n="38"/>fuerit praedestinatus, et hodie non sit
+<lb ed="#V" n="39"/>praedestinatus. Hoc requirit longum
+<lb ed="#V" n="40"/>tractatum. Et est similis difficultas,
+<lb ed="#V" n="41"/>an voluntas divina possit nunc salvare
+<lb ed="#V" n="42"/>Judam ipsum actu glorificando, et 
+si<lb break="no" ed="#V" n="43"/>militeran nunc possit damnare Petrum,
+<lb ed="#V" n="44"/>et actu privare gloria aeterna.
+</p>
+            <p xml:id="mm30o9-d1e1328-d1e412">
+               <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>Dico, quod si voluntas divina potest
+<lb ed="#V" n="46"/>ista facere, quod similiter potest et
+<lb ed="#V" n="47"/>primum facere. Si dicatur ergo 
+vo<lb break="no" ed="#V" n="48"/>luntas divina mutaretur, et si dicatur,
+<lb ed="#V" n="49"/>quod nulla accideret mutatio, dic 
+con<lb break="no" ed="#V" n="50"/>formiter his, qua dicta sunt in illa
+<lb ed="#V" n="51"/>expositione super secundo, non 
+de<lb break="no" ed="#V" n="52"/>terminando tamen me, nec hie, nec
+<lb ed="#V" n="53"/>ibi, sed submittendo me semper 
+judi<lb break="no" ed="#V" n="54"/>cio peritioris, et pedibus sanele 
+Ho<lb break="no" ed="#V" n="55"/>mana Eeclesic.
+</p>
+            <p xml:id="mm30o9-d1e1328-d1e441">
+               <lb ed="#V" n="56"/>(c) Quantum autem ad Logicam. Hic
+<lb ed="#V" n="57"/>Doctor distinguit secundum sensum
+<lb ed="#V" n="58"/>compositum et divisum, et in sensu
+<lb ed="#V" n="59"/>composito propositio est-falsa, scilicet
+<lb ed="#V" n="60"/>pradestinatus potest damnari, quia 
+sen<lb break="no" ed="#V" n="61"/>sus est, praedestinatus damnatur. Vel.
+<lb ed="#V" n="62"/>ista propositio est possibilis : 
+praedesti<lb break="no" ed="#V" n="63"/>natus damnatur. Sicut ista: album 
+po<lb break="no" ed="#V" n="64"/>lest esse nigruni, iu sensu composito
+<lb ed="#V" n="65"/>valet istam, ista propositio est 
+possi<lb break="no" ed="#V" n="66"/>bilis: album est nigrum, Et secundum
+<lb ed="#V" n="67"/>aliquos omnis propositio modalis in:
+<lb ed="#V" n="68"/>sensu composito est singularis 
+eatego<lb break="no" ed="#V" n="69"/>rica de inesse, sicut ista : Possibile est
+<lb ed="#V" n="70"/>omne album esse nigrum, id est, ista
+<lb ed="#V" n="71"/>propositio est possibilis: omne album
+<lb ed="#V" n="72"/>esse nigrum. Et sic patet, quod ista in
+<lb ed="#V" n="73"/>sensu com posito est falsa: 
+praedestina<lb break="no" ed="#V" n="74"/>tus potest damnari. in sensu vero diviso
+<lb ed="#V" n="75"/>est vera, quia sunt duce categories,
+<lb ed="#V" n="76"/>puta Franeiseus est. praedestinatus, et
+<lb ed="#V" n="77"/>Franeiseus potest damnari. Sicut
+<lb ed="#V" n="78"/>etiam ista est vera in sensu diviso:
+<lb ed="#V" n="79"/>album potest esse nigrum, id est, 
+Fran<lb break="no" ed="#V" n="80"/>ciseus est albus, et Franeiseus potest
+<lb ed="#V" n="81"/>esse niger, quia tunc possent verificari
+<lb ed="#V" n="82"/>duo opposita de eodem pro eodem
+<lb ed="#V" n="83"/>instanti, sed pro alio instanti, sic et
+<lb ed="#V" n="84"/>ista : pradestinatus potest. damnari,
+<lb ed="#V" n="85"/>id est, Joannes est praedestinatus,
+<lb ed="#V" n="86"/>et Joannes potest damnari; posse
+<lb ed="#V" n="87"/>enim damnari non potest verificari
+<lb ed="#V" n="88"/>simul pro eodem instanti nature,
+<pb ed="#V" n="684"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>licet pro eodem instanti 
+aeternita<lb break="no" ed="#V" n="2"/>tis.
+</p>
+            <p xml:id="mm30o9-d1e1328-d1e524">
+               <lb ed="#V" n="3"/>Sed dicuntur tamen vera simul, 
+in<lb break="no" ed="#V" n="4"/>quantum divina volitio consideratur
+<lb ed="#V" n="5"/>ut prior naturaliter transitu ipsius 
+su<lb break="no" ed="#V" n="6"/>per illud objectum, quod est gloria
+<lb ed="#V" n="7"/>isti ; in illo priori naturaliter non 
+re<lb break="no" ed="#V" n="8"/>pugnat sibi esse oppositi objeeti, imo
+<lb ed="#V" n="9"/>possel esse :qualiter oppositi, licet non
+<lb ed="#V" n="10"/>simul amborum. Et ideo haec quod dico
+<lb ed="#V" n="11"/>posse damnari, non potest succedere
+<lb ed="#V" n="12"/>huic, quod est esse pr«edestinatum,
+<lb ed="#V" n="13"/>ita quod si Joannes sit actu 
+praedesti<lb break="no" ed="#V" n="14"/>natus in aliqua duratione posteriori,
+<lb ed="#V" n="15"/>non potest esse damnatus. Et ratio,
+<lb ed="#V" n="16"/>quia omnis determinatio voluntatis
+<lb ed="#V" n="17"/>divine semper est ab aeterno, et nihil
+<lb ed="#V" n="18"/>de novo vult, quin ab :eterno 
+praor<lb break="no" ed="#V" n="19"/>dinatum fuerit, ut patuit supra d. 39.
+<lb ed="#V" n="20"/>et infra patebit d. 45. et sic patet 
+litte<lb break="no" ed="#V" n="21"/>ra Doctoris. Si tamen Deus possit nunc
+<lb ed="#V" n="22"/>aliter ordinare quam ab «terno 
+ordi<lb break="no" ed="#V" n="23"/>naverit, ipse novit.
+</p>
+            <p xml:id="mm30o9-d1e1328-d1e572">
+               <lb ed="#V" n="24"/>(d) Ad primum argumentum dico.
+<lb ed="#V" n="25"/>HicDoctor respondet ad argumenta
+<lb ed="#V" n="26"/>principalia. Quorum primum probat,
+<lb ed="#V" n="27"/>quod semel praedestinatus de 
+neces<lb break="no" ed="#V" n="28"/>sitate salvabitur.
+</p>
+            <p xml:id="mm30o9-d1e1328-d1e586">
+               <lb ed="#V" n="29"/>Si dicatur, posito quod 
+praedestina<lb break="no" ed="#V" n="30"/>verit ab aeterno, potest tamen nunc
+<lb ed="#V" n="31"/>ipsum reprobare. Coneedo enim quod
+<lb ed="#V" n="32"/>si est praedestinatus, quod non potest
+<lb ed="#V" n="33"/>esse non prxeedestinatus, quia 
+praeteri<lb break="no" ed="#V" n="34"/>tum non potest non praeteriisse, quia
+<lb ed="#V" n="35"/>si praeteritum posset fieri non 
+praete<lb break="no" ed="#V" n="36"/>ritum,  tunc esset mutatio de non ente
+<lb ed="#V" n="37"/>in non ens, quod non est intelligibile.
+<lb ed="#V" n="38"/>De hoc vide Doctorem n» 4. dist. 1.
+<lb ed="#V" n="39"/>quest. 6.
+</p>
+            <p xml:id="mm30o9-d1e1328-d1e612">
+               <lb ed="#V" n="40"/>Dico, quod Doctor in isto argumento
+<lb ed="#V" n="41"/>supponit, quod omne volitum a 
+volun<lb break="no" ed="#V" n="42"/>tate divina est simpliciter volitum ab
+<lb ed="#V" n="43"/>eterno, licet non pro aaeterno. Si enim
+<lb ed="#V" n="44"/>haberet novam determinationem, pos-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>set esse mutatio in voluntate divina,
+<lb ed="#V" n="46"/>ut patet supra dist. 30. in simili de
+<lb ed="#V" n="47"/>aetu intellectus, et expresse ds. 39.
+<lb ed="#V" n="48"/>praesupponit ergo quod si aliquid est
+<lb ed="#V" n="49"/>praedestinatum ab aeterno, pro nulla
+<lb ed="#V" n="50"/>duratione sequenti oppositum evenire
+<lb ed="#V" n="51"/>non potest ; ergo si est praedestinatum,
+<lb ed="#V" n="52"/>ab terno non potest, non praedestinari,
+<lb ed="#V" n="53"/>ergo necessario praedestinatur.
+</p>
+            <p xml:id="mm30o9-d1e1328-d1e647">
+               <lb ed="#V" n="54"/>(e) Tunc. dico. Respondet Doctor per
+<lb ed="#V" n="55"/>quoddam exemplum satis clarum,et res.
+<lb ed="#V" n="56"/>ponsio stat in aliquibus dictis. Primo,
+<lb ed="#V" n="57"/>quod in :ternitate non est transitus in
+<lb ed="#V" n="58"/>praeteritum nequein futurum, sed 
+om<lb break="no" ed="#V" n="59"/>niasunt ibi praesentia. /Eternitas enim
+<lb ed="#V" n="60"/>est mensura sive duratio omnino 
+indi<lb break="no" ed="#V" n="61"/>visibilis.De hoc in 2. ds. 2. et sic ista
+<lb ed="#V" n="62"/>propositio, ut comparatur ad :
+terni<lb break="no" ed="#V" n="63"/>tatem, scilicet Deus praedestinavit J 
+oan<lb break="no" ed="#V" n="64"/>nm, est falsa de rigore sermonis, haec
+<lb ed="#V" n="65"/>autem est vera: Deus praedestinavit,
+<lb ed="#V" n="66"/>ita quod quidquid Deus determinat,
+<lb ed="#V" n="67"/>semper utin praesenti determinat, et
+<lb ed="#V" n="68"/>omnia sunt sibi simpliciter praesentia.
+<lb ed="#V" n="69"/>Secundo, quod instans c«:eternitatis
+<lb ed="#V" n="70"/>potest coexisterecuicumque differentice
+<lb ed="#V" n="71"/>temporis, scilicet praeterite, praesenti
+<lb ed="#V" n="72"/>et futura, et sic praedestinatio ut 
+com<lb break="no" ed="#V" n="73"/>paratur tempori nostro, potest dici
+<lb ed="#V" n="74"/>praesens, praeterita et futura.
+</p>
+            <p xml:id="mm30o9-d1e1328-d1e695">
+               <lb ed="#V" n="75"/>Et nota, quod voluntas divina 
+sem<lb break="no" ed="#V" n="76"/>per praedestinat quos praedestinat, et
+<lb ed="#V" n="77"/>sie omnes beatos semper praedestinat.
+<lb ed="#V" n="78"/>Sicut. dicimus, quod semper creat, ita
+<lb ed="#V" n="79"/>quod pro tota duratione ipsius 
+crea<lb break="no" ed="#V" n="80"/>ture semper est verum dicere, quod
+<lb ed="#V" n="81"/>semper ipsam creat, ita quod ut 
+eom<lb break="no" ed="#V" n="82"/>paratur ad aeternitatem, non dicimus
+<lb ed="#V" n="83"/>quod ipsam creavit vel ereabit, sed
+<lb ed="#V" n="84"/>tantum hoc est verum ut ecoexistit
+<lb ed="#V" n="85"/>creatio tempori nostro; et sic, ut 
+prae<lb break="no" ed="#V" n="86"/>destinatio comparatur sive ut coexistit
+<lb ed="#V" n="87"/>tempori nostro, istae sunt. vere: Deus
+<lb ed="#V" n="88"/>praedestinavit Petrum,nunc pradestinat,
+<pb ed="#V" n="685"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>et cras praedestinabit, et post cras. Dico
+<lb ed="#V" n="2"/>ergo ad argumentum, quod sicut in
+<lb ed="#V" n="3"/>instanti ae«ternitatis contingenter pra-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="4"/>destinat, ita potest oppositum, ut supra
+<lb ed="#V" n="5"/>patuit d. 39. et sic praedestinatio  non
+<lb ed="#V" n="6"/>est simpliciter necessaria.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#per-FLBca3">Franciscus Lychetus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2024-08-23">August 23, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 10</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-08-23" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="731"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="mm30o9-d1e1379"><!-- lycht-d43q1-p2 -->
+            <head xml:id="mm30o9-d1e1379-Hd1e101">Quaestio 1</head>
+            <p xml:id="mm30o9-d1e1379-d1e103">
+               <pb ed="#V" n="731"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1" type="fixed=731"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e112">
+               <lb ed="#V" n="2"/>(a) Hic dicitur. In. praesenti 
+distine<lb break="no" ed="#V" n="3"/>lione, ponitur duplex opinio Henrici
+<lb ed="#V" n="4"/>sibi contradicentis. Prima ponitur
+<lb ed="#V" n="5"/>quodlib. 6. q. 3. Secunda, quodlib. 8.
+<lb ed="#V" n="6"/>gua.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e125">
+               <lb ed="#V" n="7"/>De prima opinione Henrici, ponit
+<lb ed="#V" n="8"/>primo, quod triplex est praedicatum de
+<lb ed="#V" n="9"/>Deo. Prima predieata sunt 
+perfectio<lb break="no" ed="#V" n="10"/>nes simpliciter, quaae conveniunt Deo
+<lb ed="#V" n="11"/>absolute sine respectu ad creaturas.
+<lb ed="#V" n="12"/>Sed sic distinguit, quod iste 
+perfec<lb break="no" ed="#V" n="13"/>tiones possunt considerari uno modo
+<lb ed="#V" n="14"/>secundum id cui nomen imponitur, et
+<lb ed="#V" n="15"/>sic considerantur in se absolute. Alio
+<lb ed="#V" n="16"/>modo secundum rationem a qua 
+im<lb break="no" ed="#V" n="17"/>ponuntur, id est, secundum id cujus
+<lb ed="#V" n="18"/>occasione nomen est impositum. 
+Bo<lb break="no" ed="#V" n="19"/>nitas primo modo est infinitas in Deo,
+<lb ed="#V" n="20"/>sed secundo modo respicit creaturas,
+<lb ed="#V" n="21"/>quia ex hoc quod Deus communicat
+<lb ed="#V" n="22"/>creaturis suam bonitatem, id est, ex
+<lb ed="#V" n="23"/>hoc quod sua infinita potentia aliquid
+<lb ed="#V" n="24"/>circa creaturas operatur, dicitur 
+bo<lb break="no" ed="#V" n="25"/>nus, et secundum hanc 
+consideratio<lb break="no" ed="#V" n="26"/>nem Deus vel bonitas, consideratur in
+<lb ed="#V" n="27"/>ordine ad creaturas. Secunda, 
+predi<lb break="no" ed="#V" n="28"/>cata sunt quae dicunt dignitatem, non
+<lb ed="#V" n="29"/>tamen perfectionem simpliciter, ut 
+es<lb break="no" ed="#V" n="30"/>se Dominus, gubernator, et illa dicunt
+<lb ed="#V" n="31"/>respectus ad creaturas. Tertia sunt
+<lb ed="#V" n="32"/>privativa vel negativa, ut immortalis
+<lb ed="#V" n="33"/>et incorruptibilis, et sic inpossibile 
+di<lb break="no" ed="#V" n="34"/>citur quod privat potentiam.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e188">
+               <lb ed="#V" n="35"/>Ex his infert Henricus, quod 
+omni<lb break="no" ed="#V" n="36"/>potentia non potest dici de Deo tertio
+<lb ed="#V" n="37"/>modo, quia non est privatio vel 
+nega<lb break="no" ed="#V" n="38"/>lio ;ergo secundo vel primo modo 
+di<lb break="no" ed="#V" n="39"/>citur de Deo.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e202">
+               <lb ed="#V" n="40"/>Item, notat quod potentia activa 
+po<lb break="no" ed="#V" n="41"/>test dupliciter considerari .Primo 
+com<lb break="no" ed="#V" n="42"/>parando ad Deum in quo est ; secundo
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>ad creaturam aliquam producendam.
+<lb ed="#V" n="44"/>Primo modo est perfectio simpliciter
+<lb ed="#V" n="45"/>et absolute conveniens Deo. Secundo
+<lb ed="#V" n="46"/>modo non, quia secundum 
+Ansel<lb break="no" ed="#V" n="47"/>mum nulla relatio ad creaturam est
+<lb ed="#V" n="48"/>perfectio simpliciter. Cum ergo 
+poten<lb break="no" ed="#V" n="49"/>lia activa sit perfectio simpliciter, ideo
+<lb ed="#V" n="50"/>in creatura potentia passiva est 
+abso<lb break="no" ed="#V" n="51"/>luta.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e233">
+               <lb ed="#V" n="52"/>Item, notat quod potentiam activam
+<lb ed="#V" n="53"/>in Deo, id est, omnipotentiam, 
+con<lb break="no" ed="#V" n="54"/>sequitur relatio potentiae passive in
+<lb ed="#V" n="55"/>creatura ad potentiam activam Dei, et
+<lb ed="#V" n="56"/>illa relatio est realis, et e converso,
+<lb ed="#V" n="57"/>est una relatio rationis in potentia
+<lb ed="#V" n="58"/>Dei activa ad potentiam passivam in
+<lb ed="#V" n="59"/>creatura. Ex quo sequitur, quod ideo
+<lb ed="#V" n="60"/>Deus refertur ad creaturam, quia 
+crea<lb break="no" ed="#V" n="61"/>tura refertur ad ipsum, et non e 
+con<lb break="no" ed="#V" n="62"/>verso. Ex quo infert principalem 
+con<lb break="no" ed="#V" n="63"/>clusionem, quia, scilicet creatura est
+<lb ed="#V" n="64"/>faetibilis, ideo Deus potest eam 
+face<lb break="no" ed="#V" n="65"/>re, et non e converso, quia Deus potest
+<lb ed="#V" n="66"/>creaturam facere, ideo potest fieri.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e268">
+               <lb ed="#V" n="67"/>De tertiis praedicatis, scilicet 
+nega<lb break="no" ed="#V" n="68"/>tivis, dicit quod illa quae negative 
+di<lb break="no" ed="#V" n="69"/>cuntur de Deoin ordine ad creaturam,
+<lb ed="#V" n="70"/>debent primo quasri in creatura, non
+<lb ed="#V" n="71"/>in Deo, ita quod primo est negatio in
+<lb ed="#V" n="72"/>creatura. Secundo consequitur negatio
+<lb ed="#V" n="73"/>relativa creatur: ad Deum. Tertio 
+con<lb break="no" ed="#V" n="74"/>sequitur relatio negativa Dei ad 
+erea<lb break="no" ed="#V" n="75"/>turam. Ex quo sequitur, quod primo
+<lb ed="#V" n="76"/>creatura est impossibilis fieri. 
+Secun<lb break="no" ed="#V" n="77"/>do est impossibile eam a Deo fieri.
+<lb ed="#V" n="78"/>Tertio impossibile est Deum ipsam 
+fa<lb break="no" ed="#V" n="79"/>cere, ita quod possibilitas et 
+impossi<lb break="no" ed="#V" n="80"/>bilitas sunt primo ex parte creature,
+<lb ed="#V" n="81"/>et non ex parte Dei.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e303">
+               <lb ed="#V" n="82"/>Secunda opinio Henrici est illa, quod
+<lb ed="#V" n="83"/>quando aliquid est simpliciter 
+impos<lb break="no" ed="#V" n="84"/>sibile, prima ratio impossibilitatis est,
+<lb ed="#V" n="85"/>quia non potest Deus facere, ideo non
+<lb ed="#V" n="86"/>potest creatura fieri, et non e conver-
+<pb ed="#V" n="732"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>so. Similiter prima ratio possibilitatis
+<lb ed="#V" n="2"/>est in Deo; res enim ideo est a Deo
+<lb ed="#V" n="3"/>factibilis, quia eam Deus potest facere,
+<lb ed="#V" n="4"/>et non e eonverso. Ex quo patet, quod
+<lb ed="#V" n="5"/>prima opinio directe contradicit 
+secun<lb break="no" ed="#V" n="6"/>die, et e converso.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e334">
+               <lb ed="#V" n="7"/>(b) Tamen specialiter arguo. Contra
+<lb ed="#V" n="8"/>hanc opinionem Doctor arguit 
+multi<lb break="no" ed="#V" n="9"/>plieiter. Primo sic: Al est 
+simplici<lb break="no" ed="#V" n="10"/>ter impossibile, nisi quia simpliciter 
+re<lb break="no" ed="#V" n="11"/>pugnat. sibi esse, etc. Et loquitur hie
+<lb ed="#V" n="12"/>Doctor de repugnantia formali, quae
+<lb ed="#V" n="13"/>formaliter inest rei, sicut dicimus quod
+<lb ed="#V" n="14"/>repugnat hominem esse asinum, sic
+<lb ed="#V" n="15"/>quod repugnantia formaliter 
+praedica<lb break="no" ed="#V" n="16"/>tur de homine; et sic patet, quod talis
+<lb ed="#V" n="17"/>repugnantia non dicitur inesse 
+homi<lb break="no" ed="#V" n="18"/>ni per respectum ad aliquid 
+extrinse<lb break="no" ed="#V" n="19"/>cum, sed magis per rationem 
+forma<lb break="no" ed="#V" n="20"/>lem et intrinsecam ipsius hominis.
+<lb ed="#V" n="21"/>Et hoc est quod dicitinfra: 
+Atepugnan<lb break="no" ed="#V" n="22"/>lia quaecumque extremorum est ex 
+ratzo<lb break="no" ed="#V" n="23"/>ne sua formali, et. sicut album et. 
+ni<lb break="no" ed="#V" n="24"/>grum per se er suis rationibus 
+forma<lb break="no" ed="#V" n="25"/>libus contrariantur, ut puta, quia 
+al<lb break="no" ed="#V" n="26"/>bedo est talis entitas in se, ideo 
+contra<lb break="no" ed="#V" n="27"/>riatur nigro, quia talis entitas est ex
+<lb ed="#V" n="28"/>se ipsa nigredo. Nam, per impossibite,
+<lb ed="#V" n="29"/>cireumscripto quocumque alio a 
+ra<lb break="no" ed="#V" n="30"/>lione nigredinis et albedinis, adhue
+<lb ed="#V" n="31"/>quia tales entitates in se dicuntur 
+con<lb break="no" ed="#V" n="32"/>trariari et includere formalem 
+repu<lb break="no" ed="#V" n="33"/>gnantiam essendi simul in eodem 
+sub<lb break="no" ed="#V" n="34"/>jecto; igitur illud est simpliciter 
+im<lb break="no" ed="#V" n="35"/>possibile, cui per se primo repugnat
+<lb ed="#V" n="36"/>esse, etiam circumscripto quocumque
+<lb ed="#V" n="37"/>alio respectu ad aliud, et sic dicimus,
+<lb ed="#V" n="38"/>quod chimara est. simpliciter 
+impos<lb break="no" ed="#V" n="39"/>sibilis esse, sive existere, quia ex 
+ra<lb break="no" ed="#V" n="40"/>tione formali chimare repugnat sibi
+<lb ed="#V" n="41"/>simpliciter posse existere, et non per
+<lb ed="#V" n="42"/>respectum ad Deum affirmativum vel
+<lb ed="#V" n="43"/>negalivum, quia si, per impossibile,
+<lb ed="#V" n="44"/>Deus non esset, adhuc existere sibi re-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>pugnaret. Et dicitur respectus 
+alfirma<lb break="no" ed="#V" n="46"/>tivus qui aliquid ponit ; et negativus
+<lb ed="#V" n="47"/>qui nihil ponit ; causare enim est 
+res<lb break="no" ed="#V" n="48"/>pectus affirmativus, similiter posse
+<lb ed="#V" n="49"/>aliquid, sed non posse, vel impossibile
+<lb ed="#V" n="50"/>esse, est respectus negativus. Addit
+<lb ed="#V" n="51"/>Doctor, quod prima sententia sive 
+pri<lb break="no" ed="#V" n="52"/>ma opinio Henrici, sit probabilior 
+se<lb break="no" ed="#V" n="53"/>cunda sententia sive secunda opinione
+<lb ed="#V" n="54"/>Henrici, contra quam secundam  
+sen<lb break="no" ed="#V" n="55"/>tentiam ista ratio praecipue concludit.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e445">
+               <lb ed="#V" n="56"/>(c) Sed contra istam primam 
+senten<lb break="no" ed="#V" n="57"/>tiam. Deinde Doctor arguit conira 
+pri<lb break="no" ed="#V" n="58"/>mam opinionem Henrici, et intendit
+<lb ed="#V" n="59"/>probare quod possibilitas lapidis, sive
+<lb ed="#V" n="60"/>quod lapis sit possibilis, non habet ab
+<lb ed="#V" n="61"/>omnipotentia, et ad hoc probandum
+<lb ed="#V" n="62"/>plura dicit in ista littera. Primo, quod
+<lb ed="#V" n="63"/>potentia activa, qua Deus dicitur 
+omni<lb break="no" ed="#V" n="64"/>potens, non est formaliter. intellectus,
+<lb ed="#V" n="65"/>sed quasi praesupponit actionem 
+intellec<lb break="no" ed="#V" n="66"/>lus, et accipit hic potentiam activam
+<lb ed="#V" n="67"/>fundamentaliter, et non pro respectu
+<lb ed="#V" n="68"/>fundato, qua distinctio patuit supra
+<lb ed="#V" n="69"/>d. 7. q. unica, et sic potentia activa,
+<lb ed="#V" n="70"/>qua Deus dicitur omnipotens, est 
+ali<lb break="no" ed="#V" n="71"/>quod absolutum, quo ut principio 
+ae<lb break="no" ed="#V" n="72"/>tivo potest agere. Et talis potentia 
+ae<lb break="no" ed="#V" n="73"/>tiva non intellectus, etc. Vult Doctor,
+<lb ed="#V" n="74"/>quod potentia vere activa, qua Deus
+<lb ed="#V" n="75"/>dicitur omnipotens respicit aliquod
+<lb ed="#V" n="76"/>productum in vero esse reatis 
+existen<lb break="no" ed="#V" n="77"/>dim, ut supra patuit d. 20. e d. 39. el
+<lb ed="#V" n="78"/>42. et in quodlib. q. T. et in 2. d. 1. g.
+<lb ed="#V" n="79"/>1. et talis potentia tantum est ipsa 
+vo<lb break="no" ed="#V" n="80"/>luntas divina, qua Deus libere agit,
+<lb ed="#V" n="81"/>ut patet ab ipso, supra d. 2. q. 1. et d.
+<lb ed="#V" n="82"/>8. 9. ult. et clarius in 2. d. 4^9 nl
+<lb ed="#V" n="83"/>in quodlib. q. 1. et 8. Intellectus enim
+<lb ed="#V" n="84"/>ut praecedit actum voluntatis, neces.
+<lb ed="#V" n="85"/>sario operatur, ut patet a Doctore 
+su<lb break="no" ed="#V" n="86"/>pra d. 3. q. 4. et in quodlib. q. 14. el
+<lb ed="#V" n="87"/>alibi ; idco intellectus non est potentia
+<lb ed="#V" n="88"/>aetiva, qua Deus dicitur omnipotens,
+<pb ed="#V" n="733"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>sed sola voluntas vel actus voluntatis.
+<lb ed="#V" n="2"/>Et quod dicit quod potentia activa
+<lb ed="#V" n="3"/>pressupponit actionem intellectus, 
+in<lb break="no" ed="#V" n="4"/>telligitur de actionetantum secundum
+<lb ed="#V" n="5"/>quid, quaae terminatur ad productum
+<lb ed="#V" n="6"/>habens esse tantam secundum quid,
+<lb ed="#V" n="7"/>quod est esse cognitum rei, ut supra
+<lb ed="#V" n="8"/>patuit d. 3. g. 4. d. 35. 36. et clarius in
+<lb ed="#V" n="9"/>9. d. 1. g. 1. et in quodlib. g. 8. et sic
+<lb ed="#V" n="10"/>lapis prius habet esse secundum quid,
+<lb ed="#V" n="11"/>sive esse cognitum, quam 
+omnipoten<lb break="no" ed="#V" n="12"/>tia Dei respiciat illud. Deinde addit,
+<lb ed="#V" n="13"/>quod lapis habet esse possibile ex se
+<lb ed="#V" n="14"/>formaliter, quia per rationem 
+intrinse<lb break="no" ed="#V" n="15"/>cam, quia si quaeratur quo modo lapis
+<lb ed="#V" n="16"/>potest vere existere ? Respondetur, quia
+<lb ed="#V" n="17"/>est talisentitas, cui non repugnat 
+forma<lb break="no" ed="#V" n="18"/>liter existere, et sic definitio sive 
+quiddi<lb break="no" ed="#V" n="19"/>tas lapidis est ratio formalis 
+quarelapi<lb break="no" ed="#V" n="20"/>di non repugnat formalis existentia, et
+<lb ed="#V" n="21"/>per ipsam definitionem vel 
+quiddita<lb break="no" ed="#V" n="22"/>lem posset a priori demonstrari 
+aptitu<lb break="no" ed="#V" n="23"/>do existendi, ut patet a Scoto in 2. d. 1.
+<lb ed="#V" n="24"/>q. 3. Deinde addit, quod 
+reducendoqua<lb break="no" ed="#V" n="25"/>si ad primum principium extrinsecum,
+<lb ed="#V" n="26"/>intellectus divinus erit illud a quo est
+<lb ed="#V" n="27"/>prima ratio possibilitatis in lapide, idest,
+<lb ed="#V" n="28"/>quod (loquendo de ratione extrinseca,
+<lb ed="#V" n="29"/>sive originativa, sive productiva dante
+<lb ed="#V" n="30"/>esse tale vel tale,) intellectus divinus 
+si<lb break="no" ed="#V" n="31"/>ve actus intellectus divini, est ille qui
+<lb ed="#V" n="32"/>producit lapidem in tali esse possibili,
+<lb ed="#V" n="33"/>ut supra patuit d. 3. g. 4. et d. 35. et 36.
+<lb ed="#V" n="34"/>et sicilla potentia activa a qua dicitur
+<lb ed="#V" n="35"/>Deus omnipotens, non est prima ratio
+<lb ed="#V" n="36"/>possibilitatis in lapide.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e602">
+               <lb ed="#V" n="37"/>(d) Confirmatur ista ratio. HicDoctor
+<lb ed="#V" n="38"/>confirmat rationem, probando quod
+<lb ed="#V" n="39"/>creatura non dicitur habere esse 
+pos<lb break="no" ed="#V" n="40"/>sibile per omnipotentiam. Et ratio stat
+<lb ed="#V" n="41"/>in hoc, quia potentia activa, qua est
+<lb ed="#V" n="42"/>omnipotentia, si dat alicui esse, dat
+<lb ed="#V" n="43"/>producendo, et hoc productione vere
+<lb ed="#V" n="44"/>reali, id est, quae terminatur ad pro-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>ductum reale, patet, quia 
+omnipoten<lb break="no" ed="#V" n="46"/>tia aliquid fit extra suam causam. Sed
+<lb ed="#V" n="47"/>ante istam productionem realem, qua
+<lb ed="#V" n="48"/>terminatur ad productum in esse reali,
+<lb ed="#V" n="49"/>est alia productio tantum secundum
+<lb ed="#V" n="50"/>quid, qui terminatur ad productum
+<lb ed="#V" n="51"/>tantum secundum quid, puta ad esse
+<lb ed="#V" n="52"/>cognitum vel ad esse possibile; ergo
+<lb ed="#V" n="53"/>esse possibile rei non habet esse per
+<lb ed="#V" n="54"/>omnipotentiam.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e646">
+               <lb ed="#V" n="55"/>(e) Item,in causis praecisis, si affirmatio
+<lb ed="#V" n="56"/>est causa affirmationis, ele. Si enim 
+om<lb break="no" ed="#V" n="57"/>nipotentia Dei sit praecisa causa, quare
+<lb ed="#V" n="58"/>homo possit esse in rerum natura, ita
+<lb ed="#V" n="59"/>quod possibilitas cujuscumque 
+creatu<lb break="no" ed="#V" n="60"/>re sit praecise ab omnipotentia, ita
+<lb ed="#V" n="61"/>quod ehimaera non possit existere,
+<lb ed="#V" n="62"/>eri simpliciter a negatione 
+omnipo<lb break="no" ed="#V" n="63"/>tentiae, quod ipse negat.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e668">
+               <lb ed="#V" n="64"/>(f) Praeterea iste respectus, qui 
+conse<lb break="no" ed="#V" n="65"/>quitur potentiam activam. in. Deo. in
+<lb ed="#V" n="66"/>quarto instanti (ista instantia 
+assignan<lb break="no" ed="#V" n="67"/>tur supra dist 3. q. 5. et dist. 30. et 36. ita
+<lb ed="#V" n="68"/>quod in primo instanti est Deus, in 
+se<lb break="no" ed="#V" n="69"/>cundoinstanti est lapis, in 
+tertioinstan<lb break="no" ed="#V" n="70"/>ti resultat respectuslapidis ad Deum.)
+<lb ed="#V" n="71"/>Aut est realis et ad extra, aut est 
+ratio<lb break="no" ed="#V" n="72"/>nis ? Si poimo modo, improbatum est
+<lb ed="#V" n="73"/>supra dst. 30. ubi probatum est, quod
+<lb ed="#V" n="74"/>Deus non potest referri relatione reali
+<lb ed="#V" n="75"/>ad creaturam. Si secundo modo, ergoin
+<lb ed="#V" n="76"/>tertio instanti terminatur possibilitas
+<lb ed="#V" n="77"/>ad Deum sub ratione absoluta, quod
+<lb ed="#V" n="78"/>non infero, sicut in se inconveniens,
+<lb ed="#V" n="79"/>sed tanquam a pluribus concedendum,
+<lb ed="#V" n="80"/>et saltem non habendum pro 
+incon<lb break="no" ed="#V" n="81"/>venienti ab eis, qui tenent opinionem
+<lb ed="#V" n="82"/>iliius Doctoris, ex quo sequitur ad
+<lb ed="#V" n="83"/>eam.
+</p>
+            <!--</div>
+<div alias="lycht-d43q1-p3">-->
+            <p xml:id="mm30o9-d1e1379-d1e716">
+               <lb ed="#V" n="71" type="fixed=735"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e721">
+               <lb ed="#V" n="72"/>(g) Aliter dico a prima sententia, etc.
+<lb ed="#V" n="73"/>Nunc Doctor declarat opinionem 
+pro<lb break="no" ed="#V" n="74"/>priam, quae stat in aliquibus dictis.
+<lb ed="#V" n="75"/>Primum, quod potentia Dei accepta
+<lb ed="#V" n="76"/>pro fundamento, de qua supra d. 7.
+<lb ed="#V" n="77"/>est quid absolutum, et illud absolutum,
+<lb ed="#V" n="78"/>vel est voluntas divina, vel velle 
+divi<lb break="no" ed="#V" n="79"/>num, quae potentia sive omnipotentia
+<lb ed="#V" n="80"/>hoc modoaccepta est perfectio 
+simpli<lb break="no" ed="#V" n="81"/>citer, et est id quo Deus dicitur 
+for<lb break="no" ed="#V" n="82"/>maliter potens, accipiendo formaliter
+<lb ed="#V" n="83"/>fundamentaliter, et convenit Deo in
+<lb ed="#V" n="84"/>primo instanti nature, id est, in illo
+<lb ed="#V" n="85"/>instanti in quo adhuc non comparatur
+<lb ed="#V" n="86"/>ad extra. Secundum instans nature
+<pb ed="#V" n="736"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>est in quo comparatur ad extra, in illo
+<lb ed="#V" n="2"/>tamen instanti nature primo plura
+<lb ed="#V" n="3"/>possunt esse, ut patet supra dist. 10.
+<lb ed="#V" n="4"/>q. unica. Potest etiam accipi 
+opi<lb break="no" ed="#V" n="5"/>potentia pro respectu fundato in
+<lb ed="#V" n="6"/>absoluto illo ; et die pariformiter sicut
+<lb ed="#V" n="7"/>supra dictum est de potentia activa
+<lb ed="#V" n="8"/>dist. 1. scilicet pro respectu fundato in
+<lb ed="#V" n="9"/>absoluto, sicut potentia calefaciendi
+<lb ed="#V" n="10"/>fundatur in calore, accipiendo 
+polen<lb break="no" ed="#V" n="11"/>liam calefaciendi pro respectu.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e785">
+               <lb ed="#V" n="12"/>Secundum dictum est, quod 
+omni<lb break="no" ed="#V" n="13"/>potentia, qua est potentia activa, non
+<lb ed="#V" n="14"/>habet objectum quod sit primo 
+possi<lb break="no" ed="#V" n="15"/>bile, id est, quod non producit aliquid
+<lb ed="#V" n="16"/>in esse possibili, sed tantum producit
+<lb ed="#V" n="17"/>in vero esse existentic, quod esse 
+exis<lb break="no" ed="#V" n="18"/>tenti: praesupponit esse possibile. Et
+<lb ed="#V" n="19"/>quamvis Doctor supra d. 20. dicat quod
+<lb ed="#V" n="20"/>objectum omnipotentiae est ens 
+possi<lb break="no" ed="#V" n="21"/>bile, et hoc idem 2» quodlib. 7. aliter 
+ta<lb break="no" ed="#V" n="22"/>men et aliter, quia ibidicitquod non 
+po<lb break="no" ed="#V" n="23"/>test producere in esse, nisi tantum illa
+<lb ed="#V" n="24"/>entia, quia vere sunt possibilia causari,
+<lb ed="#V" n="25"/>non quod producat illa in esse 
+possi<lb break="no" ed="#V" n="26"/>bili, imo praesupponit esse possibile.
+<lb ed="#V" n="27"/>Hicvero dicitur quod non habet 
+possi<lb break="no" ed="#V" n="28"/>bile pro objecto primo, scilicet in tali
+<lb ed="#V" n="29"/>esse producibili. Sed per intellectum
+<lb ed="#V" n="30"/>divinum, sive per actum intelligendi
+<lb ed="#V" n="31"/>intellectus divini omnia producuntur
+<lb ed="#V" n="32"/>in esse intelligibili, et sic in esse 
+possi<lb break="no" ed="#V" n="33"/>bili, ut supra patuit d. 3. g. ^. et dist.
+<lb ed="#V" n="34"/>36. et 39. Et talis intellectus non est
+<lb ed="#V" n="35"/>formaliter potentia activa, qua Deus
+<lb ed="#V" n="36"/>dicitur omnipotens, patet, quia si sic,
+<lb ed="#V" n="37"/>(une producerentur ad extra omnes
+<lb ed="#V" n="38"/>res possibiles in esse vero reali, et hoc
+<lb ed="#V" n="39"/>de necessitate nature, quia talis 
+pro<lb break="no" ed="#V" n="40"/>duetio necessario praecederet 
+determi<lb break="no" ed="#V" n="41"/>nationem voluntatis. Hoc patet supra
+<lb ed="#V" n="42"/>d. 8. q. 4. et d. 36. et 39.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e855">
+               <lb ed="#V" n="43"/>Tertium dictum est, quod res 
+pro<lb break="no" ed="#V" n="44"/>ducta ab intellectu divino in esse pos-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>sibili sive intelligibili in primo 
+instan<lb break="no" ed="#V" n="46"/>li nature, habet seipsa esse possibile
+<lb ed="#V" n="47"/>in secundo instanti natura. Et hoc sic
+<lb ed="#V" n="48"/>intelligit, quia lapis in primo instanti
+<lb ed="#V" n="49"/>nature producitur ab actu intellectus
+<lb ed="#V" n="50"/>divini in esse cognito; etin secundo
+<lb ed="#V" n="51"/>instanti natura: habet seipsa esse 
+pos<lb break="no" ed="#V" n="52"/>sibile, quia illud, ut supra exposui,
+<lb ed="#V" n="53"/>fundatur in esse eognito, sic tamen
+<lb ed="#V" n="54"/>intelligendo quod in primo instanti
+<lb ed="#V" n="55"/>nature lapis habet esse cognitum
+<lb ed="#V" n="56"/>seipso formaliter, sed originative ab
+<lb ed="#V" n="57"/>actu intellectus divini. Similiter in 
+se<lb break="no" ed="#V" n="58"/>cundo instanti, natura, lapis habet
+<lb ed="#V" n="59"/>esse possibile seipso formaliter, 
+origi<lb break="no" ed="#V" n="60"/>native vero ab actu intellectus divini.
+<lb ed="#V" n="61"/>Quartum dictum, possibilitas in objecto
+<lb ed="#V" n="62"/>nullo modo est prior omnipotentia in
+<lb ed="#V" n="63"/>Deo, (accipiendo omnipotentiam pro
+<lb ed="#V" n="64"/>absoluto,) quia omne absolutum in Deo
+<lb ed="#V" n="65"/>praecedit/ omne esse creaturarum,
+<lb ed="#V" n="66"/>quodcumque sit illud esse, ut supra
+<lb ed="#V" n="67"/>patuit d. 30. et singulariter patet 77 2.
+<lb ed="#V" n="68"/>ado eod
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e916">
+               <lb ed="#V" n="69"/>(h) Si tamen res. Addit Doctor, quod
+<lb ed="#V" n="70"/>si intelligatur res esse possibilis, 
+ante<lb break="no" ed="#V" n="71"/>quam Deus per omnipotentiam producat
+<lb ed="#V" n="72"/>eum, sic est verum, (supple, quod talis
+<lb ed="#V" n="73"/>res praecedit. omnipotentiam ) sed in
+<lb ed="#V" n="74"/>ila possibilitate. res tal's. non est 
+sim<lb break="no" ed="#V" n="75"/>pliciter prior, sed producitur ab 
+intellec<lb break="no" ed="#V" n="76"/>tu divino.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e936">
+               <lb ed="#V" n="77"/>Haec littera debet sane intelligi. Non
+<lb ed="#V" n="78"/>enim res in esse cognito sive possibili
+<lb ed="#V" n="79"/>est prior volitione divina absolute
+<lb ed="#V" n="80"/>sumpta, cum ipsa utsie, sit prior omni
+<lb ed="#V" n="81"/>persona, ut supra patuit dist. 1. g. 2.
+<lb ed="#V" n="82"/>et dist. 10. q. unica. Et persone de 
+ne<lb break="no" ed="#V" n="83"/>cessitate sunt priores omni creatura
+<lb ed="#V" n="84"/>in quoeumque esse, sive simpliciter
+<lb ed="#V" n="85"/>sive secundum qud, ut supra exposui
+<lb ed="#V" n="86"/>d. 10. et clarius ostenditur a Doctore
+<lb ed="#V" n="87"/>in 2. d. 4. q. 1. ergo talis res in esse
+<lb ed="#V" n="88"/>possibili nullo modo est prior omni-
+<pb ed="#V" n="737"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>potentia accepta pro absoluto, scilicet
+<lb ed="#V" n="2"/>pro volitione divina. Debet ergo sic
+<lb ed="#V" n="3"/>intelligi littera, quod res in esse 
+exis<lb break="no" ed="#V" n="4"/>tentite nullo modo sunt priores 
+omni<lb break="no" ed="#V" n="5"/>potentia, (aeciplendo omnipotentiam
+<lb ed="#V" n="6"/>pro ze//e divino nedum ut terminato
+<lb ed="#V" n="7"/>ad essentiam divinam, sed nec ut 
+ter<lb break="no" ed="#V" n="8"/>minato ad creaturam) tale enim velle
+<lb ed="#V" n="9"/>ut sic, necessario est prius creatura in
+<lb ed="#V" n="10"/>esse existentiae, patet, quia voluntas
+<lb ed="#V" n="11"/>divina velle suo voluit omnia 
+quaecum<lb break="no" ed="#V" n="12"/>que voluit ab aeterno, licet non pro
+<lb ed="#V" n="13"/>eterno, ut supra patuit d. 30. et clarius
+<lb ed="#V" n="14"/>infra patebit d. 45. Res vero in esse
+<lb ed="#V" n="15"/>possibili, sive in esse cognito sunt
+<lb ed="#V" n="16"/>priores omnipotentia, (accipiendo 
+om<lb break="no" ed="#V" n="17"/>nipotentiam pro velle divino, qui vult
+<lb ed="#V" n="18"/>lalia possibilia esse pro aliquando in
+<lb ed="#V" n="19"/>esse existentia) quia talis volitio 
+pra<lb break="no" ed="#V" n="20"/>supponit esse cognitum rei volit;». Et
+<lb ed="#V" n="21"/>sie debet intelligi littera Doctoris.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e1014">
+               <lb ed="#V" n="22"/>(1) Quantum autem ad ü
+mpossibilita<lb break="no" ed="#V" n="23"/>tem. Hic Doctor declarat a quo est 
+im<lb break="no" ed="#V" n="24"/>possibilitas rerum, puta a. quo est hoc
+<lb ed="#V" n="25"/>impossibile, scilicet omo est asinus,
+<lb ed="#V" n="26"/>vel hominem esse asinum, erit 
+mani<lb break="no" ed="#V" n="27"/>festum impossibile a quo erit istud 
+im<lb break="no" ed="#V" n="28"/>possibile siveimpossibilitas. Et solutio
+<lb ed="#V" n="29"/>stat in aliquibus dictis :Primo, 
+impossi<lb break="no" ed="#V" n="30"/>bilitas talis non potest esse primo ex
+<lb ed="#V" n="31"/>parle Dei, sicut dicit prima sententia
+<lb ed="#V" n="32"/>Henriei, quia ipsa estimpossibilis 
+prop<lb break="no" ed="#V" n="33"/>ler repugnantiam ejus, ut fiat. Et hoc
+<lb ed="#V" n="34"/>est, quod Doctor multoties utitur ista
+<lb ed="#V" n="35"/>sententia : Quaecumque repugnant, suis
+<lb ed="#V" n="36"/>rationibus repugnant, ut patuit supra d.
+<lb ed="#V" n="37"/>2. q.1. et in 3. d. 1. q. 2. etin quodlib.
+<lb ed="#V" n="38"/>Dieimus enim quod repugnat hominem
+<lb ed="#V" n="39"/>esse asinum, quia ratio formalis asini
+<lb ed="#V" n="40"/>est simpliciter incompossibilis rationi
+<lb ed="#V" n="41"/>formalihominis;irrationale enim 
+repu<lb break="no" ed="#V" n="42"/>gnat rationali, et sic omnia 
+repu<lb break="no" ed="#V" n="43"/>gnantia suis rationibus formalibus 
+re<lb break="no" ed="#V" n="44"/>pugnant si habent rationes formales ;
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>si non habent, sufficit quod suis 
+con<lb break="no" ed="#V" n="46"/>ceptibus sive quidditatibus, sive 
+ratio<lb break="no" ed="#V" n="47"/>nibus qualitereumque sumptis 
+repu<lb break="no" ed="#V" n="48"/>gnent. Secundo dicit Doctor, quod talis
+<lb ed="#V" n="49"/>impossibilitas potest esse originative
+<lb ed="#V" n="50"/>ab intellectu divino, quia a quo sunt
+<lb ed="#V" n="51"/>rationes formales repugnantice, ab eo
+<lb ed="#V" n="52"/>est originative repugnantia ; sed 
+termi<lb break="no" ed="#V" n="53"/>ni incompossibiles et rationes 
+termi<lb break="no" ed="#V" n="54"/>norum sunt ab actu intellectus divini,
+<lb ed="#V" n="55"/>quia omnia objecta secundaria 
+simpli<lb break="no" ed="#V" n="56"/>cia sunt immediate ab actu intellectus
+<lb ed="#V" n="57"/>divini, ut supra patuit. Exemplum,
+<lb ed="#V" n="58"/>dicimus quod homo et asinusad 
+invi<lb break="no" ed="#V" n="59"/>cem repugnant, homo in esse cognito
+<lb ed="#V" n="60"/>est ab actu intellectus divini, et 
+simi<lb break="no" ed="#V" n="61"/>liter asinus, et incompossibilitas 
+fun<lb break="no" ed="#V" n="62"/>datur in illis propter rationes eorum
+<lb ed="#V" n="63"/>formaliter repugnantes et 
+incompossi<lb break="no" ed="#V" n="64"/>biles. Et sic impossibilitas est 
+imme<lb break="no" ed="#V" n="65"/>diate a terminis, qui sunt 
+incompos<lb break="no" ed="#V" n="66"/>sibiles propter incompossibilitatem 
+ra<lb break="no" ed="#V" n="67"/>tionum formalium, remote tamen est
+<lb ed="#V" n="68"/>a Deo, quia termini incompossibiles
+<lb ed="#V" n="69"/>sunt a Deo producti in esse 
+possi<lb break="no" ed="#V" n="70"/>bili.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e1125">
+               <lb ed="#V" n="71"/>(k) Et istam impossibilitatem istorum
+<lb ed="#V" n="72"/>lerminorum sequitur impossibilitas to.
+<lb ed="#V" n="73"/>lius figmenti includentis ea. Figmen-.
+<lb ed="#V" n="74"/>tum enim est compositum ex 
+incom<lb break="no" ed="#V" n="75"/>possibilibus componi, id est, 
+componi<lb break="no" ed="#V" n="76"/>tur ex parlibus sibi invicem 
+incom<lb break="no" ed="#V" n="77"/>possibilibus, et ideo figmentum non
+<lb ed="#V" n="78"/>potest proprie definiri, quia partes 
+defi<lb break="no" ed="#V" n="79"/>nitionis non sunt ad invicem 
+incom<lb break="no" ed="#V" n="80"/>possibiles, ut supra patuit d. 3. g. 5.
+<lb ed="#V" n="81"/>contra Henricum. Sequitur: Et ex ista
+<lb ed="#V" n="82"/>impossibilitate. figmenti in se, et ex 
+in<lb break="no" ed="#V" n="83"/>compossibilitate partium suarum, 
+sequi<lb break="no" ed="#V" n="84"/>tur incompossibililas ejus respectu 
+cu<lb break="no" ed="#V" n="85"/>juscumque agentis, quia enim 
+figmen<lb break="no" ed="#V" n="86"/>tum est impossibile ex partium 
+incom<lb break="no" ed="#V" n="87"/>possibilitate, ideo est impossibile 
+ip<lb break="no" ed="#V" n="88"/>sum posse produci in rerum natura a
+<pb ed="#V" n="738"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>quocumque agente quantumcumque
+<lb ed="#V" n="2"/>perfecto.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e1176">
+               <lb ed="#V" n="3"/>(l) Et er hoc apparet. Hic Doctor de
+<lb ed="#V" n="4"/>clarat quomodo impossibilitas non
+<lb ed="#V" n="5"/>potest esse in aliquo uno simplici, quia
+<lb ed="#V" n="6"/>illa tantum est ex impossibilitate et
+<lb ed="#V" n="7"/>repugnantia plurium ad invicem,
+<lb ed="#V" n="8"/>homo enim non est aliquod 
+impossi<lb break="no" ed="#V" n="9"/>bile. Nec est simile de impossibili et
+<lb ed="#V" n="10"/>necesse esse, quia necesse esse est 
+ali<lb break="no" ed="#V" n="11"/>cujus in se primo, sicut Deitas est ex
+<lb ed="#V" n="12"/>se formaliter necessaria, impossibile
+<lb ed="#V" n="13"/>vero non est alicujus in se. Dato enim
+<lb ed="#V" n="14"/>quocumque termino simplici et 
+incom<lb break="no" ed="#V" n="15"/>plexo, in illo solo nulla invenitur 
+re<lb break="no" ed="#V" n="16"/>pugnantia sive incompossibilitas. Et
+<lb ed="#V" n="17"/>patet ista littera.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e1211">
+               <lb ed="#V" n="18"/>Contra quedam dicta a. Doctore 27
+<lb ed="#V" n="19"/>prosenti quest. arguit Occham. Et 
+pri<lb break="no" ed="#V" n="20"/>mo contra illud, quod intellectus 
+divi<lb break="no" ed="#V" n="21"/>nus producit. omnia in esse intelligibili,
+<lb ed="#V" n="22"/>arguit sic: Primo, quia illud quod per
+<lb ed="#V" n="23"/>aliquem actum nullum esse formaliter
+<lb ed="#V" n="24"/>recipit, sed tantum denominatur 
+deno<lb break="no" ed="#V" n="25"/>minatione extrinseca non producitur
+<lb ed="#V" n="26"/>per talem actum, sed creatura per hoc,
+<lb ed="#V" n="27"/>quod intelligitur a Deo nihil formaliter
+<lb ed="#V" n="28"/>recipit, sed tantum denominatur 
+qua<lb break="no" ed="#V" n="29"/>dam extrinseca denominatione, sicut
+<lb ed="#V" n="30"/>objeetum intellectus creati non 
+produ<lb break="no" ed="#V" n="31"/>citur per haec quod intelligitur, sed 
+tan<lb break="no" ed="#V" n="32"/>ium denominatur quadam extirinseca
+<lb ed="#V" n="33"/>denominatione; ergo creatura in tali
+<lb ed="#V" n="34"/>esse intelligibili non producitur.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e1250">
+               <lb ed="#V" n="35"/>Secundo: Aut creatura producitur
+<lb ed="#V" n="36"/>in esse intelligibili praecise, quia 
+intel<lb break="no" ed="#V" n="37"/>ligitur, aut quia nihil prius fuit, aut
+<lb ed="#V" n="38"/>quia prius non erat intelligibile. Non
+<lb ed="#V" n="39"/>propter primum, quia tunc essentia
+<lb ed="#V" n="40"/>divina vere produceretur in esse 
+intel<lb break="no" ed="#V" n="41"/>ligibili, cum vere intelligatur, et tunc
+<lb ed="#V" n="42"/>quilibet intelligens Deum produceret
+<lb ed="#V" n="43"/>ipsum in esse intelligibili. Nec propter
+<lb ed="#V" n="44"/>secundum, quia etiam quando intelli-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>gitur creatura, tunc nihil est, quamvis
+<lb ed="#V" n="46"/>sil intellecta. Nec proptertertium, quia
+<lb ed="#V" n="47"/>essentia divina ante intellectionem
+<lb ed="#V" n="48"/>suam non fuit intelligibilis.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e1285">
+               <lb ed="#V" n="49"/>Tertio, secundum istum nunquam
+<lb ed="#V" n="50"/>producitur aliquid in esse intelligibili,
+<lb ed="#V" n="51"/>nisi quia producit aliquid in esse reale ;
+<lb ed="#V" n="52"/>sed secundum istos, creatura quando
+<lb ed="#V" n="53"/>produeitur per intellectum divinum
+<lb ed="#V" n="54"/>non producitur nisi in esse 
+intelligi<lb break="no" ed="#V" n="55"/>bili ; ergo aliquid aliud producitur in
+<lb ed="#V" n="56"/>esse reale, sed nihil potest dari, sicut
+<lb ed="#V" n="57"/>patet inductive.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e1307">
+               <lb ed="#V" n="58"/>Secundo principaliter arguit contra
+<lb ed="#V" n="59"/>aliud dictum, scilicet quod creatura in
+<lb ed="#V" n="60"/>primo instanti nature producitur in esse
+<lb ed="#V" n="61"/>intelligibili, et in secundo instanti habet
+<lb ed="#V" n="62"/>esse possibile, arguit sic: Accipio 
+pri<lb break="no" ed="#V" n="63"/>mum instans nature, in quo 
+intellec<lb break="no" ed="#V" n="64"/>tus priecedit in esse intelligibili 
+crea<lb break="no" ed="#V" n="65"/>turae, et quaero, aut in illo instanti
+<lb ed="#V" n="66"/>creatura est possibilis, aut non est 
+pos<lb break="no" ed="#V" n="67"/>sibilis? Si est possibilis; ergo est 
+pos<lb break="no" ed="#V" n="68"/>sibilis antequam producatur in esse 
+in<lb break="no" ed="#V" n="69"/>telligibili. Si non est possibilis; ergo
+<lb ed="#V" n="70"/>sibi repugnat esse.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e1338">
+               <lb ed="#V" n="71"/>Tertio principaliter arguit contra
+<lb ed="#V" n="72"/>illud dictum, scilicet quod s/atus est in
+<lb ed="#V" n="73"/>illo processu ad impossibilitatem 
+respec<lb break="no" ed="#V" n="74"/>tu cujustibet agentis sine respectu corres:
+<lb ed="#V" n="75"/>pondente in. Deo, arguit sic contra : 
+Si<lb break="no" ed="#V" n="76"/>eut in omni respectu creature in esse
+<lb ed="#V" n="77"/>possibili ad Deum eorrespondet aliquis
+<lb ed="#V" n="78"/>respectus in Deo ad creaturam in esse
+<lb ed="#V" n="79"/>possibili, ita ad negationem respectus
+<lb ed="#V" n="80"/>correspondebit negatio respectus in
+<lb ed="#V" n="81"/>Deo ad impossibile; ergo non est ibi
+<lb ed="#V" n="82"/>status. Si dicatur quod respectui 
+erea<lb break="no" ed="#V" n="83"/>turc in esse possibili ad Deum 
+corres<lb break="no" ed="#V" n="84"/>pondet respectus in Deo, contra, aut
+<lb ed="#V" n="85"/>ille respectus creature in esse possibili
+<lb ed="#V" n="86"/>est realis, aut respectus rationis? Non
+<lb ed="#V" n="87"/>realis, quia non habet fundamentum
+<lb ed="#V" n="88"/>reale; ergo est respectus rationis. qui
+<pb ed="#V" n="739"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>fit per actum intellectus comparantis
+<lb ed="#V" n="2"/>creaturam ad Deum secundum istum ;
+<lb ed="#V" n="3"/>sed ita potest intellectus comparare
+<lb ed="#V" n="4"/>Deum ad creaturam, sicut e 
+conver<lb break="no" ed="#V" n="5"/>so, ergo ita potest esse respectus in
+<lb ed="#V" n="6"/>Deo ad creaturam, sicut e converso ;
+<lb ed="#V" n="7"/>ergo. H«c Oecham ad litteram.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e1400">
+               <lb ed="#V" n="8"/>Respondeo ad primum 
+argumen<lb break="no" ed="#V" n="9"/>tum, praemittendo aliqua. Primo, quod
+<lb ed="#V" n="10"/>res potest comparari, aut ad 
+intellec<lb break="no" ed="#V" n="11"/>tum divinum, aut ad intellectum 
+crea<lb break="no" ed="#V" n="12"/>tum. Secundo modo, forte nullus 
+intel<lb break="no" ed="#V" n="13"/>lectus creatus potest aliquid producere
+<lb ed="#V" n="14"/>secundum primum esse illius (loquendo
+<lb ed="#V" n="15"/>de primo esse simpliciter, quod 
+prace<lb break="no" ed="#V" n="16"/>dit verum esse reale,) et hoc supra 
+pa<lb break="no" ed="#V" n="17"/>tuit d. 36. non enim aliquis intellectus
+<lb ed="#V" n="18"/>creatus potest producere lapidem 
+se<lb break="no" ed="#V" n="19"/>eundum suum esse simpliciter et 
+pri<lb break="no" ed="#V" n="20"/>mum, quia illud fuit ab cterno. Sed
+<lb ed="#V" n="21"/>posito quod lapis nullum esse ab 
+ceter<lb break="no" ed="#V" n="22"/>no habuerit, an intellectus creatus 
+pos<lb break="no" ed="#V" n="23"/>set illum producere in esse intelligibili,
+<lb ed="#V" n="24"/>et per consequens in esse possibili ?
+<lb ed="#V" n="25"/>hoc pertraetare non est praesentis 
+ma<lb break="no" ed="#V" n="26"/>teriae. Primo modo, scilicet 
+comparan<lb break="no" ed="#V" n="27"/>do ad intellectum divinum, intellectus
+<lb ed="#V" n="28"/>divinus actu suo, cum sit formaliter
+<lb ed="#V" n="29"/>infinitus, |potest producere omnes 
+ter<lb break="no" ed="#V" n="30"/>minos in esse secundum qu?d, sive in
+<lb ed="#V" n="31"/>esse intelligibili.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e1455">
+               <lb ed="#V" n="32"/>Secundo praemitto, quod intellectus
+<lb ed="#V" n="33"/>divinus, sive actus intellectus divini in
+<lb ed="#V" n="34"/>primo instanti est tantum ens 
+absolu<lb break="no" ed="#V" n="35"/>tum, et formaliter infinitum, et in illo
+<lb ed="#V" n="36"/>instanti nihil producit. In secundo 
+in<lb break="no" ed="#V" n="37"/>stanti producit lapidem in esse 
+intelli<lb break="no" ed="#V" n="38"/>gibili, ita quod in illo instanti lapis
+<lb ed="#V" n="39"/>habet esse intelligibile, non ex natura
+<lb ed="#V" n="40"/>rei, sed per illum actum, ut supra 
+ex<lb break="no" ed="#V" n="41"/>posui d. 35. 36. 43. In tertio instanti
+<lb ed="#V" n="42"/>intellectus divinus illo actu quo 
+pro<lb break="no" ed="#V" n="43"/>ducit lapidem in tali esse, actu 
+intelli<lb break="no" ed="#V" n="44"/>eit illum, non virtute lapidis intelli-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>gibilis, sed virtute essentiae divinae,
+<lb ed="#V" n="46"/>qua in illo instanti suo modo movet
+<lb ed="#V" n="47"/>intellectum suum ad intellectionem
+<lb ed="#V" n="48"/>lapidis, ut potest. patere ex dictis in 2.
+<lb ed="#V" n="49"/>d. 1. q. 1.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e1499">
+               <lb ed="#V" n="50"/>Tertio, praemitto quod aliud est 
+di<lb break="no" ed="#V" n="51"/>cere aliquid esse actu cognitum, et.
+<lb ed="#V" n="52"/>aliud est dicere esse cognoscibile sive.
+<lb ed="#V" n="53"/>esse objectum cognoscibile, quia 
+pri<lb break="no" ed="#V" n="54"/>mo modo, esse cognitum est posterius,
+<lb ed="#V" n="55"/>non tantum cognitione in se 
+conside<lb break="no" ed="#V" n="56"/>rata, sed etiam cognitione ut ad 
+objec<lb break="no" ed="#V" n="57"/>tum eognitum terminata ; prius enim
+<lb ed="#V" n="58"/>cognitio terminatur ad objectum, et
+<lb ed="#V" n="59"/>post objectum dicitur habere esse 
+co<lb break="no" ed="#V" n="60"/>genitum, et sic esse cognitum, sive 
+ob<lb break="no" ed="#V" n="61"/>jeetum  denominatar cognitum 
+deno<lb break="no" ed="#V" n="62"/>minatione extrinseca, quia cognitione
+<lb ed="#V" n="63"/>non existente in objecto coguito, seda
+<lb ed="#V" n="64"/>cognitione existente in potentia, 
+cog<lb break="no" ed="#V" n="65"/>nitiva, et hoc patet a Doctore 2» 4. 4.
+<lb ed="#V" n="66"/>1. q. 4. sed secundo modo, scilicet esse
+<lb ed="#V" n="67"/>cognoseibile non est posterius 
+cogni<lb break="no" ed="#V" n="68"/>tione, saltem quoad terminationeni
+<lb ed="#V" n="69"/>ejus. Aliquando enim est prius 
+cogni<lb break="no" ed="#V" n="70"/>tione in se, ut in creaturis, quando 
+ob<lb break="no" ed="#V" n="71"/>jectum est partialis causa cognitionis,
+<lb ed="#V" n="72"/>tune.enim praecedit objectum in 
+ratio<lb break="no" ed="#V" n="73"/>ne intelligibilis, ut supra patuit d. 3.
+<lb ed="#V" n="74"/>q.3.et q. T. et alibi sepe a Doctore.
+<lb ed="#V" n="75"/>Aliquando etiam praecedit cognitionem
+<lb ed="#V" n="76"/>inse in ratione termini, ut cum 
+co<lb break="no" ed="#V" n="77"/>enitio nova causatur ab aliquo 
+virtua<lb break="no" ed="#V" n="78"/>liter continente tale objectum 
+termi<lb break="no" ed="#V" n="79"/>nativum, de quo supra 4. 3. q.3. et T.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e1567">
+               <lb ed="#V" n="80"/>In proposito tamen dico duo : 
+Pri<lb break="no" ed="#V" n="81"/>mum, quod esse cognitum lapidis est
+<lb ed="#V" n="82"/>simpliciter posterius actu cognoscendi
+<lb ed="#V" n="83"/>intellectus divini, et in se considerato
+<lb ed="#V" n="84"/>elut terminato ad ipsum lapidem, et
+<lb ed="#V" n="85"/>sic lapis denominatione tantum 
+extrin<lb break="no" ed="#V" n="86"/>seca denominatur cognitus.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e1585">
+               <lb ed="#V" n="87"/>Secundum esse cognoscibile lapidis,
+<lb ed="#V" n="88"/>et si sit simpliciter posterius actu in-
+<pb ed="#V" n="740"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tellectas divini in se considerati, et ut
+<lb ed="#V" n="2"/>est ratio formalis producendi lapidem
+<lb ed="#V" n="3"/>in tali esse intelligibili, est tamen
+<lb ed="#V" n="4"/>prius actu intelligendi intellectus 
+di<lb break="no" ed="#V" n="5"/>vini, ut terminato ad ipsum, et ut est
+<lb ed="#V" n="6"/>id quo intellectus divinus actu 
+intelli<lb break="no" ed="#V" n="7"/>eit lapidem, et sic esse intelligibile 
+la<lb break="no" ed="#V" n="8"/>pidis non dicitur tale denominatione
+<lb ed="#V" n="9"/>exlrinseca, sed magis denominatione
+<lb ed="#V" n="10"/>intrinseca ; ante enim illud esse 
+intelli<lb break="no" ed="#V" n="11"/>gibile lapis nullum penitus esse 
+habe<lb break="no" ed="#V" n="12"/>bat, sed per actum intellectus divini
+<lb ed="#V" n="13"/>primo accipit esse intelligibile, ita quod
+<lb ed="#V" n="14"/>lale esse competit formaliter lapidi,
+<lb ed="#V" n="15"/>sed originative ab actu intellectus 
+di<lb break="no" ed="#V" n="16"/>vini. Ex his patet responsio ad primum
+<lb ed="#V" n="17"/>argumentum, false enim imaginantur,
+<lb ed="#V" n="18"/>quod esse intelligibile lapidis sit 
+tan<lb break="no" ed="#V" n="19"/>tum denominatione extrinseca, et per
+<lb ed="#V" n="20"/>hoc solum, quia intelligitur. Si etiam
+<lb ed="#V" n="21"/>volumus tenere quod lapis produeitur
+<lb ed="#V" n="22"/>in esse intelligibili per haec quod actu
+<lb ed="#V" n="23"/>intelligitur ab intellectu divino, adhuc
+<lb ed="#V" n="24"/>sequitur quod esse intelligibile lapidis
+<lb ed="#V" n="25"/>non sit tantam denominatione 
+extrin<lb break="no" ed="#V" n="26"/>seca, sed denominatione intrinseca,
+<lb ed="#V" n="27"/>originative vero ab actu illo. Nec est
+<lb ed="#V" n="28"/>simile de actu intelligendi intellectus
+<lb ed="#V" n="29"/>creati, quia intellectus creatus non
+<lb ed="#V" n="30"/>producit per actum suum esse 
+intelli<lb break="no" ed="#V" n="31"/>gibile objecti, ut supra patuit.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e1663">
+               <lb ed="#V" n="32"/>Ad secundum cum dicitur: Aut 
+pro<lb break="no" ed="#V" n="33"/>ducitur in esse intelligibili praecise,
+<lb ed="#V" n="34"/>quia intelligitur, aut quia prius nihil
+<lb ed="#V" n="35"/>fuit, aut quia prius non erat 
+intelligi<lb break="no" ed="#V" n="36"/>bile. Dico quod possunt concedi omnia
+<lb ed="#V" n="37"/>ista. membra. Et cum arguit contra
+<lb ed="#V" n="38"/>primum de essentia divina, dico quod
+<lb ed="#V" n="39"/>non est simile de essentia et creatura,
+<lb ed="#V" n="40"/>quia essentia est simpliciter prior 
+om<lb break="no" ed="#V" n="41"/>ni perfectione etiam divina, habens
+<lb ed="#V" n="42"/>verum esse existentia, ut ostendit 
+Doc<lb break="no" ed="#V" n="43"/>ctor in quodlib. quest. prima. et supra
+<lb ed="#V" n="44"/>patuit dis. 8. quaest. 3. et ideo praece-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>dit omnem  intellectionem in ratione
+<lb ed="#V" n="46"/>objecti intelligibilis; est enim 
+objec<lb break="no" ed="#V" n="47"/>tum intelligibile ex natura rei, 
+utsu<lb break="no" ed="#V" n="48"/>pra patuit. Creatura autem, quia ante
+<lb ed="#V" n="49"/>actum intellectus divini nullum 
+pe<lb break="no" ed="#V" n="50"/>nitus esse habet, nec simpliciter, nec
+<lb ed="#V" n="51"/>secundum quid, ideo per actum 
+intel<lb break="no" ed="#V" n="52"/>lectus divini producitur in esse intelli.
+<lb ed="#V" n="53"/>gibili, et potest concedi quod 
+produ<lb break="no" ed="#V" n="54"/>citur dum intelligitur, quia ille actus
+<lb ed="#V" n="55"/>est formaliter infinitus, et ideo est ratio
+<lb ed="#V" n="56"/>formalis producendi in esse 
+intelligi<lb break="no" ed="#V" n="57"/>bili, dum actu intelligit illud, quod ex
+<lb ed="#V" n="58"/>natura rei nullo modo potest esse 
+ob<lb break="no" ed="#V" n="59"/>jectum |. intellectus divini, et quod
+<lb ed="#V" n="60"/>nullo modo praecedit ipsum actum.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e1732">
+               <lb ed="#V" n="61"/>Potest etiam concedi quod illo actu
+<lb ed="#V" n="62"/>intelligendi prius creatura producitur
+<lb ed="#V" n="63"/>in esse intelligibili quam actus ille 
+ter<lb break="no" ed="#V" n="64"/>minetur ad ipsam, ita quod in aliquo
+<lb ed="#V" n="65"/>signo priori producitur in esse 
+intelli<lb break="no" ed="#V" n="66"/>gibili, et in alio signo posteriori 
+pro<lb break="no" ed="#V" n="67"/>ducitur in esse cognito, et in illo signo
+<lb ed="#V" n="68"/>actus intelligendi terminatur ad esse
+<lb ed="#V" n="69"/>intelligibile, ut supra exposui. Datur
+<lb ed="#V" n="70"/>etiam secundum membrum, scilicet
+<lb ed="#V" n="71"/>quod dum intelligitur, producitur in
+<lb ed="#V" n="72"/>esse intelligibili, quia prius nihil fuit.
+<lb ed="#V" n="73"/>Et potest dici primo quod actu 
+intel<lb break="no" ed="#V" n="74"/>lectus divini prius producitur in esse
+<lb ed="#V" n="75"/>intelligibili, et post intelligitur. Potest
+<lb ed="#V" n="76"/>dici secundo, quod tunc producitur,
+<lb ed="#V" n="77"/>quando actu intelligitur, et ante esse
+<lb ed="#V" n="78"/>cognitum nihil fuit, ut supra 
+exposi<lb break="no" ed="#V" n="79"/>tum est. Et cum dicit quod tunc 
+in<lb break="no" ed="#V" n="80"/>telligens Deum produceret ipsum in
+<lb ed="#V" n="81"/>esse intelligibili, patet responsio quod
+<lb ed="#V" n="82"/>non sequitur, quia Deus ut prior 
+om<lb break="no" ed="#V" n="83"/>ni actu intelligendi, est objectum ex
+<lb ed="#V" n="84"/>natura rei vere intelligibile, et tale
+<lb ed="#V" n="85"/>per nullum acetum intelligendi 
+pro<lb break="no" ed="#V" n="86"/>ducitur in esse intelligibili; nam 
+in<lb break="no" ed="#V" n="87"/>telligibilitas primi entis convenit tali
+<lb ed="#V" n="88"/>enti, etiam, per possibile vel impossi-
+<pb ed="#V" n="741"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>bile, circumscripto omni actu 
+intelli<lb break="no" ed="#V" n="2"/>gendi. Et sic patet quomodo non est
+<lb ed="#V" n="3"/>simile de esse intelligibili creature et
+<lb ed="#V" n="4"/>ipsius Dei.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e1808">
+               <lb ed="#V" n="5"/>Tertium etiam membrum potest
+<lb ed="#V" n="6"/>concedi dupliciter. Primo, quia 
+crea<lb break="no" ed="#V" n="7"/>tura ante actum intelligendi divinum,
+<lb ed="#V" n="8"/>nullum esse intelligibile habet, et sic
+<lb ed="#V" n="9"/>per illum actum producitur primo in
+<lb ed="#V" n="10"/>tali esse, et post intelligitur. Secundo
+<lb ed="#V" n="11"/>quod ante esse cognitum creaturae esse
+<lb ed="#V" n="12"/>intelligibile ipsius non fuit, sed dum
+<lb ed="#V" n="13"/>actu intelligitur actu intellectus divini,
+<lb ed="#V" n="14"/>producitur in esse intelligibili. Et cum
+<lb ed="#V" n="15"/>dicit, quod essentia ante 
+intellectio<lb break="no" ed="#V" n="16"/>nem suam non fuit intelligibilis, patet
+<lb ed="#V" n="17"/>hoc esse falsum, quia esse intelligibile
+<lb ed="#V" n="18"/>cum consequitur entitatem, convenit
+<lb ed="#V" n="19"/>essentiae divina, etiam circumsceripto
+<lb ed="#V" n="20"/>omni actu intelligendi, ut patet 
+ex<lb break="no" ed="#V" n="21"/>presse a Doctore in quodlib. q. 1. et alibi
+<lb ed="#V" n="22"/>siepe.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e1850">
+               <lb ed="#V" n="23"/>Ad tertium potest concedi quod non
+<lb ed="#V" n="24"/>producitur aliquid in vero esse 
+intelli<lb break="no" ed="#V" n="25"/>gibili, nisi aliquid producatur in esse
+<lb ed="#V" n="26"/>reali, hoc potest esse multipliciter
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="27"/>verum. Primo, quia productum in
+<lb ed="#V" n="28"/>vero esse intelligibili concomitatur
+<lb ed="#V" n="29"/>cum repugnantia ad verum esse reale.
+<lb ed="#V" n="30"/>Secundo, quia esse intelligibile 
+produ<lb break="no" ed="#V" n="31"/>ctum praesupponit acetum intelligendi
+<lb ed="#V" n="32"/>vere realem, quia nihil potest produci
+<lb ed="#V" n="33"/>in tali esse, nisi simul producatur vel
+<lb ed="#V" n="34"/>quasi producatur actus intelligendi
+<lb ed="#V" n="35"/>realis.
+</p>
+            <p xml:id="mm30o9-d1e1379-d1e1883">
+               <lb ed="#V" n="36"/>Ad aliud de esse possibili in secundo
+<lb ed="#V" n="37"/>instanti, dico quod antequam 
+creatu<lb break="no" ed="#V" n="38"/>ra produceretur ab actu intellectus
+<lb ed="#V" n="39"/>divini in esse intelligibili, non erat
+<lb ed="#V" n="40"/>possibilis. Et cum infertur, ergo 
+im<lb break="no" ed="#V" n="41"/>possibilis, negatur consequentia, quia
+<lb ed="#V" n="42"/>esse impossibile dicit, repugnantiam
+<lb ed="#V" n="43"/>sive incompossibilitatem terminorum,
+<lb ed="#V" n="44"/>ut supra patuit, quia incompossibilitas
+<lb ed="#V" n="45"/>praesupponit esse possibile termino:
+<lb ed="#V" n="46"/>rum simplicium; in illo ergo instanti
+<lb ed="#V" n="47"/>creatura nullum esse habuit, nec 
+in<lb break="no" ed="#V" n="48"/>telligibile nec possibile. Ad ultimum
+<lb ed="#V" n="49"/>patet responsio ex supra expositis. Et
+<lb ed="#V" n="50"/>sic patet quomodo rationes Occham
+<lb ed="#V" n="51"/>nihil contra Doctorem concludunt.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

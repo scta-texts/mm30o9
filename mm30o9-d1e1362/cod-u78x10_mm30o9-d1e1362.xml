@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#per-FLBca3">Franciscus Lychetus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2024-08-23">August 23, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 10</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-08-23" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="717"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="mm30o9-d1e1362"><!-- lycht-d42q1-p2 -->
+            <head xml:id="mm30o9-d1e1362-Hd1e101">Quaestio 1</head>
+            <p xml:id="mm30o9-d1e1362-d1e103">
+               <lb ed="#V" n="76" type="fixed=717"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1362-d1e108">
+               <lb ed="#V" n="77"/>(a) Hic responderi posset. Hic Doctor
+<lb ed="#V" n="78"/>distinguit quod ex quo omnipotentia
+<lb ed="#V" n="79"/>respicit omne possibile, ut supra 
+ex<lb break="no" ed="#V" n="80"/>positum est dist. 20. hoc potest 
+dupli<lb break="no" ed="#V" n="81"/>citer intelligi, scilicet vel quod 
+res<lb break="no" ed="#V" n="82"/>piciat omne possibile mediate, id est,
+<lb ed="#V" n="83"/>quod possit in omnem effectum 
+cujus<lb break="no" ed="#V" n="84"/>cumque caus: secundi, ipsa causa 
+se<lb break="no" ed="#V" n="85"/>eunda concurrente. Et hoc modo si 
+na<lb break="no" ed="#V" n="86"/>turali ratione probari potest esse ali-
+<pb ed="#V" n="718"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>quod primum effectivum, sicut supra
+<lb ed="#V" n="2"/>probatum est dist. 2. quest. 1. etiam
+<lb ed="#V" n="3"/>naturali ratione potest probari ipsum
+<lb ed="#V" n="4"/>esse omnipotens, loquendo de 
+omni<lb break="no" ed="#V" n="5"/>potentia mediata. Alio modo potest
+<lb ed="#V" n="6"/>accipi omnipotentia immediata, sic
+<lb ed="#V" n="7"/>intelligendo, quod principium 
+elfec<lb break="no" ed="#V" n="8"/>livum potest immediate in omnem 
+elf<lb break="no" ed="#V" n="9"/>fectum, et in omne possibile, etiam
+<lb ed="#V" n="10"/>nulia secunda causa concurrente, et
+<lb ed="#V" n="11"/>hoc tantum est ereditam, et hoc est
+<lb ed="#V" n="12"/>quod intendit Doctor in ista littera,
+<lb ed="#V" n="13"/>quam tamen aliqualiter declaro, eum
+<lb ed="#V" n="14"/>dicit : A/io modo accipitur omnipotens
+<lb ed="#V" n="15"/>proprie Theologice, etc.
+</p>
+            <p xml:id="mm30o9-d1e1362-d1e169">
+               <lb ed="#V" n="16"/>In ista littera nota quod dicit Doctor,
+<lb ed="#V" n="17"/>quod omnipotentia non .respieit 
+ali<lb break="no" ed="#V" n="18"/>quod ex se necessarium, quia in hoc
+<lb ed="#V" n="19"/>videtur sibi contradicere, quia supra
+<lb ed="#V" n="20"/>dist. 8. quaest. ult. (sustinendo 
+opinio<lb break="no" ed="#V" n="21"/>nem Philosophorum; probat quomodo
+<lb ed="#V" n="22"/>primum elfectivum sit vere causa 
+ali<lb break="no" ed="#V" n="23"/>cujus entis ex se necesse esse, et per
+<lb ed="#V" n="24"/>consequens videtur quod omnipotentia
+<lb ed="#V" n="25"/>primi effectivi respicit illud.
+</p>
+            <p xml:id="mm30o9-d1e1362-d1e193">
+               <lb ed="#V" n="26"/>Respondeo primo quod Doctor 
+repu<lb break="no" ed="#V" n="27"/>tat omnino pro impossibili et pro 
+con<lb break="no" ed="#V" n="28"/>tradictoria includente, quod aliquod
+<lb ed="#V" n="29"/>ex se necesse esse sit ab alio causabile,
+<lb ed="#V" n="30"/>est enim implicatio contradictionis 
+di<lb break="no" ed="#V" n="31"/>cere aliquam causam causare aliquid
+<lb ed="#V" n="32"/>de necessitate, quia omne causabile
+<lb ed="#V" n="33"/>est mere possibile, et de hoc vide 
+su<lb break="no" ed="#V" n="34"/>pra disf. 8. quest. ult. et an 2. dist. 4.
+<lb ed="#V" n="35"/>quast. 3. et ideo dicit hoc, quod 
+om<lb break="no" ed="#V" n="36"/>nipotentia non respicit aliquod ex se
+<lb ed="#V" n="37"/>necesse esse, quia illud nullo modo
+<lb ed="#V" n="38"/>est causabile.
+</p>
+            <p xml:id="mm30o9-d1e1362-d1e225">
+               <lb ed="#V" n="39"/>Dico secundo, quod (sustinendo
+<lb ed="#V" n="40"/>viam Philosophi) Doctor haberet 
+di<lb break="no" ed="#V" n="41"/>cere quod etiam aliquod necesse esse,
+<lb ed="#V" n="42"/>quod vere est causabile, esset objectum
+<lb ed="#V" n="43"/>omnipotentiae, nisi velit dicere quod
+<lb ed="#V" n="44"/>obiectum omnipotentia esset tantum
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>ens possibile, et tunc oportet dicere
+<lb ed="#V" n="46"/>quod non omne ens aliud a primo
+<lb ed="#V" n="47"/>effectivo, esset objectum omnipotentia
+<lb ed="#V" n="48"/>primi effectivi, quia secunda 
+Intelli<lb break="no" ed="#V" n="49"/>gentia et celum, quia sunt ex se 
+ne<lb break="no" ed="#V" n="50"/>cesse esse formaliter, non essent 
+ob<lb break="no" ed="#V" n="51"/>jeeta omnipotentite. Sed quidquid sit,
+<lb ed="#V" n="52"/>prima responsio est magis ad mentem
+<lb ed="#V" n="53"/>Doctoris, quia expresse tenet quod est
+<lb ed="#V" n="54"/>simpliciter in possibile aliquod necesse
+<lb ed="#V" n="55"/>esse, esse ab alio causabile. Sequitur :
+<lb ed="#V" n="56"/>Quia licet primum efficiens habeat in se
+<lb ed="#V" n="57"/>potentiam, etc. Hic intendit probare
+<lb ed="#V" n="58"/>Doctor quod talis omnipotentia non
+<lb ed="#V" n="59"/>potest naturali ratione demonstrari,
+<lb ed="#V" n="60"/>et excludit objectionem, quia non 
+vi<lb break="no" ed="#V" n="61"/>detur sequi quod posito quod primum
+<lb ed="#V" n="62"/>effectivum sit eminentius secundum
+<lb ed="#V" n="63"/>causalitatem omni causa secunda, et
+<lb ed="#V" n="64"/>posito etiam quod habeat in se 
+emi<lb break="no" ed="#V" n="65"/>nenter potentiam effectivam 
+cujus<lb break="no" ed="#V" n="66"/>cumque alterius cause, ut supra 
+de<lb break="no" ed="#V" n="67"/>ductum est dist. 2. quest. 1. dist. 8.
+<lb ed="#V" n="68"/>quest. ult. adhuc non sequitur quod
+<lb ed="#V" n="69"/>ut sic, possit immediate in omnem 
+ef<lb break="no" ed="#V" n="70"/>fectum, quia non in effectum 
+imper<lb break="no" ed="#V" n="71"/>fectum, et ideo secunda causa 
+requi<lb break="no" ed="#V" n="72"/>runtur, non propter perfectionem 
+ad<lb break="no" ed="#V" n="73"/>dendam prime causa, eum causalitas
+<lb ed="#V" n="74"/>prima causae sit perfectissima, sed
+<lb ed="#V" n="75"/>magisrequiruntur propter 
+imperfectio<lb break="no" ed="#V" n="76"/>nem addendam, quia effectus 
+imperfe<lb break="no" ed="#V" n="77"/>ctus non potest esse immediate causa
+<lb ed="#V" n="78"/>perfectissima, cum illa agat secundum
+<lb ed="#V" n="79"/>ultimum potentiae suc secundum totam
+<lb ed="#V" n="80"/>virtulem (sustinendo opinionem 
+Philo<lb break="no" ed="#V" n="81"/>sophorum quod tantum agat de 
+neces<lb break="no" ed="#V" n="82"/>sitate nature.) Et exemplum positum
+<lb ed="#V" n="83"/>deSole est satisclarum,sitamen verum
+<lb ed="#V" n="84"/>sitquod Soleminentercontineat 
+causa<lb break="no" ed="#V" n="85"/>litatem bovis et asini, quod est dubium,
+<lb ed="#V" n="86"/>ut patet ex dictis a Doctore 7» 2. dist.
+<lb ed="#V" n="87"/>18. sed hoc. non est praesentis 
+specu<lb break="no" ed="#V" n="88"/>lationis. Caetera patent.
+</p>
+            <p xml:id="mm30o9-d1e1362-d1e338">
+               <pb ed="#V" n="719"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>(b) Ad secundum dico. Respondet
+<lb ed="#V" n="2"/>Doctor primo negando consequentiam,
+<lb ed="#V" n="3"/>quia non sunt idem infinita potentia
+<lb ed="#V" n="4"/>et omnipotentia proprie dicta, quia
+<lb ed="#V" n="5"/>non valet, infinita potentia continet
+<lb ed="#V" n="6"/>eminenter causalitatem omnis causae
+<lb ed="#V" n="7"/>secunda; ergo immediate potest in
+<lb ed="#V" n="8"/>omnem effectum sine secundis causis,
+<lb ed="#V" n="9"/>ut supra patuit de Sole, etc. Secundo
+<lb ed="#V" n="10"/>dicit quod licet non possit cogitari
+<lb ed="#V" n="11"/>major potentia infinita intensive, non
+<lb ed="#V" n="12"/>tamen seqaitur quin possit cogitari
+<lb ed="#V" n="13"/>major extensive, id est, ad plura 
+co<lb break="no" ed="#V" n="14"/>gitari quam infinita potentia. Tertio,
+<lb ed="#V" n="15"/>dato etiam quod omnipotentia esset
+<lb ed="#V" n="16"/>major infinita potentia, propter hoc
+<lb ed="#V" n="17"/>tamen non oportet quod naturali 
+ra<lb break="no" ed="#V" n="18"/>lione possit hoc sciri a nobis potentiam
+<lb ed="#V" n="19"/>sic intellectam — esse omnipotentiam,
+<lb ed="#V" n="20"/>ete.
+</p>
+            <p xml:id="mm30o9-d1e1362-d1e388">
+               <lb ed="#V" n="21"/>(e) Ideo dico aliter. HicDoctor dat
+<lb ed="#V" n="22"/>propriam responsionem, dicens quod
+<lb ed="#V" n="23"/>etsi quicumque paralogismus deducens
+<lb ed="#V" n="24"/>apparenter ad impossibile ex. praemissa
+<lb ed="#V" n="25"/>s?gnificante Deum esse omnipotentem,
+<lb ed="#V" n="26"/>(id est, in quo una praemissarum sit
+<lb ed="#V" n="27"/>ista: Dews est omnipotens, et ex illa
+<lb ed="#V" n="28"/>apparenler deducat ad impossibile,
+<lb ed="#V" n="29"/>quia vere deducere ex illa ad 
+impos<lb break="no" ed="#V" n="30"/>sibile, est simpliciter impossibile)
+<lb ed="#V" n="31"/>posset solvi per intellectum et rationem
+<lb ed="#V" n="32"/>naturalem, sive peccet in materia sive
+<lb ed="#V" n="33"/>in forma, non tamen posset solvi ab
+<lb ed="#V" n="34"/>omni intellectu, sed tantum ab illo
+<lb ed="#V" n="35"/>intellectu qui novit inferens non esse
+<lb ed="#V" n="36"/>impossibile, vel illarum non esse 
+im<lb break="no" ed="#V" n="37"/>possibile. Sequitur in littera : Et 
+intel<lb break="no" ed="#V" n="38"/>leclus posset scire quemcumque talem
+<lb ed="#V" n="39"/>paralogismum divisim factum esse 
+solu<lb break="no" ed="#V" n="40"/>bilem, id est, si opposita syllogizentur
+<lb ed="#V" n="41"/>ex eadem propositione sive praemissa
+<lb ed="#V" n="42"/>opposita inferantur, intellectus bene
+<lb ed="#V" n="43"/>novit, quod unus syllogismus est 
+so<lb break="no" ed="#V" n="44"/>phisticus; sed non sequitur quod na-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>turaliter sciat quis illorum, quia 
+po<lb break="no" ed="#V" n="46"/>test dubitare quod illud quod pro 
+im<lb break="no" ed="#V" n="47"/>possibili infertur, sit oppositum illi
+<lb ed="#V" n="48"/>propositioni vel praemissie, ex qua 
+vi<lb break="no" ed="#V" n="49"/>detur inferri, scilicet ex illa: Deus est
+<lb ed="#V" n="50"/>omnipolens, quia sepe Sophiste in
+<lb ed="#V" n="51"/>Syllogismo falsigrapho ad impossibile
+<lb ed="#V" n="52"/>inferunt aliquod impossibile ex una
+<lb ed="#V" n="53"/>propositione, ex qua nullo modo 
+se<lb break="no" ed="#V" n="54"/>quitur. Similiter potest dubitare, ne
+<lb ed="#V" n="55"/>aliud manifestius impossibile 
+infera<lb break="no" ed="#V" n="56"/>tur ex tali praemissa, scilicet. Deus est
+<lb ed="#V" n="57"/>ommnipolens, quod illatum sit 
+opposi<lb break="no" ed="#V" n="58"/>tum nunc illati, et quod in tali casu
+<lb ed="#V" n="59"/>tale argumentum esset insolubile; et
+<lb ed="#V" n="60"/>stat totum in illo : possibile est. 
+intel<lb break="no" ed="#V" n="61"/>lectum solvere naturaliter omnem 
+pa<lb break="no" ed="#V" n="62"/>ralogismum peccantem in forma, si
+<lb ed="#V" n="63"/>materia est intellectui evidenter nota.
+<lb ed="#V" n="64"/>Si autem intellectui materia non est
+<lb ed="#V" n="65"/>evidenter nota, ipse non potest scire
+<lb ed="#V" n="66"/>utrum illud sequatur ex illo, eum non
+<lb ed="#V" n="67"/>intelligat propositiones. Sequitur in
+<lb ed="#V" n="68"/>littera: Vel aliter potest responderi ad
+<lb ed="#V" n="69"/>lud argumentum, etc. id est, quod 
+ar<lb break="no" ed="#V" n="70"/>gumentum illud secundum potest 
+ap<lb break="no" ed="#V" n="71"/>plieari ad omneereditum, quia in omni
+<lb ed="#V" n="72"/>tali potest fieri paralogismus, qui 
+ta<lb break="no" ed="#V" n="73"/>men non potesta nostro intellectu solvi
+<lb ed="#V" n="74"/>propter non intellectum  
+propositio<lb break="no" ed="#V" n="75"/>num, licet ab intelligente materiam
+<lb ed="#V" n="76"/>sit solubilis, etc.
+</p>
+            <p xml:id="mm30o9-d1e1362-d1e514">
+               <lb ed="#V" n="77"/>Contra rationes, quas facit Scotus
+<lb ed="#V" n="78"/>(probando non posse naturali ratione
+<lb ed="#V" n="79"/>demonstrari Deum esse 
+omnipoten<lb break="no" ed="#V" n="80"/>tem, proprie loquendo de 
+omnipoten<lb break="no" ed="#V" n="81"/>tia) instat Occham.
+</p>
+            <p xml:id="mm30o9-d1e1362-d1e527">
+               <lb ed="#V" n="82"/>Et primo contra primam rationem
+<lb ed="#V" n="83"/>instat, dicens quod PA?losophi non 
+po<lb break="no" ed="#V" n="84"/>$Suere causam secundam — concurrere
+<lb ed="#V" n="85"/>propter imperfectionem effectus, ut 
+sci<lb break="no" ed="#V" n="86"/>licet aliqua imperfectio adderetur 
+effec<lb break="no" ed="#V" n="87"/>tui a causa secunda, quia secundum
+<lb ed="#V" n="88"/>istum, Philosophus ponit Deum esse
+<pb ed="#V" n="720"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>causam omnium ; ergo est causa 
+im<lb break="no" ed="#V" n="2"/>mediata et totalis alicujus effectus,
+<lb ed="#V" n="3"/>aliter esset processus in infinitum. Sed
+<lb ed="#V" n="4"/>secundum istum, effectus iste est 
+im<lb break="no" ed="#V" n="5"/>perfectus, et Deus est in infinitum
+<lb ed="#V" n="6"/>perfeelior effectu illo; ergo secundum
+<lb ed="#V" n="7"/>opinionem Philosophorum, est causa
+<lb ed="#V" n="8"/>immediata et totalis alicujus effectus
+<lb ed="#V" n="9"/>imperfecti; ergo propter 
+imperfectio<lb break="no" ed="#V" n="10"/>nem effectus non repugnat Deum esse
+<lb ed="#V" n="11"/>immediatam  causam omnium, 
+se<lb break="no" ed="#V" n="12"/>cundum opinionem Philosophorum.
+</p>
+            <p xml:id="mm30o9-d1e1362-d1e575">
+               <lb ed="#V" n="13"/>Si dicatur, quod quamvis effectus
+<lb ed="#V" n="14"/>sit imperfectus respectu Dei, est tamen
+<lb ed="#V" n="15"/>perfectus respectu aliorum effectuum,
+<lb ed="#V" n="16"/>qui propter imperfectionem illam non
+<lb ed="#V" n="17"/>possunt produci a solo Deo.
+</p>
+            <p xml:id="mm30o9-d1e1362-d1e589">
+               <lb ed="#V" n="18"/>Hoc non videtur sufficere, quia ex
+<lb ed="#V" n="19"/>quo imperfectio in communi in 
+effe<lb break="no" ed="#V" n="20"/>ctu non repugnat Deo quin possit 
+pro<lb break="no" ed="#V" n="21"/>ducere effectum imperfectum, oportet
+<lb ed="#V" n="22"/>assignare rationem specialem quare
+<lb ed="#V" n="23"/>plus repugnat Deo producere istum
+<lb ed="#V" n="24"/>effectum quam alium.
+</p>
+            <p xml:id="mm30o9-d1e1362-d1e607">
+               <lb ed="#V" n="25"/>Confirmatur, Deus potest esse causa
+<lb ed="#V" n="26"/>totaliset immediata plurium effectuum
+<lb ed="#V" n="27"/>ordinatorum secundum perfectius et
+<lb ed="#V" n="28"/>imperfectius; ergo nisi aliud obstet,
+<lb ed="#V" n="29"/>non videtur ratio quin possit esse
+<lb ed="#V" n="30"/>causa immediata omnium effectuum
+<lb ed="#V" n="31"/>imperfectorum. Antecedens patet 
+se<lb break="no" ed="#V" n="32"/>cundum illam, quia per eum, sola
+<lb ed="#V" n="33"/>prima causa potest creare omnia
+<lb ed="#V" n="34"/>creata proprie, quae a solo Deo fiunt,
+<lb ed="#V" n="35"/>sed talia sunt multa ; ergo talia multa
+<lb ed="#V" n="36"/>sunt a solo Deo, et ita non est verum
+<lb ed="#V" n="37"/>quod assumitur, quod secundum 
+opi<lb break="no" ed="#V" n="38"/>nionem Philosophi causa secunda
+<lb ed="#V" n="39"/>concurrat eum causa prima, ne causa
+<lb ed="#V" n="40"/>prima producat secundum ullimum
+<lb ed="#V" n="41"/>potentiae sue,etne producat effectum
+<lb ed="#V" n="42"/>ita perfectum sicut potest.
+</p>
+            <p xml:id="mm30o9-d1e1362-d1e649">
+               <lb ed="#V" n="43"/>Confirmataur ratio, quia in causis
+<lb ed="#V" n="44"/>naturalibus videmus quod eadem cau-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>sa producit plures effectus 
+perfectio<lb break="no" ed="#V" n="46"/>res et imperfectiores sine omni falia
+<lb ed="#V" n="47"/>causa concausante, sicut Solin eodem
+<lb ed="#V" n="48"/>passo producit plures effectus 
+ordina<lb break="no" ed="#V" n="49"/>Los.
+</p>
+            <p xml:id="mm30o9-d1e1362-d1e669">
+               <lb ed="#V" n="50"/>Et instat contra secundam rationem,
+<lb ed="#V" n="51"/>quie talis erat: Si Philosophi non 
+po<lb break="no" ed="#V" n="52"/>tuere per vationem naturalem concludere
+<lb ed="#V" n="53"/>Deum posse. contingere causare, quanto
+<lb ed="#V" n="54"/>magis nec posse immediate in 
+quemcum<lb break="no" ed="#V" n="55"/>que effectum. Instat sic dicens: 
+Se<lb break="no" ed="#V" n="56"/>cunda ratio videtur concludere, vel
+<lb ed="#V" n="57"/>saltem est multum probabilis, quamvis
+<lb ed="#V" n="58"/>iste. alibi videatur dicere oppositum.
+<lb ed="#V" n="59"/>Nam alibi videtur velle se demonstrare,
+<lb ed="#V" n="60"/>quod nulla contingentia potest esse in
+<lb ed="#V" n="61"/>rebus, nisi prima causa contingenter
+<lb ed="#V" n="62"/>causet, sed hoc patet esse notum 
+ra<lb break="no" ed="#V" n="63"/>tione naturali, quod contingentia est
+<lb ed="#V" n="64"/>in rebus, et quod aliquid contingenter
+<lb ed="#V" n="65"/>agit; ergo potest esse notum ratione
+<lb ed="#V" n="66"/>naturali, quod prima causa 
+eceonlin<lb break="no" ed="#V" n="67"/>genter agat secundum istum.
+</p>
+            <p xml:id="mm30o9-d1e1362-d1e711">
+               <lb ed="#V" n="68"/>Contra tertiam instat, quae talis est:
+<lb ed="#V" n="69"/>Ipsi Philosophi habuerunt pro principio,
+<lb ed="#V" n="70"/>quod de nihilo nihil fit ; ergo saltem in
+<lb ed="#V" n="71"/>istis generabilibus et corruptibilibus non
+<lb ed="#V" n="72"/>videtur eos posuisse Deum sic esse 
+om<lb break="no" ed="#V" n="73"/>nipotentem, quod posset omnem  
+effe<lb break="no" ed="#V" n="74"/>clum producere sine omni causa. 
+con<lb break="no" ed="#V" n="75"/>causante. Et instat sic: Tertia ratio
+<lb ed="#V" n="76"/>etiam videtur efficax, quia quamvis
+<lb ed="#V" n="77"/>secundum Philosophos, de nihilo fiat
+<lb ed="#V" n="78"/>aliquid ab aeterno, tamen videtur
+<lb ed="#V" n="79"/>fuisse opinio Philosophorum quod de
+<lb ed="#V" n="80"/>nihilo nihil fiat de novo, et ita 
+posue<lb break="no" ed="#V" n="81"/>runt quod Deus non causat omnia sine
+<lb ed="#V" n="82"/>omni alia causa concausante.
+</p>
+            <p xml:id="mm30o9-d1e1362-d1e746">
+               <lb ed="#V" n="83"/>Contra quartam rationem instat,
+<lb ed="#V" n="84"/>qua talis est: Philosophi posuerunt :
+<lb ed="#V" n="85"/>Deum necessario agentem; ergo si cum
+<lb ed="#V" n="86"/>hoc posuerunt quod esset. omnipotens,
+<lb ed="#V" n="87"/>illo modo haberet negare omnem 
+causa<lb break="no" ed="#V" n="88"/>litatem cujuscumque causae secundae,
+<pb ed="#V" n="721"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>quod est. maximum inconveniens eis,
+<lb ed="#V" n="2"/>consequentia patet.-Naim causa 
+necessa<lb break="no" ed="#V" n="3"/>rio causans in quocumque instanti 
+com<lb break="no" ed="#V" n="4"/>paretur effectui, necessario. in. eodem
+<lb ed="#V" n="5"/>tnstante causat et agit ; ergo cum prius
+<lb ed="#V" n="6"/>comparetur causa superior ad. effectum
+<lb ed="#V" n="7"/>quam causa. inferior, et tunc est 
+omni<lb break="no" ed="#V" n="8"/>potens illo modo ; ergo in illo instanti in
+<lb ed="#V" n="9"/>quo comparatur causa secunda non 
+po<lb break="no" ed="#V" n="10"/>test causare. Contra hanc sic instat :
+<lb ed="#V" n="11"/>Quarta ratio illo modo deducta non
+<lb ed="#V" n="12"/>coneludit. Nam probatio consequentia
+<lb ed="#V" n="13"/>non valet, quia si illa probatio esset
+<lb ed="#V" n="14"/>bona, sequeretur quod Deus nullo
+<lb ed="#V" n="15"/>modo posset coagere creature ad
+<lb ed="#V" n="16"/>aliquem effectum producendum. 
+Pro<lb break="no" ed="#V" n="17"/>batio consequentiae, nam si Deus 
+coa<lb break="no" ed="#V" n="18"/>gil creature, (sicut ipse arguit) arguo
+<lb ed="#V" n="19"/>ego: nam causa agens prima, sine qua
+<lb ed="#V" n="20"/>non potest effectus produci, in 
+quocum<lb break="no" ed="#V" n="21"/>que instanli comparatur effectui, in
+<lb ed="#V" n="22"/>illo instanti agit; ergo cum causa
+<lb ed="#V" n="23"/>prima prius comparetur effectui quam
+<lb ed="#V" n="24"/>causa secunda, et tunc causatur; ergo
+<lb ed="#V" n="25"/>in illo instanti totum producit 
+effe<lb break="no" ed="#V" n="26"/>ctum, ergo in secundo instanti in quo
+<lb ed="#V" n="27"/>comparatur causa secunda ad 
+effe<lb break="no" ed="#V" n="28"/>etum, nihil intelligitur  tunc 
+cau<lb break="no" ed="#V" n="29"/>sandum; ergo causa secunda nihil
+<lb ed="#V" n="30"/>causat.
+</p>
+            <p xml:id="mm30o9-d1e1362-d1e832">
+               <lb ed="#V" n="31"/>Si dicatur quod argumentum de
+<lb ed="#V" n="32"/>causa prima libere causante non
+<lb ed="#V" n="33"/>valet, quia illa potest causare quando
+<lb ed="#V" n="34"/>placet sibi, sed bene valet de causa
+<lb ed="#V" n="35"/>necessario causante, quia illa causa
+<lb ed="#V" n="36"/>in quocumque instanti comparatur ad
+<lb ed="#V" n="37"/>effectum necessario causat.
+</p>
+            <p xml:id="mm30o9-d1e1362-d1e850">
+               <lb ed="#V" n="38"/>Istud non sufficit, quia accipiendo
+<lb ed="#V" n="39"/>causam primam sine causa secunda,
+<lb ed="#V" n="40"/>non potest talem effectum producere ;
+<lb ed="#V" n="41"/>et  tunc quaero, aut causa prima prius
+<lb ed="#V" n="42"/>comparatur ad illum effectum ? aut
+<lb ed="#V" n="43"/>non? Si sic, ergo  tunc causat 
+effe<lb break="no" ed="#V" n="44"/>ctum; ergo nihil remanet causandum.
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>Si non prius, sed in eodem instanti
+<lb ed="#V" n="46"/>comparatur ad effectum in quo causa
+<lb ed="#V" n="47"/>secunda comparatur ad effectum, et
+<lb ed="#V" n="48"/>ita non plus repugnat duabus causis
+<lb ed="#V" n="49"/>naturalibus operari in eodem instanti
+<lb ed="#V" n="50"/>ad effectum quam duabus causis, 
+qua<lb break="no" ed="#V" n="51"/>rum una sit libera et alia naturalis ;
+<lb ed="#V" n="52"/>ergo non obstante primitate caus,
+<lb ed="#V" n="53"/>poterit Deus concurrere et causare 
+eum<lb break="no" ed="#V" n="54"/>dem effectum eum causa secunda,
+<lb ed="#V" n="55"/>etiamsi Deus esset causa naturalis. 
+Un<lb break="no" ed="#V" n="56"/>de videtur quod eadem ratio concludat,
+<lb ed="#V" n="57"/>quod nulla causa naturalis prior potest
+<lb ed="#V" n="58"/>concurrere cum causa secunda ad
+<lb ed="#V" n="59"/>producendum aliquem effectum. Nam
+<lb ed="#V" n="60"/>accipio causam priorem quamcumque,
+<lb ed="#V" n="61"/>et causam secundam subordinatam,
+<lb ed="#V" n="62"/>et quaero, aut illa causa prior prius
+<lb ed="#V" n="63"/>comparatur ad effectum quam causa
+<lb ed="#V" n="64"/>secunda, aut non ? Si sic ; ergo in 
+pri<lb break="no" ed="#V" n="65"/>mo instanti causat causa prior, et
+<lb ed="#V" n="66"/>certum est quod non causat partem
+<lb ed="#V" n="67"/>effectus, quia non est major ratio,
+<lb ed="#V" n="68"/>quod causet unam quam aliam. Et 
+si<lb break="no" ed="#V" n="69"/>militer frequenter effectus est 
+indivisi<lb break="no" ed="#V" n="70"/>bilis non habens partes ; ergo in primo
+<lb ed="#V" n="71"/>instanti causat totum effectum, ergo
+<lb ed="#V" n="72"/>in secundo instanti nihil remanet 
+cau<lb break="no" ed="#V" n="73"/>sandum, et per consequens nunquam
+<lb ed="#V" n="74"/>causa secunda agit cum causa prima,
+<lb ed="#V" n="75"/>ei ita illa ratio destruit ordinem 
+essen<lb break="no" ed="#V" n="76"/>tialem causarum. Si autem illa causa
+<lb ed="#V" n="77"/>prima non prius comparatur ad 
+effe<lb break="no" ed="#V" n="78"/>ctum quam causa secunda, eadem
+<lb ed="#V" n="79"/>ratione: nec causa prima simpliciter
+<lb ed="#V" n="80"/>prius comparatur ad effectum quam
+<lb ed="#V" n="81"/>causa secunda, et ita propter talem
+<lb ed="#V" n="82"/>prioritatem non oportet Deum negare
+<lb ed="#V" n="83"/>esse causam immediatam omnium.
+<lb ed="#V" n="84"/>Respondeo ad omnia dicta Occham
+<lb ed="#V" n="85"/>conira Seotum, et praemitto aliqua.
+<lb ed="#V" n="86"/>Primo quod imperfectio effectus potest
+<lb ed="#V" n="87"/>multipliciter intelligi, scilicet, vel
+<lb ed="#V" n="88"/>quantum ad suum esse quidditativum
+<pb ed="#V" n="722"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>et essentiale, et sic musca est 
+perfe<lb break="no" ed="#V" n="2"/>ctior coelo, et hoc sustinendo coelum
+<lb ed="#V" n="3"/>non esse formaliter animatum; vel
+<lb ed="#V" n="4"/>quantum ad aliquam conditionem
+<lb ed="#V" n="5"/>consequentem esse essentiale vel 
+quid<lb break="no" ed="#V" n="6"/>ditativum, ut necessitas et perpetuitas,
+<lb ed="#V" n="7"/>et hoc modo coelum est perfectius
+<lb ed="#V" n="8"/>musea. Secundo, prie mitto quod 
+se<lb break="no" ed="#V" n="9"/>eundum viam Philosophi, multa sunt
+<lb ed="#V" n="10"/>immediate causata a prima causa, ita
+<lb ed="#V" n="11"/>quod actio ipsius immediate 
+termina<lb break="no" ed="#V" n="12"/>tur ad illa, et illa tali actione 
+simpli<lb break="no" ed="#V" n="13"/>citer accipiunt esse nullo alio 
+praesup<lb break="no" ed="#V" n="14"/>posito ; quod dico propter animam 
+in<lb break="no" ed="#V" n="15"/>tellectivam, quae licet sit de foris 
+ve<lb break="no" ed="#V" n="16"/>niens, ut patet 16. de Azmalibus, non
+<lb ed="#V" n="17"/>tamen alia aelione accipit esse 
+imme<lb break="no" ed="#V" n="18"/>diate a causa, ita quod actio primae
+<lb ed="#V" n="19"/>cause prius terminetur ad ipsam in
+<lb ed="#V" n="20"/>se; diceret enim Philosophus non esse
+<lb ed="#V" n="21"/>aliam productionem anim: 
+intelle<lb break="no" ed="#V" n="22"/>ctivae et compositi, sicut nec in igne
+<lb ed="#V" n="23"/>forma ignis, sed illam animationem
+<lb ed="#V" n="24"/>corporis organici ponit esse 
+produ<lb break="no" ed="#V" n="25"/>ctionem per aecidens ipsius anime.
+<lb ed="#V" n="26"/>Sed quomodo agens immutabile potest
+<lb ed="#V" n="27"/>i aliquid novum producere secundum
+<lb ed="#V" n="28"/>, Aristotelem, vide Scotum in 4. dist. 43.
+<lb ed="#V" n="29"/>quaest. 2. circa finem tertii artic. Nos
+<lb ed="#V" n="30"/>autem ponimus duas productiones,
+<lb ed="#V" n="31"/>unam de 2202 esse animi ad esse ejus,
+<lb ed="#V" n="32"/>et illa est creatio ; aliam a non 
+anima<lb break="no" ed="#V" n="33"/>tione corporisad animationem ejus, et
+<lb ed="#V" n="34"/>illa est productio corporis animati
+<lb ed="#V" n="35"/>per mutationem proprie dictam. De
+<lb ed="#V" n="36"/>hoc vide Doctorem in 2. dist. 17. et in
+<lb ed="#V" n="37"/>A. dist. 43. quest. 2. et talia sunt 
+sim<lb break="no" ed="#V" n="38"/>pliciter :aeterna et. necessaria, ut. sunt
+<lb ed="#V" n="39"/>Colum et Intelligenti:e, et quomodo
+<lb ed="#V" n="40"/>sint vere causata, vide supra dist. 8.
+<lb ed="#V" n="41"/>quaest. ult. Tertio, praemitto quod 
+se<lb break="no" ed="#V" n="42"/>cundum viam Philosophi, prima 
+cau<lb break="no" ed="#V" n="43"/>sa de necessitale nature agit etiam 
+se<lb break="no" ed="#V" n="44"/>cundum totam virtutem suam, et per
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>consequens non tantum producit 
+ef<lb break="no" ed="#V" n="46"/>fectum perfectum quem potest, sed
+<lb ed="#V" n="47"/>necessario producit ipsum ab aeterno,
+<lb ed="#V" n="48"/>et perpetuat ipsum, et dat illi 
+simpli<lb break="no" ed="#V" n="49"/>citer esse necessarium, et, per 
+conse<lb break="no" ed="#V" n="50"/>quens omnis effectus immediate 
+pro<lb break="no" ed="#V" n="51"/>ductus a tali causa erit necesse esse,
+<lb ed="#V" n="52"/>et perpetuus et aelernus, et nulla 
+no<lb break="no" ed="#V" n="53"/>vitas contingit esse in illo in suo esse.
+</p>
+            <p xml:id="mm30o9-d1e1362-d1e1087">
+               <lb ed="#V" n="54"/>Ex his potest dici ad Oecham, quod
+<lb ed="#V" n="55"/>secunda causa ponitur propter 
+imper<lb break="no" ed="#V" n="56"/>fectionem effectus, quia si causa se:
+<lb ed="#V" n="57"/>cunda non concurreret, nullus effectus
+<lb ed="#V" n="58"/>esset novus, sed omnis esset 
+sempiter<lb break="no" ed="#V" n="59"/>nus ; nullus etiam effectus esset 
+sim<lb break="no" ed="#V" n="60"/>pliciter possibilis, sed omnis 
+necessa<lb break="no" ed="#V" n="61"/>rius, cujus oppositum experimur; etsic
+<lb ed="#V" n="62"/>loquendo de ista imperfectione effectus,
+<lb ed="#V" n="63"/>patet secundum Philosophos, 
+quomo<lb break="no" ed="#V" n="64"/>do requiruntur secunde cause. Unde
+<lb ed="#V" n="65"/>Commentator vult 12. Metaph. comm.
+<lb ed="#V" n="66"/>41. quod propter primum movens,
+<lb ed="#V" n="67"/>quod est infinite virtutis, requiritur
+<lb ed="#V" n="68"/>movens eonjunetum potentiae finite,
+<lb ed="#V" n="69"/>ila quod ex primo movente sit 
+infini<lb break="no" ed="#V" n="70"/>tas motus, et ex secundo sit successio,
+<lb ed="#V" n="71"/>quasi aliter non posset esse successio,
+<lb ed="#V" n="72"/>nisi concurreret illud movens finitum,
+<lb ed="#V" n="73"/>quia si solum infinitum ageret, ageret
+<lb ed="#V" n="74"/>in non tempore, etc. Ex his ergo 
+ap<lb break="no" ed="#V" n="75"/>paret quod instantiae, quas facit 
+Oc<lb break="no" ed="#V" n="76"/>cham contra primam rationem 
+Doe<lb break="no" ed="#V" n="77"/>toris quod causae secunda requiruntur
+<lb ed="#V" n="78"/>propter imperfectionem effectus, non
+<lb ed="#V" n="79"/>concludunt.
+</p>
+            <p xml:id="mm30o9-d1e1362-d1e1146">
+               <lb ed="#V" n="80"/>Secundo dico, quod etiam 
+loquen<lb break="no" ed="#V" n="81"/>do de perfectione et imperfectione
+<lb ed="#V" n="82"/>essentiali, quod secunde causae 
+re<lb break="no" ed="#V" n="83"/>quiritur propter imperfectionem  
+ef<lb break="no" ed="#V" n="84"/>fectus. Et concedo quod inter effectus
+<lb ed="#V" n="85"/>immediate productos datur ordo, ila
+<lb ed="#V" n="86"/>quod unus est perfectior essentialiter
+<lb ed="#V" n="87"/>alio, quia Intelligentia est perfectior
+<lb ed="#V" n="88"/>colo, non famen sequitur quod causa
+<pb ed="#V" n="723"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>prima possit in effectum alium 
+imper<lb break="no" ed="#V" n="2"/>fectiorem sine secunda causa 
+concur<lb break="no" ed="#V" n="3"/>rente. Ut etiam patet in aliis causis 
+na<lb break="no" ed="#V" n="4"/>turalibus, multi enim sunt causc 
+na<lb break="no" ed="#V" n="5"/>turales, quae licet possint producere
+<lb ed="#V" n="6"/>effectum perfectum unius speciei, non
+<lb ed="#V" n="7"/>tamen possunt producere effectum
+<lb ed="#V" n="8"/>imperfectum alterius speciei. Istaenim
+<lb ed="#V" n="9"/>propositio: quando datur ordo nter
+<lb ed="#V" n="10"/>perfectum. et minus. perfectum, si 
+po<lb break="no" ed="#V" n="11"/>lest in perfectum, ergo et in 
+imperfec<lb break="no" ed="#V" n="12"/>tum, vera est quando sunt ejusdem 
+ra<lb break="no" ed="#V" n="13"/>tionis, aliter non. Et si prima causa
+<lb ed="#V" n="14"/>potest immediate producere calorem
+<lb ed="#V" n="15"/>ut octo, a fortiori poterit producere ut
+<lb ed="#V" n="16"/>sex. Dicerent ergo Philosophi quod
+<lb ed="#V" n="17"/>sunt aliqui effectus ita perfecti, quod
+<lb ed="#V" n="18"/>nullo modo possunt esse a secunda
+<lb ed="#V" n="19"/>causa, sed tantum a prima, et aliqui
+<lb ed="#V" n="20"/>effectus ita imperfecti quod nullo 
+mo<lb break="no" ed="#V" n="21"/>do possunt esse immediate a prima
+<lb ed="#V" n="22"/>causa, sed tantum a prima 
+concur<lb break="no" ed="#V" n="23"/>rente secunda, ita quod tota 
+imper<lb break="no" ed="#V" n="24"/>fectio attribuatur secunde. Prima 
+ta<lb break="no" ed="#V" n="25"/>men responsio videtur probabilior
+<lb ed="#V" n="26"/>quam secunda.
+</p>
+            <p xml:id="mm30o9-d1e1362-d1e1229">
+               <lb ed="#V" n="27"/>Ad secundam instantiam, ubi primo
+<lb ed="#V" n="28"/>dicit Occham, quod secunda ratio 
+Doc<lb break="no" ed="#V" n="29"/>toris videtur coneludere, etc. Et cum
+<lb ed="#V" n="30"/>dicit quod videtur alibi dicere 
+opposi<lb break="no" ed="#V" n="31"/>tum, quia hic dicit : PA//osophi non 
+po<lb break="no" ed="#V" n="32"/>tuere per rationem naturalem concludere
+<lb ed="#V" n="33"/>Deum posse contingenter causare, etalibi
+<lb ed="#V" n="34"/>dicit oppositum, scilicet dzsf. 2. quast.1.
+<lb ed="#V" n="35"/>et 8. quest. ult. prüni, dico quod Doctor
+<lb ed="#V" n="36"/>sibi non contradicit, si littera ejus sane
+<lb ed="#V" n="37"/>intelligatur hic etibi. Dicit enim ibi,
+<lb ed="#V" n="38"/>quod. Philosophi non potuere salvare
+<lb ed="#V" n="39"/>contingentiam in rebus, si prima 
+cau<lb break="no" ed="#V" n="40"/>sa non agit contingenter, et si apud
+<lb ed="#V" n="41"/>Philosophossit notum aliquid fieri 
+con<lb break="no" ed="#V" n="42"/>tingenter a secunda causa, ita quod
+<lb ed="#V" n="43"/>quando fit illud, oppositum  tunc 
+pos<lb break="no" ed="#V" n="44"/>set fieri, esset etiam notum eis pri-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>mam causam contingenter agere. Sed
+<lb ed="#V" n="46"/>non erat notum eis aliquid sic 
+contin<lb break="no" ed="#V" n="47"/>genter fieri, quia forte Philosophus
+<lb ed="#V" n="48"/>posuit non propterea contingenter,
+<lb ed="#V" n="49"/>Deum velle contingentiam in 
+inferio<lb break="no" ed="#V" n="50"/>ribus, sed ex motu, qui necessario
+<lb ed="#V" n="51"/>causatur, inquantum uniformis, sed
+<lb ed="#V" n="52"/>difformitas sequitur in parlibus ejus,
+<lb ed="#V" n="53"/>et ita contingentia. Et Doctor dicit
+<lb ed="#V" n="54"/>dist. 2. quaest. A. primi, quod 
+Philoso<lb break="no" ed="#V" n="55"/>phus non potest negare primum 
+effec<lb break="no" ed="#V" n="56"/>livum agere contingenter (salvando
+<lb ed="#V" n="57"/>aliquid contingenter fieri per motum,
+<lb ed="#V" n="58"/>accipiendo cont?ngenter causatum 
+quod<lb break="no" ed="#V" n="59"/>cumque non necessarium vel 
+sempi<lb break="no" ed="#V" n="60"/>ternum, sed cujus oppositum posset
+<lb ed="#V" n="61"/>fieri quandoillud sit;) ideo dixit aliquod
+<lb ed="#V" n="62"/>contingenter causatum, et non. aliquod
+<lb ed="#V" n="63"/>contingens. Si ergo Philosophi posuere
+<lb ed="#V" n="64"/>sie aliquid contingenter fieri, 
+habue<lb break="no" ed="#V" n="65"/>runt concedere quod prima causa 
+ceon<lb break="no" ed="#V" n="66"/>tingenter agat. Et sic patet quomodo
+<lb ed="#V" n="67"/>sibi non contradicit, quia si 
+Philoso<lb break="no" ed="#V" n="68"/>phi evidenter cognovissent aliquid
+<lb ed="#V" n="69"/>contingenter fieri a causa secunda,
+<lb ed="#V" n="70"/>evidenter conclusissent primam 
+cau<lb break="no" ed="#V" n="71"/>sam contingenter agere, et hoc 
+susti<lb break="no" ed="#V" n="72"/>nendo ordinem essentialem causarum,
+<lb ed="#V" n="73"/>sicut expositum est supra dist. 2.
+<lb ed="#V" n="74"/>quast. 1.
+</p>
+            <p xml:id="mm30o9-d1e1362-d1e1338">
+               <lb ed="#V" n="75"/>Tertiam rationem Doctoris concedit
+<lb ed="#V" n="76"/>ipse Occham, ut supra patuit.
+</p>
+            <p xml:id="mm30o9-d1e1362-d1e1346">
+               <lb ed="#V" n="77"/>Ad quartam instantiam, dico quod
+<lb ed="#V" n="78"/>non est simile de causa naturali et 
+li<lb break="no" ed="#V" n="79"/>bera, quia libera potest expectare, ut
+<lb ed="#V" n="80"/>exposui dst. 37. secundi Doctorem. Et
+<lb ed="#V" n="81"/>quando dicit, aut prius comparatur ad
+<lb ed="#V" n="82"/>effectum, aut non? dico quod si 
+lo<lb break="no" ed="#V" n="83"/>quamur de priori secundum 
+perfectio<lb break="no" ed="#V" n="84"/>nem, est prior. Si vero loquamur de
+<lb ed="#V" n="85"/>priori natura, id est, quod in aliquo
+<lb ed="#V" n="86"/>priori natura producat effectum, dico
+<lb ed="#V" n="87"/>quod non, ut patet a Doctore 22 2. dst.
+<lb ed="#V" n="88"/>31. sed simul natura causat eum se-
+<pb ed="#V" n="724"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>cunda causa. Potest enim propter
+<lb ed="#V" n="2"/>suam contingentiam in agendo 
+expec<lb break="no" ed="#V" n="3"/>lare per quodcumque tempus, et sic
+<lb ed="#V" n="4"/>in eodem instanti nature incipere 
+ac<lb break="no" ed="#V" n="5"/>lionem cum creatura, et ipsam 
+conti<lb break="no" ed="#V" n="6"/>nuare per aliquod tempus. Et cum 
+di<lb break="no" ed="#V" n="7"/>cit, quod si in eodem instanti 
+compa<lb break="no" ed="#V" n="8"/>ratur ad effeclum, in quo causa 
+se<lb break="no" ed="#V" n="9"/>cunda comparatur ad effectum, et ita
+<lb ed="#V" n="10"/>non plus repugnatduabus causis 
+natu<lb break="no" ed="#V" n="11"/>ralibus operari in eodem instanti ad
+<lb ed="#V" n="12"/>effectam quam duabus causis, quarum
+<lb ed="#V" n="13"/>una sit libera et alia naturalis; dico
+<lb ed="#V" n="14"/>quod hoc non sequitur de duabus 
+na<lb break="no" ed="#V" n="15"/>Luralibus essentialiter ordinatis, 
+qua<lb break="no" ed="#V" n="16"/>rum una agat in virtute alterius, et in
+<lb ed="#V" n="17"/>agendo dependeat ab alia, quia tune
+<lb ed="#V" n="18"/>superior de necessitate nature prius
+<lb ed="#V" n="19"/>comparatur ad effeclüm quam 
+secun<lb break="no" ed="#V" n="20"/>da. Et cum addit quod eadem ratio
+<lb ed="#V" n="21"/>concluderet quod nulla causa 
+natura<lb break="no" ed="#V" n="22"/>lis prior potest concurrere eum causa
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="23"/>secunda ad producendum aliquem 
+ef<lb break="no" ed="#V" n="24"/>fectum, etc. dico quod si sint 
+essen<lb break="no" ed="#V" n="25"/>tialiter ordinat: et causae totales,
+<lb ed="#V" n="26"/>quod prior prius comparatur, et sic
+<lb ed="#V" n="27"/>concedo quod causa secunda nihil
+<lb ed="#V" n="28"/>producet. Si vero sunt partiales causae,
+<lb ed="#V" n="29"/>una non potest agere sine alia, ut. 
+pa<lb break="no" ed="#V" n="30"/>tet de intellectu et objecto respectu 
+in<lb break="no" ed="#V" n="31"/>tellectionis, licet non sint proprie 
+cau<lb break="no" ed="#V" n="32"/>se essentialiter ordinata, nisi forte
+<lb ed="#V" n="33"/>quantum ad hoc quod una est 
+perfec<lb break="no" ed="#V" n="34"/>tior alia. Et dico quod omnes 
+cau<lb break="no" ed="#V" n="35"/>se secundae quomodocumque sint inter
+<lb ed="#V" n="36"/>se essentialiter ordinata (quia in 
+agen<lb break="no" ed="#V" n="37"/>do dependent a prima causa 
+contin<lb break="no" ed="#V" n="38"/>genter agente) in agendo una non agit
+<lb ed="#V" n="39"/>prius alia ad eumdem effectum, quia
+<lb ed="#V" n="40"/>tantum in illo instanti incipiunt agere,
+<lb ed="#V" n="41"/>in quo primum effectivum incipit 
+age<lb break="no" ed="#V" n="42"/>re. Et sic patet solutio ad omnes 
+ob<lb break="no" ed="#V" n="43"/>jectiones Gulielmi Occham, etc.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#per-FLBca3">Franciscus Lychetus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2024-08-23">August 23, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 10</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-08-23" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="746"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="mm30o9-d1e1396"><!-- lycht-d44q1-p2 -->
+            <head xml:id="mm30o9-d1e1396-Hd1e101">Quaestio 1</head>
+            <p xml:id="mm30o9-d1e1396-d1e103">
+               <lb ed="#V" n="69" type="fixed=746"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1396-d1e108">
+               <lb ed="#V" n="70"/>(a) Respondeo in omni agente per 
+in<lb break="no" ed="#V" n="71"/>tellectum, etc. Doctor in ista 
+quaes<lb break="no" ed="#V" n="72"/>lione multa declarat, quae satis sunt.
+<lb ed="#V" n="73"/>faeilia. In aliquo potest distingui 
+po<lb break="no" ed="#V" n="74"/>tentia ordinata et potentia absoluta, et
+<lb ed="#V" n="75"/>est in omni agente potente recte agere
+<lb ed="#V" n="76"/>et non recte agere. Est tamen 
+adver<lb break="no" ed="#V" n="77"/>tendum, quod potentia absoluta et
+<lb ed="#V" n="78"/>ordinata in Deo non sunt duc 
+poten<lb break="no" ed="#V" n="79"/>tic distinctae ex natura rei, nec 
+forma<lb break="no" ed="#V" n="80"/>liter. Imo proprie, eum dicitur 
+poten<lb break="no" ed="#V" n="81"/>tia absoluta vel ordinata, non dicitur
+<lb ed="#V" n="82"/>aliqua potentia, sed magis quidam
+<lb ed="#V" n="83"/>modus agendi, scilicet ordinate vel
+<lb ed="#V" n="84"/>absolute. Absoluta ergo potentia est illa
+<lb ed="#V" n="85"/>qua respicit omne non includens 
+contra<lb break="no" ed="#V" n="86"/>dictionem; et sic voluntas divina dici-
+<pb ed="#V" n="747"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tur posse agere secundum potentiam
+<lb ed="#V" n="2"/>absolutam, inquantum absolute 
+po<lb break="no" ed="#V" n="3"/>testin omne possibile, sive in omne
+<lb ed="#V" n="4"/>non includens contradictionem. 
+Ordi<lb break="no" ed="#V" n="5"/>nata vero est illa qua. Deus potest 
+con<lb break="no" ed="#V" n="6"/>formiter agere ordini et statuto a se 
+po<lb break="no" ed="#V" n="7"/>sio, uae Judas potest salvari absoluta
+<lb ed="#V" n="8"/>potentia, id est, quod Deus habet 
+na<lb break="no" ed="#V" n="9"/>turalem potentiam, qua potest Judam
+<lb ed="#V" n="10"/>salvare, sed ipse ordinavit, quod 
+nul<lb break="no" ed="#V" n="11"/>lum vult salvare, qui decesserit in
+<lb ed="#V" n="12"/>mortali peccato ; stante ergo illo 
+or<lb break="no" ed="#V" n="13"/>dine non potest Judam salvare. Dicit
+<lb ed="#V" n="14"/>ergo Doctor quod potentia ordinata
+<lb ed="#V" n="15"/>dicitur, inquantum est principium
+<lb ed="#V" n="16"/>exequendi alia conformiter legi rectc
+<lb ed="#V" n="17"/>secundum ordinem prefixam ab ilia
+<lb ed="#V" n="18"/>lege. Dicitur vero potentia absoluta
+<lb ed="#V" n="19"/>inquantum potest agere praeter illam
+<lb ed="#V" n="20"/>legem vel contra eam, et  tunc 
+poten<lb break="no" ed="#V" n="21"/>lia absoluta excedit potentiam 
+ordina<lb break="no" ed="#V" n="22"/>tam, quia est absoluta, ut est in 
+po<lb break="no" ed="#V" n="23"/>testate agentis observare illam legem,
+<lb ed="#V" n="24"/>et aliquid agere, dequo nihil disponit
+<lb ed="#V" n="25"/>illa lex, et similiter oppositum illius,
+<lb ed="#V" n="26"/>de quo illa lex disponit; excedit ergo
+<lb ed="#V" n="27"/>ordinatam inquantum est voluntas in
+<lb ed="#V" n="28"/>se considerata in ordine ad omne 
+pos<lb break="no" ed="#V" n="29"/>sibile ab ipsa fieri vel omitti.
+</p>
+            <p xml:id="mm30o9-d1e1396-d1e215">
+               <lb ed="#V" n="30"/>Nota quod agere praeter legem et
+<lb ed="#V" n="31"/>contra legem multum differunt. Primo
+<lb ed="#V" n="32"/>modo, est agere aliquid, de quo illa
+<lb ed="#V" n="33"/>lex non determinat vel disponit, ita
+<lb ed="#V" n="34"/>quod sive sit agere aliquid, sive ejus 
+op<lb break="no" ed="#V" n="35"/>positum, dummodo non sit a tali lege
+<lb ed="#V" n="36"/>dispositum, est. praeter legem agere ;
+<lb ed="#V" n="37"/>sed agere contra legem est agere 
+op<lb break="no" ed="#V" n="38"/>positum illius, quod lex disponit.
+<lb ed="#V" n="39"/>Exemplum primi, lex disponit non esse
+<lb ed="#V" n="40"/>furandum, si ago aliquid non 
+dispo<lb break="no" ed="#V" n="41"/>situm in talilege, nec oppositum illius
+<lb ed="#V" n="42"/>legis. Exemplum secundi, si committo
+<lb ed="#V" n="43"/>furtum, tunc ago contra legem.
+</p>
+            <p xml:id="mm30o9-d1e1396-d1e248">
+               <lb ed="#V" n="44"/>Item nota, quod Doctor non tan-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>tum distinguit potentiam absolutam
+<lb ed="#V" n="46"/>et ordinatam in Deo, sed etiam in
+<lb ed="#V" n="47"/>omni libero agente, qui potest 
+secun<lb break="no" ed="#V" n="48"/>dum legem et praeter legem, et contra
+<lb ed="#V" n="49"/>legem agere, tam contra legem 
+praew<lb break="no" ed="#V" n="50"/>fixam a superiori quam secundum
+<lb ed="#V" n="51"/>dielamen rationis rectz?? ex natura
+<lb ed="#V" n="52"/>sumptum. Exemplum primi, ut lex
+<lb ed="#V" n="53"/>condita a legistatore. Exemplum 
+se<lb break="no" ed="#V" n="54"/>cundi, ut lex naturalis, de qua Doctor
+<lb ed="#V" n="55"/>in 2. d. 39. et in 3. d. 37. et in 4. d. 17.
+</p>
+            <p xml:id="mm30o9-d1e1396-d1e280">
+               <lb ed="#V" n="56"/>(b) Ideo dicunt Juristz. Dicit Doctor,
+<lb ed="#V" n="57"/>quod illud quod dicimus de potentia
+<lb ed="#V" n="58"/>absoluta, Jurist dicunt de facto; et
+<lb ed="#V" n="59"/>quod dicimaus de potentia ordinata,
+<lb ed="#V" n="60"/>ipsi dicunt  de jure. Id enim 
+possu<lb break="no" ed="#V" n="61"/>mus, quod de jure possumus.
+</p>
+            <p xml:id="mm30o9-d1e1396-d1e296">
+               <lb ed="#V" n="62"/>(c) Quando autem illa. ler recta 
+se<lb break="no" ed="#V" n="63"/>cundum quam ordinate agendum est,
+<lb ed="#V" n="64"/>non posset ergo ordinate agere alia
+<lb ed="#V" n="65"/>ab illa lege statuta, etsi ageret, 
+inor<lb break="no" ed="#V" n="66"/>dinate ageret, et potentia absoluta, 
+li<lb break="no" ed="#V" n="67"/>cet inordinate ageret, et hoc modo
+<lb ed="#V" n="68"/>absoluta posset. excedere ordinatam.
+</p>
+            <p xml:id="mm30o9-d1e1396-d1e314">
+               <lb ed="#V" n="69"/>(d) Sed quando in potestate agentis
+<lb ed="#V" n="70"/>est lex, etc. id est, quod si statuat aliam
+<lb ed="#V" n="71"/>legem a priori lege, et agat secundum
+<lb ed="#V" n="72"/>illam legem posterius statutam, agit
+<lb ed="#V" n="73"/>de potentia ordinata, (accipiendo 
+po<lb break="no" ed="#V" n="74"/>tentiam ordinatam pro ordinale agere)
+<lb ed="#V" n="75"/>ita enim ordinate agit secundum 
+se<lb break="no" ed="#V" n="76"/>cundam legem, sicut secundum 
+pri<lb break="no" ed="#V" n="77"/>mam, potest tamen dici absoluta, non
+<lb ed="#V" n="78"/>quia inordinata, sed quia absoluta a
+<lb ed="#V" n="79"/>priori lege. Et quomodo omnis actus
+<lb ed="#V" n="80"/>voluntatis divine sit de se rectus,
+<lb ed="#V" n="81"/>imo rectitudo, vide Doctorem supra
+<lb ed="#V" n="82"/>in prolog. quest. ult. dist. 4. q. A. d. 39.
+<lb ed="#V" n="83"/>et dist. 43. in 2. d. 23. eic.
+</p>
+            <p xml:id="mm30o9-d1e1396-d1e349">
+               <lb ed="#V" n="84"/>(e) Ad propositum igitur. applicando
+<lb ed="#V" n="85"/>dico. Doctor nunc applieat ad 
+propo<lb break="no" ed="#V" n="86"/>situm suum principale ea quae dixit. |
+<lb ed="#V" n="87"/>Sed prius declaro differentiam, quae
+<lb ed="#V" n="88"/>est inter legem et judicium. Nam lex
+<pb ed="#V" n="748"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>est propositio universalis, dictans 
+de<lb break="no" ed="#V" n="2"/>terminationem divin: voluntatis circa
+<lb ed="#V" n="3"/>esse vel agere creaturae $1atio nalis, ut
+<lb ed="#V" n="4"/>omnis finaliter in mortali peccato 
+mo<lb break="no" ed="#V" n="5"/>riens damnatur. Similiter, omnis 
+fina<lb break="no" ed="#V" n="6"/>liter hinc exiens in. gratia Dei est 
+beati<lb break="no" ed="#V" n="7"/>ficandus. Judicium vero est de 
+parti<lb break="no" ed="#V" n="8"/>eularibus ad quae applicatur lex, ut in
+<lb ed="#V" n="9"/>syllogismo practico, ut arguendo sic :
+<lb ed="#V" n="10"/>Omnis finaliter moriens in mortali
+<lb ed="#V" n="11"/>peccato est damnandus, sed Judas est
+<lb ed="#V" n="12"/>hujusmodi ; ergo Judas est 
+damnan<lb break="no" ed="#V" n="13"/>dus. Cognitio majoris universalis 
+dici<lb break="no" ed="#V" n="14"/>tur lex, sed cognitio conclusionis 
+de<lb break="no" ed="#V" n="15"/>ductae ex majori et minori dicitur 
+ju<lb break="no" ed="#V" n="16"/>dicium ; unde judicat Judam esse
+<lb ed="#V" n="17"/>damnandum. Et ista de lege 
+univer<lb break="no" ed="#V" n="18"/>sali et judicio satis patent hie, et
+<lb ed="#V" n="19"/>etiam satis diffuse in 2 dist. 6. quast.
+<lb ed="#V" n="20"/>2. Nunc expono litteram. Cum dicit
+<lb ed="#V" n="21"/>quod /eges alique generales recte de
+<lb ed="#V" n="22"/>operabilibus dictantes profire sunt a
+<lb ed="#V" n="23"/>voluntate divina, ut dictum est supra
+<lb ed="#V" n="24"/>dist. 38.
+</p>
+            <p xml:id="mm30o9-d1e1396-d1e419">
+               <lb ed="#V" n="25"/>Adverte, quod lex statuta proprie
+<lb ed="#V" n="26"/>non dictat voluntati, (cum ex se non
+<lb ed="#V" n="27"/>possit esse praesens,) sed dictare 
+con<lb break="no" ed="#V" n="28"/>eruit eognitioni practice ; cognitio
+<lb ed="#V" n="29"/>ergo in aliquo intellectu alicujus 
+de<lb break="no" ed="#V" n="30"/>terminationis divine voluntatis 
+dice<lb break="no" ed="#V" n="31"/>tur lex dictans, puta cognoseo per 
+re<lb break="no" ed="#V" n="32"/>velationem quod Deus determinavit
+<lb ed="#V" n="33"/>omnem homicidam decapitari, talis
+<lb ed="#V" n="34"/>cognitio potest dici lex regulativa 
+vo<lb break="no" ed="#V" n="35"/>luntalis, ut conformiter velit tali 
+dic<lb break="no" ed="#V" n="36"/>tamini. Sed vide qua dicta suntin
+<lb ed="#V" n="37"/>quaestione de scientia practica.
+</p>
+            <p xml:id="mm30o9-d1e1396-d1e450">
+               <lb ed="#V" n="38"/>(f) Sed quando intellectus offert. 
+vo<lb break="no" ed="#V" n="39"/>luntati divine talem legem, etc. Sed
+<lb ed="#V" n="40"/>pro intelligentia litterae hujus et 
+se<lb break="no" ed="#V" n="41"/>quentis, praemitto aliqua. Primo, si
+<lb ed="#V" n="42"/>intellectus divinus offert hoc voluntati
+<lb ed="#V" n="43"/>divini, quod quilibet glorificandus est
+<lb ed="#V" n="44"/>prius qratificandus, si offert ut. rec-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>tum et justum, ita quod rectitudo sit
+<lb ed="#V" n="46"/>a tali dictamine, tunc voluntas divina
+<lb ed="#V" n="47"/>(ut videtur) non posset juste et 
+ordi<lb break="no" ed="#V" n="48"/>nate agere contra illud dictamen, et
+<lb ed="#V" n="49"/>sie non posset ordinate aliter velle
+<lb ed="#V" n="50"/>quam dictatum est. Sicut etiam 
+Doc<lb break="no" ed="#V" n="51"/>tor in 4. dist. 46. quast. 1. dicit 
+ex<lb break="no" ed="#V" n="52"/>presse, quod (accipiendo justitiam, ut
+<lb ed="#V" n="53"/>est rectitudo voluntatis propter se 
+ser<lb break="no" ed="#V" n="54"/>vala, et etiam ut est ad quasi alterum)
+<lb ed="#V" n="55"/>talis justitia est in Deo praecedens 
+ac<lb break="no" ed="#V" n="56"/>tum voluntatis divina, uot puta 
+co<lb break="no" ed="#V" n="57"/>gnitio, qua intellectus. divinus 
+co<lb break="no" ed="#V" n="58"/>gnoscit quod Deus est super omnia
+<lb ed="#V" n="59"/>diligendus, talis cognitio dictat 
+ne<lb break="no" ed="#V" n="60"/>eessario voluntati divine ut diligat
+<lb ed="#V" n="61"/>Deum super omnia, tunc voluntas 
+di<lb break="no" ed="#V" n="62"/>vina non posset juste velle oppositum,
+<lb ed="#V" n="63"/>nec agere contra nec prater illud 
+dic<lb break="no" ed="#V" n="64"/>tatum. Vide ibi. Sic in proposito, si
+<lb ed="#V" n="65"/>ponitur talis lex praecedens in 
+intel<lb break="no" ed="#V" n="66"/>lectu divino, et rectitudo esse a tali
+<lb ed="#V" n="67"/>lege, voluntas divina non posset velle
+<lb ed="#V" n="68"/>oppositum ; et hoc ordinate, nec
+<lb ed="#V" n="69"/>etiam inordinate, quia agere 
+inordi<lb break="no" ed="#V" n="70"/>nate est simpliciter ei impossibile.
+<lb ed="#V" n="71"/>Posito hoc, non posset in ea distingui
+<lb ed="#V" n="72"/>potentia ordinata et absoluta, quia
+<lb ed="#V" n="73"/>tantum posset agere conformiter tali
+<lb ed="#V" n="74"/>legi; et sic forte videretur velle de 
+ne<lb break="no" ed="#V" n="75"/>cessitate, quia etiam intellectus dicta.
+<lb ed="#V" n="76"/>ret de necessitate nature, nisi forte
+<lb ed="#V" n="77"/>diceretur quod dicit Scotus 2» 4. dist.
+<lb ed="#V" n="78"/>46. quast, prima, qui sic dicit ad 
+lit<lb break="no" ed="#V" n="79"/>teram : Esto tamen quod intellectus de
+<lb ed="#V" n="80"/>aliquo ante apprehenderet illud esse
+<lb ed="#V" n="81"/>agendum quam voluntas. illud. vellet,
+<lb ed="#V" n="82"/>sicut apprehendi de hoc: Deus est dili
+<lb ed="#V" n="83"/>gendus, non sequitur naturali. 
+necessi<lb break="no" ed="#V" n="84"/>tate, illud apprehendit, et voluntas non
+<lb ed="#V" n="85"/>potest. discordare ; ergo voluntas natu:
+<lb ed="#V" n="86"/>rali necessitate hoc vult, quia non 
+po<lb break="no" ed="#V" n="87"/>lest discordare in objecto, ut scilicet. 
+ve<lb break="no" ed="#V" n="88"/>lit aut nolit. illud. quod ostendit volen-
+<pb ed="#V" n="749"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>dum in modo tendendi in illud 
+objec<lb break="no" ed="#V" n="2"/>tum, discordat vel magis proprie 
+dis<lb break="no" ed="#V" n="3"/>Unguitur, quia. intellectus. suo. modo
+<lb ed="#V" n="4"/>tendit in. illud, scilicet naturaliter, el
+<lb ed="#V" n="5"/>voluntas suo modo, scilicet libere, ef
+<lb ed="#V" n="6"/>«le potentiae concordant, quae semper
+<lb ed="#V" n="7"/>in idem objectum. tendunt. suis propriis
+<lb ed="#V" n="8"/>modis tendendi, sicut phantasia et. 
+in<lb break="no" ed="#V" n="9"/>telleclus non discordant, licet haec tendat
+<lb ed="#V" n="10"/>in objectum ut singulare, et ille in 
+obje<lb break="no" ed="#V" n="11"/>ctum ut universale. Wc Scotus.
+</p>
+            <p xml:id="mm30o9-d1e1396-d1e594">
+               <lb ed="#V" n="12"/>Dico ergo duo : Primum, quod 
+res<lb break="no" ed="#V" n="13"/>pectu eorum qu fiunt ad extra nulla
+<lb ed="#V" n="14"/>lex intellectus, sive nulla cognitio 
+re<lb break="no" ed="#V" n="15"/>gulativa voluntatis divine, sive 
+dic<lb break="no" ed="#V" n="16"/>tans quid agendum, praecedit in 
+in<lb break="no" ed="#V" n="17"/>tellectu divino respectu voluntatis 
+di<lb break="no" ed="#V" n="18"/>vine, et hoc est magis secundum
+<lb ed="#V" n="19"/>menlem et verba Doctoris, ut patet
+<lb ed="#V" n="20"/>expresse, supra ia prolog. q. ult. et in
+<lb ed="#V" n="21"/>isto primo d. 38. 39. et. A1. et prasenti
+<lb ed="#V" n="22"/>dist. et in 2. d.1. q. 1. et in 4. d. 46. q.
+<lb ed="#V" n="23"/>1. et in quodlib. q. A4. et alibi. Vide 
+di<lb break="no" ed="#V" n="24"/>ligenter, et invenies expressam 
+Doc<lb break="no" ed="#V" n="25"/>loris intentionem. Nullo ergo modo
+<lb ed="#V" n="26"/>regulatur voluntas divina ab 
+intellec<lb break="no" ed="#V" n="27"/>lu divino respectu creaturae. Et si 
+ali<lb break="no" ed="#V" n="28"/>quando  praecedit cognitio respectu
+<lb ed="#V" n="29"/>operabilium, tantum praecedit ut 
+neu<lb break="no" ed="#V" n="30"/>ira, non enim intellectus divinus ante
+<lb ed="#V" n="31"/>determinationem divine voluntatis
+<lb ed="#V" n="32"/>scit determinate, puta Christum esse
+<lb ed="#V" n="33"/>adorandum in Sacramento altaris esse
+<lb ed="#V" n="34"/>justum, vel parentibus obediendum
+<lb ed="#V" n="35"/>esse justum, ut satis patere posset ex
+<lb ed="#V" n="36"/>his quia sunt dicta supra 2m dist. 39.
+<lb ed="#V" n="37"/>talia enim sunt recta ex natura rei ;
+<lb ed="#V" n="38"/>sunt enim recta, quia a divina 
+vo<lb break="no" ed="#V" n="39"/>luntate praccepta. Secus forte esset de
+<lb ed="#V" n="40"/>his qua recta sunt ex natura rei, sicut
+<lb ed="#V" n="41"/>de principiis practicis notis ex 
+termi<lb break="no" ed="#V" n="42"/>nis et de conclusionibus ex talibus
+<lb ed="#V" n="43"/>prineipiis deductis, qui ex natura rei
+<lb ed="#V" n="44"/>sunt recta, contra quae etiam voluntas
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>divina dispensare non posset, et forte
+<lb ed="#V" n="46"/>contra istam legem non posset ordinate
+<lb ed="#V" n="47"/>aliqua voluntas, et sic non esset 
+dis<lb break="no" ed="#V" n="48"/>linguenda potentia absoluta et 
+poten<lb break="no" ed="#V" n="49"/>tia ordinata. De quibus principiis et
+<lb ed="#V" n="50"/>eoneclusionibus, vide Doctorem 27 2.
+<lb ed="#V" n="51"/>dist. 39, et in 3. dist. 87. et in 4. dist. 17.
+<lb ed="#V" n="52"/>et alibi. Secundum, quod omnis actus
+<lb ed="#V" n="53"/>voluntatis divine maxime circa 
+om<lb break="no" ed="#V" n="54"/>nia contingentia de se, est rectus,
+<lb ed="#V" n="55"/>imo ipsa rectitudo, etiam posito quod
+<lb ed="#V" n="56"/>nulla cognitio directiva praecedat, et
+<lb ed="#V" n="57"/>$i praecederet adhuc non diceretur
+<lb ed="#V" n="58"/>rectus, quia conformis tali regulw,
+<lb ed="#V" n="59"/>sed simpliciterex hoc quod a tali 
+vo<lb break="no" ed="#V" n="60"/>luntate eliceretur de necessitate, 
+dice<lb break="no" ed="#V" n="61"/>retur rectus a regula. De hoc vide
+<lb ed="#V" n="62"/>Doctorem in prolog. quaest. ult. et in
+<lb ed="#V" n="63"/>primo dist. 38. 39. 44. in 2. dist. 93. et
+<lb ed="#V" n="64"/>34. Omnis ergo determinatio divina
+<lb ed="#V" n="65"/>voluntatis de aliqua propositione 
+uni<lb break="no" ed="#V" n="66"/>versaliter diciturlex, ut cum 
+determi<lb break="no" ed="#V" n="67"/>nai omnem in mortali peccato 
+dece<lb break="no" ed="#V" n="68"/>dentem fore damnandum ; omnis etiam
+<lb ed="#V" n="69"/>determinatio circa aliquod particulare,
+<lb ed="#V" n="70"/>sive circa aliquam conclusionem
+<lb ed="#V" n="71"/>sumptam sub illa lege universaliter
+<lb ed="#V" n="72"/>dicitur judicium, ut determinat Judam
+<lb ed="#V" n="73"/>in moriali peccato decedentem fore
+<lb ed="#V" n="74"/>damnandum. Et in istis, sive circa
+<lb ed="#V" n="75"/>ista, contingit distinguere in 
+volun<lb break="no" ed="#V" n="76"/>tate divina potentiam absolutam et
+<lb ed="#V" n="77"/>ordinatam. Et ex his patet littera 
+Doc<lb break="no" ed="#V" n="78"/>toris.
+</p>
+            <p xml:id="mm30o9-d1e1396-d1e744">
+               <lb ed="#V" n="79"/>Occurrit tamen dubium in hoc quod
+<lb ed="#V" n="80"/>dicit, quod in voluntate divina 
+contin<lb break="no" ed="#V" n="81"/>git distinguere potentiam absolutam
+<lb ed="#V" n="82"/>et ordinatam, et quod potentia absoluta
+<lb ed="#V" n="83"/>potest agere praeter et contra legem
+<lb ed="#V" n="84"/>prius ordinatam. Pono quod Deus ab
+<lb ed="#V" n="85"/>eterno ordinavit vel statuit omnem
+<lb ed="#V" n="86"/>finaliter in gratia decedentem fore
+<lb ed="#V" n="87"/>glorificandum, quaero, si potest 
+sta<lb break="no" ed="#V" n="88"/>tuere legem contrariam, puta quod
+<pb ed="#V" n="750"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>omnis moriens in gratia non 
+glorifice<lb break="no" ed="#V" n="2"/>tur aut non? Si non, ergo non erit in
+<lb ed="#V" n="3"/>eo potentia absoluta. Si sic, ergo 
+vo<lb break="no" ed="#V" n="4"/>luntas divina poterit mutari. Patet,
+<lb ed="#V" n="5"/>quia non potest habere aliam 
+determi<lb break="no" ed="#V" n="6"/>nationem contrariam prim: 
+determi<lb break="no" ed="#V" n="7"/>nationi sine mutatione, quia non sine
+<lb ed="#V" n="8"/>novo velle, ut patuit supra dst. 39. 
+Li<lb break="no" ed="#V" n="9"/>cet enim voluntas dicatur libera cirea
+<lb ed="#V" n="10"/>opposita, pro quanto est in potestate
+<lb ed="#V" n="11"/>sua eligere quod voluerit, tamen 
+post<lb break="no" ed="#V" n="12"/>quam se determinavit ad unum 
+oppo<lb break="no" ed="#V" n="13"/>sitorum, non poterit se delerminare ad
+<lb ed="#V" n="14"/>aliud, ut supra patuit dist. 39.
+</p>
+            <p xml:id="mm30o9-d1e1396-d1e803">
+               <lb ed="#V" n="15"/>Respondeo quod voluntas divina non
+<lb ed="#V" n="16"/>potest statuere oppositum illius quod
+<lb ed="#V" n="17"/>prius statuit, ut si statuit omnem 
+ho<lb break="no" ed="#V" n="18"/>micidam damnari, non potest postea
+<lb ed="#V" n="19"/>contrarium statuere, hoc enim non
+<lb ed="#V" n="20"/>posset esse sine nova determinatione
+<lb ed="#V" n="21"/>voluntatis. Quomodo ergo in ea est
+<lb ed="#V" n="22"/>distinguere potentiam ordinatam et
+<lb ed="#V" n="23"/>absolutam? Dico quod, etiam hoc 
+stan<lb break="no" ed="#V" n="24"/>te, est distinguere in ea potentiam 
+or<lb break="no" ed="#V" n="25"/>dinatam et absolutam, hoc scilicet
+<lb ed="#V" n="26"/>modo, quia voluntas divina est libera
+<lb ed="#V" n="27"/>ad opposita, sive successive sive pro
+<lb ed="#V" n="28"/>eodem instanti, ut supra patuit dist. 99.
+<lb ed="#V" n="29"/>et quodcumque statueret, ordinate 
+sta<lb break="no" ed="#V" n="30"/>tueret ; si enim statueret omnem 
+glorifi<lb break="no" ed="#V" n="31"/>candum esse prius glorificandum, ista
+<lb ed="#V" n="32"/>lex esset ordinata. Similiter si statueret
+<lb ed="#V" n="33"/>omnem glorificandum non esse prius
+<lb ed="#V" n="34"/>glorificandum, ista lex esset ordinata,
+<lb ed="#V" n="35"/>tamen posset dici absoluta pro quanto
+<lb ed="#V" n="36"/>ab alia lege esset. absoluta. Diceretur
+<lb ed="#V" n="37"/>ergo posse agere de potentia absoluta,
+<lb ed="#V" n="38"/>inquantum voluntas divina absolute
+<lb ed="#V" n="39"/>considerata pro eodem instanti, quo
+<lb ed="#V" n="40"/>statuit omnem glorificandum esse
+<lb ed="#V" n="41"/>prius glorificandum, potuit 
+opposi<lb break="no" ed="#V" n="42"/>tum statuere, et si oppositum  
+sta<lb break="no" ed="#V" n="43"/>tuisset, illud diceretur de potentia
+<lb ed="#V" n="44"/>absoluta, quia absoluta ab alia lege,
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>quam pro eodem instanti potuit 
+statue<lb break="no" ed="#V" n="46"/>re. Et sic forte debet intelligi ista 
+litte<lb break="no" ed="#V" n="47"/>ra, cum dicit: Deus igitur agere potens
+<lb ed="#V" n="48"/>secundum istas rectas leges ut. praefixa
+<lb ed="#V" n="49"/>sunt ab eo, dicitur agere secundum 
+po<lb break="no" ed="#V" n="50"/>tentiam ordinatam ; ut autem potest
+<lb ed="#V" n="51"/>agere multa quae non sunt secundura
+<lb ed="#V" n="52"/>istas leges jam prefixas, sed praeter
+<lb ed="#V" n="53"/>illas dicitur ejus potentia absoluta,
+<lb ed="#V" n="54"/>quia multa alia potest agere ordinate,
+<lb ed="#V" n="55"/>ei multa alia posse fieri ordinate ab
+<lb ed="#V" n="56"/>illis quae fiunt. conformiter istis 
+legi<lb break="no" ed="#V" n="57"/>bus, non includit contradictionem,
+<lb ed="#V" n="58"/>quia rectitudo illius legis secundum
+<lb ed="#V" n="59"/>quam quis dicitur recte et ordinate
+<lb ed="#V" n="60"/>agere, est in potestate ipsius agentis.
+</p>
+            <p xml:id="mm30o9-d1e1396-d1e907">
+               <lb ed="#V" n="61"/>Posset etiam dici quod Deus dicitur
+<lb ed="#V" n="62"/>agere potentia absoluta et potentia 
+or<lb break="no" ed="#V" n="63"/>dinata, et hoc semper ab aeterno, 
+quid<lb break="no" ed="#V" n="64"/>quid vult ab aeterno voluit, ut patet
+<lb ed="#V" n="65"/>infra distinct. 45. et ideo si ab aeterno
+<lb ed="#V" n="66"/>vult omnem glorificandum prius 
+gra<lb break="no" ed="#V" n="67"/>tificandum esse, hoc vult de potentia
+<lb ed="#V" n="68"/>ordinata. Et quia volens hoc potest in
+<lb ed="#V" n="69"/>illo instanti velle oppositum, et sic 
+po<lb break="no" ed="#V" n="70"/>test velle oppositum potentia absoluta,
+<lb ed="#V" n="71"/>scilicet a priori lege, sicut dicit Doctor
+<lb ed="#V" n="72"/>supra d?st/nct. 36. quod voluntas 
+divi<lb break="no" ed="#V" n="73"/>na volens actu A fore pro instanti £,
+<lb ed="#V" n="74"/>potest non velle A pro eodem instanti
+<lb ed="#V" n="75"/>B, ut ibi diffuse expositum est. Sic 
+er<lb break="no" ed="#V" n="76"/>go posito quod velit A pro instanti £,
+<lb ed="#V" n="77"/>et hoc potentia ordinata, potest tamen
+<lb ed="#V" n="78"/>non velle A4 pro instanti P, et hoc 
+po<lb break="no" ed="#V" n="79"/>tentia absoluta, et si ponatur in esse
+<lb ed="#V" n="80"/>quod velit oppositum,  tunc vult de 
+po<lb break="no" ed="#V" n="81"/>tentia absoluta a priori lege. Et sic de
+<lb ed="#V" n="82"/>novo non posset velle oppositum illius,
+<lb ed="#V" n="83"/>quod ordinatum et statutum est, quia
+<lb ed="#V" n="84"/>voluntas divina quidquid vult, 
+immu<lb break="no" ed="#V" n="85"/>tabiliter vult, sicut et intellectus 
+divi<lb break="no" ed="#V" n="86"/>nus quidquid intelligit, immutabiliter
+<lb ed="#V" n="87"/>intelligit, ut supra ostensum est disf.
+<lb ed="#V" n="88"/>39.
+</p>
+            <p xml:id="mm30o9-d1e1396-d1e970">
+               <pb ed="#V" n="751"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>(g) Advertendum tamen est, etc. In
+<lb ed="#V" n="2"/>ista littera plura tangit Doctor. 
+Pri<lb break="no" ed="#V" n="3"/>mum, quod aliquid esse ordinatum et
+<lb ed="#V" n="4"/>ordinate fieri, potest esse dupliciter, 
+sci<lb break="no" ed="#V" n="5"/>licet ordine universali, et tanc tale 
+or<lb break="no" ed="#V" n="6"/>dinatum dicitur lex, quae est de 
+casi<lb break="no" ed="#V" n="7"/>bus universalibus ; et ordine 
+particula<lb break="no" ed="#V" n="8"/>ri, et taleordinatum dicitur judicium,
+<lb ed="#V" n="9"/>quod est conclusio legis universalis.
+<lb ed="#V" n="10"/>Seeundum: Dews non tantum potest
+<lb ed="#V" n="11"/>aliter agere quam ordinatum sit ordine
+<lb ed="#V" n="12"/>particulari, sed etiain quam sit 
+ordina<lb break="no" ed="#V" n="13"/>tum ordine universali. l'eetium : 
+Poten<lb break="no" ed="#V" n="14"/>tia ordinata non dicitur nisi secundum
+<lb ed="#V" n="15"/>ordinem legis universalis, non autem
+<lb ed="#V" n="16"/>secundum ordinem legis recte de 
+ali<lb break="no" ed="#V" n="17"/>quo particulari, quia possibile est Deum
+<lb ed="#V" n="18"/>salvare aliquem, qui tamen morietur
+<lb ed="#V" n="19"/>finaliter in peccato mortali, et 
+damnabi<lb break="no" ed="#V" n="20"/>tur. Et hoc est ei possibile potentia 
+or<lb break="no" ed="#V" n="21"/>dinata, quia adhuc non est judicatus,
+<lb ed="#V" n="22"/>nec incidit in lege statuente quae est,
+<lb ed="#V" n="23"/>quod omnis finaliter moriens in 
+pecca<lb break="no" ed="#V" n="24"/>lo mortali damnetur, potest enim 
+prae<lb break="no" ed="#V" n="25"/>venire ne incidat in illam sententiam,
+<lb ed="#V" n="26"/>Non autem conceditur posse salvare 
+Ju<lb break="no" ed="#V" n="27"/>dam jam damnatum, et hoc potentia 
+or<lb break="no" ed="#V" n="28"/>dinata, quia jam judicatum est 
+seeun<lb break="no" ed="#V" n="29"/>dum legem universalem, quae est quod
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="30"/>omnis finaliter moriens in mortali 
+pec<lb break="no" ed="#V" n="31"/>cato damnabitur, potest tamen potentia
+<lb ed="#V" n="32"/>absoluta ipsum salvare, quia non 
+in<lb break="no" ed="#V" n="33"/>cludit, contradictionem.
+</p>
+            <p xml:id="mm30o9-d1e1396-d1e1051">
+               <lb ed="#V" n="34"/>(h) Istum ergo potest. salva?e de 
+po<lb break="no" ed="#V" n="35"/>tentia ordinata, eto. Ista littera stat in
+<lb ed="#V" n="36"/>duobus dictis. Primum: Si Deus potest
+<lb ed="#V" n="37"/>salvare A, qui finaliter morietur in
+<lb ed="#V" n="38"/>peccato, et damnabitur, hoc erit de 
+po<lb break="no" ed="#V" n="39"/>tentia ordinata, quia hoc atat cum 
+le<lb break="no" ed="#V" n="40"/>ge universali, scilicet quod om?s 
+fina<lb break="no" ed="#V" n="41"/>[iter malus damnabitur, quia iste adhuc
+<lb ed="#V" n="42"/>non est finaliter peccator, quia potest
+<lb ed="#V" n="43"/>Deus eum gratia sua prevenire, et sic
+<lb ed="#V" n="44"/>potest non esse peccator dum est in
+<lb ed="#V" n="45"/>via. Secundum: Judam damnatum
+<lb ed="#V" n="46"/>posse salvari, non stat cum illa lege
+<lb ed="#V" n="47"/>priori, etideo non potest salvare de 
+po<lb break="no" ed="#V" n="48"/>tentia ordinata, id est, conformi 
+prio<lb break="no" ed="#V" n="49"/>ri lege, sed si potest, hoc erit de 
+poten<lb break="no" ed="#V" n="50"/>tia absoluta, quia contra legem 
+prefi<lb break="no" ed="#V" n="51"/>xam. Si tamen statueret Deus aliam
+<lb ed="#V" n="52"/>legem, puta quod finaliter morientes
+<lb ed="#V" n="53"/>in peccato mortali non damnabuntur,
+<lb ed="#V" n="54"/>vel quod omnis damnatus salvabitur,
+<lb ed="#V" n="55"/>tunc posset Judam salvare de potentia
+<lb ed="#V" n="56"/>ordinata, quia Judam salvari stat cum
+<lb ed="#V" n="57"/>illa lege, etc.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

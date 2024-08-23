@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#per-FLBca3">Franciscus Lychetus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2024-08-23">August 23, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 10</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-08-23" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="450"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="mm30o9-d1e1151"><!-- lycht-d29q1-p2 -->
+            <head xml:id="mm30o9-d1e1151-Hd1e101">Quaestio 1</head>
+            <p xml:id="mm30o9-d1e1151-d1e103">
+               <lb ed="#V" n="21" type="fixed=443"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1151-d1e108">
+               <lb ed="#V" n="22"/>(a) Ad istam quaestionem dico. 
+Sup<lb break="no" ed="#V" n="23"/>pono unum quod hte accipitur 
+prnci<lb break="no" ed="#V" n="24"/>pium pro principio productivo, et hoc
+<lb ed="#V" n="25"/>pro significato tantum, sicut satis 
+su<lb break="no" ed="#V" n="26"/>pra patet ds. 7. principium enim pro
+<lb ed="#V" n="27"/>significato dicit relationem . 
+conno<lb break="no" ed="#V" n="28"/>tando subjectum. Secundo, suppono
+<lb ed="#V" n="29"/>quod principium personale hic 
+dici<lb break="no" ed="#V" n="30"/>tur generans sive spirans ; principium
+<lb ed="#V" n="31"/>notionale dicitur generatio activa et
+<lb ed="#V" n="32"/>spiratio activa quae reducuntur ad 
+ge<lb break="no" ed="#V" n="33"/>nus principii, ut patet supra dest. 36.
+<lb ed="#V" n="34"/>in exponendo opinionem Joannis de
+<lb ed="#V" n="35"/>Ripa. Principium essentiale accipitur
+<lb ed="#V" n="36"/>pro respectu ad extra dicens 
+princi<lb break="no" ed="#V" n="37"/>piationem, sicut creatio, etc. Tertio
+<lb ed="#V" n="38"/>suppono, quod principium essentiale
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="39"/>(quod in proposito dicitur essentiale,
+<lb ed="#V" n="40"/>quia commune tribus, non quod sit
+<lb ed="#V" n="41"/>de essentia alicujus, nec quod dicat
+<lb ed="#V" n="42"/>essentiam nec perfectionem aliquam,
+<lb ed="#V" n="43"/>sed quia tantum commune, ut patet a
+<lb ed="#V" n="44"/>Doctore 1. quast. quodlib.) est tantum
+<lb ed="#V" n="45"/>relatio rationis, quia omnis relatio
+<lb ed="#V" n="46"/>Dei ad creaturam est tantum rationis,
+<lb ed="#V" n="47"/>ut patet infra dest. 30. quest. 1. et 2.
+<lb ed="#V" n="48"/>et supra d. 2. e/ 8. Principium vero
+<lb ed="#V" n="49"/>nolionale est relatio nature realis,
+<lb ed="#V" n="50"/>scilicet generatio activa et spi$1atio  
+ac<lb break="no" ed="#V" n="51"/>tiva, et personale est ipsa relatio 
+rea<lb break="no" ed="#V" n="52"/>lis sumpta in concreto. Quarto 
+sequi<lb break="no" ed="#V" n="53"/>tur ex dictis quod principium in com*
+<lb ed="#V" n="54"/>muni tantum potest se habere uno
+<lb ed="#V" n="55"/>modo, id est, non potest esse 
+univo<lb break="no" ed="#V" n="56"/>cum ad hujusmodi prius, quia enti
+<lb ed="#V" n="57"/>rationis, et enti reali non est 
+com<lb break="no" ed="#V" n="58"/>mune univoeum, ut patet hic a 
+Doc<lb break="no" ed="#V" n="59"/>tore, et in quodlib. quast. 3. Quinto
+<lb ed="#V" n="60"/>nota, quod principium ad intra 
+pre<lb break="no" ed="#V" n="61"/>dicatur univoce de personaliet 
+notio<lb break="no" ed="#V" n="62"/>nali. Sexto nota, quod primum 
+argu<lb break="no" ed="#V" n="63"/>mentum faetum in principio 
+quas<lb break="no" ed="#V" n="64"/>tionis tantum vadit de principio, ut
+<lb ed="#V" n="65"/>esi commune personali et notionali,
+<lb ed="#V" n="66"/>non autem essentiali, et sic Doctor 
+res<lb break="no" ed="#V" n="67"/>pondet quod tale principium potest
+<lb ed="#V" n="68"/>esse univocum notionali et personali.
+</p>
+            <p xml:id="mm30o9-d1e1151-d1e215">
+               <lb ed="#V" n="69"/>(b) Ad argumentum «ad oppositum
+<lb ed="#V" n="70"/>patet responsio. Creans, ergo 
+princi<lb break="no" ed="#V" n="71"/>pians, etc. Nam cum dico : Deus est
+<lb ed="#V" n="72"/>creans; ergo principians. Nam sicut
+<lb ed="#V" n="73"/>ereans dicit respectum $1atio nis, ita et
+<lb ed="#V" n="74"/>prineipians ; et cum dicit: Pater est
+<lb ed="#V" n="75"/>generans, ergo principians. Hic 
+gene<lb break="no" ed="#V" n="76"/>rans dicit relationem realem, et 
+simi<lb break="no" ed="#V" n="77"/>liter praencipians. Et sic patet ista 
+dis<lb break="no" ed="#V" n="78"/>tinctio.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#per-FLBca3">Franciscus Lychetus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2024-08-23">August 23, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 10</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-08-23" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="758"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="mm30o9-d1e1414"><!-- lycht-d45q1-p2 -->
+            <head xml:id="mm30o9-d1e1414-Hd1e101">Quaestio 1</head>
+            <p xml:id="mm30o9-d1e1414-d1e103">
+               <lb ed="#V" n="34" type="fixed=758"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1414-d1e108">
+               <lb ed="#V" n="35"/>(a) Respondeo, omnis potentia 
+opera<lb break="no" ed="#V" n="36"/>tiva. Ista littera clara est, et stat in
+<lb ed="#V" n="37"/>duabus conclusionibus.
+</p>
+            <p xml:id="mm30o9-d1e1414-d1e117">
+               <lb ed="#V" n="38"/>Prima, quod voluntas divina est
+<lb ed="#V" n="39"/>potentia perfecta respectu omnis 
+voli<lb break="no" ed="#V" n="40"/>bilis, et sic eum ab aeterno;fuerit 
+per<lb break="no" ed="#V" n="41"/>fectissima, ab cterno voluit quidquid
+<lb ed="#V" n="42"/>voluit. Et Doctor vult. quod sicut in-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>tellectus perfectus est principium
+<lb ed="#V" n="44"/>omnis intelligibilis, ut supra patuit
+<lb ed="#V" n="45"/>dist. 35. 36. et 39. quia si producit 
+om<lb break="no" ed="#V" n="46"/>nia in esse intelligibili et. in esse 
+cogui<lb break="no" ed="#V" n="47"/>lo, sic voluntas divina, quae est 
+forma<lb break="no" ed="#V" n="48"/>liter infinita, ut supra ostensum est,
+<lb ed="#V" n="49"/>dist. 2. dist. 1. erit principium omnis
+<lb ed="#V" n="50"/>volibilis, differenter tamen, quia 
+intel<lb break="no" ed="#V" n="51"/>leetus est. principium mere 
+necessa<lb break="no" ed="#V" n="52"/>rium, voluntas vero tantum liberum.
+<lb ed="#V" n="53"/>Est etiam differentia, quia intellectus
+<lb ed="#V" n="54"/>producit omnia in esse cognito et in
+<lb ed="#V" n="55"/>esse possibili, ub supra patuit dis/. 44.
+<lb ed="#V" n="56"/>voluntas vero praesupponit de 
+neces<lb break="no" ed="#V" n="57"/>sitate esse cognitum illorum, et esse
+<lb ed="#V" n="58"/>possibile. Nunquam enim voluntas
+<lb ed="#V" n="59"/>divina producit aliqua in esse volibili,
+<lb ed="#V" n="60"/>sed tantum in esse volito vel in esse
+<lb ed="#V" n="61"/>simpliciter et reali, prius enim res est
+<lb ed="#V" n="62"/>volibilis quam voluntas habeat oliquem
+<lb ed="#V" n="63"/>actum circa illam; antequam enim
+<lb ed="#V" n="64"/>determinetur Antichristum fore a 
+di<lb break="no" ed="#V" n="65"/>vina voluntate, prius habet esse 
+pos<lb break="no" ed="#V" n="66"/>sibile et esse volibile. Non sic est de
+<lb ed="#V" n="67"/>intellectu divino, qui solo suo actu
+<lb ed="#V" n="68"/>produeit omnia in esse cognito, et per
+<lb ed="#V" n="69"/>consequens in esse possibili, quod 
+fun<lb break="no" ed="#V" n="70"/>datur in esse cognito, et sic anteillum
+<lb ed="#V" n="71"/>actum nihil est, nec in esse simpliciter
+<lb ed="#V" n="72"/>nec in esse cognito, nec in esse 
+possi<lb break="no" ed="#V" n="73"/>bilj, nec in esse intelligibili.
+</p>
+            <p xml:id="mm30o9-d1e1414-d1e200">
+               <lb ed="#V" n="74"/>Secunda, voluntas divina non potest
+<lb ed="#V" n="75"/>velle aliquid de novo, sed quidquid
+<lb ed="#V" n="76"/>voluit, ab aeterno voluit, licet non pro
+<lb ed="#V" n="77"/>eterno, quia si posset velle aliquid
+<lb ed="#V" n="78"/>de novo,  tunc mutaretur, quia est
+<lb ed="#V" n="79"/>impossibile transire a contradictorio
+<lb ed="#V" n="80"/>in contradictorium sine mutatione,
+<lb ed="#V" n="81"/>ut supra dzsf. 39. prolixe exposita est
+<lb ed="#V" n="82"/>ista propositio. Sed ista mutatio non
+<lb ed="#V" n="83"/>posset esse in objecto, quia tantum
+<lb ed="#V" n="84"/>habet esse volitum, et nullum esse reale ;
+<lb ed="#V" n="85"/>ergo si esset aliqua mutatio, illa esset
+<lb ed="#V" n="86"/>in voluntate divina, quia transiret a
+<pb ed="#V" n="759"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>privatione alicujus actus  ad ipsum
+<lb ed="#V" n="2"/>actum. Sed an voluntas divina possit
+<lb ed="#V" n="3"/>velle aliquid de novo, quod prius 
+ta<lb break="no" ed="#V" n="4"/>men noluit, et si voluit aliquid ab
+<lb ed="#V" n="5"/>eterno, an oppositum illius possit
+<lb ed="#V" n="6"/>nune velle sine sui mutatione, hoc
+<lb ed="#V" n="7"/>esset diflieile sustinere. Si tamen 
+di<lb break="no" ed="#V" n="8"/>ceretur quod sicut eodem actu 
+sim<lb break="no" ed="#V" n="9"/>plieissimo et singularissimo potest
+<lb ed="#V" n="10"/>praedestinare, reprobare, ereare, etc.
+<lb ed="#V" n="11"/>Et si eodem modo simpliciter actu
+<lb ed="#V" n="12"/>potest nunc ereare, et prius non 
+crea<lb break="no" ed="#V" n="13"/>vit, quare etiam et de novo non potest
+<lb ed="#V" n="14"/>aliquid eodem simpliciter actu velle,
+<lb ed="#V" n="15"/>quod prius noluit, et hoc sine 
+muta<lb break="no" ed="#V" n="16"/>lione? In ista tamen materia die ut
+<lb ed="#V" n="17"/>exposui in secundo, semper me 
+sub<lb break="no" ed="#V" n="18"/>mittendo pedibussanclze Romana 
+Ec<lb break="no" ed="#V" n="19"/>clesice et peritioribus me. Nec illa dixi
+<lb ed="#V" n="20"/>asserlive, sed tantum sine assertione,
+<lb ed="#V" n="21"/>et salvo semper meliori judicio, vide
+<lb ed="#V" n="22"/>ibi. Deinde addit Doctor quod voluntas
+<lb ed="#V" n="23"/>divina, qua est perfectum principium
+<lb ed="#V" n="24"/>volendi ab sterno, non est ratio 
+vo<lb break="no" ed="#V" n="25"/>lendi simul opposita. Licet enim ipsa
+<lb ed="#V" n="26"/>voluntas sit libera respectu 
+opposito<lb break="no" ed="#V" n="27"/>rum, ita quod sicut potest velle A pro
+<lb ed="#V" n="28"/>instanti 72, ita potest non velle A pro
+<lb ed="#V" n="29"/>eodem instanti B, non tamen potest
+<lb ed="#V" n="30"/>simul velle A pro instanti 2, et nolle A
+<lb ed="#V" n="31"/>pro eodem instanti, quia tunc duo 
+op<lb break="no" ed="#V" n="32"/>posita simul verificarentur de eodem.
+<lb ed="#V" n="33"/>Nee est ratio volendi neutrum, puta
+<lb ed="#V" n="34"/>quod sit ratio volendi A, nec hoc, nec
+<lb ed="#V" n="35"/>illud, quia tunc in creaturis nihil
+<lb ed="#V" n="36"/>causaretur, quia contingentia non 
+po<lb break="no" ed="#V" n="37"/>lest esse iu Deo, nisi a parte voluntatis,
+<lb ed="#V" n="38"/>ut supra patuit dst. 39. ergo in 
+seter<lb break="no" ed="#V" n="39"/>nitate est ratio volendi alterum 
+oppo<lb break="no" ed="#V" n="40"/>situm in quibuscumque aliis a se,
+<lb ed="#V" n="41"/>ele.
+</p>
+            <p xml:id="mm30o9-d1e1414-d1e325">
+               <lb ed="#V" n="42"/>(b) Ad argumenta respondeo. Doctor
+<lb ed="#V" n="43"/>facit unum argumentum probando,
+<lb ed="#V" n="44"/>quod si voluntas divina voluit omnia
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>ab aeterno, quod  tunc in ea esset 
+rela<lb break="no" ed="#V" n="46"/>lio ad creaturam, eujus oppositum
+<lb ed="#V" n="47"/>probatum est, supra disc. 30. Quare
+<lb ed="#V" n="48"/>autem haec sequatur, patet, quia prius
+<lb ed="#V" n="49"/>Deus vult aliquid, quam intelligat se
+<lb ed="#V" n="50"/>velle illud, ut patet supra qwes/. ult.
+<lb ed="#V" n="51"/>prolog. et dis. 39. Cerlitudo enim 
+in<lb break="no" ed="#V" n="52"/>tlellectus divini circa contingentia non
+<lb ed="#V" n="53"/>est sine certitudine voluntatis ; ergo
+<lb ed="#V" n="54"/>relatio illa, quae est in voluntate 
+di<lb break="no" ed="#V" n="55"/>vina, primo ad A praecedit omnem
+<lb ed="#V" n="56"/>considerationem intellectus de illa
+<lb ed="#V" n="57"/>volitione, igitur non est in voluntate
+<lb ed="#V" n="58"/>sive in volitione ut cognita est, sed ut
+<lb ed="#V" n="59"/>in seest,et per consequens est ibi ex
+<lb ed="#V" n="60"/>natura rei, et non in cognito ut 
+cogni<lb break="no" ed="#V" n="61"/>tum est, Modo relatio rationis semper
+<lb ed="#V" n="62"/>videiur fundari in cognito ut. cogni,
+<lb ed="#V" n="63"/>tum est, ut supra patuit dZs£. 8. quest.
+<lb ed="#V" n="64"/>3. et in Universalibus Doctoris, et
+<lb ed="#V" n="65"/>omnis relatio, qua? oritur ex natura
+<lb ed="#V" n="66"/>extremorum, sive ex natura rei, est
+<lb ed="#V" n="67"/>realis.
+</p>
+            <p xml:id="mm30o9-d1e1414-d1e386">
+               <lb ed="#V" n="68"/>Respondet Doctor, et in ista 
+res<lb break="no" ed="#V" n="69"/>ponsione pulehra quedam sunt 
+no<lb break="no" ed="#V" n="70"/>tanda. Primum, quod voluntas divina
+<lb ed="#V" n="71"/>eo modo terminat relationem esse 
+vo<lb break="no" ed="#V" n="72"/>liti, quo modo intellectus terminat
+<lb ed="#V" n="73"/>relationem esse cogniti ; sed intellectus
+<lb ed="#V" n="74"/>sive actus intelligendi, terminat sub
+<lb ed="#V" n="75"/>ratione absoluta, ut supra patuit. disf.
+<lb ed="#V" n="76"/>36. ergo et voluntas sive actus volendi
+<lb ed="#V" n="77"/>sub ratione absoluta terminal 
+relatio<lb break="no" ed="#V" n="78"/>nem voliti ab ipsa; et die 
+conformi<lb break="no" ed="#V" n="79"/>ler sicut dictum est d. 36. de 
+determi<lb break="no" ed="#V" n="80"/>natione actus intellectus divini 
+res<lb break="no" ed="#V" n="81"/>pecetu relationis cogniti ad ipsum
+<lb ed="#V" n="82"/>actum.
+</p>
+            <p xml:id="mm30o9-d1e1414-d1e421">
+               <lb ed="#V" n="83"/>(c) Sed tunc argues. Doctor arguit
+<lb ed="#V" n="84"/>probando quod in volito non est talis
+<lb ed="#V" n="85"/>relatio ad voluntatem divinam, quia
+<lb ed="#V" n="86"/>illa relatio, aut est realis, aut rationis.
+<lb ed="#V" n="87"/>Non primum, quia fundamentum non
+<lb ed="#V" n="88"/>est reale, ut patet, quia tantum esse
+<pb ed="#V" n="760"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>volitum. Non secundum, quia non
+<lb ed="#V" n="2"/>est per actum intellectus divini 
+com<lb break="no" ed="#V" n="3"/>parantis ipsum objectum volitum ad
+<lb ed="#V" n="4"/>intellectum suum ; ergo in eo non est
+<lb ed="#V" n="5"/>relatio rationis, licet enim intellectus
+<lb ed="#V" n="6"/>divinus prius comparet illud objectum
+<lb ed="#V" n="7"/>ut eognitum ad intellectum suum
+<lb ed="#V" n="8"/>quam sit volitum, et in illo priori
+<lb ed="#V" n="9"/>causet relationem ipsius objecti ut. 
+co<lb break="no" ed="#V" n="10"/>enili ad intellectum suum, non tamen
+<lb ed="#V" n="11"/>videtur causare aliquam relationem
+<lb ed="#V" n="12"/>ejus ad voluntatem.
+</p>
+            <p xml:id="mm30o9-d1e1414-d1e467">
+               <lb ed="#V" n="13"/>(d) Licet hic posset responderi. 
+Res<lb break="no" ed="#V" n="14"/>pondet dando plures responsiones.
+<lb ed="#V" n="15"/>Primo, quod in objecto volito potest
+<lb ed="#V" n="16"/>esse relatio rationis terminata ad 
+vo<lb break="no" ed="#V" n="17"/>luntatem, quia intellectus divinus 
+po<lb break="no" ed="#V" n="18"/>test. prius comparare objectum 
+voli<lb break="no" ed="#V" n="19"/>tum ad ipsam voluntatem volentem
+<lb ed="#V" n="20"/>illud quam ad seipsum, et ex tali 
+com<lb break="no" ed="#V" n="21"/>paratione causatur in objecto volito,
+<lb ed="#V" n="22"/>vel saliem derelinquitur quae 
+imme<lb break="no" ed="#V" n="23"/>diate terminatur ad voluntatem 
+divi<lb break="no" ed="#V" n="24"/>nam. Potest etiam in ipso subjecto 
+vo<lb break="no" ed="#V" n="25"/>lito causare aliam relationem 
+termi<lb break="no" ed="#V" n="26"/>natam ad ipsum intelligentem, quia
+<lb ed="#V" n="27"/>potest ipsum ut cognitum comparare
+<lb ed="#V" n="28"/>ad seipsum ut cognoscentem, et sic
+<lb ed="#V" n="29"/>in illo derelinquitur quadam relatio
+<lb ed="#V" n="30"/>rationis, et terminatur od actum '
+in<lb break="no" ed="#V" n="31"/>tellectus divini. !
+</p>
+            <p xml:id="mm30o9-d1e1414-d1e511">
+               <lb ed="#V" n="32"/>Est tamen advertendum, quod 
+se<lb break="no" ed="#V" n="33"/>cundum Doctorem non omnis relatio
+<lb ed="#V" n="34"/>rationis fit ex comparatione unius ad
+<lb ed="#V" n="35"/>aliud, sicut sunt secundw intentiones,
+<lb ed="#V" n="36"/>qua semper causantur vel saltem 
+de<lb break="no" ed="#V" n="37"/>relinquuntur ex comparatione 
+duo<lb break="no" ed="#V" n="38"/>rum eognitorum, ut patet a Doctore
+<lb ed="#V" n="39"/>in suis Universalibus, et in 4. dist. 1.
+<lb ed="#V" n="40"/>quest. 2. Sunt enim multi relationes
+<lb ed="#V" n="41"/>rationis, quae nullam praesupponunt
+<lb ed="#V" n="42"/>comparationem, ut omnis relatio quae
+<lb ed="#V" n="43"/>fundatur in esse cognito vel in esse
+<lb ed="#V" n="44"/>volito, inquantum hujusmodi, ut patet
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>a Doctore supra dist. 35. et expressius
+<lb ed="#V" n="46"/>d. 36. ubi vult quod primo est 
+intel<lb break="no" ed="#V" n="47"/>lectus divinus ; secundo actus 
+intelli<lb break="no" ed="#V" n="48"/>gendi; tertio intellectus divinus illo
+<lb ed="#V" n="49"/>actu intelligendi producit lapidem in
+<lb ed="#V" n="50"/>esse cognito; et quarto in ipso lapide
+<lb ed="#V" n="51"/>ut cognito statim fundatur re$1atio ,
+<lb ed="#V" n="52"/>qua terminatur ad actum intellectus
+<lb ed="#V" n="53"/>divini, et hoc nulla priecedente 
+com<lb break="no" ed="#V" n="54"/>paratione, qua ipsum lapidem ut 
+co<lb break="no" ed="#V" n="55"/>enitum, comparat ad intellectum 
+di<lb break="no" ed="#V" n="56"/>vinum, ut cognoscentem. Dico ergo
+<lb ed="#V" n="57"/>ad mentem Doctoris supra dist. 8.
+<lb ed="#V" n="58"/>quist. 3. dist. 35. 36. quod omnis 
+rela<lb break="no" ed="#V" n="59"/>tio qui fundatur in aliquo esse cognilo
+<lb ed="#V" n="60"/>ut cognito, sive in esse volito ut 
+vo<lb break="no" ed="#V" n="61"/>lito, sive in esse viso, et sic de aliis,
+<lb ed="#V" n="62"/>potest dici relatio rationis, et nullo
+<lb ed="#V" n="63"/>modo realis, quia non habet 
+funda<lb break="no" ed="#V" n="64"/>mentum reale. Et sic etiam in 
+propo<lb break="no" ed="#V" n="65"/>sito in esse volito, ut hujusmodi, 
+fun<lb break="no" ed="#V" n="66"/>dat relatio rationis, quia immediate
+<lb ed="#V" n="67"/>terminatur ad actum voluntatis 
+di<lb break="no" ed="#V" n="68"/>vini, et hoc nulla adhuc praecedente
+<lb ed="#V" n="69"/>comparatione.
+</p>
+            <p xml:id="mm30o9-d1e1414-d1e598">
+               <lb ed="#V" n="70"/>(e) Tamen respondeo aliter. Hic 
+Do<lb break="no" ed="#V" n="71"/>clor intendit ostendere quod in 
+obje<lb break="no" ed="#V" n="72"/>cto volito ut volito, potest causari 
+ali<lb break="no" ed="#V" n="73"/>qua relatio rationis, etiam per 
+eom<lb break="no" ed="#V" n="74"/>parationem alterius potentiae ab 
+intel<lb break="no" ed="#V" n="75"/>lectu. Sicut enim inteilectus 
+compa<lb break="no" ed="#V" n="76"/>rare potest unum cognitum ad aliud
+<lb ed="#V" n="77"/>cognitum, et ex tali ccmparatione 
+de<lb break="no" ed="#V" n="78"/>relinquitur aliqua relatio rationis in
+<lb ed="#V" n="79"/>objecto sic comparato, sic similiter
+<lb ed="#V" n="80"/>voluntas potest comparare aliquod 
+vo<lb break="no" ed="#V" n="81"/>litum ad aliud volitum, vel ad seipsum
+<lb ed="#V" n="82"/>ut volentem, et ex tali comparatione
+<lb ed="#V" n="83"/>potest derelinqui relatio rationis. El
+<lb ed="#V" n="84"/>addit Doctor quod hoc non tantum est
+<lb ed="#V" n="85"/>verum de intellectu et voluntate, sed
+<lb ed="#V" n="86"/>etiam de omni potentia collativa. llla
+<lb ed="#V" n="87"/>tamen relatio rationis, qua esset 
+eau<lb break="no" ed="#V" n="88"/>sala ab aliis potentiis collativis ab in-
+<pb ed="#V" n="761"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tellectu, (qui solus proprie dicitur
+<lb ed="#V" n="2"/>ratio sive rationalis) non diceretur
+<lb ed="#V" n="3"/>proprie relatio rationis, accipiendo
+<lb ed="#V" n="4"/>relationem rationis, ut denominatur
+<lb ed="#V" n="5"/>a ratione proprie sumpta, quia 
+hujus<lb break="no" ed="#V" n="6"/>modi relatio tantum est ab intellectu ;
+<lb ed="#V" n="7"/>posset tamen improprie dici relatio
+<lb ed="#V" n="8"/>rationis, vel melius relatio quidam
+<lb ed="#V" n="9"/>distincta a relatione vere reali. Dico
+<lb ed="#V" n="10"/>ergo quod in volito a voluntate 
+divi<lb break="no" ed="#V" n="11"/>na per actum voluntatis divina 
+pos<lb break="no" ed="#V" n="12"/>sunt fundari plures relationes rationis,
+<lb ed="#V" n="13"/>sive nullo modo reales. Primo est 
+vo<lb break="no" ed="#V" n="14"/>luntas ; secundo est actus voluntatis ;
+<lb ed="#V" n="15"/>tertio illo actu ab aeeterno producit 
+la<lb break="no" ed="#V" n="16"/>pidem in esse volito; quarto in ipso
+<lb ed="#V" n="17"/>lapide, ut volito, oritur una relatio
+<lb ed="#V" n="18"/>rationis, quae terminatur ad actum
+<lb ed="#V" n="19"/>voluntatis divinae, et hoc nulla adhue
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="20"/>praecedente comparatione; quinto ab
+<lb ed="#V" n="21"/>eterno comparat lapidem volitum ad
+<lb ed="#V" n="22"/>seipsam volentem, et sic in lapide
+<lb ed="#V" n="23"/>volito causatur una relatio rationis,
+<lb ed="#V" n="24"/>et in ipsa voluntate ut volente 
+cau<lb break="no" ed="#V" n="25"/>saturalia. Similiter comparando unum
+<lb ed="#V" n="26"/>volitum ad aliud volitum, in utroque
+<lb ed="#V" n="27"/>volito comparato causatur relatio 
+ra<lb break="no" ed="#V" n="28"/>tionis; et sic breviter ad quot com 
+pa<lb break="no" ed="#V" n="29"/>rat lapidem volitum, tol relationes
+<lb ed="#V" n="30"/>rationis causat in eo.
+</p>
+            <p xml:id="mm30o9-d1e1414-d1e714">
+               <lb ed="#V" n="31"/>Adverte etiam quod non potest 
+cau<lb break="no" ed="#V" n="32"/>sare relationem rationis in se, nec in
+<lb ed="#V" n="33"/>objecto volito de novo, sive ex 
+tem<lb break="no" ed="#V" n="34"/>pore, sed tantum ab aeterno. Et dic
+<lb ed="#V" n="35"/>conformiter de intellectu divino, qui
+<lb ed="#V" n="36"/>non potest causare relationem novari,
+<lb ed="#V" n="37"/>rationis, ut supra patuit dist. 30.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

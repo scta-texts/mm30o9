@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#per-FLBca3">Franciscus Lychetus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2024-08-23">August 23, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 10</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-08-23" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="769"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="mm30o9-d1e1431"><!-- lycht-d46q1-p2 -->
+            <head xml:id="mm30o9-d1e1431-Hd1e101">Quaestio 1</head>
+            <p xml:id="mm30o9-d1e1431-d1e103">
+               <lb ed="#V" n="33" type="fixed=769"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1431-d1e108">
+               <lb ed="#V" n="34"/>(a) Respondeo voluntas Dez, etc. Pro
+<lb ed="#V" n="35"/>intelligentia hujus praemittenda sunt
+<lb ed="#V" n="36"/>aliqua. Primo, quod voluntas in 
+pro<lb break="no" ed="#V" n="37"/>posito non accipitur pro voluntate
+<lb ed="#V" n="38"/>absoluta, sive pro ipsa potentia 
+voli<lb break="no" ed="#V" n="39"/>tiva, patet, quia ut sic, nullum actum
+<lb ed="#V" n="40"/>habet, nec ut sic, est ibi aliquid 
+bene<lb break="no" ed="#V" n="41"/>plaeitum. Sed acciptur hic voluntas pro
+<lb ed="#V" n="42"/>aetu voluntatis, secundum quem po-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>test voluntas diversimode nominari,
+<lb ed="#V" n="44"/>videlicet vel voluntas beneplaciti vel
+<lb ed="#V" n="45"/>voluntas signi, nam propter 
+hujus<lb break="no" ed="#V" n="46"/>modi acetum insunt sibi plura 
+predi<lb break="no" ed="#V" n="47"/>eala. Secundo, idem actus voluntatis
+<lb ed="#V" n="48"/>est tantum unus et simplicissimus in
+<lb ed="#V" n="49"/>se, elex parte rei nullo modo 
+diversi<lb break="no" ed="#V" n="50"/>ficatus ; potest tamen dici alius et
+<lb ed="#V" n="51"/>alius secundum alium et alium 
+respec<lb break="no" ed="#V" n="52"/>tum secundum quod diversimode
+<lb ed="#V" n="53"/>transit super diversa objecta. Ut enim
+<lb ed="#V" n="54"/>transit super essentiam divinam, sive
+<lb ed="#V" n="55"/>ut respicit illam, necessario vult
+<lb ed="#V" n="56"/>illam, ut supra patuit d. 10. g. unica.
+<lb ed="#V" n="57"/>Ut vero transit super creaturas, tune
+<lb ed="#V" n="58"/>contingenter vult illas; dico ergo quod
+<lb ed="#V" n="59"/>idem actus potest dici actus 
+benepla<lb break="no" ed="#V" n="60"/>cili, et  tunc dicitur beneplaciti,
+<lb ed="#V" n="61"/>quando transit efficaciter super 
+obje<lb break="no" ed="#V" n="62"/>celum. Exemplum, ut velle transit 
+su<lb break="no" ed="#V" n="63"/>per Petrum, ut glorificandum  
+effica<lb break="no" ed="#V" n="64"/>citer, ille actus dicitur actus 
+benepla<lb break="no" ed="#V" n="65"/>cili, sive actus efficax, quia tunc 
+vo<lb break="no" ed="#V" n="66"/>luntas divina illo actu vult Petrum
+<lb ed="#V" n="67"/>efficaciter beatifieari. Et. voluntas ef-.
+<lb ed="#V" n="68"/>ficax, voluntas. beneplaciti, voluntas .
+<lb ed="#V" n="69"/>consequens, idem penitus important ;-
+<lb ed="#V" n="70"/>ista enim forte solo nomine differunt.
+<lb ed="#V" n="71"/>Cum vero ille actus transit super 
+ob<lb break="no" ed="#V" n="72"/>jectum non efficaciter, dicetur actus
+<lb ed="#V" n="73"/>non efficax, actus absolutus, actus 
+an<lb break="no" ed="#V" n="74"/>tecedens, quia idem important. Potest
+<lb ed="#V" n="75"/>enim voluntasimaginari aliquid velle
+<lb ed="#V" n="76"/>multiplieiter, ut infra patet a Doctore
+<lb ed="#V" n="77"/>distinctione immediate sequenti. 
+Pri<lb break="no" ed="#V" n="78"/>mo, quod aliquid fiat, et sic est 
+prae<lb break="no" ed="#V" n="79"/>ceptum. Secundo, ne aliquid fiat, et
+<lb ed="#V" n="80"/>sie est. prohibitio. Tertio, nec fieri, nec
+<lb ed="#V" n="81"/>non fieri absolute, sed si fiat, expedit,
+<lb ed="#V" n="82"/>vel bonum est, et sic est consilium.
+<lb ed="#V" n="83"/>Quarto, nec absolute fieri, nec. non
+<lb ed="#V" n="84"/>fieri, sed nolle prohibere vel licere
+<lb ed="#V" n="85"/>fieri, et sic est permisso. Quinto, velle
+<lb ed="#V" n="86"/>fieri, et sic est impletio, et coincidit
+<pb ed="#V" n="770"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>cum voluntate efficaci sive 
+benepla<lb break="no" ed="#V" n="2"/>citi. Et de ista voluntate est praesens
+<lb ed="#V" n="3"/>questio.
+</p>
+            <p xml:id="mm30o9-d1e1431-d1e238">
+               <lb ed="#V" n="4"/>Et probat Doctor, quod voluntas
+<lb ed="#V" n="5"/>beneplaciti Dei semper adimpletur,
+<lb ed="#V" n="6"/>quia sicut omnipotens potest omne
+<lb ed="#V" n="7"/>possibile, ita quando voluntas divina
+<lb ed="#V" n="8"/>determinatur ad volendum aliquid
+<lb ed="#V" n="9"/>esse ultima determinatione, illud erit.
+<lb ed="#V" n="10"/>Velle autem illud voluntate 
+benepla<lb break="no" ed="#V" n="11"/>eii est ultima determinatio, qua» 
+po<lb break="no" ed="#V" n="12"/>test poni ex parte voluntatis 
+omnipo<lb break="no" ed="#V" n="13"/>lentis volenti ponere effectum in esse,
+<lb ed="#V" n="14"/>et sic tale volitum de necessitate erit,
+<lb ed="#V" n="15"/>scilicet necessitate consequentis; 
+li<lb break="no" ed="#V" n="16"/>cet enim voluntas in eodem instanti,
+<lb ed="#V" n="17"/>quo vult Petrum praedestinari, possit
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="18"/>non velle, tamen posita volitione in
+<lb ed="#V" n="19"/>esse, qua vult Petrum esse de numero
+<lb ed="#V" n="20"/>salvandorum,  tunc Petrus necessario
+<lb ed="#V" n="21"/>salvabitur. Et de hoc prolixe 
+tracta<lb break="no" ed="#V" n="22"/>tum est supra d. 39.
+</p>
+            <p xml:id="mm30o9-d1e1431-d1e284">
+               <lb ed="#V" n="23"/>(b) Ad primum. Ad argumentum
+<lb ed="#V" n="24"/>principale, quod fundatur in dicto
+<lb ed="#V" n="25"/>Pauli, dat duas solutiones. Prima,
+<lb ed="#V" n="26"/>quod potest dictum Pauli exponi de
+<lb ed="#V" n="27"/>distributione aecommoda, scilicet
+<lb ed="#V" n="28"/>pro omnibus qui salvi fient. Seeunda
+<lb ed="#V" n="29"/>et melior, quod potest exponi de 
+vo<lb break="no" ed="#V" n="30"/>luntate antecedente, et littera est nota.
+<lb ed="#V" n="31"/>De ista tamen voluntate antecedente
+<lb ed="#V" n="32"/>et consequente, vide aliqua qua. 
+expo<lb break="no" ed="#V" n="33"/>sui secundo dist. 31.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#per-FLBca3">Franciscus Lychetus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2024-08-23">August 23, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-23" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="226"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="mm30o9-d1e987"><!-- lycht-d22q1-p1 -->
+        <head xml:id="mm30o9-d1e987-Hd1e101">Quaestio 1</head>
+        <p xml:id="mm30o9-d1e987-d1e103">
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="44" type="fixed=223"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e987-d1e110">
+          <lb ed="#V" n="45"/>(a) Titulus hujus questionis potest
+          <lb ed="#V" n="46"/>dupliciter intelligi. Uno modo quod :
+          <lb ed="#V" n="47"/>nominetura viatore imponente nomen. .
+          <lb ed="#V" n="48"/>Alio modo, quod nominetur a viatore
+          <lb ed="#V" n="49"/>ulente: nomine imposito ab aliquo,
+          <lb ed="#V" n="50"/>puta ab Angelo; dubium ergo est, si
+          <lb ed="#V" n="51"/>Deus primo modo sit nominabilis a
+          <lb ed="#V" n="52"/>viatore, et hanc questionem clare
+          <lb ed="#V" n="53"/>vide in Doctore in Reportatis eum 
+          opi<lb break="no" ed="#V" n="54"/>nione Henrici et ejus 
+          impugnatio<lb break="no" ed="#V" n="55"/>nibus.
+        </p>
+        <p xml:id="mm30o9-d1e987-d1e136">
+          <lb ed="#V" n="56"/>(b) Haec dicitur. Haec. est opinio 
+          Hen<lb break="no" ed="#V" n="57"/>rici, quae nunc pratermittatur a nobis
+          <lb ed="#V" n="58"/>propter suam facilitatem, et similiter
+          <lb ed="#V" n="59"/>ejus impugnatio. Et veniam ad 
+          solu<lb break="no" ed="#V" n="60"/>tionem questionis nostri Doctoris 
+          Sub<lb break="no" ed="#V" n="61"/>tilis, ceetera praetereundo.
+        </p>
+        <!--</div>
+          <div alias="lycht-d22q1-p3">-->
+        <p xml:id="mm30o9-d1e987-d1e155">
+          <lb ed="#V" n="52" type="fixed=225"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e987-d1e160">
+          <lb ed="#V" n="53"/>(c) Potest dici breviter, etc. quia 
+          di<lb break="no" ed="#V" n="54"/>stinetius potest aliquid significari quam
+          <lb ed="#V" n="55"/>intelligi. Et hoc persuadet Doctor 
+          mul<lb break="no" ed="#V" n="56"/>tipliciter. Tum quia substantia potest
+          <lb ed="#V" n="57"/>distinctius significari pernomen quam
+          <lb ed="#V" n="58"/>in se intelligi. Patet, quia pro statu
+          <lb ed="#V" n="59"/>isto tantum cognoscitur in conceptu
+          <lb ed="#V" n="60"/>communi, ut supra patuit dsf. 3.
+          <lb ed="#V" n="61"/>quest. 3. et tamen potest imponi 
+          ali<lb break="no" ed="#V" n="62"/>quod nomen quod significet mihi 
+          dis<lb break="no" ed="#V" n="63"/>tincte substantiam aliquam, aliter enim
+          <lb ed="#V" n="64"/>nullum nomen impositum a viatore
+          <lb ed="#V" n="65"/>significaret aliquam rem de genere
+          <lb ed="#V" n="66"/>Substantiw, sed tantum aliquam 
+          pro<lb break="no" ed="#V" n="67"/>prietatem accidentalem, qua 
+          intelli<lb break="no" ed="#V" n="68"/>gebatur ab imponente. Et sic per hoc
+          <lb ed="#V" n="69"/>nomen /apis non significaretur aliquid
+          <lb ed="#V" n="70"/>de genere Substantic, sed tantum 
+          ali<lb break="no" ed="#V" n="71"/>quid de genere Actionis, puta lwsio
+          <lb ed="#V" n="72"/>pedis quam exprimit etymologia hujus
+          <lb ed="#V" n="73"/>nominis, et fuit ratio a qua 
+          impone<lb break="no" ed="#V" n="74"/>batur nomen. Reliqua patent.
+        </p>
+        <!--</div>
+          <div alias="lycht-d22q1-p4">-->
+        <p xml:id="mm30o9-d1e987-d1e212">
+          <lb ed="#V" n="48" type="fixed=226"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e987-d1e217">
+          <lb ed="#V" n="49"/>(d) Ultimo dicit Doctor quod Deus
+          <lb ed="#V" n="50"/>est nominabilis a viatore nomine 
+          signi<lb break="no" ed="#V" n="51"/>ficante propriam essentiam, ut est haec
+          <lb ed="#V" n="52"/>essentia, quia viator potest. uti illo
+          <lb ed="#V" n="53"/>signo, etc.
+        </p>
+        <p xml:id="mm30o9-d1e987-d1e230">
+          <lb ed="#V" n="54"/>Ad haec tamen quidam novus 
+          expo<lb break="no" ed="#V" n="55"/>sitor prima partis S. Thome g. 13.
+          <lb ed="#V" n="56"/>art. 1. respondet dicens, ista non esse
+          <lb ed="#V" n="57"/>consona veritati. Ad illud de 
+          substan<lb break="no" ed="#V" n="58"/>tia dicit, quod. non est imaginabile
+          <lb ed="#V" n="59"/>imponi nomen distinctius significans
+          <lb ed="#V" n="60"/>quam concipiatur, quia voces 
+          signifi<lb break="no" ed="#V" n="61"/>cant res, non nisi media conceptione
+          <lb ed="#V" n="62"/>intellectus; igitur significatio causatur
+          <lb ed="#V" n="63"/>conceptione, ergo distincta significatio
+          <lb ed="#V" n="64"/>supponit distinctam conceptionem, et
+          <lb ed="#V" n="65"/>confusa confusam, et major majorem,
+          <lb ed="#V" n="66"/>etl minor minorem ; quare ab hae 
+          uni<lb break="no" ed="#V" n="67"/>versalissima regula de causa et 
+          cau<lb break="no" ed="#V" n="68"/>sato hee excipienda sunt. Probatio
+          <lb ed="#V" n="69"/>autem sua nihil valet. Tum quia ante-.
+          <lb ed="#V" n="70"/>cedens pro prima parte est falsum.
+          <lb ed="#V" n="71"/>Tum, quia pro secunda parte male 
+          pro<lb break="no" ed="#V" n="72"/>batur. Dico enim et ita esse experimur,
+          <lb ed="#V" n="73"/>quod cognitis accidentibus, 
+          cognosci<lb break="no" ed="#V" n="74"/>mus rem quamdam  sublatere, et
+          <lb ed="#V" n="75"/>secundum se esse et subsistere, etc. et
+          <lb ed="#V" n="76"/>hujusmodi res nunquam magis 
+          signi<lb break="no" ed="#V" n="77"/>fieabitur quam cognosceetur. Si enim
+          <lb ed="#V" n="78"/>cognoscitur confuse, ut in exemplo
+          <lb ed="#V" n="79"/>dato, nunquam  significabitur nisi
+          <lb ed="#V" n="80"/>confuse. Ex tali siquidem — nomine
+          <lb ed="#V" n="81"/>nunquam aliquis plus intelligeret
+          <lb ed="#V" n="82"/>quam perfectus impositor 
+          apprehen<lb break="no" ed="#V" n="83"/>deri, quamvis ex meliori ingenio
+          <lb ed="#V" n="84"/>proprio cognito alicujus nominis 
+          si<lb break="no" ed="#V" n="85"/>genificato in re diseurrendo alia 
+          cog<lb break="no" ed="#V" n="86"/>noseat, sicut ex principlis conclusiones
+          <pb ed="#V" n="227"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>deducimus, sed hoc non est ex vi 
+          sig<lb break="no" ed="#V" n="2"/>nificationis nominis.:Unde et ipsemet
+          <lb ed="#V" n="3"/>Scotus ibidem sub dubio primum
+          <lb ed="#V" n="4"/>dictum dubium relinquere videtur.
+        </p>
+        <p xml:id="mm30o9-d1e987-d1e318">
+          <lb ed="#V" n="5"/>De secundo vero bene dicit Scotus.
+          <lb ed="#V" n="6"/>Experimur enim quod multis 
+          nomini<lb break="no" ed="#V" n="7"/>bus utimur confuse notis, antequam
+          <lb ed="#V" n="8"/>ad notitiam distinctam illorum 
+          ter<lb break="no" ed="#V" n="9"/>minorum veniamus.
+        </p>
+        <p xml:id="mm30o9-d1e987-d1e331">
+          <lb ed="#V" n="10"/>De tertio autem quia, experientia
+          <lb ed="#V" n="11"/>teste, nullum tale nomen divinum
+          <lb ed="#V" n="12"/>habemus. Et rursus, quia frustra 
+          ho<lb break="no" ed="#V" n="13"/>minibus darentur talia nomina, 
+          quo<lb break="no" ed="#V" n="14"/>niam nos non possumus Deum 
+          secun<lb break="no" ed="#V" n="15"/>dum se cognoscere, et quia sine 
+          suffi<lb break="no" ed="#V" n="16"/>cienti auctoritate novitas h«c dicitur.
+          <lb ed="#V" n="17"/>Et quia Dionysius 2» primo Coelest.
+          <lb ed="#V" n="18"/>Hierarch. dicit : Impossibile est nobis
+          <lb ed="#V" n="19"/>aliter lucere divinum radium, nisi
+          <lb ed="#V" n="20"/>varieiale sacrorum velaminum 
+          occulta<lb break="no" ed="#V" n="21"/>tum. Videtur mihi simpliciter falsum
+          <lb ed="#V" n="22"/>dictum Scoti. Et dicendum quod Deus
+          <lb ed="#V" n="23"/>in hae vita non esta nobis 
+          nominabi<lb break="no" ed="#V" n="24"/>lis nisi ex creaturis, et hoc tam quoad
+          <lb ed="#V" n="25"/>impositionem quam visum ; hae 
+          ex<lb break="no" ed="#V" n="26"/>positor ille.
+        </p>
+        <p xml:id="mm30o9-d1e987-d1e370">
+          <lb ed="#V" n="27"/>Respondeo ad hunc expositorem. Et
+          <lb ed="#V" n="28"/>primo dico cum Doctore quod 
+          possu<lb break="no" ed="#V" n="29"/>mus imponere aliquid nomen 
+          distinc<lb break="no" ed="#V" n="30"/>tius significare aliquid, quam illud in
+          <lb ed="#V" n="31"/>se cognoscamus. Et eum dicit quod
+          <lb ed="#V" n="32"/>voces significant res, admiltitur. Et
+          <lb ed="#V" n="33"/>eum ultra dicit quod significatio vocis
+          <lb ed="#V" n="34"/>causatur a conceptione intellectus,
+          <lb ed="#V" n="35"/>hoc indiget probatione, aliud est enim
+          <lb ed="#V" n="36"/>causari, et aliud est praesupponere.
+          <lb ed="#V" n="37"/>Hoc enim nomen /apis sive 
+          significa<lb break="no" ed="#V" n="38"/>tio hujus nominis, non causatur a
+          <lb ed="#V" n="39"/>conceptione lapidis, nec a conceptione
+          <lb ed="#V" n="40"/>forte alterius, nisi forte occasionaliter;
+          <lb ed="#V" n="41"/>imponitur enim talis significatio a
+          <lb ed="#V" n="42"/>voluntate instituentis, praesupposita
+          <lb ed="#V" n="43"/>tamen aliquali cognitione, saltem iu
+          <lb ed="#V" n="44"/>eommuni:; et sic imponit quod hoc
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>nomen lapis significet mihi 
+          quiddita<lb break="no" ed="#V" n="46"/>tive substantiam lapidis, quam 
+          insti<lb break="no" ed="#V" n="47"/>tuens distincte non cognoscit. Non
+          <lb ed="#V" n="48"/>enim conceptio rei et significatio
+          <lb ed="#V" n="49"/>ejusdem sic ad invicem adequantur,
+          <lb ed="#V" n="50"/>quod quanta sit cognitio rei, tanta sit
+          <lb ed="#V" n="51"/>praecise significatio nominis illius rei.
+          <lb ed="#V" n="52"/>Posito etiam quod conceptio aliqua sit
+          <lb ed="#V" n="53"/>causa significationis nominis, adhue
+          <lb ed="#V" n="54"/>habet probare quod ab aliqua 
+          conce<lb break="no" ed="#V" n="55"/>ptione non possit causari nomen 
+          di<lb break="no" ed="#V" n="56"/>stinctius significans aliquid, quam sit
+          <lb ed="#V" n="57"/>talis coneeptio. Sed hoc requirit 
+          pro<lb break="no" ed="#V" n="58"/>lixiorem tractatum, videlicet a quo
+          <lb ed="#V" n="59"/>eausetur nomen significans; de haec
+          <lb ed="#V" n="60"/>habet videri i$ primo Perihermenias.
+        </p>
+        <p xml:id="mm30o9-d1e987-d1e448">
+          <lb ed="#V" n="61"/>Et quod dicit quod Scotus sub dubio
+          <lb ed="#V" n="62"/>loquitur, etc. Hoc non est verum, quia
+          <lb ed="#V" n="63"/>expresse in principio quaestionis dicit
+          <lb ed="#V" n="64"/>quod credit esse falsum, ut patet in
+          <lb ed="#V" n="65"/>littera. Et quod ultimo dicit quod 
+          quan<lb break="no" ed="#V" n="66"/>tum ad usum non possumus habere
+          <lb ed="#V" n="67"/>aliquod nomen distincte significans
+          <lb ed="#V" n="68"/>essentiam, falsum dicit. Sepe enim
+          <lb ed="#V" n="69"/>ulimur nominibus distincte nobis 
+          si<lb break="no" ed="#V" n="70"/>gnificantibus essentiam divinam, ut
+          <lb ed="#V" n="71"/>patet in littera Doctoris, licet non ita
+          <lb ed="#V" n="72"/>distincte cognoscamus illam. Multa
+          <lb ed="#V" n="73"/>etiam alia dicit iste expositor minus
+          <lb ed="#V" n="74"/>vera, quae transeo pro nunc.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

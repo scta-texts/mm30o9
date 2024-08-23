@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#per-FLBca3">Franciscus Lychetus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2024-08-23">August 23, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-23" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="280"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="mm30o9-d1e1039"><!-- lycht-d25q1-p2 -->
+        <head xml:id="mm30o9-d1e1039-Hd1e101">Quaestio 1</head>
+        <p xml:id="mm30o9-d1e1039-d1e103">
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="44" type="fixed=280"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1039-d1e110">
+          <lb ed="#V" n="45"/>(a) Utrum persona in divinis dicat
+          <lb ed="#V" n="46"/>substantiam vel relationem, id est, an
+          <lb ed="#V" n="47"/>persona, puta Patris, sit vere 
+          sub<lb break="no" ed="#V" n="48"/>stantia, an tantum dicat relationem.
+        </p>
+        <p xml:id="mm30o9-d1e1039-d1e121">
+          <lb ed="#V" n="49"/>Hac questio stat in pluribus dictis.
+          <lb ed="#V" n="50"/>Primum : Persona non dicit relationem
+          <lb ed="#V" n="51"/>propriam, etc.
+        </p>
+        <p xml:id="mm30o9-d1e1039-d1e130">
+          <lb ed="#V" n="52"/>Secundum : Persona non dicit 
+          rela<lb break="no" ed="#V" n="53"/>tionem communem. Probatur, quia
+          <lb ed="#V" n="54"/>quando refertur ad aliud, et. superius
+          <lb ed="#V" n="55"/>refertur ad illud, patet, quia si duplum
+          <lb ed="#V" n="56"/>refertur ad dimidium, imo usque ad
+          <lb ed="#V" n="57"/>genus generalissimum. Sed in 
+          pro<lb break="no" ed="#V" n="58"/>posito Pater per se refertur ad Filium,
+          <lb ed="#V" n="59"/>quia hee est vera : Pater Filii Pater,
+          <lb ed="#V" n="60"/>et tamen persona, quae est superius ad
+          <lb ed="#V" n="61"/>Patrem, non refertur ad Filium, quia
+          <lb ed="#V" n="62"/>hae est falsa : Pater est. persona. Filii,
+          <lb ed="#V" n="63"/>sicut haec est vera: duplum refertur
+          <lb ed="#V" n="64"/>primo ad dimidium ; ergo et multiplex
+          <lb ed="#V" n="65"/>refertur ad dimidium, licet non 
+          pri<lb break="no" ed="#V" n="66"/>mo, quia haec est vera : duplum est
+          <lb ed="#V" n="67"/>mullipler ad dünidium, et ideo 
+          con<lb break="no" ed="#V" n="68"/>ceditur duplum esse multiplex dimidii.
+          <lb ed="#V" n="69"/>Et nota quod superius non refertur
+          <lb ed="#V" n="70"/>primo ad correlativum inferioris, id
+          <lb ed="#V" n="71"/>est, non adequate et convertibiliter.
+          <lb ed="#V" n="72"/>Non enim sequitur : omne dimidium
+          <lb ed="#V" n="73"/>est dimidium multiplicis ; ergo omne
+          <lb ed="#V" n="74"/>multiplex est dimidii multiplex, ut
+          <lb ed="#V" n="75"/>patet, non sequitur, quia multa sunt
+          <lb ed="#V" n="76"/>multiplicia, quae non adequate 
+          refe<lb break="no" ed="#V" n="77"/>runtur ad dimidium ; mullplez vero
+          <lb ed="#V" n="78"/>adequate refertur ad submultiplez,
+          <lb ed="#V" n="79"/>quia omne multiplex est submultiplieis
+          <lb ed="#V" n="80"/>multiplex, et e converso, omne 
+          sub<lb break="no" ed="#V" n="81"/>multiplex est multiplicis submultiplex.
+          <lb ed="#V" n="82"/>Si ergo persona esset relativum 
+          com<lb break="no" ed="#V" n="83"/>mune Patri et Filio, sicut haec est vera :
+          <lb ed="#V" n="84"/>Pater primo est Filii Pater ; ergo hec
+          <lb ed="#V" n="85"/>esset vera : Pater est Filii persona per
+          <pb ed="#V" n="281"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>se, licet non primo. Et similiter sicut
+          <lb ed="#V" n="2"/>hae est vera: Filius est primo Patris
+          <lb ed="#V" n="3"/>Filius; ergo haec esset. vera: Filius
+          <lb ed="#V" n="4"/>est persona Patris per se, etsi non
+          <lb ed="#V" n="5"/>primo ; palet ergo ex his quomodo
+          <lb ed="#V" n="6"/>persona non dicitur relatio propria,
+          <lb ed="#V" n="7"/>nee similiter potest dici relatio 
+          com<lb break="no" ed="#V" n="8"/>munis.
+        </p>
+        <p xml:id="mm30o9-d1e1039-d1e229">
+          <lb ed="#V" n="9"/>(b) Tertium dictum: Persona non
+          <lb ed="#V" n="10"/>potest dici substantia secunda, id est,
+          <lb ed="#V" n="11"/>quidditas, quia illa non numeratur in
+          <lb ed="#V" n="12"/>tribus personis. Persona autem 
+          nume<lb break="no" ed="#V" n="13"/>ratur, ut patet, quia concedimus tres
+          <lb ed="#V" n="14"/>esse personas in divinis, non autem
+          <lb ed="#V" n="15"/>ires substantias, quia tantum est una
+          <lb ed="#V" n="16"/>numero in tribus, scilicet] natura 
+          di<lb break="no" ed="#V" n="17"/>vina.
+        </p>
+        <p xml:id="mm30o9-d1e1039-d1e251">
+          <lb ed="#V" n="18"/>Quartum dictum : S? accipiatur 
+          per<lb break="no" ed="#V" n="19"/>sona pro negatione in genere, supple
+          <lb ed="#V" n="20"/>quod persona sit incommunicabilis
+          <lb ed="#V" n="21"/>existentia, quia est negatio in genere
+          <lb ed="#V" n="22"/>communis tribus personis, sc 0n 
+          si<lb break="no" ed="#V" n="23"/>gnificat substantiam, nec relationem,
+          <lb ed="#V" n="24"/>patet, quia nulla negatio de suo 
+          signi<lb break="no" ed="#V" n="25"/>ficato importat aliquid positivum, 
+          cu<lb break="no" ed="#V" n="26"/>jusmodi est omnis substantia et omnis
+          <lb ed="#V" n="27"/>relatio. Potest tamen aliquid 
+          conno<lb break="no" ed="#V" n="28"/>lare, et connotat persona, hoc modo
+          <lb ed="#V" n="29"/>accepta, scilicet pro negatione in 
+          ge<lb break="no" ed="#V" n="30"/>nere: Primo ergo connotat illud de quo
+          <lb ed="#V" n="31"/>primo pradicatur, scilicet Patrem et 
+          Fi<lb break="no" ed="#V" n="32"/>lium et Spiritum sanctum, quae sunt
+          <lb ed="#V" n="33"/>positiva, 202 tamen connotat quasi ex
+          <lb ed="#V" n="34"/>primo intellectu suo, sed sicut commune
+          <lb ed="#V" n="35"/>connotat inferius pro quo supponit.
+          <lb ed="#V" n="36"/>Secundo talis negatio connotat 
+          relatio<lb break="no" ed="#V" n="37"/>nem, qua scilicet Patri convenit, talis
+          <lb ed="#V" n="38"/>negatio, et szmiliter Filio ; omnis enim
+          <lb ed="#V" n="39"/>negatio in genere praesupponit 
+          ali<lb break="no" ed="#V" n="40"/>quam affirmationem, quia si 
+          quaera<lb break="no" ed="#V" n="41"/>tur, quare Pater non est 
+          communica<lb break="no" ed="#V" n="42"/>bilis, nec ut quo nec ut quod 
+          res<lb break="no" ed="#V" n="43"/>pondetur, quia Pater includit aliquam
+          <lb ed="#V" n="44"/>proprietatem per quam sibi repugnat
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>sic communicari, ideo haec negatio
+          <lb ed="#V" n="46"/>communis in genere non inest alicui,
+          <lb ed="#V" n="47"/>nisi propter positivum in illo; non
+          <lb ed="#V" n="48"/>enim inest talis negatio albedini, ut
+          <lb ed="#V" n="49"/>patet, quia tunc albedo esset 
+          simplici<lb break="no" ed="#V" n="50"/>ter incommunicabilis ut quod et ut quo.
+          <lb ed="#V" n="51"/>Et sic ne$1atio  in genere determinat
+          <lb ed="#V" n="52"/>sibialiquod positivum in aliquo 
+          subje<lb break="no" ed="#V" n="53"/>cto, per quod talis negatio sibi 
+          con<lb break="no" ed="#V" n="54"/>venit ; non est de negatione extra 
+          ge<lb break="no" ed="#V" n="55"/>nus, etdifferentiaistarum negationum,
+          <lb ed="#V" n="56"/>patuit supra dist. 23. et magis in/ra
+          <lb ed="#V" n="57"/>patebit dis£. 28. Sic ergo ista negatio,
+          <lb ed="#V" n="58"/>quam significat persona, importat 
+          se<lb break="no" ed="#V" n="59"/>eundo relationem sive proprietatem
+          <lb ed="#V" n="60"/>Patris, per quam proprietatem talis
+          <lb ed="#V" n="61"/>negatio convenit Patri, et similiter dico
+          <lb ed="#V" n="62"/>de Filio et Spiritu sancto. Tertio 
+          con<lb break="no" ed="#V" n="63"/>notat essentiam, qua licet sit in. primo
+          <lb ed="#V" n="64"/>connotato, scilicet in Patre et Filio et
+          <lb ed="#V" n="65"/>Spiritu sancto, 207 tamen est ibi ratio
+          <lb ed="#V" n="66"/>istius negationis. Patet, quia sola 
+          pro<lb break="no" ed="#V" n="67"/>prietas est ratio, quare talis negatio
+          <lb ed="#V" n="68"/>conveniat Patri et Filio et Spiritui
+          <lb ed="#V" n="69"/>sancto, quia per illam repugnat eis
+          <lb ed="#V" n="70"/>ista affirmatio, scilicet esse 
+          commu<lb break="no" ed="#V" n="71"/>nicabile alteri; ergo per illam 
+          pro<lb break="no" ed="#V" n="72"/>prietatem convenit negatio talis 
+          com<lb break="no" ed="#V" n="73"/>municabilitatis, et hoc est quod dicit.
+        </p>
+        <p xml:id="mm30o9-d1e1039-d1e377">
+          <lb ed="#V" n="74"/>(c) Quintum dictum est: Si teneatur
+          <lb ed="#V" n="75"/>quod persona quidditative sil, sive 
+          si<lb break="no" ed="#V" n="76"/>gnificet aliquid positivum commune 
+          tri<lb break="no" ed="#V" n="77"/>bus, ita quod tale commune sit. 
+          abstra<lb break="no" ed="#V" n="78"/>ctum a tribus personis, non tamen 
+          abs<lb break="no" ed="#V" n="79"/>tractum ut species, sed magis ut 
+          pro<lb break="no" ed="#V" n="80"/>prium, sicut supra dist. 23. expositum
+          <lb ed="#V" n="81"/>est, tunc potest concedi quod persona
+          <lb ed="#V" n="82"/>communis Patri et Filio et. Spiritui
+          <lb ed="#V" n="83"/>sancto, significet immediate aliquod 
+          po<lb break="no" ed="#V" n="84"/>sitivum commune illis tribus. Sed illud
+          <lb ed="#V" n="85"/>commune positivum nec est 
+          substan<lb break="no" ed="#V" n="86"/>lia nec relatio, sed est aliquod 
+          positi<lb break="no" ed="#V" n="87"/>vum indifferens ad utramque, scilicet
+          <lb ed="#V" n="88"/>substantiam et relationem. Ratio enim
+          <pb ed="#V" n="282"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>subsistentis indifferens est ad 
+          abso<lb break="no" ed="#V" n="2"/>lutum et respectivum, et hoc 
+          susti<lb break="no" ed="#V" n="3"/>nendo quod relatio possit constituere
+          <lb ed="#V" n="4"/>aliquid in ratione suppositi sive 
+          sub<lb break="no" ed="#V" n="5"/>sistentis ; hoc enim tantum habet 
+          ve<lb break="no" ed="#V" n="6"/>rilatem in divinis, ubi communiter
+          <lb ed="#V" n="7"/>tenetur quod persona constituantur in
+          <lb ed="#V" n="8"/>esse personali et per aliquam 
+          relatio<lb break="no" ed="#V" n="9"/>nem. Persona tamen hoc modo accepta
+          <lb ed="#V" n="10"/>ex consequenti dat intelligere sicut 
+          su<lb break="no" ed="#V" n="11"/>perius suum inferius, illud pro quo ac:
+          <lb ed="#V" n="12"/>cipitur, puta Patrem, Filium, et 
+          Spiri<lb break="no" ed="#V" n="13"/>tum sanctum. Et secundo dat 
+          intel<lb break="no" ed="#V" n="14"/>ligere ipsas relationes, qua sunt 
+          ra<lb break="no" ed="#V" n="15"/>tiones formales incommunicabiliter
+          <lb ed="#V" n="16"/>existendi. Tertio ipsam essentiam, quaae
+          <lb ed="#V" n="17"/>est in primo connotato, sive in primo
+          <lb ed="#V" n="18"/>intellecto, scilicet Patre et Filio et 
+          Spi<lb break="no" ed="#V" n="19"/>ritu sancto.
+        </p>
+        <p xml:id="mm30o9-d1e1039-d1e458">
+          <lb ed="#V" n="20"/>Deinde Doctor sic epilogat quae dixit:
+          <lb ed="#V" n="21"/>Utraque opinio posita, dist. 23.
+        </p>
+        <p xml:id="mm30o9-d1e1039-d1e465">
+          <lb ed="#V" n="22"/>(d) Ad secundum, etc. Nota quod
+          <lb ed="#V" n="23"/>Doctor videtur magis declinare quod
+          <lb ed="#V" n="24"/>personas divine constituantur in esse
+          <lb ed="#V" n="25"/>personali per aliquid positivum, ita
+          <lb ed="#V" n="26"/>quod persona divina de suo formali
+          <lb ed="#V" n="27"/>significato importat aliquid positivum,
+          <lb ed="#V" n="28"/>quidquid sit de persona creata. Et hoc
+          <lb ed="#V" n="29"/>expresse vult in fertio dist. prima
+          <lb ed="#V" n="30"/>quaest. 4. et hoc magis patebit dist. 28.
+          <lb ed="#V" n="31"/>et ibi vide omnino prolixam 
+          exposi<lb break="no" ed="#V" n="32"/>tionem de ratione formali constituendi
+          <lb ed="#V" n="33"/>personam.
+        </p>
+        <p xml:id="mm30o9-d1e1039-d1e494">
+          <lb ed="#V" n="34"/>Quidam arguit contra Doctorem,
+          <lb ed="#V" n="35"/>non contra hoc quod dicit Doctor,quod
+          <lb ed="#V" n="36"/>atribus personis potest abslrahi 
+          per<lb break="no" ed="#V" n="37"/>sona in communi, sive persona 
+          signi<lb break="no" ed="#V" n="38"/>fieet positivum, sive negationem in
+          <lb ed="#V" n="39"/>genere; in hoc enim non videtur 
+          Oc<lb break="no" ed="#V" n="40"/>cham contradicere. Sed arguit, quia
+          <lb ed="#V" n="41"/>dicit quod Doctor videtur contradicere
+          <lb ed="#V" n="42"/>dictis suis in hoc, quod vult quod a
+          <lb ed="#V" n="43"/>paternitate et filiatione potest abstrahi
+          <lb ed="#V" n="44"/>relatio communis univoca. Licet hoc
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>non pertineat ad principalem 
+          inten<lb break="no" ed="#V" n="46"/>tionem hujus questionis, quia hic 
+          tan<lb break="no" ed="#V" n="47"/>tum loquitur de persona, qua non 
+          si<lb break="no" ed="#V" n="48"/>enificat nec substantiam nec 
+          relatio<lb break="no" ed="#V" n="49"/>nem, tamen pro nunc adducitur ista
+          <lb ed="#V" n="50"/>positio de relatione communi 
+          paterni<lb break="no" ed="#V" n="51"/>tali et filiationi, quia vult Doctor 
+          dis<lb break="no" ed="#V" n="52"/>tinctione sequenti, quod relatio sit 
+          com<lb break="no" ed="#V" n="53"/>munis paternitati et. filiationi in 
+          divi<lb break="no" ed="#V" n="54"/>nis. Et licet Occham videatur hoc
+          <lb ed="#V" n="55"/>concedere, arguit tamen quod 
+          contra<lb break="no" ed="#V" n="56"/>dicat dictis Doctoris.
+        </p>
+        <p xml:id="mm30o9-d1e1039-d1e550">
+          <lb ed="#V" n="57"/>Et arguit sic : Primo, secundum
+          <lb ed="#V" n="58"/>Scotum alibi: Quandocumque 
+          aliqui<lb break="no" ed="#V" n="59"/>bus distinctis est aliquod commune
+          <lb ed="#V" n="60"/>univocum, necessario in utroque 
+          illo<lb break="no" ed="#V" n="61"/>rum est aliquid quo convenit cum
+          <lb ed="#V" n="62"/>alio, et aliquid quo differt, ab eodem,
+          <lb ed="#V" n="63"/>ergo si paternitati et filiationi sit 
+          rela<lb break="no" ed="#V" n="64"/>tio communis univoca, paternitas 
+          ali<lb break="no" ed="#V" n="65"/>quo convenit cum filiatione, et aliquo
+          <lb ed="#V" n="66"/>differt ab eadem, quod est impossibile,
+          <lb ed="#V" n="67"/>quia tunc paternitas non esset ultimum
+          <lb ed="#V" n="68"/>constitutivum, sed esset aliud magis
+          <lb ed="#V" n="69"/>ultimate constitutivum.
+        </p>
+        <p xml:id="mm30o9-d1e1039-d1e581">
+          <lb ed="#V" n="70"/>Si dicatur quod non est aliquid reale
+          <lb ed="#V" n="71"/>commune divinis relationibus, sed 
+          tan<lb break="no" ed="#V" n="72"/>tum aliquis conceptus :
+        </p>
+        <p xml:id="mm30o9-d1e1039-d1e590">
+          <lb ed="#V" n="73"/>Contra, ergo eadem ratione ultimis
+          <lb ed="#V" n="74"/>differentiis posset esse aliquis 
+          concep<lb break="no" ed="#V" n="75"/>tus communis, quamvis ipse 
+          differen<lb break="no" ed="#V" n="76"/>ti: seipsis differrent et non per 
+          diffe<lb break="no" ed="#V" n="77"/>rentias.
+        </p>
+        <p xml:id="mm30o9-d1e1039-d1e603">
+          <lb ed="#V" n="78"/>Praeterea, ex istis sequeretur quod
+          <lb ed="#V" n="79"/>potest esse conceptus communis sine
+          <lb ed="#V" n="80"/>omni communitate a parte rei; ergo
+          <lb ed="#V" n="81"/>ponendo commune univocum 
+          dilffe<lb break="no" ed="#V" n="82"/>rentiis ultimis in creaturis, non erit
+          <lb ed="#V" n="83"/>processus in infinitum.
+        </p>
+        <p xml:id="mm30o9-d1e1039-d1e619">
+          <lb ed="#V" n="84"/>Praeterea, ex isto sequeretur quod
+          <lb ed="#V" n="85"/>aliquod univocum potest descendere in
+          <lb ed="#V" n="86"/>sua inferiora sine omnibus 
+          concepti<lb break="no" ed="#V" n="87"/>bus contreahentibus, ita quod non 
+          opor<lb break="no" ed="#V" n="88"/>tet ponere conceptum determinantem
+          <pb ed="#V" n="283"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>et determinabilem praeter conceptum
+          <lb ed="#V" n="2"/>inecludentem utrumque, qua omnia
+          <lb ed="#V" n="3"/>sunt contra istum Doctorem alibi.
+        </p>
+        <p xml:id="mm30o9-d1e1039-d1e643">
+          <lb ed="#V" n="4"/>Si dicatur, quod in paternitate 
+          in<lb break="no" ed="#V" n="5"/>cluditur relatio et etiam aliquid praeter
+          <lb ed="#V" n="6"/>relationem, sed illud non est ultimum
+          <lb ed="#V" n="7"/>constitutivum persone :
+        </p>
+        <p xml:id="mm30o9-d1e1039-d1e655">
+          <lb ed="#V" n="8"/>Contra, quidquid est constitutivum
+          <lb ed="#V" n="9"/>constitutivi, est etiam constitutivum
+          <lb ed="#V" n="10"/>constituti ; ergo quidquid est differentia
+          <lb ed="#V" n="11"/>differentiae, est etiam differentia 
+          dit<lb break="no" ed="#V" n="12"/>ferentis. Sed illud in paternitate 
+          prc<lb break="no" ed="#V" n="13"/>ter relationem est constitutivum 
+          pater<lb break="no" ed="#V" n="14"/>nitatis ;ergo est etiam constitutivum
+          <lb ed="#V" n="15"/>Patris.
+        </p>
+        <p xml:id="mm30o9-d1e1039-d1e675">
+          <lb ed="#V" n="16"/>Confirmatur, quia secundum istum
+          <lb ed="#V" n="17"/>ab anima intellectiva non sumitur 
+          ul<lb break="no" ed="#V" n="18"/>tima differentia hominis, quia ipsa 
+          dif<lb break="no" ed="#V" n="19"/>fert differentia ; ergo similiter a 
+          pater<lb break="no" ed="#V" n="20"/>nitate non accipitur ultima differentia
+          <lb ed="#V" n="21"/>qua Pater distinguitur a Filio, si ipsa
+          <lb ed="#V" n="22"/>paternitas non se tota distinguitur a
+          <lb ed="#V" n="23"/>filiatione, sed per aliquid sui. Ex isto
+          <lb ed="#V" n="24"/>potest inferri, quod dicere quod ab 
+          ul<lb break="no" ed="#V" n="25"/>limis constitutivis nature creati non
+          <lb ed="#V" n="26"/>potest abstrahi conceptus 
+          quidditati<lb break="no" ed="#V" n="27"/>vus, quia sunt ejusdem generis, et ab
+          <lb ed="#V" n="28"/>ultimis constitutivis nature  ereate
+          <lb ed="#V" n="29"/>potest abstrahi conceptus 
+          quidditati<lb break="no" ed="#V" n="30"/>vus, est non causa ut causa. Sed sive
+          <lb ed="#V" n="31"/>sint ejusdem generis sive non, ex hoc
+          <lb ed="#V" n="32"/>ipso quod potest abstrahi commune
+          <lb ed="#V" n="33"/>contractum per aliquid contrahens,
+          <lb ed="#V" n="34"/>illa sic constituta ex conirahente et
+          <lb ed="#V" n="35"/>coniraeto, non sunt ultima 
+          constiltu<lb break="no" ed="#V" n="36"/>tiva.
+        </p>
+        <p xml:id="mm30o9-d1e1039-d1e723">
+          <lb ed="#V" n="37"/>Praeterea, si ab omni habente 
+          unita<lb break="no" ed="#V" n="38"/>tem quidditativam potest abstrahi 
+          con<lb break="no" ed="#V" n="39"/>ceptus quidditativus, ergo ab ultimis
+          <lb ed="#V" n="40"/>differentiis potest abstrahi conceptus
+          <lb ed="#V" n="41"/>quidditativus, quia accipio ultimam
+          <lb ed="#V" n="42"/>differentiam generis, et quiero de ea,
+          <lb ed="#V" n="43"/>an habeat unitatem quidditativam, an
+          <lb ed="#V" n="44"/>eam quam vocat hic unitatem indivi-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>duationis et singularitatis ? Si detur
+          <lb ed="#V" n="46"/>primum, habeo propositum. Si detur
+          <lb ed="#V" n="47"/>secundum, contra: Omnis differentia
+          <lb ed="#V" n="48"/>est ejusdem ambitus cum illo quod
+          <lb ed="#V" n="49"/>peripsam constituitur ; ergo ultima
+          <lb ed="#V" n="50"/>differentia generis est ejusdem 
+          com<lb break="no" ed="#V" n="51"/>munitatis cum genere, et per 
+          conse<lb break="no" ed="#V" n="52"/>quens non habet ex se unitatem 
+          sin<lb break="no" ed="#V" n="53"/>gularitatis.
+        </p>
+        <p xml:id="mm30o9-d1e1039-d1e765">
+          <lb ed="#V" n="54"/>Ideo dico, quod si a personis divinis
+          <lb ed="#V" n="55"/>potest abstrahi aliquis conceptus 
+          eom<lb break="no" ed="#V" n="56"/>munis quidditativus praedicabilis in
+          <lb ed="#V" n="57"/>quid de eis, similiter potest a 
+          relatio<lb break="no" ed="#V" n="58"/>nibus et ultimis constitutivis abstrahi
+          <lb ed="#V" n="59"/>talis conceptus; et non tantum hoc
+          <lb ed="#V" n="60"/>est possibile in Deo, sed etiam a 
+          crea<lb break="no" ed="#V" n="61"/>turis, quia a quibuscumque 
+          realita<lb break="no" ed="#V" n="62"/>tibus constitutivis potest abstrahi 
+          ali<lb break="no" ed="#V" n="63"/>quod commune univocum pradicabile
+          <lb ed="#V" n="64"/>in quid deeis : haec Occham.
+        </p>
+        <p xml:id="mm30o9-d1e1039-d1e791">
+          <lb ed="#V" n="65"/>Respondeo praemittendo unum quod
+          <lb ed="#V" n="66"/>dicit Doctor: Natura creata est 
+          deter<lb break="no" ed="#V" n="67"/>minabilis per aliquod determinativum
+          <lb ed="#V" n="68"/>ejusdem generis respectu cujus est in
+          <lb ed="#V" n="69"/>potentia, et comparatur ad illud, ut
+          <lb ed="#V" n="70"/>potentiale ad actuale. lllud autem
+          <lb ed="#V" n="71"/>determinativum nature cereal? non
+          <lb ed="#V" n="72"/>habet unitatem quidditatis, quia tune
+          <lb ed="#V" n="73"/>non determinaret quidditatem ad 
+          ra<lb break="no" ed="#V" n="74"/>tionem singularitatis, et ideo ab 
+          hu<lb break="no" ed="#V" n="75"/>jusmodi determi$1atio nibus noa potest
+          <lb ed="#V" n="76"/>abstrahi aliquis conceptus communis
+          <lb ed="#V" n="77"/>quidditalivus, sed tantum a natura et
+          <lb ed="#V" n="78"/>quidditate abstrahitur; sed per omnia
+          <lb ed="#V" n="79"/>opposito modo est in divinis. Nam ibi
+          <lb ed="#V" n="80"/>natura est determinalissima et 
+          singu<lb break="no" ed="#V" n="81"/>larissima, ut supra patuit d. 5. g. 2. et
+          <lb ed="#V" n="82"/>quodlib. q. 1. et ideo non est 
+          deterini<lb break="no" ed="#V" n="83"/>nabilis per aliquid ejusdem generis,
+          <lb ed="#V" n="84"/>scilicet de genere Substantiae, nec est
+          <lb ed="#V" n="85"/>potentiale ad tale determinativum,
+          <lb ed="#V" n="86"/>unde per nihil pertinens ad genus
+          <lb ed="#V" n="87"/>Substantiv? determinatur. Et ideo si
+          <lb ed="#V" n="88"/>sint aliqua determinantia, pertinent
+          <pb ed="#V" n="284"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>ad aliud genus, scilicet Relationis eo
+          <lb ed="#V" n="2"/>modo, quo ponitur ibi genus. Et ideo
+          <lb ed="#V" n="3"/>hujusmodi determinantia habent 
+          ra<lb break="no" ed="#V" n="4"/>lionem quidditatis, ae si naturam
+          <lb ed="#V" n="5"/>non determinarent, quia non habent
+          <lb ed="#V" n="6"/>naturam aliam a natura in eodem
+          <lb ed="#V" n="7"/>genere, sed in alio genere, propter
+          <lb ed="#V" n="8"/>quod retinent unitatem quidditativam
+          <lb ed="#V" n="9"/>alterius generis. Et ideo ab hujusmodi
+          <lb ed="#V" n="10"/>determinativo potest abstrahi 
+          conce<lb break="no" ed="#V" n="11"/>pius communis quidditativus. Unde
+          <lb ed="#V" n="12"/>relationes, quia sunt determinativa
+          <lb ed="#V" n="13"/>alterius generis, non tribuunt 
+          singula<lb break="no" ed="#V" n="14"/>rilatem essentiae, sed determinant ad
+          <lb ed="#V" n="15"/>certum suppositum, et retinent suas
+          <lb ed="#V" n="16"/>rationes quidditativas, et ideo ab illis
+          <lb ed="#V" n="17"/>potest abstrahi conceptus communis.
+        </p>
+        <p xml:id="mm30o9-d1e1039-d1e887">
+          <lb ed="#V" n="18"/>Hoc praemisso, respondeo ad primum
+          <lb ed="#V" n="19"/>argumentum. Primo, quod illa major,
+          <lb ed="#V" n="20"/>scilicet : Quando aliquibus distinctis
+          <lb ed="#V" n="21"/>est aliquod commune, etc. vera est ubi
+          <lb ed="#V" n="22"/>tale commune est commune ex natura
+          <lb ed="#V" n="23"/>rei, ita quod tantum conceptus non sit
+          <lb ed="#V" n="24"/>communis, ibi contentum sub tali
+          <lb ed="#V" n="25"/>communi habet aliquid quo convenit,
+          <lb ed="#V" n="26"/>et aliquid quo differt ; modo 
+          paterni<lb break="no" ed="#V" n="27"/>tati et filiationi in divinis relatio non
+          <lb ed="#V" n="28"/>est tale commune, ergo. Et eum 
+          infer<lb break="no" ed="#V" n="29"/>tur, quod eodem modo posset esse de
+          <lb ed="#V" n="30"/>ultimis differentiis in creaturis, patet
+          <lb ed="#V" n="31"/>responsio, quod non est simile, cum
+          <lb ed="#V" n="32"/>sint ejusdem rationis cum 
+          contrahi<lb break="no" ed="#V" n="33"/>bili. Et eum infertur, quod tunc posset
+          <lb ed="#V" n="34"/>esse conceptus communis sine 
+          com<lb break="no" ed="#V" n="35"/>munitate a parte rei, hoc non habetur
+          <lb ed="#V" n="36"/>proinconvenienti. Et cum ultra infert,
+          <lb ed="#V" n="37"/>quod aliquod commune univoeum
+          <lb ed="#V" n="38"/>tunc posset descendere ad sua 
+          infe<lb break="no" ed="#V" n="39"/>riora sineconceptibus conirahentibus,
+          <lb ed="#V" n="40"/>dico quod non esset inconveniens,
+          <lb ed="#V" n="41"/>loquendo de conceptu tantum, non de
+          <lb ed="#V" n="42"/>contrahibili a parte rei, quia illud
+          <lb ed="#V" n="43"/>descendit ad inferiora per contractiva.
+          <lb ed="#V" n="44"/>Et quod dicit quod hae sunt contra
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>Scotum, verum est, loquendo de 
+          com<lb break="no" ed="#V" n="46"/>muni a parte rei, et non de communi
+          <lb ed="#V" n="47"/>conceptu tantum. Cum etiam infertur,
+          <lb ed="#V" n="48"/>quod non est major $1atio  de ultimis
+          <lb ed="#V" n="49"/>constitutivis in creaturis quam in 
+          di<lb break="no" ed="#V" n="50"/>vinis; ergo si ab ultimis constitutivis
+          <lb ed="#V" n="51"/>in divinis potest abstrahi talis 
+          conce<lb break="no" ed="#V" n="52"/>plus, quare etiam non ab ultimis
+          <lb ed="#V" n="53"/>constitutivis in creaturis. Dico quod
+          <lb ed="#V" n="54"/>conceptus communis dictus in qwid,
+          <lb ed="#V" n="55"/>tantum est abstrahibilis ab illis, quae
+          <lb ed="#V" n="56"/>ex sua ratione dicunt quidditatem ;
+          <lb ed="#V" n="57"/>modo ultima constitutiva in creaturis
+          <lb ed="#V" n="58"/>(ut supra patuit). nullo modo dicünt
+          <lb ed="#V" n="59"/>quidditatem. Ultima autem 
+          consti<lb break="no" ed="#V" n="60"/>tutiva in divinis ex sua ratione formali
+          <lb ed="#V" n="61"/>dicunt quidditatem, non tamen 
+          quid<lb break="no" ed="#V" n="62"/>ditatem importantem aliquam 
+          perfe<lb break="no" ed="#V" n="63"/>ctionem vel imperfectionem, sed 
+          di<lb break="no" ed="#V" n="64"/>cunt quidditatem nec perfectam nec
+          <lb ed="#V" n="65"/>imperfectam, ut patet a Doctore in
+          <lb ed="#V" n="66"/>pluribus locis. Et cum dicit de ultima
+          <lb ed="#V" n="67"/>differentia gene:is, aut dicit unitatem
+          <lb ed="#V" n="68"/>singularitatis aut unitatem quidditatis,
+          <lb ed="#V" n="69"/>dico, quod nec hoc nec illud, sicut
+          <lb ed="#V" n="70"/>etiam de. ultima differentia anima
+          <lb ed="#V" n="71"/>intellectivee, qua ipsa anima differt ab
+          <lb ed="#V" n="72"/>alia ; illa differentia ultima non dicit
+          <lb ed="#V" n="73"/>unitatem quidditativam, eum sit 
+          ejus<lb break="no" ed="#V" n="74"/>dem generis, ut patet a Doctore supra
+          <lb ed="#V" n="75"/>d. 3. nec dicit unitatem singularitatis,
+          <lb ed="#V" n="76"/>quia potest esse communis. Sic ultima
+          <lb ed="#V" n="77"/>differentia animalis, quecumque sit
+          <lb ed="#V" n="78"/>illa, non dicit ex se unitatem 
+          singu<lb break="no" ed="#V" n="79"/>laritatis, eum sit idem cum animali,
+          <lb ed="#V" n="80"/>nec unitatem quidditatis, ut patet.
+        </p>
+        <p xml:id="mm30o9-d1e1039-d1e1029">
+          <lb ed="#V" n="81"/>Et nota pro ista materia, illa qus
+          <lb ed="#V" n="82"/>dixi supra d. 2. q. 1. parte prima, in
+          <lb ed="#V" n="83"/>exponendo illud argumentum, quod
+          <lb ed="#V" n="84"/>non possunt esse plura necesse esse, et
+          <lb ed="#V" n="85"/>quae exposul supra d. 8. qg. 2. llla
+          <lb ed="#V" n="86"/>enim quia proprie conveniunt in 
+          ali<lb break="no" ed="#V" n="87"/>qua realitate communi quidditativa et
+          <lb ed="#V" n="88"/>differunt ab invicem, habent aliquid
+          <pb ed="#V" n="285"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>ex natura rei quo conveniunt, et 
+          ali<lb break="no" ed="#V" n="2"/>quid quo differunt, sicut Franciscus et
+          <lb ed="#V" n="3"/>Joannes conveniunt ex natura rei
+          <lb ed="#V" n="4"/>quidditative in humanitate, et non
+          <lb ed="#V" n="5"/>tantum in conceptu communi, et 
+          dif<lb break="no" ed="#V" n="6"/>ferunt per suas proprias hecceitates
+          <lb ed="#V" n="7"/>contractivas humanitatis ad esse 
+          sin<lb break="no" ed="#V" n="8"/>gulare, et sic realiter conveniunt in
+          <lb ed="#V" n="9"/>humanitate et realiter differunt per
+          <lb ed="#V" n="10"/>hecceitates. llla vero quae dicunt 
+          quid<lb break="no" ed="#V" n="11"/>ditatem, et tantum conveniunt in 
+          con<lb break="no" ed="#V" n="12"/>ceptu aliquo et non in realitate 
+          quid<lb break="no" ed="#V" n="13"/>ditativa, non habent aliquid ex natura
+          <lb ed="#V" n="14"/>rei quo conveniant, et aliquid quo
+          <lb ed="#V" n="15"/>differant, sed tantum seipsis ex natura
+          <lb ed="#V" n="16"/>rei sunt primo diversa. Sic in proposito,
+          <lb ed="#V" n="17"/>paternitas in divinis seipsa 
+          distingui<lb break="no" ed="#V" n="18"/>tur, nec habet aliquid quo conveniat
+          <lb ed="#V" n="19"/>cum filiatione quidditative. Pater vero
+          <lb ed="#V" n="20"/>ex natura rei habet aliquid, quo 
+          quid<lb break="no" ed="#V" n="21"/>ditative convenit cum Filio et Spiritu
+          <lb ed="#V" n="22"/>sancto, et similiter Filius quo 
+          conve<lb break="no" ed="#V" n="23"/>nit cum Patre, scilicet essentiam 
+          di<lb break="no" ed="#V" n="24"/>vinam, qua est ex natura rei in tribus
+          <lb ed="#V" n="25"/>personis. Habent etiam aliquid quo
+          <lb ed="#V" n="26"/>realiter differunt ab invicem, scilicet
+          <lb ed="#V" n="27"/>suas proprietates.
+        </p>
+        <p xml:id="mm30o9-d1e1039-d1e1112">
+          <lb ed="#V" n="28"/>Si dicatur, nonne paternitas et 
+          filia<lb break="no" ed="#V" n="29"/>tio in creaturis, vel duc paternitates
+          <lb ed="#V" n="30"/>ex natura rei conveniunt in aliqua
+          <lb ed="#V" n="31"/>realitate, puta relationis, et per aliquid
+          <lb ed="#V" n="32"/>ex natura rei differunt?
+        </p>
+        <p xml:id="mm30o9-d1e1039-d1e1125">
+          <lb ed="#V" n="33"/>Dico quod sic. Quare etiam hoc
+          <lb ed="#V" n="34"/>non erit in divinis? dico quod non
+          <lb ed="#V" n="35"/>est simile hic et ibi, quia in divinis
+          <lb ed="#V" n="36"/>paternitas, ut paternitas, est in ultima
+          <lb ed="#V" n="37"/>actualitate ; nec. enim ibi est aliqua
+          <lb ed="#V" n="38"/>relatio, quae ex natura rei sit 
+          contra<lb break="no" ed="#V" n="39"/>hibilis, ideo ab illis tantum potest
+          <lb ed="#V" n="40"/>abstrahi conceptus communis dietusin
+          <lb ed="#V" n="41"/>quid, non quod ex natura rei detur 
+          ali<lb break="no" ed="#V" n="42"/>quid commune in quid; sed dicitur
+          <lb ed="#V" n="43"/>ille conceptus in quid ex hoc, quia est
+          <lb ed="#V" n="44"/>abstractus a realitatibus quidditativis,
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>ut dixi supra. In creaturis autem
+          <lb ed="#V" n="46"/>datur relatio vere potentialis ex natura
+          <lb ed="#V" n="47"/>rei ad hecceitatem contractivam ad
+          <lb ed="#V" n="48"/>esse individuale, et sic patet quod non
+          <lb ed="#V" n="49"/>est simile. Et hoc est, quod etiam dicit
+          <lb ed="#V" n="50"/>Doctor ubi supra d. 8. g. 2. quod Deus
+          <lb ed="#V" n="51"/>et creatura sunt primo diversa in 
+          re<lb break="no" ed="#V" n="52"/>alitatibus, non in conceptu communi.
+          <lb ed="#V" n="53"/>Non enim est aliqua realitas ex natura
+          <lb ed="#V" n="54"/>rei, qu. sit communis Deo et 
+          cre<lb break="no" ed="#V" n="55"/>ature, qua sit potentialis ad aliquid
+          <lb ed="#V" n="56"/>in Deo, cum ipse Deus secundum
+          <lb ed="#V" n="57"/>omnem realitatem sit sic in ultima
+          <lb ed="#V" n="58"/>actualitate, quod seipso distinguitur a
+          <lb ed="#V" n="59"/>creaturis ; convenit tamen cum 
+          cre<lb break="no" ed="#V" n="60"/>atura in conceptu quidditativo 
+          abstra<lb break="no" ed="#V" n="61"/>clo per intellectum, quia tam Deus
+          <lb ed="#V" n="62"/>quam creatura dicunt quidditatem, et
+          <lb ed="#V" n="63"/>sic conceptus abstractus ab eis poterit
+          <lb ed="#V" n="64"/>dici quidditativus, quod bene nota.
+        </p>
+        <p xml:id="mm30o9-d1e1039-d1e1199">
+          <lb ed="#V" n="65"/>Nota etiam quod aliqua esse primo
+          <lb ed="#V" n="66"/>diversa potest dupliciter intelligi.
+          <lb ed="#V" n="67"/>Primo quod sint primo diversa, hoc
+          <lb ed="#V" n="68"/>est, non convenientia in aliquo 
+          quid<lb break="no" ed="#V" n="69"/>ditative ex natura rei, id est, in aliqua
+          <lb ed="#V" n="70"/>realitate communi quidditative; 
+          si<lb break="no" ed="#V" n="71"/>militer nec in aliquo conceptu 
+          quid<lb break="no" ed="#V" n="72"/>ditativo. Hoc modo differentice ultimae
+          <lb ed="#V" n="73"/>dicuntur primo diversa, quia nec in
+          <lb ed="#V" n="74"/>aliqua realitate communi, nec in
+          <lb ed="#V" n="75"/>conceptu communi conveniunt 
+          quid<lb break="no" ed="#V" n="76"/>ditative. Secundo, aliqua dicuntur
+          <lb ed="#V" n="77"/>primo diversa, quia non conveniunt
+          <lb ed="#V" n="78"/>in aliqua realitate communi in quid,
+          <lb ed="#V" n="79"/>possunt tamen convenire iu conceptu
+          <lb ed="#V" n="80"/>communi in qud, et hoc modo Deus
+          <lb ed="#V" n="81"/>et creatura dicuntur primo diversa ;
+          <lb ed="#V" n="82"/>similiter paternitas et filiatio in divinis,
+          <lb ed="#V" n="83"/>et sic de multis aliis. Ista enim sic se
+          <lb ed="#V" n="84"/>habent, quod quae conveniunt 
+          quiddi<lb break="no" ed="#V" n="85"/>tative iu realitate, possunt convenire
+          <lb ed="#V" n="86"/>quidditative in concepta communi,
+          <lb ed="#V" n="87"/>sed non e contra. Similiter sequitur
+          <lb ed="#V" n="88"/>quod qua sunt primo diversa in con-
+          <pb ed="#V" n="286"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>ceptu quidditativo, sunt etiam primo
+          <lb ed="#V" n="2"/>diversa in realitate quidditativa ; sed
+          <lb ed="#V" n="3"/>non sequitur quod qua sunt primo
+          <lb ed="#V" n="4"/>diversa in realitate communi, sint
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="5"/>primo diversa in conceptu communi,
+          <lb ed="#V" n="6"/>qua omnia bene nota. Et ex his
+          <lb ed="#V" n="7"/>apparet. quomodo rationes Occham
+          <lb ed="#V" n="8"/>non concludunt contra Doctorem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

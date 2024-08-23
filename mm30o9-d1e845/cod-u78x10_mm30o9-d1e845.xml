@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#per-FLBca3">Franciscus Lychetus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2024-08-23">August 23, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-23" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="11"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="mm30o9-d1e845"><!-- lycht-d14per16q1-p2 -->
+        <head xml:id="mm30o9-d1e845-Hd1e101">Quaestio 1</head>
+        <p xml:id="mm30o9-d1e845-d1e103">
+          <lb ed="#V" n="69" type="fixed=11"/>COMMENTARIUS
+        </p>
+        <p xml:id="mm30o9-d1e845-d1e108">
+          <lb ed="#V" n="70"/>(a) In ista quaestione videtur esse opinio
+          <lb ed="#V" n="71"/>Magistri, quae stat in uno, scilicet quod
+          <lb ed="#V" n="72"/>mitti sive missione invisibili sive 
+          visi<lb break="no" ed="#V" n="73"/>bili competit tantum personis 
+          produc<lb break="no" ed="#V" n="74"/>tis, mittere vero tribus personis. Sed
+          <lb ed="#V" n="75"/>Doctor vult probare hic quod sicut
+          <lb ed="#V" n="76"/>mitti tantum competit personis 
+          pro<lb break="no" ed="#V" n="77"/>ductis, ita et mittere tantum competit
+          <lb ed="#V" n="78"/>personis producentibus, et argumenta
+          <lb ed="#V" n="79"/>videntur clara. Et quando dicit in 
+          ul<lb break="no" ed="#V" n="80"/>timo, mittere et mitti videntur dicere
+          <lb ed="#V" n="81"/>relationes oppositas, sicut producere
+          <lb ed="#V" n="82"/>et produci ; Y ergo mittere non includit
+          <lb ed="#V" n="83"/>producere, ergo nec correlativum 
+          in<lb break="no" ed="#V" n="84"/>cludit correlativum, id est, ergo nec
+          <lb ed="#V" n="85"/>mitti, quod est correlativum ad mittere
+          <pb ed="#V" n="12"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>includit produci quod est correlativum
+          <lb ed="#V" n="2"/>ad producere.
+        </p>
+        <!--</div>
+          <div alias="lycht-d14per16q1-p3">-->
+        <p xml:id="mm30o9-d1e845-d1e156">
+          <lb ed="#V" n="51" type="fixed=14"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e845-d1e162">
+          <lb ed="#V" n="52"/>(a) Videtur aliter posse dici. Hec 
+          opi<lb break="no" ed="#V" n="53"/>nio consistit in isto, quod sicut mitti
+          <lb ed="#V" n="54"/>tantum competit personis produectis,ita
+          <lb ed="#V" n="55"/>et mittere competit personis 
+          producen<lb break="no" ed="#V" n="56"/>tibus,et sic solus Pater mittit Filium,
+          <lb ed="#V" n="57"/>Pater vero et FiliusSpiritum sanctum.
+          <lb ed="#V" n="58"/>Et ultra dicit, quod mittere personam
+          <lb ed="#V" n="59"/>est operari per eam, et ita operari effe
+          <lb ed="#V" n="60"/>ctum eum illa persona per modum 
+          auc<lb break="no" ed="#V" n="61"/>toris dantis illi person: actionem, id
+          <lb ed="#V" n="62"/>est, quod quando Pater mittit Filium,
+          <lb ed="#V" n="63"/>tunc per ipsum Filium operatur 
+          ali<lb break="no" ed="#V" n="64"/>quem effectum, puta incarnationem,
+          <lb ed="#V" n="65"/>et cum ipso Filio ipsam operatur, 
+          ta<lb break="no" ed="#V" n="66"/>men Pater auctoritative et Filius 
+          sub<lb break="no" ed="#V" n="67"/>auctoritative, quia habet a Patre ut
+          <lb ed="#V" n="68"/>efficiat illam inearnationem, et sic de
+          <lb ed="#V" n="69"/>aliis missionibus.
+        </p>
+        <p xml:id="mm30o9-d1e845-d1e204">
+          <lb ed="#V" n="70"/>Et si dicatur, nonne Spiritus 
+          sanc<lb break="no" ed="#V" n="71"/>tus misit Filium?
+        </p>
+        <p xml:id="mm30o9-d1e845-d1e211">
+          <lb ed="#V" n="72"/>Respondet quod non, sed tantum
+          <lb ed="#V" n="73"/>Christum incarnatum, non autem
+          <lb ed="#V" n="74"/>Verbum incarnandum, id est, non 
+          ef<lb break="no" ed="#V" n="75"/>fieiae cum Filio incarnationem quasi
+          <lb ed="#V" n="76"/>auctoritative.
+        </p>
+        <p xml:id="mm30o9-d1e845-d1e224">
+          <lb ed="#V" n="77"/>Si dicatur, ergo operationes ad 
+          ex<lb break="no" ed="#V" n="78"/>ira non sunt communes tribus.
+        </p>
+        <p xml:id="mm30o9-d1e845-d1e231">
+          <lb ed="#V" n="79"/>Respondet, quod omne opus ad 
+          ex<lb break="no" ed="#V" n="80"/>tra est commune tribus, et ita Spiritus
+          <lb ed="#V" n="81"/>sanctus efficit incarnationem Filii,
+          <lb ed="#V" n="82"/>sicut Pater et Filius, sed tamen 
+          Spiri<lb break="no" ed="#V" n="83"/>tus sanctus non misit illum 
+          incarnan<lb break="no" ed="#V" n="84"/>dum, quia mittere personam, est ultra
+          <lb ed="#V" n="85"/>efficere aliquid cum illa persona 
+          aueto<lb break="no" ed="#V" n="86"/>ritatem habere, id est, quod persona
+          <pb ed="#V" n="15"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>mittens operetur auctoritative cum 
+          per<lb break="no" ed="#V" n="2"/>sona missa, et missa subauctoritative,
+          <lb ed="#V" n="3"/>quia hoc est, quando habet virtutem
+          <lb ed="#V" n="4"/>operandi a persona, et sic licet Spiritus
+          <lb ed="#V" n="5"/>sanctus effecerit incarnationem Filii
+          <lb ed="#V" n="6"/>simul eum Filio, quia tamen non dedit
+          <lb ed="#V" n="7"/>hanc virtutem Filio, ideo non misit
+          <lb ed="#V" n="8"/>illum, et hoc est, quod dicit in 
+          respon<lb break="no" ed="#V" n="9"/>sione argumenti Magistri, et hec
+          <lb ed="#V" n="10"/>opinio est satis probabilis.
+        </p>
+        <p xml:id="mm30o9-d1e845-d1e277">
+          <lb ed="#V" n="11"/>(b) Licet autem haec via. Hic Doctor
+          <lb ed="#V" n="12"/>propter verba Augustini declinat ad
+          <lb ed="#V" n="13"/>opinionem Magistri, scilicet quod 
+          mit<lb break="no" ed="#V" n="14"/>tere sif. commune tribus, et mitti
+          <lb ed="#V" n="15"/>tantum competat productis, et hanc
+          <lb ed="#V" n="16"/>positionem declarat et dicit aliqua.
+          <lb ed="#V" n="17"/>Primum, quod mittere aliquam 
+          perso<lb break="no" ed="#V" n="18"/>nam alicui, est manifestare illi talem
+          <lb ed="#V" n="19"/>personam procedere vel produci, id
+          <lb ed="#V" n="20"/>est, quando Pater, Filius et Spiritus
+          <lb ed="#V" n="21"/>sanctus mittunt Filium alicui, nihil
+          <lb ed="#V" n="22"/>aliud est nisi quod revelant vel 
+          mani<lb break="no" ed="#V" n="23"/>festant ipsum Filium produci a Patre
+          <lb ed="#V" n="24"/>vel esse a Patre. Similiter quando tres
+          <lb ed="#V" n="25"/>persone mittunt Spiritum sanctum
+          <lb ed="#V" n="26"/>alieui, nihil aliud est nisi revelare illi
+          <lb ed="#V" n="27"/>Spiritum sanctum procedere a Patre
+          <lb ed="#V" n="28"/>et Filio, ita quod mftere tantum 
+          signi<lb break="no" ed="#V" n="29"/>ficat ipsam manifestationem activam,
+          <lb ed="#V" n="30"/>et non connotat persona 
+          producen<lb break="no" ed="#V" n="31"/>tem, quia  tunc sola personam 
+          produ<lb break="no" ed="#V" n="32"/>cens mitteret. Secundum dictum, 
+          per<lb break="no" ed="#V" n="33"/>sonam mitti significat ipsam 
+          manifes<lb break="no" ed="#V" n="34"/>tari, et connotat ipsam produci ab alio,
+          <lb ed="#V" n="35"/>ita quod de ratione mU//42 passive duo
+          <lb ed="#V" n="36"/>sunt, etc. Et hoc est, quod dicit 
+          Doc<lb break="no" ed="#V" n="37"/>tor quod mnftere est mere essentiale, id
+          <lb ed="#V" n="38"/>est, commune tribus, nec connotat 
+          res<lb break="no" ed="#V" n="39"/>pectum realem elernum in. mittente,
+          <lb ed="#V" n="40"/>id est, quod non connotat in 
+          mit<lb break="no" ed="#V" n="41"/>tente relationem realem producentis
+          <lb ed="#V" n="42"/>ad productum. Sed mfi ultra 
+          signi<lb break="no" ed="#V" n="43"/>ficatum quod est manifestari, 
+          con<lb break="no" ed="#V" n="44"/>notat respectum supernaturalem in
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>persona missa, scilicet relationem 
+          rea<lb break="no" ed="#V" n="46"/>lem producti ad personam 
+          producen<lb break="no" ed="#V" n="47"/>tem. Tertium ibi : E/ posser quidem aliud
+          <lb ed="#V" n="48"/>verbum imponi, id est, quod posset. poni
+          <lb ed="#V" n="49"/>aliquod verbum, quod tantum 
+          signifi<lb break="no" ed="#V" n="50"/>caret missionem active, id est, 
+          manifes<lb break="no" ed="#V" n="51"/>tationem, non connotando relationem
+          <lb ed="#V" n="52"/>realem, etc. et missionem passivam,
+          <lb ed="#V" n="53"/>connotando relationem realem ut 
+          su<lb break="no" ed="#V" n="54"/>pra; sed quia indigemus vocabulis et
+          <lb ed="#V" n="55"/>verbis, ideo oportet uti sicut possumus.
+          <lb ed="#V" n="56"/>(c) Ad argumenta principalia. Ad
+          <lb ed="#V" n="57"/>primum clara est responsio ex 
+          supe<lb break="no" ed="#V" n="58"/>rius dictis, quia mitti significat 
+          respec<lb break="no" ed="#V" n="59"/>tum rationis formaliter ad mittentem,
+          <lb ed="#V" n="60"/>quod est manifestari ad 
+          manifestan<lb break="no" ed="#V" n="61"/>lem ; sed connotat respectum aeternum,
+          <lb ed="#V" n="62"/>scilicet. relationem realem (ut dixi)
+          <lb ed="#V" n="63"/>nonad mittentem quia mittens, id est,
+          <lb ed="#V" n="64"/>quod persona missanon dicit 
+          relatio<lb break="no" ed="#V" n="65"/>nem realem, puta producti ad 
+          mitten<lb break="no" ed="#V" n="66"/>tem inquantum mittens, quia tunc,
+          <lb ed="#V" n="67"/>cum tres personc mittant,diceret 
+          rela<lb break="no" ed="#V" n="68"/>tionem realem ad seipsam ut 
+          mitten<lb break="no" ed="#V" n="69"/>tem, quod est falsum, sed connotat 
+          re<lb break="no" ed="#V" n="70"/>lationem realem producti ad aliquam
+          <lb ed="#V" n="71"/>personam  producentem inquantum
+          <lb ed="#V" n="72"/>producens, non inquantum mittens.
+          <lb ed="#V" n="73"/>(d) Ad secundum concedo. Hic Doctor
+          <lb ed="#V" n="74"/>vult, quod mittere et mitti significet
+          <lb ed="#V" n="75"/>simpliciter idem, quia mittere significat
+          <lb ed="#V" n="76"/>missionem activam sive 
+          manifesta<lb break="no" ed="#V" n="77"/>tionem ; et mitti significat missionem
+          <lb ed="#V" n="78"/>passivam, sive manifestationem. Sed
+          <lb ed="#V" n="79"/>non vult Doctor, quod si passivum
+          <lb ed="#V" n="80"/>ultra principale significatum 
+          conno<lb break="no" ed="#V" n="81"/>tat aliquid, quod activum  
+          conno<lb break="no" ed="#V" n="82"/>tet correlativum connotati a passivo,
+          <lb ed="#V" n="83"/>quia mittere tantum significat 
+          missio<lb break="no" ed="#V" n="84"/>nem, non connotando relationem 
+          rea<lb break="no" ed="#V" n="85"/>lem producentis ad ipsum productum ;
+          <lb ed="#V" n="86"/>mitli vero significat missionem 
+          pas<lb break="no" ed="#V" n="87"/>sivam, connotando relationem realem
+          <lb ed="#V" n="88"/>producti ad personam producentem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

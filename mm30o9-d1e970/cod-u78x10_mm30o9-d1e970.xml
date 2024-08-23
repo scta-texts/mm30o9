@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#per-FLBca3">Franciscus Lychetus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2024-08-23">August 23, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-23" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="210"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="mm30o9-d1e970"><!-- lycht-d21q1-p1 -->
+        <head xml:id="mm30o9-d1e970-Hd1e101">Quaestio 1</head>
+        <p xml:id="mm30o9-d1e970-d1e103">
+          <lb ed="#V" n="77"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e970-d1e108">
+          <lb ed="#V" n="78"/>Probat Doctor in praesenti 
+          distin<lb break="no" ed="#V" n="79"/>ctione per multas rationes quod hae
+          <lb ed="#V" n="80"/>propositio sit vera : Solus Pater est Deus.
+          <lb ed="#V" n="81"/>Prima clara est, et etiam probatio 
+          an<lb break="no" ed="#V" n="82"/>tecedentis.
+        </p>
+        <p xml:id="mm30o9-d1e970-d1e121">
+          <lb ed="#V" n="83"/>(a) Item solus Deus est Pater. Hoc 
+          an<lb break="no" ed="#V" n="84"/>tecedens patet per exponentes, nam
+          <lb ed="#V" n="85"/>exponentes exelusive affirmativae et
+          <pb ed="#V" n="211"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>primi ordinis sunt istae : Solus Deus est
+          <lb ed="#V" n="2"/>Pater, exponitur sic : Deus est Pater, et
+          <lb ed="#V" n="3"/>non alius a Deo est Pater, vel nullus
+          <lb ed="#V" n="4"/>alius a Deo est Pater. Et iste sont
+          <lb ed="#V" n="5"/>vera.
+        </p>
+        <p xml:id="mm30o9-d1e970-d1e145">
+          <lb ed="#V" n="6"/>(b) Item solus Deus est Deus ; ergo 
+          so<lb break="no" ed="#V" n="7"/>lus Pater est Deus. Hanc consequentiam
+          <lb ed="#V" n="8"/>probat, quia semper illa consequentia
+          <lb ed="#V" n="9"/>est bona, quando antecedens infert 
+          ex<lb break="no" ed="#V" n="10"/>ponentes eonsequentis. Exemplum:
+          <lb ed="#V" n="11"/>Tantum animal rationale est. risibile ;
+          <lb ed="#V" n="12"/>ergo tantum homo est. risibulis. 
+          Expo<lb break="no" ed="#V" n="13"/>nentes hujus consequentis sunt iste :
+          <lb ed="#V" n="14"/>homo est risibilis et nullus non homo, vel
+          <lb ed="#V" n="15"/>nihil non homo est risibile, si istae 
+          infe<lb break="no" ed="#V" n="16"/>runtur ab antecedente, consequentia
+          <lb ed="#V" n="17"/>eril vera; et patet quod inferuntur,
+          <lb ed="#V" n="18"/>quia bene sequitur: Tantum animal
+          <lb ed="#V" n="19"/>rationale est risibile ; ergo omne risibile
+          <lb ed="#V" n="20"/>est animal rationale; patet ab 
+          exclusi<lb break="no" ed="#V" n="21"/>va, ut supra, ad universalem 
+          affirma<lb break="no" ed="#V" n="22"/>tivam de terminis transpositis valet
+          <lb ed="#V" n="23"/>consequentia. Tunc ultra, o;ine riscibile
+          <lb ed="#V" n="24"/>est animal rationale ; ergo homo est 
+          rist<lb break="no" ed="#V" n="25"/>b?lis, patet, quia est animal rationale,
+          <lb ed="#V" n="26"/>et sic habetur prima exponens. 
+          Secun<lb break="no" ed="#V" n="27"/>da habetur sic: Tantum anima! 
+          ratio<lb break="no" ed="#V" n="28"/>nale est risibile; ergo nihil non animal
+          <lb ed="#V" n="29"/>rationale est risibile, ae animal 
+          ratio<lb break="no" ed="#V" n="30"/>nale est definitio hominis ; ergo 
+          sequi<lb break="no" ed="#V" n="31"/>tur, nihil non homo est risibile. Sic
+          <lb ed="#V" n="32"/>Doctor arguit in proposito : So/us Deus
+          <lb ed="#V" n="33"/>est Deus, h«c est vera : ergo solus Pater
+          <lb ed="#V" n="34"/>est Deus. Negatur consequentia, 
+          pro<lb break="no" ed="#V" n="35"/>batur : antecedens infert utramque 
+          ex<lb break="no" ed="#V" n="36"/>ponentem consequentis, scilicet istas :
+          <lb ed="#V" n="37"/>Pater est Deus, et non alius a Patre est
+          <lb ed="#V" n="38"/>JDeus. Negatur, quod inferat istas, bene
+          <lb ed="#V" n="39"/>infert primam, scilicet istam : Pater est
+          <lb ed="#V" n="40"/>Deus, ut patet ibi. Sed non infert 
+          se<lb break="no" ed="#V" n="41"/>eundam cum probatur sic : Solus Deus
+          <lb ed="#V" n="42"/>est Deus, concedo, ergo non alius a
+          <lb ed="#V" n="43"/>Deo est Deus, concedo, quia haec est
+          <lb ed="#V" n="44"/>Secunda exponens hujus: Solus Deus est
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>Deus. Et ultra non alius a Deo est Deus ;
+          <lb ed="#V" n="46"/>ergo non alius a Patre est Deus. 
+          Nega<lb break="no" ed="#V" n="47"/>tur ista ultima consequentia, cum 
+          pro<lb break="no" ed="#V" n="48"/>batur, quia hic videtur fallacia 
+          conse<lb break="no" ed="#V" n="49"/>quentis: A//ws a Deo, ergo alius a 
+          Pa<lb break="no" ed="#V" n="50"/>tre, si est fallacia consequentis, ergo
+          <lb ed="#V" n="51"/>arguendo negativa eodem ordine erit
+          <lb ed="#V" n="52"/>bonum argumentum dicit Doctor quod
+          <lb ed="#V" n="53"/>non est fallacia consequentis, imo haec
+          <lb ed="#V" n="54"/>simpliciter est vera : a/ius a Deo ergo
+          <lb ed="#V" n="55"/>alus a Patre, sicut in ista: Aud ab
+          <lb ed="#V" n="56"/>animali ;ergo aliud ab homine, quia
+          <lb ed="#V" n="57"/>animal stat ibi confuse, distributive
+          <lb ed="#V" n="58"/>proomni animali. Et probatur quod
+          <lb ed="#V" n="59"/>alius a Deo non inferat aliud «a 
+          Pa<lb break="no" ed="#V" n="60"/>ine, quia:.sL inferl ex. hoc njert,
+          <lb ed="#V" n="61"/>quia Deus stat ibi distributive, quia
+          <lb ed="#V" n="62"/>alius a Deo; ergo alius ab isto Deo.
+          <lb ed="#V" n="63"/>Et quod non stet distributive probat,
+          <lb ed="#V" n="64"/>quia  tunc esset omnis propositio 
+          fal<lb break="no" ed="#V" n="65"/>sa, ubi praedicaretur relativum 
+          di<lb break="no" ed="#V" n="66"/>versitatis de aliquo, puta diversum,
+          <lb ed="#V" n="67"/>differens, etc. et sic dicendo, homo est
+          <lb ed="#V" n="68"/>aliud, ly «//ud distribueretur ; et sic si
+          <lb ed="#V" n="69"/>homo est aliud, erit aliud ab isto, aliud
+          <lb ed="#V" n="70"/>ab isto, aliud ab isto, etc. et sic aliud a
+          <lb ed="#V" n="71"/>semetipso. Ext tota vis hujus argumenti
+          <lb ed="#V" n="72"/>stat circa hoc : An relativum diversita -
+          <lb ed="#V" n="73"/>tis distribuatur in se, an terminus 
+          se<lb break="no" ed="#V" n="74"/>quens; et in responsione videbitur,
+          <lb ed="#V" n="75"/>quod tantum terminus sequens, et sic
+          <lb ed="#V" n="76"/>patent istae rationes.
+        </p>
+        <!--</div>
+          <div alias="lycht-d21q1-p2">-->
+        <p xml:id="mm30o9-d1e970-d1e307">
+          <lb ed="#V" n="8" type="fixed=213"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e970-d1e312">
+          <lb ed="#V" n="9"/>(c) Ad quaestionem. Hic suntaliqua 
+          no<lb break="no" ed="#V" n="10"/>tanda. Primum, quod solus aliquando
+          <lb ed="#V" n="11"/>accipitur categorematice, et idem est
+          <lb ed="#V" n="12"/>quod solitarium. Aliquando 
+          syneate<lb break="no" ed="#V" n="13"/>gorematice, et tunc est exclusio, et 
+          ne<lb break="no" ed="#V" n="14"/>gat associationem cum alio. 
+          Secun<lb break="no" ed="#V" n="15"/>dum, solus potest determinare aliquid
+          <lb ed="#V" n="16"/>in se absolute, ut cum dico solus homo
+          <lb ed="#V" n="17"/>vel solus Pater est in. divinis, et 
+          hu<lb break="no" ed="#V" n="18"/>jusmodi. Aut determinat aliquid non
+          <lb ed="#V" n="19"/>in se absolute, sed respectu alicujus
+          <lb ed="#V" n="20"/>praedicati, ut eum dico : Solus homo est
+          <lb ed="#V" n="21"/>risibilis, ly solus determinat hominem
+          <lb ed="#V" n="22"/>in comparatione ad risibile, et est 
+          sen<lb break="no" ed="#V" n="23"/>sus, quod risibile excluditur vel 
+          nega<lb break="no" ed="#V" n="24"/>tur a quolibet quod non est homo. 
+          Ter<lb break="no" ed="#V" n="25"/>iium, solus primo modo sive solitarie,
+          <lb ed="#V" n="26"/>vel ut determinat aliquid in se 
+          abso<lb break="no" ed="#V" n="27"/>lute non est in divinis, quia nihil est
+          <lb ed="#V" n="28"/>ibi solitarium. Si vero accipiatur 
+          se<lb break="no" ed="#V" n="29"/>eundo modo, et  tunc aut comparatur
+          <lb ed="#V" n="30"/>ad essentiale, (et voco hic essentiale
+          <lb ed="#V" n="31"/>commune tribus) et sic haec est falsa:
+          <lb ed="#V" n="32"/>solus Pater est Deus, solus Pater creat,
+          <lb ed="#V" n="33"/>gubernat, intelligit, est bonus, est 
+          sa<lb break="no" ed="#V" n="34"/>piens, et hujusmodi. Si vero 
+          compa<lb break="no" ed="#V" n="35"/>ratur ad praedicatum tantum 
+          notio<lb break="no" ed="#V" n="36"/>nale, quod competit uni personae, sic
+          <lb ed="#V" n="37"/>istae sunt verae : Solus Pater. generat,
+          <lb ed="#V" n="38"/>solus Pater est innascibilis, accipiendo
+          <lb ed="#V" n="39"/>innascibile pro improducibili, ut patet
+          <lb ed="#V" n="40"/>infra dist. 298. solus Filius est genitus,
+          <lb ed="#V" n="41"/>solus Spiritus sanctus est. spiratus, et
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="42"/>hujusmodi. Quartum ibi: Probatur
+          <lb ed="#V" n="43"/>etiam falsitas.
+        </p>
+        <p xml:id="mm30o9-d1e970-d1e393">
+          <lb ed="#V" n="44"/>(d) Probat hic Doctor hanc 
+          proposi<lb break="no" ed="#V" n="45"/>tionem esse simpliciter falsam, 
+          scili<lb break="no" ed="#V" n="46"/>cet : Solus Pater est Deus. Et prima 
+          pro<lb break="no" ed="#V" n="47"/>batio clara est, et secunda, licet enim
+          <lb ed="#V" n="48"/>ista : Tantum homo est risibilis, habeat
+          <lb ed="#V" n="49"/>duas exponentes, scilicet omo est 
+          risi<lb break="no" ed="#V" n="50"/>bilis, et nullus non homo est risibilis,
+          <lb ed="#V" n="51"/>tamen peristam secundam exprimitur
+          <lb ed="#V" n="52"/>totus intellectus hujus: Tantum homo
+          <lb ed="#V" n="53"/>est risibilis.
+        </p>
+        <p xml:id="mm30o9-d1e970-d1e417">
+          <lb ed="#V" n="54"/>(e) Ex negativa de pradicato infinito
+          <lb ed="#V" n="55"/>sequitur affirmativa de praedicato finito.
+        </p>
+        <p xml:id="mm30o9-d1e970-d1e424">
+          <lb ed="#V" n="56"/>Unde bene sequitur : Nullum risibile
+          <lb ed="#V" n="57"/>est non homo; ergo omne risibile est
+          <lb ed="#V" n="58"/>homo. Sequitur etiam propositio 
+          nega<lb break="no" ed="#V" n="59"/>tiva de praedicato negato, scilicet ista:
+          <lb ed="#V" n="60"/>Nullum risibile est tantum homo ; ergo
+          <lb ed="#V" n="61"/>nullum risibile non est homo. Quod 
+          pro<lb break="no" ed="#V" n="62"/>batur per primum principium, scilicet
+          <lb ed="#V" n="63"/>quod ex negativa de praedicato 
+          infini<lb break="no" ed="#V" n="64"/>to sequatur negativa de praedicato 
+          ne<lb break="no" ed="#V" n="65"/>gato, aliter de eodem diceretur 
+          affirma<lb break="no" ed="#V" n="66"/>tio et negatio. Si enim ista: Nullum
+          <lb ed="#V" n="67"/>risibile est non homo, non valeret 
+          is<lb break="no" ed="#V" n="68"/>lam: Nullum risibile non est homo, iunc
+          <lb ed="#V" n="69"/>homo affirmaretur de risibile et 
+          nega<lb break="no" ed="#V" n="70"/>retur. Et sic. patet ista probatio.
+        </p>
+        <p xml:id="mm30o9-d1e970-d1e459">
+          <lb ed="#V" n="71"/>(f) Hic. aliqui instant. Aliqui volunt
+          <lb ed="#V" n="72"/>concedere quod ista est vera : Solus
+          <lb ed="#V" n="73"/>Pater est Deus, quia non excluditur
+          <lb ed="#V" n="74"/>Filius, quia nunquam exclusiva 
+          com<lb break="no" ed="#V" n="75"/>parata ad extremum praedicatum, 
+          ex<lb break="no" ed="#V" n="76"/>cludit aliquid quod sit de per se 
+          con<lb break="no" ed="#V" n="77"/>ceptu subjecti, sicut in ista: Tantum
+          <lb ed="#V" n="78"/>homo est risibilis, non excludit quin
+          <lb ed="#V" n="79"/>animal sit risibile et quin rationale
+          <lb ed="#V" n="80"/>sit risibile, eum sit de conceptu 
+          ho<lb break="no" ed="#V" n="81"/>minis, sic in proposito. Cum enim
+          <lb ed="#V" n="82"/>correlativum sit de conceptu correlativi
+          <lb ed="#V" n="83"/>non intelligitur excludi.
+        </p>
+        <p xml:id="mm30o9-d1e970-d1e491">
+          <lb ed="#V" n="84"/>Doctor dicit quod correlativum non
+          <lb ed="#V" n="85"/>est sic de conceptu correlativi, quod
+          <pb ed="#V" n="214"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>sit pars ejus essentialis vel integralis,
+          <lb ed="#V" n="2"/>nec quod pertineat ad definitionem
+          <lb ed="#V" n="3"/>illius quidditativam. Imo tanta est 
+          di<lb break="no" ed="#V" n="4"/>versitas inter illa, quod unum vere 
+          ex<lb break="no" ed="#V" n="5"/>cluditur ab alio, et hoc patet expresse
+          <lb ed="#V" n="6"/>a Philosopho primo Physicorum, 
+          av<lb break="no" ed="#V" n="7"/>guente contra Parmenidem et 
+          Melis<lb break="no" ed="#V" n="8"/>sum ponentes tantum esse unum 
+          prin<lb break="no" ed="#V" n="9"/>cipium, et tantum esse unum ens, et
+          <lb ed="#V" n="10"/>arguit sic : Si tantum esse unum 
+          prin<lb break="no" ed="#V" n="11"/>cipium ; ergo principiatum non est, et
+          <lb ed="#V" n="12"/>sie vult quod talis exclusio vere 
+          exclu<lb break="no" ed="#V" n="13"/>dat correlativum ; aliter argumentum
+          <lb ed="#V" n="14"/>Philosophi non concluderet contra
+          <lb ed="#V" n="15"/>illos.
+        </p>
+        <!--</div>
+          <div alias="lycht-d21q1-p3">-->
+        <p xml:id="mm30o9-d1e970-d1e537">
+          <lb ed="#V" n="80" type="fixed=217"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e970-d1e542">
+          <lb ed="#V" n="81"/>(g) Ad primum argumentum, etc. Vult
+          <lb ed="#V" n="82"/>dicere Doctor quod ista : Solus Deus qui
+          <lb ed="#V" n="83"/>est Pater est Deus, in sensu. 
+          composi<lb break="no" ed="#V" n="84"/>tionis est falsa. Nam sensus est 
+          pro<lb break="no" ed="#V" n="85"/>prie, quod solus Pater est Deus, quia
+          <lb ed="#V" n="86"/>in sensu compositionis, ly Deus in
+          <pb ed="#V" n="218"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>subjecto determinatur ad standum
+          <lb ed="#V" n="2"/>pro Patre tantum. In sensu vero 
+          di<lb break="no" ed="#V" n="3"/>visionis est vera, et est sensus : 
+          so<lb break="no" ed="#V" n="4"/>lus Deus est Deus, et solus Deus est
+          <lb ed="#V" n="5"/>Pater, et sic sunt duae propositiones,
+          <lb ed="#V" n="6"/>quarum una enuntiiat Deum de Deo,
+          <lb ed="#V" n="7"/>alia Patrem de Deo, et neutra 
+          spe<lb break="no" ed="#V" n="8"/>eificat aliam. Cum enim dico, solus
+          <lb ed="#V" n="9"/>Deus est Deus, non facit stare Deum
+          <lb ed="#V" n="10"/>pro solo Patre, et hoc est quod dicit.
+          <lb ed="#V" n="11"/>Et cum infertur sic arguendo: solus
+          <lb ed="#V" n="12"/>Deus est Deus, et hac est vera : solus
+          <lb ed="#V" n="13"/>Deus est Pater. Similiter haec est vera ;
+          <lb ed="#V" n="14"/>ergo solus Pater est Deus. Negatur 
+          con<lb break="no" ed="#V" n="15"/>sequentia, quia non valet a superiori
+          <lb ed="#V" n="16"/>ad suum inferius cum exclusione, quod
+          <lb ed="#V" n="17"/>sie debet intelligi cum excelusione 
+          ad<lb break="no" ed="#V" n="18"/>dita inferiori, ut hic : Solum animal est
+          <lb ed="#V" n="19"/>sensibile ; ergo solus homo est sensibilis,
+          <lb ed="#V" n="20"/>non sequitur; tamen sine exclusione
+          <lb ed="#V" n="21"/>inferioris bene sequitur : So/um antmal
+          <lb ed="#V" n="22"/>est sensibile ; ergo. inferius ad. animal
+          <lb ed="#V" n="23"/>erit sensibile. Sic in proposito: Solus
+          <lb ed="#V" n="24"/>Deus est; ergo pater est Deus, non 
+          ta<lb break="no" ed="#V" n="25"/>men sequitur; ergo solus Pater est
+          <lb ed="#V" n="26"/>Deus, et hoc est quod dicit.
+        </p>
+        <p xml:id="mm30o9-d1e970-d1e618">
+          <lb ed="#V" n="27"/>(h) Et si objicitur. Quia in creaturis
+          <lb ed="#V" n="28"/>hee videtue vera, vel saltem potest
+          <lb ed="#V" n="29"/>esse vera, tam in sensu composito
+          <lb ed="#V" n="30"/>quam diviso, scilicet ista: So/wm 
+          ani<lb break="no" ed="#V" n="31"/>mal quod est rationale, est sensibile, in
+          <lb ed="#V" n="32"/>sensu composito, hac est vera vel 
+          po<lb break="no" ed="#V" n="33"/>test esse vera : Solum rationale est 
+          sen<lb break="no" ed="#V" n="34"/>sibile. Et similiter ista, si accipiatur in
+          <lb ed="#V" n="35"/>sensu divisionis, quia sensus est: 
+          so<lb break="no" ed="#V" n="36"/>lum animal est sensibile,solum animal
+          <lb ed="#V" n="37"/>est rationale, et sic potest sequi ultra,
+          <lb ed="#V" n="38"/>quod solum rationale est sensibile.
+        </p>
+        <p xml:id="mm30o9-d1e970-d1e647">
+          <lb ed="#V" n="39"/>Doctor dat unam singularem 
+          respon<lb break="no" ed="#V" n="40"/>sionem, quare in creaturis possit esse
+          <lb ed="#V" n="41"/>vera lam in sensu composito quam
+          <lb ed="#V" n="42"/>diviso, qua est haec, quia illud cui
+          <lb ed="#V" n="43"/>additur dictio exclusiva, dividitur et
+          <lb ed="#V" n="44"/>numeratur in illis, pro quibus stat.
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>Nam cum dico: Solum animal quod est
+          <lb ed="#V" n="46"/>rationale, est sensibile, potest stare pro
+          <lb ed="#V" n="47"/>ipso rationali sive in sensu composito
+          <lb ed="#V" n="48"/>sive diviso, quia ex quo numeratur in
+          <lb ed="#V" n="49"/>iliis, potest stare pro uno numerato;
+          <lb ed="#V" n="50"/>nam eum dico : solum animal, quod est
+          <lb ed="#V" n="51"/>rationale, est sensibile, in sensu com -
+          <lb ed="#V" n="52"/>posito, accipio tantam ipsum «nma
+          <lb ed="#V" n="53"/>non absolute, ut est commune omni
+          <lb ed="#V" n="54"/>animali, sed pro ipso numerato et 
+          di<lb break="no" ed="#V" n="55"/>viso in rationali. Et similiter in sensu
+          <lb ed="#V" n="56"/>diviso, quia eum dico: solum animal
+          <lb ed="#V" n="57"/>est sensibile, et solum animal est 
+          ratio<lb break="no" ed="#V" n="58"/>nale, accipio in utraqueipsum az:mal,
+          <lb ed="#V" n="59"/>divisum in $1atio nali, et sic semper
+          <lb ed="#V" n="60"/>idem «animal accipitur tam in sensu
+          <lb ed="#V" n="61"/>composito quam diviso. Secundo dico,
+          <lb ed="#V" n="62"/>quod in ista: solus Deus qui est Pater,
+          <lb ed="#V" n="63"/>est Deus, in sensu composito est 
+          mani<lb break="no" ed="#V" n="64"/>feste falsa, et  tunc tantum stat pro
+          <lb ed="#V" n="65"/>Patre, et sic hac est falsa, quia ipse
+          <lb ed="#V" n="66"/>Deus est simpliciter idem et 
+          indivisi<lb break="no" ed="#V" n="67"/>bilis in tribus. In sensu vero diviso
+          <lb ed="#V" n="68"/>est vera, quia non tantum stat pro una
+          <lb ed="#V" n="69"/>persona, sed etiam stat pro tribus;
+          <lb ed="#V" n="70"/>nam eum dico in sensu diviso: so[zs
+          <lb ed="#V" n="71"/>Deus est Deus,ly Deus in subjecto 
+          po<lb break="no" ed="#V" n="72"/>test supponere pro tribus, et sic patet
+          <lb ed="#V" n="73"/>responsio, quia non est simile in 
+          crea<lb break="no" ed="#V" n="74"/>tura et in Deo.
+        </p>
+        <p xml:id="mm30o9-d1e970-d1e731">
+          <lb ed="#V" n="75"/>(1) Aliqui etiam distinguunt 
+          principa<lb break="no" ed="#V" n="76"/>lem, etc. Dicunt quod hae: Solus Pater
+          <lb ed="#V" n="77"/>est Deus, potest distingui in sensu 
+          com<lb break="no" ed="#V" n="78"/>posito et diviso. Primo modo est falsa,
+          <lb ed="#V" n="79"/>et accipitur in sensu composito, ut 
+          ja<lb break="no" ed="#V" n="80"/>cet. In sensu vero diviso est vera, et
+          <lb ed="#V" n="81"/>est sensus : solus Deus qui est Pater,
+          <lb ed="#V" n="82"/>est Deus. "
+        </p>
+        <p xml:id="mm30o9-d1e970-d1e751">
+          <lb ed="#V" n="83"/>Contra hoc arguit. Doctor ibi: Sed
+          <lb ed="#V" n="84"/>istud non est logice dictum nec 
+          Gram<lb break="no" ed="#V" n="85"/>matice, et patet littera.
+        </p>
+        <p xml:id="mm30o9-d1e970-d1e760">
+          <lb ed="#V" n="86"/>(J Ad secundum dico, etc. Haec 
+          res<lb break="no" ed="#V" n="87"/>ponsio ex habitis superius est clara. Et
+          <lb ed="#V" n="88"/>eum dicit, quod licet superius sequa-
+          <pb ed="#V" n="219"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>tur ad inferius distributum, non tamen
+          <lb ed="#V" n="2"/>sequitur eum distributione superioris,
+          <lb ed="#V" n="3"/>ut. patet in exemplo posito. Et 
+          ad<lb break="no" ed="#V" n="4"/>dit quod nunquam sequitur 
+          distribu<lb break="no" ed="#V" n="5"/>lio superioris ad distributionem 
+          in<lb break="no" ed="#V" n="6"/>ferioris respectu inferioris ad 
+          infe<lb break="no" ed="#V" n="7"/>rius, nisi sequatur distributio ipsius
+          <lb ed="#V" n="8"/>superioris ad inferius, quod est 
+          supe<lb break="no" ed="#V" n="9"/>rius ad aliud inferius. Exemplum:
+          <lb ed="#V" n="10"/>Omnis homo est animal, non sequitur ;
+          <lb ed="#V" n="11"/>ergo omne animal est homo, vel sic :
+          <lb ed="#V" n="12"/>omnis homo currit, ergo omne animal
+          <lb ed="#V" n="13"/>currit, ergo Franciscus currit, non 
+          se<lb break="no" ed="#V" n="14"/>quitur. Si enim distributio animalis
+          <lb ed="#V" n="15"/>non sequitur ad hominem, multo 
+          mi<lb break="no" ed="#V" n="16"/>nus non sequitur ad inferius ad 
+          homi<lb break="no" ed="#V" n="17"/>nem.
+        </p>
+        <p xml:id="mm30o9-d1e970-d1e810">
+          <lb ed="#V" n="18"/>(k) Sed cum probatur ista, etc. Vult
+          <lb ed="#V" n="19"/>dicere, quod aliquando major identitas
+          <lb ed="#V" n="20"/>nolatur jn conversa quam in 
+          conver<lb break="no" ed="#V" n="21"/>lente, ut patet de universali negativa
+          <lb ed="#V" n="22"/>in partieularem negativam, quia cum
+          <lb ed="#V" n="23"/>dico : Nullum animal currit, tam homo
+          <lb ed="#V" n="24"/>quam animal stat confuse distributive
+          <lb ed="#V" n="25"/>mobiliter ; ergo aliquod currens non est
+          <lb ed="#V" n="26"/>animal.lbi currens supponit 
+          determi<lb break="no" ed="#V" n="27"/>nate, et ideo major identitas est 
+          extre<lb break="no" ed="#V" n="28"/>morum in prima quam in secunda ;
+          <lb ed="#V" n="29"/>de rigore ergo sermonis universalis
+          <lb ed="#V" n="30"/>negativa non convertitur in 
+          particula<lb break="no" ed="#V" n="31"/>rem negativam, licet inferat eam. 
+          Se<lb break="no" ed="#V" n="32"/>eundo notatur in universali 
+          affirmati<lb break="no" ed="#V" n="33"/>va de terminis transpositis tanta 
+          iden<lb break="no" ed="#V" n="34"/>litas extremorum, quanta haberi 
+          po<lb break="no" ed="#V" n="35"/>test in exclusiva, quia cum dico: 
+          Zaa<lb break="no" ed="#V" n="36"/>tum homo est risibilis, ly homo, stat
+          <lb ed="#V" n="37"/>confuse tantum, et ly risioile stat 
+          con<lb break="no" ed="#V" n="38"/>fuse distributive mobiliter, quia bene
+          <lb ed="#V" n="39"/>sequitur: et haec sunt omnia risibilia ;
+          <lb ed="#V" n="40"/>ergo tantum homo est hoc risibile et
+          <lb ed="#V" n="41"/>hoc risibile, etc. Et similiter omne 
+          ri<lb break="no" ed="#V" n="42"/>sibile est homo, quae est universalis 
+          af<lb break="no" ed="#V" n="43"/>firmativa correspondens exclusive,
+          <lb ed="#V" n="44"/>ete. nam lv r?szbzle stat confuse distri-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>butive mobiliter, et ly homo confuse
+          <lb ed="#V" n="46"/>tantum, et ideo exclusiva affirmativa
+          <lb ed="#V" n="47"/>convertitur in universalem 
+          affirmati<lb break="no" ed="#V" n="48"/>vam de terminis transpositis, et e 
+          con<lb break="no" ed="#V" n="49"/>tra.
+        </p>
+        <p xml:id="mm30o9-d1e970-d1e884">
+          <lb ed="#V" n="50"/>(D) Et si objicias. ergo Aristoteles male
+          <lb ed="#V" n="51"/>docuit, etc. Patet responsio, quia ipse
+          <lb ed="#V" n="52"/>Aristoteles tantum docuit 
+          conversio<lb break="no" ed="#V" n="53"/>nes quibus syllogismi imperfecti (
+          cu<lb break="no" ed="#V" n="54"/>jusmodi sunt omnes secunde et tertice
+          <lb ed="#V" n="55"/>figure, et etiam particulares prima,
+          <lb ed="#V" n="56"/>ut patet primo Priorum) possent reduci
+          <lb ed="#V" n="57"/>ad syllogismos perfectos ; et exclusiva
+          <lb ed="#V" n="58"/>non teneret alium locum in perficiendo
+          <lb ed="#V" n="59"/>syllogismum perfectum, quam aliqua
+          <lb ed="#V" n="60"/>indefinita non exclusiva, ut patet 
+          dis<lb break="no" ed="#V" n="61"/>currenti per omnes syllogismos 
+          imper<lb break="no" ed="#V" n="62"/>fectos, ut diffuse tractatur primo 
+          Prio<lb break="no" ed="#V" n="63"/>rum.
+        </p>
+        <p xml:id="mm30o9-d1e970-d1e917">
+          <lb ed="#V" n="64"/>(m) Ad tertium dico. Negat Doctor
+          <lb ed="#V" n="65"/>quod ex negativa exponente 
+          antece<lb break="no" ed="#V" n="66"/>dens, scilicet, non alius a 2eo est Deus,
+          <lb ed="#V" n="67"/>non sequitur negativa exponens 
+          con<lb break="no" ed="#V" n="68"/>sequens, scilicet, ergo non alius a Patre
+          <lb ed="#V" n="69"/>est Deus.
+        </p>
+        <p xml:id="mm30o9-d1e970-d1e934">
+          <lb ed="#V" n="70"/>(n) Et cum ulterius probatur. Dicit
+          <lb ed="#V" n="71"/>Doctor hic quod relativum diversitatis
+          <lb ed="#V" n="72"/>in se, non potest distribui, et ratio sua
+          <lb ed="#V" n="73"/>est, quia sicut relativum 
+          equiparan<lb break="no" ed="#V" n="74"/>liae acceptum in communi non 
+          refer<lb break="no" ed="#V" n="75"/>tur, ut patet; nam simile in communi
+          <lb ed="#V" n="76"/>non refertur, sed refertar in suis 
+          infe<lb break="no" ed="#V" n="77"/>rioribus, ubi unum inferius 
+          distingui<lb break="no" ed="#V" n="78"/>tur ab altero. Eit sic hoc simile 
+          secun<lb break="no" ed="#V" n="79"/>dum similitudinem refertur ad aliud
+          <lb ed="#V" n="80"/>simile, quia oportet relativum semper
+          <lb ed="#V" n="81"/>referri ad aliud, sic in proposito. Nam
+          <lb ed="#V" n="82"/>differens in communi acceptum sive
+          <lb ed="#V" n="83"/>diversum, est relativum «
+          equiparan<lb break="no" ed="#V" n="84"/>liae, et certum est quod non refertur.
+          <lb ed="#V" n="85"/>Sed si refertur in suis inferioribus,
+          <lb ed="#V" n="86"/>puta hoc est differensab isto, sicut 
+          ho<lb break="no" ed="#V" n="87"/>mo est differens ab asino vel 
+          diver<lb break="no" ed="#V" n="88"/>sus ab asino, terminus ergo hujus di-
+          <pb ed="#V" n="220"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>ferentiae vel diversitatis, bene 
+          distri<lb break="no" ed="#V" n="2"/>buitur. Sed ipsa differentia vel 
+          diver<lb break="no" ed="#V" n="3"/>sitas, ut est relatio sive relativum 
+          mo<lb break="no" ed="#V" n="4"/>do praeexposito, non distribuitur. El
+          <lb ed="#V" n="5"/>lota ratio est, quia semper relativum
+          <lb ed="#V" n="6"/>quod refertur, requirit distinctionem
+          <lb ed="#V" n="7"/>ab illo a quo refertur, et relativum
+          <lb ed="#V" n="8"/>equiparanli:e. in communi acceptum
+          <lb ed="#V" n="9"/>non habet aliquod distinctum a quo
+          <lb ed="#V" n="10"/>referatur, ut dicatur simile alicui 
+          si<lb break="no" ed="#V" n="11"/>mili simile. Et exemplum positum a
+          <lb ed="#V" n="12"/>Doctore de igne satis clarum est.
+        </p>
+        <p xml:id="mm30o9-d1e970-d1e1008">
+          <lb ed="#V" n="13"/>(o) Ad aliam probationem, cum 
+          dici<lb break="no" ed="#V" n="14"/>lur Solus Deus ; ergo solus Pater, vel 
+          so<lb break="no" ed="#V" n="15"/>[us Filius. Quasi velit. inferre: sicut
+          <lb ed="#V" n="16"/>sequitur, solus Deus; ergo solus Pater,
+          <lb ed="#V" n="17"/>patet a superiore distributo ad inferius,
+          <lb ed="#V" n="18"/>sic similiter solus Deus est Deus ; ergo
+          <lb ed="#V" n="19"/>solus Pater est Deus.
+        </p>
+        <p xml:id="mm30o9-d1e970-d1e1026">
+          <lb ed="#V" n="20"/>Unus Doctor distinguit istam solus
+          <lb ed="#V" n="21"/>Deus, quia ly. Deus, aut comparatur ad
+          <lb ed="#V" n="22"/>praedicatum, puta sic dicendo, solus
+          <lb ed="#V" n="23"/>Deus est Deus, et sic, ly Deus in 
+          sub<lb break="no" ed="#V" n="24"/>jecto supponit personaliter. Et 
+          sequi<lb break="no" ed="#V" n="25"/>tur, ergo solus Pater est Deus ; sed 
+          si<lb break="no" ed="#V" n="26"/>cut antecedens est falsum, ita et 
+          con<lb break="no" ed="#V" n="27"/>sequens. Aut comparatur ad 
+          exclusio<lb break="no" ed="#V" n="28"/>nem tantum, et sic habet 
+          suppositio<lb break="no" ed="#V" n="29"/>nem simplicem, ut dicendo, so/uws Deus
+          <lb ed="#V" n="30"/>est, ae  tunc non sequitur; ergo solus
+          <lb ed="#V" n="31"/>Pater, quia ly Dews in antecedente
+          <lb ed="#V" n="32"/>tantum supponit pro Deo.
+        </p>
+        <p xml:id="mm30o9-d1e970-d1e1057">
+          <lb ed="#V" n="33"/>(p) Contra istud. Dicit Doctor quod
+          <lb ed="#V" n="34"/>unum ertremum, puta subjectum 22
+          <lb ed="#V" n="35"/>uno actu componendi et dividendi, 
+          pu<lb break="no" ed="#V" n="36"/>ta in propositione affirmativa et 
+          ne<lb break="no" ed="#V" n="37"/>gativa, Aabet rationem unam, secundum
+          <lb ed="#V" n="38"/>quam accipitur respectu alterius 
+          extre<lb break="no" ed="#V" n="39"/>mi, id est, quod respectu talis extremi,
+          <lb ed="#V" n="40"/>puta praedicati, habet unam rationem
+          <lb ed="#V" n="41"/>supponendi. Et addit quod qdiversz ra -
+          <lb ed="#V" n="42"/>tiones accipiendi idem extremum 
+          respec<lb break="no" ed="#V" n="43"/>tu ejusdem termini, puta subjectum 
+          res<lb break="no" ed="#V" n="44"/>pectu praedicati, non videtur stare cum
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>unitate actus componendi, id est, quod
+          <lb ed="#V" n="46"/>si idem subjectum comparetur ad idem
+          <lb ed="#V" n="47"/>predieatum in uno actu componendi,
+          <lb ed="#V" n="48"/>puta in una propositione affirmativa,
+          <lb ed="#V" n="49"/>non videtur habere diversas rationes
+          <lb ed="#V" n="50"/>supponendi; et si haberet, hoc non
+          <lb ed="#V" n="51"/>posset esse eodem actu componendi,
+          <lb ed="#V" n="52"/>ut patet eum dico, omne animal est
+          <lb ed="#V" n="53"/>substantia. Stante tali compositione,
+          <lb ed="#V" n="54"/>certum est quod azmal stal confuse
+          <lb ed="#V" n="55"/>distribulive mobiliter, et non potest
+          <lb ed="#V" n="56"/>slare confuse tantam vel simpliciter,
+          <lb ed="#V" n="57"/>nisi variato praedicato seu variata 
+          com<lb break="no" ed="#V" n="58"/>positione, ut patet. Et Doctor hic 
+          in<lb break="no" ed="#V" n="59"/>lendit dicere, quod ratio una 
+          suppo<lb break="no" ed="#V" n="60"/>nendi, puta confuse distributive, etc.
+          <lb ed="#V" n="61"/>vel simpliciter vel materialiter, est ex
+          <lb ed="#V" n="62"/>hoc quod comparatur ad praedicatum,
+          <lb ed="#V" n="63"/>et ideo non valet illud quod sequitur,
+          <lb ed="#V" n="64"/>quod ly Deus sub exclusione habet
+          <lb ed="#V" n="65"/>aliam rationem, etc. quia subjeetum
+          <lb ed="#V" n="66"/>non supponit respectu suc 
+          dispositio<lb break="no" ed="#V" n="67"/>nis, sed tantum respectu praedicati,
+          <lb ed="#V" n="68"/>quia talia sunt subjecta quoad 
+          suppo<lb break="no" ed="#V" n="69"/>sitionem simplicem vel materialem seu
+          <lb ed="#V" n="70"/>personalem, qualia permittunt eorum
+          <lb ed="#V" n="71"/>pradieata.
+        </p>
+        <p xml:id="mm30o9-d1e970-d1e1146">
+          <lb ed="#V" n="72"/>(q) Ideo dico aliter. Cum dicitur: 
+          So<lb break="no" ed="#V" n="73"/>lus Deus est Deus, conceditur; ergo 
+          so<lb break="no" ed="#V" n="74"/>lus Pater est Deus, negat. 
+          consequen<lb break="no" ed="#V" n="75"/>tiam. Subjectum enim hujus exelusivce
+          <lb ed="#V" n="76"/>stat tantum confuse, ideo non licet 
+          des<lb break="no" ed="#V" n="77"/>cendere sub eo; ergo solus Pater, etc.
+          <lb ed="#V" n="78"/>Sieut in ista: Solws homo est risibilis ;
+          <lb ed="#V" n="79"/>ergo solus Franciscus est risibilis, non
+          <lb ed="#V" n="80"/>valet, et sic patet responsio. Dat etiam
+          <lb ed="#V" n="81"/>aliam responsionem, quod eum dico:
+          <lb ed="#V" n="82"/>solus Deus est Deus, subjectum tantum
+          <lb ed="#V" n="83"/>siat pro ipso Deo, ut patuit dist. 4.
+          <lb ed="#V" n="84"/>quast. 2.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

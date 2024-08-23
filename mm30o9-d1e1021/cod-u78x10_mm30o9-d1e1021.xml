@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#per-FLBca3">Franciscus Lychetus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2024-08-23">August 23, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-23" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="271"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="mm30o9-d1e1021"><!-- lycht-d24q1-p2 -->
+        <head xml:id="mm30o9-d1e1021-Hd1e101">Quaestio 1</head>
+        <p xml:id="mm30o9-d1e1021-d1e103">
+          <lb ed="#V" n="14" type="fixed=271"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1021-d1e108">
+          <lb ed="#V" n="15"/>Ista quaestio ponitur propter 
+          Trini<lb break="no" ed="#V" n="16"/>tatem personarum : an scilicet 
+          per<lb break="no" ed="#V" n="17"/>sone in divinis possint proprie 
+          nume<lb break="no" ed="#V" n="18"/>rari ; sicut etiam dicimus tres homines
+          <lb ed="#V" n="19"/>vel tria animalia, sic simpliciter 
+          pro<lb break="no" ed="#V" n="20"/>prie possumus dicere res personae ?
+        </p>
+        <p xml:id="mm30o9-d1e1021-d1e124">
+          <lb ed="#V" n="21"/>(a) Respondet Doctor primo 
+          distin<lb break="no" ed="#V" n="22"/>guendo de numero, videlicet quod 
+          nu<lb break="no" ed="#V" n="23"/>merus aut ponitur quod Aaoeat 
+          unita<lb break="no" ed="#V" n="24"/>tem formalem, eic. Haec unitas 
+          forma<lb break="no" ed="#V" n="25"/>lis potest dupliciter intelligi. Vel quod
+          <lb ed="#V" n="26"/>tantum sit unitas aggregationis, ita
+          <lb ed="#V" n="27"/>quod numerus nihil aliud sit nisi 
+          ag<lb break="no" ed="#V" n="28"/>gregatio unitatum, qui unitates sunt
+          <lb ed="#V" n="29"/>modi rerum essentialiter et realiter
+          <lb ed="#V" n="30"/>distinctarum, ita quod non sit alia
+          <lb ed="#V" n="31"/>unitas in numero nisi aggregationis,
+          <lb ed="#V" n="32"/>ita quod numerus ternarius solum 
+          di<lb break="no" ed="#V" n="33"/>ceretur tria simul aggregata. Vel 
+          po<lb break="no" ed="#V" n="34"/>test intelligi unitas formalis pro alia
+          <lb ed="#V" n="35"/>unitate distincta ab unitatibus 
+          mate<lb break="no" ed="#V" n="36"/>rialibus resultans ex illis, ut ternarius
+          <lb ed="#V" n="37"/>dicat unitatem formalem et specificam
+          <lb ed="#V" n="38"/>resultantem ex illis tribus unitatibus
+          <lb ed="#V" n="39"/>materialibus, quae dicatur unitas 
+          spe<lb break="no" ed="#V" n="40"/>eifiea, qua numerus lernarius specie
+          <lb ed="#V" n="41"/>distinguitur a numero senario vel ab
+          <lb ed="#V" n="42"/>aliis numeris. Quidquid sit, non vide-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="43"/>tur esse praesentis speculationis nunc
+          <lb ed="#V" n="44"/>tractare de numero in se, habet enim
+          <lb ed="#V" n="45"/>hoc alibi videri. Dico tamen quod 
+          uni<lb break="no" ed="#V" n="46"/>tas formalis numeri debet magis accipi
+          <lb ed="#V" n="47"/>secundo modo quam primo modo.
+        </p>
+        <p xml:id="mm30o9-d1e1021-d1e187">
+          <lb ed="#V" n="48"/>(b) Deinde Doctor dicit quod 
+          acci<lb break="no" ed="#V" n="49"/>piendo z::04edrum pro unitate formali
+          <lb ed="#V" n="50"/>specifica et non pro unitate 
+          aggrega<lb break="no" ed="#V" n="51"/>tionis, in divinis non est numerus ; quia
+          <lb ed="#V" n="52"/>una persona non potest esse ibi pars,
+          <lb ed="#V" n="53"/>quia quaelibet persona est infinita, et
+          <lb ed="#V" n="54"/>qualibet proprietas personalis est 
+          ea<lb break="no" ed="#V" n="55"/>dem, scilicet realiter infinita, licet non
+          <lb ed="#V" n="56"/>formaliter, ut supra patuit, et tale 
+          in<lb break="no" ed="#V" n="57"/>finitum nullius potest esse pars, ut 
+          su<lb break="no" ed="#V" n="58"/>pra patuit dsl. 8. quest. 2. Et sic 
+          te<lb break="no" ed="#V" n="59"/>nendo istam positionem de numero,
+          <lb ed="#V" n="60"/>numerus non erit in divinis. Si vero
+          <lb ed="#V" n="61"/>accipiatur numerus, ut tantum dici,
+          <lb ed="#V" n="62"/>aggregationem unitatum, cum 
+          aggre<lb break="no" ed="#V" n="63"/>gata sint simpliciter diversa, nec 
+          fa<lb break="no" ed="#V" n="64"/>ciant per se unum, nece sunt aliquid
+          <lb ed="#V" n="65"/>perse unum; imo sunt minus unum
+          <lb ed="#V" n="66"/>quamilla qua sunt unum per accidens,
+          <lb ed="#V" n="67"/>ut supra patuit dist. 2. parte 2. quaest. 1.
+          <lb ed="#V" n="68"/>et qua sunt in divinis, sunt vere idem
+          <lb ed="#V" n="69"/>alicui vere uni quod est essentia ; 
+          se<lb break="no" ed="#V" n="70"/>quitur quod ibi nulla est aggregatio rei
+          <lb ed="#V" n="71"/>ad rem, et ita nullus est numerus 
+          se<lb break="no" ed="#V" n="72"/>eundum istam positionem numeri.
+        </p>
+        <p xml:id="mm30o9-d1e1021-d1e245">
+          <lb ed="#V" n="73"/>(e) Deinde dicit Doctor quod s? 
+          zu<lb break="no" ed="#V" n="74"/>merus habeat esse in intellectu. tantum
+          <lb ed="#V" n="75"/>simul concipiente plura una. vel. plures
+          <lb ed="#V" n="76"/>wunilales, hoc modo posset poni 
+          nu<lb break="no" ed="#V" n="77"/>merus in divinis, et sic talis numerus
+          <lb ed="#V" n="78"/>esset tantum unus conceplus, et sic
+          <lb ed="#V" n="79"/>trinitas esset tantum unus couceptus
+          <lb ed="#V" n="80"/>totalis trium personarum. De hoc 
+          nu<lb break="no" ed="#V" n="81"/>mero in intellectu respectu divinarum
+          <lb ed="#V" n="82"/>personarum, clarius dixi supra dist. 3.
+          <lb ed="#V" n="83"/>quast. 1. de vestigio Trinitatis.
+        </p>
+        <p xml:id="mm30o9-d1e1021-d1e271">
+          <lb ed="#V" n="84"/>(d) Ultimo dixit, quod loquendo de
+          <lb ed="#V" n="85"/>numero in re, in divinis non est simpli.
+          <lb ed="#V" n="86"/>citer numerus. Conceditur tamen ibi nu-
+          <pb ed="#V" n="272"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>merus secundum quid cum hac 
+          determi<lb break="no" ed="#V" n="2"/>natione personarum, quia trinitas 
+          per<lb break="no" ed="#V" n="3"/>sonarum dicit distinctionem realem
+          <lb ed="#V" n="4"/>lrium personarum : 25 en?m fit 
+          abs<lb break="no" ed="#V" n="5"/>lractio a numero, quod non dicit ü
+          mper<lb break="no" ed="#V" n="6"/>fectionem.
+        </p>
+        <p xml:id="mm30o9-d1e1021-d1e297">
+          <lb ed="#V" n="7"/>Et vult dicere, quod absolute in re
+          <lb ed="#V" n="8"/>non debemus concedere numerum in
+          <lb ed="#V" n="9"/>divinis, quia numerus sic in re 
+          sim<lb break="no" ed="#V" n="10"/>pliciter sumptus, de necessitate 
+          inclu<lb break="no" ed="#V" n="11"/>dit potentialitatem numeratorum vel
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="12"/>unitatum, si accipiatur numerus pro
+          <lb ed="#V" n="13"/>unitate formali et specifica ; vel de 
+          ne<lb break="no" ed="#V" n="14"/>cessitate dicit diversitatem realem et
+          <lb ed="#V" n="15"/>essentialem plurium, si accipitur 
+          nu<lb break="no" ed="#V" n="16"/>merus pro aggregatione unitatum,
+          <lb ed="#V" n="17"/>ut supra patuit. Cum tamen dicitur
+          <lb ed="#V" n="18"/>numerus personarum vel tres personae,
+          <lb ed="#V" n="19"/>ibi tantum notatur distinctio realis
+          <lb ed="#V" n="20"/>personarum, et nulla potentialitas nec
+          <lb ed="#V" n="21"/>diversitas ibi notatur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
