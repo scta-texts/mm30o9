@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4 (8)</title>
+            <author ref="#per-FLBca3">Franciscus Lychetus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4 (8)</title>
+               <date when="2024-08-24">August 24, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 11</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-08-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="378"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="mm30o9-d1e1649"><!-- lycht-l2d2q8-p1 -->
+            <head xml:id="mm30o9-d1e1649-Hd1e101">Quaestio 4 (8)</head>
+            <p xml:id="mm30o9-d1e1649-d1e103">
+               <lb ed="#L" n="12" type="fixed=377"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1649-d1e108">
+               <lb ed="#V" n="13"/>(a) Arguit esse simpliciter impossibile
+<lb ed="#V" n="14"/>plures Angelos posse esse simul in eodem
+<lb ed="#V" n="15"/>loco per quamcumque potentiam. 
+Pri<lb ed="#V" break="no" n="16"/>mum argumentum est S. Thome : Duce
+<lb ed="#V" n="17"/>causc totales non possunt esse respectu
+<lb ed="#V" n="18"/>ejusdem effectus, quia tunc idem 
+effe<lb ed="#V" break="no" n="19"/>ctus posset simul esse et non esse, ut
+<lb ed="#V" n="20"/>deducit Doctor in 1. dist. 1. p. 1. q.
+<lb ed="#V" n="21"/>ult. et alibi. Sed Angelus existens in
+<lb ed="#V" n="22"/>uno loco est totalis causa respectu 
+ope<lb ed="#V" break="no" n="23"/>rationis in tali loco, propterquam dicitur
+<lb ed="#V" n="24"/>esse ibi, puta movendo aliquod corpus,
+<lb ed="#V" n="25"/>tunc Angelus dicitur esse ibi per talem
+<lb ed="#V" n="26"/>motum, secundum opinionem S. 
+Tho<lb ed="#V" break="no" n="27"/>m:z 1. p. q. 52. art. 1. Ergo si alius
+<lb ed="#V" n="28"/>Angelus simul esset in eodem loco, tunc
+<lb ed="#V" n="29"/>esset causa totalis ejusdem operationis,
+<lb ed="#V" n="30"/>scilicet movendo illud corpus, cum non
+<lb ed="#V" n="31"/>sit in loco nisi per operationem 
+transeun<lb ed="#V" break="no" n="32"/>tem in corpus circa quod operatur, ut
+<lb ed="#V" n="33"/>supra patet a S. Thoma. Nec videtur 
+ha<lb ed="#V" break="no" n="34"/>bere aliam operationem circa corpus,
+<lb ed="#V" n="35"/>quia Angelus non transmutat corpus 
+cau<lb ed="#V" break="no" n="36"/>sando ibi aliquam formam. Argumentum
+<lb ed="#V" n="37"/>secundum clarum est.
+</p>
+            <!--</div>
+<div alias="lycht-l2d2q8-p2">-->
+            <p xml:id="mm30o9-d1e1649-d1e167">
+               <lb ed="#L" n="64" type="fixed=378"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1649-d1e173">
+               <lb ed="#V" n="65"/>(a) In ista questione. Haec quaestio est
+<lb ed="#V" n="66"/>satis facilis, et plura dicit Doctor.
+</p>
+            <p xml:id="mm30o9-d1e1649-d1e180">
+               <lb ed="#V" n="67"/>Primo, quod ?n ista questione non est
+<lb ed="#V" n="68"/>veritas ita certa. et clara de facto, sicut
+<lb ed="#V" n="69"/>est in. praesenti questione, patet, quia in
+<lb ed="#V" n="70"/>praecedenti questione certum est de facto,
+<lb ed="#V" n="71"/>eumdem Angelum simul non esse in 
+plu<lb ed="#V" break="no" n="72"/>ribus locis, ut ibi patuit, sed in ista non
+<lb ed="#V" n="73"/>est ita certum de facto, quod plures 
+An<lb ed="#V" break="no" n="74"/>geli sint in eodem loco, velne ; videtur
+<lb ed="#V" n="75"/>enim de facto plures Angelos fuisse in
+<lb ed="#V" n="76"/>eodem loco, et patet auctoritate Richardi,
+<lb ed="#V" n="77"/>de Trinit. ubi arguit deemones non 
+ha<lb ed="#V" break="no" n="78"/>bere corpora per hoc, quod legio fuit in
+<lb ed="#V" n="79"/>corpore unius obsessi, ut patet Luce 8.
+<lb ed="#V" n="80"/>et Marci 5. Non enim potuisset legio
+<lb ed="#V" n="81"/>fuisse in aliquo, si illi Angeli mali 
+ha<lb ed="#V" break="no" n="82"/>buissent corpora, ideo videtur arguere,
+<lb ed="#V" n="83"/>quod si habuissent corpora, fuissent
+<lb ed="#V" n="84"/>eorum corpora simul in eodem loco ; 
+igi<lb ed="#V" break="no" n="85"/>tur modo quando non habent corpora,
+<lb ed="#V" n="86"/>videtur quod simul fuerunt in eodem
+<lb ed="#V" n="87"/>loco.
+</p>
+            <p xml:id="mm30o9-d1e1649-d1e228">
+               <pb ed="#L" n="379"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>(b) Si etiam. Secundo probat hoc idem
+<lb ed="#V" n="2"/>ibi : Si etiam unus Angelus movens 
+ce<lb ed="#V" break="no" n="3"/>lum, etc.
+</p>
+            <p xml:id="mm30o9-d1e1649-d1e241">
+               <lb ed="#V" n="4"/>Nunc solvenda sunt argumenta 
+princi<lb ed="#V" break="no" n="5"/>palia.
+</p>
+            <p xml:id="mm30o9-d1e1649-d1e248">
+               <lb ed="#V" n="6"/>(c) Ad primum. Respondet Doctor, 
+pri<lb ed="#V" break="no" n="7"/>mo negando suppositum, videlicet quod
+<lb ed="#V" n="8"/>Angelus tantum sit in loco per 
+opera<lb ed="#V" break="no" n="9"/>tionem, ut improbatum fuit supra
+<lb ed="#V" n="10"/>quest. 6. Secundo dicit, quod si etiam
+<lb ed="#V" n="11"/>illud suppositum admitteretur, scilicet
+<lb ed="#V" n="12"/>quod Angelus tantum sit in loco per
+<lb ed="#V" n="13"/>operationem, adhuc unus Angelus posset
+<lb ed="#V" n="14"/>operari circa idem corpus una operatione,
+<lb ed="#V" n="15"/>et alius alia operatione, et sic uterque
+<lb ed="#V" n="16"/>esset in eodem loco per operationem. Et
+<lb ed="#V" n="17"/>si dicas, quod non potest operari circa
+<lb ed="#V" n="18"/>corpus, nisi corporaliter movendo, modo
+<lb ed="#V" n="19"/>idem corpus non potest simul moveri a
+<lb ed="#V" n="20"/>duobus moventibus totalibus ; dicit Doctor
+<lb ed="#V" n="21"/>quod hoc non obviat, et responsio stat
+<lb ed="#V" n="22"/>in hoc, non est necesse Angelum movere
+<lb ed="#V" n="23"/>illud corpus secundum ultimum potentiae
+<lb ed="#V" n="24"/>suc, imo potest citra ultimum su: 
+po<lb ed="#V" break="no" n="25"/>tentia. movere cum sit agens mere 
+libe<lb ed="#V" break="no" n="26"/>rum, pono ergo quod unus moveat libere
+<lb ed="#V" n="27"/>circa ultimum potentiae suse, tunc alius
+<lb ed="#V" n="28"/>potest sibi cooperari ad eumdem motum.
+<lb ed="#V" n="29"/>Sicut si aliquis haberet virtutem, qua
+<lb ed="#V" n="30"/>posset ferre quatuor lapides secundum
+<lb ed="#V" n="31"/>ultimum .potentite suse, et potest citra
+<lb ed="#V" n="32"/>ulimum potentiae sucze tantum portare
+<lb ed="#V" n="33"/>duos, et tunc potest habere alium 
+coope<lb ed="#V" break="no" n="34"/>rantem portantem secum alios duos 
+la<lb ed="#V" break="no" n="35"/>pides.
+</p>
+            <p xml:id="mm30o9-d1e1649-d1e316">
+               <lb ed="#V" n="36"/>(d) Ad secundum. Respondet quod illa
+<lb ed="#V" n="37"/>major, qua est famosa in multis materiis,
+<lb ed="#V" n="38"/>non est rationabilis, nam esse 7n nullam
+<lb ed="#V" n="39"/>habitudinem essentialem dicit, patet quia
+<lb ed="#V" n="40"/>esse in loco, non dicit dependentiam 
+es<lb ed="#V" break="no" n="41"/>sentialem locati a loco; patet, quia esse
+<lb ed="#V" n="42"/>in loco non dicit dependentiam 
+essentia<lb ed="#V" break="no" n="43"/>lem locati a loco, esse tamen ah dicit 
+ha<lb ed="#V" break="no" n="44"/>bitudinem essentialem, quia communiter
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>dicit dependentiam essentialem causati
+<lb ed="#V" n="46"/>ad causam.
+</p>
+            <p xml:id="mm30o9-d1e1649-d1e346">
+               <lb ed="#V" n="47"/>Arguit ergo Doctor a fortiori, si plura
+<lb ed="#V" n="48"/>possunt esse ab eodem et eodem modo,
+<lb ed="#V" n="49"/>quae essentialiter dependent ab illo, multo
+<lb ed="#V" n="50"/>fortius plura possunt esse in eodem loco
+<lb ed="#V" n="51"/>et eodem modo essendi in loco, cum
+<lb ed="#V" n="52"/>talia locata tantum dicant habitudinem
+<lb ed="#V" n="53"/>accidentalem ad locum, ut patet, ideo
+<lb ed="#V" n="54"/>illa propositio famosa non est multum
+<lb ed="#V" n="55"/>rationabilis. Similiter habent temporalia
+<lb ed="#V" n="56"/>eumdem respectum ad tempus, sicut 
+lo<lb ed="#V" break="no" n="57"/>cata ad locum ; ex hoc ergo videtur 
+se<lb ed="#V" break="no" n="58"/>qui quod non possunt plura temporalia
+<lb ed="#V" n="59"/>esse in eodem tempore.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

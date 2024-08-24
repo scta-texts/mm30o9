@@ -1,0 +1,1403 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6 (10)</title>
+            <author ref="#per-FLBca3">Franciscus Lychetus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6 (10)</title>
+               <date when="2024-08-24">August 24, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 11</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-08-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="523"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="mm30o9-d1e1672"><!-- lycht-l2d2q10-p1 -->
+            <head xml:id="mm30o9-d1e1672-Hd1e101">Quaestio 6 (10)</head>
+            <p xml:id="mm30o9-d1e1672-d1e103">
+               <lb ed="#L" n="78" type="fixed=523"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e108">
+               <lb ed="#V" n="79"/>(a) Decimo quierit Doctor: An Angelus 
+pos<lb ed="#V" break="no" n="80"/>sit movere seipsum de loco ad locum, id
+<lb ed="#V" n="81"/>est, an in Angelo sit aliqua virtus activa, quae
+<lb ed="#V" n="82"/>sit principium formale sui motus localis,
+<lb ed="#V" n="83"/>sive qua possit movere seipsum motu 
+lo<lb ed="#V" break="no" n="84"/>cali, ita quod. idem Angelus numero sit
+<pb ed="#L" n="524"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>receptivas motus localis et productivus
+<lb ed="#V" n="2"/>ejusdem motus ia seipso.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e132">
+               <lb ed="#V" n="3"/>Primo arguit probando quod nihil 
+pos<lb ed="#V" break="no" n="4"/>sit movere se, quia tunc idem respectu
+<lb ed="#V" n="5"/>ejusdem esset simul in actu et in 
+poten<lb ed="#V" break="no" n="6"/>tia, quia movens, ut movens est in actu,
+<lb ed="#V" n="7"/>quia omne agens agit in quantum est in
+<lb ed="#V" n="8"/>actu, ut patet a Philosopho 2. Physic.
+<lb ed="#V" n="9"/>text. com. 31.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e150">
+               <lb ed="#V" n="10"/>Reliqua patent.
+</p>
+            <!--</div>
+<div alias="lycht-l2d2q10-p2">-->
+            <p xml:id="mm30o9-d1e1672-d1e158">
+               <lb ed="#L" n="27" type="fixed=530"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e163">
+               <lb ed="#V" n="28"/>(a) Concedo. Hic Doctor respondet ad
+<lb ed="#V" n="29"/>quaesitum affirmative, scilicet quod 
+Ange<lb ed="#V" break="no" n="30"/>lus potest movere seipsum. Et ratio stat
+<lb ed="#V" n="31"/>in hoc : Si de quo minus videtur; ergo
+<lb ed="#V" n="32"/>et de quo magis. Sed multa imperfectiora
+<lb ed="#V" n="33"/>Angelo habent potentiam activam respectu
+<lb ed="#V" n="34"/>multorum, ad quae sunt in potentia 
+pas<lb ed="#V" break="no" n="35"/>siva, patet, quia animata, quae sunt in 
+po<lb ed="#V" break="no" n="36"/>tentia passiva ad debitam quantitatem, 
+ha<lb ed="#V" break="no" n="37"/>bent potentiam activam respectu illius, et
+<lb ed="#V" n="38"/>magis hoc patebit n quarto, distinct. 4.
+<lb ed="#V" n="39"/>q. 4. Tum, quia gravia sunt in potentia
+<lb ed="#V" n="40"/>passiva et receptiva ad ubi deorsum,et 
+le<lb ed="#V" break="no" n="41"/>via ad ubi sursum, et habent potentiam 
+ac<lb ed="#V" break="no" n="42"/>tivam respectu sui motus localis ad hujus-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>modi ubi. Tum, quia animalia sunt in 
+po<lb ed="#V" break="no" n="44"/>tentia passiva ad operationes sensitivas,et
+<lb ed="#V" n="45"/>habent potentiam activam respectu illarum
+<lb ed="#V" n="46"/>saltem partialem, ut supra patuit 7n primo,
+<lb ed="#V" n="47"/>dist. 3. q. 1, et patet etiam in quodlib.
+<lb ed="#V" n="48"/>q. 15. vide ibi. Cum ergo in Angelo sit
+<lb ed="#V" n="49"/>potentia passiva sive receptiva ad aliud et
+<lb ed="#V" n="50"/>aliud ubi, ut clare patuit supra quest. 6.
+<lb ed="#V" n="51"/>praesentis dist. sequitur a fortiori,qu od
+<lb ed="#V" n="52"/>magis habebit potentiam activam respectu
+<lb ed="#V" n="53"/>motus localis, sic quod talis potentia 
+acti<lb ed="#V" break="no" n="54"/>va sit principium formale, movendo 
+An<lb ed="#V" break="no" n="55"/>gelum ad ubi et quiescendo in illo; hoc
+<lb ed="#V" n="56"/>enim est perfectionis in natura, quae est
+<lb ed="#V" n="57"/>in potentia passiva ad aliquid, quod 
+res<lb ed="#V" break="no" n="58"/>pectu illius habeat potentiam activam.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e235">
+               <lb ed="#V" n="59"/>(b) Et si dicatur, quod hoc convenit
+<lb ed="#V" n="60"/>tantum entibus imperfectioribus, scilicet
+<lb ed="#V" n="61"/>quod entia imperfectiora, quae sunt in 
+po<lb ed="#V" break="no" n="62"/>tentia passiva ad operationes, habeant
+<lb ed="#V" n="63"/>potentiam activam respectu illarum, 
+pa<lb ed="#V" break="no" n="64"/>iet de animalibus, quia sunt composita,
+<lb ed="#V" n="65"/>ideo possunt dividi sic, quod secundum
+<lb ed="#V" n="66"/>unam partem sit movens, et secundum
+<lb ed="#V" n="67"/>aliam sit mobile, puta, quia anima est
+<lb ed="#V" n="68"/>principium activum movendi corpus, et
+<lb ed="#V" n="69"/>corpus est in potentia passiva ad 
+hujus<lb ed="#V" break="no" n="70"/>modi motum.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e264">
+               <lb ed="#V" n="71"/>(c) Et quod assumptum est de gravibus
+<lb ed="#V" n="72"/>et levibus, etc. Hic videtur respondere ad
+<lb ed="#V" n="73"/>illud de gravibus, etc. et dicit quod 
+vide<lb ed="#V" break="no" n="74"/>tur contra Philosophum 8. Physic. text.
+<lb ed="#V" n="75"/>com. 29. et 30. ubi videtur assignare
+<lb ed="#V" n="76"/>quatuor rationes, quod gravia et levia
+<lb ed="#V" n="77"/>non possunt movere se.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e282">
+               <lb ed="#V" n="78"/>Quod autem esset intentio Aristotelis 
+pa<lb ed="#V" break="no" n="79"/>tet ubi supra, incipiendo a text. 98 usque
+<lb ed="#V" n="80"/>ad 30. inclusive, ubi sic ait in text. 98.
+<lb ed="#V" n="81"/>circa finem : Eorum enim quae moventur
+<lb ed="#V" n="82"/>ab alio, haec quidem extra naturam 
+posui<lb ed="#V" break="no" n="83"/>mus moveri, alia autem relinquuntur 
+con<lb ed="#V" break="no" n="84"/>tra poni, quia natura ; haec autem sunt,
+<lb ed="#V" n="85"/>supple naturalia, quae dubitationem 
+affe<lb ed="#V" break="no" n="86"/>runt a quo moventur, ut levia et gravia,
+<pb ed="#L" n="531"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>hec enim in oppositos locos violentia 
+mo<lb ed="#V" break="no" n="2"/>ventur. In proprios autem leve quidem
+<lb ed="#V" n="3"/>sursum, grave autem deorsum natura, etc.
+<lb ed="#V" n="4"/>Et post immediate sequitur in text. 99.
+<lb ed="#V" n="5"/>qui inclpit : A quo autem non adhuc 
+ma<lb ed="#V" break="no" n="6"/>nifestum, sicut cum moveantur extra 
+na<lb ed="#V" break="no" n="7"/>turam, id est, quod levia et gravia,cum
+<lb ed="#V" n="8"/>moveantur secundum naturam, non est
+<lb ed="#V" n="9"/>ita manifestum a quo moveantur, sicut
+<lb ed="#V" n="10"/>cum moventur contra naturam ab agente
+<lb ed="#V" n="11"/>extrinseco. Et sequitur : Et namque ipsa,
+<lb ed="#V" n="12"/>supple gravia et levia, «a seipsis dicere 
+im<lb ed="#V" break="no" n="13"/>possibile est; et haec est prima ratio 
+Aris<lb ed="#V" break="no" n="14"/>totelis, quia ipsa gravia et levia non 
+vi<lb ed="#V" break="no" n="15"/>dentur posse moveri a seipsis, cum hoc
+<lb ed="#V" n="16"/>sit proprium animatorum, ut patet per
+<lb ed="#V" n="17"/>Philosophum, ubi supra : animalis, 
+in<lb ed="#V" break="no" n="18"/>quit, hoc etiam et animatorum proprium ;
+<lb ed="#V" n="19"/>et ibi Commentator dicit, quod ideo 
+ani<lb ed="#V" break="no" n="20"/>malia moventur a seipsis, id est, a 
+prin<lb ed="#V" break="no" n="21"/>cipio intrinseco, quia non indigent a 
+cau<lb ed="#V" break="no" n="22"/>sa extrinseca, quemadmodum corpora
+<lb ed="#V" n="23"/>simplicia.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e358">
+               <lb ed="#V" n="24"/>Secunda ratio est. ubi supra, fext com.
+<lb ed="#V" n="25"/>29. quia ista corpora simplicia se 
+siste<lb ed="#V" break="no" n="26"/>re non possunt, cum hoc sit proprium
+<lb ed="#V" n="27"/>animatorum : Facere, inquit, stare posse
+<lb ed="#V" n="28"/>ipsa secundwm seipsa, supple est 
+pro<lb ed="#V" break="no" n="29"/>prium animalis. Et ibi Commentator : Si,
+<lb ed="#V" n="30"/>inquit, /gnis esset causa in se, per quam
+<lb ed="#V" n="31"/>posset. moveri sine indigentia causa 
+ex<lb ed="#V" break="no" n="32"/>Irinsece, tunc per istam causam posset
+<lb ed="#V" n="33"/>quiescere sine indigentia causc 
+extrinse<lb ed="#V" break="no" n="34"/>ce. Res enim, inquam, est causa, qua 
+po<lb ed="#V" break="no" n="35"/>lest moveri sine indigentia causae 
+ertrin<lb ed="#V" break="no" n="36"/>sect, sicut animal in quo est anima,
+<lb ed="#V" n="37"/>per illam potest quiescere : hiec ille. 
+Con<lb ed="#V" break="no" n="38"/>stat autem, quod cum ignis movetur 
+sur<lb ed="#V" break="no" n="39"/>sum, non habet in potestate sua posse
+<lb ed="#V" n="40"/>quiescere, antequam  deveniat ad 
+cen<lb ed="#V" break="no" n="41"/>trum.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e401">
+               <lb ed="#V" n="42"/>Tertia ratio patet text. com. 29. scilicet
+<lb ed="#V" n="43"/>quia talia corpora non possunt movere
+<lb ed="#V" n="44"/>seipsa, quia nec motibus diversis. E
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>ideo, inquit, s; ascensus ad superius est
+<lb ed="#V" n="46"/>ab ipso igne, manifestum est quod 
+des<lb ed="#V" break="no" n="47"/>census ignis etiam ad inferius est ex ipso
+<lb ed="#V" n="48"/>igne, et dicere etiam, quod. res quae 
+mo<lb ed="#V" break="no" n="49"/>ventur ex seuno motu tantum moventur,
+<lb ed="#V" n="50"/>non est de ratione si movent, id est, quod
+<lb ed="#V" n="51"/>de ratione eorum, qui possunt movere
+<lb ed="#V" n="52"/>se, est quod etiam possint movere se 
+moti<lb ed="#V" break="no" n="53"/>bus diversis sive oppositis, ut patet de
+<lb ed="#V" n="54"/>animalibus.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e434">
+               <lb ed="#V" n="55"/>Quarta ratio ponitur tezt. com. 30. ubi
+<lb ed="#V" n="56"/>sic habetur : Amplius quomodo contingit
+<lb ed="#V" n="57"/>continuum aliquod, et ipsum seipsum 
+mo<lb ed="#V" break="no" n="58"/>vere, secundum enim quod unum est 
+con<lb ed="#V" break="no" n="59"/>tinum, non actu. secimdum hoc 
+impos<lb ed="#V" break="no" n="60"/>sibile est, sed. secundum quod. dividitur,
+<lb ed="#V" n="61"/>sic hoc quidem aptum natum est facere,
+<lb ed="#V" n="62"/>illud autem pati, neque igitur horum 
+ul<lb ed="#V" break="no" n="63"/>lum ipsum seipsum movet, etc. Et ibi 
+Com<lb ed="#V" break="no" n="64"/>mentator: Et illa, inquit, quae moventur
+<lb ed="#V" n="65"/>per principia in eis, necesse est ut 
+divi<lb ed="#V" break="no" n="66"/>dantur secundum definitionem in 
+moto<lb ed="#V" break="no" n="67"/>rem et motum, et ut non sint idem 
+secun<lb ed="#V" break="no" n="68"/>dum definitionem et. essentiam ; motor
+<lb ed="#V" n="69"/>enim debet esse distinctus a moto, aut 
+se<lb ed="#V" break="no" n="70"/>cundum definitionem et esse insimul, 
+si<lb ed="#V" break="no" n="71"/>cut illa. quae moventur ab extrinseco, aut
+<lb ed="#V" n="72"/>secundum definitionem tantum, sicut est
+<lb ed="#V" n="73"/>dispositio in habentibus animas ;: anima
+<lb ed="#V" n="74"/>enim, quae est motor in. eis, distinguitur
+<lb ed="#V" n="75"/>a corpore, ut. est motum secundum 
+defi<lb ed="#V" break="no" n="76"/>nitionem, licet. non distinguitur 
+secun<lb ed="#V" break="no" n="77"/>dum esse, scilicet quod impossibile est 
+ani<lb ed="#V" break="no" n="78"/>mam esse sine corpore. Et quia. corpora
+<lb ed="#V" n="79"/>simplicia sunt. una. secundum 
+definitio<lb ed="#V" break="no" n="80"/>nem, et unum eorum potest. dividi in
+<lb ed="#V" n="81"/>motorem et motum, necesse est ut non sint
+<lb ed="#V" n="82"/>mola ex se nisi esset possibile, ut motor
+<lb ed="#V" n="83"/>esset ipsum motum, Si. igitur. aliquis 
+di<lb ed="#V" break="no" n="84"/>cerit, quod sunt. corpora simplicia 
+com<lb ed="#V" break="no" n="85"/>posita er maleria et. forma, quorum
+<lb ed="#V" n="86"/>utrumque. est distinctum secundum 
+defi<lb ed="#V" break="no" n="87"/>nitionem a reliquo, dicimus ad hoc quod
+<lb ed="#V" n="88"/>prima maleria non est existens. in actu,
+<pb ed="#L" n="532"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>et illud quod movetur ex se debet dividi
+<lb ed="#V" n="2"/>in motorem et motum in. actu, quoniam
+<lb ed="#V" n="3"/>illud quod est in potentia neque movetur
+<lb ed="#V" n="4"/>neque movet. Si igitur lapis vel grave
+<lb ed="#V" n="5"/>movetur ex se, contingeret ut esset 
+mo<lb ed="#V" break="no" n="6"/>vens, et motum eodem modo secundum
+<lb ed="#V" n="7"/>formam, quam non est existens in. actu
+<lb ed="#V" n="8"/>nisi secundum formam, quod, est 
+ampos<lb ed="#V" break="no" n="9"/>sibile. Hec ille.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e534">
+               <lb ed="#V" n="10"/>(d) Primo ostendo oppositum per 
+auc<lb ed="#V" break="no" n="11"/>toritates. Hic Doctor intendit probare
+<lb ed="#V" n="12"/>auctoritatibus et rationibus, quod gravia
+<lb ed="#V" n="13"/>et levia, et multa alia corpora simplicia
+<lb ed="#V" n="14"/>possint movere, sic quod grave habet
+<lb ed="#V" n="15"/>principium intrinsecum causativum sui
+<lb ed="#V" n="16"/>motus localis, et ipsum grave est 
+recep<lb ed="#V" break="no" n="17"/>tivum hujusmodi motus. Et primo 
+auc<lb ed="#V" break="no" n="18"/>toritate — Philosophi 8. Physicorum :
+<lb ed="#V" n="19"/>Quoniam; inquit, potentia esse, 
+multi<lb ed="#V" break="no" n="20"/>pliciter dicitur, haec autem causa est,
+<lb ed="#V" n="21"/>non esse manifestum a quo. hujusmodi,
+<lb ed="#V" n="22"/>scilicet. gravia et levia moventur, ut
+<lb ed="#V" n="23"/>ignis sursum, terra deorsum. Deinde
+<lb ed="#V" n="24"/>distinguit potentiam ad. actum primum
+<lb ed="#V" n="25"/>et ad. actum secundum, ut patet. de 
+po<lb ed="#V" break="no" n="26"/>tentia ad. scientiam et considerationem.
+<lb ed="#V" n="27"/>Potentia enim ad scientiam sive ad 
+habi<lb ed="#V" break="no" n="28"/>tum scientice, dicitur potentia ad actum
+<lb ed="#V" n="29"/>primum, et potentia ad actualem 
+consi<lb ed="#V" break="no" n="30"/>derationem, dicitur potentia ad actum 
+se<lb ed="#V" break="no" n="31"/>cundum. Sequitur: £t applicando ad
+<lb ed="#V" n="32"/>propositum, etc.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e586">
+               <lb ed="#V" n="33"/>Nota, quod potentia ad actum primum
+<lb ed="#V" n="34"/>communiter dicitur potentia essentialis,
+<lb ed="#V" n="35"/>sive potentia remota, quia talis potentia
+<lb ed="#V" n="36"/>est ad formam, quae est ratio formalis
+<lb ed="#V" n="37"/>agendi, et principium productivum actus
+<lb ed="#V" n="38"/>secundi; ut autem est sub tali forma sive
+<lb ed="#V" n="39"/>actu primo, tunc est in potentia 
+acciden<lb ed="#V" break="no" n="40"/>tali, sive propinqua ad actionem, sive
+<lb ed="#V" n="41"/>ad actum secundum, et sic ignis est in
+<lb ed="#V" n="42"/>potentia essentiali, ut fiat frigidus, id est,
+<lb ed="#V" n="43"/>quod materia, quia est sub forma 
+sub<lb ed="#V" break="no" n="44"/>stantiali ienis, est in potentia essentiali
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>ad formam  substantialem  aquee, quie
+<lb ed="#V" n="46"/>est principium formale infrigidandi, et ut
+<lb ed="#V" n="47"/>actu est sub tali forma, est in potentia
+<lb ed="#V" n="48"/>accidentali sive propinqua ad actum 
+se<lb ed="#V" break="no" n="49"/>cundum, quod est infrigidare. Sequitur :
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e628">
+               <lb ed="#V" n="50"/>Ita etiam dicit ipse de gravi, etc. Et
+<lb ed="#V" n="51"/>vult dicere in sententia, quod quando
+<lb ed="#V" n="52"/>aer, qui formaliter est levis, cum habeat
+<lb ed="#V" n="53"/>in se levitatem, causatur ex aqua, quae
+<lb ed="#V" n="54"/>formaliter est gravis, tunc ex gravi fit
+<lb ed="#V" n="55"/>leve, et est similiter, ut prius de igne,
+<lb ed="#V" n="56"/>nam materia dicitur in potentia 
+essentia<lb ed="#V" break="no" n="57"/>li ad levitatem, quae est principium 
+pro<lb ed="#V" break="no" n="58"/>ducetivum motus sursum. Et dicitur in
+<lb ed="#V" n="59"/>potentia accidentali ad alicubi esse, ut
+<lb ed="#V" n="60"/>cum aer agit in aquam, expellendo 
+for<lb ed="#V" break="no" n="61"/>mam substantialem aquae et formam 
+le<lb ed="#V" break="no" n="62"/>vitatis introducendo scilicet formam 
+sub<lb ed="#V" break="no" n="63"/>stantialem aeris, ad quam concomitatur
+<lb ed="#V" n="64"/>levitas, sic talis materia aque dicitur
+<lb ed="#V" n="65"/>esse in potentia essentiali ad esse sursum,
+<lb ed="#V" n="66"/>sive in potentia remota ; at vero actu est
+<lb ed="#V" n="67"/>sub forma aeris, et per consequens sub
+<lb ed="#V" n="68"/>forma levitatis est in potentia propinqua
+<lb ed="#V" n="69"/>adesse sursum. Sequitur: Actus autem 
+le<lb ed="#V" break="no" n="70"/>vis est alicubi esse, etc. id est, quod leve
+<lb ed="#V" n="71"/>non statim sit sursum, prohibetur dum
+<lb ed="#V" n="72"/>est in contrarium, id est, deorsum, nam
+<lb ed="#V" n="73"/>ut leve est deorsum, prohibetur ne 
+sta<lb ed="#V" break="no" n="74"/>tim sit sursum, et sic patet quomodo
+<lb ed="#V" n="75"/>leve habet in se principium sui motus.
+<lb ed="#V" n="76"/>Sequitur: Unde nihil valet exponere,
+<lb ed="#V" n="77"/>quod cum sit in. actu leve est actu leve,
+<lb ed="#V" n="78"/>ita quod levis est ascendere, id est,
+<lb ed="#V" n="79"/>quod cum materia aquae est sub forma
+<lb ed="#V" n="80"/>aeris et sub forma levis, tunc actu levis
+<lb ed="#V" n="81"/>est, et ut levis est, ascendit.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e700">
+               <lb ed="#V" n="82"/>Contra hoc arguit Doctor, quia si ista
+<lb ed="#V" n="83"/>opinio intelligit quod aer ut actu levis
+<lb ed="#V" n="84"/>est, statim ascendit per principium sibi
+<lb ed="#V" n="85"/>intrinsecum, et sic opinio verum dicit.
+<lb ed="#V" n="86"/>Si autem sic intelligit, quod actu levis
+<lb ed="#V" n="87"/>est, et leve naturaliter inclinatur ad esse
+<lb ed="#V" n="88"/>sursum, sed non potest esse sursum a3
+<pb ed="#L" n="533"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>principio intrinseco, sed ab agente 
+ex<lb ed="#V" break="no" n="2"/>trinseco ; hoc est manifeste falsum, cum
+<lb ed="#V" n="3"/>dicit Aristoteles ubi supra, quod mox
+<lb ed="#V" n="4"/>operabitur, nisi probibeatur ; prohibetur
+<lb ed="#V" n="5"/>autem a potentia violenta, ut exponit 
+Com<lb ed="#V" break="no" n="6"/>mentator. Et dicit Doctor quod tale 
+pro<lb ed="#V" break="no" n="7"/>hiberi non potest intelligi de actu primo
+<lb ed="#V" n="8"/>levis, quia actus levis non potest 
+pro<lb ed="#V" break="no" n="9"/>hiberi vel impediri, sicut etiam ignis,
+<lb ed="#V" n="10"/>ut est sub calore, non prohibetur quin
+<lb ed="#V" n="11"/>sit sub actu primo; potest tamen 
+pro<lb ed="#V" break="no" n="12"/>hiberine calefaciat ; sic est. de levi, quod
+<lb ed="#V" n="13"/>sj ponatur deorsum non potest prohiberi
+<lb ed="#V" n="14"/>quoad actum primum, patet, quia non
+<lb ed="#V" n="15"/>quocumque loco sit, semper habet
+<lb ed="#V" n="16"/>levitatem, qua est principium formale
+<lb ed="#V" n="17"/>productivum motus sursum. Potest 
+ta<lb ed="#V" break="no" n="18"/>men prohiberi quoad actum secundum,
+<lb ed="#V" n="19"/>quia dum detinetur deorsum violenter,
+<lb ed="#V" n="20"/>tunc prohibetur ascensus ejus. Si 
+igi<lb ed="#V" break="no" n="21"/>tur Aristoteles vult, quod cum mox 
+fue<lb ed="#V" break="no" n="22"/>rit leve, statim est sursum nisi 
+prohibea<lb ed="#V" break="no" n="23"/>tur, sequitur quod leve habeat 
+princi<lb ed="#V" break="no" n="24"/>pium intrinsceum sui motus.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e775">
+               <lb ed="#V" n="25"/>(e) Idem etiam quarto Physicorum
+<lb ed="#V" n="26"/>etc. secundum autem durum et molle
+<lb ed="#V" n="27"/>passiva. Unde /eri. 85. sic dicit: Duo
+<lb ed="#V" n="28"/>enim sunt in utroque denso et raro, 
+gra<lb ed="#V" break="no" n="29"/>ve enim et durum densa videntur esse ;
+<lb ed="#V" n="30"/>contrarium vero rara, leveque molle.
+<lb ed="#V" n="31"/>Et post sequitur in text. 86. circa finem:
+<lb ed="#V" n="32"/>Densum, inquit, et rarum secundum
+<lb ed="#V" n="33"/>hanc contrarietatem notus, scilicet. 
+sur<lb ed="#V" break="no" n="34"/>sum et deorsum activa sunt, secundum
+<lb ed="#V" n="35"/>autem durum et inolle passiva, et. non
+<lb ed="#V" n="36"/>passibilis receptiva, et non loci 
+mu<lb ed="#V" break="no" n="37"/>lationis, sed alterationis magis. Haec
+<lb ed="#V" n="38"/>ille. Et licet Commentator videtur 
+ex<lb ed="#V" break="no" n="39"/>ponere sic, quod corpora non recipiunt
+<lb ed="#V" n="40"/>transtationem, nisi hoc modo 
+contrarie<lb ed="#V" break="no" n="41"/>tatis, scilicet secundum raritatem et 
+den<lb ed="#V" break="no" n="42"/>sitatem, tamen ubi habentur verba 
+ex<lb ed="#V" break="no" n="43"/>pressa Philosophi, magis videtur dici
+<lb ed="#V" n="44"/>consequenter ad ea, quam extorquere ea.
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>Dicit Commentator parum infra sic: 
+Du<lb ed="#V" break="no" n="46"/>rities vero et mollities non sunt causa
+<lb ed="#V" n="47"/>transtationis, sicut densum et rarum,
+<lb ed="#V" n="48"/>sed sunt causa  facilitatis et 
+difficul<lb ed="#V" break="no" n="49"/>tatis. transtationis, quoniam si corpus
+<lb ed="#V" n="50"/>in quo est transtatio, fuerit molle,
+<lb ed="#V" n="51"/>transtatio erit facilis in ea, sicut in
+<lb ed="#V" n="52"/>aere, et cum fuerit durum, erit  
+dif<lb ed="#V" break="no" n="53"/>ficilis aut impossibilis, sicut in terra.
+<lb ed="#V" n="54"/>Et parum post: Et non sunt cause
+<lb ed="#V" n="55"/>transtationis in loco, sicut. sunt leve el
+<lb ed="#V" n="56"/>grave, sed sunt causae transtationis
+<lb ed="#V" n="57"/>proprie, et intendit, ut multis videtur,
+<lb ed="#V" n="58"/>quod molle est causa passionis, et 
+du<lb ed="#V" break="no" n="59"/>rum actionis, molle enim est 
+passi<lb ed="#V" break="no" n="60"/>vum, et durum activum : h:ec ille.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e858">
+               <lb ed="#V" n="61"/>(f) Et si objicias, quia secundo de 
+Gene<lb ed="#V" break="no" n="62"/>ratione tert. comment. 8. Horum inquit,
+<lb ed="#V" n="63"/>grave et leve, neque activa, neque passiva,
+<lb ed="#V" n="64"/>non enim in faciendo aliquid aliud, neque
+<lb ed="#V" n="65"/>in patiendo ab alio dicuntur : hiec ille.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e871">
+               <lb ed="#V" n="66"/>Respondeo. Dicit Doctor hic, quod 
+en<lb ed="#V" break="no" n="67"/>tia naturalia secundum grave et leve
+<lb ed="#V" n="68"/>sunt activa. Et cum dicit Aristoteles
+<lb ed="#V" n="69"/>quod non sunt activa, dicit — Doctor
+<lb ed="#V" n="70"/>quod Aristoteles intendit de actione, sive
+<lb ed="#V" n="71"/>de motu ad formam ; et verum est, quod
+<lb ed="#V" n="72"/>gravitas non est ratio formalis 
+producen<lb ed="#V" break="no" n="73"/>di formam absolutam in aliquo, et. 
+simi<lb ed="#V" break="no" n="74"/>liter levitas. Nec etiam gravitas et levitas
+<lb ed="#V" n="75"/>sunt rationes formales disponendi aliquod
+<lb ed="#V" n="76"/>subjectum ad formam substantialem, 
+si<lb ed="#V" break="no" n="77"/>cut caliditas in igne est ratio formalis
+<lb ed="#V" n="78"/>disponendi lignum, ut materia ipsius sit
+<lb ed="#V" n="79"/>susceptibilis forme substantialis ignis,
+<lb ed="#V" n="80"/>nec similiter sunt passiva, quia gravitas
+<lb ed="#V" n="81"/>inaqua non est ratio formalis, quare aqua
+<lb ed="#V" n="82"/>patiamur ab igne, licet bene frigiditas,
+<lb ed="#V" n="83"/>quae contrariatur caliditati. Non autem
+<lb ed="#V" n="84"/>negat Aristoteles, quod gravitas et 
+levi<lb ed="#V" break="no" n="85"/>tas sunt. principia agendi respectu motus,
+<lb ed="#V" n="86"/>et hoc modo possunt dici principia 
+acti<lb ed="#V" break="no" n="87"/>va et passiva motus. Etsic patet, 
+quo<lb ed="#V" break="no" n="88"/>modo aliter loquitur Aristoteles de prin-
+<pb ed="#L" n="534"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>cipio passivo et activo, gravis et levis,
+<lb ed="#V" n="2"/>in secundo de Generatione, et aliter. 
+lo<lb ed="#V" break="no" n="3"/>quitur in octavo Physicorum text. 
+com<lb ed="#V" break="no" n="4"/>ment. 86. Expono tamen litteram istam,
+<lb ed="#V" n="5"/>cum dicit : Respondeo et dico,quod. 
+contra<lb ed="#V" break="no" n="6"/>diceret sibi ipsi. Nam in 8. Physic. dicit
+<lb ed="#V" n="7"/>quod licet grave et leve non sint activa,
+<lb ed="#V" n="8"/>sed tantum passiva, ut supra patuit a 
+tex<lb ed="#V" break="no" n="9"/>tu 98. usque ad. textum. 30. inclusive,
+<lb ed="#V" n="10"/>et in secundo de Generatione, text. ubi
+<lb ed="#V" n="11"/>supra dicit, quod non sunt neque 
+acti<lb ed="#V" break="no" n="12"/>va, neque passiva; et probatio sua
+<lb ed="#V" n="13"/>patet ibi, cum dicit : oportet autem 
+acti<lb ed="#V" break="no" n="14"/>va invicem, et passiva esse elementa, 
+mis<lb ed="#V" break="no" n="15"/>centur enim et transmutantur ad 
+invi<lb ed="#V" break="no" n="16"/>cem : haec ille.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e962">
+               <lb ed="#V" n="17"/>(g) Aliter igitur loquitur ipse de 
+ac<lb ed="#V" break="no" n="18"/>tione in 8. Physic. etc. In libro autem de
+<lb ed="#V" n="19"/>Generatione. text. 8. Calidum, inquit, et
+<lb ed="#V" n="20"/>frigidum, humidum et siccum, haec 
+qui<lb ed="#V" break="no" n="21"/>dem, quia activa sunt, haec autem, quia
+<lb ed="#V" n="22"/>passiva dicuntur : haec ille.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e978">
+               <lb ed="#V" n="23"/>Et addit Doctor quod hoc est verum
+<lb ed="#V" n="24"/>de actione univoca, quia agens et patiens
+<lb ed="#V" n="25"/>sunt in principio acquivoca, et in fine 
+uni<lb ed="#V" break="no" n="26"/>voca, patet, nam ignis et aqua, quae sunt
+<lb ed="#V" n="27"/>contraria in principio actionis dicuntur
+<lb ed="#V" n="28"/>aequivoca,et in fine univoca, quod sic 
+de<lb ed="#V" break="no" n="29"/>claro : Cum enim ignis agit in aquam, in
+<lb ed="#V" n="30"/>principio actionis materia ignis est sub
+<lb ed="#V" n="31"/>forma ignis, et materia aqua adhuc est
+<lb ed="#V" n="32"/>sub forma aquae, quae formaliter differunt
+<lb ed="#V" n="33"/>specie, et sic semper ignis et aqua in
+<lb ed="#V" n="34"/>principio actionis sunt acquivoca. Dum
+<lb ed="#V" n="35"/>autem ignis in fine actionis expellit 
+for<lb ed="#V" break="no" n="36"/>mam aqua, et in materia ipsius 
+introdu<lb ed="#V" break="no" n="37"/>cit formam ignis, tunc materia aquae fit
+<lb ed="#V" n="38"/>sub forma ignis, quae est ejusdem speciei
+<lb ed="#V" n="39"/>specialissimze cum forma ignis agentis ; et
+<lb ed="#V" n="40"/>sic ignis productus compositus ex forma
+<lb ed="#V" n="41"/>ignis, et materia quae prius erat sub 
+for<lb ed="#V" break="no" n="42"/>ma aqui, est ejusdem speciei 
+specialis<lb ed="#V" break="no" n="43"/>sim:ze cum igne producente.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e1026">
+               <lb ed="#V" n="44"/>(h) Similiter in actione aequivoca simi-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>le est agens producto secundum formam
+<lb ed="#V" n="46"/>similitudine aequivoca, quod sic debet 
+in<lb ed="#V" break="no" n="47"/>telligi, quod est aliquod agens et passum,
+<lb ed="#V" n="48"/>quae sunt semper aequivoca tam in 
+prin<lb ed="#V" break="no" n="49"/>cipio actionis quam in fine, id est, quod
+<lb ed="#V" n="50"/>materia passi, licet amittat formam 
+prio<lb ed="#V" break="no" n="51"/>rem, semper tamen fit sub forma alterius
+<lb ed="#V" n="52"/>speciei a forma agentis. Exemplum de 
+So<lb ed="#V" break="no" n="53"/>le, quando agit in aliquam materiam, 
+pu<lb ed="#V" break="no" n="54"/>ta existentem sub forma vermis, expellit
+<lb ed="#V" n="55"/>in fine actionis formam vermis, et 
+gene<lb ed="#V" break="no" n="56"/>rat ibi formam musca, qua non est 
+ejus<lb ed="#V" break="no" n="57"/>dem speciei cum Sole ; est igitur tale
+<lb ed="#V" n="58"/>agens simile passo in fine actionis 
+simili<lb ed="#V" break="no" n="59"/>tudine aequivoca sive virtuali, de qua 
+di<lb ed="#V" break="no" n="60"/>ctum est supra in primo, distinct. 3. q. 8.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e1069">
+               <lb ed="#V" n="61"/>Sequitur : Sicut ipse concedit ibi in 
+pri<lb ed="#V" break="no" n="62"/>mo de Generatione, vide text. Nam 
+sani<lb ed="#V" break="no" n="63"/>tas dicitur tantum aequivoce de medicina a
+<lb ed="#V" n="64"/>et corpore sano, quia de medicina 
+tan<lb ed="#V" break="no" n="65"/>quam de signo sanitatis, et de corpore 
+sa<lb ed="#V" break="no" n="66"/>no tanquam de subjecto sanitatis.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e1085">
+               <lb ed="#V" n="67"/>Sequitur: Hoc autem modo negat in 9.
+<lb ed="#V" n="68"/>de Generatione, cum dicit: Horum autem
+<lb ed="#V" n="69"/>grave quidem et leve, neque activa neque
+<lb ed="#V" n="70"/>passiva, non enim in faciendo aliud, 
+ne<lb ed="#V" break="no" n="71"/>que in patiendo ab alio dicuntur, oportet
+<lb ed="#V" n="72"/>autem activa invicem, et passiva esse
+<lb ed="#V" n="73"/>elementa.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e1103">
+               <lb ed="#V" n="74"/>Sequitur: Et ideo non sunt principia
+<lb ed="#V" n="75"/>producendi aliquid secundum formam
+<lb ed="#V" n="76"/>aliquam, scilicet absolutam, ut ibidem
+<lb ed="#V" n="77"/>loquitur de principio patiendi ab aliquo
+<lb ed="#V" n="78"/>agente correspondente tali actioni, quia
+<lb ed="#V" n="79"/>non sunt principia recipiendi formam 
+ab<lb ed="#V" break="no" n="80"/>solutam ab aliquo agente.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e1121">
+               <lb ed="#V" n="81"/>Sequitur : Sunt tamen principia activa
+<lb ed="#V" n="82"/>aliquo modo respectu motus localis ad
+<lb ed="#V" n="83"/>ubi, et aliquo modo passiva respectu 
+ejus<lb ed="#V" break="no" n="84"/>dem, id est, quod grave habet in se 
+ra<lb ed="#V" break="no" n="85"/>tionem formalem agendi, puta gravitatem,
+<lb ed="#V" n="86"/>et rationem formalem patiendi, puta 
+for<lb ed="#V" break="no" n="87"/>mam talis compositi, sive aliquid aliud,
+<lb ed="#V" n="88"/>et sic patet ista littera.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e1141">
+               <pb ed="#L" n="535"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>(1) Ad hoc etiam potest adduci auctoritas
+<lb ed="#V" n="2"/>Comment. 3. Celi et Mundi. com. 98.
+cir<lb ed="#V" break="no" n="3"/>ca finem. Et quia, inquit, motor essentia -
+<lb ed="#V" n="4"/>liter distinguitur a moto, sicut in. 
+anima<lb ed="#V" break="no" n="5"/>libus ; motor enim in eis est alius a 
+imo<lb ed="#V" break="no" n="6"/>to, cum motor sit animal, et motum sif
+<lb ed="#V" n="7"/>corpus ; in. corporibus autem simplicibus
+<lb ed="#V" n="8"/>idem est motor secundum spem et motum,
+<lb ed="#V" n="9"/>sed. diflerunt. secundum modum, lapis
+<lb ed="#V" n="10"/>enim movel se inquantum est gravis in
+<lb ed="#V" n="11"/>actu, et movetur inquantum est. potentia
+<lb ed="#V" n="12"/>inferius ; invenitur enim uno modo in
+<lb ed="#V" n="13"/>actu, et alio modo in potentia, et causa
+<lb ed="#V" n="14"/>est hec, quia componitur ex materia et
+<lb ed="#V" n="15"/>forma ; forma igitur ejus movet 
+inquan<lb ed="#V" break="no" n="16"/>lum est forma, et movetur. secundum
+<lb ed="#V" n="17"/>quod. est in. materia, non enim est in 
+po<lb ed="#V" break="no" n="18"/>tentia ad. inferius, nisi secundum quod
+<lb ed="#V" n="19"/>est in maleria. Hxc ille. Et patet ex isto
+<lb ed="#V" n="20"/>textu quomodo accipit corpora simplicia,
+<lb ed="#V" n="21"/>quia accipit corpora simplicia, quae sunt
+<lb ed="#V" n="22"/>uniformia in toto et in partibus.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e1196">
+               <lb ed="#V" n="23"/>Sequitur : Sed de hoc videtur varie
+<lb ed="#V" n="24"/>loqui, quia in commento supradicto 
+vide<lb ed="#V" break="no" n="25"/>tur velle, quod lapis moveat se per 
+acci<lb ed="#V" break="no" n="26"/>dens pellendo medium, sicut nauta movet
+<lb ed="#V" n="27"/>se movendo navem, in qua existit; et 
+pa<lb ed="#V" break="no" n="28"/>rum infra : lapis, inquit, non est per se
+<lb ed="#V" n="29"/>motus essentialiter, sed assimilatur ei
+<lb ed="#V" n="30"/>quod movetur per se, ideo indiget in suo
+<lb ed="#V" n="31"/>motu motore extrinseco, etc. hoc idem in
+<lb ed="#V" n="32"/>octavo Physicorum, commento 32.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e1221">
+               <lb ed="#V" n="33"/>(K) Ad istam conclusionem sunt 
+ratio<lb ed="#V" break="no" n="34"/>nes. In ista littera Doctor intendit 
+proba<lb ed="#V" break="no" n="35"/>re rationibus, quod gravia et levia 
+pos<lb ed="#V" break="no" n="36"/>sunt movere se. Prima talis est, omnis
+<lb ed="#V" n="37"/>effectus quando in actu causatur, 
+ha<lb ed="#V" break="no" n="38"/>bet causam in actu, ut patet 2.  P/
+y<lb ed="#V" break="no" n="39"/>sic. tert. com. 3i. Differunt, inquit, in
+<lb ed="#V" n="40"/>tantum quod. operantes quidem, et 
+singu<lb ed="#V" break="no" n="41"/>lures simul sunt, et non sunt, et. quarum
+<lb ed="#V" n="42"/>sunt cause, sicut hic medicus, cum hoc
+<lb ed="#V" n="43"/>qui fit sanus, et hic cedificator cum «
+edi<lb ed="#V" break="no" n="44"/>ficato, quae autem sunt. secundum  poten-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>tiam. non semper, supple simul sunt,
+<lb ed="#V" n="46"/>ef non sunt, corrumpitur enim, et. non
+<lb ed="#V" n="47"/>simul domus, et cedificator : h:ec ille. Et
+<lb ed="#V" n="48"/>ibi Commentator: Differentia, inquit, 
+77<lb ed="#V" break="no" n="49"/>ler causas, quae sunt actu, et quae sunt 
+po<lb ed="#V" break="no" n="50"/>tentia. est, quoniam quae sunt actu. 
+inve<lb ed="#V" break="no" n="51"/>niuntur cum illis, quorum sunt cause, et
+<lb ed="#V" n="52"/>deficiunt cum illis, verbi gratia, 
+quo<lb ed="#V" break="no" n="53"/>niam iste medicus non est curator in actu,
+<lb ed="#V" n="54"/>nisi cum hoc curato in actu. Mec. ille.
+<lb ed="#V" n="55"/>Hoc idem vult Philosophus, quinto 
+Me<lb ed="#V" break="no" n="56"/>taph. capitulo de Causa tert. com. 3.
+<lb ed="#V" n="57"/>Differunt, inquit, in. tantum. quod 
+agen<lb ed="#V" break="no" n="58"/>da quidem, et. singularia simul sunt. et
+<lb ed="#V" n="59"/>non sunt, et ipsa, et quorum cause, ut
+<lb ed="#V" n="60"/>hic medens cum hoc convalescente, el
+<lb ed="#V" n="61"/>hic cdificator cum hoc edificio. W:ec 
+il<lb ed="#V" break="no" n="62"/>le. Ex hac auctoritate arguit Doctor 
+des<lb ed="#V" break="no" n="63"/>census gravis est in actu ; ergo est 
+ali<lb ed="#V" break="no" n="64"/>quid causans in actu, non autem tunc est
+<lb ed="#V" n="65"/>in actu a removente prohibens, neque per
+<lb ed="#V" n="66"/>consequens ab impellente ipsum grave
+<lb ed="#V" n="67"/>fertur deorsum ; patet, quia impellens
+<lb ed="#V" n="68"/>non continuat semper motum illum, ut
+<lb ed="#V" n="69"/>patet de projiciente lapidem deorsum, sed
+<lb ed="#V" n="70"/>bene verum est, quod in principio motus
+<lb ed="#V" n="71"/>dum lapis impellitur, ille motus erit forte
+<lb ed="#V" n="72"/>velocior in principio ; imo impellens non
+<lb ed="#V" n="73"/>perse movet deorsum, quia in hoc est quasi
+<lb ed="#V" n="74"/>removens prohibens, et tale movens
+<lb ed="#V" n="75"/>secundum Philosophum 8. Physicorum,
+<lb ed="#V" n="76"/>text. comment. 32. est quasi movens per
+<lb ed="#V" n="77"/>aecidens : Sustinens, inquit, et prohibens
+<lb ed="#V" n="78"/>dimovens est sicut movens, est autem 
+si<lb ed="#V" break="no" n="79"/>cut non, ut. columnam evellens, aut 
+lapi<lb ed="#V" break="no" n="80"/>dem removens, aut e vase aquam. 
+Secun<lb ed="#V" break="no" n="81"/>dum accidens enim movet,sicut repercussa
+<lb ed="#V" n="82"/>sphaera non a pariete mota est, sed a
+<lb ed="#V" n="83"/>projiciente,. Et Commentator ibi : Si 
+ali<lb ed="#V" break="no" n="84"/>quis, inquit, homo aufert columnam. 
+su<lb ed="#V" break="no" n="85"/>stentantem pondus, tunc ille homo 
+move<lb ed="#V" break="no" n="86"/>bit illud pondus, et cadet. illud. 
+ponde<lb ed="#V" break="no" n="87"/>rosum ad inferius per accidens ; et 
+simi<lb ed="#V" break="no" n="88"/>liter quando aufert lapidem posttum su-
+<pb ed="#L" n="536"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>per vtrem. inflatum, ille homo dicitur
+<lb ed="#V" n="2"/>movere illum utrem per accidens, et 
+dici<lb ed="#V" break="no" n="3"/>tur movere per accidens, quia ista. 
+poten<lb ed="#V" break="no" n="4"/>lia est violenta : haec ile. Sequitur in
+<lb ed="#V" n="5"/>littera Doctoris : Et praeter movens per
+<lb ed="#V" n="6"/>accidens, oportet dare movens per se 
+effi<lb ed="#V" break="no" n="7"/>ciens, quia omne per accidens habet 
+re<lb ed="#V" break="no" n="8"/>duci ad per se, ut patet per 
+Philoso<lb ed="#V" break="no" n="9"/>phum 2. Physic. text. com. 65. 
+Quo<lb ed="#V" break="no" n="10"/>niam, inquit, sunt. casus, et fortuna 
+cau<lb ed="#V" break="no" n="11"/>sc eorum, quorum utique autem 
+ntelle<lb ed="#V" break="no" n="12"/>ctus fiel causa, aut natura cum 
+secun<lb ed="#V" break="no" n="13"/>dum accidens causa aliqua fiat horum :
+p<lb ed="#V" break="no" n="14"/>sorum ; nihil autem secundum accidens
+<lb ed="#V" n="15"/>prius est his, quae sunt per se 
+manife<lb ed="#V" break="no" n="16"/>stum est, quod neque per accidens causa
+<lb ed="#V" n="17"/>prius est ea, quae est per se : haec ille. Si
+<lb ed="#V" n="18"/>ergo impellens movet per accidens 
+lapi<lb ed="#V" break="no" n="19"/>dem, sequitur quod talis motus debeat 
+re<lb ed="#V" break="no" n="20"/>duci ad aliquam causam per se.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e1395">
+               <lb ed="#V" n="21"/>(l) Nec istud. Sequitur in littera 
+Docto<lb ed="#V" break="no" n="22"/>ris: JVee. istud. potest esse centrum. 
+tra<lb ed="#V" break="no" n="23"/>hens. Hic respondet huic objectioni, 
+scili<lb ed="#V" break="no" n="24"/>cet si quis velit assignare causam talis
+<lb ed="#V" n="25"/>motus esse centrum etc. Dicit quod hoc
+<lb ed="#V" n="26"/>non potest esse causa, quia si, per 
+im<lb ed="#V" break="no" n="27"/>possibile, nullum grave esset in centro,
+<lb ed="#V" n="28"/>sed tota terra mota ab eo remanente 
+cen<lb ed="#V" break="no" n="29"/>tro sub sola ratione centri, ut prius,
+<lb ed="#V" n="30"/>adhuc grave naturaliter tenderet ad 
+cen<lb ed="#V" break="no" n="31"/>trum? quid ergo attrahi? non ubi 
+ma<lb ed="#V" break="no" n="32"/>thematicum ; patet, cum ultima 
+super<lb ed="#V" break="no" n="33"/>fieles corporis locantis non sit forma
+<lb ed="#V" n="34"/>activa ; rec influentia coeli, ut aliqui 
+di<lb ed="#V" break="no" n="35"/>cunt, quia influentia coeli quantum est de
+<lb ed="#V" n="36"/>se, uniformis est in toto medio, puta in
+<lb ed="#V" n="37"/>toto aere; quare ergo aliquod ens naturale
+<lb ed="#V" n="38"/>movetur sursum ut leve, et aliquod 
+deor<lb ed="#V" break="no" n="39"/>sum ut grave, cum sit talis influentia 
+uni<lb ed="#V" break="no" n="40"/>formis in toto medio ? vel ergo omnia
+<lb ed="#V" n="41"/>gravia et levia uniformiter movebuntur
+<lb ed="#V" n="42"/>deorsum, vel omnia sursum cujus 
+contra<lb ed="#V" break="no" n="43"/>rium apparet.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e1447">
+               <lb ed="#V" n="44"/>(m) Sequitur: nisi poneretur aqens
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>particulare determinans, etc. Vult dicere
+<lb ed="#V" n="46"/>Doctor, si vis dicere quod grave actu 
+mo<lb ed="#V" break="no" n="47"/>tum ab agente extrinseco movet se, id
+<lb ed="#V" n="48"/>est, quod ipsum grave, ut actu habet in
+<lb ed="#V" n="49"/>se motum localem, tunc movet seipsum
+<lb ed="#V" n="50"/>secundum quod actu illum motum habet
+<lb ed="#V" n="51"/>ab agente exteriori ; et est sensus, quod
+<lb ed="#V" n="52"/>si grave movetur deorsum per spatium
+<lb ed="#V" n="53"/>unius milliaris, agens extrinsecum primo
+<lb ed="#V" n="54"/>incipit movere ipsum grave causando in
+<lb ed="#V" n="55"/>ipso motum, tunc ille motus causatus
+<lb ed="#V" n="56"/>eil principium movendi ipsum grave per
+<lb ed="#V" n="57"/>totum spatium. Contra hoc arguit Doctor,
+<lb ed="#V" n="58"/>quia nihil movet se univoce ad illud quod
+<lb ed="#V" n="59"/>habet, id est, quod ratio formzlis 
+produ<lb ed="#V" break="no" n="60"/>cendi aliquid, puta ejusdem speciei 
+spe<lb ed="#V" break="no" n="61"/>cialissimde non potest producere illud in
+<lb ed="#V" n="62"/>illo subjecto in quo est, sicut caliditas in
+<lb ed="#V" n="63"/>igne, et si sit ratio formalis producendi
+<lb ed="#V" n="64"/>caliditatem in ligno, tamen non est ratio
+<lb ed="#V" n="65"/>formalis producendi aliam caliditatem in
+<lb ed="#V" n="66"/>ipso igne ; hoc idem dico de generante,
+<lb ed="#V" n="67"/>quia etsi humanitas sit ratio formalis in
+<lb ed="#V" n="68"/>Francisco producendi aliam humanitatem,
+<lb ed="#V" n="69"/>puta in Joanne, non tamen est ratio 
+for<lb ed="#V" break="no" n="70"/>malis producendi aliam humanitatem in
+<lb ed="#V" n="71"/>Francisco. Si ergo motus localis in. gravi
+<lb ed="#V" n="72"/>est ratio formalis producendi alium 
+mo<lb ed="#V" break="no" n="73"/>tum localem in ipso gravi, qui est ejusdem
+<lb ed="#V" n="74"/>speciel specialissimee cum primo, tunc 
+se<lb ed="#V" break="no" n="75"/>queretur quod moveret se univoce ad id
+<lb ed="#V" n="76"/>quod habet; bene potest esse ratio 
+for<lb ed="#V" break="no" n="77"/>malis producendi aliquid acquivoce in se,
+<lb ed="#V" n="78"/>et sic gravitas in corpore gravi est 
+hujus<lb ed="#V" break="no" n="79"/>modi. Sequitur ib1: nec generans. 
+Dein<lb ed="#V" break="no" n="80"/>de dicit quod causa hujus motus non 
+po<lb ed="#V" break="no" n="81"/>test assignari ipsum generans, grave vel
+<lb ed="#V" n="82"/>leve, quia tale generans potest non esse,
+<lb ed="#V" n="83"/>eravi existente, et per consequens grave
+<lb ed="#V" n="84"/>potest moveri, generante ipsum non 
+exi<lb ed="#V" break="no" n="85"/>stente ; modo effectus in actu non est, 
+ni<lb ed="#V" break="no" n="86"/>si a causa in actu, ex 2. Phys. text. c. 31.
+<lb ed="#V" n="87"/>Et licet Commentator videatar dicere in
+<lb ed="#V" n="88"/>8. Phys. c. 32. circa. finem hujus com-
+<pb ed="#L" n="537"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>menti quod moventur a generante, ubi sic
+<lb ed="#V" n="2"/>dicit : et intendebat declarare ex isto
+<lb ed="#V" n="3"/>sermone, quod motus corporum 
+natura<lb ed="#V" break="no" n="4"/>lium in hoc loco est in rei veritate ab eo
+<lb ed="#V" n="5"/>quod generat ipsa, sicut alia accidentia,
+<lb ed="#V" n="6"/>que inveniuntur generari in re per 
+gene<lb ed="#V" break="no" n="7"/>rationem ipsius, Sent. super disp. 3. 4.
+<lb ed="#V" n="8"/>et 3. quod loquitur de agente remoto, quia
+<lb ed="#V" n="9"/>tale agens generando grave dat grave
+<lb ed="#V" n="10"/>principium sui motus. Et si Commentator
+<lb ed="#V" n="11"/>intelligeret,quod generans grave sit agens
+<lb ed="#V" n="12"/>propinquum et immediatum respectu 
+mo<lb ed="#V" break="no" n="13"/>tus gravis, experientia est in 
+contra<lb ed="#V" break="no" n="14"/>rium.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e1584">
+               <lb ed="#V" n="15"/>(n) Contra istud. Hic Doctor improbat
+<lb ed="#V" n="16"/>hanc responsionem, quia causam manere
+<lb ed="#V" n="17"/>in effectu in virtute, nihil aliud est nisi
+<lb ed="#V" n="18"/>effectum . habere esse a tali causa,
+<lb ed="#V" n="19"/>ex quo enim effectus erat in virtute
+<lb ed="#V" n="20"/>cause? antequam produceretur, ipso
+<lb ed="#V" n="21"/>producto causa manet in effectu in 
+virtu<lb ed="#V" break="no" n="22"/>te, et quod effectus habet esse per causam,
+<lb ed="#V" n="23"/>quae habebat ipsum in virtute sua, sed
+<lb ed="#V" n="24"/>causam sic manere in effectu in virtute,
+<lb ed="#V" n="25"/>non dicit aliquod esse in actu in causa ;
+<lb ed="#V" n="26"/>patet, quia effectus potest manere ea non
+<lb ed="#V" n="27"/>existente, et sic sequitur, quod grave non
+<lb ed="#V" n="28"/>potest manere virtute alicujus causc actu
+<lb ed="#V" n="29"/>non existentis, cum effectus non possit
+<lb ed="#V" n="30"/>esse in actu, nisi a causa in actu.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e1621">
+               <lb ed="#V" n="31"/>(0) Praeterea, illud quod non movet
+<lb ed="#V" n="32"/>aliud etc. Nec est secunda ratio quam 
+fa<lb ed="#V" break="no" n="33"/>cit, probando quod grave habeat in se
+<lb ed="#V" n="34"/>.principium sui motus, et declaro prius
+<lb ed="#V" n="35"/>propositionem illam per exemplum, quia
+<lb ed="#V" n="36"/>instrumentum, puta serra, non movet,
+<lb ed="#V" n="37"/>scilicet scindendo lignum, nisi inquantum
+<lb ed="#V" n="38"/>mota ab artifice ; igitur talis sectio erit
+<lb ed="#V" n="39"/>ab eodem agente effective, a quo et motus
+<lb ed="#V" n="40"/>serre, ut patebit 7m 4. disl. 1. et 4. Ex
+<lb ed="#V" n="41"/>hoc infero propositum, quia grave non
+<lb ed="#V" n="42"/>movet leve deorsum sibi alligatum, nisi
+<lb ed="#V" n="43"/>quia motum ab alio ; ergo ab eodem 
+prin<lb ed="#V" break="no" n="44"/>cipio erit motus ipsius levis et ipsius
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>gravis ; sed constat ipsum leve moveri
+<lb ed="#V" n="46"/>deorsum ratione gravitatis existentis, 
+pu<lb ed="#V" break="no" n="47"/>ta in lapide, cui leve alligatum est ; ergo
+<lb ed="#V" n="48"/>et ipsa gravitas erit ratio movendi ipsum
+<lb ed="#V" n="49"/>grave per se. Et Doctor in ista ratione
+<lb ed="#V" n="50"/>supponit, quod probavit in prima ratione,
+<lb ed="#V" n="51"/>videlicet quod grave non moveatur, nec
+<lb ed="#V" n="52"/>ab impellente, nec ab influentia coeli, nec
+<lb ed="#V" n="53"/>a centro, neca generante; ergo si grave
+<lb ed="#V" n="54"/>movet leve alligatum, quia motum ab alio,
+<lb ed="#V" n="55"/>erit ipsum grave prius motum realiter ab
+<lb ed="#V" n="56"/>eodem, a quo et leve movetur deorsum.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e1682">
+               <lb ed="#V" n="57"/>(p) Posset. confirmari illa ratio, etc.
+<lb ed="#V" n="58"/>Ista confirmatio stat in hoc, quod habens
+<lb ed="#V" n="59"/>potentiam activam respectu alicujus 
+for<lb ed="#V" break="no" n="60"/>m:e potest eam causare in quocumque
+<lb ed="#V" n="61"/>passo sibi proportionato ; patet de igne,
+<lb ed="#V" n="62"/>qui habet in potentia activa calorem, et
+<lb ed="#V" n="63"/>per consequens potest illum causare in
+<lb ed="#V" n="64"/>quocumque calefactibili sibi 
+proportiona<lb ed="#V" break="no" n="65"/>to; cum ergo grave habeat in potentia
+<lb ed="#V" n="66"/>activa ubi deorsum, poterit illud causare
+<lb ed="#V" n="67"/>in passo sibi proportionato ; sicut ergo
+<lb ed="#V" n="68"/>potest causare ubi deorsum in levi alligato
+<lb ed="#V" n="69"/>gravi, multo magis poterit causare uhi
+<lb ed="#V" n="70"/>deorsum in ipso gravi, cum sit passum 
+re<lb ed="#V" break="no" n="71"/>ceptivum et proportionatum respectu talis
+<lb ed="#V" n="72"/>ubi.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e1720">
+               <lb ed="#V" n="73"/>(q) Hoc etiam poterit satis patere. Haec
+<lb ed="#V" n="74"/>ratio est satis bona, et stat in hoc: quia
+<lb ed="#V" n="75"/>quiero a te, cum grave quiescat in 
+cen<lb ed="#V" break="no" n="76"/>tro, quae sit causa ipsius quietis, videlicet
+<lb ed="#V" n="77"/>quod quiescat ibi? Si dicis, quod 
+gravi<lb ed="#V" break="no" n="78"/>tas, quod utique verum est, cum nulla
+<lb ed="#V" n="79"/>alia causa appareat, sequitur quod eadem
+<lb ed="#V" n="80"/>gravitas erit principium intrinsecum 
+mo<lb ed="#V" break="no" n="81"/>vendi grave existens extra centrum ad
+<lb ed="#V" n="82"/>ubi in centro ubi quiescit, et quod eadem
+<lb ed="#V" n="83"/>sit causa motus et quietis, expresse patet
+<lb ed="#V" n="84"/>a Philosopho 8. Physic. text. com. 29.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e1749">
+               <lb ed="#V" n="85"/>Si aliquis, inquit,est causa suiipsius in
+<lb ed="#V" n="86"/>ambulatione, est etiam. causa sutipstus in
+<lb ed="#V" n="87"/>dimittendo sui ambulationem. Wiec ille ; et
+<lb ed="#V" n="88"/>hoc secundum transtationem  Commenta-
+<pb ed="#L" n="538"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>toris, ubi Commentator sic dicit : ignis
+<lb ed="#V" n="2"/>esset causa in se, per quam posset 
+move<lb ed="#V" break="no" n="3"/>ri sine indigentia causae extrinseco, tunc
+<lb ed="#V" n="4"/>per istam causam posset quiescere sine
+<lb ed="#V" n="5"/>indigentia causae extrinsecae. Res enim in
+<lb ed="#V" n="6"/>qua est causa, quae potest moveri sine
+<lb ed="#V" n="7"/>indigentia causae extrinseco sicut animal
+<lb ed="#V" n="8"/>in quo est anima, per illam potest. 
+quies<lb ed="#V" break="no" n="9"/>cere : h«c ille.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e1784">
+               <lb ed="#V" n="10"/>(r) Praeterea, grave impeditum a motu
+<lb ed="#V" n="11"/>removet prohibens. Haec ratio est satis
+<lb ed="#V" n="12"/>clara, et stat in hoc : ex quo enim grave
+<lb ed="#V" n="13"/>positum super aliquod continuum, ratione
+<lb ed="#V" n="14"/>suc gravitatis frangit et dissolvit illud
+<lb ed="#V" n="15"/>continuum, ut petat centrum, sequitur
+<lb ed="#V" n="16"/>quod talis gravitas erit causa talis 
+descen<lb ed="#V" break="no" n="17"/>sus ; patet, quia si est causa fractionis
+<lb ed="#V" n="18"/>continue propter descensum ad centrum,
+<lb ed="#V" n="19"/>multo fortius erit causa ipsius 
+descen<lb ed="#V" break="no" n="20"/>sus.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e1810">
+               <lb ed="#V" n="21"/>(s) Hoc etiam declarari potest aliter.
+<lb ed="#V" n="22"/>H:ec declaratio est satis bona, quia 
+po<lb ed="#V" break="no" n="23"/>nendo duo gravia in eadem distantia ad
+<lb ed="#V" n="24"/>centrum, et in eadem influentia coeli,
+<lb ed="#V" n="25"/>quorum unum sit grave ut octo, et aliud
+<lb ed="#V" n="26"/>ut quatuor, certum est quod grave, ut
+<lb ed="#V" n="27"/>octo (ut experimento patet) velocius 
+des<lb ed="#V" break="no" n="28"/>cendit ; ergo respectu motus velocioris
+<lb ed="#V" n="29"/>non videtur posse assignari alia causa,
+<lb ed="#V" n="30"/>quam ipsa gravitas in ipso gravi.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e1834">
+               <lb ed="#V" n="31"/>Item motus naturalis. intenditur. in
+<lb ed="#V" n="32"/>fine secundum Philosophum, etc.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e1841">
+               <lb ed="#V" n="33"/>(t) Respondeo  tunc ad Philosophwm,
+<lb ed="#V" n="34"/>etc. Et tota ista responsio stat in hoc, quod
+<lb ed="#V" n="35"/>habens formam, quae est principium 
+ali<lb ed="#V" break="no" n="36"/>cujus form: univoce,id est, ejusdem 
+spe<lb ed="#V" break="no" n="37"/>ciei cum forma producendi, vel 
+princi<lb ed="#V" break="no" n="38"/>pium alicujus formae. acquivoce, quae 
+for<lb ed="#V" break="no" n="39"/>ma sit alterius specieia forma 
+producen<lb ed="#V" break="no" n="40"/>te, talis forma productiva erit ratio 
+for<lb ed="#V" break="no" n="41"/>malis producendi formam :equivoce vel
+<lb ed="#V" n="42"/>univoce in quocumque passo sibi 
+pro<lb ed="#V" break="no" n="43"/>portionato. Sed lapis existens sursum
+<lb ed="#V" n="44"/>est in potentia passiva ad wb; deor-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>sum, et gravitas in lapide est 
+prin<lb ed="#V" break="no" n="46"/>cipium activum — acquivocum respectu
+<lb ed="#V" n="47"/>talis ub ; ergo poterit causare illud in 
+la<lb ed="#V" break="no" n="48"/>pide, cum sit passum sibi debite 
+appro<lb ed="#V" break="no" n="49"/>ximatum.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e1884">
+               <lb ed="#V" n="50"/>Sequitur : Non enim movens movet
+<lb ed="#V" n="51"/>mobile ad aliquod. ubi etc. et haec 
+propo<lb ed="#V" break="no" n="52"/>sitio est similis huic propositioni, quae
+<lb ed="#V" n="53"/>habetur dist. 3. primi, q. 1. scilicet
+<lb ed="#V" n="54"/>quod idem potest esse in actu virtuali
+<lb ed="#V" n="55"/>et potentia formali, quae ibi diffuse
+<lb ed="#V" n="56"/>exposita est. Dicit ergo Doctor quod 
+mo<lb ed="#V" break="no" n="57"/>vens aliquod grave ad ubi A, causans tale
+<lb ed="#V" n="58"/>ubiin gravi non requiritur, quod habeat
+<lb ed="#V" n="59"/>ipsum «b formaliter sive in se, sed 
+re<lb ed="#V" break="no" n="60"/>quiritur quod habeat illud in virtute sua.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e1910">
+               <lb ed="#V" n="61"/>(u) Mobile habet principium 
+intrinso<lb ed="#V" break="no" n="62"/>cum passivum naturaliter inclinans. ad
+<lb ed="#V" n="63"/>motum, quod patet per definitionem 
+na<lb ed="#V" break="no" n="64"/>ture, 9. Physicorum, text. com. 3. Est,
+<lb ed="#V" n="65"/>inquit, natura principium alicujus, 
+cau<lb ed="#V" break="no" n="66"/>sa movendi et quiescendi in eo in quo est
+<lb ed="#V" n="67"/>primum et per se, et non secundum 
+acci<lb ed="#V" break="no" n="68"/>dens; dico autem non secundum accidens,
+<lb ed="#V" n="69"/>cum fiat utique ipse sibi aliquis causa
+<lb ed="#V" n="70"/>sanitatis, cum sit medicus, sed tamen non
+<lb ed="#V" n="71"/>secundum quod sanatur, medicinam habet,
+<lb ed="#V" n="72"/>sed accidit eumdem medicum esse et 
+sa<lb ed="#V" break="no" n="73"/>nari, unde et dividuntur aliquando ad
+<lb ed="#V" n="74"/>invicem. Hec ille, et sic Aristoteles 
+intel<lb ed="#V" break="no" n="75"/>ligit de principio passivo, cum nihil sit
+<lb ed="#V" n="76"/>principium alicui naturaliter movendi, 
+ni<lb ed="#V" break="no" n="77"/>si inquantum est per se, et primo in eo
+<lb ed="#V" n="78"/>quod movetur; non est autem per se et
+<lb ed="#V" n="79"/>primo in aliquo quod movetur, nisi 
+in<lb ed="#V" break="no" n="80"/>quantum est passivum; ergo non est 
+ali<lb ed="#V" break="no" n="81"/>quid natura vel principium naturale 
+alicu<lb ed="#V" break="no" n="82"/>jus, nisi quia est principium passivum in
+<lb ed="#V" n="83"/>moto, id est, quod talis motus non potest
+<lb ed="#V" n="84"/>dici naturalis ex hoc quod efficitur ab
+<lb ed="#V" n="85"/>agente naturali, quia  tunc motus violentus
+<lb ed="#V" n="86"/>posset etiam dici naturalis, cum possit
+<lb ed="#V" n="87"/>fieri ab agente naturali, prout agens 
+na<lb ed="#V" break="no" n="88"/>turale distinguitur contra agens a propo-
+<pb ed="#L" n="539"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>sito. Sed dicitur naturalis ex hoc, quod
+<lb ed="#V" n="2"/>mobile naturaliter inclinatur ad illud, et
+<lb ed="#V" n="3"/>intelligitur sic, quod natura primo et per
+<lb ed="#V" n="4"/>se praedicatur de principio passivo, quod
+<lb ed="#V" n="5"/>habet naturalem inclinationem, vel ad 
+for<lb ed="#V" break="no" n="6"/>mam substantialem, ut in generatione, vel
+<lb ed="#V" n="7"/>ad receptionem naturalem motus et 
+quie<lb ed="#V" break="no" n="8"/>tis, sicut patet de gravi quod movetur ad
+<lb ed="#V" n="9"/>ubi deorsum.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e1997">
+               <lb ed="#V" n="10"/>Sequitur : non propter illud 
+prin<lb ed="#V" break="no" n="11"/>cipium acttvum movetur naturaliter,
+<lb ed="#V" n="12"/>supple ipsum mobile, sed propter 
+prin<lb ed="#V" break="no" n="13"/>cipium passivum, propter quod sic 
+mo<lb ed="#V" break="no" n="14"/>vetur, supple quia tale mobile habet 
+na<lb ed="#V" break="no" n="15"/>turalem inclinationem ad recipiendum in
+<lb ed="#V" n="16"/>se talem motum. Et hoc est quod subdit
+<lb ed="#V" n="17"/>Philosophus in 8. Physic. text. com.32.
+<lb ed="#V" n="18"/>postquam dixit, quod actus levis est esse
+<lb ed="#V" n="19"/>alicubi et sursum, dicit ipse, quaeritur,
+<lb ed="#V" n="20"/>quare moventur in ipsorum loca gravia
+<lb ed="#V" n="21"/>et levia? Et respondet sic : causa autem
+<lb ed="#V" n="22"/>est, quia apta nala sunt. alicubi esse, et
+<lb ed="#V" n="23"/>hoc ex levi et gravi esse, hoc 
+qui<lb ed="#V" break="no" n="24"/>dem sursum, illud autem deorsum
+<lb ed="#V" n="25"/>duci. Hec ille. Cam dicit apta nata, id
+<lb ed="#V" n="26"/>est, habent uaturalem inclinationem ad
+<lb ed="#V" n="27"/>illud.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e2039">
+               <lb ed="#V" n="28"/>Sequitur : Et hoc modo postea. subdit,
+<lb ed="#V" n="29"/>quod habent principium patiendi et. non
+<lb ed="#V" n="30"/>faciendi, scilicet respectu motus 
+inquan<lb ed="#V" break="no" n="31"/>tum naturalis est, ut patet in fine illius
+<lb ed="#V" n="32"/>textus ubi sic dicit : Quidem igitur. nihil
+<lb ed="#V" n="33"/>horum, puta gravium et levium movet
+<lb ed="#V" n="34"/>seipsum, manifestum est, sed motus habet
+<lb ed="#V" n="35"/>principium non movendi neque faciendi,
+<lb ed="#V" n="36"/>sed patiendi, id est, quod res mota 
+respe<lb ed="#V" break="no" n="37"/>ctu motus naturalis in genere hujusmodi,
+<lb ed="#V" n="38"/>non habet principium activum, sed tantum
+<lb ed="#V" n="39"/>passivum, quia talis motus ideo dicitur 
+na<lb ed="#V" break="no" n="40"/>turalis, non quia causatur, sed quia 
+rece<lb ed="#V" break="no" n="41"/>ptivum habet naturalem inclinationem ad
+<lb ed="#V" n="42"/>ipsum. Et sic debet exponi Philosophus,
+<lb ed="#V" n="43"/>sicut, etiam videtur exponere 
+Commenta<lb ed="#V" break="no" n="44"/>tor ubi supra c. 32. n. fine hujus 
+com<lb ed="#V" break="no" n="45"/>menti.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e2081">
+               <cb ed="#V" n="b"/>
+               <lb ed="#V" n="46"/>Sequitur : Et ibi ita in solutione hujus
+<lb ed="#V" n="47"/>dubitationis. etc. De activo patet ibi :
+<lb ed="#V" n="48"/>Cum, inquit, fit aer aqua. quodammodo
+<lb ed="#V" n="49"/>potentia, et leve, et cum aer est potentia,
+<lb ed="#V" n="50"/>contingit enim per impedimentum non 
+sur<lb ed="#V" break="no" n="51"/>sum esse, sed si auferatur  impediens
+<lb ed="#V" n="52"/>agil, et semper sursum fit. Haec ille;
+<lb ed="#V" n="53"/>quae auctoritas exposita est supra. Et de
+<lb ed="#V" n="54"/>principio passivo patet in fine textus, ubi
+<lb ed="#V" n="55"/>vult quod mobile non habeat principium
+<lb ed="#V" n="56"/>faciendi, sed tantum patiendi, eo modo
+<lb ed="#V" n="57"/>quo exponit supra.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e2112">
+               <lb ed="#V" n="58"/>(V) Quarta. ratio sua de continuo. Dicit
+<lb ed="#V" n="59"/>Doctor quod illa quarta ratio non 
+conclu<lb ed="#V" break="no" n="60"/>dit de quanto, sive de continuo 
+inquan<lb ed="#V" break="no" n="61"/>tum quantum absolute, sed de continuo,
+<lb ed="#V" n="62"/>ut etiam dicit Commentator 8. Physic.
+<lb ed="#V" n="63"/>com. 30. Illa, inquit, quae sunt 
+consimi<lb ed="#V" break="no" n="64"/>lia partium simplicium, impossibile est
+<lb ed="#V" n="65"/>uL moveant se. Hec. ille. Et sic concedit
+<lb ed="#V" n="66"/>Doctor, quod grave hoc modo non movet
+<lb ed="#V" n="67"/>se, sicut dicimus de alio continuo, quod
+<lb ed="#V" n="68"/>non moveat se totum simul, sed una pars
+<lb ed="#V" n="69"/>movet aliam, et illa mota movet aliam,
+<lb ed="#V" n="70"/>sicut cum aer calefit, una pars calefacta
+<lb ed="#V" n="71"/>calefacit aliam, et illa aliam, et sic tandem
+<lb ed="#V" n="72"/>totus calefit, sed non est sic de gravi; non
+<lb ed="#V" n="73"/>enim una pars gravis movet aliam, nec
+<lb ed="#V" n="74"/>est ratio movendi se, cum quaelibet 
+ha<lb ed="#V" break="no" n="75"/>beat in se gravitatem, totum compositum
+<lb ed="#V" n="76"/>ex omnibus partibus habet in se 
+princi<lb ed="#V" break="no" n="77"/>pium movendi se totum.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e2159">
+               <lb ed="#V" n="78"/>(X) Sed objicies. Hic Doctor objicit 
+con<lb ed="#V" break="no" n="79"/>tra se, quia si Philosophus 8. Physic.
+<lb ed="#V" n="80"/>probat quod primus motor sit tantum
+<lb ed="#V" n="81"/>movens, et non motus, per hoc quod 
+om<lb ed="#V" break="no" n="82"/>ne quod movetur ab alio movetur, ut 
+pa<lb ed="#V" break="no" n="83"/>tet 1. Physic. tert. com. 1. et inde, et sic
+<lb ed="#V" n="84"/>non est processus in infinitum in. motis ab
+<lb ed="#V" n="85"/>alio ; ergo standum est ad unum motorem,
+<lb ed="#V" n="86"/>qui tantum moveat. Si ergo concederet
+<lb ed="#V" n="87"/>Aristoteles quod grave moveret se, hoc
+<lb ed="#V" n="88"/>idem posset dici de gravi, quod dicitur
+<lb ed="#V" n="89"/>de primo motore, videlicet quod movet. et
+<lb ed="#V" n="90"/>non movetur,
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e2190">
+               <pb ed="#L" n="540"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>(y) Dico, quod satis habet hoc ex 
+di<lb ed="#V" break="no" n="2"/>stinctione potentiae. Hic Doctor dat 
+sin<lb ed="#V" break="no" n="3"/>gularem expositionem — Aristotelis, quae
+<lb ed="#V" n="4"/>expositio sententialiter stat in hoc, scilicet
+<lb ed="#V" n="5"/>quod saltem omne aliud a Deo, movetur
+<lb ed="#V" n="6"/>ab alio quoad actum primum, et ipso 
+po<lb ed="#V" break="no" n="7"/>sito in actu primo, potest postea movere
+<lb ed="#V" n="8"/>se ad actum secundum, et sic ista littera
+<lb ed="#V" n="9"/>clara est; et sufficit Philosopho hoc
+<lb ed="#V" n="10"/>primum, scilicet quod sit mobile ad actum
+<lb ed="#V" n="11"/>primum, quia per hoc devenietur ad 
+ali<lb ed="#V" break="no" n="12"/>quid tale ab omnibus istis, quod nec in
+<lb ed="#V" n="13"/>uno motu, nec in quocumque poterit 
+mo<lb ed="#V" break="no" n="14"/>veri ab alio, sed erit omnino movens 
+im<lb ed="#V" break="no" n="15"/>mobile, et quoad actum primum, et quoad
+<lb ed="#V" n="16"/>actum secundum.
+</p>
+            <!--</div>
+<div alias="lycht-l2d2q10-p3">-->
+            <p xml:id="mm30o9-d1e1672-d1e2234">
+               <lb ed="#L" n="82" type="fixed=542"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e2239">
+               <lb ed="#V" n="83"/>(a) Ad. primum argumentum  
+princi<lb ed="#V" break="no" n="84"/>pale. Dicit Doctor quod aliquid est in :
+<lb ed="#V" n="85"/>actu virtuali et potentia formali, ut patet
+<pb ed="#L" n="543"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>in primo. dist. 3. q. 1. Et ad 
+confir<lb ed="#V" break="no" n="2"/>mationem dicit, quod actus et potentia,
+<lb ed="#V" n="3"/>ut sunt opposita, accipitur potentia 
+obje<lb ed="#V" break="no" n="4"/>ctive, et sic conceditur esse impossibile
+<lb ed="#V" n="5"/>annexum simul actu existere, et esse in
+<lb ed="#V" n="6"/>potentia ad actum existendi. Sed potentia
+<lb ed="#V" n="7"/>subjectiva et actus non repugnant, nam
+<lb ed="#V" n="8"/>Franciscus est in actuali existentia, et
+<lb ed="#V" n="9"/>cum hoc est in potentia subjectiva, sive
+<lb ed="#V" n="10"/>receptiva ad albedinem ; nam actus et
+<lb ed="#V" n="11"/>potentia primo modo non possuot dici
+<lb ed="#V" n="12"/>de aliquo eodem, neque per se, neque
+<lb ed="#V" n="13"/>denominative; per se, ut Antichristus
+<lb ed="#V" n="14"/>simul non est in actu, et potentia 
+obje<lb ed="#V" break="no" n="15"/>etiva; denominative, ut Franciscus non
+<lb ed="#V" n="16"/>potest simul denominari albus ab 
+albe<lb ed="#V" break="no" n="17"/>dine in actu et potentia ad ipsam ; 
+impos<lb ed="#V" break="no" n="18"/>sibile enim est, quod simul sit in actu
+<lb ed="#V" n="19"/>albus, ut in potentia ad eamdem 
+albedi<lb ed="#V" break="no" n="20"/>nem, ut tamen actus accipitur pro 
+prin<lb ed="#V" break="no" n="21"/>cipio activo, et potentia pro principio
+<lb ed="#V" n="22"/>p?ssivo, quae cadunt infra essentiam
+<lb ed="#V" n="23"/>cujustibet definibilis vel definiti, sic non
+<lb ed="#V" n="24"/>sunt opposita, nec sic dividunt ens, h:ec
+<lb ed="#V" n="25"/>repugnant alicui eidem. Et quod dicit,
+<lb ed="#V" n="26"/>quod activum et passivum cadunt. infra
+<lb ed="#V" n="27"/>essentiam cujustibet definibilis, etc. debet
+<lb ed="#V" n="28"/>forte intelligi de definibili primo et per
+<lb ed="#V" n="29"/>se, cujusmodi est sola substantia, ut 
+pa<lb ed="#V" break="no" n="30"/>tet per Philosophum 77. Metaph. text.
+<lb ed="#V" n="31"/>com. 19. Quod quidem igitur est. 
+defi<lb ed="#V" break="no" n="32"/>nitio, quae quidem ipsius quid erat esse
+<lb ed="#V" n="33"/>ratio, et quid erat esse, aut solum  
+sub<lb ed="#V" break="no" n="34"/>stantiarum est, et mazime, et. primum,
+<lb ed="#V" n="35"/>et simpliciter palam : haec ille. Et ibi
+<lb ed="#V" n="36"/>Commentator : Declaratum est, inquit,
+<lb ed="#V" n="37"/>ex hoc sermone, quod definitio 
+simpli<lb ed="#V" break="no" n="38"/>citer est sermo, qui significat 
+quiddita<lb ed="#V" break="no" n="39"/>tem rei, et quod quidditas non invenitur,
+<lb ed="#V" n="40"/>nisi in substantiis tantum, aut magis in
+<lb ed="#V" n="41"/>substantiis, et modo priori et simpliciori :
+<lb ed="#V" n="42"/>Hoc ille. Cum ergo definitio detur per
+<lb ed="#V" n="43"/>genus et differentiam, videtur quod 
+de<lb ed="#V" break="no" n="44"/>finibile sit aliquid habens locum mate-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>rie, cujus est pati, et est aliquod habens
+<lb ed="#V" n="46"/>locum forme, cujus est agere. Quidquid
+<lb ed="#V" n="47"/>sit de hoc, videlicet cur differentia 
+po<lb ed="#V" break="no" n="48"/>sita in definito sit de numero 
+activo<lb ed="#V" break="no" n="49"/>rum, alias habet videri.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e2361">
+               <lb ed="#V" n="50"/>(b) Ad secundum argumentum. Dicit
+<lb ed="#V" n="51"/>Doctor quod auctoritas Philosophi, 8.
+<lb ed="#V" n="52"/>Physic. com. 30. intelligitur de movente
+<lb ed="#V" n="53"/>et moto per cognitionem, quia potentia
+<lb ed="#V" n="54"/>motiva quae est organica, et per 
+conse<lb ed="#V" break="no" n="55"/>quens constituta ex anima, et tali organo,
+<lb ed="#V" n="56"/>sicut de potentia visiva, dictum est in 
+pri<lb ed="#V" break="no" n="57"/>mo dist. 3. q. 6. requirit non tantum 
+di<lb ed="#V" break="no" n="58"/>stinctionem anime et corporis, sicut 
+in<lb ed="#V" break="no" n="59"/>ter movens et motum ; sed forte in ipso
+<lb ed="#V" n="60"/>corpore, in quo est virtus organica, 
+re<lb ed="#V" break="no" n="61"/>quirit partem corporis moventem, 
+distin<lb ed="#V" break="no" n="62"/>ctam a parte mota; sed non est sic de
+<lb ed="#V" n="63"/>movente se non organice, quia est totum
+<lb ed="#V" n="64"/>uniforme quantum ad actum primum, et
+<lb ed="#V" n="65"/>totum in potentia quantum ad actum 
+se<lb ed="#V" break="no" n="66"/>cundum. Exemplum de lapide, tenendo
+<lb ed="#V" n="67"/>quod gravitas lapidis sit principium 
+mo<lb ed="#V" break="no" n="68"/>vendi, talis gravitas est uniformiter in
+<lb ed="#V" n="69"/>toto lapide, quia totus lapis est gravis,
+<lb ed="#V" n="70"/>et similiter tota substantia lapidis est
+<lb ed="#V" n="71"/>tota in potentia ad ubi deorsum. De isto
+<lb ed="#V" n="72"/>autem motu organico, et de ejus 
+differen<lb ed="#V" break="no" n="73"/>tia a motu non organico, vide <ref xml:id="mm30o9-d1e1672-Rd1e2415">Doctorem
+<lb ed="#V" n="74"/>in quarto dist. 49. q. 14.</ref>
+            </p>
+            <p xml:id="mm30o9-d1e1672-d1e2422">
+               <lb ed="#V" n="75"/>(c) Sed ad probationem illius 
+propo<lb ed="#V" break="no" n="76"/>sitionis. Hic primo exponit quomodo 
+ac<lb ed="#V" break="no" n="77"/>cipiatur ly primo, et licet aliqualiter 
+ex<lb ed="#V" break="no" n="78"/>positum sit in primo, dist. 19. q. 2. Hic
+<lb ed="#V" n="79"/>tamen prolixius exponit, et primo dicit
+<lb ed="#V" n="80"/>quod aliquid movetur primo accipiendo
+<lb ed="#V" n="81"/>ly primo pro eo quod est secundum se
+<lb ed="#V" n="82"/>totum, et tunc illud dicitur moveri primo,
+<lb ed="#V" n="83"/>quod movetur secundum omnem partem
+<lb ed="#V" n="84"/>sui; et  tunc ly primo opponitur ei, quod
+<lb ed="#V" n="85"/>est moveri secundum partem, sicut 
+dici<lb ed="#V" break="no" n="86"/>mus quod homo movetur, quia aliqua
+<lb ed="#V" n="87"/>pars principalis movetur, et similiter 
+di<lb ed="#V" break="no" n="88"/>cimus, quod homo est crispus, quia ali-
+<pb ed="#L" n="544"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>qua pars ejus est crispa. Et sic 
+Aristo<lb ed="#V" break="no" n="2"/>teles accipit primo moveri scilicet 
+se<lb ed="#V" break="no" n="3"/>cundum se totum, n quinto Phys. text.
+<lb ed="#V" n="4"/>com. primi, ubi distinguit quod aliquid
+<lb ed="#V" n="5"/>movetur secundum accidens, aliquid 
+se<lb ed="#V" break="no" n="6"/>cundum partem et aliquid primo : 
+Tran<lb ed="#V" break="no" n="7"/>smultatur, inquit, transmutans omne, 
+ali<lb ed="#V" break="no" n="8"/>quid quidem secundum accidens, ut cum
+<lb ed="#V" n="9"/>dicimus musicum ambulare, quoniam cui
+<lb ed="#V" n="10"/>accidit musicum hoc ambulat, hoc autem
+<lb ed="#V" n="11"/>in aliquid hujus mutari simpliciter. 
+dici<lb ed="#V" break="no" n="12"/>lur mutari, ut quaecumque dicuntur 
+se<lb ed="#V" break="no" n="13"/>cundum partes; sanatur enim corpus,
+<lb ed="#V" n="14"/>quia oculus aut lhorax, haec autem
+<lb ed="#V" n="15"/>partes totius corporis sunt. Est autem
+<lb ed="#V" n="16"/>etiam aliquid quod neque secundum
+<lb ed="#V" n="17"/>accidens movetur, neque in eo quod. 
+ali<lb ed="#V" break="no" n="18"/>quid. ipsius, sed in eo quod ipsum  
+move<lb ed="#V" break="no" n="19"/>tur primo, et hoc est secundum seipsum
+<lb ed="#V" n="20"/>mobile : Haec ille. Sequitur : et similiter,
+<lb ed="#V" n="21"/>in 6. Phys. in quo, inquit, primo
+<lb ed="#V" n="22"/>mutatum est, quod mutatum est. 
+ne<lb ed="#V" break="no" n="23"/>cesse est atomum esse. Dico autem 
+pri<lb ed="#V" break="no" n="24"/>mum, quod non per alterum, aliquid. 
+ip<lb ed="#V" break="no" n="25"/>sius esse hujusmodi sic. Haec ille, et vide
+<lb ed="#V" n="26"/>ibi Commentatorem diffuse.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e2516">
+               <lb ed="#V" n="27"/>(d) Alio modo, hoc quod. est primo 
+di<lb ed="#V" break="no" n="28"/>cit causalitatem praecisam, quomodo 
+acci<lb ed="#V" break="no" n="29"/>pitur in <ref xml:id="mm30o9-d1e1672-Rd1e2524">primo Poster. t. c. 11.</ref> 
+Univer<lb ed="#V" break="no" n="30"/>sale, inquit, dico, quod cum de omni sit,
+<lb ed="#V" n="31"/>et per se est secundum quod. ipsum est,
+<lb ed="#V" n="32"/>per se autem. et. secundum quod. 1psum
+<lb ed="#V" n="33"/>est idem est; et parum infra : Universale
+<lb ed="#V" n="34"/>autem est, tunc quod. cum in quolibet. et
+<lb ed="#V" n="35"/>primo. demonstratur. Accipit ergo hic
+<lb ed="#V" n="36"/>Doctor primo, ut dicit causalitatem pr«
+a<lb ed="#V" break="no" n="37"/>cisam, sicut dicimus quod homo est primo
+<lb ed="#V" n="38"/>risibilis, id est, quod ipse homo est 
+cau<lb ed="#V" break="no" n="39"/>sa praecisa et adaequata, quia sit 
+risibi<lb ed="#V" break="no" n="40"/>lis et non pars hominis, puta corpus vel
+<lb ed="#V" n="41"/>anima. Et differentia istorum stat in hoc,
+<lb ed="#V" n="42"/>quia quod convenit alicui. primo secundo
+<lb ed="#V" n="43"/>modo, si removetur a quolibet alio quod
+<lb ed="#V" n="44"/>non est ipsum, vel etiam a qualibet parte
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>ipsius, adhuc convenit sibi, nam si 
+risi<lb ed="#V" break="no" n="46"/>bile removetur ab asino, a Francisco, ab
+<lb ed="#V" n="47"/>anima, a corpore, adhuc haec erit vera :
+<lb ed="#V" n="48"/>homo est. risibilis; similiter patet de 
+ha<lb ed="#V" break="no" n="49"/>bere res respectu trianguli. Illud vero
+<lb ed="#V" n="50"/>quod convenit alicui primo, accipiendo ly
+<lb ed="#V" n="51"/>primo primo modo, si removetur ab 
+ali<lb ed="#V" break="no" n="52"/>qua ejus parte statim removetur ab ipso,
+<lb ed="#V" n="53"/>cui dicitur primo convenire. Dicimus,
+<lb ed="#V" n="54"/>enim quod aliquod grave movetur primo
+<lb ed="#V" n="55"/>secundum se totum, id est, secundum
+<lb ed="#V" n="56"/>omnem partem ; si ergo motus 
+remove<lb ed="#V" break="no" n="57"/>tur ab una ejus parte, falsum erit dicere,
+<lb ed="#V" n="58"/>quod ipsum grave moveatur primo 
+secun<lb ed="#V" break="no" n="59"/>dum se totum, quod patet, quia non 
+se<lb ed="#V" break="no" n="60"/>cundum omnes partes.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e2597">
+               <lb ed="#V" n="61"/>(e) Dico tune, quod ratio Aristotelis.
+<lb ed="#V" n="62"/>Dicit quod ratio Aristotelis bene probat,
+<lb ed="#V" n="63"/>quod nullum corpus movetur a se primo,
+<lb ed="#V" n="64"/>hac duplici primitate simul, quia tunc 
+si<lb ed="#V" break="no" n="65"/>mul quiesceret et non quiesceret. Patet,
+<lb ed="#V" n="66"/>accipiendo grave, quod dicatur A, habens
+<lb ed="#V" n="67"/>decem partes, si movetur primo, 
+acci<lb ed="#V" break="no" n="68"/>plendo. primo secundo modo, tunc 
+re<lb ed="#V" break="no" n="69"/>moto ipso moveri ab omnibus ejus 
+parti<lb ed="#V" break="no" n="70"/>bus, adhuc A movetur, ut supra patuit.
+<lb ed="#V" n="71"/>Si etiam hoc movetur primo, accipiendo
+<lb ed="#V" n="72"/>primo primo modo, id est, secundum
+<lb ed="#V" n="73"/>omnes partes, tunc una parte quiescente,
+<lb ed="#V" n="74"/>non convenit sibi moveri primo isto
+<lb ed="#V" n="75"/>primo modo ; ergo simul quiesceret,
+<lb ed="#V" n="76"/>et non quiesceret, quod est impossibile.
+<lb ed="#V" n="77"/>Non quiesceret enim si moveretur 
+pri<lb ed="#V" break="no" n="78"/>mo, accipiendo primo secundo modo,
+<lb ed="#V" n="79"/>etiam omnibus partibus quiescentibus,
+<lb ed="#V" n="80"/>et ex alia parte quiesceret ad 
+quie<lb ed="#V" break="no" n="81"/>tem unius partis, accipiendo primo
+<lb ed="#V" n="82"/>primo modo, et hoc est quod dicit in
+<lb ed="#V" n="83"/>ista littera.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e2649">
+               <lb ed="#V" n="84"/>(f) In proposito autem dico, quod. 
+gra<lb ed="#V" break="no" n="85"/>ve movetur. Vult dicere Doctor quod grave
+<lb ed="#V" n="86"/>movetur primo, accipiendo primo primo
+<lb ed="#V" n="87"/>modo, sic quod secundum quamlibet 
+par<lb ed="#V" break="no" n="88"/>tem movet et movetur, et cuilibet parti
+<pb ed="#L" n="545"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>competit, licet non primo, sed 
+inquan<lb ed="#V" break="no" n="2"/>tum est in toto, id est, quod quaelibet
+<lb ed="#V" n="3"/>pars quantamcumque minima ipsius 
+gra<lb ed="#V" break="no" n="4"/>vis movet et movetur, prout est existens
+<lb ed="#V" n="5"/>in toto, quia si daretur aliqua minima
+<lb ed="#V" n="6"/>pars gravis separata, quamvis esset 
+divi<lb ed="#V" break="no" n="7"/>sibilis in plures partes, non tamen possit
+<lb ed="#V" n="8"/>movere, ut supra patuit 7n praecedenti
+<lb ed="#V" n="9"/>questione de minimo sensibili.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e2686">
+               <lb ed="#V" n="10"/>(g) Sed numquid. convenit gravi. Dicit
+<lb ed="#V" n="11"/>Doctor quod accipiendo grave in 
+commu<lb ed="#V" break="no" n="12"/>ni, est causa praecisa ipsius moveri 
+deor<lb ed="#V" break="no" n="13"/>sum in communi, et sic moveri deorsum
+<lb ed="#V" n="14"/>in communi convenit sibi primo, 
+acci<lb ed="#V" break="no" n="15"/>piendo primo secundo modo; patet, quia
+<lb ed="#V" n="16"/>si moveri in communi removeatur a 
+quo<lb ed="#V" break="no" n="17"/>libet inferiori ipsius gravis, vel a 
+quali<lb ed="#V" break="no" n="18"/>bet parte essentiali ipsius, adhuc ista erit
+<lb ed="#V" n="19"/>vera : grave potest moveri deorsum, quia
+<lb ed="#V" n="20"/>gravitas est praecisa causa quare hoc 
+prae<lb ed="#V" break="no" n="21"/>dicatum insit sibi. Et similiter accipiendo
+<lb ed="#V" n="22"/>hoc grave, puta lapidem bipedalem, 
+con<lb ed="#V" break="no" n="23"/>venit sibi Aoc moveri primo, quia hoc
+<lb ed="#V" n="24"/>Srave est causa praecisa hujus moveri,
+<lb ed="#V" n="25"/>sicut dicimus quod hoc risibile primo
+<lb ed="#V" n="26"/>convenit Francisco, quia Franciscus est
+<lb ed="#V" n="27"/>causa pr:ecisa, quare hoc risibile insit
+<lb ed="#V" n="28"/>sibi. Si etiam accipiatur aliqua pars 
+ip<lb ed="#V" break="no" n="29"/>sius gravis bipedalis, puta pars 
+semipe<lb ed="#V" break="no" n="30"/>dalis erit causa praecisa Awjus moveri
+<lb ed="#V" n="31"/>competentis sibi, ita quod Aoc mover?
+<lb ed="#V" n="32"/>particularis, primo convenit illi parti. Et
+<lb ed="#V" n="33"/>quod dicit infra : Non ergo totum 
+homo<lb ed="#V" break="no" n="34"/>geneum grave mocetur a se primo, ut est
+<lb ed="#V" n="35"/>commune sibi et cuilibet, 7a quod 
+mo<lb ed="#V" break="no" n="36"/>veri, ut est commune sibi, etc. Dicit 
+Do<lb ed="#V" break="no" n="37"/>ctor quod accipiendo grave, puta pedale,
+<lb ed="#V" n="38"/>quod est quoddam homogeneum, quia 
+si<lb ed="#V" break="no" n="39"/>cut totum grave, ita et quaelibet pars ejus;
+<lb ed="#V" n="40"/>grave non movetur primo, loquendo de
+<lb ed="#V" n="41"/>primitate secundo modo, quia si sic, tune
+<lb ed="#V" n="42"/>remoto motu a qualibet parte ejus, adhuc
+<lb ed="#V" n="43"/>moveretur primo, quod est falsum, 
+pro<lb ed="#V" break="no" n="44"/>pter aliam primitatem competentem sibi,
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>quia ipsum grave singulare non potest
+<lb ed="#V" n="46"/>moveri primo, nisi quaelibet ejus pars
+<lb ed="#V" n="47"/>moveatur, cum Anoveri totius, et moveri
+<lb ed="#V" n="48"/>partium sint homogenea, quia ejusdem
+<lb ed="#V" n="49"/>raüonis, sed non sic est de isto homine,
+<lb ed="#V" n="50"/>si removeatur risibilitas a partibus 
+inte<lb ed="#V" break="no" n="51"/>gralibus, ut patet.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e2782">
+               <lb ed="#V" n="52"/>(h) Tamen grave etiam hac primitate
+<lb ed="#V" n="53"/>causalitatis. Dicit, quod accipiendo 
+mo<lb ed="#V" break="no" n="54"/>veri primo, quod est moveri totale, 
+con<lb ed="#V" break="no" n="55"/>venit ipsi gravi, ut grave est causa 
+praee<lb ed="#V" break="no" n="56"/>cisa illius, et etiam competeret sibi si 
+re<lb ed="#V" break="no" n="57"/>moveretur a qualibet parte ejus. Et nota
+<lb ed="#V" n="58"/>bene, quod nunc dicit Doctor quod si 
+mo<lb ed="#V" break="no" n="59"/>veri removeretur simpliciter a partibus,
+<lb ed="#V" n="60"/>adhuccompeteret sibi, quia hoc est 
+im<lb ed="#V" break="no" n="61"/>possibile ; sed accipiendo sic, quod moveri
+<lb ed="#V" n="62"/>totale si removeretur a partibus, imo de
+<lb ed="#V" n="63"/>facto removetur, adhuc sibi competeret,
+<lb ed="#V" n="64"/>quia hoc est verum, scilicet quod grave
+<lb ed="#V" n="65"/>primo movetur, loquendo de motu totali
+<lb ed="#V" n="66"/>praecise competenti ipsi gravi, et tamen
+<lb ed="#V" n="67"/>haec est falsa, quod pars moveatur motu
+<lb ed="#V" n="68"/>totali, quia pars movetur tantum motu
+<lb ed="#V" n="69"/>partiali.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e2825">
+               <lb ed="#V" n="70"/>(I) Sed objicies, quod saltem 
+remove<lb ed="#V" break="no" n="71"/>tur atoto, etc. Dicit Doctor, si grave 
+pe<lb ed="#V" break="no" n="72"/>dale potest moveri primo hae secunda
+<lb ed="#V" n="73"/>primitate, ut dicis, ergo remoto motu
+<lb ed="#V" n="74"/>ab aliqua parte ejus, loquendo de motu
+<lb ed="#V" n="75"/>partiali, adhuc poterit moveri primo,
+<lb ed="#V" n="76"/>quod est falsum.
+</p>
+            <p xml:id="mm30o9-d1e1672-d1e2843">
+               <lb ed="#V" n="77"/>(j)) Respondeo et dico, quod hoc totale
+<lb ed="#V" n="78"/>grave, etc. Tota vis hujus litter: stat in
+<lb ed="#V" n="79"/>ista propositione : sed quod convenit 
+ali<lb ed="#V" break="no" n="80"/>cui primo, ista. secunda. primitate, non
+<lb ed="#V" n="81"/>removetur ab eo si removeatur a. parte,
+<lb ed="#V" n="82"/>Hec propositio sic est exponenda,si 
+subje<lb ed="#V" break="no" n="83"/>ctum est causa pricisa et adiequata,
+<lb ed="#V" n="84"/>puta 4, et ipsum .4 passio non 
+integra<lb ed="#V" break="no" n="85"/>tur ex pluribus, sicut. dicimus quod 
+ho<lb ed="#V" break="no" n="86"/>mo est causa praecisa et adiequata 
+risi<lb ed="#V" break="no" n="87"/>bilitatis, et ipsa risibilitas non 
+inte<lb ed="#V" break="no" n="88"/>eratur ex. pluribus risibilitatibus, vel ex
+<pb ed="#L" n="546"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>pluribus partibus risibilitatis, hoc modo,
+<lb ed="#V" n="2"/>quod convenit alicui primo, non 
+remo<lb ed="#V" break="no" n="3"/>vetur ab eo, si removeatur a partibus. Si
+<lb ed="#V" n="4"/>vero subjectum dicitur causa ipsius 
+pra<lb ed="#V" break="no" n="5"/>cisa, non ex sua ratione formali, sed
+<lb ed="#V" n="6"/>quia integratur ex pluribus partibus, ita
+<lb ed="#V" n="7"/>quod qualibet pars ibi concurrit, ut 
+cau<lb ed="#V" break="no" n="8"/>sa partialis ad ipsum A, integratum ex 
+plu<lb ed="#V" break="no" n="9"/>ribus,  tunc non sequitur quod si A 
+conve<lb ed="#V" break="no" n="10"/>nit alicui primo, quod ipso remoto ab
+<lb ed="#V" n="11"/>aliqua parte ipsius subjecti, quod adhuc
+<lb ed="#V" n="12"/>competat sibi; et sic est in proposito,
+<lb ed="#V" n="13"/>quia cum dico, quod grave pedale est
+<lb ed="#V" n="14"/>causa praecisa motus localis, ipsum grave
+<lb ed="#V" n="15"/>pedale sic integratur ex partibus suis 
+ho<lb ed="#V" break="no" n="16"/>mogeneis, quod quaelibet pars concurrit
+<lb ed="#V" n="17"/>partialiter ad ipsum moveri, et ipse 
+mo<lb ed="#V" break="no" n="18"/>tus, qui convenit primo, integratur ex
+<lb ed="#V" n="19"/>motibus partialibus causatis ex subjectis
+<lb ed="#V" n="20"/>partialibus, ideo non sequitur, quod si
+<lb ed="#V" n="21"/>moveri competat primo gravi pedali,
+<lb ed="#V" n="22"/>quod adhuc sibi posset competere si 
+re<lb ed="#V" break="no" n="23"/>movetur a partibus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

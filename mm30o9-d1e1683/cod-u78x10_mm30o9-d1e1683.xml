@@ -1,0 +1,1264 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7 (11)</title>
+            <author ref="#per-FLBca3">Franciscus Lychetus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7 (11)</title>
+               <date when="2024-08-24">August 24, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 11</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-08-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="548"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="mm30o9-d1e1683"><!-- lycht-l2d2q11-p2 -->
+            <head xml:id="mm30o9-d1e1683-Hd1e101">Quaestio 7 (11)</head>
+            <p xml:id="mm30o9-d1e1683-d1e103">
+               <lb ed="#L" n="34" type="fixed=548"/>COMMENTARIUS
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e108">
+               <lb ed="#V" n="35"/>(a) Hic dicitur. Hxc est opinio Thome
+<lb ed="#V" n="36"/>in 1. part. sum. quest. 13. art. 3. ubi sic
+<lb ed="#V" n="37"/>dicit : Motus localis Angeli potest esse
+<lb ed="#V" n="38"/>continuus et non continuus, et sic potest
+<lb ed="#V" n="39"/>mensurari tempore continuo et tempore
+<lb ed="#V" n="40"/>discreto. Continuitas enim temporis est
+<lb ed="#V" n="41"/>ex continuitate motus, sed istud tempus,
+<lb ed="#V" n="42"/>sive sit tempus continuum sive non, non
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>est idem cum tempore quod mensurat
+<lb ed="#V" n="44"/>motum <sic>caeli</sic>, et quo mensuratur omnia
+<lb ed="#V" n="45"/>temporalia, quae habent. mutabilitatem ex
+<lb ed="#V" n="46"/>motu coli; motus enim Angeli non 
+depen<lb ed="#V" break="no" n="47"/>det ex motu coeli. Et respondendo ad 
+ter<lb ed="#V" break="no" n="48"/>tium argumentum sic dicit: tempus autem
+<lb ed="#V" n="49"/>motus Angeli potest esse non continuum,
+<lb ed="#V" n="50"/>et sic Angelus in uno instanti potest esse
+<lb ed="#V" n="51"/>in uno loco, et in alio instanti in alio
+<lb ed="#V" n="52"/>loco, nullo tempore intermedio existente,
+<lb ed="#V" n="53"/>Si autem tempus motus Angeli sit 
+conti<lb ed="#V" break="no" n="54"/>nuum, Angelus in toto tempore 
+praece<lb ed="#V" break="no" n="55"/>denti ultimum nunc, variatur per infinita
+<lb ed="#V" n="56"/>loca, sicut ipse ponit. in art. 2.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e163">
+               <lb ed="#V" n="57"/>Dicit etiam aliani conclusionem in 
+cor<lb ed="#V" break="no" n="58"/>pore quaestionis quod non est possibile,
+<lb ed="#V" n="59"/>ut aliquid in toto tempore praecedente
+<lb ed="#V" n="60"/>quiescat in uno termino, et postea in 
+ul<lb ed="#V" break="no" n="61"/>timo instanti illius temporis sit in alio
+<lb ed="#V" n="62"/>termino.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e179">
+               <lb ed="#V" n="63"/>(b) Alius Doctor dicit de isto tempore
+<lb ed="#V" n="64"/>discreto ; et est <ref xml:id="mm30o9-d1e1683-Rd1e185">Henricus quodlib. 13. q.
+<lb ed="#V" n="65"/>7.</ref> qui vult quod Angelus possit moveri,
+<lb ed="#V" n="66"/>et in instanti temporis continui, et in 
+in<lb ed="#V" break="no" n="67"/>stanti temporis discreti; vult enim 
+Henri<lb ed="#V" break="no" n="68"/>cus ( ut supra patuit ) quod inter duo 
+in<lb ed="#V" break="no" n="69"/>stantia temporis discreti, cadat quasi 
+qui<lb ed="#V" break="no" n="70"/>es media ipsius Angeli cum parte media
+<lb ed="#V" n="71"/>temporis nostri, id est, quod instanti
+<lb ed="#V" n="72"/>temporis discreti coexistunt instantia 
+tem<lb ed="#V" break="no" n="73"/>poris nostri, et sicut inter duo instantia
+<lb ed="#V" n="74"/>temporis nostri cadit tempus medium, ita
+<lb ed="#V" n="75"/>vult quod inter iastantia temporis discreti,
+<lb ed="#V" n="76"/>cadat quies media coexistens tempori 
+no<lb ed="#V" break="no" n="77"/>stro medio. Et hoc ideo posuit, quia si 
+in<lb ed="#V" break="no" n="78"/>stantia temporis discreti, quae 
+correspon<lb ed="#V" break="no" n="79"/>dent instantibus temporis nostri, essent
+<lb ed="#V" n="80"/>omnino immediata, sequeretur quod sicut
+<lb ed="#V" n="81"/>tempus discretum diceretur discretum,
+<lb ed="#V" n="82"/>quia componeretur ex hujusmodi 
+instan<lb ed="#V" break="no" n="83"/>tibus sibiimmediantibus,quod etiam 
+tem<lb ed="#V" break="no" n="84"/>pus nostrum esset discretum, quia 
+instan<lb ed="#V" break="no" n="85"/>tia essent sibi immediata.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e235">
+               <lb ed="#V" n="86"/>(c) Doctor arguit. contra ibi : Contra
+<pb ed="#L" n="549"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>positionem. Ex quo enim Henricus vult,
+<lb ed="#V" n="2"/>quod una operatio Angeli mensuretur uno
+<lb ed="#V" n="3"/>nunc temporis discreti, et vult ibi, quod
+<lb ed="#V" n="4"/>illud nunc coexistat de necessitate 
+pluri<lb ed="#V" break="no" n="5"/>bus instantibus temporis nostri, et per
+<lb ed="#V" n="6"/>consequens pluribus partibus temporis
+<lb ed="#V" n="7"/>nostri, cum inter quaecumque duo 
+in<lb ed="#V" break="no" n="8"/>stantia sit tempus medium, vult etiam
+<lb ed="#V" n="9"/>Henricus quod illa duratio operationis sit
+<lb ed="#V" n="10"/>ratio quietis in termino transitus subiti.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e266">
+               <lb ed="#V" n="11"/>Contra arguit Doctor, quia ex quo 
+pro<lb ed="#V" break="no" n="12"/>batum est supra, scilicet dist. 2. quest. 4
+<lb ed="#V" n="13"/>arl. 4. hujus secundi, quod una 
+intelle<lb ed="#V" break="no" n="14"/>ctio Angeli potest tantum durare per 
+in<lb ed="#V" break="no" n="15"/>stans, ita quod coexistat tantum uni 
+instan<lb ed="#V" break="no" n="16"/>ti temporis nostri; ergo illa duratio non
+<lb ed="#V" n="17"/>erit ratio quietis in termino transitus 
+su<lb ed="#V" break="no" n="18"/>biti. Sequitur : quare etiam necesse erit
+<lb ed="#V" n="19"/>ponere Angelum post transitum subitum
+<lb ed="#V" n="20"/>quiescere, non videtur aliqua. ratio, quia
+<lb ed="#V" n="21"/>dixit Henricus quod quando Angelus trans:
+<lb ed="#V" n="22"/>it subito deloco A ad locum B, non 
+po<lb ed="#V" break="no" n="23"/>test transire deloco B ad locum C, nisi
+<lb ed="#V" n="24"/>quiescat prius in ipso 2, et dicit Doctor
+<lb ed="#V" n="25"/>quod non videtur ista necessitas, sed 
+tan<lb ed="#V" break="no" n="26"/>tum fuga.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e303">
+               <lb ed="#V" n="27"/>Quod etiam ipse adducit de corpore,
+<lb ed="#V" n="28"/>quol pertransit. infinita ubi in. tempore
+<lb ed="#V" n="29"/>finito, propter hoc, quod non est nisi in
+<lb ed="#V" n="30"/>potentia in illis ubi. Si enim corpus 
+pe<lb ed="#V" break="no" n="31"/>dale movetur per spatium bipedale, 
+cer<lb ed="#V" break="no" n="32"/>tum est quod pertransit infinita wb; in
+<lb ed="#V" n="33"/>tempore finito, puta in medictate hore;
+<lb ed="#V" n="34"/>ergo a fortiori videtur quod Angelus possit
+<lb ed="#V" n="35"/>pertransire illud spatium in aliquo 
+in<lb ed="#V" break="no" n="36"/>stanti, ut. arguit Henricus. Dicit. Doctor
+<lb ed="#V" n="37"/>ibi : Bene concludit, quod tempus. Angeli
+<lb ed="#V" n="38"/>potest esse. ex partibus [initis ejusdem
+<lb ed="#V" n="39"/>quantitatis, puta quod sit tempus unius
+<lb ed="#V" n="40"/>dici, tunc tale tempus erit. compositum
+<lb ed="#V" n="41"/>ex viginti quatuor horis, qua sunt. partes
+<lb ed="#V" n="42"/>ejusdem quantitatis, licet omnes partes
+<lb ed="#V" n="43"/>ille sint divisibiles in infinitum, et in 
+il<lb ed="#V" break="no" n="44"/>lo tempore potest pertransire spatium in-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>finitum, non in actu, sed in potentia, 
+pu<lb ed="#V" break="no" n="46"/>ta, quod in illo tempore potest 
+pertransi<lb ed="#V" break="no" n="47"/>re spatium unius milliaris, quod spatium
+<lb ed="#V" n="48"/>licet actu sit finitum, est tamen divisibile
+<lb ed="#V" n="49"/>in partes infinitas, et sic est infinitum in
+<lb ed="#V" n="50"/>potentia.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e360">
+               <lb ed="#V" n="51"/>Improbata opinione Henrici, restat nunc
+<lb ed="#V" n="52"/>improbare opinionem Thomae, ubi Doctor
+<lb ed="#V" n="53"/>contra duo principaliter arguit. Primo
+<lb ed="#V" n="54"/>contra hoc. quod dicit, Angelum moveri
+<lb ed="#V" n="55"/>in instanti temporis discreti; et secundo
+<lb ed="#V" n="56"/>contra hoc quod dicit, quod est necesse
+<lb ed="#V" n="57"/>Angelum quiescentem in aliquo loco per
+<lb ed="#V" n="58"/>aliquod tempus,etiam quiescere in ultimo
+<lb ed="#V" n="59"/>instanti illius temporis, et post instans
+<lb ed="#V" n="60"/>quietis movetur in instanti ad alium
+<lb ed="#V" n="61"/>locum.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e386">
+               <lb ed="#V" n="62"/>Contra primum arguit : Contra 
+pri<lb ed="#V" break="no" n="63"/>manm. positionem arguo, etc. Si Angelus
+<lb ed="#V" n="64"/>moveretur in instanti temporis discreti,
+<lb ed="#V" n="65"/>tunc contradiceret sibimet, quia ex quo
+<lb ed="#V" n="66"/>Angelus per ipsum est in loco per 
+ope<lb ed="#V" break="no" n="67"/>rationem, ut tenet in prima parte sum.
+<lb ed="#V" n="68"/>quest. 52. art. 1. et 2. puta per 
+moti<lb ed="#V" break="no" n="69"/>onem alicujus corporis, et cum illa molio
+<lb ed="#V" n="70"/>mensuretur tempore, vel instanti 
+tempo<lb ed="#V" break="no" n="71"/>ris nostri, sequitur quod motio, qua
+<lb ed="#V" n="72"/>movet se localiter mensuretur eodem
+<lb ed="#V" n="73"/>modo, cum iste  motiones sint 
+lo<lb ed="#V" break="no" n="74"/>cales et ejuslem rationis, et sic sibi
+<lb ed="#V" n="75"/>contradiceret. Et licet <ref xml:id="mm30o9-d1e1683-Rd1e418">Thomas in 
+pri<lb ed="#V" break="no" n="76"/>ma parte sum. quest, 53. art... 3.. in
+<lb ed="#V" n="77"/>corpore quest.</ref> sic dicat tempus, sive sit
+<lb ed="#V" n="78"/>continuum sive non, scilicet quo 
+mensu<lb ed="#V" break="no" n="79"/>ratur motus localis Angeli, non est idem
+<lb ed="#V" n="80"/>cum tempore, quod mensurat motum
+<lb ed="#V" n="81"/>coeli, etc. tamen quia motus localis quo
+<lb ed="#V" n="82"/>aliquod corpus movetur ab Angelo, 
+vide<lb ed="#V" break="no" n="83"/>tur simpliciter esse idem, vel saltem
+<lb ed="#V" n="84"/>ejusdem rationis cum motu. locali quo
+<lb ed="#V" n="85"/>Angelus movetur,cum ipse non sit in 
+lo<lb ed="#V" break="no" n="86"/>co, nec localiter moveatur, nisi per 
+ope<lb ed="#V" break="no" n="87"/>rationem transeuntem ; cum ergo tempus,
+<lb ed="#V" n="88"/>quo mensuratur motus localis corporis
+<pb ed="#L" n="550"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>moti ab Angelo, mensuretur tempore 
+no<lb ed="#V" break="no" n="2"/>siro continuo, videtur quod etiam motus
+<lb ed="#V" n="3"/>localis ipsius Angeli mensuretur tempore
+<lb ed="#V" n="4"/>nostro continuo.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e463">
+               <lb ed="#V" n="5"/>Sequitur: Si autem intelligat de 
+ope<lb ed="#V" break="no" n="6"/>ratione immanente, ut <ref xml:id="mm30o9-d1e1683-Rd1e469">supra patuit 
+prc<lb ed="#V" break="no" n="7"/>senti dist. quest. 4.</ref> hic tamen adverte,
+<lb ed="#V" n="8"/>quod Thomas expresse vult in <ref xml:id="mm30o9-d1e1683-Rd1e476">prima
+<lb ed="#V" n="9"/>parte sum. quest. 10. art. 5. respondeo
+<lb ed="#V" n="10"/>ad primum argum. principale</ref>, quod 
+hu<lb ed="#V" break="no" n="11"/>jusmodi operationes mensurentur 
+tempo<lb ed="#V" break="no" n="12"/>re, unde sic ait : Ad primum dicendum
+<lb ed="#V" n="13"/>quod creaturce spirituales quantum ad
+<lb ed="#V" n="14"/>affectiones et intelligentias, in quibus est
+<lb ed="#V" n="15"/>successio, mensurantur tempore; 
+quan<lb ed="#V" break="no" n="16"/>tum vero ad eorum esse naturale 
+men<lb ed="#V" break="no" n="17"/>surantur cvo, sed quantum ad. visionem
+<lb ed="#V" n="18"/>glorie participant aeternitatem : hc
+<lb ed="#V" n="19"/>ille, nisi forte ipse Thomas in alio loco 
+di<lb ed="#V" break="no" n="20"/>cat ipsas mensurari zevo.Sed quidquid sit
+<lb ed="#V" n="21"/>de hoc, parum refert, quia concedit quod
+<lb ed="#V" n="22"/>Angeli sunt in loco per operationem 
+trans<lb ed="#V" break="no" n="23"/>euntem et non immanentem, et ex hoc
+<lb ed="#V" n="24"/>reducit Thomam ad contradictionem.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e516">
+               <lb ed="#V" n="25"/>Praeterea ratio sua non videtur 
+conclu<lb ed="#V" break="no" n="26"/>dere. Hic Doctor arguit contra secundum
+<lb ed="#V" n="27"/>principale, probando quod non sit 
+neces<lb ed="#V" break="no" n="28"/>se quiescens per horam, etiam 
+quiesce<lb ed="#V" break="no" n="29"/>re in ultimo instanti illius horae, si debeat
+<lb ed="#V" n="30"/>moveri, ita quod si Angelus quieverit per
+<lb ed="#V" n="31"/>totam horam in ultimo instanti illius horae
+<lb ed="#V" n="32"/>non poterit moveri, sed oportet illum
+<lb ed="#V" n="33"/>quiescere in ultimo instanti. Contra hoc
+<lb ed="#V" n="34"/>arguit Doctor, quia si sic, opus esset
+<lb ed="#V" n="35"/>quiescere in ultimo instanti, tunc 
+sub<lb ed="#V" break="no" n="36"/>stantia panis, quiescente sub accidentibus
+<lb ed="#V" n="37"/>in ultimo instanti prolationis verborum;
+<lb ed="#V" n="38"/>et cum in illo instanti, sit etiam ibi 
+cor<lb ed="#V" break="no" n="39"/>pus Christi (ut probatum est in quarto,
+<lb ed="#V" n="40"/>in materia de Eucharistia) simul esset
+<lb ed="#V" n="41"/>panis et corpus Christi, quod est falsum,
+<lb ed="#V" n="42"/>et ideo Doctor dicit in quarto ubi supra,
+<lb ed="#V" n="43"/>quod in ultimo instanti quo panis desinit
+<lb ed="#V" n="44"/>esse sub accidentibus, in eodem corpus
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>Christi incipit esse sub illis accidenti
+<lb ed="#V" n="46"/>bus.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e568">
+               <lb ed="#V" n="47"/>Similiter cum aer quievit in esse 
+te<lb ed="#V" break="no" n="48"/>nebroso. Hic Doctor deducit ad aliud 
+in<lb ed="#V" break="no" n="49"/>conveniens, scilicet quod illuminatio aeris
+<lb ed="#V" n="50"/>non fuerit in instanti, imo sequeretur |
+<lb ed="#V" n="51"/>quod aer simul esset sub tenebra et sub
+<lb ed="#V" n="52"/>luce, puta si aer sit tenebrosus per totam
+<lb ed="#V" n="53"/>noctem, et quiescit sub illa tenebra per
+<lb ed="#V" n="54"/>totam noctem, et etiam in ultimo instanti
+<lb ed="#V" n="55"/>illius, tunc alterum: duorum sequeretur,
+<lb ed="#V" n="56"/>vel quod illuminaretur in tempore 
+imme<lb ed="#V" break="no" n="57"/>diato ad ultimum instans noctis, vel in
+<lb ed="#V" n="58"/>ultimo instanti ; si illuminaretur in instanti
+<lb ed="#V" n="59"/>immediato ad ultimum instans noctis,
+<lb ed="#V" n="60"/>instans esset immediatum instanti, quod
+<lb ed="#V" n="61"/>est contra <ref xml:id="mm30o9-d1e1683-Rd1e602">Philosophum 6. PAys. t. com.4.</ref>
+               <lb ed="#V" n="62"/>Si vero illuminaretur in ultimo 
+instan<lb ed="#V" break="no" n="63"/>tij, ergo aer simul esset lucidus et
+<lb ed="#V" n="64"/>tenebrosus; non autem dicimus, quod
+<lb ed="#V" n="65"/>aer quiescit sub tenebra per aliquod 
+tem<lb ed="#V" break="no" n="66"/>pus, et in ultimo instanti illius temporis
+<lb ed="#V" n="67"/>in quo causatur lux desinit esse tenebra,
+<lb ed="#V" n="68"/>ita quod non datur ultimum instans
+<lb ed="#V" n="69"/>sui esse.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e623">
+               <lb ed="#V" n="70"/>Et si dicas, quod. ista illuminatio est.
+<lb ed="#V" n="71"/>terminus motus localis, quo Sol fit. 
+pre<lb ed="#V" break="no" n="72"/>sens medio. Et cum motus localis fiat in
+<lb ed="#V" n="73"/>tempore, idec talis illuminatio fit in tem.
+<lb ed="#V" n="74"/>pore,et sic non esset inconveniens aerem
+<lb ed="#V" n="75"/>quiescere sub tenebra in ultimo instanti
+<lb ed="#V" n="76"/>noctis.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e641">
+               <lb ed="#V" n="77"/>Contra, ponatur Sol creatus de. novo.
+<lb ed="#V" n="78"/>Hic Doctor instat sic, quia si ponatur
+<lb ed="#V" n="79"/>nunc medium dispositum, quod quiescat
+<lb ed="#V" n="80"/>sub tenebra per totam noctem, et in 
+ul<lb ed="#V" break="no" n="81"/>timo instanti illius noctis creetur Sol
+<lb ed="#V" n="82"/>optime dispositus circa tale medium,
+<lb ed="#V" n="83"/>certum est quod in eodem instanti 
+illu<lb ed="#V" break="no" n="84"/>minabit medium, et sic non oportet 
+recur<lb ed="#V" break="no" n="85"/>rere ad motum Solis localem, ponendo
+<lb ed="#V" n="86"/>quod creetur praesens medio in instanti
+<lb ed="#V" n="87"/>ultimo.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e667">
+               <lb ed="#V" n="88"/>Modo etiam licet cum ubi terminan-
+<pb ed="#L" n="551"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tle. motum localem. Hic Doctor adhuc
+<lb ed="#V" n="2"/>improbat illam responsionem, in qua
+<lb ed="#V" n="3"/>dicitur quod illuminatio est terminus
+<lb ed="#V" n="4"/>motus localis, quia terminus motus 
+loca<lb ed="#V" break="no" n="5"/>lis Solis est aliquod ubi de novo 
+acquisi<lb ed="#V" break="no" n="6"/>tum, sed illuminatio medii quae 
+sequi<lb ed="#V" break="no" n="7"/>tur ad motum localem Solis, non est
+<lb ed="#V" n="8"/>aliquod ubi, ut patet; ergo non est per
+<lb ed="#V" n="9"/>se terminus motus localis, sed magis
+<lb ed="#V" n="10"/>ipsa illuminatio dicitur terminus 
+altera<lb ed="#V" break="no" n="11"/>tionis, quia aer alteratur recipiendo no:
+<lb ed="#V" n="12"/>vam illuminationem.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e702">
+               <lb ed="#V" n="13"/>Praeterea si oportet Angelum, ubi dicit
+<lb ed="#V" n="14"/>in ista littera, quod si oportet ipsum 
+An<lb ed="#V" break="no" n="15"/>gelum quiescentem in aliquo loco, puta
+<lb ed="#V" n="16"/>per horam, quiescere in ultimo instanti
+<lb ed="#V" n="17"/>illius hore, et immediate post illud
+<lb ed="#V" n="18"/>instans moveri localiter, sequitur quod
+<lb ed="#V" n="19"/>nullo modo possit moveri, nec in tempore
+<lb ed="#V" n="20"/>continuo, nec in tempore discreto,quia aut
+<lb ed="#V" n="21"/>moveretur in instanti mediato ultimo
+<lb ed="#V" n="22"/>instanti quietis, aut in instanti 
+immedia<lb ed="#V" break="no" n="23"/>to. Non mediato, quia tunc inter duo 
+in<lb ed="#V" break="no" n="24"/>stantia esset tempus discretum, 
+corre<lb ed="#V" break="no" n="25"/>spondens tempori nostro, et opus esset
+<lb ed="#V" n="26"/>ipsum quiescere per illud tempus, quod
+<lb ed="#V" n="27"/>patet, quia tu dicis, quod tantum movetur
+<lb ed="#V" n="28"/>in instanti mediato ; ergo in tempore 
+im<lb ed="#V" break="no" n="29"/>mediato quiescit, et ex alia parte dicis,
+<lb ed="#V" n="30"/>quod quando quiescit in aliquo tempore,
+<lb ed="#V" n="31"/>oportet ipsum quiescere in ultimo 
+instan<lb ed="#V" break="no" n="32"/>ti illius temporis, ultimum autem instans
+<lb ed="#V" n="33"/>istius temporis discreti immediati est hoc
+<lb ed="#V" n="34"/>instans mediatum, et sic opus esset
+<lb ed="#V" n="35"/>ipsum quiescere in instanti, et nunquam
+<lb ed="#V" n="36"/>moveri. Si ergo opus esset quiescere per
+<lb ed="#V" n="37"/>totum tempus, et in vltimo instanti
+<lb ed="#V" n="38"/>ilius, et in instanti mediato moveri,
+<lb ed="#V" n="39"/>nunquam posset moveri, nec in 
+tempo<lb ed="#V" break="no" n="40"/>re nostro, nec in instanti temporis 
+no<lb ed="#V" break="no" n="41"/>stri. Si autem illud instans est 
+immedia<lb ed="#V" break="no" n="42"/>tum, aut correspondet instanti temporis
+<lb ed="#V" n="43"/>nostri, et sic instantia temporis nostri
+<lb ed="#V" n="44"/>erunt immediata ; si autem tempus
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>nostrum correspondet illi instanti 
+imme<lb ed="#V" break="no" n="46"/>diato; ergo sequitur quod Angelus non
+<lb ed="#V" n="47"/>possit. moveri instantanee, quia illud
+<lb ed="#V" n="48"/>instans per te, coexistit parti temporis
+<lb ed="#V" n="49"/>nostri, in qua vel eum qua potest 
+con<lb ed="#V" break="no" n="50"/>ünue moveri vel quiescere.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e790">
+               <lb ed="#V" n="51"/>Has tamen instantias, quas facit Doctor
+<lb ed="#V" n="52"/>contra Thomam, videlicet contra 
+secun<lb ed="#V" break="no" n="53"/>dum ejusdem dictum, <ref xml:id="mm30o9-d1e1683-Rd1e798">quidam novus 
+ex<lb ed="#V" break="no" n="54"/>positor in prima parte Sancti Thom.
+<lb ed="#V" n="55"/>quest. 53. art. 3.</ref> nititur solvere. Primo
+<lb ed="#V" n="56"/>preemitüt aliqua, et secundo respondet
+<lb ed="#V" n="57"/>ad instantias. Quantum ad primum sic 
+di<lb ed="#V" break="no" n="58"/>cit : Sciendum est igitur, quod in toto
+<lb ed="#V" n="59"/>tempore dupliciter distribui potest, primo
+<lb ed="#V" n="60"/>in partes tantum, ut idem sit dicere in 
+to<lb ed="#V" break="no" n="61"/>to aliquo tempore, et in qualibet parte 
+illi<lb ed="#V" break="no" n="62"/>us temporis. Secundo in partes, et in 
+quo<lb ed="#V" break="no" n="63"/>cumque illius sunt ; et sic idem est dicere,
+<lb ed="#V" n="64"/>in toto aliquo tempore, et in qualibet 
+par<lb ed="#V" break="no" n="65"/>te, et in quolibet instanti illius. Et 
+quam<lb ed="#V" break="no" n="66"/>vis utroque modo propositio sit in usu, in
+<lb ed="#V" n="67"/>proposito tamen in primo sensu a 
+Phi<lb ed="#V" break="no" n="68"/>losophis et Theologis intelligitur, alioquin
+<lb ed="#V" n="69"/>esset implicatio in adjecto dicere cum ex
+<lb ed="#V" n="70"/>aqua fit ignis, in toto illo tempore est
+<lb ed="#V" n="71"/>aqua, et in ultimo instanti est ignis. Et in
+<lb ed="#V" n="72"/>hoc sensu constat primam opinionem 
+di<lb ed="#V" break="no" n="73"/>xisse, quod Angelus in toto aliquo tempore
+<lb ed="#V" n="74"/>quiescit, et in ultimo illius instanti novum
+<lb ed="#V" n="75"/>locum acquirit. Et quoniam realiter, et
+<lb ed="#V" n="76"/>non apparenter S. Thomas intendit sibi
+<lb ed="#V" n="77"/>contradicere, idcirco oportet dicere in 
+eo<lb ed="#V" break="no" n="78"/>dem sensu distribui ly in. toto tempore,
+<lb ed="#V" n="79"/>ita quod controversia est, an ista 
+proposi<lb ed="#V" break="no" n="80"/>tio : A quiescit in aliquo toto tempore, id
+<lb ed="#V" n="81"/>est, in qualibet parte alicujus temporis,
+<lb ed="#V" n="82"/>et in ultimo instanti illius aliter se habeat,
+<lb ed="#V" n="83"/>sit possibilis. Prima enim opinio 
+reputa<lb ed="#V" break="no" n="84"/>vit eam possibilem, et super ipsam 
+fun<lb ed="#V" break="no" n="85"/>davit positionem suam, Sanctus Thomas
+<lb ed="#V" n="86"/>vero reputat eam impossibilem, et hwe
+<lb ed="#V" n="87"/>de primo.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e876">
+               <lb ed="#V" n="88"/>Quoad secundum «dicitur, quod haec
+<pb ed="#L" n="552"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>propositio est vera, gratia materie, non
+<lb ed="#V" n="2"/>autem gratia formae, id est, non 
+verifica<lb ed="#V" break="no" n="3"/>turin omnibus terminis, sed in istis. Et
+<lb ed="#V" n="4"/>declaratur utrumque, primo pars 
+negati<lb ed="#V" break="no" n="5"/>va, quia ex esse tale in aliquo tempore, non
+<lb ed="#V" n="6"/>formaliter infertur esse etiam tale in 
+ulti<lb ed="#V" break="no" n="7"/>mo instanti illius temporis, ista enim 
+con<lb ed="#V" break="no" n="8"/>ditionalis non est necessaria : Si est homo
+<lb ed="#V" n="9"/>in aliqua hora, ergo in termino illius 
+ho<lb ed="#V" break="no" n="10"/>rae est homo, imo de facto apparet illius
+<lb ed="#V" n="11"/>falsitas de hora mensurante ejus 
+corru<lb ed="#V" break="no" n="12"/>ptionem. Evidens est autem ratio, quare
+<lb ed="#V" n="13"/>non teneat formaliter, quia scilicet totum
+<lb ed="#V" n="14"/>tempus praecedens suum terminum 
+com<lb ed="#V" break="no" n="15"/>paratur ad illud ut prius ad posterius, nec
+<lb ed="#V" n="16"/>est necessarium quod si est tale in priori
+<lb ed="#V" n="17"/>mensura, perseverare tale in posteriori.
+<lb ed="#V" n="18"/>Pars vero affirmativa declaratur, 
+adver<lb ed="#V" break="no" n="19"/>tendo, quod cum intentio S. Thome sit
+<lb ed="#V" n="20"/>tractare de naturis, et naturaliter 
+compe<lb ed="#V" break="no" n="21"/>tentibus ipsis Angelis tam secundum 
+sta<lb ed="#V" break="no" n="22"/>tum nature quam genere, non est hic
+<lb ed="#V" n="23"/>sermo de possibili aut impossibili Logico
+<lb ed="#V" n="24"/>et respectu potentiae divinae, sed de 
+possi<lb ed="#V" break="no" n="25"/>bili Philosophico, in quo attenditur quid
+<lb ed="#V" n="26"/>rei ordini congruat seclusis miraculis,
+<lb ed="#V" n="27"/>non quid Deus possit; et hoc semper est
+<lb ed="#V" n="28"/>attendendum in scrutandis rerum naturis
+<lb ed="#V" n="29"/>sectantibus S. Thom: doctrinam. Dicitur
+<lb ed="#V" n="30"/>ergo, quod impossibile est. secundum 
+or<lb ed="#V" break="no" n="31"/>dinem rerum naturalium aliquid habere
+<lb ed="#V" n="32"/>esse quietum in toto aliquo tempore, et
+<lb ed="#V" n="33"/>in fine illius aliter se habere, quoniam
+<lb ed="#V" n="34"/>omne factum esset in ratione termini
+<lb ed="#V" n="35"/>ad quem, seu omnis terminus 
+prcecedi<lb ed="#V" break="no" n="36"/>tur secundum nature cursum ab aliquo
+<lb ed="#V" n="37"/>fieri. Habet enim hoc rerum ordo, 
+expe<lb ed="#V" break="no" n="38"/>rientia teste, ut nihil novum tam repente
+<lb ed="#V" n="39"/>fiat per se, quin aliqua praecesserit via 
+du<lb ed="#V" break="no" n="40"/>cens ad illum terminum; et propterea
+<lb ed="#V" n="41"/>cum habere aliquid esse sub quiete non
+<lb ed="#V" n="42"/>sit via ad alteritatem, sive acquisitivam
+<lb ed="#V" n="43"/>sive deperditivam, sed habere illud esse
+<lb ed="#V" n="44"/>in motu, quia hoc est acquirere vel per-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>dere, consequens est ut quiescens in 
+ali<lb ed="#V" break="no" n="46"/>quo toto tempore, in termino illius eodem
+<lb ed="#V" n="47"/>modo se habeat, alioquin venisset ad
+<lb ed="#V" n="48"/>terminum ad quem non  praecessisset.
+<lb ed="#V" n="49"/>Quod autem in termino aliter se habet,
+<lb ed="#V" n="50"/>quam prius praecedente motu ad 
+termi<lb ed="#V" break="no" n="51"/>num pervenit.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e998">
+               <lb ed="#V" n="52"/>Ad instantias autem  adductas contra
+<lb ed="#V" n="53"/>propositionem sic intellectam, facile patet
+<lb ed="#V" n="54"/>ex dictis responsio. Quod enim adducitur
+<lb ed="#V" n="55"/>de transubstantiatione dupliciter deficit :
+<lb ed="#V" n="56"/>Primo, quia illud non est naturale, sed
+<lb ed="#V" n="57"/>miraculosum valde ac per se ad potentiam
+<lb ed="#V" n="58"/>Dei spectat. Secundo in hoc, quod 
+tran<lb ed="#V" break="no" n="59"/>substantiatio nullam habet quietem 
+oppo<lb ed="#V" break="no" n="60"/>sitam, nisi abuti velimus vocabulis, cum
+<lb ed="#V" n="61"/>nec motus Ipsa sit.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e1022">
+               <lb ed="#V" n="62"/>Ad secundam instantiam de 
+illuminati<lb ed="#V" break="no" n="63"/>one, dicitur quod illuminatio est terminus
+<lb ed="#V" n="64"/>motus localis. Et ad objectiones contra
+<lb ed="#V" n="65"/>hoc, respondendo ad primam, dico quod
+<lb ed="#V" n="66"/>quamvis illuminatio absolute per accidens
+<lb ed="#V" n="67"/>terminet motum localem, quoniam scimus
+<lb ed="#V" n="68"/>partes propinquas corpori solari perpetui
+<lb ed="#V" n="69"/>esse luminis nullo accessu vel recessu
+<lb ed="#V" n="70"/>Solis ab eis concurrente, tamen 
+illumina<lb ed="#V" break="no" n="71"/>tio nova, de qua tantum praesens potest
+<lb ed="#V" n="72"/>esse sermo ad propositum, per se est 
+ter<lb ed="#V" break="no" n="73"/>minus motus localis; non per se primo,
+<lb ed="#V" n="74"/>sed per se secundo secundum naturae 
+cur<lb ed="#V" break="no" n="75"/>sum. Et ex hoc patet responsio ad 
+secun<lb ed="#V" break="no" n="76"/>dum, quia scilicet non est ad propositum,
+<lb ed="#V" n="77"/>quia de Dei potentia, non de nature cursu
+<lb ed="#V" n="78"/>loquitur.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e1061">
+               <lb ed="#V" n="79"/>Ad tertiam vero dicitur, quod 
+quam<lb ed="#V" break="no" n="80"/>vis aer quiescat secundum esse absolutum
+<lb ed="#V" n="81"/>in toto tempore praecedente praesentiam
+<lb ed="#V" n="82"/>Solis, non tamen quiescit secundum esse
+<lb ed="#V" n="83"/>relativum, quia continue aliter et aliter se
+<lb ed="#V" n="84"/>habet ad Solem, secundum esse 
+propin<lb ed="#V" break="no" n="85"/>quum vel distans, quia ad relationem non
+<lb ed="#V" n="86"/>est per se motus, ut dicitur <ref xml:id="mm30o9-d1e1683-Rd1e1080">5. PAys.</ref> Sed
+<lb ed="#V" n="87"/>aliquid potest aliter se continue habere
+<lb ed="#V" n="88"/>secundum esse relativum propter motum
+<pb ed="#L" n="553"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>non in se, sed in alio ad ipsum habente
+<lb ed="#V" n="2"/>ordinem aliquem, ideo stat quod aer non
+<lb ed="#V" n="3"/>quiescat sub tenebra nec moveatur, sed
+<lb ed="#V" n="4"/>habens eam continue, aliter se habeat
+<lb ed="#V" n="5"/>propter motum alterius secundum esse
+<lb ed="#V" n="6"/>respectivum ducens ad exclusionem 
+tene<lb ed="#V" break="no" n="7"/>brae, et acquisitionem luminis. Et. 
+utrum<lb ed="#V" break="no" n="8"/>que horum ponitur satis rationabiliter.
+<lb ed="#V" n="9"/>Nam quia ad relationem non est motus,
+<lb ed="#V" n="10"/>ergo nec quies, quoniam circa idem
+<lb ed="#V" n="11"/>habent fieri, sed loco motus est aliter se
+<lb ed="#V" n="12"/>habere, et loco quietis eodem modo se 
+ha<lb ed="#V" break="no" n="13"/>bere. Et quia privatio luminis, scilicet 
+te<lb ed="#V" break="no" n="14"/>nebra, non radicatur in aliqua forma 
+con<lb ed="#V" break="no" n="15"/>traria lumini, sed in relatione distantice
+<lb ed="#V" n="16"/>seu absentiae inter diaphanum et lucens,
+<lb ed="#V" n="17"/>consequens est quod aer absque motu in
+<lb ed="#V" n="18"/>se aliter se habet continue secundum esse
+<lb ed="#V" n="19"/>tenebrosum consecutive, ex hoc quod 
+ali<lb ed="#V" break="no" n="20"/>ter se habet continue secundum esse 
+pro<lb ed="#V" break="no" n="21"/>pinquum ad Solem per motum ipsius
+<lb ed="#V" n="22"/>Solis.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e1139">
+               <lb ed="#V" n="23"/>Tertia deinde instantia multipliciter. 
+de<lb ed="#V" break="no" n="24"/>ficit, non intelligens mentem S. Thom:e
+<lb ed="#V" n="25"/>loquentis de propria mensura motus 
+An<lb ed="#V" break="no" n="26"/>gelici, et de aliter vel eodem modo se
+<lb ed="#V" n="27"/>habere in ultimo instanti in ratione 
+termi<lb ed="#V" break="no" n="28"/>ni ad quem, et non qualitercumque, et de
+<lb ed="#V" n="29"/>motu, non per acquisitionem simplicem
+<lb ed="#V" n="30"/>ipsius termini, sed ut exposuimus in
+<lb ed="#V" n="31"/>titulo. Unde instantia illa aequivocat, primo
+<lb ed="#V" n="32"/>de motu Angeli, intendens motws nomine
+<lb ed="#V" n="33"/>termini acquisitionem ; secundo 
+conveni<lb ed="#V" break="no" n="34"/>endo etiam secum vocabulo, dico quod ^
+4n<lb ed="#V" break="no" n="35"/>gelus potest in ultimo instanti temporis
+<lb ed="#V" n="36"/>alicujus esse in aliquo loco, et ut in 
+ter<lb ed="#V" break="no" n="37"/>mino ad quem, et ut in principio motus,
+<lb ed="#V" n="38"/>quia potest postquam nusquam fuit, in
+<lb ed="#V" n="39"/>uno instanti sui temporis coexistenti 
+ulti<lb ed="#V" break="no" n="40"/>mo instanti alicujus hor: applicare se
+<lb ed="#V" n="41"/>loco. Tunc enim in tota hora nusquam
+<lb ed="#V" n="42"/>fuit, et in ultimo est hoc, quod apud $.
+<lb ed="#V" n="43"/>Thomam non est moveri, sed mutatum
+<lb ed="#V" n="44"/>esse: ut in termino vero ad quem, quia
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>potest Angelus in duobus instantibus sui
+<lb ed="#V" n="46"/>temporis immediatis diversis locis 
+suc<lb ed="#V" break="no" n="47"/>cessive se applicare, ita quod illa duo 
+in<lb ed="#V" break="no" n="48"/>5tantia coexistant uni horae, sic quod 
+se<lb ed="#V" break="no" n="49"/>cundum coexistat ultimo instanti horae, et
+<lb ed="#V" n="50"/>primum toti tempori praecedenti.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e1205">
+               <lb ed="#V" n="51"/>Iste novus expositor antequam 
+respon<lb ed="#V" break="no" n="52"/>deat ad instantias Doctoris, multa dicit
+<lb ed="#V" n="53"/>qua non videntur sic esse vera, ut ipse
+<lb ed="#V" n="54"/>asserit Et primo cum dicit, quod haec 
+di<lb ed="#V" break="no" n="55"/>stinctio est in usu, scilicet moveri in toto
+<lb ed="#V" n="56"/>aliquo tempore, potest exponi dupliciter,
+<lb ed="#V" n="57"/>prout idem est, quod in qualibet parte
+<lb ed="#V" n="58"/>illius temporis, excludendo instantia. 
+Se<lb ed="#V" break="no" n="59"/>cundo in qualibet parte temporis,et in 
+quo<lb ed="#V" break="no" n="60"/>libet illius includendo instantia temporis.
+<lb ed="#V" n="61"/>In secundo modo, nec est de rigore 
+sermo<lb ed="#V" break="no" n="62"/>nis, nec communiter in usu, patet, quia
+<lb ed="#V" n="63"/>cum dico, movetur in aliquo tempore,
+<lb ed="#V" n="64"/>puta in aliqua. hora, non potest intelligi
+<lb ed="#V" n="65"/>nisi de qualibet parte illius, quia verum
+<lb ed="#V" n="66"/>est quod data quacumque parte hori,
+<lb ed="#V" n="67"/>mobile movetur; sed nullo modo potest
+<lb ed="#V" n="68"/>exponi, quod moveatur in quolibet illius
+<lb ed="#V" n="69"/>horz, accipiendo lv quolibet etiam pro 
+in<lb ed="#V" break="no" n="70"/>stanti, quia tunc sequeretur quod in quo
+<lb ed="#V" n="71"/>libet instanti illius horae moveretur, quod
+<lb ed="#V" n="72"/>est impossibile, cum motus non fiat in
+<lb ed="#V" n="73"/>instanti. Et hoc. est quod intendit. etiam
+<lb ed="#V" n="74"/>
+               <ref xml:id="mm30o9-d1e1683-Rd1e1259">Aristoteles 3. PAys. tert. com. 1.</ref> ubi vult,
+<lb ed="#V" n="75"/>quod illud quod movetur secundum se
+<lb ed="#V" n="76"/>primo, intelligatur moveri secundum
+<lb ed="#V" n="77"/>quamlibet partem ejus; accipiuntur ibi
+<lb ed="#V" n="78"/>partes tantum divisibiles, non autem 
+indi<lb ed="#V" break="no" n="79"/>visibiles, patet, quia indivisibile non 
+mo<lb ed="#V" break="no" n="80"/>vetur super aliquod spatium, ut patet per
+<lb ed="#V" n="81"/>
+               <ref xml:id="mm30o9-d1e1683-Rd1e1276">Aristotelem 6. Physic. text, com. 1.</ref> [sta
+<lb ed="#V" n="82"/>etiam expositio est contra <ref xml:id="mm30o9-d1e1683-Rd1e1280">Philosophum
+<lb ed="#V" n="83"/>6. Phys text. c. 45.</ref> ubi vult quod quidquid
+<lb ed="#V" n="84"/>movetur in aliquo tempore primo, 
+move<lb ed="#V" break="no" n="85"/>tur in. quolibet illius temporis, id est, in
+<lb ed="#V" n="86"/>qualibet parte temporis illius; et patet,
+<lb ed="#V" n="87"/>quod nullo modo potest exponi de 
+instan<lb ed="#V" break="no" n="88"/>ti, cum sit simpliciter impossibile aliquid
+<pb ed="#L" n="554"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>posse moveri in instanti, quod tamen 
+se<lb ed="#V" break="no" n="2"/>queretur, si ille secundus modus esset
+<lb ed="#V" n="3"/>verus et in usu.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e1308">
+               <lb ed="#V" n="4"/>Secundo dicit iste, quod propositio
+<lb ed="#V" n="5"/>Thome est tantum vera gratia materie,
+<lb ed="#V" n="6"/>non autem gratia forma, cum non sit in
+<lb ed="#V" n="7"/>omnibus vera ista, scilicet propositio
+<lb ed="#V" n="8"/>quiescens in aliquo tempore non potest
+<lb ed="#V" n="9"/>aliter se habere in ultimo instanti illius
+<lb ed="#V" n="10"/>temporis ; et dat instantiam iste contra
+<lb ed="#V" n="11"/>illam propositionem, quia sequitur, homo
+<lb ed="#V" n="12"/>est in aliqua hora, et tamen non sequitur
+<lb ed="#V" n="13"/>quod in ultimo instanti illius horae sit,
+<lb ed="#V" n="14"/>ponendo quod in fine illius horae 
+sequa<lb ed="#V" break="no" n="15"/>tur corruptio, quia tunc daretur ultimum
+<lb ed="#V" n="16"/>instans sui esse. Quamvis hoc sit bene
+<lb ed="#V" n="17"/>dictum, forte tamen non est sic ad 
+men<lb ed="#V" break="no" n="18"/>tem Thomae ubi ipse dicit, nam <ref xml:id="mm30o9-d1e1683-Rd1e1342">Thomas
+<lb ed="#V" n="19"/>in prima part. q. 53. art. 3</ref> sic dicit : de
+<lb ed="#V" n="20"/>ratione enim quietis est, quod quiescens
+<lb ed="#V" n="21"/>non aliter se habeat nunc et prius, et
+<lb ed="#V" n="22"/>ideo in quolibet nunc temporis 
+mensuran<lb ed="#V" break="no" n="23"/>lis quietem, quiescens est in eodem, et in
+<lb ed="#V" n="24"/>primo, et in. medio, et in ultimo. Et 
+pa<lb ed="#V" break="no" n="25"/>rum infra : patet, quod quiescere in toto
+<lb ed="#V" n="26"/>y'empore in. aliquo, puta. in albedine, est
+<lb ed="#V" n="27"/>esse in illo in. quolibet instanti. illius
+<lb ed="#V" n="28"/>temporis; unde non est possibile, ut 
+ali<lb ed="#V" break="no" n="29"/>quid in tempore praecedente quiescat in
+<lb ed="#V" n="30"/>uno termino, et postea in ultimo instanti
+<lb ed="#V" n="31"/>illius temporis sit in. alio. termino. Haec
+<lb ed="#V" n="32"/>Thomas. Ex qua littera patet expresse,
+<lb ed="#V" n="33"/>quod illa propositio est vera apud 
+Tho<lb ed="#V" break="no" n="34"/>mam non tantum de msteria, sed etiam
+<lb ed="#V" n="35"/>de forma, nisi extorqueatur littera. Et
+<lb ed="#V" n="36"/>quod dicit etiam iste expositor ad mentem
+<lb ed="#V" n="37"/>Thom:e, quod si aliquid est tale in. priori
+<lb ed="#V" n="38"/>mensura, non est necessarium 
+persevera<lb ed="#V" break="no" n="39"/>re tale in posteriori mensura, si accipit
+<lb ed="#V" n="40"/>posteriorem mensuram pro ultimo instanti
+<lb ed="#V" n="41"/>prioris mensurc ; boc patet expresse esse
+<lb ed="#V" n="42"/>contra positionem Thom: dicentis, 
+quie<lb ed="#V" break="no" n="43"/>scere in toto tempore in aliquo, puta in
+<lb ed="#V" n="44"/>albedine.est esse in illo in quolibet instanti
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>illius temporis. Si autem accipit 
+posteri<lb ed="#V" break="no" n="46"/>orem mensuram pro tempore mediate 
+se<lb ed="#V" break="no" n="47"/>quenti ultimum instans prioris mensurze,
+<lb ed="#V" n="48"/>tunc propositio est vera ad mentem 
+Tho<lb ed="#V" break="no" n="49"/>mie, sed tunc propositio est contra ipsum
+<lb ed="#V" n="50"/>exponentem, quia ipse vult quod non sit
+<lb ed="#V" n="51"/>necesse quiescere in ultimo instanti prioris
+<lb ed="#V" n="52"/>mensure, ut patet ex dictis ejus.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e1422">
+               <lb ed="#V" n="53"/>Tertio dicit iste ad mentem Thom,
+<lb ed="#V" n="54"/>quod via naturali non est possibile, quod
+<lb ed="#V" n="55"/>quiescens in aliquo toto tempore in ultimo
+<lb ed="#V" n="56"/>instanti illius temporis aliter se habeat,
+<lb ed="#V" n="57"/>quia omme factum esse in ratione termini
+<lb ed="#V" n="58"/>ad quem, seu omnis terminus praeceditur
+<lb ed="#V" n="59"/>secundum cursum ab aliquo fieri. Hoc
+<lb ed="#V" n="60"/>dictum potest habere ultimum sensum :
+<lb ed="#V" n="61"/>Primo quod quiescens sub aliqua forme,
+<lb ed="#V" n="62"/>puta per horam in ultimo instanti illius
+<lb ed="#V" n="63"/>hore non potest esse sub forma opposita;
+<lb ed="#V" n="64"/>et hic sensus est manifeste falsus, 
+praeci<lb ed="#V" break="no" n="65"/>pue tenendo etiam secundum eos, quod
+<lb ed="#V" n="66"/>forma substantialis acquiratur in instanti;
+<lb ed="#V" n="67"/>et similiter in instanti deperdatur, tunc
+<lb ed="#V" n="68"/>sic: materia existens sub forma ligni
+<lb ed="#V" n="69"/>quiescit in aliquo toto tempore, et tamen
+<lb ed="#V" n="70"/>in ultimo instanti illius temporis non
+<lb ed="#V" n="71"/>quiescit sub illo, patet, quia in illo ultimo
+<lb ed="#V" n="72"/>instanti fit sub forma ignis, nam in 
+per<lb ed="#V" break="no" n="73"/>manentibus datur primum instans sui non
+<lb ed="#V" n="74"/>esse, et sic Ista est vera in ultimo instanti
+<lb ed="#V" n="75"/>illius temporis; materia ligni non est sub
+<lb ed="#V" n="76"/>forma ligni, et sic desinit esse ; patet ergo,
+<lb ed="#V" n="77"/>quod etiam secundum cursum nature, in
+<lb ed="#V" n="78"/>ultimo instanti illius temporis fit sub
+<lb ed="#V" n="79"/>forma ignis. Secundus sensus potest esse,
+<lb ed="#V" n="80"/>quod quiescens sub aliqua forma 
+substan<lb ed="#V" break="no" n="81"/>tial est sub dispositionibus facientibus
+<lb ed="#V" n="82"/>pro tali forma in aliquo toto tempore, puta
+<lb ed="#V" n="83"/>per idem, in ultimo instanti illius 
+tempo<lb ed="#V" break="no" n="84"/>r'snon potest esse sub forma opposita;
+<lb ed="#V" n="85"/>ethic sensus est verus, quia in ultimo
+<lb ed="#V" n="86"/>instanti illius temporis non deperduntur
+<lb ed="#V" n="87"/>accidentia facientia pro tali forma, sed in
+<lb ed="#V" n="88"/>tempore immediato ad instans quietis in-
+<pb ed="#L" n="555"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>cipit moveri, deperdendo illa, sed tunc
+<lb ed="#V" n="2"/>nihil est ad propositum, quia sunt multa
+<lb ed="#V" n="3"/>agentia perfecta naturalia, quia statim 
+in<lb ed="#V" break="no" n="4"/>ducunt formas in subjecto disposito, ut
+<lb ed="#V" n="5"/>patet de Sole illuminante medium. Pono
+<lb ed="#V" n="6"/>etiam, quod detur aliquod subjectum 
+ulti<lb ed="#V" break="no" n="7"/>mate dispositum, quod quieverit per 
+ho<lb ed="#V" break="no" n="8"/>ram sub forma ., certum est quod agens
+<lb ed="#V" n="9"/>dispositum et praesens, si est vincens 
+ip<lb ed="#V" break="no" n="10"/>sum subjectum, in ultimo instanti illius
+<lb ed="#V" n="11"/>horce inducet formam oppositam, et tunc
+<lb ed="#V" n="12"/>subjectum in illo ultimo instanti non 
+qui<lb ed="#V" break="no" n="13"/>escit sub forma priori, sel aliter se 
+ha<lb ed="#V" break="no" n="14"/>bebit.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e1537">
+               <lb ed="#V" n="15"/>Praeterea, pono quod intellectus, puta
+<lb ed="#V" n="16"/>Angeli, quiescat sub. intellectione .1, per
+<lb ed="#V" n="17"/>horam,certum est quod in ultimo instanti
+<lb ed="#V" n="18"/>illius horie erit sub alia intellectione. Patet
+<lb ed="#V" n="19"/>secundum istum expositorem in <ref xml:id="mm30o9-d1e1683-Rd1e1550">prima
+<lb ed="#V" n="20"/>parte sumince. queiest, 10, art. 1.</ref> ubi sic
+<lb ed="#V" n="21"/>dicit: Hl;e, scilicet operationes cum sint
+<lb ed="#V" n="22"/>immediate sibi invicem succedentes et
+<lb ed="#V" n="23"/>instantaneie secundum se, quia quaelibet
+<lb ed="#V" n="24"/>est tota simul, etc. Nec oportet ipsum 
+re<lb ed="#V" break="no" n="25"/>currere ad instantia temporis discreti,
+<lb ed="#V" n="26"/>quia tune. pono casum, quod intellectio
+<lb ed="#V" n="27"/>Angeli mensuretur instanti temporis 
+di<lb ed="#V" break="no" n="28"/>screti, quod correspondeat tempori nostro
+<lb ed="#V" n="29"/>unius hori, et post sit sub alia 
+intellecti<lb ed="#V" break="no" n="30"/>one in alio instanti temporis discreti:
+<lb ed="#V" n="31"/>quero tune, aut illud secandum instans
+<lb ed="#V" n="32"/>correspondet ultimo instanti temporis
+<lb ed="#V" n="33"/>nostri, et tunc habetur propositum ;
+<lb ed="#V" n="34"/>aut correspondet alii. instanti. immediato
+<lb ed="#V" n="35"/>priori. instanti temporis, et tunc unum
+<lb ed="#V" n="36"/>instans temporis nostri esset  
+imme<lb ed="#V" break="no" n="37"/>diatum alteri instanti, quod est contra
+<lb ed="#V" n="38"/>
+               <ref xml:id="mm30o9-d1e1683-Rd1e1594">Philosophum 6. P/Aysic. text, com, 4.</ref> aut
+<lb ed="#V" n="39"/>correspondet, tempori immediate sequenti;
+<lb ed="#V" n="40"/>ergo non videtur talis operatio acquiri
+<lb ed="#V" n="41"/>instantanee, ut ipse dicit, Sequitur ergo
+<lb ed="#V" n="42"/>quod ista propositio, etiam secundum
+<lb ed="#V" n="43"/>eursum naturie, non sit vera, scilicet. 
+qui<lb ed="#V" break="no" n="44"/>escens in aliquo toto tempore, in ultimo
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>instanti illius temporis non potest aliter
+<lb ed="#V" n="46"/>se habere.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e1616">
+               <lb ed="#V" n="47"/>Ultimo loco ostendo, quod  
+responsi<lb ed="#V" break="no" n="48"/>ones datae ad instantias Doctoris minime ,
+<lb ed="#V" n="49"/>evacuent illas. Et patet de prima 
+respon<lb ed="#V" break="no" n="50"/>sione de pane transubstantiato, ubi dicit
+<lb ed="#V" n="51"/>ipse quod est per miraculum; hoc non 
+vi<lb ed="#V" break="no" n="52"/>detur ad propositum, quia saltem forma
+<lb ed="#V" n="53"/>substantialis panis in ultimo instanti sum
+<lb ed="#V" n="54"/>quietis potest desinere esse per 
+introducti<lb ed="#V" break="no" n="55"/>onem alterius formae, ut supra dixi, et
+<lb ed="#V" n="56"/>sicin ultimo insianti quietis materia talis
+<lb ed="#V" n="57"/>formae aliter se habebit. Patet etiam, 
+po<lb ed="#V" break="no" n="58"/>nendo quod materia panis quieverit sub
+<lb ed="#V" n="59"/>forma panis, quia determinet sibi aliquem
+<lb ed="#V" n="60"/>gradum accidentis, certum est quod in
+<lb ed="#V" n="61"/>aliquo ultimo instanti quietis panis sub
+<lb ed="#V" n="62"/>tali gradu poterit desinere esse, tenendo
+<lb ed="#V" n="63"/>quod tantum sit ibi unus gradus 
+ac<lb ed="#V" break="no" n="64"/>cidentis, de quo in <ref xml:id="mm30o9-d1e1683-Rd1e1657">4. dist. 12</ref>, Dico
+<lb ed="#V" n="65"/>etiam, quod hic non oportet se 
+restrin<lb ed="#V" break="no" n="66"/>gere ad miraculum, cum Thomas 
+abso<lb ed="#V" break="no" n="67"/>lute dicat, quod quiescens in aliquo uno
+<lb ed="#V" n="68"/>tempore in ultimo instanti illius temporis,
+<lb ed="#V" n="69"/>non potest aliter se habere, ut supra 
+pa<lb ed="#V" break="no" n="70"/>tuit, Et quod dicit post, quod 
+transub<lb ed="#V" break="no" n="71"/>stantiatio nullam habet quietem oppositam,
+<lb ed="#V" n="72"/>nisi abuti velimus vocabulis, cum nec
+<lb ed="#V" n="73"/>motus ipsa sit. Patet hanc responsionem
+<lb ed="#V" n="74"/>parum valere, quia pono quod .t, quiescat
+<lb ed="#V" n="75"/>sub albedine per horam, et in aliquo 
+ulti<lb ed="#V" break="no" n="76"/>mo instanti deperdatur, certum est quod
+<lb ed="#V" n="77"/>A, ut est sub. albedine per horam, were
+<lb ed="#V" n="78"/>quiescit, quia talis quies opponitur motui
+<lb ed="#V" n="79"/>priecedenti, quo albedo successive acquiri
+<lb ed="#V" n="80"/>potuit in ipso 44; nec est necesse, quod
+<lb ed="#V" n="81"/>quies opponatur motui sequenti, sicut
+<lb ed="#V" n="82"/>etiam dicimus, quod mobile 4, quiescit in
+<lb ed="#V" n="83"/>aliquo loco per horam, illa quies sumitur,
+<lb ed="#V" n="84"/>prout opponitur motui praecedenti, non
+<lb ed="#V" n="85"/>autem motui sequenti, et si aliquando
+<lb ed="#V" n="86"/>possit sumi, ut opponitur motui sequenti,
+<lb ed="#V" n="87"/>non tamen est simpliciter necesse. Sie
+<lb ed="#V" n="88"/>dico in proposito, quod substantia panis
+<pb ed="#L" n="556"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>dicitur quiescere sub accidentibus, ut
+<lb ed="#V" n="2"/>quies opponitur motui praecedenti, quo
+<lb ed="#V" n="3"/>illa accidentia acquiri potuerunt in ipso
+<lb ed="#V" n="4"/>A, et sic non est necesse quod opponatur
+<lb ed="#V" n="5"/>alieui motui sequenti. Dico etiam, quod
+<lb ed="#V" n="6"/>aliquid, puta 4, potest dici vere quiescere
+<lb ed="#V" n="7"/>in aliquo tempore, puta sab albedine, quae
+<lb ed="#V" n="8"/>licet in instanti per casum corrumpatur,
+<lb ed="#V" n="9"/>tamen est apta nata deperdi successive,et
+<lb ed="#V" n="10"/>per motum, sic est in proposito; quamvis
+<lb ed="#V" n="11"/>substantia panis in transubstantiatione 
+de<lb ed="#V" break="no" n="12"/>sinat esse in ultimo instanti quietis sub
+<lb ed="#V" n="13"/>illis accidentibus, quia tamen illa 
+acci<lb ed="#V" break="no" n="14"/>dentia nata sunt deperdi per motum, ideo
+<lb ed="#V" n="15"/>substantia panis in. aliquo tempore 
+quie<lb ed="#V" break="no" n="16"/>scebat sub illis accidentibus.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e1751">
+               <lb ed="#V" n="17"/>Ad aliud de lumine, cum primo dicit,
+<lb ed="#V" n="18"/>quod illuminatio est terminus motus 
+loca<lb ed="#V" break="no" n="19"/>lis, hoc patet manifeste falsum, quia 
+ter<lb ed="#V" break="no" n="20"/>minus motus localis est tantum ipsum
+<lb ed="#V" n="21"/>ubi, ut patet <ref xml:id="mm30o9-d1e1683-Rd1e1764">5. Physic.</ref> illuminatio vero,
+<lb ed="#V" n="22"/>sive lumen receptum in aere non est 
+ali<lb ed="#V" break="no" n="23"/>quod ubi, ut patet. Et licet per motum 
+lo<lb ed="#V" break="no" n="24"/>calem Solis quo fit preiesens aeri nostro,
+<lb ed="#V" n="25"/>sequatur illuminatio aeris, non tamen talis
+<lb ed="#V" n="26"/>illuminatio potest dici terminus motus 
+lo<lb ed="#V" break="no" n="27"/>calis per se, nec primo, nec non primo,
+<lb ed="#V" n="28"/>patet, quia tale lumen immediate 
+causa<lb ed="#V" break="no" n="29"/>tura Sole vel a luce in ipso medio. Et
+<lb ed="#V" n="30"/>quod dicit, quod si Sol crearetur de novo,
+<lb ed="#V" n="31"/>quod hoc esset miraculum, certe haec est
+<lb ed="#V" n="32"/>una fuga, quia et si aliquid fiat per 
+mi<lb ed="#V" break="no" n="33"/>raculum, tamen ipso posito, posset 
+natu<lb ed="#V" break="no" n="34"/>raliter agere, ut patet de cieco illuminato
+<lb ed="#V" n="35"/>per miraculum, qui postea naturaliter 
+vi<lb ed="#V" break="no" n="36"/>det; sic in proposito, posito quod aer
+<lb ed="#V" n="37"/>quiescat sub tenebra per diem, et in 
+ulti<lb ed="#V" break="no" n="38"/>mo instanti illius dici creetur Sol, patet
+<lb ed="#V" n="39"/>quod in illo instanti illuminabitur aer ;
+<lb ed="#V" n="40"/>ergo in illo ultimo instanti aliter se 
+ha<lb ed="#V" break="no" n="41"/>bebit.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e1811">
+               <lb ed="#V" n="42"/>Et quod dicit post, quod aer non 
+dici<lb ed="#V" break="no" n="43"/>tur quiescere sub tenebra, quia semper
+<lb ed="#V" n="44"/>habet alium et alium respectum ad Solem,
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>pro quanto Sol continue magis ac magis
+<lb ed="#V" n="46"/>sibi appropinquat, et quia fit sub alio et
+<lb ed="#V" n="47"/>alio respectu, ideo non quiescit sub 
+tene<lb ed="#V" break="no" n="48"/>bra.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e1831">
+               <lb ed="#V" n="49"/>Haec responsio est nimis absona et ab
+<lb ed="#V" n="50"/>omni experientia aliena, quia tunc 
+aeque<lb ed="#V" break="no" n="51"/>retur quod quiescens sub frigiditate, puta '
+<lb ed="#V" n="52"/>per horam, diceretur non quiescere, quia '
+<lb ed="#V" n="53"/>continue mutatur sub alio et alio respectu,
+<lb ed="#V" n="54"/>puta si ignis sit. distans per milliare, et
+<lb ed="#V" n="55"/>continue appropinquet frigido, tunc 
+friei<lb ed="#V" break="no" n="56"/>dum semper erit alio et alio respectu, pro
+<lb ed="#V" n="57"/>quanto ignis corrupti vus frigiditatis magis
+<lb ed="#V" n="58"/>ac magis appropinquat, et sic vere 
+quies<lb ed="#V" break="no" n="59"/>cens sub frigiditate. non quiesceret ; nam
+<lb ed="#V" n="60"/>tamdiu A quiescit sub albedine ut octo,
+<lb ed="#V" n="61"/>quamdiu habet albedinem ut octo, et non
+<lb ed="#V" n="62"/>dicitur non quiescere sub albedine per
+<lb ed="#V" n="63"/>quemcumque novum respectum sibi 
+adve<lb ed="#V" break="no" n="64"/>nientem. Sic dico in proposito, quod aer
+<lb ed="#V" n="65"/>tamdiu quiescit sub tenebra, quamdiu
+<lb ed="#V" n="66"/>stat sub illa, quamvis continue aliter et
+<lb ed="#V" n="67"/>aliter se habeat, secundum alium et alium
+<lb ed="#V" n="68"/>respectum ad Solem appropinquantem. Et
+<lb ed="#V" n="69"/>quod dicit iste, quod tenebra non radicatur
+<lb ed="#V" n="70"/>in aliqua forma contraria lumini, sed 
+radi<lb ed="#V" break="no" n="71"/>catur in relatione distantiae ipsius aeris ad
+<lb ed="#V" n="72"/>Solem, hoc mirum videtur, quia cum 
+te<lb ed="#V" break="no" n="73"/>nebra sit privatio luminis, et privatio sit
+<lb ed="#V" n="74"/>in subjecto apto nato, si talis privatio 
+ra<lb ed="#V" break="no" n="75"/>dicatur in tali relatione, ergo talis relatio
+<lb ed="#V" n="76"/>erit apta nata recipere lumen; sed talis
+<lb ed="#V" n="77"/>relatio non. fundatur nisi in aere, ut 
+di<lb ed="#V" break="no" n="78"/>stante a lumine, ergo non posset esse ibi
+<lb ed="#V" n="79"/>lumen, nisi ut in distante.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e1901">
+               <lb ed="#V" n="80"/>Et quod dicit ad ultimam instantiam
+<lb ed="#V" n="81"/>Doctoris contra Thomam, quod tunc 
+An<lb ed="#V" break="no" n="82"/>gelus non posset moveri, nec motu 
+conti<lb ed="#V" break="no" n="83"/>nuo, nec motu discreto, patet quod talis
+<lb ed="#V" n="84"/>responsio nullo modo evacuet instantiam
+<lb ed="#V" n="85"/>Doctoris, ut patet diligenter intuenti 
+il<lb ed="#V" break="no" n="86"/>lam. Et quod dicit iste, quod Angelus 
+po<lb ed="#V" break="no" n="87"/>test in ultimo instanti temporis alicujus
+<lb ed="#V" n="88"/>esse in aliquo loco, quia postquam nus- .
+<pb ed="#L" n="557"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>quam fuit in uno instanti sui temporis
+<lb ed="#V" n="2"/>coexistenti ultimo instanti alicujus hore
+<lb ed="#V" n="3"/>applicare se loco, tunc enim in tota hora
+<lb ed="#V" n="4"/>nusquam fuit,et in ultimo instanti illius est
+<lb ed="#V" n="5"/>hic. Quamvis hoc possit forte esse verum in
+<lb ed="#V" n="6"/>se, tamen est contra ipsum, et contra
+<lb ed="#V" n="7"/>magistrum suum. Contra ipsum, patet,
+<lb ed="#V" n="8"/>quia ipse diceret, quod quiescens sub 
+pri<lb ed="#V" break="no" n="9"/>vatione alicujus formze per horam in 
+ulti<lb ed="#V" break="no" n="10"/>mo instanti illius horae non posset 
+incipe<lb ed="#V" break="no" n="11"/>re esse sub tali forma, nec posset aliter se
+<lb ed="#V" n="12"/>habere; ponendo enim quod Franciscus
+<lb ed="#V" n="13"/>sit extra totum universum, et per 
+conse<lb ed="#V" break="no" n="14"/>quens nusquam sit, et ibi quiescat per
+<lb ed="#V" n="15"/>diem, haberet dicere quod in ultimo 
+in<lb ed="#V" break="no" n="16"/>stanti illius dici non posset se facere pr«
+e<lb ed="#V" break="no" n="17"/>sentem alicui loco circumscriptivo, sed in
+<lb ed="#V" n="18"/>tempore post illud ultimum instans. Sic in
+<lb ed="#V" n="19"/>proposito, si ponatur Angelum nusquam
+<lb ed="#V" n="20"/>esse per horam, non videtur secundum
+<lb ed="#V" n="21"/>eum, quod in ultimo instanti illius horce
+<lb ed="#V" n="22"/>possit aliter se habere, cum non sit major
+<lb ed="#V" n="23"/>ratio de Angelo quiescente in aliquo loco
+<lb ed="#V" n="24"/>per horam, et de Angelo quiescente 
+nus<lb ed="#V" break="no" n="25"/>quam per horam, sicut nec de subjecto
+<lb ed="#V" n="26"/>quiescente sub albedine per horam, quod
+<lb ed="#V" n="27"/>postea sit sub nigredine, et de ipso 
+quie<lb ed="#V" break="no" n="28"/>sceate per horam sub sola privatione 
+ni<lb ed="#V" break="no" n="29"/>eredinis, quia neutro modo in ultimo 
+in<lb ed="#V" break="no" n="30"/>stanti illius quietis poterit aliter se 
+habe<lb ed="#V" break="no" n="31"/>re, et sic patet improbatio hujusmodi 
+no<lb ed="#V" break="no" n="32"/>vi expositoris.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e1997">
+               <lb ed="#V" n="33"/>Ultra praedicta adduco unam instantiam
+<lb ed="#V" n="34"/>contra unum dictum Doctoris, quia ipse
+<lb ed="#V" n="35"/>dixit quod quiescens, puta sub tenebra per
+<lb ed="#V" n="36"/>horam, in ultimo instanti illius horse fit
+<lb ed="#V" n="37"/>sub lumine ; in hoc videtur sibi 
+contradi<lb ed="#V" break="no" n="38"/>cere, quia <ref xml:id="mm30o9-d1e1683-Rd1e2012">supra in q. 9.</ref> de motu 
+Ange<lb ed="#V" break="no" n="39"/>lorum, ubi loquitur de motibus 
+concur<lb ed="#V" break="no" n="40"/>rentibus, dicit ipse quod quiescens sub 
+ca<lb ed="#V" break="no" n="41"/>lore, puta per horam, quiescit in ultimo
+<lb ed="#V" n="42"/>instanti illius hore, ita. quod. datur 
+ulti<lb ed="#V" break="no" n="43"/>mum instans immutationis sive quietis, ut
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="44"/>ibi exposul, et tamen in hoc videtur 
+Do<lb ed="#V" break="no" n="45"/>ctor improbare Thomam.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e2032">
+               <lb ed="#V" n="46"/>Dico quod non est simile, quia Doctor
+<lb ed="#V" n="47"/>ibi vult, quod in corruptione formae 
+sub<lb ed="#V" break="no" n="48"/>stantialis,quae corrumpitur in instanti,quod
+<lb ed="#V" n="49"/>non datur ultimum instans su: quietis,
+<lb ed="#V" n="50"/>quia tunc hcc esset vera, forma 
+substan<lb ed="#V" break="no" n="51"/>tialis in ultimo instanti est, et immediate
+<lb ed="#V" n="52"/>post hoc non erit; tunc quiero, aut in 
+in<lb ed="#V" break="no" n="53"/>stanti immediato non erit, et tunc instans
+<lb ed="#V" n="54"/>esset immediatum instanti ; aut in 
+tempo<lb ed="#V" break="no" n="55"/>re immediato ad illud instans non erit, et
+<lb ed="#V" n="56"/>tunc sequuntur duo inconvenientia : 
+Pri<lb ed="#V" break="no" n="57"/>mum, quod corrumpetur talis forma in
+<lb ed="#V" n="58"/>tempore ; secundum, quod forma opposita
+<lb ed="#V" n="59"/>non introducetur in instanti; diceretur
+<lb ed="#V" n="60"/>ergo, quod in ultimo instanti desineret 
+es<lb ed="#V" break="no" n="61"/>se, et in eodem quo desinit esse, alia 
+in<lb ed="#V" break="no" n="62"/>troducitur; Thomas vero dicit, quod
+<lb ed="#V" n="63"/>quiescens in aliquo tempore, quiescit
+<lb ed="#V" n="64"/>in ultimo instanti illius temporis. Et
+<lb ed="#V" n="65"/>quod adducitur de Doctore de motibus 
+con<lb ed="#V" break="no" n="66"/>currentibus, dico quod aliud est 
+proposi<lb ed="#V" break="no" n="67"/>tionem esse universaliter veram, et aliud
+<lb ed="#V" n="68"/>tantum particulariter. Si Thomas intelligat
+<lb ed="#V" n="69"/>universaliter, quo quiescens in aliquo 
+to<lb ed="#V" break="no" n="70"/>to tempore, de necessitate quiescit in 
+ulti<lb ed="#V" break="no" n="71"/>mo instanti illius temporis, est 
+universa<lb ed="#V" break="no" n="72"/>liter falsa, ut supra patuit per multas 
+in<lb ed="#V" break="no" n="73"/>stantias. Si vero intelligat ipsam esse 
+ve<lb ed="#V" break="no" n="74"/>ram in motu alterationis et 
+augmentatio<lb ed="#V" break="no" n="75"/>nis, et hujusmodi, propositio poterit esse
+<lb ed="#V" n="76"/>vera, quia tales form: non possunt haberi
+<lb ed="#V" n="77"/>nisi per motum, et sic. quiescens sub 
+cali<lb ed="#V" break="no" n="78"/>ditate per horam, in ultimo instanti. illius
+<lb ed="#V" n="79"/>horw quiescit, et post illud instans in 
+tem<lb ed="#V" break="no" n="80"/>pore immediato incipit moveri ad 
+frigi<lb ed="#V" break="no" n="81"/>ditatem, non enim in ultimo instanti 
+il<lb ed="#V" break="no" n="82"/>Jius horae potest moveri ad frigiditatem,
+<lb ed="#V" n="83"/>quia tunc motus fieret in instanti, sed
+<lb ed="#V" n="84"/>tantum in tempore immediato ; et sic 
+in<lb ed="#V" break="no" n="85"/>telligit Doctor, quod ubi concurrunt duo
+<lb ed="#V" n="86"/>motus scilicet intensionis et remissionis,
+<lb ed="#V" n="87"/>quod quiescens sub forma remittenda in
+<pb ed="#L" n="558"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>aliquo toto tempore, necessario quiescit
+<lb ed="#V" n="2"/>in ultimo instanti illius temporis, et hoc
+<lb ed="#V" n="3"/>prolixe expositum est <ref xml:id="mm30o9-d1e1683-Rd1e2136">supra q. 9.</ref>
+            </p>
+            <!--</div>
+<div alias="lycht-l2d2q11-p3">-->
+            <p xml:id="mm30o9-d1e1683-d1e2142">
+               <lb ed="#L" n="76" type="fixed=559"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e2147">
+               <lb ed="#V" n="77"/>(a) Dico ergo ad questionem, etc. Hic
+<lb ed="#V" n="78"/>Doctor probat, quod non est necesse po- ,
+<lb ed="#V" n="79"/>nere tempus discretum, vel instans 
+tem<lb ed="#V" break="no" n="80"/>poris discreti mensurans motum localem
+<lb ed="#V" n="81"/>Angeli, quia ita :eque bene potest. salvari
+<lb ed="#V" n="82"/>talis mensura per tempus continuum in,
+<lb ed="#V" n="83"/>communi. Sicut enim oportet eos dicere,
+<lb ed="#V" n="84"/>quod si transeat in instanti, non potest 
+im<lb ed="#V" break="no" n="85"/>mediate habere alium transitum, ita quod
+<lb ed="#V" n="86"/>«i Angelus instantanee transit ad unum
+<pb ed="#L" n="560"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>locum, non potest postea immediate et
+<lb ed="#V" n="2"/>instantanee transire ad alium locum, ita
+<lb ed="#V" n="3"/>potest poni, si transeat instantanee in 
+in<lb ed="#V" break="no" n="4"/>stanti temporis continul, ita quod licet
+<lb ed="#V" n="5"/>post illud instans possit habere motum
+<lb ed="#V" n="6"/>continuum in tempore habito, non tamen
+<lb ed="#V" n="7"/>potest habere transitum instantaneum 
+im<lb ed="#V" break="no" n="8"/>mediatum ; non ergo est inconveniens 
+po<lb ed="#V" break="no" n="9"/>nere Angelum inquantum participat 
+con<lb ed="#V" break="no" n="10"/>ditionem corporalem, id est, quae potest
+<lb ed="#V" n="11"/>esse ejusdem rationis aliquomodo in ipso
+<lb ed="#V" n="12"/>et etiam in corpore, quod etiam participet
+<lb ed="#V" n="13"/>mensuram corporis aliquomodo. 
+Inquan<lb ed="#V" break="no" n="14"/>tum autem movetur localiter participat
+<lb ed="#V" n="15"/>ubi, quod est conditio et passio corporalis
+<lb ed="#V" n="16"/>aliquo modo ejusdem rationis in ipso et
+<lb ed="#V" n="17"/>in corpore, quia sicut corpus acquirit ub?
+<lb ed="#V" n="18"/>motu continuo, ita et Angelus, ut supra
+<lb ed="#V" n="19"/>patuit in <ref xml:id="mm30o9-d1e1683-Rd1e2216">9. q.</ref> et sicut corpus fit praesens
+<lb ed="#V" n="20"/>per motum tali spatio, ita et Angelus, 
+li<lb ed="#V" break="no" n="21"/>cet in hoc differant, quia corpus est in
+<lb ed="#V" n="22"/>loco circeumscriptive, Angelus vero tantum
+<lb ed="#V" n="23"/>definitive ; cum ergo illi motus sint 
+simi<lb ed="#V" break="no" n="24"/>les, et quasi ejusdem rationis, sequitur
+<lb ed="#V" n="25"/>quod sicut motus localis corporis 
+mensu<lb ed="#V" break="no" n="26"/>ratur tempore communi, ita et motus 
+lo<lb ed="#V" break="no" n="27"/>calis Angeli.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e2236">
+               <lb ed="#V" n="28"/>(b) Et si objicias, quod. Angelus potest
+<lb ed="#V" n="29"/>moveri stante colo, ergo non oportet 
+mo<lb ed="#V" break="no" n="30"/>tum ejus esse in tempore communi, sive
+<lb ed="#V" n="31"/>mensurari tempore communi, quod 
+tem<lb ed="#V" break="no" n="32"/>pus commune est primo mensura motus
+<lb ed="#V" n="33"/>primi mobilis.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e2252">
+               <lb ed="#V" n="34"/>(c) Respondeo, ita stante celo, etc. 
+No<lb ed="#V" break="no" n="35"/>ta in ista littera singulare dictum, scilicet
+<lb ed="#V" n="36"/>quod tempus nostrum est duplex, et est
+<lb ed="#V" n="37"/>illud quod mensurat motum primi 
+mobi<lb ed="#V" break="no" n="38"/>lis, quia motus est causa temporis, ut
+<lb ed="#V" n="39"/>patet <ref xml:id="mm30o9-d1e1683-Rd1e2267">4. P/ysic. t. c. 99. et 109</ref>. Et 
+tem<lb ed="#V" break="no" n="40"/>pus potentiale, et est illud quod 
+mensu<lb ed="#V" break="no" n="41"/>ret quietem primi mobilis, quia dicimus
+<lb ed="#V" n="42"/>quod quando quiescit, puta per 
+imagina<lb ed="#V" break="no" n="43"/>tionem nostram per horam, si motum
+<lb ed="#V" n="44"/>fuisset per illam horam, tantum motum
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>perfecisset ; et quia tantus motus actualis
+<lb ed="#V" n="46"/>mensuratur tanto tempore actuali, ideo
+<lb ed="#V" n="47"/>dicimus quod tempus potentiale mensurat
+<lb ed="#V" n="48"/>quietem. Et sicut alias visum est, quod
+<lb ed="#V" n="49"/>motus universalis sive primi mobilis est
+<lb ed="#V" n="50"/>quodammodo mensura omnium motuum
+<lb ed="#V" n="51"/>particularium, ita tempus mensurans 
+il<lb ed="#V" break="no" n="52"/>lum motum erit mensura extrinseca 
+motu<lb ed="#V" break="no" n="53"/>um particularium, sed intrinseca motus
+<lb ed="#V" n="54"/>universalis, sic dico de tempore 
+potentia<lb ed="#V" break="no" n="55"/>li, quod erit mensura intrinseca quietis
+<lb ed="#V" n="56"/>primi mobilis modo praeexposito, et 
+ex<lb ed="#V" break="no" n="57"/>trinseca motus et quietis particularis.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e2311">
+               <lb ed="#V" n="58"/>(d) Hoc ergo supposito. Respondet quod M
+<lb ed="#V" n="59"/>talis mutatio potest dupliciter intelligi, ;
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e2318">
+               <lb ed="#V" n="60"/>vel quod includat totam realitatem — 
+mo<lb ed="#V" break="no" n="61"/>tus, vel quod praecise includat realitatem
+<lb ed="#V" n="62"/>termini motus. Exemplum primi, si A, ab
+<lb ed="#V" n="63"/>ubi B moveatur usque ad ubi C, inter
+<lb ed="#V" n="64"/>quae duo ubi sint mille ubi, sic quod 
+pos<lb ed="#V" break="no" n="65"/>sit instantanee moveri a P ad C, ita quod
+<lb ed="#V" n="66"/>habeat omnia illa ubi intermedia. 
+Exem<lb ed="#V" break="no" n="67"/>plum secundi, puta, quod a D 
+immedia<lb ed="#V" break="no" n="68"/>tefiatin C, non transeundo ubi intermedia
+<lb ed="#V" n="69"/>sive non simul habendo illa. Primo modo
+<lb ed="#V" n="70"/>contradicendo secundi opinioni, non 
+vi<lb ed="#V" break="no" n="71"/>deo qualiter Angelus virtute naturali 
+pos<lb ed="#V" break="no" n="72"/>sit moveri in instanti, quia non videtur
+<lb ed="#V" n="73"/>quod virtute sua naturali possit habere
+<lb ed="#V" n="74"/>plura ubi aequalia, sed secundo modo,
+<lb ed="#V" n="75"/>non videtur inconveniens, etc.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e2356">
+               <lb ed="#V" n="76"/>(e) Ad argumentum in oppositum dico.
+<lb ed="#V" n="77"/>Quia ista littera est satis obscura, ut clarius
+<lb ed="#V" n="78"/>intelligatur, notanda sunt aliqua. Primo 
+prae<lb ed="#V" break="no" n="79"/>nittendo unum argumentum : 
+Quacum<lb ed="#V" break="no" n="80"/>que virtus potest movere Á in aliqua 
+men<lb ed="#V" break="no" n="81"/>sura divisibili, puta in hora, major unitas
+<lb ed="#V" n="82"/>potest movere in minori mensura ; sed 
+An<lb ed="#V" break="no" n="83"/>gcelus per te potest movere seipsum vel
+<lb ed="#V" n="84"/>aliquid aliud in instanti, ergo major 
+vir<lb ed="#V" break="no" n="85"/>tus, puta infinita, poterit movere in 
+mi<lb ed="#V" break="no" n="86"/>nori mensura, quam sit mensura 
+instan<lb ed="#V" break="no" n="87"/>tis. Consequens est contra Aristotelem
+<lb ed="#V" n="88"/>ubi supra. Secundo nota, quod major pro-
+<pb ed="#L" n="561"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>positio est vera ex natura rei, et sequitur
+<lb ed="#V" n="2"/>ex illa majori, quod si potest aliqua virtus
+<lb ed="#V" n="3"/>movere in aliqua mensura divisibili, quod
+<lb ed="#V" n="4"/>maxima virtus poterit movere in minima
+<lb ed="#V" n="5"/>mensura indivisibilis, scilicet in instanti ;
+<lb ed="#V" n="6"/>ista autem propositio : aliqua virtus 
+po<lb ed="#V" break="no" n="7"/>test movere in. instanti, non est vera ex
+<lb ed="#V" n="8"/>natura rei, sed tantum ex suppositione,
+<lb ed="#V" n="9"/>scilicet supposito quod motus posset fieri
+<lb ed="#V" n="10"/>in instanti, cum tamen fiat in tempore, ut
+<lb ed="#V" n="11"/>patet. Dicit eezo Doctor quod si major 
+vir<lb ed="#V" break="no" n="12"/>tus movet in tempore, ergo maxima 
+mo<lb ed="#V" break="no" n="13"/>vet in instanti ; quod ista consequentia
+<lb ed="#V" n="14"/>est vera, supposito quod motus possit 
+fie<lb ed="#V" break="no" n="15"/>ri in instanti ; major ergo primi 
+syllogis<lb ed="#V" break="no" n="16"/>mi est vera ex natura rei ; et si 
+adda<lb ed="#V" break="no" n="17"/>turista minor illi majori : Sed virtus 
+An<lb ed="#V" break="no" n="18"/>geli potest movere in instanti, ista minor
+<lb ed="#V" n="19"/>est vera ex suppositione; ergo virtus 
+in<lb ed="#V" break="no" n="20"/>finita posset movere in minori mensura
+<lb ed="#V" n="21"/>quam in instanti, conlusio falsa. Dico
+<lb ed="#V" n="22"/>quod non est mirum, quod sequatur 
+con<lb ed="#V" break="no" n="23"/>clusio falsa ex minori simpliciter falsa, et
+<lb ed="#V" n="24"/>hoc est quod dicit Doctor. Consequentia
+<lb ed="#V" n="25"/>Aristotelis est ista : si major virtus 
+mo<lb ed="#V" break="no" n="26"/>vet in tempore ; ergo maxima movet in
+<lb ed="#V" n="27"/>instanti,
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e2450">
+               <lb ed="#V" n="28"/>In antecedente, puta Aristotelis, 
+inclu<lb ed="#V" break="no" n="29"/>ditur mensuram esse divisibilem, per hoc
+<lb ed="#V" n="30"/>quod ponitur in eo, supple in antecedente.
+<lb ed="#V" n="31"/>Sequitur : In quacumque autem mensura
+<lb ed="#V" n="32"/>divisibili potest aliqua virtus aliquid. 
+fa<lb ed="#V" break="no" n="33"/>cere, major potest facere in minori, et sic
+<lb ed="#V" n="34"/>bene sequitur, quod maxima virtus 
+pote<lb ed="#V" break="no" n="35"/>rit facere in instanti, quod instans est
+<lb ed="#V" n="36"/>minima mensura ; et hoc quia mensura in
+<lb ed="#V" n="37"/>antecedente est divisibilis semper, 
+sequi<lb ed="#V" break="no" n="38"/>tur quod major virtus poterit facere in
+<lb ed="#V" n="39"/>minori mensura, et maxima in 
+indivisi<lb ed="#V" break="no" n="40"/>bili.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e2481">
+               <lb ed="#V" n="41"/>Sequitur : sed. in isto antecedente. 
+An<lb ed="#V" break="no" n="42"/>gelus mutatur in. indivisibili, non 
+inclu<lb ed="#V" break="no" n="43"/>ditur esse divisibile, quia si arguatur sic,
+<lb ed="#V" n="44"/>virtus ut octo potest mutari in instanti ;
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>ergo major virtus potest mutari in minori
+<lb ed="#V" n="46"/>mensura, non sequitur, quia mensura in
+<lb ed="#V" n="47"/>antecedente est omnino indivisibilis.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e2501">
+               <lb ed="#V" n="48"/>Sequitur : Haec igitur consequentia, etc.
+<lb ed="#V" n="49"/>Declarat Doctor majorem inclusam in ista
+<lb ed="#V" n="50"/>consequentia : si aliqua virtus movet in
+<lb ed="#V" n="51"/>instanti ; ergo major potest moveri in 
+mi<lb ed="#V" break="no" n="52"/>nori. Et haec consequentia tenet in virtute
+<lb ed="#V" n="53"/>hujus majoris vere ex natura rei, scilicet
+<lb ed="#V" n="54"/>quidquid. causat aliqua virtus in mensura
+<lb ed="#V" n="55"/>divisibili, major virtus potest. causare in
+<lb ed="#V" n="56"/>mensura minori. Sed minor, quae erit ibi
+<lb ed="#V" n="57"/>sumenda sub illa majore vera, non est vera
+<lb ed="#V" n="58"/>ex natura vei, sed tantum ex hypothesi 
+is<lb ed="#V" break="no" n="59"/>(a, scilicet quod motus est in instanti ; sed
+<lb ed="#V" n="60"/>ex ista minore falsa, scilicet. sed Angelus
+<lb ed="#V" n="61"/>movet in instanti, sequitur ista conclusio
+<lb ed="#V" n="62"/>falsa ; ergo major virtus movet in minori
+<lb ed="#V" n="63"/>quam in instanti. Sequitur :
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e2538">
+               <lb ed="#V" n="64"/>Si autem dicatur. Angelum mutari in
+<lb ed="#V" n="65"/>instanti. Dicit Doctor hic, si loquamur
+<lb ed="#V" n="66"/>modo de mutatione quae fit in instanti, et
+<lb ed="#V" n="67"/>non de motu qui fit in tempore, et 
+argu<lb ed="#V" break="no" n="68"/>atur sic : Angelus mutat aliquid in 
+instan<lb ed="#V" break="no" n="69"/>ti; ergo major virtus mutat in minori
+<lb ed="#V" n="70"/>mensura. Dicit Doctor infra ibi : minor,
+<lb ed="#V" n="71"/>que ibi erit sumenda sub majori illa vera ,
+<lb ed="#V" n="72"/>illa major est illa, quae est posita in 
+prin<lb ed="#V" break="no" n="73"/>cipio syllogismi. Sequitur : non erit vera
+<lb ed="#V" n="74"/>ex natura rei, nec ex hypothesi, nam sub
+<lb ed="#V" n="75"/>illa majori possem facere duas majores.
+<lb ed="#V" n="76"/>Primo istam : sed Angelus movet in 
+iu<lb ed="#V" break="no" n="77"/>stanti, quia est vera tantum ex 
+hypothe<lb ed="#V" break="no" n="78"/>sl, et tunc sequitur quod sicut motus est
+<lb ed="#V" n="79"/>divisibilis, ita mensura illa instantanea
+<lb ed="#V" n="80"/>est divisibilis, quia mensura et 
+mensura<lb ed="#V" break="no" n="81"/>tum sunt unigenea, et ideo bene sequitur
+<lb ed="#V" n="82"/>ista conclusio falsa ; ergo iniinita 
+vir<lb ed="#V" break="no" n="83"/>tus potest movere in minori quam in
+<lb ed="#V" n="84"/>instanti. Secunda minor est ista : sed
+<lb ed="#V" n="85"/>Angelus potest mutare aliquid in instanti,
+<lb ed="#V" n="86"/>ita quod sit ibi tantum mutatio indivisibi -
+<lb ed="#V" n="87"/>lis, quia in majori accipitur mensura 
+di<lb ed="#V" break="no" n="88"/>visibilis, in minori etiam accipitur divisi-
+<pb ed="#L" n="562"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>bilis, et haec minor est falsa ex natura rei,
+<lb ed="#V" n="2"/>scilicet mutatio mensuretur instanti 
+divi<lb ed="#V" break="no" n="3"/>sibili, et etiam ex hypothesi, quia non 
+sup<lb ed="#V" break="no" n="4"/>ponitur mutationem mensurari mensura
+<lb ed="#V" n="5"/>divisibili ; et sic non sequitur conclusio
+<lb ed="#V" n="6"/>vera, nec ex natura rei, nec ex hypothesi,
+<lb ed="#V" n="7"/>scilicet ergo virtus infinita potest aliquid
+<lb ed="#V" n="8"/>mutare mutatione proprie dicta, in minori
+<lb ed="#V" n="9"/>mensura quam in instanti.
+</p>
+            <p xml:id="mm30o9-d1e1683-d1e2619">
+               <lb ed="#V" n="10"/>Sequitur : Et ex hoc patet, quod. 
+mul<lb ed="#V" break="no" n="11"/>tae consequentiae enthymematice (ut ista
+<lb ed="#V" n="12"/>consequentia : aliquid movet in instanti,
+<lb ed="#V" n="13"/>ergo major virtus movet in minori) tenent
+<lb ed="#V" n="14"/>non praecise virtute alicujus vere 
+sub<lb ed="#V" break="no" n="15"/>intellectae, puta istius : quidquid movet
+<lb ed="#V" n="16"/>aliqua virtus in mensura divisibili, major
+<lb ed="#V" n="17"/>virtus potest movere in minori. Sed 
+quan<lb ed="#V" break="no" n="18"/>documque virtute alicujus false 
+subin<lb ed="#V" break="no" n="19"/>tellecte, puta istius : sed Angelus movet
+<lb ed="#V" n="20"/>aliquod in instanti, ergo major virtus in
+<lb ed="#V" n="21"/>minori mensura. Sequitur : dum tamen
+<lb ed="#V" n="22"/>includatur in illo antecedente, supple 
+il<lb ed="#V" break="no" n="23"/>la minor, nam in isto antecedente : 
+Quid<lb ed="#V" break="no" n="24"/>quid potest movere aliqua virtus in 
+men<lb ed="#V" break="no" n="25"/>sura divisibili, major virtus potest 
+move<lb ed="#V" break="no" n="26"/>rein minori, includitur quod motus 
+pos<lb ed="#V" break="no" n="27"/>sit fieri in instanti, quae est minor ; et 
+pa<lb ed="#V" break="no" n="28"/>tet, quia si major virtus in minori 
+men<lb ed="#V" break="no" n="29"/>sura potest movere, maxima poterit 
+mo<lb ed="#V" break="no" n="30"/>vere in instanti. Et ideo nota, quae dicit
+<lb ed="#V" n="31"/>
+               <ref xml:id="mm30o9-d1e1683-Rd1e2668">Doctor in primo, dist. 2. q. 4.</ref> glossando
+<lb ed="#V" n="32"/>dictum <ref xml:id="mm30o9-d1e1683-Rd1e2673">Aristotelis 8. PAys. t. 19.</ref> quod si
+<lb ed="#V" n="33"/>esset virtus infinita moveret in non 
+tem<lb ed="#V" break="no" n="34"/>pore, quia major virtus movet in minori
+<lb ed="#V" n="35"/>tempore ; ergo infinita movebit in non
+<lb ed="#V" n="36"/>tempore, Vide ibi.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

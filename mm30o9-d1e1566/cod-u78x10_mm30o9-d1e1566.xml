@@ -1,0 +1,2105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#per-FLBca3">Franciscus Lychetus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2024-08-24">August 24, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 11</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="213"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="mm30o9-d1e1566"><!-- lycht-l2d2q1-p1 -->
+        <head xml:id="mm30o9-d1e1566-Hd1e101">Quaestio 1</head>
+        <p xml:id="mm30o9-d1e1566-d1e103">
+          <lb ed="#L" n="79" type="fixed=213"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e108">
+          <lb ed="#V" n="80"/>(a) Titulus quaestionis sic intelligitur: an
+          <lb ed="#V" n="81"/>existentia actualis Angeli mensuretur 
+          ali<lb ed="#V" break="no" n="82"/>qua mensura propria sibi? sicut dicimus
+          <lb ed="#V" n="83"/>quod existentia Dei mensuratur :
+          eternita<lb ed="#V" break="no" n="84"/>te ut mensura intrinseca et propria sibi,
+          <lb ed="#V" n="85"/>et temporale mensuratur tempore, 
+          tan<lb ed="#V" break="no" n="86"/>quam mensura propria et intrinseca 
+          mo<lb ed="#V" break="no" n="87"/>tus inexistentis tali. temporali.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e128">
+          <pb ed="#L" n="214"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>(b) Contra, non necesse est. 
+          Ar<lb ed="#V" break="no" n="2"/>guit primo probans mensuram 
+          Ange<lb ed="#V" break="no" n="3"/>li esse vere successivam, et primum
+          <lb ed="#V" n="4"/>argumentum stat in hoc : unus Angelus
+          <lb ed="#V" n="5"/>potest esset prior alio, et potest simul
+          <lb ed="#V" n="6"/>existere cum alio; ergo esse ipsius 
+          An<lb ed="#V" break="no" n="7"/>geli mensuratur mensura successiva. 
+          An<lb ed="#V" break="no" n="8"/>tecedens patet, quia potuit unus Angelus
+          <lb ed="#V" n="9"/>creari alio non creato, et post potuit alius
+          <lb ed="#V" n="10"/>creari, et sic ille primus coexisteret 
+          se<lb ed="#V" break="no" n="11"/>cundo. Consequentia patet, quia 
+          existen<lb ed="#V" break="no" n="12"/>tia Angeli, ut est prior existentia 
+          alte<lb ed="#V" break="no" n="13"/>rius Angeli, mensuratur aliquo ne, et
+          <lb ed="#V" n="14"/>ut post est, simul mensuratur alio nunc,
+          <lb ed="#V" n="15"/>succedente priori nunc; ergo existentia
+          <lb ed="#V" n="16"/>prioris Angeli mensuratur mensura 
+          suc<lb ed="#V" break="no" n="17"/>cessiva.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e172">
+          <lb ed="#V" n="18"/>(c) Secundum argumentum ibi: 
+          Prae<lb ed="#V" break="no" n="19"/>terea Angelus potest annihilari, etc. stat
+          <lb ed="#V" n="20"/>in hoc: Si existentia Angeli non 
+          men<lb ed="#V" break="no" n="21"/>suratur mensura successiva, ergo 
+          con<lb ed="#V" break="no" n="22"/>tradictoria possunt verificari de eodem.
+          <lb ed="#V" n="23"/>Patet consequentia, ponendo talem casum:
+          <lb ed="#V" n="24"/>Angelus nunc habet esse, et post 
+          anni<lb ed="#V" break="no" n="25"/>hiletur, quaero tunc esse ipsius Angeli,
+          <lb ed="#V" n="26"/>et non esse ipsius Angeli, aut. sunt in alio
+          <lb ed="#V" n="27"/>et alio nunc :svl, et sic erit mensura
+          <lb ed="#V" n="28"/>successiva; aut sunt in alio et alio nunc
+          <lb ed="#V" n="29"/>temporis, et hoc non, quia non 
+          poni<lb ed="#V" break="no" n="30"/>tur mensurari tempore; aut sunt in 
+          eo<lb ed="#V" break="no" n="31"/>dem «unc temporis vel cevi non primo,
+          <lb ed="#V" n="32"/>nec secundo, quia tunc contradictoria 
+          ve<lb ed="#V" break="no" n="33"/>rificarentur de eodem, videlicet quod 
+          es<lb ed="#V" break="no" n="34"/>se Angeli, et non esse ipsius 
+          verificaren<lb ed="#V" break="no" n="35"/>tur de Angelo pro eodem nunc, nec est
+          <lb ed="#V" n="36"/>dicendum de nunc aeternitatis, quia 
+          An<lb ed="#V" break="no" n="37"/>zelus non mensuratur aeternitate, nec 
+          sic<lb ed="#V" break="no" n="38"/>ut creatur proprie in mune aeternitatis,
+          <lb ed="#V" n="39"/>ita non annihilatur proprie in »Ac 
+          zeter<lb ed="#V" break="no" n="40"/>nitatis; oportet ergo dicere, quod in alio
+          <lb ed="#V" n="41"/>nunc sevi habeat esse, et in alio 
+          anni<lb ed="#V" break="no" n="42"/>hiletur, et sic aevum erit mensura 
+          suc<lb ed="#V" break="no" n="43"/>cessiva.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e232">
+          <lb ed="#V" n="44"/>(d) Item aliquis Angelus potest esse
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>creatus, etc. Argumentum stat in hoc;
+          <lb ed="#V" n="46"/>pono quod Angelus A nunc  creetur,
+          <lb ed="#V" n="47"/>existentia A mensuratur nunc :evl; 
+          se<lb ed="#V" break="no" n="48"/>cundo annihiletur, certum est quod nunc
+          <lb ed="#V" n="49"/>mensurans existentiam illam annihilatur.
+          <lb ed="#V" n="50"/>Tertio, reparetur, quaero tunc 
+          existen<lb ed="#V" break="no" n="51"/>tia Angeli reparata mensuratur nunc svi,
+          <lb ed="#V" n="52"/>aut eodem mune quo mensurabatur 
+          exi<lb ed="#V" break="no" n="53"/>stentia prius creata aut alia. Si secundo
+          <lb ed="#V" n="54"/>modo; ergo successio. Non primo, quia
+          <lb ed="#V" n="55"/>aliter ita esset aliquod interruptum, sicut
+          <lb ed="#V" n="56"/>non interruptum ; sequitur ergo quod alio
+          <lb ed="#V" n="57"/>et alio nunc, et si sic, sequitur quod
+          <lb ed="#V" n="58"/>si existentia illius Angeli nullo modo
+          <lb ed="#V" n="59"/>esset interrupta, quod alio et alio unc
+          <lb ed="#V" n="60"/>mensuraretur.
+        </p>
+        <!--</div>
+          <div xml:id="mm30o9-d1e1577">lycht-l2d2q1-p2-->
+        <p xml:id="mm30o9-d1e1566-d1e276">
+          <cb ed="#V" n="b"/>
+          <lb ed="#L" n="6" type="fixed=218"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e283">
+          <lb ed="#V" n="7"/>(a) Hic dicitur. Circa mensuram Angeli
+          <lb ed="#V" n="8"/>tres sunt opiniones diversae : prima est
+          <lb ed="#V" n="9"/>
+          <ref xml:id="mm30o9-d1e1566-Rd1e291">S. Bonaventure lib. 2. dist. 2. art. 4.
+            <lb ed="#V" n="10"/>q. 3.</ref> Hic dicitur quod $m existentia
+          <lb ed="#V" n="11"/>Angeli est successio formaliter, et stat
+          <lb ed="#V" n="12"/>in hoc quod existentia Angeli, puta
+          <lb ed="#V" n="13"/>durantis tanta duratione, puta infinita
+          <lb ed="#V" n="14"/>a parte post mensuratur mensura 
+          suc<lb ed="#V" break="no" n="15"/>cessiva sibi propria, sic intelligendo
+          <lb ed="#V" n="16"/>quod mensura Angeli ex hoc dicitur
+          <lb ed="#V" n="17"/>successiva, quia unum ounce svi 
+          im<lb ed="#V" break="no" n="18"/>mediate sequitur aliud nunc svi, puta
+          <lb ed="#V" n="19"/>Si existentia Angeli duret per viginti
+          <lb ed="#V" n="20"/>instantia, dicit S. Bonaventura, quod
+          <lb ed="#V" n="21"/>talis. existentia Angeli in primo  
+          in<lb ed="#V" break="no" n="22"/>stanti mensuratur unc, sive instanti
+          <lb ed="#V" n="23"/>evi, quod est indivisibile ; et in 
+          se<lb ed="#V" break="no" n="24"/>cundo instanti mensuratur alio nunc
+          <lb ed="#V" n="25"/>cvl indivisibili; quod immediate 
+          sequi<lb ed="#V" break="no" n="26"/>tur primum unc ; et in tertio 
+          in<lb ed="#V" break="no" n="27"/>stanti mensuratur alio mune evi, ita
+          <lb ed="#V" n="28"/>quod cujuseumque instantis existentis
+          <lb ed="#V" n="29"/>Angeli correspondet proprium nunc, et
+          <lb ed="#V" n="30"/>sic totum aevum Angeli durantis per
+          <lb ed="#V" n="31"/>viginti instantia, vocatur successivum,
+          <lb ed="#V" n="32"/>cum sint ibi viginti instantia svi sibi
+          <lb ed="#V" n="33"/>invicem succedentia, et sic totum «
+          z<lb ed="#V" break="no" n="34"/>vum Angeli, quod sempiternaliter 
+          du<lb ed="#V" break="no" n="35"/>rat a parte post, includit infinita 
+          in<lb ed="#V" break="no" n="36"/>stantia avi a parte post, sibi 
+          invi<lb ed="#V" break="no" n="37"/>cem succedentia ; et sic patet opinio
+          <lb ed="#V" n="38"/>S. Bonaventure, quam multis 
+          rationi<lb ed="#V" break="no" n="39"/>bus probat, qnarum prima est ibi:
+          <lb ed="#V" n="40"/>Pro ista opinione arguitur. 
+          quadrupli<lb ed="#V" break="no" n="41"/>citer.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e364">
+          <lb ed="#V" n="42"/>(b) Pro prima opinione, Prima ra-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="43"/>tio stat in hoc : supponendo quod
+          <lb ed="#V" n="44"/>existentia Angeli conservetur, et quod
+          <lb ed="#V" n="45"/>continue fiat, sic tamen intelligendo,
+          <lb ed="#V" n="46"/>quod Angelus in primo instanti habet
+          <lb ed="#V" n="47"/>totum suum esse perfectum, et in 
+          se<lb ed="#V" break="no" n="48"/>cundo instanti quantum est ex parte
+          <lb ed="#V" n="49"/>sua desineret esse, nisi a prima 
+          cau<lb ed="#V" break="no" n="50"/>sa iterum poneretur in esse; et 
+          simili<lb ed="#V" break="no" n="51"/>ter in tertio instanti, quantum ex se
+          <lb ed="#V" n="52"/>est non esset nisi a prima causa
+          <lb ed="#V" n="53"/>poneretur in esse pro tertio instanti,
+          <lb ed="#V" n="54"/>et sic deinceps, et hoc modo debet
+          <lb ed="#V" n="55"/>intelligi continue fieri, ita quod pro
+          <lb ed="#V" n="56"/>quolibet instanti habet. perfectum esse,
+          <lb ed="#V" n="57"/>et nisi pro quolibet instanti poneretur
+          <lb ed="#V" n="58"/>in esse ex parte sua semper haberet
+          <lb ed="#V" n="59"/>non esse; cum ergo existentia 
+          creatu<lb ed="#V" break="no" n="60"/>re ponatur in esse in alio et: alio
+          <lb ed="#V" n="61"/>instanti vel actione, puta creatione
+          <lb ed="#V" n="62"/>passiva sive continua, sive alia et
+          <lb ed="#V" n="63"/>alia, sequitur quod illa creatio passiva
+          <lb ed="#V" n="64"/>per centum instantia, dicitur 
+          succes<lb ed="#V" break="no" n="65"/>Siva, quia creatio passiva, vel eadem
+          <lb ed="#V" n="66"/>continuatur, vel quod una in uno 
+          in<lb ed="#V" break="no" n="67"/>stanti succedat alteri in alio instanti;
+          <lb ed="#V" n="68"/>igitar aevum  mensurans M hujusmodi
+          <lb ed="#V" n="69"/>creationem  passivam, secundum quam
+          <lb ed="#V" n="70"/>existentia Angeli ponitur in alio et
+          <lb ed="#V" n="71"/>alio instanti, dicitur successivum 
+          mo<lb ed="#V" break="no" n="72"/>do praeexposito, in declarando 
+          opinio<lb ed="#V" break="no" n="73"/>nem sancti Bonaventure.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e438">
+          <lb ed="#V" n="74"/>(c) Confirmatur. Ista confirmatione
+          <lb ed="#V" n="75"/>probat Bonaventura, quod conservare
+          <lb ed="#V" n="76"/>dicat aliquam -actionem — sic, quod si
+          <lb ed="#V" n="77"/>Deus creat Angelum in primo instanti,
+          <lb ed="#V" n="78"/>eü ipsum conservat in secundo 
+          in<lb ed="#V" break="no" n="79"/>stanti, illud conservare est agere, quod
+          <lb ed="#V" n="80"/>nihil aliud est nisi iterum producere
+          <lb ed="#V" n="81"/>Angelum in secundo instanti, et sic
+          <lb ed="#V" n="82"/>deinceps. Et sicut conservare dicit
+          <lb ed="#V" n="83"/>actionem, ita et conservari in 
+          secun<lb ed="#V" break="no" n="84"/>do instanti dicit passionem suo modo,
+          <lb ed="#V" n="85"/>id est, quod sicut conservare Angelum
+          <lb ed="#V" n="86"/>in secundo instanti est ipsum ponere
+          <pb ed="#L" n="219"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>in esse existentiae pro illo secundo
+          <lb ed="#V" n="2"/>instanti, ita et Angelum conservari in
+          <lb ed="#V" n="3"/>secundo instanti, est ipsum ponl 
+          ac<lb ed="#V" break="no" n="4"/>tione agentis in actuali existentia in
+          <lb ed="#V" n="5"/>illo secundo instanti, et sic patet
+          <lb ed="#V" n="6"/>quomodo conservat lumen, qui non
+          <lb ed="#V" n="7"/>claudit fenestram. Certum est enim,
+          <lb ed="#V" n="8"/>quod lumen conservatur a corpore 
+          lu<lb ed="#V" break="no" n="9"/>minoso, quando intrat aliquam  
+          do<lb ed="#V" break="no" n="10"/>mum, quia continue multiplicat 
+          lu<lb ed="#V" break="no" n="11"/>men, et si per instans desineret 
+          mul<lb ed="#V" break="no" n="12"/>tiplicare, ipsum continuando, statim
+          <lb ed="#V" n="13"/>lumen desineret esse; non 
+          conserva<lb ed="#V" break="no" n="14"/>tur ergo a non claudente fenestram,
+          <lb ed="#V" n="15"/>sed a corpore luminoso ipsum lumen,
+          <lb ed="#V" n="16"/>vel eadem actione continuando, vel
+          <lb ed="#V" n="17"/>alia et alia actione pro alio et alio
+          <lb ed="#V" n="18"/>instanti ipsum in esse ponendo.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e513">
+          <lb ed="#V" n="19"/>(d) Similiter tunc annihilare esset
+          <lb ed="#V" n="20"/>actio positiva, quod falsum est. Hic
+          <lb ed="#V" n="21"/>Bonaventura probat per locum ab 
+          op<lb ed="#V" break="no" n="22"/>positis, quod conservare sit vere 
+          age<lb ed="#V" break="no" n="23"/>re, et ratio stat in hoc, quia cum
+          <lb ed="#V" n="24"/>conservare et annihilare ad invicem
+          <lb ed="#V" n="25"/>opponantur, si conservare non dicat
+          <lb ed="#V" n="26"/>aliquam actionem — positivam ; ergo
+          <lb ed="#V" n="27"/>annihilare dicit aliquam — actionem 
+          po<lb ed="#V" break="no" n="28"/>sitivam, quod falsum est, quia 
+          an<lb ed="#V" break="no" n="29"/>nihilare nihil aliud est nisi non agere,
+          <lb ed="#V" n="30"/>quod etiam apparet ex hoc, supple,
+          <lb ed="#V" n="31"/>quod conservare sit agere, quia nulla
+          <lb ed="#V" n="32"/>creatura est in esse suo ipndependens,
+          <lb ed="#V" n="33"/>quia nec actus purus; Igitur 
+          conti<lb ed="#V" break="no" n="34"/>nue in essendo dependet a causa.
+          <lb ed="#V" n="35"/>Nam sicut aliquid simpliciter et 
+          essen<lb ed="#V" break="no" n="36"/>tialiter dependet ab alio in essendo,
+          <lb ed="#V" n="37"/>loquendo semper de causis 
+          essentiali<lb ed="#V" break="no" n="38"/>ter ordinatis, ita et quantum ad sui
+          <lb ed="#V" n="39"/>permanentiam dependet, et sic 
+          conti<lb ed="#V" break="no" n="40"/>nue in essendo dependet a causa, et
+          <lb ed="#V" n="41"/>non tantum a causa, quia dedit esse,
+          <lb ed="#V" n="42"/>et modo non dat, quia tunc 
+          conser<lb ed="#V" break="no" n="43"/>vare nihil esset nisi prius egisse, et
+          <lb ed="#V" n="44"/>modo non destruere.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e572">
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>(e) Si concedantur omnia ista, etc.
+          <lb ed="#V" n="46"/>Haec littera stat in hoc, si quis 
+          con<lb ed="#V" break="no" n="47"/>cederet quod conservare esset positive
+          <lb ed="#V" n="48"/>agere, et tamen diceret quod Deus 
+          ea<lb ed="#V" break="no" n="49"/>dem  actione, qua produxit Angelum
+          <lb ed="#V" n="50"/>in primo instanti, conservat pro 
+          quo<lb ed="#V" break="no" n="51"/>libet instanti consequenti, ita quod
+          <lb ed="#V" n="52"/>illa actio non potest dici continua, 
+          pa<lb ed="#V" break="no" n="53"/>tet quia non est ibi forma secundum
+          <lb ed="#V" n="54"/>quam  continuetur, Unde pro clariori
+          <lb ed="#V" n="55"/>intelligentia, nota quod aliquando actio
+          <lb ed="#V" n="56"/>dicitur continua non ex sua actione,
+          <lb ed="#V" n="57"/>sed ex hoc quod forma, quae 
+          acqui<lb ed="#V" break="no" n="58"/>ritur per talem actionem — acquiritur
+          <lb ed="#V" n="59"/>successive, sicut calor ut decem  
+          cau<lb ed="#V" break="no" n="60"/>satur in igne successive, ita quod
+          <lb ed="#V" n="61"/>una pars post illam. Aliquando dicitur .
+          <lb ed="#V" n="62"/>continua, non quod forma quia 
+          ac<lb ed="#V" break="no" n="63"/>quiritur per talem actionem sit in se
+          <lb ed="#V" n="64"/>continua et divisibilis, sed ex hoc,
+          <lb ed="#V" n="65"/>quod eadem forma vel existentia 
+          il<lb ed="#V" break="no" n="66"/>lius continuatur in alio et alio 
+          in<lb ed="#V" break="no" n="67"/>stanti, ipsam  producendo in alio et
+          <lb ed="#V" n="68"/>alio instanti, ut si Deus una actione
+          <lb ed="#V" n="69"/>positiva produceret Angelum in alio et
+          <lb ed="#V" n="70"/>alio instanti, «continuando ipsum, et
+          <lb ed="#V" n="71"/>tali actioni continue correspondeat 
+          for<lb ed="#V" break="no" n="72"/>ma continua et divisibilis; non 
+          divisi<lb ed="#V" break="no" n="73"/>bilis in suo esse, sed ex hoc 
+          divisibi<lb ed="#V" break="no" n="74"/>lis, quia illud esse semper habetur,
+          <lb ed="#V" n="75"/>et semper producitur in alio et alio
+          <lb ed="#V" n="76"/>instanti. Aliquando actio dicitur non
+          <lb ed="#V" n="77"/>continua sive indivisibilis, et est quando
+          <lb ed="#V" n="78"/>forma quia acquiritur per ipsam, est
+          <lb ed="#V" n="79"/>indivisibilis, et tantum pro primo 
+          in<lb ed="#V" break="no" n="80"/>stanti acquiritur.  Negaret ergo illa
+          <lb ed="#V" n="81"/>opinio conservare esse actionem primo,
+          <lb ed="#V" n="82"/>vel secundo modo, et diceret quod
+          <lb ed="#V" n="83"/>Angelus in primo instanti accipit esse
+          <lb ed="#V" n="84"/>actione divina  indivisibili, et quod
+          <lb ed="#V" n="85"/>etiam habet esse in secundo et tertio
+          <lb ed="#V" n="86"/>instanti, et sic successive illa actione 
+          in<lb ed="#V" break="no" n="87"/>divisibili, et nullo modo continuata.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e670">
+          <lb ed="#V" n="88"/>(f) Contra, hac. actione. non. habetur
+          <pb ed="#L" n="220"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>formaliter. Argumentum hoc 
+          Bonaven<lb ed="#V" break="no" n="2"/>ture contra hanc responsionem stat in
+          <lb ed="#V" n="3"/>hoc : Tu dicis, quod Angelus in 
+          se<lb ed="#V" break="no" n="4"/>cundo instanti habet esse illa actione
+          <lb ed="#V" n="5"/>indivisibilli, quia ipse Angelus habet
+          <lb ed="#V" n="6"/>esse in primo instanti. Contra, nam 
+          An<lb ed="#V" break="no" n="7"/>scelus in secundo instanti de se habet
+          <lb ed="#V" n="8"/>non esse, quaero tunc, aut ergo in 
+          se<lb ed="#V" break="no" n="9"/>cundo instanti producitur in esse illa
+          <lb ed="#V" n="10"/>actione prima, et sic illa actio 
+          continu<lb ed="#V" break="no" n="11"/>atur; aut illa actione producitur in esse,
+          <lb ed="#V" n="12"/>ergo non habebit esse in secundo 
+          in<lb ed="#V" break="no" n="13"/>stanti per aliam actionem primam, et
+          <lb ed="#V" n="14"/>hoc est quod dicit ibi: Aac actione, 
+          sci<lb ed="#V" break="no" n="15"/>licet prima, non haberetur formaliter et
+          <lb ed="#V" n="16"/>ultimate illud. esse, quod. potest non 
+          ha<lb ed="#V" break="no" n="17"/>bere, puta in secundo vel tertio 
+          in<lb ed="#V" break="no" n="18"/>stanti, posita hae actione, et hoc probat,
+          <lb ed="#V" n="19"/>quia causa causans hae causatione est
+          <lb ed="#V" n="20"/>causa ultimate applicata ad producendum
+          <lb ed="#V" n="21"/>effectum in esse; igitur si cum hoc,
+          <lb ed="#V" n="22"/>supple, stante tali applicatione cause
+          <lb ed="#V" n="23"/>possit stare effectum non esse, non 
+          vi<lb ed="#V" break="no" n="24"/>detur quod hac causatione habeatur esse
+          <lb ed="#V" n="25"/>ultimatum; patet, quia si causa est 
+          per<lb ed="#V" break="no" n="26"/>fecte et ultimate applicata ad effectum
+          <lb ed="#V" n="27"/>producendum causatione A, pro instanti
+          <lb ed="#V" n="28"/>D; si pro illo instanti B effectus potest
+          <lb ed="#V" n="29"/>non esse, sequitur quod illa causatione
+          <lb ed="#V" n="30"/>A non ponitur in esse, quia si 
+          causa<lb ed="#V" break="no" n="31"/>tione A poneretur in esse pro instanti 5,
+          <lb ed="#V" n="32"/>esset impossibile ipsum effectum posse
+          <lb ed="#V" n="33"/>non esse pro instanti D. Sed in 
+          propo<lb ed="#V" break="no" n="34"/>sito hac causatione posita, qua Angelus
+          <lb ed="#V" n="35"/>producebatur in esse in primo instanti,
+          <lb ed="#V" n="36"/>potest Angelus non habere esse cras, et
+          <lb ed="#V" n="37"/>si habet esse cras, non habet illud 
+          for<lb ed="#V" break="no" n="38"/>maliter et ultimate illa causatione, qua
+          <lb ed="#V" n="39"/>ponebatur in esse pro primo instanti;
+          <lb ed="#V" n="40"/>oportet ergo dicere quod si habet esse
+          <lb ed="#V" n="41"/>pro alio et alio instanti, quod habeat
+          <lb ed="#V" n="42"/>esse, vel eadem causatione continuata
+          <lb ed="#V" n="43"/>pro quocumque instanti, in quo habet
+          <lb ed="#V" n="44"/>esse, vel quod habeat esse alia et alia
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>causatione pro alio et alio instanti, quo
+          <lb ed="#V" n="46"/>ponitur in esse.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e781">
+          <lb ed="#V" n="47"/>(g) Si dicas. Diceret forte Henricus
+          <lb ed="#V" n="48"/>(sustinendo quod tantum habeat esse pro
+          <lb ed="#V" n="49"/>quocumque instanti actione indivisibili)
+          <lb ed="#V" n="50"/>quod Angelus non habeat esse, puta
+          <lb ed="#V" n="51"/>crastina die, scilicet quod non diceretur
+          <lb ed="#V" n="52"/>habere esse crastina die, nisi pro quanto
+          <lb ed="#V" n="53"/>coassisteret tempori crastino. Prima ergo
+          <lb ed="#V" n="54"/>actione non posset coexistere tempori
+          <lb ed="#V" n="55"/>crastino, nisi alia actione ponatur 
+          tem<lb ed="#V" break="no" n="56"/>pus crastinum, cui assistat; sed posito
+          <lb ed="#V" n="57"/>tali tempore diceret Henricus, quod
+          <lb ed="#V" n="58"/>Angelus eadem actione, qua habuit
+          <lb ed="#V" n="59"/>esse in primo instanti coassisteret illi
+          <lb ed="#V" n="60"/>tempore crastino, nam ipse Henricus
+          <lb ed="#V" n="61"/>vult, quod sit impossibile ::vum 
+          sepa<lb ed="#V" break="no" n="62"/>rari a tempore, ut infra patebit, et sic
+          <lb ed="#V" n="63"/>creatura dicitur existere pro alio et alio
+          <lb ed="#V" n="64"/>instanti pro quanto Ipse existens in nunc
+          <lb ed="#V" n="65"/>evi, ipsum nwnc evi ludivisibile 
+          compa<lb ed="#V" break="no" n="66"/>ratur ad aliud et aliud instans temporis,
+          <lb ed="#V" n="67"/>et hoc est. quod dicit.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e829">
+          <lb ed="#V" n="68"/>(h) Contra, ita est de aeternitate. Haec
+          <lb ed="#V" n="69"/>instantia contra Henricum est satis clara
+          <lb ed="#V" n="70"/>in littera, nam  tunc sequeretur, quod
+          <lb ed="#V" n="71"/>instans sevi non differret ab instanti 
+          aeter<lb ed="#V" break="no" n="72"/>nitatis, nam ex quo vult Henricus, quod
+          <lb ed="#V" n="73"/>ipsum «vum Angeli quantumcumque 
+          du<lb ed="#V" break="no" n="74"/>rantis, sit indivisibile, ut supra dixi, et
+          <lb ed="#V" n="75"/>similiter aeternitas est vere indivisibilis,
+          <lb ed="#V" n="76"/>et tota simul secundum omnes; si ergo
+          <lb ed="#V" n="77"/>dicatur nunc aevi Angeli non esse cras,
+          <lb ed="#V" n="78"/>nisi pro quanto tempus coexistat sibi,
+          <lb ed="#V" n="79"/>dta nunc aeternitatis, sive existentia 
+          ip<lb ed="#V" break="no" n="80"/>sius nunc non poterit esse cras, nisi pro
+          <lb ed="#V" n="81"/>quanto tempus sibi coexistat, et sic aevum
+          <lb ed="#V" n="82"/>non differret ab aeternitate, quod est 
+          in<lb ed="#V" break="no" n="83"/>conveniens, et hoc est quod dicit.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e866">
+          <lb ed="#V" n="84"/>(i) Similiter non tantum posita 
+          causa<lb ed="#V" break="no" n="85"/>tione, etc, Hic Bonaventura vult dicere,
+          <lb ed="#V" n="86"/>ex quo ipse Angelus crastina die non
+          <lb ed="#V" n="87"/>tantum potest habere non coexistentiam
+          <lb ed="#V" n="88"/>temporis. quae fundatur in esse absoluto
+          <pb ed="#L" n="221"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>Angeli, sed etiam illud esse absolutum
+          <lb ed="#V" n="2"/>Angeli potest non habere pro crastina
+          <lb ed="#V" n="3"/>die. Quaeritur ergo a quo ponitur illud
+          <lb ed="#V" n="4"/>esse absolutum «crastina die ; si prima
+          <lb ed="#V" n="5"/>actione, qua habuit esse in primo 
+          in<lb ed="#V" break="no" n="6"/>stanti, ergo continuatur illa actio, quod
+          <lb ed="#V" n="7"/>est intentum ; si alia et alia actione, 
+          si<lb ed="#V" break="no" n="8"/>militer habetur intentum, ut supra 
+          pa<lb ed="#V" break="no" n="9"/>tuit, non enim esse absolutum Angeli
+          <lb ed="#V" n="10"/>dependet essentialiter a coexistentia 
+          tem<lb ed="#V" break="no" n="11"/>poris, et sic stat prima ratio D. 
+          Bona<lb ed="#V" break="no" n="12"/>venture.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e911">
+          <lb ed="#V" n="13"/>(k) Item secundo principaliter sic,
+          <lb ed="#V" n="14"/>si esse cujus est simplex, etc. Vult dicere,
+          <lb ed="#V" n="15"/>quod si esse aevi est simplex et 
+          immuta<lb ed="#V" break="no" n="16"/>bile; ergo sicut Deus non potest facere
+          <lb ed="#V" n="17"/>Angelum non fuisse, ita nec non fore.
+          <lb ed="#V" n="18"/>Consequentia patet, quia si aevum est
+          <lb ed="#V" n="19"/>omnino indivisibile, tunc idem esset
+          <lb ed="#V" n="20"/>fwisse et fore, et sequitur quod Deus
+          <lb ed="#V" n="21"/>non potuit facere Angelum non fore.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e933">
+          <lb ed="#V" n="22"/>(D) Confirmatur ratio, quia in 
+          aeterni<lb ed="#V" break="no" n="23"/>late, etc. Confirmatio stat in hoc, quod
+          <lb ed="#V" n="24"/>si aevum esset omnino indivisibile, tunc
+          <lb ed="#V" n="25"/>Deus posset creare Angelum in instanti
+          <lb ed="#V" n="26"/>A, et in eodem posset annihilare; quod
+          <lb ed="#V" n="27"/>patet, quia certum est quod in 
+          aeterni<lb ed="#V" break="no" n="28"/>tate non verificantur contradictoria de
+          <lb ed="#V" n="29"/>voluntate divina, nec ipsa est respectu
+          <lb ed="#V" n="30"/>contradictoriorum ; sed in aeternitate 
+          po<lb ed="#V" break="no" n="31"/>tuit creare Angelum et eumdem 
+          annihi<lb ed="#V" break="no" n="32"/>lare, patet, quia aeternitas est tota 
+          si<lb ed="#V" break="no" n="33"/>mul, et non habens principium neque
+          <lb ed="#V" n="34"/>finem. Pono nunc casum possibilem,
+          <lb ed="#V" n="35"/>quod Deus in aeternitate velit Angelum
+          <lb ed="#V" n="36"/>creare et eumdem annihilare. Ista sunt
+          <lb ed="#V" n="37"/>duo contradictoria, et ut non sint duo
+          <lb ed="#V" n="38"/>contradictoria, oportet invenire aliam
+          <lb ed="#V" n="39"/>causam, et ita est, quod vult Angelum
+          <lb ed="#V" n="40"/>creare pro instanti A, et vult ipsum 
+          an<lb ed="#V" break="no" n="41"/>nihilare pro instanti £, ergo oportet 
+          po<lb ed="#V" break="no" n="42"/>nere in Angelo aliud instans, in quo 
+          ve<lb ed="#V" break="no" n="43"/>lit eumdem annihilare, ae sic erit 
+          men<lb ed="#V" break="no" n="44"/>sura successiva, nec oportet fugere ad
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>tempus, cui coexistit, quia Deus potuit
+          <lb ed="#V" n="46"/>velle creare et velle annihilare pro alio
+          <lb ed="#V" n="47"/>et alio instanti absque respectu ad 
+          tem<lb ed="#V" break="no" n="48"/>pus, et hoc est quod dicit ista littera.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e996">
+          <lb ed="#V" n="49"/>(m) Tertio. arguitur ex infinitate, etc.
+          <lb ed="#V" n="50"/>igitur nunc. formaliter habet — 
+          durati<lb ed="#V" break="no" n="51"/>onem infinitam, et sic aevum Angeli non
+          <lb ed="#V" n="52"/>differret ab aeternitate, quia habet 
+          to<lb ed="#V" break="no" n="53"/>tam suam durationem simul.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e1009">
+          <lb ed="#V" n="54"/>Hoc confirmatur, quia illud nunc, etc.
+          <lb ed="#V" n="55"/>si posset coexistere omni loco esset 
+          infi<lb ed="#V" break="no" n="56"/>nitus secundum locum, si tamen loca
+          <lb ed="#V" n="57"/>essent infinita.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e1020">
+          <lb ed="#V" n="58"/>(n) Et si. dicatur, quod hoc non est. 
+          ve<lb ed="#V" break="no" n="59"/>rum, nisi habeat ex se unde possit sic
+          <lb ed="#V" n="60"/>coexistere. Vult dicere quod etsi 
+          Ange<lb ed="#V" break="no" n="61"/>lus possit esse praesens omni loco, non
+          <lb ed="#V" n="62"/>ex sua virtute, sed tantum per potentiam
+          <lb ed="#V" n="63"/>divinam, non diceretur esse infinitus 
+          se<lb ed="#V" break="no" n="64"/>cundum locum, quia esse infinitum 
+          se<lb ed="#V" break="no" n="65"/>cundum locum est posse esse simul in
+          <lb ed="#V" n="66"/>infinitis locis virtute propria.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e1042">
+          <lb ed="#V" n="67"/>(o) Contra, quia argumentum stat,
+          <lb ed="#V" n="68"/>quia si potest esse in omni loco 
+          partici<lb ed="#V" break="no" n="69"/>pative diceretur infinitus participative.
+          <lb ed="#V" n="70"/>Et sic licet. haec. immensitas non :
+          equa<lb ed="#V" break="no" n="71"/>retur immensitati divinae intensive, :
+          ie<lb ed="#V" break="no" n="72"/>quaretur tamen extensive; haec idem dico
+          <lb ed="#V" n="73"/>de aevo, quod si Angelus, etiam 
+          participa<lb ed="#V" break="no" n="74"/>tive possit coassistere infinito tempori per
+          <lb ed="#V" n="75"/>nunc svi indivisible, illud nunc :vi
+          <lb ed="#V" n="76"/>esset infinitum extensive, quod esset 
+          in<lb ed="#V" break="no" n="77"/>conveniens.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e1069">
+          <lb ed="#V" n="78"/>(p Et confirmatur ista ratio, quia
+          <lb ed="#V" n="79"/>negatio, etc. Vult dicere in ista littera
+          <lb ed="#V" n="80"/>D. Bonaventura, et probare quod actu 
+          ha<lb ed="#V" break="no" n="81"/>beat infinitas existentias, et sic illud :
+          e<lb ed="#V" break="no" n="82"/>vum si est indivisibile, sit in infinitum.
+          <lb ed="#V" n="83"/>Quod dicit negatio negationis est 
+          affir<lb ed="#V" break="no" n="84"/>matio  positionis. Hoc est notum in 
+          Logi<lb ed="#V" break="no" n="85"/>ca, quia duc negationes efficiunt. unam
+          <lb ed="#V" n="86"/>affirmationem, et quod dicit de 
+          negati<lb ed="#V" break="no" n="87"/>onibus negatis, negationes negate in 
+          pro<lb ed="#V" break="no" n="88"/>posito sunt, istae, scilicet non. coexistit «e-
+          <pb ed="#L" n="222"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>vum huic instanti temporis, et non
+          <lb ed="#V" n="2"/>coexistit alteri instanti, et sic in 
+          infini<lb ed="#V" break="no" n="3"/>tum, et sic sunt infinite negationes 
+          nega<lb ed="#V" break="no" n="4"/>tze, et hoc. modo negantur, nego scilicet
+          <lb ed="#V" n="5"/>quod zvum non assistat huic instanti
+          <lb ed="#V" n="6"/>temporis, et nego similiter, quod non
+          <lb ed="#V" n="7"/>assistat alteri instanti temporis, et sic in
+          <lb ed="#V" n="8"/>infinitum; ergo infinite negationes 
+          infi<lb ed="#V" break="no" n="9"/>nitarum negationum coexistendo ponunt
+          <lb ed="#V" n="10"/>infinitas affirmationes, vel unam  
+          conti<lb ed="#V" break="no" n="11"/>nentem infinitas, et sic aevum erit actu
+          <lb ed="#V" n="12"/>infinitum, vel actu habebit infinitas 
+          co<lb ed="#V" break="no" n="13"/>existentias infinitis partibus temporibus
+          <lb ed="#V" n="14"/>temporis, et hoc est quod dicit in ista
+          <lb ed="#V" n="15"/>littera.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e1132">
+          <lb ed="#V" n="16"/>(q) Quarto arguitur ex ordine eorum
+          <lb ed="#V" n="17"/>que possunt esse in «cvo. Et sententia
+          <lb ed="#V" n="18"/>litterae stat in hoc: pono quod Angelus
+          <lb ed="#V" n="19"/>in primo instanti in quo habuit esse, 
+          po<lb ed="#V" break="no" n="20"/>tuit habere innocentiam, et postea 
+          pec<lb ed="#V" break="no" n="21"/>care et obligari ad poenam «eeternam ;
+          <lb ed="#V" n="22"/>ergo ibi prius et posterius, et sic 
+          succes<lb ed="#V" break="no" n="23"/>sio, etiam circumscripto omni tempore,
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e1152">
+          <lb ed="#V" n="24"/>(r) Similiter potuit unus Angelus prius
+          <lb ed="#V" n="25"/>creari, etc. ergo nec in eodem nunc cum
+          <lb ed="#V" n="26"/>illo, sic unus prius, et alius posterius,
+          <lb ed="#V" n="27"/>et sic successio. 
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d2q1-p3">-->
+        <p xml:id="mm30o9-d1e1566-d1e1165">
+          <lb ed="#L" n="29" type="fixed=223"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e1170">
+          <lb ed="#V" n="30"/>(a) Contra istam positionem quod. 
+          in<lb ed="#V" break="no" n="31"/>cludit contradictionem arguitur, ab 
+          Hen<lb ed="#V" break="no" n="32"/>rico, quodl. 5. q. 13. et quodl. 9. q. i.
+          <lb ed="#V" n="33"/>Nam Henricus vult, quod existentia 
+          An<lb ed="#V" break="no" n="34"/>geli quantumcumque duret, mensuretur
+          <lb ed="#V" n="35"/>aliquo »wnc svi indivisibili, ita quod
+          <lb ed="#V" n="36"/>tantum unum "nc :evi indivisibile 
+          men<lb ed="#V" break="no" n="37"/>suret intrinsece existentiam totam Angeli
+          <lb ed="#V" n="38"/>quantumcumque durantem, et sic 
+          men<lb ed="#V" break="no" n="39"/>sura Angeli intrinseca est indivisibilis, et
+          <lb ed="#V" n="40"/>nullo modo successiva et divisibilis. Vult
+          <lb ed="#V" n="41"/>tamen, quod ipsum xwevum Angeli 
+          indivi<lb ed="#V" break="no" n="42"/>sibile de necessitate coassistat tempori, et
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="43"/>sic illud nunc sevi potest dici 
+          successi<lb ed="#V" break="no" n="44"/>vum non in se ut dicit, sed prout 
+          coassi<lb ed="#V" break="no" n="45"/>stit alii et alii nunc temporis. Arguit ergo
+          <lb ed="#V" n="46"/>Henricus contra opinionem D. 
+          Bonaven<lb ed="#V" break="no" n="47"/>ture aliquibus argumentis, quae postea
+          <lb ed="#V" n="48"/>patebunt in solvendo illa pro opinione
+          <lb ed="#V" n="49"/>saneti Bonaventura.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e1219">
+          <lb ed="#V" n="50"/>Hanc conclusionem negativam tenendo,
+          <lb ed="#V" n="51"/>dupliciter ponitur differentia :evi ad 
+          tem<lb ed="#V" break="no" n="52"/>pus et aeternitatem. Henricus enim ponit
+          <lb ed="#V" n="53"/>duo: Primum, quod mensura Anzeli sive
+          <lb ed="#V" n="54"/>v€vum Angeli nullo modo est successi
+          <lb ed="#V" n="55"/>vum, et sic in aeviternum nullum est 
+          suc<lb ed="#V" break="no" n="56"/>cessivum. Secundum ponit, scilicet quod
+          <lb ed="#V" n="57"/>ipsum aeviternum, sive Angelus 
+          mensu<lb ed="#V" break="no" n="58"/>ratus aeevo, in quolibet instanti habet esse
+          <lb ed="#V" n="59"/>terminatum, id est, quod quantum est
+          <lb ed="#V" n="60"/>ex se, in quolibet instanti habet non esse,
+          <lb ed="#V" n="61"/>et similiter aevum habet esse 
+          termina<lb ed="#V" break="no" n="62"/>tum in quolibet instanti, id est, quod in
+          <lb ed="#V" n="63"/>quolibet instanti habet de se non esse.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d2q1-p4">-->
+        <p xml:id="mm30o9-d1e1566-d1e1254">
+          <lb ed="#L" n="78" type="fixed=224"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e1259">
+          <lb ed="#V" n="79"/>(a) Contra istum modum ponendi arguo.
+          <lb ed="#V" n="80"/>Scotus arguit contra Henricum deducendo
+          <lb ed="#V" n="81"/>ipsum ad contradictionem, et ratio Scoti H
+          <lb ed="#V" n="82"/>stat in hoc: quia pono, qued Angelus
+          <lb ed="#V" n="83"/>habeat existentiam in nunc A, et secundo
+          <lb ed="#V" n="84"/>quod habeat existentiam in nunc B. 
+          Ter<lb ed="#V" break="no" n="85"/>tio pono, quod ipsum nunc positum per
+          <lb ed="#V" n="86"/>Henricum in quolibet instanti habebit de
+          <pb ed="#L" n="225"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>se terminari sive non esse, et similiter
+          <lb ed="#V" n="2"/>existentia Angeli, tunc quaero quomodo
+          <lb ed="#V" n="3"/>Angelus, qui prius est in nunc A, fiat in
+          <lb ed="#V" n="4"/>nunc D. Si dicis quod ex se est Ibi, 
+          con<lb ed="#V" break="no" n="5"/>tra, quia in nunc A, habet ex se 
+          termina<lb ed="#V" break="no" n="6"/>ri, sive non esse; et similiter quaero de
+          <lb ed="#V" n="7"/>nunc posito ab ipso, quod est in nunc A,
+          <lb ed="#V" n="8"/>quomodo fiat in nunc D ; non ex
+          <lb ed="#V" n="9"/>se, quia per ipsum in nunc B habet
+          <lb ed="#V" n="10"/>de se non esse, ergo si tam existentia
+          <lb ed="#V" n="11"/>Angeli, quam ipsum nunc aevi fiant in
+          <lb ed="#V" n="12"/>nunc D, aut hoc erit quia utrumque de
+          <lb ed="#V" n="13"/>novo producitur, aut quia utrumque sit
+          <lb ed="#V" n="14"/>iterum positum,et si sic,tunc erit 
+          succes<lb ed="#V" break="no" n="15"/>sio, quia ipsum nunc in instanti DB, vel
+          <lb ed="#V" n="16"/>iterum positum, vel de novo causatum
+          <lb ed="#V" n="17"/>succedit sibi ipsi existenti in nunc; ergo
+          <lb ed="#V" n="18"/>contradicit sibi dicendo mensuram Angeli
+          <lb ed="#V" n="19"/>non esse successivam, et quod tam 
+          Ange<lb ed="#V" break="no" n="20"/>lus, quam ipsum aevum pro quolibet 
+          ins<lb ed="#V" break="no" n="21"/>tanti habet de se terminari sive non esse,
+          <lb ed="#V" n="22"/>et hoc est quod dicit.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e1331">
+          <lb ed="#V" n="23"/>Praeterea quod dicit, quia D. 
+          Bonaven<lb ed="#V" break="no" n="24"/>tura dicit, si aevum Angeli sit penitus
+          <lb ed="#V" n="25"/>indivisibile, sequuntur multa 
+          incompossi<lb ed="#V" break="no" n="26"/>bilia, quae patent in positione D, 
+          Bona<lb ed="#V" break="no" n="27"/>venture. Dicit Henricus, quod 
+          impossibi<lb ed="#V" break="no" n="28"/>lia posita a Bonaventura non sequuntur ex
+          <lb ed="#V" n="29"/>hoc quod aevum ponatur indivisibile,sed ex
+          <lb ed="#V" n="30"/>hoc quod ponatur aevum posse separari a
+          <lb ed="#V" n="31"/>tempore, quod tamen est impossibile, et
+          <lb ed="#V" n="32"/>sic non est inconveniens, quod ex uno 
+          im<lb ed="#V" break="no" n="33"/>possibili sequantar multa impossibilia. Ad
+          <lb ed="#V" n="34"/>hoc ergo antecedens impossibile vel 
+          in<lb ed="#V" break="no" n="35"/>compossibile, scilicet aevum indivisibile
+          <lb ed="#V" n="36"/>potest separari a tempore, sequuntur
+          <lb ed="#V" n="37"/>multa incompossibilia posita a D. 
+          Bona<lb ed="#V" break="no" n="38"/>ventura, sed si aevum indivisibile de 
+          ne<lb ed="#V" break="no" n="39"/>cessitate coassistat tempori, nulla 
+          impos<lb ed="#V" break="no" n="40"/>sibilia sequuntur, et hoc est quod dicit
+          <lb ed="#V" n="41"/>contra hoc.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e1375">
+          <lb ed="#V" n="42"/>(b) Hoc non videtur. Hic probat Doctor
+          <lb ed="#V" n="43"/>quod non repugnat aevo posse esse sine 
+          tem<lb ed="#V" break="no" n="44"/>pore, quia, secundum Henricum ipsum
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>aevum est prius natura tempore, quia vult
+          <lb ed="#V" n="46"/>quod tempus de necessitate concomitetur
+          <lb ed="#V" n="47"/>aevum, tanquam imperfectum perfectum,
+          <lb ed="#V" n="48"/>et vult etiam quod illud, quod est prius 
+          na<lb ed="#V" break="no" n="49"/>tura alio,non repugnet sibi posse esse sine
+          <lb ed="#V" n="50"/>illo ; ergo in priori, quo aevum potest 
+          es<lb ed="#V" break="no" n="51"/>se sine tempore, etiam aeviternum, quod
+          <lb ed="#V" n="52"/>est mensuratum ipso aevo, possit esse sine
+          <lb ed="#V" n="53"/>tempore. Patet, quia aevum existentiae 
+          An<lb ed="#V" break="no" n="54"/>geli fundatur in ipsa existentia ; ergo si
+          <lb ed="#V" n="55"/>illud aevum est indivisibile, et ex se 
+          po<lb ed="#V" break="no" n="56"/>test praecedere tempus, tunc in illo priori
+          <lb ed="#V" n="57"/>sequerentur (impossibilia illa illata a
+          <lb ed="#V" n="58"/>5. Bonaventura.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e1418">
+          <lb ed="#V" n="59"/>(c) Et quod. probat etiam. Dicit 
+          Henri<lb ed="#V" break="no" n="60"/>cus quod tempus de necessitate 
+          conco<lb ed="#V" break="no" n="61"/>mitatur aevum tanquam imperfectius 
+          per<lb ed="#V" break="no" n="62"/>fectum, quod de necessitate continetur.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e1429">
+          <lb ed="#V" n="63"/>Dicit Doctor: Hoc non concluderet, 
+          si<lb ed="#V" break="no" n="64"/>cut dicimus, quod corpus continet 
+          superfi<lb ed="#V" break="no" n="65"/>ciem et lineam, quia non potest esse sine
+          <lb ed="#V" n="66"/>illis, cum sint priora ipso corpore et sibi
+          <lb ed="#V" n="67"/>invicem intrinseca, modo aevum non sic
+          <lb ed="#V" n="68"/>continet tempus tanquam prius et 
+          intrin<lb ed="#V" break="no" n="69"/>secum sibi, cum tempus secundum ipsum
+          <lb ed="#V" n="70"/>sit posterius aevo ; si ergo czevum continet
+          <lb ed="#V" n="71"/>tempus, erit continentia quidditativa, et
+          <lb ed="#V" n="72"/>hoc non. Si vis dicere, quod aevum 
+          con<lb ed="#V" break="no" n="73"/>tinet quidditative tempus, ita quod tempus
+          <lb ed="#V" n="74"/>sit de quidditate sevi, et tunc tempus quod
+          <lb ed="#V" n="75"/>est posterius, erit de quidditate prioris,
+          <lb ed="#V" n="76"/>aut de quidditate potentiali, id est, quod
+          <lb ed="#V" n="77"/>contineat ipsum aevum tempus 
+          potentiali<lb ed="#V" break="no" n="78"/>ter, sicut quidditas animalis continet 
+          quid<lb ed="#V" break="no" n="79"/>ditatem hominis, tanquam superius suum
+          <lb ed="#V" n="80"/>inferius ; et hoc non. concludit 
+          necessita<lb ed="#V" break="no" n="81"/>tem :evi ad tempus, quia sicut. non 
+          repu<lb ed="#V" break="no" n="82"/>enat animali esse sine homine, ita non
+          <lb ed="#V" n="83"/>repugnat ievo esse sine tempore, et sic
+          <lb ed="#V" n="84"/>stat intentum.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d2q1-p5">-->
+        <p xml:id="mm30o9-d1e1566-d1e1481">
+          <pb ed="#L" n="228"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#L" n="1" type="fixed=228"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e1490">
+          <lb ed="#V" n="2"/>(a) Qui vult tenere primam opinionem.
+          <lb ed="#V" n="3"/>Hic Doctor ostendit modum, quo quis
+          <lb ed="#V" n="4"/>potest tenere primam opinionem, quae
+          <lb ed="#V" n="5"/>est sancti Bonaventurae, declarando 
+          quo<lb ed="#V" break="no" n="6"/>modo mensura Angelorum possit dici
+          <lb ed="#V" n="7"/>mjere successiva, qua mensura dicitur
+          <lb ed="#V" n="8"/>cvum. Dicit ergo sic: Qui vult tenere
+          <lb ed="#V" n="9"/>primam opinionem, etc. et per 
+          conse<lb ed="#V" break="no" n="10"/>quens habet propriam —divisibilitatem,
+          <lb ed="#V" n="11"/>quia divisibilitas in partes quantitativas,
+          <lb ed="#V" n="12"/>de necessitate concomitatur quantitatem,
+          <lb ed="#V" n="13"/>et talis quantitas non habet 
+          divisibilita<lb ed="#V" break="no" n="14"/>tem permanentem, ita quod omnes partes
+          <lb ed="#V" n="15"/>simul sint, quod est de ratione 
+          perma<lb ed="#V" break="no" n="16"/>nentis, sed successivam, sic quod una
+          <lb ed="#V" n="17"/>pars semper succedat alteri ; non enim
+          <lb ed="#V" n="18"/>talis quantitas potest habere omnes 
+          par<lb ed="#V" break="no" n="19"/>tes simul, cum de ratione successivi
+          <lb ed="#V" n="20"/>sit non habere omnes partes simul.
+          <lb ed="#V" n="21"/>Et quia successivum potest esse 
+          du<lb ed="#V" break="no" n="22"/>plex, aliquod quod est compositum ex
+          <lb ed="#V" n="23"/>partibus divisibilibus, ita quod una pars
+          <lb ed="#V" n="24"/>semper divisibilis in infinitas partes,
+          <lb ed="#V" n="25"/>succedat alteri parti, et sic tempus et
+          <lb ed="#V" n="26"/>motus dicuntur successiva, quia 
+          quaeli<lb ed="#V" break="no" n="27"/>bet pars temporis, et quaelibet pars 
+          mo<lb ed="#V" break="no" n="28"/>tus est divisibilis in partes infinitas
+          <lb ed="#V" n="29"/>o proportionales. Aliud est successivum 
+          con<lb ed="#V" break="no" n="30"/>stans ex partibus indivisibilibus, ita quod
+          <lb ed="#V" n="31"/>unum indivisibile succedit alteri, ita quod
+          <lb ed="#V" n="32"/>unum indivisibile cum desinit esse, 
+          suc<lb ed="#V" break="no" n="33"/>cedit aliud, et cum aliud desinit esse,
+          <lb ed="#V" n="34"/>succedit aliud; et hoc modo potest 
+          po<lb ed="#V" break="no" n="35"/>ni v vum quantitas successiva, quia 
+          con<lb ed="#V" break="no" n="36"/>stat ex alio et alio nunc sibi invicem
+          <lb ed="#V" n="37"/>succedentibus, et ita nunc svi quantum
+          <lb ed="#V" n="38"/>est ex se raptim transit, ita cum unum
+          <lb ed="#V" n="39"/>nunc desinit, aliud succedit, Et esse 
+          cevi<lb ed="#V" break="no" n="40"/>terni,quod est ens mensuratum avo, et
+          <lb ed="#V" n="41"/>positum est in. illo nunc, scilicet 
+          indivi<lb ed="#V" break="no" n="42"/>sibili et instantaneo, ex positione sevi in
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="43"/>illo nunc, supple praecise habet esse in
+          <lb ed="#V" n="44"/>isto nunc, et statim non esset isto nunc
+          <lb ed="#V" n="45"/>transacto, nisi eadem causa alia 
+          causa<lb ed="#V" break="no" n="46"/>lione poneret idem esse in alio nume,
+          <lb ed="#V" n="47"/>id est, quod quando Angelus creatur in
+          <lb ed="#V" n="48"/>instanti A praecise habet esse tantum pro
+          <lb ed="#V" n="49"/>illo instanti et instanti immediate 
+          sequen<lb ed="#V" break="no" n="50"/>ti, quantum est ex se, etiam non esset,
+          <lb ed="#V" n="51"/>nisi prima causa, quia ponit Angelum
+          <lb ed="#V" n="52"/>in primo instanti, eadem causatione vel
+          <lb ed="#V" n="53"/>alia ponat illud idem esse in secundo 
+          in<lb ed="#V" break="no" n="54"/>stanti, et sic successive de aliis 
+          instan<lb ed="#V" break="no" n="55"/>tibus, et ita conservat positive causando
+          <lb ed="#V" n="56"/>non aliud. esse, sicut est inm successivo, sed
+          <lb ed="#V" n="57"/>idem esse infinities.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e1616">
+          <lb ed="#V" n="58"/>Vult dicere, quod ideo prima causa 
+          con<lb ed="#V" break="no" n="59"/>servat Angelum, quia in secundo 
+          instan<lb ed="#V" break="no" n="60"/>ti sive nunc in quo Angelus, quantum est
+          <lb ed="#V" n="61"/>ex parte sua, desinit esse, ponit eumdem
+          <lb ed="#V" n="62"/>Angelum in esse in ipso nunc, et 
+          simili<lb ed="#V" break="no" n="63"/>ter conservat in tertio nunc, quia idem
+          <lb ed="#V" n="64"/>Angelus in illo unc, quantum est ex se
+          <lb ed="#V" n="65"/>desineret esse, nisi idem Angelus eadem
+          <lb ed="#V" n="66"/>causatione, qua ponitur in primo unc,
+          <lb ed="#V" n="67"/>ponatur in nunc succedentibus, sive alia
+          <lb ed="#V" n="68"/>et alia causatione, ita quod una causatione
+          <lb ed="#V" n="69"/>ponatur in primo nunc, quae dicitur 
+          cre<lb ed="#V" break="no" n="70"/>atio, et alia causatione ponatur in secundo
+          <lb ed="#V" n="71"/>nunc, et sic deinceps; et sic aevum
+          <lb ed="#V" n="72"/>sive nunc svi dicitur raptim transire,
+          <lb ed="#V" n="73"/>quia semper aliud et aliud nunc 
+          suc<lb ed="#V" break="no" n="74"/>cedit.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e1656">
+          <lb ed="#V" n="75"/>Ita quod prima causatio dicitur 
+          crea<lb ed="#V" break="no" n="76"/>tio, etc. Sensus hujus litterae est, cum
+          <lb ed="#V" n="77"/>dicit quod causatio Angeli in. primo 
+          in<lb ed="#V" break="no" n="78"/>stanti dicitur creatio, quae immediate 
+          se<lb ed="#V" break="no" n="79"/>quitur ipsum non esse, et causatio 
+          ejus<lb ed="#V" break="no" n="80"/>dem Angeli in secundo instanti dicitur
+          <lb ed="#V" n="81"/>conservatio, ut sequitur ipsum non esse
+          <lb ed="#V" n="82"/>posterius duratione. Ipsum non esse dico,
+          <lb ed="#V" n="83"/>quod praecedit creationem Angeli, et. 
+          se<lb ed="#V" break="no" n="84"/>quitur xon esse posterius natura, quod
+          <lb ed="#V" n="85"/>non esse est posterius creatione Angeli,
+          <lb ed="#V" n="86"/>non quod tale non esse insit, sed in illo
+          <pb ed="#L" n="229"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>secundo instanti in quo ponitur Angelus
+          <lb ed="#V" n="2"/>in esse si non poneretur in esse, ipsum
+          <lb ed="#V" n="3"/>non esse inesset eo modo, quo expositum
+          <lb ed="#V" n="4"/>est supra dist. 1. q. 2. et ipsum esse 
+          An<lb ed="#V" break="no" n="5"/>geli positum in secundo instanti est 
+          poste<lb ed="#V" break="no" n="6"/>rius duratione ipso esse Angeli posito in
+          <lb ed="#V" n="7"/>primo instanti. Patet, quia esse Angeli in
+          <lb ed="#V" n="8"/>primo instanti mensuratur primo nunc
+          <lb ed="#V" n="9"/>aevi, et idem esse positum in secundo
+          <lb ed="#V" n="10"/>instanti mensuratur alio mune sevi,
+          <lb ed="#V" n="11"/>quod succedit priori nunc; et hoc
+          <lb ed="#V" n="12"/>modo est continuatio et conservatio 
+          ejus<lb ed="#V" break="no" n="13"/>dem existenti:te Angeli positae in primo
+          <lb ed="#V" n="14"/>instanti, et iterum positae in secundo 
+          in<lb ed="#V" break="no" n="15"/>stanti, et iterum posite in tertio, et sic
+          <lb ed="#V" n="16"/>deinceps ; et solum in primo instanti in
+          <lb ed="#V" n="17"/>quo ponitur dicitur creatio, et in omnibus
+          <lb ed="#V" n="18"/>alis sequentibus primum instans, in
+          <lb ed="#V" n="19"/>quibus ponitur dicitur conservatio, et sic
+          <lb ed="#V" n="20"/>patet ista littera Doctoris.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e1732">
+          <lb ed="#V" n="21"/>(b) Exemplum hujus est, quia si 
+          Ange<lb ed="#V" break="no" n="22"/>lus habet aliquam quantitatem virtualem,
+          <lb ed="#V" n="23"/>(quantitas enim virtualis attenditur penes
+          <lb ed="#V" n="24"/>perfectionem intrinsecam, sicut dicimus
+          <lb ed="#V" n="25"/>quod Deus est infinitae quantitatis in 
+          vir<lb ed="#V" break="no" n="26"/>tute, id est, quod est infiniti vigoris et
+          <lb ed="#V" n="27"/>virtutis, et talis quantitas distinguitur a
+          <lb ed="#V" n="28"/>quantitate molis, ubi tantum attenditur
+          <lb ed="#V" n="29"/>extensio quantitativa) per quam potest esse
+          <lb ed="#V" n="30"/>praesens alicui loco definitive ; locus enim
+          <lb ed="#V" n="31"/>definitivus pro nunc, ut distinguitur 
+          eon<lb ed="#V" break="no" n="32"/>tra locam circumscriptivum, dicitur locus
+          <lb ed="#V" n="33"/>pressentialis, quo aliquid dicitur sic esse
+          <lb ed="#V" n="34"/>hic, quod pro illo instanti non est alibi,
+          <lb ed="#V" n="35"/>velita esse praesens huic, quod pro illo
+          <lb ed="#V" n="36"/>instanti non est prwsens alteri, sicut si
+          <lb ed="#V" n="37"/>unus Angelus esset in uno loco, et pro
+          <lb ed="#V" n="38"/>illo instanti non esset in alio loco, 
+          dicere<lb ed="#V" break="no" n="39"/>tur proprie in loco esse definitive sive
+          <lb ed="#V" n="40"/>praesentialiter, (ita per eam, supple,
+          <lb ed="#V" n="41"/>quantitatem virtualem esse praesens huic
+          <lb ed="#V" n="42"/>loco, 4uod non potest praesens. esse simul
+          <lb ed="#V" n="43"/>alii loco, nec absolute potest esse. praesens
+          <lb ed="#V" n="44"/>alii loco, nisi aliqua mutatione facta circa
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>ipsam, scilicet quantitatem virtualem, per
+          <lb ed="#V" n="46"/>respectum ad alium locum, vel quod. ipsa
+          <lb ed="#V" n="47"/>fuit major formaliter, vel quae ipsa 
+          trans<lb ed="#V" break="no" n="48"/>feratur de loco ad. locum, vel quod. per
+          <lb ed="#V" n="49"/>potentiam divinam sit in alio loco, non
+          <lb ed="#V" n="50"/>derelinquendo priorem locum quod potest
+          <lb ed="#V" n="51"/>facere, ut patebit infra, et prolixe Zn
+          <lb ed="#V" n="52"/>quarto distinctio 10. et 49. Sequitur, ita
+          <lb ed="#V" n="53"/>est in proposito, quod. illud. esse, quod. 
+          ha<lb ed="#V" break="no" n="54"/>bet Angelus unica causatione, limitatum
+          <lb ed="#V" n="55"/>est ad. hoc nunc, ita quod quantum est ex
+          <lb ed="#V" n="56"/>parte sua habet tantum esse in illo nunc,
+          <lb ed="#V" n="57"/>ita quod in secundo nunc ex parte sua
+          <lb ed="#V" n="58"/>nullum haberet esse, nisi eadem causatione
+          <lb ed="#V" n="59"/>qua ponebatur in primo nunc, ponatur in
+          <lb ed="#V" n="60"/>esse in secundo nunc, vel alia causatione
+          <lb ed="#V" n="61"/>a priori ponatur in esse in isto secundo
+          <lb ed="#V" n="62"/>nunc, et sic patet littera hujus exempli.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e1828">
+          <lb ed="#V" n="63"/>(c) Ad argumenta contra illam 
+          proposi<lb ed="#V" break="no" n="64"/>tionem. Hic Doctor respondet ad 
+          argu<lb ed="#V" break="no" n="65"/>menta Henrici facta contra opinionem
+          <lb ed="#V" n="66"/>sancti Bonaventure, ad quam opinionem
+          <lb ed="#V" n="67"/>videtur Doctor declinare. Primo enim 
+          ar<lb ed="#V" break="no" n="68"/>guit sic Henricus, probando quod includat
+          <lb ed="#V" n="69"/>contradictionem, scilicet z:evum esse 
+          suc<lb ed="#V" break="no" n="70"/>cessivum, quia ubi est successio, ibi est
+          <lb ed="#V" n="71"/>prius et posterius, quae non. sunt simul,
+          <lb ed="#V" n="72"/>sed adveniente posteriori prius decidit,
+          <lb ed="#V" n="73"/>et per consequens prius veterascit, et 
+          po<lb ed="#V" break="no" n="74"/>sterius novum est; et sic sequeretur,
+          <lb ed="#V" n="75"/>quod in existentia Angeli posset esse 
+          in<lb ed="#V" break="no" n="76"/>novatio,quod est inconveniens. Si dicatur,
+          <lb ed="#V" n="77"/>quod in mensura est tantum successio,
+          <lb ed="#V" n="78"/>et innovatio, sed non in mensurato, 
+          con<lb ed="#V" break="no" n="79"/>tra hanc responsionem arguit Henricus,
+          <lb ed="#V" n="80"/>probando quod non potest esse novitas in
+          <lb ed="#V" n="81"/>mensura, quin etiam sit in mensurato, et
+          <lb ed="#V" n="82"/>probat per Philosophum in 4. P/Ays. tert.
+          <lb ed="#V" n="83"/>com. 99. ubi habetur quod prius et 
+          po<lb ed="#V" break="no" n="84"/>sterius sunt in tempore propter prius et
+          <lb ed="#V" n="85"/>posterius in motu : Necesse est, inquit, in
+          <lb ed="#V" n="86"/>motu esse prius et posterius proportionalia
+          <lb ed="#V" n="87"/>his, qua sunt. ibi, puta magnitudini, at
+          <lb ed="#V" n="88"/>vero in tempore est prius et. posterius
+          <pb ed="#L" n="230"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>propter quod. sequitur. semper. alterum
+          <lb ed="#V" n="2"/>ipsorum, est autem prius et posterius
+          <lb ed="#V" n="3"/>ipsorum in motu. Hc ille. Et 
+          Commen<lb ed="#V" break="no" n="4"/>tator ibi: Quia, inquit, prius et posterius
+          <lb ed="#V" n="5"/>inveniuntur in mensura, in qua. fit motus
+          <lb ed="#V" n="6"/>primo, et est illa, qua est in situ, necesse
+          <lb ed="#V" n="7"/>est etiam. in motu inveniantur prius et
+          <lb ed="#V" n="8"/>posterius ; et parum infra : Ex hoc, inquit,
+          <lb ed="#V" n="9"/>quod prius et. posterius. inveniuntur. in
+          <lb ed="#V" n="10"/>partibus motus, sequitur, ut. inveniantur
+          <lb ed="#V" n="11"/>in ipso tempore: h«c ille. Hoc idem patet
+          <lb ed="#V" n="12"/>ubi supra text. com. 100. ubi sic habetur :
+          <lb ed="#V" n="13"/>At vero tempus cognoscimus, cum 
+          defini<lb ed="#V" break="no" n="14"/>mus motum prius et. posterius. 
+          determi<lb ed="#V" break="no" n="15"/>nantes, et tunc dicimus fieri tempus,
+          <lb ed="#V" n="16"/>quando prioris et posterioris in motu
+          <lb ed="#V" n="17"/>sensu percipimus. Hzec ille. Etc 
+          Commen<lb ed="#V" break="no" n="18"/>tator ibi : Ipsius, inquit, sentiunt primo
+          <lb ed="#V" n="19"/>et essentialiter, cum senserimus inotum,
+          <lb ed="#V" n="20"/>in quo sentimus nos transmutari, id est,
+          <lb ed="#V" n="21"/>esse in esse transmultabili, hsc ile. Et
+          <lb ed="#V" n="22"/>| hoc idem patet in textu 101. et inde. Ex
+          <lb ed="#V" n="23"/>his ergo, et aliis auctoritatibus apparet
+          <lb ed="#V" n="24"/>expresse, quomodo non possit esse 
+          novi<lb ed="#V" break="no" n="25"/>as in mensura, quin sit in mensurato
+          <lb ed="#V" n="26"/>ut patet de motu mensurato tempore.
+          <lb ed="#V" n="27"/>Sic dico in proposito, quod si non
+          <lb ed="#V" n="28"/>sit aliqua existentia nova in «reviterno,
+          <lb ed="#V" n="29"/>sequitur quod nec aliqua novitas erit in
+          <lb ed="#V" n="30"/>vvo, et sic si non sit prius et posterius
+          <lb ed="#V" n="31"/>In mensurato, non erit aliqua distinctio
+          <lb ed="#V" n="32"/>inter prius et posterius in mensura.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e1961">
+          <lb ed="#V" n="33"/>Hoc etiam confirmatur per Philosophum,
+          <lb ed="#V" n="34"/>qui vult quod mensura sit unigenea 
+          men<lb ed="#V" break="no" n="35"/>surato, ut patet <ref xml:id="mm30o9-d1e1566-Rd1e1969">10 . Metaph. text. com. 4.</ref>
+          <lb ed="#V" n="36"/>ubi sic habetur : Semper, inquit, 
+          cogna<lb ed="#V" break="no" n="37"/>tum est metrum magnitudo, non quidem
+          <lb ed="#V" n="38"/>enim magnitudo, et secunaum 
+          unwnquod<lb ed="#V" break="no" n="39"/>que longitudinis longitudo, latitudinis
+          <lb ed="#V" n="40"/>latitudo, vocis vov, gravitatis gravitas,
+          <lb ed="#V" n="41"/>unitatis unitas, sic enim oportet accipere :
+          <lb ed="#V" n="42"/>hec ille. Vult dicere, quod tertia 
+          proprie<lb ed="#V" break="no" n="43"/>tas mensura est, quod sit uniformis, et
+          <lb ed="#V" n="44"/>unigenea mensurato, id est, quod sit unius
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>generis cum mensurato. Et hoc est quod
+          <lb ed="#V" n="46"/>dicit, quod semper metrum est cognatum,
+          <lb ed="#V" n="47"/>supple unius generis commensurato, et
+          <lb ed="#V" n="48"/>hoc patet per exempla ibi posita; nam
+          <lb ed="#V" n="49"/>mensura magnitudinis est quadam 
+          ma<lb ed="#V" break="no" n="50"/>gnitudo, et secundum unumquodque
+          <lb ed="#V" n="51"/>mensuratum, ut quod latitudinis sit, 
+          sup<lb ed="#V" break="no" n="52"/>ple mensura longitudo, et longitudinis
+          <lb ed="#V" n="53"/>mensura sit longitudo, etc. Hoc idem vult
+          <lb ed="#V" n="54"/>Commentator ibidem; sequitur ergo ex
+          <lb ed="#V" n="55"/>ista auctoritate, quod si mensura sit 
+          divi<lb ed="#V" break="no" n="56"/>sibilis et successiva, et mensuratum  
+          si<lb ed="#V" break="no" n="57"/>militer erit divisibile et successivum, quod
+          <lb ed="#V" n="58"/>etiam probatur per hoc, quia indivisibile,
+          <lb ed="#V" n="59"/>inquantum indivisibile potest  mensurari
+          <lb ed="#V" n="60"/>divisibili.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e2029">
+          <lb ed="#V" n="61"/>Ad hoc argumentum Henrici contra D.
+          <lb ed="#V" n="62"/>Bonaventuram respondet Doctor 
+          sustinen<lb ed="#V" break="no" n="63"/>do opinionem Bonaventure ; et responsio
+          <lb ed="#V" n="64"/>stat in. hoc, quod licet tempus, quod est
+          <lb ed="#V" n="65"/>divisibile, sit mensura motus qui est 
+          di<lb ed="#V" break="no" n="66"/>visibilis, et quod divisio temporis 
+          pre<lb ed="#V" break="no" n="67"/>supponat divisionem motus, quia divisio
+          <lb ed="#V" n="68"/>partium motus est causa divisionis 
+          par<lb ed="#V" break="no" n="69"/>tium temporis, et per consequens non
+          <lb ed="#V" n="70"/>potest esse novitas et successio in 
+          tem<lb ed="#V" break="no" n="71"/>pore, quin sit in motu mensurato; non
+          <lb ed="#V" n="72"/>tamen sic sequitur de sevo respectu 
+          exi<lb ed="#V" break="no" n="73"/>stenti:e. Angeli, quia potest esse divisio
+          <lb ed="#V" n="74"/>mensure absque divisione mensurati,
+          <lb ed="#V" n="75"/>praecipue cum mensuratum non sit 
+          cau<lb ed="#V" break="no" n="76"/>sa mensure, et etjam si sic, potest esse
+          <lb ed="#V" n="77"/>quod aliqua mensura sit successiva illi,
+          <lb ed="#V" n="78"/>ita quod unum nunc succedat alteri, et
+          <lb ed="#V" n="79"/>tamen mensuratum non sit successivum,
+          <lb ed="#V" n="80"/>sed sufficit, quod illud mensuratum 
+          ac<lb ed="#V" break="no" n="81"/>tione continua agentis primi, vel alia et
+          <lb ed="#V" n="82"/>alia actione ponatur in alio et alio 
+          in<lb ed="#V" break="no" n="83"/>stanti.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e2081">
+          <lb ed="#V" n="84"/>Et si dicatur, mensura et mensuratum
+          <lb ed="#V" n="85"/>sunt unigenea, si ergo aevum est 
+          divisi<lb ed="#V" break="no" n="86"/>bile in alia et alia instantia sibi invicem
+          <lb ed="#V" n="87"/>succedentia; ergo et existentia Angeli erit
+          <lb ed="#V" n="88"/>divisibilis.
+          <pb ed="#L" n="231"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>Dico primo, quod Aristoteles non posuit
+          <lb ed="#V" n="2"/>hanc. mensuram svi successivam, sed
+          <lb ed="#V" n="3"/>tempus esse mensuram successivam 
+          po<lb ed="#V" break="no" n="4"/>suit, et unigeneam mensurato; vult enim
+          <lb ed="#V" n="5"/>ipse substantias separatas esse necesse 
+          es<lb ed="#V" break="no" n="6"/>se, et aeternas. Secundo dico, quod licet
+          <lb ed="#V" n="7"/>existentia Angeli non sit in se 
+          divisibi<lb ed="#V" break="no" n="8"/>lis, tamen ut consideratur habere esse
+          <lb ed="#V" n="9"/>in alio et alio instanti, et hoc vel 
+          acti<lb ed="#V" break="no" n="10"/>one continua primi agentis, vel alia et alia
+          <lb ed="#V" n="11"/>actione erit divisibilis. Addit enim 
+          Do<lb ed="#V" break="no" n="12"/>ctor, quod licet mensura successiva, 
+          qua<lb ed="#V" break="no" n="13"/>lis est tempus, ut comparatur ad motum,
+          <lb ed="#V" n="14"/>sit unigenea illi, quia sicut in tempore
+          <lb ed="#V" n="15"/>alia et alia pars succedit alteri parti, ita
+          <lb ed="#V" n="16"/>quod adveniente una parte, altera desinit
+          <lb ed="#V" n="17"/>esse ; sic similiter est in motu, in quo
+          <lb ed="#V" n="18"/>una pars succedit alteri, sic quod 
+          adve<lb ed="#V" break="no" n="19"/>niente secunda desinit prima, et sic 
+          adve<lb ed="#V" break="no" n="20"/>niente tertia desinit secunda, et sic 
+          suc<lb ed="#V" break="no" n="21"/>cessive ; loquendo tamen de re 
+          permanen<lb ed="#V" break="no" n="22"/>te, qua» est subjecta motui, quae 
+          mensu<lb ed="#V" break="no" n="23"/>ratur etiam tempore, pro quanto motul
+          <lb ed="#V" n="24"/>subjicitur, non erit unigenea tempori,
+          <lb ed="#V" n="25"/>quia res permanens habet omnes partes
+          <lb ed="#V" n="26"/>simul, ita quod una non succedit alteri,
+          <lb ed="#V" n="27"/>sicut e contrario est in tempore et in
+          <lb ed="#V" n="28"/>motu, ubi partes non sunt simul, sed
+          <lb ed="#V" n="29"/>semper una alteri succedit.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e2163">
+          <lb ed="#V" n="30"/>Secundo principaliter arguit Henricus,
+          <lb ed="#V" n="31"/>quia si nunc aevi raptim transit, ita quod
+          <lb ed="#V" n="32"/>unum succedit alteri, et adveniente 
+          se<lb ed="#V" break="no" n="33"/>cundo nunc, primum desinit esse, aliter
+          <lb ed="#V" n="34"/>aevum non esset successivum, quia Si
+          <lb ed="#V" n="35"/>omnia nunc «evi simul essent, ipsum aevum
+          <lb ed="#V" n="36"/>esset permanens, quia haberet omnes 
+          par<lb ed="#V" break="no" n="37"/>tes simul. Ad hoc ergo ut dicatur 
+          succes<lb ed="#V" break="no" n="38"/>sivum, oportet sic unum nunc succedere
+          <lb ed="#V" n="39"/>alteri, quod adveniente uno desinat aliud,
+          <lb ed="#V" n="40"/>sed non est possibile nwnc cvi desinere
+          <lb ed="#V" n="41"/>esse, quod patet, quia si desinit esse, hoc
+          <lb ed="#V" n="42"/>maxime erit propter defectum subjecti,
+          <lb ed="#V" n="43"/>puta ipsius ceviterni ; sed :eviternum 
+          ma<lb ed="#V" break="no" n="44"/>net idem, nec potest assignari alia. causa,
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>qua desinat esse, quia non videtur 
+          assi<lb ed="#V" break="no" n="46"/>gnari posse causa corruptionis, ergo nunc
+          <lb ed="#V" n="47"/>cvi non deficit, aliter tamen est de nunc
+          <lb ed="#V" n="48"/>temporis, quia deficit propter defectum
+          <lb ed="#V" n="49"/>subjecti proximi, quod est mutatio.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e2211">
+          <lb ed="#V" n="50"/>Respondet Doctor ad hoc secundum 
+          ar<lb ed="#V" break="no" n="51"/>gumentum, et dicit quod illud nunc 
+          desi<lb ed="#V" break="no" n="52"/>nit in se, quia ex se habet tantum raptim
+          <lb ed="#V" n="53"/>transire. Desinere tamen potest exponi
+          <lb ed="#V" n="54"/>dupliciter : Uno modo per positionem
+          <lb ed="#V" n="55"/>praesentis, et negationem futuri, vel per
+          <lb ed="#V" n="56"/>positionem praeteriti, et negationem 
+          prca<lb ed="#V" break="no" n="57"/>sentis. Et ut ista littera intelligatur, 
+          de<lb ed="#V" break="no" n="58"/>claro aliqua, nam differentia est inter 
+          per<lb ed="#V" break="no" n="59"/>manentia, et inter successiva divisibilia
+          <lb ed="#V" n="60"/>In partes divisibiles, et inter indivisibilia
+          <lb ed="#V" n="61"/>sive instantanea.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e2240">
+          <lb ed="#V" n="62"/>De permanentibus sit ista prima 
+          conclu<lb ed="#V" break="no" n="63"/>sio,quod permanens habet primum sui 
+          es<lb ed="#V" break="no" n="64"/>$e. Et pono exemplum, quod generetur
+          <lb ed="#V" n="65"/>ignis ex ligno,et tunc dicitur ignis genera- ,
+          <lb ed="#V" n="66"/>ri, quando forma substantialis ignis 
+          induci<lb ed="#V" break="no" n="67"/>tur in materia ligni, quod declarat Doctor
+          <lb ed="#V" n="68"/>in prima dist. quarti, quaest. 1. et tunc 
+          di<lb ed="#V" break="no" n="69"/>co, quod forma ignis geniti habet primum
+          <lb ed="#V" n="70"/>sui esse, loquendo de forma completive,
+          <lb ed="#V" n="71"/>id est, quod datur aliquod instans in quo
+          <lb ed="#V" n="72"/>habet suum esse perfectum. Et cum 
+          dici<lb ed="#V" break="no" n="73"/>tur, illa forma incipit esse, sic debet 
+          ex<lb ed="#V" break="no" n="74"/>poni, et dicatur illa forma A, A incipit 
+          es<lb ed="#V" break="no" n="75"/>se, sic exponitur, A nunc est, et 
+          immedi<lb ed="#V" break="no" n="76"/>ate ante hoc instans non fuit, ergo .1 
+          in<lb ed="#V" break="no" n="77"/>cipit esse, quod dicitur, quod immediate
+          <lb ed="#V" n="78"/>ante hoc instans non fuit in aliquo 
+          instan<lb ed="#V" break="no" n="79"/>ti immediato illi instanti in quo est, quia
+          <lb ed="#V" n="80"/>tunc duo instantia essent immediate, quod
+          <lb ed="#V" n="81"/>est contra Aristotelem 4. et 6. 
+          PhAysico<lb ed="#V" break="no" n="82"/>rum. Sed sic debet intelligi, immediate
+          <lb ed="#V" n="83"/>ante hoc instans non fuit,id est, in 
+          tempo<lb ed="#V" break="no" n="84"/>re immediate praecedenti hoc instans, in
+          <lb ed="#V" n="85"/>quo est ; ergo incipit esse, sic 
+          intelligen<lb ed="#V" break="no" n="86"/>do, A in hoc instanti est, et in tempore
+          <lb ed="#V" n="87"/>immediate ante hoc instans non fuit ; 
+          er<lb ed="#V" break="no" n="88"/>go A incipit esse, et hoc modo in perma-
+          <pb ed="#L" n="232"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>nentibus incipit exponitur per positionem
+          <lb ed="#V" n="2"/>de praesenti, et negationem de pr«eterito,
+          <lb ed="#V" n="3"/>et sic patet quomodo in permanentibus
+          <lb ed="#V" n="4"/>datur primum sui esse.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e2314">
+          <lb ed="#V" n="5"/>Secunda conclusio est, quod in 
+          perma<lb ed="#V" break="no" n="6"/>nentibus non datur ultimum sui non esse,
+          <lb ed="#V" n="7"/>id est, non datur aliquod instans in quo
+          <lb ed="#V" n="8"/>non sit, et aliud instans in quo 
+          immedi<lb ed="#V" break="no" n="9"/>ate sit, quia tunc duo instantia essent
+          <lb ed="#V" n="10"/>simul immediata, nec tempus immediatum
+          <lb ed="#V" n="11"/>ad illud instans, quia tunc generaretur
+          <lb ed="#V" n="12"/>in tempore et non in instanti, ut si 
+          di<lb ed="#V" break="no" n="13"/>catur, A in isto instanti non est, et 
+          imme<lb ed="#V" break="no" n="14"/>diate post hoc instans erit. Si intelligatur
+          <lb ed="#V" n="15"/>ly immediate pro instanti immediato, tunc
+          <lb ed="#V" n="16"/>dantur duo instantia sibi immediata. Si
+          <lb ed="#V" n="17"/>intelligatur immediate, id est, in 
+          tem<lb ed="#V" break="no" n="18"/>pore immediate habito, tunc generatur
+          <lb ed="#V" n="19"/>in tempore et non in instanti, quod est
+          <lb ed="#V" n="20"/>contra Philosophum, et sic patet 
+          quomo<lb ed="#V" break="no" n="21"/>do rei permanentis datur primum 
+          in<lb ed="#V" break="no" n="22"/>stans sui esse, et non datur ultimum 
+          in<lb ed="#V" break="no" n="23"/>stans sui non esse. Exemplum clarum
+          <lb ed="#V" n="24"/>ponitur utriusque, supponendo, quod
+          <lb ed="#V" n="25"/>quando acquiritur aliquod permanens
+          <lb ed="#V" n="26"/>ut permanens, tantum in instanti 
+          acqui<lb ed="#V" break="no" n="27"/>ritur. Et licet aliqua qualitas vel 
+          quan<lb ed="#V" break="no" n="28"/>titas, et forte multe» forme substantiales
+          <lb ed="#V" n="29"/>secundum Scotum in 9. Metaphysicce, 
+          acqui<lb ed="#V" break="no" n="30"/>rantur successive, tamen sunt de numero
+          <lb ed="#V" n="31"/>permanentium cum omnes partes habeant
+          <lb ed="#V" n="32"/>simul, ut ergo successive acquiruntur, et
+          <lb ed="#V" n="33"/>per motum. Similis datur regula de eis, quae
+          <lb ed="#V" n="34"/>et de successivis. Sed regula ista de 
+          per<lb ed="#V" break="no" n="35"/>manentibus intelligitur de permanentibus,
+          <lb ed="#V" n="36"/>qua ut permanentia totum simul haben,
+          <lb ed="#V" n="37"/>esse in ultimo instanti temporis, in quo
+          <lb ed="#V" n="38"/>tempore successive acquiruntur, et in 
+          ul<lb ed="#V" break="no" n="39"/>timo instanti tantum indivisibiliter, et sic
+          <lb ed="#V" n="40"/>nullo modo per motum, sed per 
+          mutati<lb ed="#V" break="no" n="41"/>onem. Hoc praemisso, pono exemplum, et
+          <lb ed="#V" n="42"/>sit forma permanens A, quae simul tota
+          <lb ed="#V" n="43"/>acquiritur, tunc datur primum sui esse,
+          <lb ed="#V" n="44"/>id est, datur aliquod instans temporis
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>praecedentis, in quo est verum dicere A
+          <lb ed="#V" n="46"/>est, et per totum tempus praeteritum 
+          im<lb ed="#V" break="no" n="47"/>mediatum illi instanti verum est dicere A
+          <lb ed="#V" n="48"/>non fuit, ergo A incipit esse ; et sic 
+          inci<lb ed="#V" break="no" n="49"/>pit exponitur per positionem de praesenti,
+          <lb ed="#V" n="50"/>supple affirmando A esse in aliquo ultimo
+          <lb ed="#V" n="51"/>instanti alicujus temporis, et per 
+          negati<lb ed="#V" break="no" n="52"/>onem de praeterito, supple negando ipsum
+          <lb ed="#V" n="53"/>fuisse pro toto tempore immediate 
+          praece<lb ed="#V" break="no" n="54"/>denti illud ultimum instans.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e2427">
+          <lb ed="#V" n="55"/>Item, non datur ultimum sui non esse
+          <lb ed="#V" n="56"/>id est, non datur aliquod instans 
+          immedi<lb ed="#V" break="no" n="57"/>ate sequens aliquod tempus in quo A non
+          <lb ed="#V" n="58"/>sit, et. immediate post illud instans sit,
+          <lb ed="#V" n="59"/>quia si in aliquo instanti non est, et 
+          im<lb ed="#V" break="no" n="60"/>mediate post illud est, aut erit in tempore
+          <lb ed="#V" n="61"/>aut in instanti; non in tempore 
+          immedia<lb ed="#V" break="no" n="62"/>to ad illud instans in quo non est, quia
+          <lb ed="#V" n="63"/>dictum est, quod permanens ut 
+          perma<lb ed="#V" break="no" n="64"/>nens acquiritur in instanti ; nec etiam est
+          <lb ed="#V" n="65"/>in instanti immediate sequenti instans in
+          <lb ed="#V" n="66"/>quo non fuit, quia tunc darentur duo 
+          in<lb ed="#V" break="no" n="67"/>stantia sibi immediata.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e2458">
+          <lb ed="#V" n="68"/>Tertia conclusio : Permanens habet 
+          pri<lb ed="#V" break="no" n="69"/>mum instans sui non esse, id est, quod si
+          <lb ed="#V" n="70"/>aliquod permanens duret per horam, et in
+          <lb ed="#V" n="71"/>ultimo instanti illius horae desinit esse,
+          <lb ed="#V" n="72"/>et sic exponitur per negationem de 
+          prae<lb ed="#V" break="no" n="73"/>senti, et per positionem de praeterito, 
+          sup<lb ed="#V" break="no" n="74"/>ple A in ultimo instanti horae non est, et
+          <lb ed="#V" n="75"/>in tempore immediato ante illud instans
+          <lb ed="#V" n="76"/>fuit, ergo A desinit esse. Et sic patet dif- 3
+          <lb ed="#V" n="77"/>ferentia inter ultimum instans sui mom *
+          <lb ed="#V" n="78"/>esse, et primum instans sui non esse, quia
+          <lb ed="#V" n="79"/>cum dico A habet ultimum instans sui
+          <lb ed="#V" n="80"/>non esse, semper exponitur per 
+          negati<lb ed="#V" break="no" n="81"/>onem de praesenti, et positionem de 
+          fu<lb ed="#V" break="no" n="82"/>turo, id est, A in isto instanti non est, et
+          <lb ed="#V" n="83"/>immediate post hoc instans erit. Cum  
+          ve<lb ed="#V" break="no" n="84"/>ro datur primum instans sui non esse,
+          <lb ed="#V" n="85"/>semper sic exponitur per negationem de
+          <lb ed="#V" n="86"/>praesenti, et positionem de praeterito,
+          <lb ed="#V" n="87"/>supple 4 in isto instanti non est, et in
+          <lb ed="#V" n="88"/>tempore immediato. ad hoc instans fuit :
+          <pb ed="#L" n="233"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>ergo A desinit esse ; et sic ad ultimum
+          <lb ed="#V" n="2"/>instans sui non esse sequitur incipere 
+          es<lb ed="#V" break="no" n="3"/>se. Ad primum vero instans sui non esse,
+          <lb ed="#V" n="4"/>sequitur desinere esse.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e2520">
+          <lb ed="#V" n="5"/>Quarta conclusio : Communiter quod est
+          <lb ed="#V" n="6"/>primum instans non esse alicujus forme
+          <lb ed="#V" n="7"/>permanentis, est primum instans esse 
+          al<lb ed="#V" break="no" n="8"/>terius formae permanentis. Exemplum :
+          <lb ed="#V" n="9"/>Pono casum, quod materia ligni sit sub
+          <lb ed="#V" n="10"/>forma ligni tantum per horam, et in 
+          ulti<lb ed="#V" break="no" n="11"/>mo instanti illius horae sit sub forma ignis;
+          <lb ed="#V" n="12"/>tuncin ultimo instanti illius horae, verum
+          <lb ed="#V" n="13"/>est dicere, forma ligni in hoc instanti non
+          <lb ed="#V" n="14"/>est, et in tempore immediato ante hoc 
+          in<lb ed="#V" break="no" n="15"/>stans fuit ; ergo desinit esse, et sic datur
+          <lb ed="#V" n="16"/>primum instans sui non esse. Similiter
+          <lb ed="#V" n="17"/>verum est dicere,f orima ignis in ultimo
+          <lb ed="#V" n="18"/>instanti illius horae est, et in tempore 
+          im<lb ed="#V" break="no" n="19"/>mediato ante illud instans non fuit ; 
+          er<lb ed="#V" break="no" n="20"/>20 incipit esse, et sic patet quomodo 
+          re<lb ed="#V" break="no" n="21"/>spectu unius formae illud instans, quod est
+          <lb ed="#V" n="22"/>primum instans sui non esse, est etiam
+          <lb ed="#V" n="23"/>primum instans esse alterius forme.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e2564">
+          <lb ed="#V" n="24"/>Adverte tamen primo quod quando
+          <lb ed="#V" n="25"/>datur primum instans sui esse, semper 
+          n<lb ed="#V" break="no" n="26"/>cipit, exponitur per positionem de pr:
+          e<lb ed="#V" break="no" n="27"/>senti, et negationem de pr:eterito. 
+          Exem<lb ed="#V" break="no" n="28"/>plum, 4 nunc est, et immediate ante hoc
+          <lb ed="#V" n="29"/>non fuit ; ergo A incipit esse.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e2580">
+          <lb ed="#V" n="30"/>Secundo, quando datur ultimum 
+          in<lb ed="#V" break="no" n="31"/>stans sui non esse, incipit semper 
+          exponi<lb ed="#V" break="no" n="32"/>tur per negationem de praesenti, et per 
+          po<lb ed="#V" break="no" n="33"/>sit;ionem de futuro. Exemplum, 44 in isto
+          <lb ed="#V" n="34"/>Instanti non est,et immediate post hoc 
+          ins<lb ed="#V" break="no" n="35"/>tans erit, ergo A incipit esse. Tertio,
+          <lb ed="#V" n="36"/>quando datur primum instans erit, ergo
+          <lb ed="#V" n="37"/>A incipit esse. Quarto quando datur 
+          pri<lb ed="#V" break="no" n="38"/>mum instans sui non esse, tunc non 
+          po<lb ed="#V" break="no" n="39"/>test. exponi per incipit, sed per desinit,
+          <lb ed="#V" n="40"/>et desinit semper sic exponitur per 
+          nega<lb ed="#V" break="no" n="41"/>tionem de praesenti, et positionem de
+          <lb ed="#V" n="42"/>praeterito. Exemplum, A in isto instanti
+          <lb ed="#V" n="43"/>non est, et in tempore immediato ante hoc
+          <lb ed="#V" n="44"/>instans fuit ; ergo A desinit esse. Quinto,
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>ubi datur primum et ultimum instans sui
+          <lb ed="#V" n="46"/>esse ut in divisibilibus, potest exponi per
+          <lb ed="#V" n="47"/>incipit et desinit, et ly incipit exponitur
+          <lb ed="#V" n="48"/>per positionem de praesenti, et 
+          negati<lb ed="#V" break="no" n="49"/>onem de futuro,et hoc satis patet per 
+          Phi<lb ed="#V" break="no" n="50"/>losophum. Exemplum primi, 4 in isto
+          <lb ed="#V" n="51"/>instanti est, et immediate ante hoc non
+          <lb ed="#V" n="52"/>fuit ; ergo A incipit esse. Exemplum
+          <lb ed="#V" n="53"/>secundi, A in isto instanti est, et 
+          im<lb ed="#V" break="no" n="54"/>mediate post hoc non erit ; ergo A 
+          desi<lb ed="#V" break="no" n="55"/>nit esse.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e2641">
+          <lb ed="#V" n="56"/>Quinta conclusio, in permanentibus non
+          <lb ed="#V" n="57"/>datur ultimum instans sui esse, et hoc 
+          sa<lb ed="#V" break="no" n="58"/>tis exposui infra in isto secundo. Et ut
+          <lb ed="#V" n="59"/>clarius intelligatur, pono quod aliquod
+          <lb ed="#V" n="60"/>permanens duret per horam, et tale 
+          per<lb ed="#V" break="no" n="61"/>manens dicatur 4; tunc sic, si habet 
+          ul<lb ed="#V" break="no" n="62"/>timum instans sui esse, quod est ultimum
+          <lb ed="#V" n="63"/>instans unius horae, tunc exponitur per
+          <lb ed="#V" n="64"/>positionem de praesenti, et negationem de
+          <lb ed="#V" n="65"/>futuro,sic dicendo : 4 in isto instanti est,
+          <lb ed="#V" n="66"/>et in tempore immediato post hoc instans
+          <lb ed="#V" n="67"/>non erit ; ergo desinit esse. Secunda pars
+          <lb ed="#V" n="68"/>est falsa, quia tunc haberet non esse in
+          <lb ed="#V" n="69"/>tempore, et desineret esse in tempore,
+          <lb ed="#V" n="70"/>quod est contra rationem permanentis,
+          <lb ed="#V" n="71"/>quia permanens, quod simul desinit esse,
+          <lb ed="#V" n="72"/>tantum desinit esse in instanti. Permanens
+          <lb ed="#V" n="73"/>tamen ?e potentia Dei, potest habere 
+          ul<lb ed="#V" break="no" n="74"/>timum instans sui esse, nam Deus posset
+          <lb ed="#V" n="75"/>conservare lapidem per unam diem, et per
+          <lb ed="#V" n="76"/>ultimum instans illius dici, et in tempore
+          <lb ed="#V" n="77"/>immediato ad illud instans posset 
+          eum<lb ed="#V" break="no" n="78"/>dem lapidem annihilare, et sic haberet
+          <lb ed="#V" n="79"/>ulimum instans sui esse, et hoc satis
+          <lb ed="#V" n="80"/>patet a Doctore 4. 12. quodlibetorum.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e2698">
+          <lb ed="#V" n="81"/>Sexta conclusio est de successivis, ubi |
+          <lb ed="#V" n="82"/>plura continentur. Successiva enim illa,
+          <lb ed="#V" n="83"/>quaeze non habent omnes partes simul, sed
+          <lb ed="#V" n="84"/>una succedit alteri, ita quod una advenien- ,
+          <lb ed="#V" n="85"/>te, alia desinit esse, ut patet de motu et
+          <lb ed="#V" n="86"/>tempore. Et de istis loquendo, dantur 
+          ali<lb ed="#V" break="no" n="87"/>quae regulae, quantum prima est ista, quod
+          <lb ed="#V" n="88"/>in successivis datur primum sui non esse.
+          <pb ed="#L" n="234"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>Et pono exemplum de motu, qui duret
+          <lb ed="#V" n="2"/>per horam, et tunc ista est vera, motus
+          <lb ed="#V" n="3"/>in ultimo instanti horae non est, patet quia
+          <lb ed="#V" n="4"/>motus non est in instanti, et in 
+          tempo<lb ed="#V" break="no" n="5"/>re immediato ad illud instans fuit, et sic
+          <lb ed="#V" n="6"/>desinit esse. Secunda regula, in 
+          successi<lb ed="#V" break="no" n="7"/>vis datur ultimum instans sui non. esse,id
+          <lb ed="#V" n="8"/>est, datur ultimum instans alicujus 
+          tem<lb ed="#V" break="no" n="9"/>poris in quo non est, quia motus 
+          nun<lb ed="#V" break="no" n="10"/>quam est in instanti, ut dixi, et in 
+          tem<lb ed="#V" break="no" n="11"/>pore immediato post illud instans erit, et
+          <lb ed="#V" n="12"/>sic incipit esse motus. Et exponitur ?
+          nci<lb ed="#V" break="no" n="13"/>pit per negationem de praesenti, et 
+          posi<lb ed="#V" break="no" n="14"/>tionem de futuro, quia ista est vera, 
+          mo<lb ed="#V" break="no" n="15"/>tus in isto instanti non est, et in
+          <lb ed="#V" n="16"/>tempore immediato post haec instans erit ;
+          <lb ed="#V" n="17"/>ergo motus incipit esse. Tertia regula, in
+          <lb ed="#V" n="18"/>successivis non datur primum instans sui
+          <lb ed="#V" n="19"/>esse, patet, quia tunc motus posset esse
+          <lb ed="#V" n="20"/>in instanti, et tunc lista esset vera, 
+          mo<lb ed="#V" break="no" n="21"/>tus in isto instanti est, quod repugnat 
+          sci<lb ed="#V" break="no" n="22"/>licet motum esse in instanti. Quarta 
+          regu<lb ed="#V" break="no" n="23"/>la, in successivis non datur. ultimum 
+          in<lb ed="#V" break="no" n="24"/>stans sui esse. Hoc est enim contra 
+          rati<lb ed="#V" break="no" n="25"/>onem successivorum, quod possint habere
+          <lb ed="#V" n="26"/>esse in aliquo instanti, tantum enim 
+          ha<lb ed="#V" break="no" n="27"/>bent esse in tempore.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e2781">
+          <lb ed="#V" n="28"/>Septima conclusio est de indivisibilibus
+          <lb ed="#V" n="29"/>et instantaneis, in qua dantur aliquae 
+          re<lb ed="#V" break="no" n="30"/>gulae; et non loquor hic de indivisibilibus
+          <lb ed="#V" n="31"/>et instantaneis aliquo modo 
+          permanenti<lb ed="#V" break="no" n="32"/>bus, sicut dicimus quod punctus in linea
+          <lb ed="#V" n="33"/>permanet, sed tantum loquor de illis, quae
+          <lb ed="#V" n="34"/>habent esse et permanentiam per instans,
+          <lb ed="#V" n="35"/>ut sunt mutationes, sive mutatum esse in
+          <lb ed="#V" n="36"/>motu, et instans in tempore, quo 
+          intelle<lb ed="#V" break="no" n="37"/>cto,sit ista prima regula: Instantanea 
+          ha<lb ed="#V" break="no" n="38"/>bent primum sui esse, patet, quia ista est
+          <lb ed="#V" n="39"/>vera, A, in isto instanti est, et immediate
+          <lb ed="#V" n="40"/>ante illud instans non fuit ; ergo A 
+          inci<lb ed="#V" break="no" n="41"/>pit esse, et sic ?ncipit exponitur per 
+          posi<lb ed="#V" break="no" n="42"/>tionem de praesenti, et negationem de
+          <lb ed="#V" n="43"/>praeterito. Secunda regula est, quod 
+          Zn<lb ed="#V" break="no" n="44"/>stantanea — habent. ultimum sui — esse,
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>nam haec est vera, instantaneum est in
+          <lb ed="#V" n="46"/>isto instanti, et immediate post hoc
+          <lb ed="#V" n="47"/>instans non erit; ergo desinit esse, et
+          <lb ed="#V" n="48"/>desinit exponitur per positionem de pr:
+          ee<lb ed="#V" break="no" n="49"/>senti, et negationem de futuro. Tertia 
+          re<lb ed="#V" break="no" n="50"/>gula: /nstantanea non habent primum
+          <lb ed="#V" n="51"/>instans sui non esse, patet, quia Ista. est
+          <lb ed="#V" n="52"/>falsa, A instantaneum in isto instanti non
+          <lb ed="#V" n="53"/>est et in tempore immediato ante hoc 
+          in<lb ed="#V" break="no" n="54"/>stans fuit. Haec secunda pars est falsa, quia
+          <lb ed="#V" n="55"/>instantaneum habet tantum esse per 
+          in<lb ed="#V" break="no" n="56"/>stans. Quarta regula: instantanea non ha.
+          <lb ed="#V" n="57"/>bent. ultimum instans sui non esse, patet,
+          <lb ed="#V" n="58"/>quia ista est falsa; A instantaneum in 
+          is<lb ed="#V" break="no" n="59"/>to instanti non,est, et in tempore 
+          immedi<lb ed="#V" break="no" n="60"/>ato post hoc instans erit. Hcc est falsa,
+          <lb ed="#V" n="61"/>cum nullo modo habeat esse in tempore.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e2860">
+          <lb ed="#V" n="62"/>Breviter ergo dico, quod permanentia 
+          ha<lb ed="#V" break="no" n="63"/>bent primum instans sui esse, et primum 
+          <lb ed="#V" n="64"/>instans sui non esse, et non habent 
+          ulti<lb ed="#V" break="no" n="65"/>mum instans sui esse, nec ultimum instans
+          <lb ed="#V" n="66"/>sui non esse. Successiva autem habent
+          <lb ed="#V" n="67"/>primum instans sui non esse, et ultimum
+          <lb ed="#V" n="68"/>instans sui non esse sed non habent 
+          pri<lb ed="#V" break="no" n="69"/>mum instans sui esse, nec ultimum 
+          in<lb ed="#V" break="no" n="70"/>tans sui esse. Intantanea vero habent 
+          pri<lb ed="#V" break="no" n="71"/>mum instans sui esse, et ultimum instans
+          <lb ed="#V" n="72"/>sui esse, sed non habent primum instans
+          <lb ed="#V" n="73"/>sul non esse, nec ultimum instans sui 9n
+          <lb ed="#V" n="74"/>esse, et sic patet quid dicendum de
+          <lb ed="#V" n="75"/>istis.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e2893">
+          <lb ed="#V" n="76"/>(d) Ad aliud. Istis praemissis declaro 
+          lit<lb ed="#V" break="no" n="77"/>teram Doctoris respondendo ad 
+          argumen<lb ed="#V" break="no" n="78"/>tum Henrici ibi : Ad. aliud. argumentum
+          <lb ed="#V" n="79"/>dico quod nunc potest deficere, etc. Hic 
+          lo<lb ed="#V" break="no" n="80"/>quitur specialiter de nunc cevi,quod raptim
+          <lb ed="#V" n="81"/>transit, quia unum z:-42c saevi immediate
+          <lb ed="#V" n="82"/>succedit alteri nunc, ita quod adveniente
+          <lb ed="#V" n="83"/>uno nunc, aliud desinit esse, et hoc est
+          <lb ed="#V" n="84"/>raptim transire. Et licet aeviternum 
+          ma<lb ed="#V" break="no" n="85"/>neat, tamen nunc cvi in se desinit esse,
+          <lb ed="#V" n="86"/>nec aliquod agens corrumpit ipsum, ut
+          <lb ed="#V" n="87"/>patet. Sequitur, et quod nunc temporis
+          <lb ed="#V" n="88"/>deficiat, etc. Dicit Doctor, quod nunc
+          <pb ed="#L" n="235"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>temporis eodem modo desinit esse sicut
+          <lb ed="#V" n="2"/>et nunc cvi quia sicut nunc aevi desinit
+          <lb ed="#V" n="3"/>esse in se, ita et nunc temporis. Et addit
+          <lb ed="#V" n="4"/>quod licet nunc temporis deficiat 
+          deficien<lb ed="#V" break="no" n="5"/>te subjecto immediato, hoc tamen sibi
+          <lb ed="#V" n="6"/>accidit. Subjectum immediatum nunc
+          <lb ed="#V" n="7"/>temporis est mutatio, sive mulatwm 
+          es<lb ed="#V" break="no" n="8"/>se, quod est instantaneum, sicut et motus
+          <lb ed="#V" n="9"/>qui est successivus, est subjectum 
+          tempo<lb ed="#V" break="no" n="10"/>ris successivi. Dicit ergo Doctor, quod licet
+          <lb ed="#V" n="11"/>deficiente subjecto nunc, puta aliquo 
+          mu<lb ed="#V" break="no" n="12"/>tato esse, deficiat ipsum nunc, hoc tamen
+          <lb ed="#V" n="13"/>non est praecisa causa, quia si ipsum 
+          sub<lb ed="#V" break="no" n="14"/>jectum haberet permanentiam per aliquod
+          <lb ed="#V" n="15"/>tempus, adhuc ipsum nunc desineret esse
+          <lb ed="#V" n="16"/>in se. Et cum quaeritur illud. nunc, a quo
+          <lb ed="#V" n="17"/>corrumpitur, dicit Doctor, quod a nullo
+          <lb ed="#V" n="18"/>immediate corrumpitur, sed mediate 
+          tan<lb ed="#V" break="no" n="19"/>tum, quia agens producens aliud nunc
+          <lb ed="#V" n="20"/>incompossibile priori, corrumpit illud
+          <lb ed="#V" n="21"/>prius, et sic non corrumpit, sed ex 
+          conse<lb ed="#V" break="no" n="22"/>quenti,
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e2976">
+          <lb ed="#V" n="23"/>(e) Et si quaeras tune, in quo  
+          defi<lb ed="#V" break="no" n="24"/>ciat, etc. Dicit Doctor, quod deficere sive
+          <lb ed="#V" n="25"/>desinere potest. exponi dupliciter : Uno
+          <lb ed="#V" n="26"/>modo per positionem praesentis, et 
+          nega<lb ed="#V" break="no" n="27"/>tionem futuri ; et hoc modo debet 
+          expo<lb ed="#V" break="no" n="28"/>ni in indivisibilibus, et in his quae habent
+          <lb ed="#V" n="29"/>ultimum sui esse, et sic exponitur: hoc
+          <lb ed="#V" n="30"/>indivisibile in isto instanti est, et 
+          imme<lb ed="#V" break="no" n="31"/>diate post hoc non erit, ergo desinit esse;
+          <lb ed="#V" n="32"/>illa enim indivisibilia non habent primum
+          <lb ed="#V" n="33"/>sui non esse, quia sic exponerentur per
+          <lb ed="#V" n="34"/>negationem de praesenti, et positionem de
+          <lb ed="#V" n="35"/>praeterito ut supra patuit, et sic talia
+          <lb ed="#V" n="36"/>indivisibilia deficiunt cum sunt, quia ista
+          <lb ed="#V" n="37"/>est vera : Hoc indivisibile est in hoc 
+          in<lb ed="#V" break="no" n="38"/>stanti, et immediate post hoc non erit, et
+          <lb ed="#V" n="39"/>sic tale indivisibile desinet esse.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e3015">
+          <lb ed="#V" n="40"/>(D Etsi quaeras primum sui non esse
+          <lb ed="#V" n="41"/>nullum est, quia si haberent primum sui
+          <lb ed="#V" n="42"/>non esse, ut dixi supra, tunc desinere
+          <lb ed="#V" n="43"/>exponeretur per negationem praesentis, et
+          <lb ed="#V" n="44"/>positionem praeteriti, ut supra patuit.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e3028">
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>(g) Sicut nec alicujus habentis ultimum
+          <lb ed="#V" n="46"/>esse. Vult dicere Doctor quod sicut illa,
+          <lb ed="#V" n="47"/>qua habent ultimum sui esse, non habent
+          <lb ed="#V" n="48"/>primum sui non esse, ita indivisibilia non
+          <lb ed="#V" n="49"/>habent primum sui non esse, quia 
+          indivi<lb ed="#V" break="no" n="50"/>sibilia habent ultimum sui esse, quae
+          <lb ed="#V" n="51"/>omnia supra exposita sunt.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e3048">
+          <lb ed="#V" n="52"/>(h) Alio modo conclusio sustineri 
+          pos<lb ed="#V" break="no" n="53"/>$et, etc. Haec videtur opinio Varronis, qui
+          <lb ed="#V" n="54"/>videtur dicere quod est eadem existentia
+          <lb ed="#V" n="55"/>Angeli absolute sumpta, et ut absolute
+          <lb ed="#V" n="56"/>sumpta nullo modo succedit sibi ipsi.
+          <lb ed="#V" n="57"/>Sed si ponitur aliqua successio, hoc
+          <lb ed="#V" n="58"/>erit secundum alium et alium. respectum
+          <lb ed="#V" n="59"/>ad causam, supple ista tota  
+          existen<lb ed="#V" break="no" n="60"/>tia Angeli sub isto respectu, ut 
+          compa<lb ed="#V" break="no" n="61"/>ratur ad Deum, ut ad causam creantem,
+          <lb ed="#V" n="62"/>et sub alio respectu ut comparatur
+          <lb ed="#V" n="63"/>ad Deum, ut ad causam conservantem,
+          <lb ed="#V" n="64"/>dicit sibi ipsi succedere, ita quod 
+          succes<lb ed="#V" break="no" n="65"/>sio non est in aliquo absoluto nature, sed
+          <lb ed="#V" n="66"/>tantum in alio et alio respectu, secundum
+          <lb ed="#V" n="67"/>quod unus respectus succedit alteri. Et
+          <lb ed="#V" n="68"/>additur, quod :sia via esset facilior ad
+          <lb ed="#V" n="69"/>tenendwmn successionem quam prior, que
+          <lb ed="#V" n="70"/>ponit quantitatem, quae est. opinio sancti
+          <lb ed="#V" n="71"/>Donaventure, licet esset ex alia parte
+          <lb ed="#V" n="72"/>multum difficile sustinere, sive in 
+          fun<lb ed="#V" break="no" n="73"/>damento, sive in termino. Fundamentum
+          <lb ed="#V" n="74"/>est existentia Angeli, in qua fundatur
+          <lb ed="#V" n="75"/>talis relatio, puta ad Deum creantem, et
+          <lb ed="#V" n="76"/>ad Deum conservantem ; et terminus est
+          <lb ed="#V" n="77"/>ipse Deus, ad quem terminatur tam
+          <lb ed="#V" n="78"/>relatio creationis quam —conservationis
+          <lb ed="#V" n="79"/>passiva.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e3112">
+          <lb ed="#V" n="80"/>Alio modo posset conclusio. 
+          sustine<lb ed="#V" break="no" n="81"/>ri, etc. Hic Doctor dat alium modum 
+          sus<lb ed="#V" break="no" n="82"/>tinendi positionem Bonaventurie, quoad
+          <lb ed="#V" n="83"/>mensuram  successivam, et dicit duo :
+          <lb ed="#V" n="84"/>Primum, quod tota existentia Angeli 
+          ma<lb ed="#V" break="no" n="85"/>net, secundum quod absoluta est per
+          <lb ed="#V" n="86"/>quantamcumque durationem duret, et ut
+          <lb ed="#V" n="87"/>sic existentia. Angeli non mensuratur 
+          ali<lb ed="#V" break="no" n="88"/>qua mensura successiva, cum sit 
+          simpli<lb ed="#V" break="no" n="89"/>citer indivisibilis. Secundum quod eadem
+          <pb ed="#L" n="236"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>existentia Angeli potest considerari ut
+          <lb ed="#V" n="2"/>habet novum et novum respectum ad 
+          ip<lb ed="#V" break="no" n="3"/>sam causam, ita quod ipsa tota existentia,
+          <lb ed="#V" n="4"/>ut considerata sub uno respectu terminato
+          <lb ed="#V" n="5"/>ad causam creantem succedit sibi ipsi, ut
+          <lb ed="#V" n="6"/>sub alio respectu terminato ad causam
+          <lb ed="#V" n="7"/>conservantem. Et quiain talibus 
+          respecti<lb ed="#V" break="no" n="8"/>bus ponitur successio, cum continue unus
+          <lb ed="#V" n="9"/>succedat alteri, ipsa tota existentia Angeli
+          <lb ed="#V" n="10"/>ut sic, considerata sub alio et alio respectu
+          <lb ed="#V" n="11"/>potest mensurari mensura successiva, 
+          li<lb ed="#V" break="no" n="12"/>cet ut absolute sumpta, nulla successiva
+          <lb ed="#V" n="13"/>mensurari possit.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d2q1-p6">-->
+        <p xml:id="mm30o9-d1e1566-d1e3171">
+          <pb ed="#L" n="237"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#L" n="1" type="fixed=237"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e3180">
+          <lb ed="#V" n="2"/>(a) Sed contra conclusionem dicte 
+          opi<lb ed="#V" break="no" n="3"/>nionis, etc. Hic Doctor improbat hanc 
+          re<lb ed="#V" break="no" n="4"/>sponsionem, sive primo modo, sive 
+          se<lb ed="#V" break="no" n="5"/>cundo modo sustineatur. Primus modus
+          <lb ed="#V" n="6"/>D. Bonaventurae est iste, quod existentia
+          <lb ed="#V" n="7"/>Angeli absolute sumpta, mensuratur
+          <lb ed="#V" n="8"/>mensura successiva. Et Doctor arguit
+          <lb ed="#V" n="9"/>contra, probando tantum, quod non sit
+          <lb ed="#V" n="10"/>necesse mensurari mensura successiva,
+          <lb ed="#V" n="11"/>sed sufficit quod mensuretur instanti cevi
+          <lb ed="#V" n="12"/>indivisibili, quia aut nunc sevi ponitur
+          <lb ed="#V" n="13"/>idem eum tali existentia, et sic sequitur
+          <lb ed="#V" n="14"/>quod sicut existentia actualis manet 
+          ea<lb ed="#V" break="no" n="15"/>dem, quod etiam illud «nc cvi maneat
+          <lb ed="#V" n="16"/>idem, aut ponit aliud ; et adhuc sequitur
+          <lb ed="#V" n="17"/>quod sicut existentia Angeli potest 
+          infini<lb ed="#V" break="no" n="18"/>ties poni in esse, ita: videtur quod illud
+          <lb ed="#V" n="19"/>idem nunc absolutum possit eodem modo
+          <lb ed="#V" n="20"/>poni in esse, et ita conservari sicut et 
+          exi<lb ed="#V" break="no" n="21"/>stentia Angeli conservatur.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e3226">
+          <lb ed="#V" n="22"/>(b) S? dicatur, quod siillud mune, 
+          po<lb ed="#V" break="no" n="23"/>natur in esse frequenter ponitur in 
+          diver<lb ed="#V" break="no" n="24"/>sis nunc. Dicit Doctor quod etiam in hoc
+          <lb ed="#V" n="25"/>posito, quod etiam adhuc illud nunc 
+          po<lb ed="#V" break="no" n="26"/>terit conservari in alio et alio «unc, et
+          <lb ed="#V" n="27"/>tunc vel erit processus in infinitum in
+          <lb ed="#V" n="28"/>ipsis nunc; patet, quia qucro de illo nunc,
+          <lb ed="#V" n="29"/>in quo conservatur primum unc, certum
+          <lb ed="#V" n="30"/>est quod potest poni frequenter in esse,
+          <lb ed="#V" n="31"/>ergo in diversis «unc; et quaero de illis
+          <lb ed="#V" n="32"/>aliis, et sic in infinitum, vel erit status in
+          <lb ed="#V" n="33"/>hoc primo nunc, quod sicut existentia
+          <lb ed="#V" n="34"/>Angeli conservatur eadem, ita 
+          quodcum<lb ed="#V" break="no" n="35"/>que absolutum in Angelo potest 
+          conser<lb ed="#V" break="no" n="36"/>vari idem.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e3261">
+          <lb ed="#V" n="37"/>(c) Similiter in sequenti questione, etc.
+          <lb ed="#V" n="38"/>II:ec littera clara est. Secundum 
+          improba<lb ed="#V" break="no" n="39"/>tur ibi, sive sic, sive sic, impossibile est
+          <lb ed="#V" n="40"/>enim manentibus fundamento eodem et
+          <lb ed="#V" n="41"/>termino, respectus sibi invicem succedere
+          <lb ed="#V" n="42"/>posse, et littera clara est.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d2q1-p7">-->
+        <p xml:id="mm30o9-d1e1566-d1e3280">
+          <lb ed="#L" n="69" type="fixed=240"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e3285">
+          <lb ed="#V" n="70"/>(a) Ad argumenta pro prima opinione.
+          <lb ed="#V" n="71"/>Hic Doctor videtur solvere rationes D.
+          <lb ed="#V" n="72"/>Bonaventure pro opinione Henrici.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e3294">
+          <lb ed="#V" n="73"/>Ad primum dixerat Henricus, quod illa
+          <lb ed="#V" n="74"/>actio, qua Angelus incepit esse, diceretur
+          <lb ed="#V" n="75"/>et creatio et conservatio; creatio 
+          inquan<lb ed="#V" break="no" n="76"/>tum assistit primo instanti temporis, quo
+          <lb ed="#V" n="77"/>accipit esse; et diceretur conservatio, 
+          in<lb ed="#V" break="no" n="78"/>quantum coassistit secundo instanti 
+          tem<lb ed="#V" break="no" n="79"/>poris in quo habet esse, et sic tantum una
+          <lb ed="#V" n="80"/>actio et non continua, et hoc est. quod 
+          di<lb ed="#V" break="no" n="81"/>cit in ista littera.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e3316">
+          <lb ed="#V" n="82"/>(b) Sed. praeter intentionem Augustini,
+          <lb ed="#V" n="83"/>ratio  ibi adducta, scilicet Bonaventurse,
+          <lb ed="#V" n="84"/>videtur habere difficultatem, etc.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e3325">
+          <lb ed="#V" n="85"/>Respondet Henricus ibi : Respondeo,
+          <pb ed="#L" n="241"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>ista propositio est distinguenda, etc. Ista
+          <lb ed="#V" n="2"/>enim propositio scilicet: Illud non 
+          habe<lb ed="#V" break="no" n="3"/>tur aliqua causatione completive, cujus
+          <lb ed="#V" n="4"/>oppositum stat stante. tali causatione, est
+          <lb ed="#V" n="5"/>vera in sensu compositionis. Et ut clarius
+          <lb ed="#V" n="6"/>intelligatur, pono exemplum, quod 
+          An<lb ed="#V" break="no" n="7"/>gelus habeat esse, et in primo instanti
+          <lb ed="#V" n="8"/>etin secundo, et in tertio; nam in primo
+          <lb ed="#V" n="9"/>instanti accipit esse causatione A, de qua
+          <lb ed="#V" n="10"/>supra, existentia ergo Angeli in primo
+          <lb ed="#V" n="11"/>instanti non habetur completive ista 
+          cau<lb ed="#V" break="no" n="12"/>satione in secundo instanti, quia in 
+          se<lb ed="#V" break="no" n="13"/>cundo instanti oppositum stat, supple,
+          <lb ed="#V" n="14"/>quia in tali secundo instanti potuit non
+          <lb ed="#V" n="15"/>esse. Si intelligatur in sensu composito,
+          <lb ed="#V" n="16"/>sensus est verus, quia stante causatione
+          <lb ed="#V" n="17"/>illa non potest stare non esse ipsius 
+          An<lb ed="#V" break="no" n="18"/>geli, et sic in tali sensu, quod sit causatio
+          <lb ed="#V" n="19"/>terminata ad Angelum, et quod simul
+          <lb ed="#V" n="20"/>Angelus non sit, implicat; est ergo vera
+          <lb ed="#V" n="21"/>ista in sensu composito : Angelus non
+          <lb ed="#V" n="22"/>habet. completive esse causatione aliqua,
+          <lb ed="#V" n="23"/>cujus oppositum stat. stante tali 
+          causati<lb ed="#V" break="no" n="24"/>one. Sed in sensu diviso est falsa, et est
+          <lb ed="#V" n="25"/>sensus, quod Angelus habet esse in primo
+          <lb ed="#V" n="26"/>instanti, et tamen potest non esse, quia et
+          <lb ed="#V" n="27"/>talis causatio potest non esse in secundo
+          <lb ed="#V" n="28"/>instanti; sic ergo in sensu diviso, h«c est
+          <lb ed="#V" n="29"/>falsa : Angelus non habet esse completive
+          <lb ed="#V" n="30"/>ccausatione, supple A, cujus oppositum
+          <lb ed="#V" n="31"/>stat, quia certum est quod Angelus potest
+          <lb ed="#V" n="32"/>habere esse completive causatione A, et
+          <lb ed="#V" n="33"/>vere potest non esse, quia illa causatio
+          <lb ed="#V" n="34"/>potest non stare, et est simile illud non
+          <lb ed="#V" n="35"/>est vere album, cujus oppositum stat 
+          con<lb ed="#V" break="no" n="36"/>trarie. Si intelligatur in sensu composito,
+          <lb ed="#V" n="37"/>hcc est vera, quia stante nigredine non
+          <lb ed="#V" n="38"/>potest esse album ; in sensu vero diviso
+          <lb ed="#V" n="39"/>est falsa, quia illud quod est nigrum
+          <lb ed="#V" n="40"/>nunc, poterit perfecte esse album cras, et
+          <lb ed="#V" n="41"/>sic patet. responsio. Et quod dicit infra
+          <lb ed="#V" n="42"/>ibi: Jta etiam licet posita sit. creatio 
+          An<lb ed="#V" break="no" n="43"/>geli, potest tamen divisim hac posita 
+          sta<lb ed="#V" break="no" n="44"/>re, quod. Anqelus non sit, licet non. con-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>junctim. Sententia hujus litterae est, sci- *
+          <lb ed="#V" n="46"/>licet quod in sensu composito, quod 
+          stan<lb ed="#V" break="no" n="47"/>te creatione Angeli, Angelus non est; et
+          <lb ed="#V" n="48"/>hic sensus est falsus, et hoc est quod 
+          di<lb ed="#V" break="no" n="49"/>cit conjunctim alio modo, quod habita
+          <lb ed="#V" n="50"/>creatione Angeli post ipsam potest non
+          <lb ed="#V" n="51"/>esse, et hic sensus divisus est verus.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e3447">
+          <lb ed="#V" n="52"/>(c) Et per haec patet ad simile 
+          argu<lb ed="#V" break="no" n="53"/>mentum. Hoc argumento probare 
+          vide<lb ed="#V" break="no" n="54"/>tur, quod creatio non sit conservatio,
+          <lb ed="#V" n="55"/>quia quando conservatur Angelus potest
+          <lb ed="#V" n="56"/>annihilari, ae quando creatur non potest ;
+          <lb ed="#V" n="57"/>ergo differunt conservatio et creatio.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e3464">
+          <lb ed="#V" n="58"/>(d) Respondeo, sicut non stant simul in
+          <lb ed="#V" n="59"/>sensu, etc. Ad hoc argumentum responde- *
+          <lb ed="#V" n="60"/>tur, quod conservari et annihilari in sensu ?
+          <lb ed="#V" n="61"/>compositionis non potest esse, quia 
+          sen<lb ed="#V" break="no" n="62"/>sus est, quod in eodem instanti, quo res
+          <lb ed="#V" n="63"/>conservatur, annihiletur, sensus tamen
+          <lb ed="#V" n="64"/>divisus est verus, et est sensus .: lllud,
+          <lb ed="#V" n="65"/>quod conservatur nunc, potest in alio 
+          in<lb ed="#V" break="no" n="66"/>stanti annihilari. Similiter dico de creari
+          <lb ed="#V" n="67"/>et conservari, non enim eadem res 
+          crea<lb ed="#V" break="no" n="68"/>tur et conservatur in sensu compositionis,
+          <lb ed="#V" n="69"/>quia sensus est, quod in eodem instanti
+          <lb ed="#V" n="70"/>quo res creatur, in eodem etiam 
+          conser<lb ed="#V" break="no" n="71"/>vatur, et hic sensus est falsus, quia 
+          crea<lb ed="#V" break="no" n="72"/>tio dicit respectum esse rei ad non esse
+          <lb ed="#V" n="73"/>immediate praecedens; conservatio vero
+          <lb ed="#V" n="74"/>dicit respectum esse rei ad esse ipsius
+          <lb ed="#V" n="75"/>rei creatze in primo instanti, et. ad non
+          <lb ed="#V" n="76"/>esse ipsius rei creat:e in primo instanti, et
+          <lb ed="#V" n="77"/>dd non esse mediate pr:wecedens. Sed in
+          <lb ed="#V" n="78"/>sensu divisionis potest esse vera, et est
+          <lb ed="#V" n="79"/>sensus: res quia nunc creatur, postea
+          <lb ed="#V" n="80"/>conservatur, et hoc est quod dicit.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e3516">
+          <lb ed="#V" n="81"/>(e) Ad secundum. Nunc respondetur ,
+          <lb ed="#V" n="82"/>ad secundum argumentum principale
+          <lb ed="#V" n="83"/>D. Bonaventur:e ubi dicebatur de esse ievi,
+          <lb ed="#V" n="84"/>si est simplex, et mutabile, etc.
+          <lb ed="#V" n="85"/>hespondeo ad hoc argumentum stat,
+          <lb ed="#V" n="86"/>quia praeteritum et futurum, sive fuisse
+          <lb ed="#V" n="87"/>et fore proprie et formaliter sunt partes
+          <lb ed="#V" n="88"/>alicüjus vere successivi, cujus una pars
+          <pb ed="#L" n="242"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>transit, et alia advenit; quando ergo 
+          a<lb ed="#V" break="no" n="2"/>liqua mensura est omnino indivisibilis,
+          <lb ed="#V" n="3"/>cujusmodi est :vum Angeli secundum
+          <lb ed="#V" n="4"/>Henricum nunc in re, et formaliter non
+          <lb ed="#V" n="5"/>sunt ibi fuisse et. fore, quia fuisse esset
+          <lb ed="#V" n="6"/>una pars pertransita, et fore esset pars
+          <lb ed="#V" n="7"/>non pertransita, et si dicatur in eodem
+          <lb ed="#V" n="8"/>indivisibili est. fuisse et fore, hoc non
+          <lb ed="#V" n="9"/>erit ratione sui, sed quia coassistit 
+          tem<lb ed="#V" break="no" n="10"/>pori praeterito vel futuro.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e3562">
+          <lb ed="#V" n="11"/>(f) Et cum dicitur in argumento, etc.
+          <lb ed="#V" n="12"/>Dicit Doctor quod si fuisse accipiatur 
+          for<lb ed="#V" break="no" n="13"/>maliter pro eo quod dico fuisse, verum
+          <lb ed="#V" n="14"/>est; si vero accipiatur fuisse pro re 
+          si<lb ed="#V" break="no" n="15"/>enificata, puta pro Angelo, de quo 
+          dici<lb ed="#V" break="no" n="16"/>tur fuisse, dicit non esse verum, quia
+          <lb ed="#V" n="17"/>Angelus habet illud idem esse, quod 
+          pri<lb ed="#V" break="no" n="18"/>us habuit.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e3582">
+          <lb ed="#V" n="19"/>(g) Et si dicatur, etc. Argumentum
+          <lb ed="#V" n="20"/>stat in hoc : praeteritum non potest non
+          <lb ed="#V" n="21"/>fuisse, Angelus est praeteritus, ergo non
+          <lb ed="#V" n="22"/>potest non fuisse.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e3593">
+          <lb ed="#V" n="23"/>Respondet negando minorem sic 
+          intel<lb ed="#V" break="no" n="24"/>ligendo, praeteritum potest capi dupliciter.
+          <lb ed="#V" n="25"/>Uno modo formaliter pro hoc, quod dico
+          <lb ed="#V" n="26"/>praeteritum. Alio modo : pro re, de qua
+          <lb ed="#V" n="27"/>praedicatur praeteritum denominatione 
+          ex<lb ed="#V" break="no" n="28"/>trinseca, quia praeteritum dicitur 
+          predi<lb ed="#V" break="no" n="29"/>cari de Angelo pro quanto :vum ipsius
+          <lb ed="#V" n="30"/>Angeli coassistit praeterito temporis; 
+          ne<lb ed="#V" break="no" n="31"/>gatur ergo, quod Angelus in se, sive
+          <lb ed="#V" n="32"/>quoad mensuram sibi intrinsecam dicatur
+          <lb ed="#V" n="33"/>prexeritus, imo temper idem est, et 
+          im<lb ed="#V" break="no" n="34"/>mutabilis ; et sic patet littera.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e3622">
+          <lb ed="#V" n="35"/>(h) Et sic arguatur praeteritum, etc.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e3628">
+          <lb ed="#V" n="36"/>Respondeo, quod est fallacia figurae
+          <lb ed="#V" n="37"/>distinctionis, etc. Patet, quia non 
+          sequi<lb ed="#V" break="no" n="38"/>tur praeteritum non potest non coastitisse
+          <lb ed="#V" n="39"/>isti, puta Angelo ; ergo Angelus non  
+          po<lb ed="#V" break="no" n="40"/>test non fuisse, non sequitur, quia 
+          prate<lb ed="#V" break="no" n="41"/>ritum ut praeteritum dicit quando, et
+          <lb ed="#V" n="42"/>Angelus dicit quid, et sic commutatur
+          <lb ed="#V" n="43"/>quando in quid.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e3648">
+          <lb ed="#V" n="44"/>(1) Ad confirmationem illius secunde
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>rationis. Primo dicit Doctor quod sicut
+          <lb ed="#V" n="46"/>Deus potest velle Angelum creare, et 
+          ip<lb ed="#V" break="no" n="47"/>sum annibilare,sicut ipsa objecta cognita,
+          <lb ed="#V" n="48"/>puta Angelum creari ey Angelum. 
+          annihi<lb ed="#V" break="no" n="49"/>lari sunt priora, quam ipsa nunc 
+          tempo<lb ed="#V" break="no" n="50"/>ris mensurantia, in illo ergo priori 
+          opor<lb ed="#V" break="no" n="51"/>tet queerere quare non est contradictio 
+          cre<lb ed="#V" break="no" n="52"/>ari et annihilari ; et ex hoc improbat
+          <lb ed="#V" n="53"/>Henricum, ut etiam superius patet, qui
+          <lb ed="#V" n="54"/>dicebat quod hoc impossibile, puta 
+          Ange<lb ed="#V" break="no" n="55"/>lum creari et annihilari, sequitur ex alio
+          <lb ed="#V" n="56"/>impossibili, scilicet quod zevum possit 
+          es<lb ed="#V" break="no" n="57"/>se sine tempore, et non est inconveniens
+          <lb ed="#V" n="58"/>unum impossibile formaliter sequi ex alio
+          <lb ed="#V" n="59"/>impossibili, et.sic negando aevum 
+          pos<lb ed="#V" break="no" n="60"/>se separari a tempore, non invenitur
+          <lb ed="#V" n="61"/>ratio ad verificandum, quod aliquid potest
+          <lb ed="#V" n="62"/>creari et annihilari, Sed si aevum non 
+          po<lb ed="#V" break="no" n="63"/>test separari a tempore, nunc possunt 
+          ve<lb ed="#V" break="no" n="64"/>rificari, quia tunc vult Deus Angelum
+          <lb ed="#V" n="65"/>creare pro A instanti temporis, cui caevum
+          <lb ed="#V" n="66"/>assistat, et annihilari pro B instanti 
+          tem<lb ed="#V" break="no" n="67"/>poris, cui eevum assistat. Sed supra 
+          pro<lb ed="#V" break="no" n="68"/>batum est contra Henricum. quod z:vum
+          <lb ed="#V" n="69"/>potest separari a tempore,ideo non potest -
+          <lb ed="#V" n="70"/>assignari, quod ista non contradicant pro
+          <lb ed="#V" n="71"/>alio et alio instanti temporis, cum sint
+          <lb ed="#V" n="72"/>priora tempore. Respondet ergo Doctor
+          <lb ed="#V" n="73"/>ad confirmationem Bonaventurae ibi : 
+          Pri<lb ed="#V" break="no" n="74"/>ino quaerenda est. possibilitas, quomodo
+          <lb ed="#V" n="75"/>velit Angelum esse et non esse, supple ut
+          <lb ed="#V" n="76"/>non contradicant ; et dicit primo (ponendo,
+          <lb ed="#V" n="77"/>quod z:evum Angeli sit mensura 
+          instanta<lb ed="#V" break="no" n="78"/>nea, et propria ipsius, et dicatur nunc)
+          <lb ed="#V" n="79"/>quod Deus potest velle Angelum esse, et
+          <lb ed="#V" n="80"/>vult in isto nunc positive, quia vult ipsum
+          <lb ed="#V" n="81"/>Angelum esse, et vult ipsum non 
+          es<lb ed="#V" break="no" n="82"/>se in !sto nunc negative, quia vult
+          <lb ed="#V" n="83"/>ipsum, cum zwnc, sibi proprio deficere,
+          <lb ed="#V" n="84"/>et ista non contradicunt; sed bene 
+          contra<lb ed="#V" break="no" n="85"/>diceret, si vellet ipsum esse et non esse
+          <lb ed="#V" n="86"/>in nunc positive, sicut si dicamus
+          <lb ed="#V" n="87"/>quod instans A temporis sit proprium
+          <lb ed="#V" n="88"/>Francisco et intrinsecum sibi, Deus vult
+          <pb ed="#L" n="243"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>Franciscum esse in isto instanti positivo.
+          <lb ed="#V" n="2"/>ei vult. ipsum non esse in ipso instanti
+          <lb ed="#V" n="3"/>negative; et non est contradictio, quia
+          <lb ed="#V" n="4"/>cum vult ipsum non esse in instanti 
+          nega<lb ed="#V" break="no" n="5"/>tive, vult ipsum deficere cum instanti.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e3765">
+          <lb ed="#V" n="6"/>(k) Et. tunc. Et quod addit ibi : et tunc
+          <lb ed="#V" n="7"/>si aliud aeviternum, etc. Pro clariori
+          <lb ed="#V" n="8"/>intelligentia hujus litteree pono, quod sit
+          <lb ed="#V" n="9"/>unus Angelus, qui dicatur A habens 
+          pro<lb ed="#V" break="no" n="10"/>prium aevum, et alias Angelus qui dicatur
+          <lb ed="#V" n="11"/>D, habeat esse in «evo ipsius A, et habeat
+          <lb ed="#V" n="12"/>"on esse in tali aevo, quia hoc potest esse
+          <lb ed="#V" n="13"/>ponendo quod 4A duret in aeternum, et
+          <lb ed="#V" n="14"/>quod Z si dici potest, duret per horam, nam
+          <lb ed="#V" n="15"/>in aliquo instanti habuit esse, et in alio 
+          ins<lb ed="#V" break="no" n="16"/>tanti illius horae habeat non esse; ergo esse
+          <lb ed="#V" n="17"/>et non esse sunt in eodem nunc sevi 
+          lpsi<lb ed="#V" break="no" n="18"/>us A et in eodem nunc positive, cum 
+          il<lb ed="#V" break="no" n="19"/>lud nunc maneat in aeternum. Dicit 
+          Do<lb ed="#V" break="no" n="20"/>ctor quod B esse et non esse in aevo ipsius
+          <lb ed="#V" n="21"/>A, sive in tunc temporis aevi, accidit sibi
+          <lb ed="#V" n="22"/>illud nunc, cum sit mensura extrinseca
+          <lb ed="#V" n="23"/>ipsius esse et non esse D, sicut etiam de
+          <lb ed="#V" n="24"/>scetermitate; nam. D in instanti aeternitatis
+          <lb ed="#V" n="25"/>potest esse et non esse, et tamen non
+          <lb ed="#V" n="26"/>contradicunt, cum «aeternitas sit mensura
+          <lb ed="#V" n="27"/>intrinseca illius ; esset tamen contradictio,
+          <lb ed="#V" n="28"/>quod haberet esse et non esse in nunc 
+          si<lb ed="#V" break="no" n="29"/>bi proprio et positivo. 
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e3820">
+          <lb ed="#V" n="30"/>(l) Aut. si ponatur in aliquo aeviterno,
+          <lb ed="#V" n="31"/>etc. Doctor in ista littera adhuc salvat
+          <lb ed="#V" n="32"/>Deum velle creare Angelum, et. velle 
+          ip<lb ed="#V" break="no" n="33"/>sum annihilare, non esse contradictoria,
+          <lb ed="#V" n="34"/>quia si vult ipsum in aeternitate, sed non
+          <lb ed="#V" n="35"/>secundum totam prxesentialitatem ipsius,
+          <lb ed="#V" n="36"/>sed secundum aliquam — 
+          priesentiali<lb ed="#V" break="no" n="37"/>tatem; et sit A, et velit ipsum annihilare
+          <lb ed="#V" n="38"/>in caeternitate secundum aliam priesentia -
+          <lb ed="#V" n="39"/>litatem, et dicatur B, tunc. velle creare et
+          <lb ed="#V" n="40"/>velle annihilare non contradicunt, sed
+          <lb ed="#V" n="41"/>bene esset contradictio, si vellet 
+          hujusmo<lb ed="#V" break="no" n="42"/>di ipsum Angelum creare et annihilare
+          <lb ed="#V" n="43"/>pro eadem simpliciter proesentialitate, et
+          <lb ed="#V" n="44"/>sic patet littera.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e3855">
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>(m) Ad tertium dico. Hic respondet ad
+          <lb ed="#V" n="46"/>argumentum D. Bonaventurae factum in^
+          <lb ed="#V" n="47"/>tertia via, et dicit quod coexistere in- y
+          <lb ed="#V" n="48"/>fimitis partibus temporis virtualiter, 
+          po<lb ed="#V" break="no" n="49"/>test dupliciter intelligi. Uno modo, quod '
+          <lb ed="#V" n="50"/>de necessitate naturae, et ex sua propria
+          <lb ed="#V" n="51"/>ratione coexistat, et tale est infinitum 
+          ac<lb ed="#V" break="no" n="52"/>iu. Alio modo, quod non necessario, sed a
+          <lb ed="#V" n="53"/>causa extrinseca faciente illud. coexistere,
+          <lb ed="#V" n="54"/>et tale non est infinitum. Primo modo :
+          e<lb ed="#V" break="no" n="55"/>ternitas coexistit; secundo modo ipsum
+          <lb ed="#V" n="56"/>dcvum, nam ex quo aeviternum sive 
+          men<lb ed="#V" break="no" n="57"/>suratum ab ipso aevo, habet esse 
+          contin<lb ed="#V" break="no" n="58"/>genter, et per consequens ipsum aevum,
+          <lb ed="#V" n="59"/>et in quolibet instanti potest non esse;
+          <lb ed="#V" n="60"/>coexistit ergo omnibus partibus temporis,
+          <lb ed="#V" n="61"/>quia illa actio et ipsum szevum continue.
+          <lb ed="#V" n="62"/>coexistunt ratione agentis extrinseci.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e3899">
+          <lb ed="#V" n="63"/>(n) Ad aliud simile de immensitate,
+          <lb ed="#V" n="64"/>Dicit, quod non est simile, et ratio est,
+          <lb ed="#V" n="65"/>quia per quod formaliter est in omni loco,
+          <lb ed="#V" n="66"/>puta Angelus esset in omni loco 
+          formali<lb ed="#V" break="no" n="67"/>ter, et totum simul esset in Angelo, et sic
+          <lb ed="#V" n="68"/>Angelus esset immensus ; non sic est de
+          <lb ed="#V" n="69"/>cvo, quia aevum non habet in se 
+          formali<lb ed="#V" break="no" n="70"/>ter, et totum simul, quod coexistat 
+          infi<lb ed="#V" break="no" n="71"/>nitis partibus temporis, quia illud c:e'vum
+          <lb ed="#V" n="72"/>coexistit alii et alii parti tantum per 
+          acti<lb ed="#V" break="no" n="73"/>onem caus: extrinsecie, et hoc est. quod
+          <lb ed="#V" n="74"/>dicit, ibi :
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e3929">
+          <lb ed="#V" n="75"/>(o) Contra, finitum non potest 
+          coeriste<lb ed="#V" break="no" n="76"/>re, etc. quia Henricus dicit, quod aevum
+          <lb ed="#V" n="77"/>potest coexistere infinitis partibus 
+          tempo<lb ed="#V" break="no" n="78"/>ris, arguit quod non, quia ievum est 
+          fini<lb ed="#V" break="no" n="79"/>tum, et sic non potest coexistere 
+          inli<lb ed="#V" break="no" n="80"/>nito.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e3945">
+          <lb ed="#V" n="81"/>Respondeo, etc, Dicit Doctor, quod 
+          fi<lb ed="#V" break="no" n="82"/>nitum formaliter habens, quod semper 
+          ea<lb ed="#V" break="no" n="83"/>dem actione habet, ita quod sine tali non
+          <lb ed="#V" n="84"/>potest coexistere infinito in. successione;
+          <lb ed="#V" n="85"/>et patet, quia si Deus actione .14 creat
+          <lb ed="#V" n="86"/>Franciscum, et eadem actione qua 
+          Fran<lb ed="#V" break="no" n="87"/>ciscus habet esse, ipse Franciscus 
+          coexi<lb ed="#V" break="no" n="88"/>stat infinitis partibus temporis, quia acti-
+          <pb ed="#L" n="244"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>one divina potest durare in infinitum, non
+          <lb ed="#V" n="2"/>sequitur ipsum Franciscum esse infinitum
+          <lb ed="#V" n="3"/>actu; sic dico de aevo Angeli, si vero 
+          ha<lb ed="#V" break="no" n="4"/>beret hoc actione propria, et nullo modo
+          <lb ed="#V" n="5"/>aliunde esset infinitum actu.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e3980">
+          <lb ed="#V" n="6"/>Ad aliud de negatione negationis, patet
+          <lb ed="#V" n="7"/>responsio ex supradictis, quia non est
+          <lb ed="#V" n="8"/>inconveniens aliquod finitum in se 
+          habe<lb ed="#V" break="no" n="9"/>re coexistentias infinitas actione divina,
+          <lb ed="#V" n="10"/>non tamen simul.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e3993">
+          <lb ed="#V" n="11"/>(p) Ad quartum conceditur Nunc 
+          re<lb ed="#V" break="no" n="12"/>spondet ad argumentum quarte vie,
+          <lb ed="#V" n="13"/>concedendo quod unum «:vum succedit
+          <lb ed="#V" n="14"/>alteri sevo, et existentia szeviterni 
+          succe<lb ed="#V" break="no" n="15"/>dit suo opposito, et unum est post 
+          alte<lb ed="#V" break="no" n="16"/>rum, sed ex hoc non concluditur aliqua
+          <lb ed="#V" n="17"/>successio in aliqua una existentia alicujus
+          <lb ed="#V" n="18"/>aeviterni, et hoc totum exponatur, sicut
+          <lb ed="#V" n="19"/>prius expositum est.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e4015">
+          <lb ed="#V" n="20"/>(q) Et per hoc patet ad. omnia alia 
+          ar<lb ed="#V" break="no" n="21"/>gumenta, concedendo, quod quamvis
+          <lb ed="#V" n="22"/>unus Angelus habeat esse prius, et alius
+          <lb ed="#V" n="23"/>habeat esse posterius, ita tamen quod ly
+          <lb ed="#V" n="24"/>prius acciperetur per coexistentiam ad
+          <lb ed="#V" n="25"/>prius in tempore, et si tertius Angelus
+          <lb ed="#V" n="26"/>coexisteret illis duobus Angelis, in ipso
+          <lb ed="#V" n="27"/>tertio Angelo esset tantum |prius et 
+          po<lb ed="#V" break="no" n="28"/>sterius, comparando idem esse Angeli ad
+          <lb ed="#V" n="29"/>prius et posterius in tempore, non autem
+          <lb ed="#V" n="30"/>esset prius et posterius in existentia 
+          ip<lb ed="#V" break="no" n="31"/>sius Angeli, et hoc est quod dicit.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e4044">
+          <lb ed="#V" n="32"/>(r) Similiter conceditur. Haec littera
+          <lb ed="#V" n="33"/>stat in hoc, quod quamvis in Angelo 
+          pos<lb ed="#V" break="no" n="34"/>sit esse prius et posterius secundum 
+          exi<lb ed="#V" break="no" n="35"/>stentiam alterius et alterius actus sibi
+          <lb ed="#V" n="36"/>invicem succedentis, ita quod existentia
+          <lb ed="#V" n="37"/>unius actus potest vere succedere
+          <lb ed="#V" n="38"/>existentis alterius actus, non tamen 
+          se<lb ed="#V" break="no" n="39"/>quitur quod in existentia ipsius Angeli
+          <lb ed="#V" n="40"/>in se sit successio prioris et posterioris,
+          <lb ed="#V" n="41"/>et hoc est quod dicit. Hanc tamen 
+          litte<lb ed="#V" break="no" n="42"/>ram aliqualiter expono. Cum dicit, quod
+          <lb ed="#V" n="43"/>prius est. natura. Angeli, quam ipsius
+          <lb ed="#V" n="44"/>culpa, etc. vult dicere quod existentia An-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>celi sub innocentia, esset. cum opposito
+          <lb ed="#V" n="46"/>ilius existentiae scilicet culpae ; patet,
+          <lb ed="#V" n="47"/>quia cum innocentia stat non esse culps,
+          <lb ed="#V" n="48"/>etita innocentia est cum opposito culpae,
+          <lb ed="#V" n="49"/>supple cum non esse culpae ; quod. 
+          oppo<lb ed="#V" break="no" n="50"/>nitur esse culpe, et addit, quod ex illa
+          <lb ed="#V" n="51"/>secunda. existentia, scilicet culpee, 
+          sequi<lb ed="#V" break="no" n="52"/>tur oppositum sui, id est, quod esse ipsius
+          <lb ed="#V" n="53"/>culprie immediate sequitur ipsum non esse
+          <lb ed="#V" n="54"/>culpze. Et addit, quod ex ea, supple 
+          cul<lb ed="#V" break="no" n="55"/>pa, sequitur oppositum primi, scilicet
+          <lb ed="#V" n="56"/>non esse innocentiae, nam primum, sub
+          <lb ed="#V" n="57"/>quo ponitur Angelus est innocentia, et
+          <lb ed="#V" n="58"/>oppositum ejus est non innocentia, et
+          <lb ed="#V" n="59"/>sccundum sub quo ponitur Angelus est
+          <lb ed="#V" n="60"/>culpa, et oppositum ejus est non culpa, ef
+          <lb ed="#V" n="61"/>sic ex illa secunda existentia, scilicet 
+          cul<lb ed="#V" break="no" n="62"/>ps sequitur oppositum sui, quod est non
+          <lb ed="#V" n="63"/>esse culps, et oppositum primi, quod est
+          <lb ed="#V" n="64"/>non innocentia, qua opponitur 
+          innocen<lb ed="#V" break="no" n="65"/>tie. Littera sequens clara est usque ad
+          <lb ed="#V" n="66"/>argumenta principalia.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d2q1-p8">-->
+        <p xml:id="mm30o9-d1e1566-d1e4128">
+          <cb ed="#V" n="b"/>
+          <lb ed="#L" n="43" type="fixed=245"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e4135">
+          <lb ed="#V" n="44"/>Nunc solvenda sunt argumenta 
+          princi<lb ed="#V" break="no" n="45"/>palia, quibus probatur mensuram Angeli
+          <lb ed="#V" n="46"/>esse vere successivam ; et licet magis
+          <lb ed="#V" n="47"/>declinet ad opinionem D. Bonaventure,
+          <lb ed="#V" n="48"/>quod mensura Angelorum sit quantitas
+          <lb ed="#V" n="49"/>successiva eo modo quo expositum est
+          <lb ed="#V" n="50"/>in corpore quaestionis, tamen si quis 
+          vel<lb ed="#V" break="no" n="51"/>let tenere oppositum, respondendo ad 
+          ar<lb ed="#V" break="no" n="52"/>geumenta ista, dat modum  sustinendi
+          <lb ed="#V" n="53"/>illud.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e4159">
+          <lb ed="#V" n="54"/>(a) Ad primum, respondet Doctor 
+          con<lb ed="#V" break="no" n="55"/>cedendo antecedens et negando 
+          conse<lb ed="#V" break="no" n="56"/>quentiam, et responsio stat in hoc, quod r
+          <lb ed="#V" n="57"/>quamvis unus Angelus sit prior alio 
+          se<lb ed="#V" break="no" n="58"/>cundum entitatem, et postea sit simul
+          <lb ed="#V" n="59"/>cum illo alio secundum propriam 
+          entita<lb ed="#V" break="no" n="60"/>tem, non tamen illud prius, et illud 
+          po<lb ed="#V" break="no" n="61"/>sterius ponitur aliqua mensura successiva
+          <lb ed="#V" n="62"/>mensurans existentiam ipsius Angeli, sed
+          <lb ed="#V" n="63"/>tantum ponitur existentia, quae ut prius
+          <lb ed="#V" n="64"/>creatur, secundum suum esse tantum
+          <lb ed="#V" n="65"/>praecedit, et ut est simul cum alio 
+          Ange<lb ed="#V" break="no" n="66"/>lo, et per :onsequens posterior seipsa,
+          <lb ed="#V" n="67"/>dicitur tantum posterior, non secundum
+          <lb ed="#V" n="68"/>aliquam mensuram sibi additam.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e4194">
+          <lb ed="#V" n="69"/>(b) Ad. secundum similiter potest dici,
+          <lb ed="#V" n="70"/>et dat duas responsiones. Prima, si 
+          po<lb ed="#V" break="no" n="71"/>natur quod in existentia Angeli sit nunc
+          <lb ed="#V" n="72"/>aevi indivisibile tantum unum, et 
+          diffe<lb ed="#V" break="no" n="73"/>rens ab existentia Angeli, concedit Doctor
+          <lb ed="#V" n="74"/>quod annihilatur in illo »wnc negative,
+          <lb ed="#V" n="75"/>non autem positive. Annihilari in nunc
+          <lb ed="#V" n="76"/>negative est simul deficere cum ipso
+          <lb ed="#V" n="77"/>nunc, ita quod talis annihilatio non 
+          men<lb ed="#V" break="no" n="78"/>suratur aliquo nwne positivo. Angelum
+          <lb ed="#V" n="79"/>vero annihilari in nunc positive, est 
+          po<lb ed="#V" break="no" n="80"/>nere aliquod nwnec positivum mensurans
+          <lb ed="#V" n="81"/>illam annihilationem ; tenendo ergo, quod
+          <lb ed="#V" n="82"/>tantum sit unum nwnc in existentia 
+          An<lb ed="#V" break="no" n="83"/>geli, Angelus tantum aunihilaretur in illo
+          <lb ed="#V" n="84"/>nunc negative modo prweexposito. 
+          Se<lb ed="#V" break="no" n="85"/>cunda responsio est, si ponatur nunc aevi
+          <pb ed="#L" n="246"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>non differre ab existentia Angeli, tunc
+          <lb ed="#V" n="2"/>annihilatur cum  aeternitate et est cum
+          <lb ed="#V" n="3"/>cternitate, ita quod quando existit,
+          <lb ed="#V" n="4"/>cum  aeternitate existit, et quando non
+          <lb ed="#V" n="5"/>existit, cum  «aeternitate non existit.
+          <lb ed="#V" n="6"/>Et hoc concedamus, Angelum existere
+          <lb ed="#V" n="7"/>cum «ceternitate, et annihilari cum eadem,
+          <lb ed="#V" n="8"/>non tamen dicimus existere cum tota
+          <lb ed="#V" n="9"/>praesentialitate aeternitatis, et similiter
+          <lb ed="#V" n="10"/>annihilari cum tota praesentialitate 
+          ejus<lb ed="#V" break="no" n="11"/>dem, cum hoc sit impossibile.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e4262">
+          <lb ed="#V" n="12"/>(c) Ad. ultimum. Ad tertium respondet
+          <lb ed="#V" n="13"/>Doctor ibi: Ad. ultimum, etc. Pro majori
+          <lb ed="#V" n="14"/>intelligentia hujus littere ponit multa
+          <lb ed="#V" n="15"/>per ordinem. Primo est non esse Angeli
+          <lb ed="#V" n="16"/>creabilis. Secundo est esse ipsius 
+          crea<lb ed="#V" break="no" n="17"/>tum. Tertio est non esse sequens ipsum
+          <lb ed="#V" n="18"/>esse creatum, quod non esse est esse 
+          an<lb ed="#V" break="no" n="19"/>nihilatum. Quarto est ipsum idem esse
+          <lb ed="#V" n="20"/>de novo creatum, et sic reparatum, et
+          <lb ed="#V" n="21"/>vult quod idem esse annihilatum sit illud
+          <lb ed="#V" n="22"/>idem reparatum. Et cum infertur in 
+          ar<lb ed="#V" break="no" n="23"/>gumento, sicut prius est non esse Angeli
+          <lb ed="#V" n="24"/>creabilis, et posterius est esse creatum
+          <lb ed="#V" n="25"/>ipsius, et post est esse ejus anhilatumni,
+          <lb ed="#V" n="26"/>ct postremo est esse ipsius reparatum, et
+          <lb ed="#V" n="27"/>sic videtur ibi mensura divisibilis 
+          se<lb ed="#V" break="no" n="28"/>cundum prius et posterius; ergo si 
+          ip<lb ed="#V" break="no" n="29"/>sum esse Angeli creati existeret per 
+          to<lb ed="#V" break="no" n="30"/>tum illud spatium, in quo est annihilatio
+          <lb ed="#V" n="31"/>et reparatio, videtur quod illa existentia
+          <lb ed="#V" n="32"/>mensuraretur mensura divisibili. Dicit
+          <lb ed="#V" n="33"/>Doctor quod si esse Angeli existeret per
+          <lb ed="#V" n="34"/>illud totum spatium, in existentia ipsius
+          <lb ed="#V" n="35"/>non esset aliqua successio, quia 
+          opposi<lb ed="#V" break="no" n="36"/>tum succedit alteri, quia non possunt esse
+          <lb ed="#V" n="37"/>simul, nam esse creatum ipsius Angeli,
+          <lb ed="#V" n="38"/>succedit «on esse ipsius cui opponitur, et
+          <lb ed="#V" n="39"/>esse annihilatum ipsius succedit esse 
+          crea<lb ed="#V" break="no" n="40"/>to Angeli tanquam opposito, et esse 
+          repa<lb ed="#V" break="no" n="41"/>ratum Angeli succedit ipsi Angelo 
+          an<lb ed="#V" break="no" n="42"/>nihilato, tanquam opposito; in existentia
+          <lb ed="#V" n="43"/>autem Angeli quantumcumque durantis,
+          <lb ed="#V" n="44"/>non sunt ibi hujusmodi opposita sibi 
+          in<lb ed="#V" break="no" n="45"/>vicem succedentia.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e4338">
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="46"/>(d) Contra, ergo ita simul est. 
+          existen<lb ed="#V" break="no" n="47"/>tia, etc.
+        </p>
+        <p xml:id="mm30o9-d1e1566-d1e4348">
+          <lb ed="#V" n="48"/>Respondet Doctor, concedendo quod
+          <lb ed="#V" n="49"/>esset tanta simultas ipsius Angeli creati
+          <lb ed="#V" n="50"/>et reparati, sicut. creati et non reparati,
+          <lb ed="#V" n="51"/>et si non est tanta simultas, hoc est 
+          tan<lb ed="#V" break="no" n="52"/>tum propter oppositi successionem, quia
+          <lb ed="#V" n="53"/>si non mediaret oppositum esse reparati,
+          <lb ed="#V" n="54"/>et etiam oppositum ipsius creati, quod
+          <lb ed="#V" n="55"/>est esse annihilatam, tanta simpliciter
+          <lb ed="#V" n="56"/>esset simultas inter esse creatum et esse
+          <lb ed="#V" n="57"/>reparatum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

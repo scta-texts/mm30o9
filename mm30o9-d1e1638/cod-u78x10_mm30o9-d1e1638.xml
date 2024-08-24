@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3 (7)</title>
+            <author ref="#per-FLBca3">Franciscus Lychetus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3 (7)</title>
+               <date when="2024-08-24">August 24, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 11</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-08-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="370"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="mm30o9-d1e1638"><!-- lycht-l2d2q7-p1 -->
+            <head xml:id="mm30o9-d1e1638-Hd1e101">Quaestio 3 (7)</head>
+            <p xml:id="mm30o9-d1e1638-d1e103">
+               <cb ed="#V" n="b"/>
+               <lb ed="#L" n="46" type="fixed=370"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1638-d1e110">
+               <lb ed="#V" n="47"/>(a) Titulus quaestionis potest habere
+<lb ed="#V" n="48"/>multiplicem sensum. Primo, an Angelus
+<lb ed="#V" n="49"/>possit esse in. pluribus locis adaequatis,
+<lb ed="#V" n="50"/>puta quod locus ad:equatus Angeli sit 
+spa<lb ed="#V" break="no" n="51"/>tium unius milliaris, an simul possit esse
+<lb ed="#V" n="52"/>in duobus, et Doctor determinabit . quod
+<lb ed="#V" n="53"/>non, loquendo de potestate ipsius Angeli.
+<lb ed="#V" n="54"/>Secundo, an possit esse in duobus locis
+<lb ed="#V" n="55"/>non adaequatis, puta quod possit esse in
+<lb ed="#V" n="56"/>extremis spatii unius milliaris, ita. quod
+<lb ed="#V" n="57"/>non in medio, quae extrema dicuntur 
+lo<lb ed="#V" break="no" n="58"/>ca discontinua, et Doctor videtur 
+susti<lb ed="#V" break="no" n="59"/>nere partem negativam et affirmativam,
+<lb ed="#V" n="60"/>videlicet quod possit esse simul in 
+tali<lb ed="#V" break="no" n="61"/>bus locis potestate propria, et non 
+pos<lb ed="#V" break="no" n="62"/>sit esse simul. Videtur enim quod 
+utra<lb ed="#V" break="no" n="63"/>quesit probabilis. Et Doctor arguit pro
+<lb ed="#V" n="64"/>prima parte ibi.
+</p>
+            <p xml:id="mm30o9-d1e1638-d1e152">
+               <lb ed="#V" n="65"/>(b) Contra, potest esse in aliquo loco
+<lb ed="#V" n="66"/>toto, puta pedali. Per hanc rationem 
+Do<lb ed="#V" break="no" n="67"/>ctor videtur probare quod simul possit
+<lb ed="#V" n="68"/>esse in locis extremis alicujus spatii 
+pe<lb ed="#V" break="no" n="69"/>dalis absque hoc, quod sit in medio, et
+<lb ed="#V" n="70"/>patet, quod si est in illis extremis, quod
+<lb ed="#V" n="71"/>non oporteat esse in medio, quia ex quo
+<lb ed="#V" n="72"/>Angelus non est in illa quantitate 
+peda<lb ed="#V" break="no" n="73"/>li, sicut forma in subjecto, quae non 
+pos<lb ed="#V" break="no" n="74"/>set simul esse in extremis illius 
+quanti<lb ed="#V" break="no" n="75"/>tatis, quin simul informet media inter
+<lb ed="#V" n="76"/>illa extrema, nec est ibi sicut locatum in
+<lb ed="#V" n="77"/>loco circumscriptive, quia tale locatum
+<lb ed="#V" n="78"/>non potest esse in extremis alicujus
+<lb ed="#V" n="79"/>quantitatis, quin simul sit in medio;
+<lb ed="#V" n="80"/>cum ergo Angelus sit simpliciter 
+indivisi<lb ed="#V" break="no" n="81"/>bilis, et habeat, puta quantitatem 
+peda<lb ed="#V" break="no" n="82"/>lem pro loco sibi adwquato, ita quod
+<lb ed="#V" n="83"/>non in majori sequitur quod sicut
+<lb ed="#V" n="84"/>potest esse in uno extremo, ita 
+pos<lb ed="#V" break="no" n="85"/>sit simul esse in alio extremo illius
+<lb ed="#V" n="86"/>quantitatis, absque hoc quod sit in medio,
+<lb ed="#V" n="87"/>cum non Sit ibi sicut forma informans,
+<lb ed="#V" n="88"/>nec circumscriptive, et sic. simul potest
+<pb ed="#L" n="371"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>esse in duobus locis discontinuis. Et
+<lb ed="#V" n="2"/>hic ratio Doctoris valet, tenendo quod
+<lb ed="#V" n="3"/>Angelus possit esse in majori et in 
+mi<lb ed="#V" break="no" n="4"/>nori loco infra locum sibi adaequatum, ut
+<lb ed="#V" n="5"/>patuit in questione immediate 
+prceceden<lb ed="#V" break="no" n="6"/>(ji. Secunda pars opposita prim: aliter
+<lb ed="#V" n="7"/>non probatur a Doctore.
+</p>
+            <!--</div>
+<div alias="lycht-l2d2q7-p2">-->
+            <p xml:id="mm30o9-d1e1638-d1e229">
+               <lb ed="#L" n="10" type="fixed=373"/>COMMENTARIUS.
+</p>
+            <p xml:id="mm30o9-d1e1638-d1e234">
+               <lb ed="#V" n="11"/>(a) In ista questione. Hic Doctor tres
+<lb ed="#V" n="12"/>conclusiones dicit. Prima est Damasceni,
+<lb ed="#V" n="13"/>cap. 16. et 33. dicentis, quod Angelus
+<lb ed="#V" n="14"/>de facto non est simul in duobus locis,
+<lb ed="#V" n="15"/>quia cum est in colo, non est in terra,
+<lb ed="#V" n="16"/>nec e converso. Secunda est de 
+possibi<lb ed="#V" break="no" n="17"/>litate Angeli naturali, et dicit quod est
+<lb ed="#V" n="18"/>probabile, unum Angelum non posse
+<lb ed="#V" n="19"/>simul esse potentia sua naturali in duobus
+<lb ed="#V" n="20"/>locis, quorum uterque sit sibi adiequatus
+<lb ed="#V" n="21"/>secundum ultimum potentice suae, puta sl
+<lb ed="#V" n="22"/>secundum ultimum potentiae suse posset
+<lb ed="#V" n="23"/>esse in loco unius milliaris, non posset
+<lb ed="#V" n="24"/>virtute propria esse in duobus locis 
+tali<lb ed="#V" break="no" n="25"/>bus, quia tunc iste locus non videretur
+<lb ed="#V" n="26"/>sibi adaequatus secundum virtutem suam
+<lb ed="#V" n="27"/>naturalem. Et addit, an in duobus locis
+<lb ed="#V" n="28"/>discontinuis possit esse, quorum nec
+<lb ed="#V" n="29"/>unus, nec alius est sibi adaequatus 
+du<lb ed="#V" break="no" n="30"/>bium est, nec videtur ratio necessaria
+<lb ed="#V" n="31"/>pro, nec contra.
+</p>
+            <p xml:id="mm30o9-d1e1638-d1e282">
+               <lb ed="#V" n="32"/>Adverte, quod loca continua sunt illa,
+<lb ed="#V" n="33"/>quorum ultima sunt unum, ut patet 5.
+<lb ed="#V" n="34"/>Phys. quod  tunc contingit, quando inter
+<lb ed="#V" n="35"/>illa tantum cadit aliquod indivisibile 
+con<lb ed="#V" break="no" n="36"/>tinuans illa, quod est finis unius et 
+princi<lb ed="#V" break="no" n="37"/>pium alterius, et sic. partes extrem:e —
+ali<lb ed="#V" break="no" n="38"/>cujus continui, puta pedalis, non dicuntur
+<lb ed="#V" n="39"/>ad invicem continue, quia nullus 
+pun<lb ed="#V" break="no" n="40"/>ctus immediate cadit inter illas continuas,
+<lb ed="#V" n="41"/>puta, qui sit finis prim:e partis extreme,
+<lb ed="#V" n="42"/>et principium alterius partis extremi ;
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>$i! ergo unus Angelus esset in illis 
+parti<lb ed="#V" break="no" n="44"/>bus extremis, tunc esset in duobus locis
+<lb ed="#V" n="45"/>discontinuis. Sed difficultas est, an simul
+<lb ed="#V" n="46"/>possit esse in duobus locis continuis,
+<lb ed="#V" n="47"/>puta, in duabus partibus alicujus 
+quan<lb ed="#V" break="no" n="48"/>titatis ad invicem continuis. Doctor 
+ali<lb ed="#V" break="no" n="49"/>ter non determinat.
+</p>
+            <p xml:id="mm30o9-d1e1638-d1e326">
+               <lb ed="#V" n="50"/>Tertia conclusio est, quod loquendo de
+<lb ed="#V" n="51"/>divina potentia, Angelus simul potest esse
+<lb ed="#V" n="52"/>in duobus locis, sive ad:equatis, sive non
+<lb ed="#V" n="53"/>adaequatis, cum nulla appareat 
+contradi<lb ed="#V" break="no" n="54"/>ctio. Et de hac materia prolixius tractatur
+<lb ed="#V" n="55"/>a Doctore, ?n 4. dist. 10. q. 2.
+</p>
+            <p xml:id="mm30o9-d1e1638-d1e342">
+               <lb ed="#V" n="56"/>Nunc solvenda sunt argumenta 
+princi<lb ed="#V" break="no" n="57"/>palia, quibus Doctor videtur probare esse
+<lb ed="#V" n="58"/>simpliciter impossibile per quamcumque
+<lb ed="#V" n="59"/>potentiam Angelum simul posse esse in '
+<lb ed="#V" n="60"/>pluribus locis.
+</p>
+            <p xml:id="mm30o9-d1e1638-d1e355">
+               <lb ed="#V" n="61"/>(b) Ad primum, respondet ibi : Ad 
+pri<lb ed="#V" break="no" n="62"/>mum dico, etc. Sequitur et tamem manus
+<lb ed="#V" n="63"/>distat a manu, et hoc. est ratione 
+illimi<lb ed="#V" break="no" n="64"/>tationis ipsius anime, secundum quam
+<lb ed="#V" n="65"/>est simul tota in toto et in qualibet parte ;
+<lb ed="#V" n="66"/>sed si esset sic limitata, quod tantum 
+in<lb ed="#V" break="no" n="67"/>formaret unam partem, puta manum 
+dex<lb ed="#V" break="no" n="68"/>tram, sic simul non posset informare
+<lb ed="#V" n="69"/>sinistram, quin distaret a seipsa. In 
+pro<lb ed="#V" break="no" n="70"/>posito autem existens in pluribus locis
+<lb ed="#V" n="71"/>simul per quamcumque potentiam, est
+<lb ed="#V" n="72"/>aliqualiter illimitatum, ideo non sequitur
+<lb ed="#V" n="73"/>quod si simul est in duobus locis ab 
+invi<lb ed="#V" break="no" n="74"/>cem distantibus, quod distet a seipso; sicut
+<lb ed="#V" n="75"/>nec valet, quod aliqua duo sint simul 
+in<lb ed="#V" break="no" n="76"/>terse, si sint simul alicui tertio 
+illimi<lb ed="#V" break="no" n="77"/>tato, patet, quia existens Brixiw, et 
+exi<lb ed="#V" break="no" n="78"/>stens Rom, sunt simul cum Deo, ergo
+<lb ed="#V" n="79"/>sunt simul inter se; non sequitur, quia
+<lb ed="#V" n="80"/>comparantur tertio illimitato secundum
+<lb ed="#V" n="81"/>immensitatem, sed si essent simul 
+Fran<lb ed="#V" break="no" n="82"/>cisco existenti tantum in illo loco propter
+<lb ed="#V" n="83"/>sui limitationem essent simul inter se,
+<lb ed="#V" n="84"/>(c) Ad secundum. Respondet 
+conce<lb ed="#V" break="no" n="85"/>dendo, quod sit limitatus quoad naturam
+<lb ed="#V" n="86"/>suam et naturales proprietates. Sed ex
+<pb ed="#L" n="374"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>hoc non sequitur ipsum esse limitatum
+<lb ed="#V" n="2"/>quoad passionem accidentalem, sive quoad
+<lb ed="#V" n="3"/>respectum, qualem dicit ubi, et sicut non
+<lb ed="#V" n="4"/>repugnet eidem albo limitato in se simul
+<lb ed="#V" n="5"/>posse habere plures similitudines, sic
+<lb ed="#V" n="6"/>non videtur repugnare nature Angeli in
+<lb ed="#V" n="7"/>se limitatae, simul posse habere plura ubi,
+<lb ed="#V" n="8"/>sive adaequata, sive non adaequata.
+</p>
+            <p xml:id="mm30o9-d1e1638-d1e437">
+               <lb ed="#V" n="9"/>(d) Ad tertium. Respondet ibi : Ad
+<lb ed="#V" n="10"/>tertium quaere. Et additur responsio hic
+<lb ed="#V" n="11"/>in littera, quod non est inconveniens
+<lb ed="#V" n="12"/>contraria relativa inesse eidem, ut patet
+<lb ed="#V" n="13"/>de relationibus moventis et moti in eodem,
+<lb ed="#V" n="14"/>ut patet a Doctore, ?n 1. distinct. 2.
+<lb ed="#V" n="15"/>parte 2. q. 3. dist. 5. quest. 2. et in 2.
+<lb ed="#V" n="16"/>dist. 95. et in quarto. dist. 40. q. 2. Ad
+<lb ed="#V" n="17"/>argumenta principalia.
+</p>
+            <p xml:id="mm30o9-d1e1638-d1e459">
+               <lb ed="#V" n="18"/>Quamvis hoc sit satis bene dictum, 
+di<lb ed="#V" break="no" n="19"/>co tamen ad argumentum, cum dicitur
+<lb ed="#V" n="20"/>quod motus est a contrario in contrarium,
+<lb ed="#V" n="21"/>id est, quod terminis « quo contrariatur
+<lb ed="#V" n="22"/>termino ad quem, quod Aristoteles 
+loqui<lb ed="#V" break="no" n="23"/>tur de contrarietate large sumpta, quae
+<lb ed="#V" n="24"/>est a privatione termini a quo ad 
+termi<lb ed="#V" break="no" n="25"/>num ad quem, sicut etiam ipse 
+Aristote<lb ed="#V" break="no" n="26"/>les dicit primo Physic. quod forma et
+<lb ed="#V" n="27"/>privatio sunt contraria, accipit lbi 
+contra<lb ed="#V" break="no" n="28"/>ria large. Dico ergo, quod quando aliquid
+<lb ed="#V" n="29"/>movetur a non Á ad A, non potest simul
+<lb ed="#V" n="30"/>esse sub non A etsub A, et sic. quando
+<lb ed="#V" n="31"/>aliquid movetur a non tali loco ad talem
+<lb ed="#V" n="32"/>locum, non potest simul esse in tali loco
+<lb ed="#V" n="33"/>et sub privatione ejusdem. Si autem 
+in<lb ed="#V" break="no" n="34"/>telligat, quod motus semper sit inter 
+ter<lb ed="#V" break="no" n="35"/>minos contrarios positive, patet esse 
+fal<lb ed="#V" break="no" n="36"/>sum, ut patet de calido ut quatuor, quod
+<lb ed="#V" n="37"/>movetur ad calidum ut octo, nam calidum
+<lb ed="#V" n="38"/>ut quatuor est terminus « quo positivus,
+<lb ed="#V" n="39"/>et calidum ut octo est terminus ad quem
+<lb ed="#V" n="40"/>positivus, et isti sunt termini 
+fundamen<lb ed="#V" break="no" n="41"/>tales, et possunt simul esse. Sic dico in
+<lb ed="#V" n="42"/>proposito, quod cum A movetur a loco 5
+<lb ed="#V" n="43"/>ad locum C, termini fundamentales sunt
+<lb ed="#V" n="44"/>D et C, et isti termini sunt compossibiles,
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>quia A potest esse simul sub PB et C,
+<lb ed="#V" n="46"/>termini tamen formales sunt 
+incompossi<lb ed="#V" break="no" n="47"/>biles, qui sunt privatio et habitus ; est
+<lb ed="#V" n="48"/>enim impossibile, quod A simul sit sub
+<lb ed="#V" n="49"/>negatione C et sub ipso C. Et quod dicit
+<lb ed="#V" n="50"/>supra quod omnia distincta ubi differunt
+<lb ed="#V" n="51"/>specie, hoc non est verum simpliciter,
+<lb ed="#V" n="52"/>quia plura ubi possunt tantum differre
+<lb ed="#V" n="53"/>numero, ut supra patuit q. 6. de ubi sibi
+<lb ed="#V" n="54"/>ad invicem succedentibus, bene verum est
+<lb ed="#V" n="55"/>quod illa 4b, inter quae est motus localis
+<lb ed="#V" n="56"/>differunt specie, propter spatium 
+inter<lb ed="#V" break="no" n="57"/>ceptum, ut exposui supra in ?lla q. 6.
+<lb ed="#V" n="58"/>Posito etiam quod differrent specie, non
+<lb ed="#V" n="59"/>sequitur quod distincta specie sint semper
+<lb ed="#V" n="60"/>contraria, ut patet de albedine et rubedine.
+<lb ed="#V" n="61"/>Si dicatur, quod si Angelus simul potest
+<lb ed="#V" n="62"/>esse in duobus locis, ergo simul potest
+<lb ed="#V" n="63"/>esse sursum et deorsum, quae videntur
+<lb ed="#V" n="64"/>contraria. Dico conformiter ad ea, quae
+<lb ed="#V" n="65"/>dicit Doctor ?n 4. dist. 10. q. 2. 
+respon<lb ed="#V" break="no" n="66"/>dendo ad principalia argumenta.
+</p>
+            <p xml:id="mm30o9-d1e1638-d1e570">
+               <lb ed="#V" n="67"/>(e) Ad quartum dico. In ista littera
+<lb ed="#V" n="68"/>plura dicit, quod sicut moveri est aliter
+<lb ed="#V" n="69"/>se habere nunc quam prius, id. est, quod
+<lb ed="#V" n="70"/>mutari proprie est nunc indivisibiliter 
+ali<lb ed="#V" break="no" n="71"/>ter se habere, quam prius se habuerit 
+di<lb ed="#V" break="no" n="72"/>visibiliter, quia prius erat sub esse 
+divi<lb ed="#V" break="no" n="73"/>sibili successivo, et nunc sub esse 
+indi<lb ed="#V" break="no" n="74"/>visibili, ut expositum est supra, q. 4.
+<lb ed="#V" n="75"/>praesentis, dist. ibi : Et tunc ad. 
+secun<lb ed="#V" break="no" n="76"/>dam instantiam, quae est de generabilibus
+<lb ed="#V" n="77"/>et corruptibilibus, etc. Sequitur in littera :
+<lb ed="#V" n="78"/>ia quiescere est nunc se habere sicut
+<lb ed="#V" n="79"/>prius, nunc quiescens per horam, ita se
+<lb ed="#V" n="80"/>habet nunc, scilicet in ultimo instanti illius
+<lb ed="#V" n="81"/>hore, sicut prius se habuit per totam
+<lb ed="#V" n="82"/>horam, ut infra patebit q. 9. praesentis,
+<lb ed="#V" n="83"/>dist. Sequitur : Von est autem $
+nconve<lb ed="#V" break="no" n="84"/>niens respectu hujus ubi aliquid. se 
+ha<lb ed="#V" break="no" n="85"/>bere nunc ut prius,ut cum quiescit in illo
+<lb ed="#V" n="86"/>ubi per horam, et in ultimo instanti illius
+<lb ed="#V" n="87"/>hore, ita se habet sicut prius per totam
+<lb ed="#V" n="88"/>horam. Nec similiter est inconveniens
+<pb ed="#L" n="375"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>respectu alterius ubi aliter se habere nunc
+<lb ed="#V" n="2"/>quam prius, quia in aliquo ultimo 
+in<lb ed="#V" break="no" n="3"/>stanti est in aliquo ubi, in quo prius non
+<lb ed="#V" n="4"/>fuit, quando movebatur localiter in 
+ter<lb ed="#V" break="no" n="5"/>minum motus; aliter se habet nunc, quia
+<lb ed="#V" n="6"/>indivisibiliter, quam prius se habuerit,
+<lb ed="#V" n="7"/>quia prius se habuit divisibiliter et 
+suc<lb ed="#V" break="no" n="8"/>cessive, dum esset sub motu locali, et
+<lb ed="#V" n="9"/>ita non est inconveniens in aliquo loco
+<lb ed="#V" n="10"/>quiescere et in alio moveri. Sequitur
+<lb ed="#V" n="11"/>Et ex hoc concedo absolute, quod quiescit
+<lb ed="#V" n="12"/>simul et movetur, quia praedicata 
+affir<lb ed="#V" break="no" n="13"/>mativa simpliciter sumpta, puta moveri
+<lb ed="#V" n="14"/>et quiescere sequuntur ez. seipsis sumptis
+<lb ed="#V" n="15"/>cum determinatione non diminuente, nam
+<lb ed="#V" n="16"/>bene sequitur, Franciscus movetur in
+<lb ed="#V" n="17"/>isto loco, ergo simpliciter movetur et
+<lb ed="#V" n="18"/>quiescit in alio loco; ergo simpliciter
+<lb ed="#V" n="19"/>quiescit. Arguitur enim a parte in modo
+<lb ed="#V" n="20"/>ad suum totum. Non autem sequeretur si
+<lb ed="#V" n="21"/>argueretur cum determinatione  
+dimi<lb ed="#V" break="no" n="22"/>nuente; non enim sequitur, Franciscus
+<lb ed="#V" n="23"/>movetur secundum imaginationem 
+tan<lb ed="#V" break="no" n="24"/>tum, ergo simpliciter movetur. Sequitur :
+</p>
+            <p xml:id="mm30o9-d1e1638-d1e677">
+               <lb ed="#V" n="25"/>(f) Et cum infertur. ulterius, igitur
+<lb ed="#V" n="26"/>quiescit et non quiescit,ibi est. ignorantia
+<lb ed="#V" n="27"/>Elenchiet fallacia secundum quidad. 
+sim<lb ed="#V" break="no" n="28"/>pliciter,nam verus Elenchus est 
+contradi<lb ed="#V" break="no" n="29"/>ctio ad idem secundum idem, similiter et
+<lb ed="#V" n="30"/>in eodem tempore, ut patet in Elenchis,
+<lb ed="#V" n="31"/>et ubi fit contradictio non habens omnes
+<lb ed="#V" n="32"/>istas conditiones, dicitur ignorantia
+<lb ed="#V" n="33"/>Elenchi, quia est ignorantia vere 
+con<lb ed="#V" break="no" n="34"/>tradictionis. In proposito autem cum 
+dici<lb ed="#V" break="no" n="35"/>tur, ergo quiescit et non quiescit, deficit
+<lb ed="#V" n="36"/>sibi ista conditio, quae est ad idem, sive
+<lb ed="#V" n="37"/>respectu ejusdem. Cum enim dico 
+Fran<lb ed="#V" break="no" n="38"/>ciscus in loco A quiescit, et in loco
+<lb ed="#V" n="39"/>non quiescit, quiescere et non quiescere
+<lb ed="#V" n="40"/>verificatur de Francisco respectu 
+diverso<lb ed="#V" break="no" n="41"/>rum ubi. Si vero diceretur Franciscus
+<lb ed="#V" n="42"/>respectu A ubi quiescit, et respectu 
+ejus<lb ed="#V" break="no" n="43"/>dem A, ubi non quiescit, tunc esset. 
+con<lb ed="#V" break="no" n="44"/>tradictio, et non est ienorantia Elenchi.
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>Dicit etiam quod est fallacia a secundum
+<lb ed="#V" n="46"/>quid ad simpliciter, quia non sequitur :
+<lb ed="#V" n="47"/>Franciscus non quiescit respectu A ubi,
+<lb ed="#V" n="48"/>ergo simpliciter non quiescit, sicut nec
+<lb ed="#V" n="49"/>etiam sequitur : Franciscus non est albus
+<lb ed="#V" n="50"/>secundum dentes, ergo non est 
+sim<lb ed="#V" break="no" n="51"/>pliciter albus. Areumentum enim a parte
+<lb ed="#V" n="52"/>in modo non diminuente ad totum in
+<lb ed="#V" n="53"/>modo, affirmative valet, sed non valet
+<lb ed="#V" n="54"/>negative. Unde bene sequitur: Franciscus
+<lb ed="#V" n="55"/>currit velociter, ergo simpliciter currit;
+<lb ed="#V" n="56"/>non tamen sequitur negative : Franciscus
+<lb ed="#V" n="57"/>non currit velociter, ergo non currit 
+sim<lb ed="#V" break="no" n="58"/>pliciter. Sic in proposito, etc. ibi parum
+<lb ed="#V" n="59"/>infra : J/ta. quod. in. omnibus talibus. in
+<lb ed="#V" n="60"/>quibus contrahuntur praedicata, inferunt
+<lb ed="#V" n="61"/>affirmativas, in quibus eadem praedicata
+<lb ed="#V" n="62"/>simpliciter includuntur, sed non inferunt
+<lb ed="#V" n="63"/>negativas, in. quibus praedicata 
+inferun<lb ed="#V" break="no" n="64"/>lur. simpliciter subjectis non. convenire
+<lb ed="#V" n="65"/>propter causas dictas. Sic exemplificatur,
+<lb ed="#V" n="66"/>quando praedicata sunt contracta, ut. cum
+<lb ed="#V" n="67"/>dico, Franciscus currit velociter , currere
+<lb ed="#V" n="68"/>enim contrahitur per ly velociter, tale
+<lb ed="#V" n="69"/>praedicatum infert aliam propositionem
+<lb ed="#V" n="70"/>affirmativam, in qua idem praedicatum
+<lb ed="#V" n="71"/>simpliciter includitur, quia bene sequitur:
+<lb ed="#V" n="72"/>Franciscus currit velociter, ergo 
+Franci<lb ed="#V" break="no" n="73"/>scus absolute currit, et sic cum dico 4
+<lb ed="#V" n="74"/>est duplum ad B, ergo est duplum 
+abso<lb ed="#V" break="no" n="75"/>lute, sed non infertur negative, . non est
+<lb ed="#V" n="76"/>duplum ad B, ergo non est duplum 
+abso<lb ed="#V" break="no" n="77"/>lute, sed committitur fallacia secundum
+<lb ed="#V" n="78"/>quid ad simpliciter.
+</p>
+            <p xml:id="mm30o9-d1e1638-d1e799">
+               <lb ed="#V" n="79"/>(e) Ad ultimum dico, quod utroque
+<lb ed="#V" n="80"/>modo est possibile. Et cum improbatur
+<lb ed="#V" n="81"/>primus modus, dicit quod non est 
+incom<lb ed="#V" break="no" n="82"/>possibilitas motuum, nisi propter. 
+incom<lb ed="#V" break="no" n="83"/>possibilitatem formarum secundum: quas
+<lb ed="#V" n="84"/>sunt motus. Cum ergo duo ub/, non sint
+<lb ed="#V" n="85"/>incompossibilia in eodem in esse quieto,
+<lb ed="#V" n="86"/>ut supra patuit, et specialiter /n quarto,
+<lb ed="#V" n="87"/>dist. 10. q. 2. sequitur quod nec ut 
+ha<lb ed="#V" break="no" n="88"/>bent esse in motu, erunt incompossibilia.
+<pb ed="#L" n="376"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>Est autem dictum Philosophi verum de
+<lb ed="#V" n="2"/>motibus secundum formas 
+incompossibi<lb ed="#V" break="no" n="3"/>les, quales sunt, formae absolutae, sed non
+<lb ed="#V" n="4"/>ejusdem speciei et de hoc alias. Et cum
+<lb ed="#V" n="5"/>improbatur secundus modus, dicit Doctor
+<lb ed="#V" n="6"/>quod motus generationis est distinctus a
+<lb ed="#V" n="7"/>motu corruptionis, quia termini eorum
+<lb ed="#V" n="8"/>distinguuntur ; nam terminus « quo 
+for<lb ed="#V" break="no" n="9"/>malis respectu generationis est non esse
+<lb ed="#V" n="10"/>forme, et terminus ad. quem formalis est
+<lb ed="#V" n="11"/>ipsa forma acquisita; respectu vero 
+cor<lb ed="#V" break="no" n="12"/>ruptionis terminus a quo est forma, et
+<lb ed="#V" n="13"/>terminus ad quem 'est non esse ipsius
+<lb ed="#V" n="14"/>forms. Et dicit quod generatio et 
+corru<lb ed="#V" break="no" n="15"/>ptio frequenter concurrunt, quia ad 
+gene<lb ed="#V" break="no" n="16"/>rationem unius sequitur corruptio 
+alte<lb ed="#V" break="no" n="17"/>rius, et e contra ; non tamen est 
+simpli<lb ed="#V" break="no" n="18"/>citer necessarium quod concomitentur,
+<lb ed="#V" n="19"/>ut supra patuit in ?sto secundo, dist. 4.
+<lb ed="#V" n="20"/>quest. 3. 4n responsione ad tertium 
+argu<lb ed="#V" break="no" n="21"/>mentum principale. Et cum dicit, quod
+<lb ed="#V" n="22"/>tunc sunt quatuor termini supra, quando
+<lb ed="#V" n="23"/>generatio et corruptio concurrunt,duo 
+sci<lb ed="#V" break="no" n="24"/>licet a quibus, una privatio et una forma,
+<lb ed="#V" n="25"/>quia terminus a quo corruptionis est una
+<lb ed="#V" n="26"/>forma, et terminus a quo generationis
+<lb ed="#V" n="27"/>est una privatio, et duo termini ad quos,
+<lb ed="#V" n="28"/>scilicet una privatio et una forma, quia
+<lb ed="#V" n="29"/>terminus ad quem corruptionis est 
+priva<lb ed="#V" break="no" n="30"/>tio formee, et terminus ad quem genera.
+<lb ed="#V" n="31"/>tionis forma.
+</p>
+            <p xml:id="mm30o9-d1e1638-d1e895">
+               <lb ed="#V" n="32"/>(h) Jta in motibus est recessus a. 
+termi<lb ed="#V" break="no" n="33"/>^o aq quo, et accessus ad. terminum ad
+<lb ed="#V" n="34"/>quem, etc. Dicit Doctor in ista littera,
+<lb ed="#V" n="35"/>quod quamvis communiter in motu 
+lo<lb ed="#V" break="no" n="36"/>cali sint duo motus, et per consequens
+<lb ed="#V" n="37"/>quatuor termini, ut patet quando corpus
+<lb ed="#V" n="38"/>A movetur loco £ in locum C, recedendo
+<lb ed="#V" n="39"/>a D, sunt ibi duo motus, scilicet a P in
+<lb ed="#V" n="40"/>non D, et a non C ad C, et sic quatuor
+<lb ed="#V" n="41"/>termini; si tamen A posset moveri ad
+<lb ed="#V" n="42"/>locum C non deperdendo priorem locum,
+<lb ed="#V" n="43"/>puta B, tunc tantum ibi esset unus
+<lb ed="#V" n="44"/>motus. scilicet a non C ad C. et duo
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>tantum termini, scilicet privatio loci C,
+<lb ed="#V" n="46"/>et ipsum C. Et cum dicitur termini 
+mo<lb ed="#V" break="no" n="47"/>tus sunt incompossibiles, verum est de
+<lb ed="#V" n="48"/>proximis terminis ejusdem motus, puta
+<lb ed="#V" n="49"/>de privatione et habitu, qui sunt 
+termi<lb ed="#V" break="no" n="50"/>ni formales ; sed non est verum de 
+ter<lb ed="#V" break="no" n="51"/>minis, qui possunt esse quorumcumque
+<lb ed="#V" n="52"/>motuum differentiam, sicut est de 
+duo<lb ed="#V" break="no" n="53"/>bus ubi, qua sunt respectu motuum
+<lb ed="#V" n="54"/>differentium, ut cum quis movetur ab
+<lb ed="#V" n="55"/>ubi sursum ad ubi deorsum, vel e 
+con<lb ed="#V" break="no" n="56"/>tra, vel ab ubi dextro ad ubi sinistrum,
+<lb ed="#V" n="57"/>ut expositum est supra, quest. 6. 
+pra<lb ed="#V" break="no" n="58"/>sentis distinctionis, etc.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -52,12 +52,14 @@
     <body>
       <div xml:id="mm30o9-d1e1627"> <!-- q. 6 in Wadding; b2d2p2q2 in Vat ordinatio -->
         <head xml:id="mm30o9-d1e1627-Hd1e103">Quaestio 2</head>
-        <p xml:id="mm30o9-d1e1627-d1e106"><!-- lychteus-p3 -->
+        <p xml:id="mm30o9-d1e1627-d1e104"><!-- lychteus-p3 -->
           <!--210.xml-->
           <pb ed="#W" n="191"/>
           <cb ed="#W" n="a"/>
           <!-- missing line coord for this heading -->Commentarius
           <!-- TODO: column order error; line numbers will need to be changed when column order in image coords is fixed -->
+        </p>
+        <p xml:id="mm30o9-d1e1627-d1e106">
           <lb ed="#W" n="67"/>DVo principaliter quaeruntur a <name ref="#Scotus">Doctore</name>: 
           pri<lb ed="#W" n="68" break="no"/>mo. Utrum Angelus sit in loco? Et hic non 
           <lb ed="#W" n="69"/>quaeritur de loco circunscriptiuo, quia Angelus 
@@ -73,7 +75,7 @@
           quantocun<lb ed="#W" n="79" break="no"/>que magno loco, &amp; in quantocunque paruo.
         </p>
         <p xml:id="mm30o9-d1e1627-d1e149">
-          <lb ed="#W" n="80"/><!--A--> <quote source="http://scta.info/resource/mm30o9-d1e1627-d1e106@13-32">Ad primam quaestione dicitur</quote>. Hic <name ref="#Scotus">Doctor</name>
+          <lb ed="#W" n="80"/><!--A--> <quote>Ad primam quaestione dicitur</quote>. Hic <name ref="#Scotus">Doctor</name>
           <lb ed="#W" n="81"/>primo recitat duas opiniones, quas improbat. 
           Se<lb ed="#W" n="82" break="no"/>cundo principaliter respondet ad quaestionem 
           <lb ed="#W" n="83"/>primam. Prima opinio est <ref xml:id="mm30o9-d1e1627-Rd1e160"><!-- https://www.corpusthomisticum.org/sth1050.html#30630 "Unde cum Angelus sit in loco per applicationem virtutis suae ad locum" -->S. Thom. 1. parte 
@@ -84,15 +86,15 @@
           sol<lb ed="#W" n="88" break="no"/>uentur.  
         </p>
         <p xml:id="mm30o9-d1e1627-d1e175">
-          <lb ed="#W" n="89"/><!--b--> <quote xml:id="mm30o9-d1e1627-Qd1e180" source="http://scta.info/resource/jdso8u-d1e1627-d1e166@1-15">Contra hanc positionem est articulus 
+          <lb ed="#W" n="89"/><!--b--> <quote xml:id="mm30o9-d1e1627-Qd1e180" >Contra hanc positionem est articulus 
           dam<lb ed="#W" n="90" break="no"/>natus, &amp; excommunicatus ab Episcopo Parisiens 
-            <lb ed="#W" n="91"/>si</quote>. Nec valet dicere, <quote source="http://scta.info/resource/jdso8u-d1e1627-d1e166@20-37">quod excommunicatio non 
+            <lb ed="#W" n="91"/>si</quote>. Nec valet dicere, <quote>quod excommunicatio non 
           <lb ed="#W" n="92"/>transeat mare, nec dioecesim. Si tamen fuit 
           arti<lb ed="#W" n="93" break="no"/>culus condemnatus sicut haereticus, ubique est, 
           <lb ed="#W" n="94"/>condemnatus</quote>, &amp;c.
         </p>
         <p xml:id="mm30o9-d1e1627-d1e195">
-          <lb ed="#W" n="95"/><!--C--> <quote xml:id="mm30o9-d1e1627-Qd1e200" source="http://scta.info/resource/jdso8u-d1e1627-d1e192@2-6">Autem nolentes verbo suspecto vti</quote>, &amp;c. 
+          <lb ed="#W" n="95"/><!--C--> <quote xml:id="mm30o9-d1e1627-Qd1e200">Autem nolentes verbo suspecto vti</quote>, &amp;c. 
           <lb ed="#W" n="96"/>Haec est opinio <ref xml:id="mm30o9-d1e1627-Rd1e205">Gotf. quodlib. 8. quaest. 13</ref>. Ista. 
           <lb ed="#W" n="97"/>opinio dicit, quod Angelus est in loco, puta in
           <lb ed="#W" n="98"/>aliquo monte, tantum per applicationem, &amp; non 
@@ -108,7 +110,7 @@
           <lb ed="#W" n="108"/>montem.
         </p>
         <p xml:id="mm30o9-d1e1627-d1e235">
-          <lb ed="#W" n="109"/><!--d --><quote xml:id="mm30o9-d1e1627-Qd1e239" source="http://scta.info/resource/jdso8u-d1e1627-d1e217@1-4">Contra conclusionem huius opinionis</quote>. Hic 
+          <lb ed="#W" n="109"/><!--d --><quote xml:id="mm30o9-d1e1627-Qd1e239">Contra conclusionem huius opinionis</quote>. Hic 
           <lb ed="#W" n="110"/>Doctor probat, quod Angelus non dicatur esse 
           <lb ed="#W" n="111"/>in loco per operationem, puta, quod non dicatur  
           <lb ed="#W" n="112"/>ex hoc esse in monte, tanquam in loco 
@@ -120,13 +122,13 @@
           <lb ed="#W" n="118"/>septimo Physicorum text, comment. 46.</ref> <quote xml:id="mm30o9-d1e1627-Qd1e270" source="http://scta.info/resource/aristdp-d1e97-d1e520@72-78">mouens 
           <lb ed="#W" n="119"/>est, simul cum moto</quote>, &amp; potest mouere omne 
           mo<lb ed="#W" n="120" break="no"/>bile, ergo est in omnibus, &amp; praesens omnibus, 
-          <lb ed="#W" n="121"/><quote source="http://scta.info/resource/jdso8u-d1e1627-d1e241@1-17">quaero quid intendit per hoc concludere, aut esse 
+          <lb ed="#W" n="121"/><quote>quaero quid intendit per hoc concludere, aut esse 
           <lb ed="#W" n="122"/>praesentem omnibus, id est, mouentem omnia 
           <lb ed="#W" n="123"/>&amp; tunc est petitio principij</quote>; patet quia idem est 
           <lb ed="#W" n="124"/>principium, &amp; conclusio. Nam principium per
           <lb ed="#W" n="125"/>quod intendit probare Deum esse praesentem. 
           <lb ed="#W" n="126"/>omnibus, est quia mouet omnia, &amp; haec est 
-          con<lb ed="#W" n="127" break="no"/>clusio. Et vltra, <quote source="http://scta.info/resource/jdso8u-d1e1627-d1e241@23-78">nihil est ad propositum, quia 
+          con<lb ed="#W" n="127" break="no"/>clusio. Et vltra, <quote>nihil est ad propositum, quia 
           <lb ed="#W" n="128"/>intendit probare immensitatem Dei, secundum 
           <lb ed="#W" n="129"/>quam Deus est praesens omnibus, aut intendit 
           <lb ed="#W" n="130"/>concludere illam praesentiam, quae competit 
@@ -138,14 +140,14 @@
           <lb ed="#W" n="3"/>naturaliter erit praesens inquantum immensus. 
           <lb ed="#W" n="4"/>quam inquantum operans</quote>, quia immensitas illa 
           <lb ed="#W" n="5"/>competit Deo, inquantum Deus, &amp; concluditur  
-          <lb ed="#W" n="6"/><quote source="http://scta.info/resource/jdso8u-d1e1627-d1e241@83-111">quod sit in omnibus per operationem tantum a 
+          <lb ed="#W" n="6"/><quote>quod sit in omnibus per operationem tantum a 
           <lb ed="#W" n="7"/>posteriori: igitur a simili in proposito prius 
           na<lb ed="#W" n="8" break="no"/>turaliter Angelus est praesens alicui loco 
           secun<lb ed="#W" n="9" break="no"/>dum essentiam, quam sit praesens secundum 
           ope<lb ed="#W" n="10" break="no"/>rationem</quote>.
         </p>
         <p xml:id="mm30o9-d1e1627-d1e332">
-          <lb ed="#W" n="11"/><!--e --><quote xml:id="mm30o9-d1e1627-Qd1e336" source="http://scta.info/resource/jdso8u-d1e1627-d1e270@1-7">Confirmatur ratio, quia minus videtur de 
+          <lb ed="#W" n="11"/><!--e --><quote xml:id="mm30o9-d1e1627-Qd1e336">Confirmatur ratio, quia minus videtur de 
           <lb ed="#W" n="12"/>Deo</quote>, &amp;c. Haec ratio concludit contra <name xml:id="mm30o9-d1e1627-Nd1e341">Thomam</name>, 
           <lb ed="#W" n="13"/>quia ponit Deum esse praesentem in se, ubi 
           ope<lb ed="#W" n="14" break="no"/>ratur. Et ratio stat in hoc: si Deus, cum sit 
@@ -154,15 +156,15 @@
           <lb ed="#W" n="17"/>operati circa aliquod, si non sit praesens 
           secun<lb ed="#W" n="18" break="no"/>dum essentiam. Sed an Deus possit operati circa
           <lb ed="#W" n="19"/>aliquod passum vbi non esset presens, est alia 
-          que<lb ed="#W" n="20" break="no"/>stio. Et de hoc vide <ref xml:id="mm30o9-d1e1627-Rd1e362" target="http://scta.info/resource/jdso8u-d1e1293">Doctorem in 1. dist. 37</ref>. sed 
+          que<lb ed="#W" n="20" break="no"/>stio. Et de hoc vide <ref xml:id="mm30o9-d1e1627-Rd1e362" >Doctorem in 1. dist. 37</ref>. sed 
           de<lb ed="#W" n="21" break="no"/>facto sic est, quod non operatur circa aliquod, cui  
           <lb ed="#W" n="22"/>perfecte non sit praesens, cum sit in omni re per
           <lb ed="#W" n="23"/>suam praesentiam.
         </p>
         <p xml:id="mm30o9-d1e1627-d1e372">
-          <lb ed="#W" n="24"/><!--f --><quote xml:id="mm30o9-d1e1627-Qd1e376" source="http://scta.info/resource/jdso8u-d1e1627-d1e294@1-6">Confirmatur etiam, quia si actio aliqua</quote>, &amp;c. 
+          <lb ed="#W" n="24"/><!--f --><quote xml:id="mm30o9-d1e1627-Qd1e376">Confirmatur etiam, quia si actio aliqua</quote>, &amp;c. 
           <lb ed="#W" n="25"/>Haec ratio concludit contra <name xml:id="mm30o9-d1e1627-Nd1e381">Thomam</name>, quia ponit, 
-          <lb ed="#W" n="26"/>quod <quote xml:id="mm30o9-d1e1627-Qd1e387" source="http://scta.info/resource/aristdp-d1e97-d1e520@72-78">mouens est simul cum mot</quote>o, &amp; ideo si 
+          <lb ed="#W" n="26"/>quod <quote xml:id="mm30o9-d1e1627-Qd1e387">mouens est simul cum moto</quote>, &amp; ideo si 
           mo<lb ed="#W" n="27" break="no"/>uet immediate est praesens, siue simul cum moto. 
           <lb ed="#W" n="28"/>Pro clariori notitia pono talem casum, quod 
           An<lb ed="#W" n="29" break="no"/>gelus moueat lapidem, quaero tunc, aut motio illa, 
@@ -175,7 +177,7 @@
           <lb ed="#W" n="36"/>infinitum.
         </p>
         <p xml:id="mm30o9-d1e1627-d1e412">
-          <lb ed="#W" n="37"/><!--g --><quote source="http://scta.info/resource/jdso8u-d1e1627-d1e313@1-3">Praeterea secundo sequitur</quote>. Hic Doctor 
+          <lb ed="#W" n="37"/><!--g --><quote>Praeterea secundo sequitur</quote>. Hic Doctor 
           <lb ed="#W" n="38"/>deducit <name xml:id="mm30o9-d1e1627-Nd1e419">Thomam</name> ad manifestum inconueniens 
           <lb ed="#W" n="39"/>videlicet quod Angelus aliquando, imo 
           frequen<lb ed="#W" n="40" break="no"/>ter nusquam erit: patet, quia in coelo empyreo 
@@ -189,7 +191,7 @@
           coe<lb ed="#W" n="48" break="no"/>lo illo.
         </p>
         <p xml:id="mm30o9-d1e1627-d1e445">
-          <lb ed="#W" n="49"/><!--h --><quote source="http://scta.info/resource/jdso8u-d1e1627-d1e322@1-7">Item si transeat de coelo ad terram</quote>, &amp;c. 
+          <lb ed="#W" n="49"/><!--h --><quote>Item si transeat de coelo ad terram</quote>, &amp;c. 
           <lb ed="#W" n="50"/>Supponendo, quod Angelus, dum transit de 
           coe<lb ed="#W" n="51" break="no"/>io empyreo ad terram, non operetur in locis 
           in<lb ed="#W" n="52" break="no"/>termediis: ergo transeundo illa media, &amp; 
@@ -284,7 +286,9 @@
         
         
         <p xml:id="mm30o9-d1e1627-d1e639"><!-- lychteus-p4 -->
-          <lb ed="#W" n="103"/>COMMENTARIVS 
+          <lb ed="#W" n="103"/>COMMENTARIVS
+        </p>
+        <p xml:id="mm30o9-d1e1627-d1e642">
           <cb ed="#W" n="b"/>
           <!-- TODO: line coord error; line numbers need adjustment -->
           <lb ed="#W" n="1"/>AD quest. igitur soluendam. Primo 
@@ -405,8 +409,10 @@
           di<lb ed="#W" n="28" break="no"/>stante, quae habet respectum adpolos, &amp;c. &amp; illa 
           <lb ed="#W" n="29"/>potest destrui, quia &amp; substantia, cuius est 
           respe<lb ed="#W" n="30" break="no"/>ctus, pro aliquo respectu, puta continentis, &amp; 
-          ad<lb ed="#W" n="31" break="no"/>polos, &amp; ille similiter potest desimi, vriprobaui. 
-          <lb ed="#W" n="32"/>dEt si dicatur, quod est vitimum totius 
+          ad<lb ed="#W" n="31" break="no"/>polos, &amp; ille similiter potest desimi, vriprobaui.
+        </p>
+        <p xml:id="mm30o9-d1e1627-d1e865">
+          <lb ed="#W" n="32"/>Et si dicatur, quod est vltimum totius 
           uniuer<lb ed="#W" n="33" break="no"/>si, &amp;c. Diceret ista opinio, quod locus ideo 
           dici<lb ed="#W" n="34" break="no"/>tur immobilis, quia est vitimum, siue ulrima 
           su<lb ed="#W" n="35" break="no"/>perficies corporis locantis respectu uniuersi, &amp; sic. 
@@ -525,7 +531,7 @@
           ec<lb ed="#W" n="136" break="no"/>no noest per se corruptibilis. Mator, patet primo 
           <lb ed="#W" n="137"/>de Generatione, Minor probatur, primo auctoritate 
           <lb ed="#W" n="138"/><ref xml:id="mm30o9-d1e1627-Rd1e1163"><name xml:id="mm30o9-d1e1627-Nd1e1164">Philosophi</name>. 5. Phyae. coma0</ref>. vbi sic habetur, Neque 
-          <lb ed="#W" n="139"/>inquit in relatione etiam est, totus, quonia 
+          <lb ed="#W" n="139"/>inquit in relatione etiam est, totus, quoniam 
           possbile<lb ed="#W" n="140" break="no"/>est, ve alterum relatiuorum, transmuretur absque eo, 
           <!--215.xml-->
           <pb ed="#W" n="215"/>
@@ -899,8 +905,10 @@
         </p>
         
         
-        <p xml:id="mm30o9-d1e1627-d1e1946"><!-- lyctheus-p5 -->
+        <p xml:id="mm30o9-d1e1627-d1e1940"><!-- lyctheus-p5 -->
           <lb ed="#W" n="23"/>COMMENTARIVS. 
+        </p>
+        <p xml:id="mm30o9-d1e1627-d1e1946">
           <!--219.xml-->
           <cb ed="#W" n="b"/>
           <lb ed="#W" n="24"/>AD propositum. Nunc Doctor respondet 
@@ -1230,6 +1238,8 @@
           <lb ed="#W" n="48"/>in loco, sic de necessitate est in tanto loco, quod  
           <lb ed="#W" n="49"/>potestate sua non potest esse in maiori, nec in 
           mi<lb ed="#W" n="50" break="no"/>nori loco, nec simul, nec successiue. 
+        </p>
+        <p xml:id="mm30o9-d1e1627-d1e2640">
           <lb ed="#W" n="51"/> Et: probat: per simile de corporibus, quia etsi 
           <lb ed="#W" n="52"/>corpus possit esse in illo, vel in illo, tamen dum 
           <lb ed="#W" n="53"/>est indoco, sic adaequate est in illo, quod non 
@@ -1395,7 +1405,7 @@
           hu<lb ed="#W" n="50" break="no"/>ius quaestionis. 
         </p>
         <p xml:id="mm30o9-d1e1627-d1e2996">
-          <lb ed="#W" n="51"/><ref xml:id="mm30o9-d1e1627-Rd1e2999"><name xml:id="mm30o9-d1e1627-Nd1e3000" ref="#Rimini">Gregorius tamen de Arimonio</name> in 2. dist. 6. q. 1. 
+          <lb ed="#W" n="51"/><ref xml:id="mm30o9-d1e1627-Rd1e2999"><name xml:id="mm30o9-d1e1627-Nd1e3000">Gregorius tamen de Arimonio</name> in 2. dist. 6. q. 1. 
             <lb ed="#W" n="52"/>ant. 2.</ref> ponit duas conclusiones contra Doctorem 
           <lb ed="#W" n="53"/>dicens sic: 
         </p>
@@ -1405,7 +1415,9 @@
           <lb ed="#W" n="56"/>nec aliqua res, dum monetur aliquam talem 
           tem<lb ed="#W" n="57" break="no"/>acquitit de genere permanentium, a se distinctam 
           <lb ed="#W" n="58"/>in loco sibi formaliter inhaerentem, qualem 
-          mul<lb ed="#W" n="59" break="no"/>tropinantur, &amp; ubi appellant  
+          mul<lb ed="#W" n="59" break="no"/>tropinantur, &amp; ubi appellant 
+        </p>
+        <p xml:id="mm30o9-d1e1627-d1e3015">
           <lb ed="#W" n="60"/> Secundo, quod vbi non est res alia a loco, &amp; 
           a<lb ed="#W" n="61" break="no"/>locato distincta. Primam conclusionem probo sic, 
           <lb ed="#W" n="62"/>&amp; vt clarior fiat probatio, probo eam de corpore, 
@@ -1667,7 +1679,7 @@
           <lb ed="#W" n="139"/>loco adaequato, &amp; primo retinere.
         </p>
         <p xml:id="mm30o9-d1e1627-d1e3593">
-          <lb ed="#W" n="140"/>Secunda conclusio probtri potest ex eodem: 
+          <lb ed="#W" n="140"/>Secunda conclusio probari potest ex eodem: 
           <!--224.xml-->
           <pb ed="#W" n="224"/>
           <cb ed="#W" n="a"/>
@@ -1817,7 +1829,9 @@
           <lb ed="#W" n="130"/>tur, quod ubi sit species praedicamenti Quatitatis, 
           <lb ed="#W" n="131"/>&amp; per consequens non sint decem Praedicamenta. 
           <lb ed="#W" n="132"/>Consequentia patet, quia quantitatis species est 
-          <lb ed="#W" n="133"/>locus secundum Philosophum in praedicamentis: 
+          <lb ed="#W" n="133"/>locus secundum Philosophum in praedicamentis:
+        </p>
+        <p xml:id="mm30o9-d1e1627-d1e3915">
           <lb ed="#W" n="134"/>Secundo, Auctor sex Principiorum dicit, quod 
           <lb ed="#W" n="135"/>vbi est citcumscriptio loci a loci 
           citcumscriptio<lb ed="#W" n="136" break="no"/>ne procedens; constat autem quod locus non est 
@@ -2514,8 +2528,10 @@
           pro<lb ed="#W" n="63" break="no"/>secunda conclusione, quae talis erat, quod ubi non 
           <lb ed="#W" n="64"/>est res alia a loco, &amp; a locato distincta, cuius 
           op<lb ed="#W" n="65" break="no"/>positum tenet Doctor vt patet in 4. dist. 10. &amp; in 
-          <lb ed="#W" n="66"/>quolib. q. 11, &amp; alibi 
-          saepe<lb ed="#W" n="67" break="no"/>Ad primam ergo rationem, quod si ubi esset 
+          <lb ed="#W" n="66"/>quolib. q. 11, &amp; alibi saepe
+        </p>
+        <p xml:id="mm30o9-d1e1627-d1e5412">
+          <lb ed="#W" n="67"/>Ad primam ergo rationem, quod si ubi esset 
           <lb ed="#W" n="68"/>res alia, quod tunc esset possibile per potentiam. 
           <lb ed="#W" n="69"/>Dei idem locatum esse in eodem loco, in quo 
           <lb ed="#W" n="70"/>prius, &amp; non esse ubi prius, &amp; e contra, esse vbi¬ 
@@ -2572,7 +2588,7 @@
           <lb ed="#W" n="117"/>teneo simpliciter quod aliquid non potest esse in 
           <lb ed="#W" n="118"/>loco definitine sic, quod sit perfecte praesens illis 
           <lb ed="#W" n="119"/>loco, quin dicat respectum praesentialitatis ad 
-          <lb ed="#W" n="120"/>locum. Sed de hoc in<ref xml:id="mm30o9-d1e1627-Rd1e5549"> 4. distin. 10. &amp; in quolibus 
+          <lb ed="#W" n="120"/>locum. Sed de hoc in <ref xml:id="mm30o9-d1e1627-Rd1e5549"> 4. distin. 10. &amp; in quolibus 
             <lb ed="#W" n="121"/>quaest. 11.</ref> 
         </p>
         <p xml:id="mm30o9-d1e1627-d1e5555">

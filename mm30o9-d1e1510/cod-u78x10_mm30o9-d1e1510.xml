@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#per-FLBca3">Franciscus Lychetus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2024-08-24">August 24, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 11</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-08-24" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="83"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="mm30o9-d1e1510"><!-- lycht-l2d1q3-pX -->
+            <head xml:id="mm30o9-d1e1510-Hd1e101">Quaestio 3</head>
+            <p xml:id="mm30o9-d1e1510-d1e103">
+<!-- scans jumpr from page 64 to 81 -->
+               <pb ed="#L" n="83"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#L" n="1" type="fixed=83"/>gnat sibi; sic dico pariformiter, quod
+<lb ed="#V" n="2"/>existentia hominis sumpta cum 
+sempi<lb ed="#V" break="no" n="3"/>ternitate, et ideo ex quidditate hominis.
+<lb ed="#V" n="4"/>potest demonstrari quod non existat
+<lb ed="#V" n="5"/>sempiternaliter, quia sicut definitio est
+<lb ed="#V" n="6"/>ratio  demonstrandi aliquid de subjecto
+<lb ed="#V" n="7"/>sibi convenire, ita est ratio demonstrandi
+<lb ed="#V" n="8"/>aliquid incompossibile sibi repugnare.
+<lb ed="#V" n="9"/>EL nota, quod non sequitur, homini 
+re<lb ed="#V" break="no" n="10"/>pugnat esse aeternaliter; ergo necessario
+<lb ed="#V" n="11"/>habet esse de novo, sed bene sequitur
+<lb ed="#V" n="12"/>cum constantia subjec!i homini repugnat
+<lb ed="#V" n="13"/>esse aeternaliter et actu existit; ergo de
+<lb ed="#V" n="14"/>necessitate habet esse de novo.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e142">
+               <lb ed="#V" n="15"/>(f) Aliter etiam peccat ratio. Hic 
+re<lb ed="#V" break="no" n="16"/>sponsio clara est, sed pono exemplum
+<lb ed="#V" n="17"/>de primis impossibilibus et de primis
+<lb ed="#V" n="18"/>necessariis; prima enim necessaria sunt
+<lb ed="#V" n="19"/>prima principia per se nota, et prima
+<lb ed="#V" n="20"/>impossibilia sunt opposita primorum
+<lb ed="#V" n="21"/>principiorum, ei sicut prima principia
+<lb ed="#V" n="22"/>sunt notissima in veritate, ita opposita
+<lb ed="#V" n="23"/>primorum principiorum sunt notissima
+<lb ed="#V" n="24"/>in falsitate, ut patet primo Posteriorum,
+<lb ed="#V" n="25"/>et sic nec veritas nec falsitas eorum
+<lb ed="#V" n="26"/>demonstrari potest. |
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e171">
+               <lb ed="#V" n="27"/>Secundo principaliter arguitur pro 
+opi<lb ed="#V" break="no" n="28"/>nione sancti Thomae ibi : Item quodlibet
+<lb ed="#V" n="29"/>aliud a Deo esse factum ex tempore est
+<lb ed="#V" n="30"/>articulus fidei, et littera clara est. 
+Respon<lb ed="#V" break="no" n="31"/>det Do^tor ibi: Ad secundum dici potest,
+<lb ed="#V" n="32"/>et responsio de se patet in lillera.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e187">
+               <lb ed="#V" n="33"/>Tertio arguitur pro opinione S. Thomae
+<lb ed="#V" n="34"/>ibi : Praeterea Augustinus 6. de Trinit.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e195">
+               <lb ed="#V" n="35"/>(g) Ad tertium. Respondet Doctor ibi :
+<lb ed="#V" n="36"/>Ad tertium dico, quod aliqua 
+consequen<lb ed="#V" break="no" n="37"/>tia sive illatio potest tenere ex multis
+<lb ed="#V" n="38"/>rationibus sive locis, et exemplum patet
+<lb ed="#V" n="39"/>in littera, qui clara est usque ibi:
+<lb ed="#V" n="40"/>ubicumque igitur est similis ratio 
+infe<lb ed="#V" break="no" n="41"/>rendi, etc. dicit ibi : Si Ignis est. aeternus
+<lb ed="#V" n="42"/>et non impeditus; ergo splendor est 
+aeter<lb ed="#V" break="no" n="43"/>nus, antecedens est impossibile, nam
+<lb ed="#V" n="44"/>implicat ienem esse zlernum, quia di-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>cerent isti quod ex quo ignis est vere
+<lb ed="#V" n="46"/>causatus, implicat ipsum esse «ternum,
+<lb ed="#V" n="47"/>et similiter consequens est impossibile,
+<lb ed="#V" n="48"/>sed splendorem esse aeternum propter
+<lb ed="#V" n="49"/>eamdem rationem de antecedente. 
+Con<lb ed="#V" break="no" n="50"/>sequentia tamen est necessaria et 
+natu<lb ed="#V" break="no" n="51"/>ralis, sicut si homo curreret, ergo 
+ne<lb ed="#V" break="no" n="52"/>cessario moveretur, tamen quia 
+Augusti<lb ed="#V" break="no" n="53"/>nus vult probare coaeternitatem Filii ad
+<lb ed="#V" n="54"/>Patrem, ponit exemplum de igne, etc.
+<lb ed="#V" n="55"/>Quod quidem exemplum valet in Patre,
+<lb ed="#V" n="56"/>quoad productionem, non quoad 
+causa<lb ed="#V" break="no" n="57"/>lionem, quia si Pater ab terno est
+<lb ed="#V" n="58"/>perfectus, et habet memoriam fecun- '
+<lb ed="#V" n="59"/>dam, perfectam, ergo productum ab ipso
+<lb ed="#V" n="60"/>est sibi coaeternum, cum sit ejusdem,
+<lb ed="#V" n="61"/>nature, non sic sequitur de causato,
+<lb ed="#V" n="62"/>quod est alterius naturae a causante.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e260">
+               <lb ed="#V" n="63"/>(h) Per hoc patet ad confirmationem E
+<lb ed="#V" n="64"/>illius rationis, etc. haec littera clara est,
+<lb ed="#V" n="65"/>et quod dicit ibi: JVec ex hoc tamquam "
+<lb ed="#V" n="66"/>ex impossibili inferendo quodlibet, vult
+<lb ed="#V" n="67"/>dicere Doctor quod si causa naturalis
+<lb ed="#V" n="68"/>est aeterna, et non impedita, ergo effectus
+<lb ed="#V" n="69"/>ejus erit aeternus; ista consequentia est
+<lb ed="#V" n="70"/>naturalis et necessaria, et non sequitur
+<lb ed="#V" n="71"/>hoc consequens sicut ex impossibili 
+se<lb ed="#V" break="no" n="72"/>quitur quodlibet, sed sequitur formali
+<lb ed="#V" n="73"/>consequentia, quia consequens 
+necessa<lb ed="#V" break="no" n="74"/>rio includitur in antecedente.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e289">
+               <lb ed="#V" n="75"/>(i) Per idem patet ad illam aliam
+<lb ed="#V" n="76"/>rationem, eic. Hxc responsio clare patet
+<lb ed="#V" n="77"/>in primo distinct. 8. q. ult. quam ibi 
+ex<lb ed="#V" break="no" n="78"/>posui, nam causare et contingenter, ille
+<lb ed="#V" n="79"/>modus, scilicet contingenter, est 
+possi<lb ed="#V" break="no" n="80"/>bilis et compossibilis, causare vero el
+<lb ed="#V" n="81"/>necessario, ille modus, scilicet necessario,
+<lb ed="#V" n="82"/>est incompossibilis causae ; et sicut ad
+<lb ed="#V" n="83"/>causare modo compossibili sequitur 
+effe<lb ed="#V" break="no" n="84"/>clus possibilis, sic ad causare sub modo
+<lb ed="#V" n="85"/>incompossibili, sequitur naturali 
+conse<lb ed="#V" break="no" n="86"/>quentia modo praeexposito, de naturali
+<lb ed="#V" n="87"/>consequentia effectus, videlicet 
+incom<lb ed="#V" break="no" n="88"/>possibilis, et patet littera.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e322">
+               <pb ed="#L" n="84"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>(k) Ad quartum. Quarto arguitur pro
+<lb ed="#V" n="2"/>via sancti Thom, ibi: Praeterea quarto,
+<lb ed="#V" n="3"/>etc.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e335">
+               <lb ed="#V" n="4"/>Respondeo ibi : Ad quartum diceret
+<lb ed="#V" n="5"/>aliquis. Hic Doctor primo recitat, 
+opini<lb ed="#V" break="no" n="6"/>onem alterius quam confutat. Aliqui 
+di<lb ed="#V" break="no" n="7"/>cunt, quod sempiternum esse includit
+<lb ed="#V" n="8"/>aliquam — iliimitationem , quia includit
+<lb ed="#V" n="9"/>adwquari Deo secundum illimitationem
+<lb ed="#V" n="10"/>durationis, et patet littera.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e353">
+               <lb ed="#V" n="11"/>(i) Ad quintum. Quinto arguitur pro
+<lb ed="#V" n="12"/>opinione sancti Thomae ibi: Ita creatura
+<lb ed="#V" n="13"/>tendit in non esse, etc.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e363">
+               <lb ed="#V" n="14"/>Respondet Doctor ducendo hoc 
+argu<lb ed="#V" break="no" n="15"/>mentum ad oppositum.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e370">
+               <lb ed="#V" n="16"/>Ultimo loco pro opinione sancti Thome,
+<lb ed="#V" n="17"/>arguitur per auctoritates.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e377">
+               <lb ed="#V" n="18"/>Respondet Doctor ibi : Ad auctoritates
+<lb ed="#V" n="19"/>dico, etc. tota ista littera clara est, et
+<lb ed="#V" n="20"/>sic patet ista prima opinio.
+</p>
+            <!--</div>
+<div alias="lycht-l2d1q3-pX2">-->
+            <p xml:id="mm30o9-d1e1510-d1e388">
+               <lb ed="#L" n="50" type="fixed=89"/>COMMENTARIUS
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e393">
+               <lb ed="#V" n="51"/>(a) Tenentes autem. Respondet Doctor
+<lb ed="#V" n="52"/>rationibus Henrici ibi: Tenentes autem 
+pri<lb ed="#V" break="no" n="53"/>main opinionem. Hic Doctor magis 
+vide<lb ed="#V" break="no" n="54"/>tur declinare ad opinionem sancti Thomas
+<lb ed="#V" n="55"/>propter tria, quae ponuntur hic in littera.
+<lb ed="#V" n="56"/>Unde isti respondent ad rationes Henrici,
+<lb ed="#V" n="57"/>que probant contradictionem , dicunt
+<lb ed="#V" n="58"/>quod aliqua creatura, puta. Angelus, 
+po<lb ed="#V" break="no" n="59"/>tuit semper producta fuisse, quia ejus esse
+<lb ed="#V" n="60"/>est in aevo,et sic conceditur quod fit in 
+ins<lb ed="#V" break="no" n="61"/>lanti aevi, et tamen non sequitur, quod
+<lb ed="#V" n="62"/>sit successivum, 4uia Dei filius semper
+<lb ed="#V" n="63"/>generatur, etc. Ad illa de conservari et
+<lb ed="#V" n="64"/>creari patebit infra dist. 2. quaest. 1l. et
+<lb ed="#V" n="65"/>mulio clarius in quodib. quaest. 12. et ibi
+<lb ed="#V" n="66"/>vide expositiones, quas ibi feci. Ad illud
+<lb ed="#V" n="67"/>additum de esse acquisito concedunt, quia
+<lb ed="#V" n="68"/>non habet esse, quod ex se sit formaliter
+<lb ed="#V" n="69"/>necessarium, ut supra patuit quaestione
+<lb ed="#V" n="70"/>immediate pr:cedenti, non tamen videtur
+<lb ed="#V" n="71"/>necessarium quod sit acquisitum post non
+<lb ed="#V" n="72"/>esse, ita quod ly non esse duratione 
+prae<lb ed="#V" break="no" n="73"/>cedat ipsum esse; sufficit enim quod ly
+<lb ed="#V" n="74"/>non esse tantum prscedal natura, 
+acci<lb ed="#V" break="no" n="75"/>piendo prius natura privative tantum, ut
+<lb ed="#V" n="76"/>supra exposui 7n quaestione de creatione.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e453">
+               <lb ed="#V" n="77"/>(b) Ad secundam. Secundo principaliter
+<lb ed="#V" n="78"/>arguitur, per illud Aristotelis : 0mne quod
+<lb ed="#V" n="79"/>est, quando est necesse. est esse, etc.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e462">
+               <lb ed="#V" n="80"/>Respondet Doctor ad aliud Philosophi,
+<lb ed="#V" n="81"/>etc. et remittit se ad ea quia dixit, inm
+<lb ed="#V" n="82"/>primo dist. 39. pro nunc tamen ultra ea
+<lb ed="#V" n="83"/>quae  dixit, et exposui in primo, ubi supra,
+<lb ed="#V" n="84"/>nam haec propositio: omne quod est, elc
+<lb ed="#V" n="85"/>vel est una hypothetica temporalis, cujus
+<lb ed="#V" n="86"/>subjectum sil : omne quod est, et 
+pridica<lb ed="#V" break="no" n="87"/>tum sil esse cum necessitate, ita quod. ly
+<lb ed="#V" n="88"/>necesse esse dicat necessitatem consequen -
+<lb ed="#V" n="89"/>ti», et sit sensus : omne quod est, quando
+<pb ed="#L" n="90"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>esi necesse est esse, id est, de necessitate
+<lb ed="#V" n="2"/>habet esse, sicut dicimus: omne quod
+<lb ed="#V" n="3"/>curri, quando currit de necessitate 
+mo<lb ed="#V" break="no" n="4"/>vetur, et. omni modo illa est vera. Vel
+<lb ed="#V" n="5"/>quod ly necesse esse dicat necessitatem
+<lb ed="#V" n="6"/>consequentis, ut sit sensus : omne est,
+<lb ed="#V" n="7"/>quando est habet entitatem simpliciter
+<lb ed="#V" n="8"/>et absolute necessariam, et sic nunquam
+<lb ed="#V" n="9"/>posset non esse, et hic sensus est falsus.
+<lb ed="#V" n="10"/>Velest una categorica de sensu composito,
+<lb ed="#V" n="11"/>cujus subjectum est hoc : omne quod est,
+<lb ed="#V" n="12"/>quando est, esi, ita quod ly necesse esse
+<lb ed="#V" n="13"/>sit modus istius propositionis sub tali 
+con<lb ed="#V" break="no" n="14"/>ditione, quando est, sicut dicimus (ut dicit
+<lb ed="#V" n="15"/>Doctor in primo dist. 39.) animal currit,
+<lb ed="#V" n="16"/>si homo currit est necesse; et hoc modo
+<lb ed="#V" n="17"/>est vera, vide tamen diffuse hanc 
+mate<lb ed="#V" break="no" n="18"/>riam in primo ubi supra. Et addit 
+Do<lb ed="#V" break="no" n="19"/>clor unum, quod diffuse probatum est in
+<lb ed="#V" n="20"/>primo ubi supra, videlicet quod creatura
+<lb ed="#V" n="21"/>in illo instant? in quo et pro quo est, 
+con<lb ed="#V" break="no" n="22"/>lingenter est, id est quod non habet 
+entita<lb ed="#V" break="no" n="23"/>lem in se necessariam, nam voluntas 
+divi<lb ed="#V" break="no" n="24"/>na quando in instanti 4 producil 2, ipsum
+<lb ed="#V" n="25"/>B contingenter producit, ita quod in illo
+<lb ed="#V" n="26"/>instantiin quo producit 2, potest ipsum
+<lb ed="#V" n="27"/>non producere, quia ut. producit, semper
+<lb ed="#V" n="28"/>intelligitur prior producto, ut supra patuit
+<lb ed="#V" n="29"/>in quaestione de creatione, et sic patet 
+quo<lb ed="#V" break="no" n="30"/>modo in illo instanti in quo producitur,
+<lb ed="#V" n="31"/>contingenter producitur. De hoc vide
+<lb ed="#V" n="32"/>Doctorem in primo dist. 99. et ea qui ibi
+<lb ed="#V" n="33"/>exposui. Et sic patet solutio argumenti
+<lb ed="#V" n="34"/>Henrici, quia si creatura haberet esse ab
+<lb ed="#V" n="35"/>aeterno adhuc in illo instanti quo. 
+produ<lb ed="#V" break="no" n="36"/>ceretur ab aeterno, haberet esse 
+contin<lb ed="#V" break="no" n="37"/>gens. Si dicatur quomodo in instanti 4
+<lb ed="#V" n="38"/>in quo est, habet esse contingens, cum
+<lb ed="#V" n="39"/>dictum sit quod quando est necesse est 
+es<lb ed="#V" break="no" n="40"/>se? dico,quod pro tanto dicitur habere esse
+<lb ed="#V" n="41"/>contingens in primo instanti, quia 
+contin<lb ed="#V" break="no" n="42"/>genter producta est, quia potui non 
+pro<lb ed="#V" break="no" n="43"/>duci, licet in illo instanti, in quo est, esse
+<lb ed="#V" n="44"/>competat sibi de necessitate dum est, non
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>tamen de necessitate absoluta, quia in illo
+<lb ed="#V" n="46"/>instanti potuit non produci, et postquam
+<lb ed="#V" n="47"/>producta est, potuit destrui.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e595">
+               <lb ed="#V" n="48"/>Confirmatur. H::c est una. confirmatio,
+<lb ed="#V" n="49"/>quam facit Henricus, quia in perpetuis
+<lb ed="#V" n="50"/>non differt esse a posse, ut patet tertio
+<lb ed="#V" n="51"/>Physic. t. c. 31. et 9. Metaph. cap. penult.
+<lb ed="#V" n="52"/>text. com. 17. igitur nullum sempiternum
+<lb ed="#V" n="53"/>est in potentia.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e611">
+               <lb ed="#V" n="54"/>Dico, quod licet hic in littera non 
+re<lb ed="#V" break="no" n="55"/>spondeatur ad hanc auctoritatem, potest i
+<lb ed="#V" n="56"/>tamen sic responderi : primo ad mentem
+<lb ed="#V" n="57"/>Aristotelis, quia in perpetuis, puta in coelo, ;
+<lb ed="#V" n="58"/>quod est perpetuum, esse ipsius coeli non
+<lb ed="#V" n="59"/>differt a posse, id est, quod posse esse coeli
+<lb ed="#V" n="60"/>nunquam praecessit duratione ipsum 
+cce<lb ed="#V" break="no" n="61"/>lum. Secundum aliquos : /n perpetuis, etc.
+<lb ed="#V" n="62"/>exponitur sic, quia. ibi secundum 
+Philoso<lb ed="#V" break="no" n="63"/>phos,puta in coelo non est materia,quae est
+<lb ed="#V" n="64"/>potentia receptiva diversarum formarum,
+<lb ed="#V" n="65"/>ideo in coelo non differt esse a posse, quia
+<lb ed="#V" n="66"/>cum ibi non sit materia, quae semper 
+ma<lb ed="#V" break="no" n="67"/>chinatur ad malum, etc. Scotus vero in
+<lb ed="#V" n="68"/>prima dist. 2. et quest. 2. quodlibetorum
+<lb ed="#V" n="69"/>dicit, quod in Deo non differt posse ab
+<lb ed="#V" n="70"/>esse, id est, quod quidquid potest esse
+<lb ed="#V" n="71"/>in Deo ad intra, ibi de necessitate actu
+<lb ed="#V" n="72"/>est, quia quidquid est in Deo, est ibi 
+neces<lb ed="#V" break="no" n="73"/>se esse, et hoc vel formaliter vel identice.
+<lb ed="#V" n="74"/>Sustinendo etiam, quod coelum sit necesse
+<lb ed="#V" n="75"/>esse, quidquid potest esse in coelo 
+in<lb ed="#V" break="no" n="76"/>trinsecum, ibi actu est, ut patet. Si ergo
+<lb ed="#V" n="77"/>Philosophus intelligat, quod non sit ibi
+<lb ed="#V" n="78"/>potentia priecedens ipsum esse,conceditur ;
+<lb ed="#V" n="79"/>si vero intelligat, quod non sit ibi potentia
+<lb ed="#V" n="80"/>conjuncta actui , de qua Doctor in primo
+<lb ed="#V" n="81"/>distinct. 8. quast. ult. negatur. Si tertio
+<lb ed="#V" n="82"/>intelligat, quod non sit ibi. potentia ad
+<lb ed="#V" n="83"/>ipsum esse prius natura, sic intelligendo
+<lb ed="#V" n="84"/>quod inesset, nisi preveniretura 
+volun<lb ed="#V" break="no" n="85"/>tale divina, dando sibi esse, adhuc 
+nega<lb ed="#V" break="no" n="86"/>tur, ut patet supra in quaestione ?
+mme<lb ed="#V" break="no" n="87"/>diate praecedenti, et in primo dist. 8. q. ult.
+<lb ed="#V" n="88"/>et in secundo, distinct. 9. in terio, dist. 3.
+<pb ed="#L" n="91"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>q. 1. et alibi. Si quarto intelligat, quod
+<lb ed="#V" n="2"/>non sit ibi in potentia ad non esse sequens
+<lb ed="#V" n="3"/>ipsum esse ab sterno, negatur, quia ex
+<lb ed="#V" n="4"/>quo haberet esse contingenter ab aeterno,
+<lb ed="#V" n="5"/>semper posset non esse, et sic patet ad
+<lb ed="#V" n="6"/>illam auctoritatem.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e707">
+               <lb ed="#V" n="7"/>(c) Ad tertium. Tertio principaliter 
+ar<lb ed="#V" break="no" n="8"/>guit idem Henricus quodlib. l. quaest. 8.
+<lb ed="#V" n="9"/>quaelibel species quae est in potentia, etc.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e716">
+               <lb ed="#V" n="10"/>Respondet Doctor et dicit, quod posset
+<lb ed="#V" n="11"/>negari ista propositio, quod in 
+quacum<lb ed="#V" break="no" n="12"/>que specie sit similis impossibilitas ad
+<lb ed="#V" n="13"/>aeternitatem, quia non patet contradictio
+<lb ed="#V" n="14"/>ex parte cujuscumque speciei, et ideo
+<lb ed="#V" n="15"/>nec similis possibilitas, et sic negaretur
+<lb ed="#V" n="16"/>de asino et multis aliis, supponendo 
+ta<lb ed="#V" break="no" n="17"/>men, quod asinus fuisset ab sterno, non
+<lb ed="#V" n="18"/>potuisset generare ab swterno, puta ut
+<lb ed="#V" n="19"/>generatio secundi asini fuisset sterna,
+<lb ed="#V" n="20"/>quia generatio  in creaturis semper dicit
+<lb ed="#V" n="21"/>mutationem inter terminos oppositos, 
+sci<lb ed="#V" break="no" n="22"/>licet inter privationem et formam 
+gene<lb ed="#V" break="no" n="23"/>randam, ut dicit Doctor in primo dist.?2.
+<lb ed="#V" n="24"/>part 2. quast. 3. et dist. 5. quast. 2. et 28.
+<lb ed="#V" n="25"/>et sic privatio  formae generandae 
+deneces<lb ed="#V" break="no" n="26"/>sitate praecedit generatione ipsam formam,
+<lb ed="#V" n="27"/>quia impossibile est, quod in eodem 
+instan<lb ed="#V" break="no" n="28"/>ti temporis sit vera privatio alicujus form,
+<lb ed="#V" n="29"/>et ipsa forma, ut patet a Doctore n primo,
+<lb ed="#V" n="30"/>distinc. 19. et vide qua ibi exposui, 
+ex<lb ed="#V" break="no" n="31"/>ponendo illam propositionem : 
+impossibi<lb ed="#V" break="no" n="32"/>lis est transitus de contradictorio in 
+con<lb ed="#V" break="no" n="33"/>tradictorium sine mutatione. Et cum dicit
+<lb ed="#V" n="34"/>Doctor, quod non est similis impossibilitas
+<lb ed="#V" n="35"/>de omni specie, et per consequens nec
+<lb ed="#V" n="36"/>similis possibilitas, forte dicit propter hoc,
+<lb ed="#V" n="37"/>quia concederetur a Philosopho, quod 
+An<lb ed="#V" break="no" n="38"/>gelus poluit esse ab «terno, ita quod non
+<lb ed="#V" n="39"/>esse Angeli non praecessisset duratione
+<lb ed="#V" n="40"/>ipsum Angelum; et similiter posuisset
+<lb ed="#V" n="41"/>hoc de colo, quia hujusmodi 
+perma<lb ed="#V" break="no" n="42"/>nentia sunt formaliter necessaria, et 
+om<lb ed="#V" break="no" n="43"/>ne tale est sempiternum, patet per 
+Ari<lb ed="#V" break="no" n="44"/>slotelem 1l. Coli et mundi text. comment.
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>188. et 9. Metaph. cap. penultim. text.
+<lb ed="#V" n="46"/>comment. 17. Non posset autem et 
+secun<lb ed="#V" break="no" n="47"/>dum Aristotelem fuisse asinus ab aeterno,
+<lb ed="#V" n="48"/>quia Philosophus posuisset ipsum tantum
+<lb ed="#V" n="49"/>posse produci per motum, et per 
+conse<lb ed="#V" break="no" n="50"/>quens in tempore, quia, secundum ipsum,
+<lb ed="#V" n="51"/>omnis effectus imperfectus non potest 
+im<lb ed="#V" break="no" n="52"/>mediate producia prima causa, sed 
+me<lb ed="#V" break="no" n="53"/>diante motu producitur, ut patuit in primo,
+<lb ed="#V" n="54"/>distinctione 2. part. 1l. quaestione 1l. et in
+<lb ed="#V" n="55"/>quarto, dist. 48. Et sic patet quomodo non
+<lb ed="#V" n="56"/>est similis impossibilitas ad :eternitatem,
+<lb ed="#V" n="57"/>et non apparet similis contradictio ex
+<lb ed="#V" n="58"/>parte cujuscumque speciei, ideo nec 
+simi<lb ed="#V" break="no" n="59"/>lis possibilitas, quia multa entia potuerunt
+<lb ed="#V" n="60"/>fuisse ab aeterno, ut intelligentia 
+secun<lb ed="#V" break="no" n="61"/>dum Avicennam 9. Metaph. et multa alia
+<lb ed="#V" n="62"/>entia non potuerunt fuisse ab :eterno,
+<lb ed="#V" n="63"/>ut omnia illa, quae habent esse per
+<lb ed="#V" n="64"/>generationem, etc.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e841">
+               <lb ed="#V" n="65"/>(d) Et si dicas, etc. Respondet Doctor,
+<lb ed="#V" n="66"/>quod asinus non fuisset factus perfectior
+<lb ed="#V" n="67"/>ab aeterno ad generandum, etc. Quasi
+<lb ed="#V" n="68"/>prateritum imaginatum pracessisset , elc,
+<lb ed="#V" n="69"/>Vult dicere Doctor quod aliud est loqui
+<lb ed="#V" n="70"/>de tempore infinito secundum 
+imagina<lb ed="#V" break="no" n="71"/>tionem tantum, quod tempus 
+imagina<lb ed="#V" break="no" n="72"/>tum nihil est in re; et aliud est loqui de
+<lb ed="#V" n="73"/>tempore infinito in re, quia Doctor ut 
+in<lb ed="#V" break="no" n="74"/>tra patebit, licet concedat quod aliquod
+<lb ed="#V" n="75"/>permanens, puta asinus, possit esse ab
+<lb ed="#V" n="76"/>aeterno, et si non produxisset, tunc alium
+<lb ed="#V" n="77"/>asinum, tunc quievisset tempus infinitum,
+<lb ed="#V" n="78"/>verum est quod quievisset per tempus 
+ima<lb ed="#V" break="no" n="79"/>ginatum, non autem per verum tempus, est
+<lb ed="#V" n="80"/>quod mensura motus et quietis secundum
+<lb ed="#V" n="81"/>prius et posterius, quarto PHysicor. Talis
+<lb ed="#V" n="82"/>autem motus non potuit esse ab aeterno,
+<lb ed="#V" n="83"/>patet quia motus tantum tempore 
+men<lb ed="#V" break="no" n="84"/>suratur, ut supra patuit in primo dist. 2.
+<lb ed="#V" n="85"/>part. 1. quast. 1. respondendo ad ultimum
+<lb ed="#V" n="86"/>argumentum principale, exponendo illam
+<lb ed="#V" n="87"/>auctoritalem Aristotelis, 8. PHysicor. text.
+<lb ed="#V" n="88"/>com. 79. Virtus infinita si. esset, moveret in
+<pb ed="#L" n="92"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>non tempore, nulla autem virlus potest
+<lb ed="#V" n="2"/>movere in non tempore ; vide ibi.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e904">
+               <lb ed="#V" n="3"/>(e) Ad quartum. Quarto principaliter 
+ar<lb ed="#V" break="no" n="4"/>guit Henricus. Et ratio stat in hoc, quod
+<lb ed="#V" n="5"/>si fuisset creatura, habuisset esse 
+acquisi<lb ed="#V" break="no" n="6"/>tum ; ergo duratione non esse suum 
+pra<lb ed="#V" break="no" n="7"/>cessit suum esse novum vel acquisitum ab
+<lb ed="#V" n="8"/>aliquo.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e920">
+               <lb ed="#V" n="9"/>Respondet Doctor. Ad quartum. Et in 
+is<lb ed="#V" break="no" n="10"/>ta responsione multa sunt notanda. Primo,
+<lb ed="#V" n="11"/>quia secundum Henricum, quodlib. 8. 
+qua<lb ed="#V" break="no" n="12"/>st?one 9. potentia ad non esse de 
+necessi<lb ed="#V" break="no" n="13"/>tate praecedit potentiam ad esse, puta quod
+<lb ed="#V" n="14"/>Franciscus prius est in potentia ad non 
+es<lb ed="#V" break="no" n="15"/>se, quam sit in potentia ad esse, et sic
+<lb ed="#V" n="16"/>sequeretur quod esse Francisci de 
+neces<lb ed="#V" break="no" n="17"/>silale praecederet z0n esse ipsius, quia
+<lb ed="#V" n="18"/>si est in potentia ad non esse praecedat
+<lb ed="#V" n="19"/>potentiam ad esse, sequitur quod esse prius
+<lb ed="#V" n="20"/>est in0n esse, quod est inconveniens. 
+Se<lb ed="#V" break="no" n="21"/>cundo nota, quod potentiae contrarie 
+di<lb ed="#V" break="no" n="22"/>cuntur ille, qua respiciunt actus 
+contra<lb ed="#V" break="no" n="23"/>rios, sicut potentia ad albedinem, et 
+po<lb ed="#V" break="no" n="24"/>tentia ad nigredinem. Tertio nota, quod
+<lb ed="#V" n="25"/>potenti: sunt incompossibiles actibus suis,
+<lb ed="#V" n="26"/>ut potentia ad albedinem, quia est 
+incom<lb ed="#V" break="no" n="27"/>possibile quod albedo actu sit in subjecto,
+<lb ed="#V" n="28"/>et quod subjectum sit in potentia ad illam,
+<lb ed="#V" n="29"/>et sic de aliis. Quedam sunt compossibiles
+<lb ed="#V" n="30"/>aclibus suis, ut potentia subjectiva, sicut
+<lb ed="#V" n="31"/>quantitas est in potentia subjectiva ad
+<lb ed="#V" n="32"/>albedinem, et ips» stant simul, quia 
+ad<lb ed="#V" break="no" n="33"/>veniente albedine, quantitas non 
+destrui<lb ed="#V" break="no" n="34"/>tur.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e979">
+               <lb ed="#V" n="35"/>Quarto nota ibi, quod loquendo proprie
+<lb ed="#V" n="36"/>de potentia, scilicet. ante actum, etc. Dicit
+<lb ed="#V" n="37"/>Doctor in ista littera quod quando 
+subje<lb ed="#V" break="no" n="38"/>ctum comparatur ad contraria immediata,
+<lb ed="#V" n="39"/>ut ad sanitatem et :gritudinem, sic quod
+<lb ed="#V" n="40"/>alterum semper inest, tunc si est in 
+poten<lb ed="#V" break="no" n="41"/>tia ad unum, puta ad sanitatem, tunc actu
+<lb ed="#V" n="42"/>erit egrum, et e contra ; et hoc est. quod
+<lb ed="#V" n="43"/>dicit quod non potest simul esse sub 
+po<lb ed="#V" break="no" n="44"/>tentiis hujusmodi contrariorum, quia tunc
+<lb ed="#V" n="45"/>careret utroque actu. Et addit. Doctor
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="46"/>quod actus unius potentiae non est ratio 
+<lb ed="#V" n="47"/>recipiendi aliam potentiam; exemplum,
+<lb ed="#V" n="48"/>cgritudo in homine non est ratio 
+rece<lb ed="#V" break="no" n="49"/>ptiva potenti:te ad sanitatem, id est, quod
+<lb ed="#V" n="50"/>potentia ad sanitatem non requirit de 
+ne<lb ed="#V" break="no" n="51"/>cessitate ipsam xgritudinem, tanquam 
+ra<lb ed="#V" break="no" n="52"/>lionem recipiendi, quia tunc idem 
+respe<lb ed="#V" break="no" n="53"/>ctu ejusdem esset prius et posterius 
+es<lb ed="#V" break="no" n="54"/>sentialiter, quod estimpossibile, ut patet,
+<lb ed="#V" n="55"/>quia si daegritudo est ratio  recipiendi 
+po<lb ed="#V" break="no" n="56"/>tentiam ad sanitalem, ergo est prior ipsa
+<lb ed="#V" n="57"/>potentia, quia receplivum etl ratio  
+reci<lb ed="#V" break="no" n="58"/>piendi semper sunt priora essentialiter
+<lb ed="#V" n="59"/>recepto, et cum potentia ad sanitatem sit
+<lb ed="#V" n="60"/>prior ipsa sanitate, sequitur quod :
+egritu<lb ed="#V" break="no" n="61"/>do sub ratione propria erit prior 
+essentia<lb ed="#V" break="no" n="62"/>liter sanitate ; tunc ultra erit idem de 
+sa<lb ed="#V" break="no" n="63"/>nitate, quia si sanitas est ratio recipiendi
+<lb ed="#V" n="64"/>potentiam ad :xgritudinem, sequitur quod
+<lb ed="#V" n="65"/>ipsa sanitas ex sua ratione formali erit
+<lb ed="#V" n="66"/>essentialiter prior :gritudine, et sic 
+sani<lb ed="#V" break="no" n="67"/>tas respectu cgritudinis erit essentialiter
+<lb ed="#V" n="68"/>prior et posterior ipsa c:griludine, et e 
+con<lb ed="#V" break="no" n="69"/>tra. Et cum dicit paulo infra ibi : Sed 
+po<lb ed="#V" break="no" n="70"/>lentiam ad unum necessario concomitatur 
+al<lb ed="#V" break="no" n="71"/>terius actus,proptler immediationem actuum
+<lb ed="#V" n="72"/>ad unum, vult dicere quod ex quo isti actus
+<lb ed="#V" n="73"/>sunt immediali, puta sanitas et cgritudo
+<lb ed="#V" n="74"/>circa idem subjectum, quod quando 
+sub<lb ed="#V" break="no" n="75"/>jectum est in potentia ad unum, puta ad
+<lb ed="#V" n="76"/>egritudinem, concomilatur de necessilate.
+<lb ed="#V" n="77"/>istam potentiam actus alterius potentic,
+<lb ed="#V" n="78"/>quia concomitatur sanitas in actu.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e1079">
+               <lb ed="#V" n="79"/>(f) Ad propositum dico. Dicit Doctor
+<lb ed="#V" n="80"/>quod homo non fuit ab s:terno in 
+poten<lb ed="#V" break="no" n="81"/>tia ad esse, et in potentia ad non esse,
+<lb ed="#V" n="82"/>cum ista repugnent, quia si ab aeterno
+<lb ed="#V" n="83"/>estae. homo, non praecedit potentiam ad
+<lb ed="#V" n="84"/>ipsum esse hominis, et infra ibi: Sub qua
+<lb ed="#V" n="85"/>iamen prius, etc. Dicit Doctor quod 
+lo<lb ed="#V" break="no" n="86"/>quendo de facto, homo prius fuit in 
+po<lb ed="#V" break="no" n="87"/>tenlja ad esse, quia potentia ad esse
+<lb ed="#V" n="88"/>praecessit duratione ipsum esse, et sic sub
+<lb ed="#V" n="89"/>tali duratione fuit sub non esse, et ita
+<lb ed="#V" n="90"/>non sub potentia ad illud non esse, quia
+<lb ed="#V" n="91"/>tunc prsafuisset, ut supra patuit, quia
+<pb ed="#L" n="93"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>quod est in potentia ad non esse, prius
+<lb ed="#V" n="2"/>est; et hoc est quod sequitur quod si
+<lb ed="#V" n="3"/>fuisset ab aeterno ipse homo, fuisset 
+sem<lb ed="#V" break="no" n="4"/>per sub potentia ad non esse, quia cum sit
+<lb ed="#V" n="5"/>contingens, potuit semper non esse, ut
+<lb ed="#V" n="6"/>supra declaravi. Et parum post ibi : ef
+<lb ed="#V" n="7"/>nunquam sub potentia ad esse, sed sub
+<lb ed="#V" n="8"/>actu, hoc est intelligendum de potentia
+<lb ed="#V" n="9"/>praecedenle actum et incompossibile sibi,
+<lb ed="#V" n="10"/>quia si homo fuit ab aeterno, potentia ad
+<lb ed="#V" n="11"/>esse ipsius non praecessit. Iste enim 
+po<lb ed="#V" break="no" n="12"/>tentiae sunt contrarie vel repugnantes ad
+<lb ed="#V" n="13"/>invicem, scilicet potentia ad esse, et 
+po<lb ed="#V" break="no" n="14"/>tentia ad aom esse, et etiam sunt 
+incom<lb ed="#V" break="no" n="15"/>possibiles actibus suis, quia potentia
+<lb ed="#V" n="16"/>ad esse non potest simul stare cum esse,
+<lb ed="#V" n="17"/>potentia ad non esse, non potest simul
+<lb ed="#V" n="18"/>stare cum non esse. Et infra : SZ autem
+<lb ed="#V" n="19"/>non loquaris, etc. vult dicere Doctor
+<lb ed="#V" n="20"/>quod si Henricus sic intelligat, puta
+<lb ed="#V" n="21"/>quod homo non potest esse in 
+poten<lb ed="#V" break="no" n="22"/>Lia ad esse, supple existentiae, nisi prius
+<lb ed="#V" n="23"/>sit in potentia subjectiva ad non ess? 
+exi<lb ed="#V" break="no" n="24"/>stenti:, ita quod ipsum non esse 
+existen<lb ed="#V" break="no" n="25"/>ti, fundatur prius in esse essentiae, hoc
+<lb ed="#V" n="26"/>falsum est, et improbatum supra 
+qussti<lb ed="#V" break="no" n="27"/>one praecedenti, quia esse essentiae non
+<lb ed="#V" n="28"/>praecedit esse existenti?o, cum sint idem
+<lb ed="#V" n="29"/>realiter.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e1177">
+               <lb ed="#V" n="30"/>(g) Omittendo igitur de potentiis. 
+Avgu<lb ed="#V" break="no" n="31"/>mentum Henrici, videtur stare in hoc 
+se<lb ed="#V" break="no" n="32"/>cundum Henricum, vult enim dicere quod
+<lb ed="#V" n="33"/>Opposita, qua nata sunt inesse eidem
+<lb ed="#V" n="34"/>ordine nature, ita quod unum sit prius
+<lb ed="#V" n="35"/>natura alio, non possunt simul esse simul
+<lb ed="#V" n="36"/>duratione, ut patet de privatione et de
+<lb ed="#V" n="37"/>forma; cum ergo om esse creatura sit
+<lb ed="#V" n="38"/>prius ipso esse natura, ergo esse non 
+po<lb ed="#V" break="no" n="39"/>lest simul stare in eadem duratione cum
+<lb ed="#V" n="40"/>AOn esse,et sic non aeternum.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e1204">
+               <lb ed="#V" n="41"/>(h) Hic dico. Respondet Doctor ibi
+<lb ed="#V" n="42"/>Hic dico, et haec responsio clara est, et
+<lb ed="#V" n="43"/>supra quaestione praecedenti. Nam si non
+<lb ed="#V" n="44"/>esse esset vere prius natura, ita quod prius
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>natura actu esset ipsum non esse, puta
+<lb ed="#V" n="46"/>non esse hominis, tunc esse hominis non
+<lb ed="#V" n="47"/>posset esse simul duratione, sive in 
+ea<lb ed="#V" break="no" n="48"/>dem duratione. Sed Doctor dicit, quod
+<lb ed="#V" n="49"/>ipsum non esse dicitur prius natura ex haec,
+<lb ed="#V" n="50"/>non quod ipsum non esse actu insit, sed
+<lb ed="#V" n="51"/>quia infuisset, nisi homo in illo instanti quo
+<lb ed="#V" n="52"/>inesset non esse hominis pro duceretur 
+ines<lb ed="#V" break="no" n="53"/>se. Et non est simile de instanti nature
+<lb ed="#V" n="54"/>in quo ponitur privatio actu, et de instanti
+<lb ed="#V" n="55"/>in quo ponitur in esse ad quod Lerminatur
+<lb ed="#V" n="56"/>talis privatio, et de instanti quo homo est
+<lb ed="#V" n="57"/>prius risibililate, quia in primo non 
+possu<lb ed="#V" break="no" n="58"/>mus transire de privatione ad habitum
+<lb ed="#V" n="59"/>sine mutatione, et sic talis privatio erit
+<lb ed="#V" n="60"/>prior duratione, non sic est de homine et
+<lb ed="#V" n="61"/>risibilitate, quae sunt compossibilia in 
+ea<lb ed="#V" break="no" n="62"/>dem duratione, et sic patet tota ista
+<lb ed="#V" n="63"/>littera.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e1259">
+               <lb ed="#V" n="64"/>(i) 4d aliud. Quinto arguitur pro 
+opini<lb ed="#V" break="no" n="65"/>one Henrici, quia si mundus potuit esse
+<lb ed="#V" n="66"/>ab «terno ; ergo infinite anime intellectiva
+<lb ed="#V" n="67"/>potuerunt esse ab aeterno, quod videtur
+<lb ed="#V" n="68"/>impossibile. Antecedens patet, quia cum
+<lb ed="#V" n="69"/>infiniti homines sint possibiles successive,
+<lb ed="#V" n="70"/>ita quod unus post alium, et quilibet 
+ho<lb ed="#V" break="no" n="71"/>mo habet animam propriam, ut formam
+<lb ed="#V" n="72"/>sibi inhaerentem; si ergo una anima 
+po<lb ed="#V" break="no" n="73"/>tuit esse ab aeterno, ergo et infinitae, cum
+<lb ed="#V" n="74"/>non sit major ratio de una quam de alia,
+<lb ed="#V" n="75"/>et infinitae sunt possibiles successive. 
+Im<lb ed="#V" break="no" n="76"/>possibilitas consequentis patet, quia si
+<lb ed="#V" n="77"/>possent esse infinite animae ab aeterno;
+<lb ed="#V" n="78"/>ergo posset esse infinitum in actu, quod
+<lb ed="#V" n="79"/>est impossibile apud Philosophos.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e1296">
+               <lb ed="#V" n="80"/>Respondet Doctor, quod quidquid non
+<lb ed="#V" n="81"/>potest fieri a Deo in uno die, quia includit
+<lb ed="#V" n="82"/>contradictionem, hoc non posset fieri in
+<lb ed="#V" n="83"/>praeterito infinito si fuisset, propter 
+eam<lb ed="#V" break="no" n="84"/>dem rationem, scilicet contradictionis,
+<lb ed="#V" n="85"/>etc.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e1312">
+               <lb ed="#V" n="86"/>(k) Et si dicas instantia hujus dici, etc.
+<lb ed="#V" n="87"/>Et nota cum dicit de puncto in actu et in
+<lb ed="#V" n="88"/>potentia ; punctus in actu est ille, qui est
+<pb ed="#L" n="94"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>in linea indivisa et in quolibet continuo
+<lb ed="#V" n="2"/>permanenti sunt infinita puncta in 
+poten<lb ed="#V" break="no" n="3"/>tia; patet, quia est divisibile in infinitas
+<lb ed="#V" n="4"/>partes, ut patet. primo et tertio 
+Physico<lb ed="#V" break="no" n="5"/>rum, et sic quando actu dividitur punctus
+<lb ed="#V" n="6"/>terminans lineam, dicitur punctus in actu.
+<lb ed="#V" n="7"/>Similiter instans in tempore in actu est
+<lb ed="#V" n="8"/>illud quod terminat tale tempus, puta 
+in<lb ed="#V" break="no" n="9"/>stans quod terminat tempus unius dici;
+<lb ed="#V" n="10"/>instans autem in potentia, quod est aptum
+<lb ed="#V" n="11"/>natum terminare, et in quolibet tempore
+<lb ed="#V" n="12"/>sunt infinita instantia in potentia. Patet,
+<lb ed="#V" n="13"/>quia quodlibet tempus est divisibile in
+<lb ed="#V" n="14"/>infinitas partes, similiter in motu dicimus
+<lb ed="#V" n="15"/>quod mutatum esse in actu est illud quod
+<lb ed="#V" n="16"/>terminat motum, et mutatum esse in 
+po<lb ed="#V" break="no" n="17"/>tentia quod est aptum natum terminare,
+<lb ed="#V" n="18"/>et in quolibet motu sunt infinita mutata
+<lb ed="#V" n="19"/>esse in potentia, ut patet sexto Physic.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e1367">
+               <lb ed="#V" n="20"/>(l) Ad aliud de transitu. Sexto arguitur
+<lb ed="#V" n="21"/>pro ista opinione, quia contra rationem
+<lb ed="#V" n="22"/>infiniti in quantitate est ipsum posse 
+exce<lb ed="#V" break="no" n="23"/>di, etc.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e1378">
+               <lb ed="#V" n="24"/>Respondet Doctor, et responsio est 
+sa<lb ed="#V" break="no" n="25"/>tis clara in littera, et bene concedit quod
+<lb ed="#V" n="26"/>non potest dari tempus ab sterno, nec
+<lb ed="#V" n="27"/>similiter motus, quia tunc daretur 
+infini<lb ed="#V" break="no" n="28"/>tum in actu. Sed de permanente non est
+<lb ed="#V" n="29"/>simile, quia permanens si esset ab 
+aeter<lb ed="#V" break="no" n="30"/>no non  mensuraretur tempore , sed
+<lb ed="#V" n="31"/>tantum sevo ; nam permanens dicitur 
+tan<lb ed="#V" break="no" n="32"/>tum mensurari tempore per accidens,
+<lb ed="#V" n="33"/>quia tantum ratione motus, ut patet infra.
+<lb ed="#V" n="34"/>Et si dicatur, si Angelus esset ab aeterno,
+<lb ed="#V" n="35"/>et applicatus orbi suo ab saeterno, et optime
+<lb ed="#V" n="36"/>dispositus, nonne posset movere orbem
+<lb ed="#V" n="37"/>ab aeterno, et sic motus esset ab terno,
+<lb ed="#V" n="38"/>ei per consequens tempus esset ab 
+seter<lb ed="#V" break="no" n="39"/>no, cum sit passio motus ex 4. Physic.
+<lb ed="#V" n="40"/>Dico, quod non posset movere ab aeterno,
+<lb ed="#V" n="41"/>cum motus sit successivus, et de ratione
+<lb ed="#V" n="42"/>successivi est non habere omnes partes
+<lb ed="#V" n="43"/>simul, sed unam post aliam.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e1425">
+               <lb ed="#V" n="44"/>(m) Ad. ultimum argumentum. Septimo
+<lb ed="#V" n="45"/>et ultimo arguitur pro ista opinione, quia
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="46"/>tunc pars esset major loto. Hoc ratio  stat
+<lb ed="#V" n="47"/>in hoc: suppono quod meridies praesentis
+<lb ed="#V" n="48"/>dici sit. 4, et praeteritum ad 4A sit 
+infini<lb ed="#V" break="no" n="49"/>tum, et similiter futurum ad A, et sic sint
+<lb ed="#V" n="50"/>aequalia; et similiter suppono quod 
+me<lb ed="#V" break="no" n="51"/>ridies crastine dici sit B, et praeteritum
+<lb ed="#V" n="52"/>ad P sit infinitum, et similiter futurum ad
+<lb ed="#V" n="53"/>B sit infinitum, et sic sint aequalia, tunc
+<lb ed="#V" n="54"/>sic : praeteritum ad £J, est majus praeterito
+<lb ed="#V" n="55"/>A, patet, quia praeteritum usque ad 
+me<lb ed="#V" break="no" n="56"/>ridiem praesentem, est pars praeterita 
+cra<lb ed="#V" break="no" n="57"/>stine dici. Sed totum est majus sua
+<lb ed="#V" n="58"/>parte, si ergo praeteritum ad Z2, est 
+ma<lb ed="#V" break="no" n="59"/>jus praeterito ad 4, sequitur quod futurum
+<lb ed="#V" n="60"/>ad P sit majus praeterito ad 4, quia 
+prae<lb ed="#V" break="no" n="61"/>teritum ad 2, et futurum ad 7 sunt 
+aequa<lb ed="#V" break="no" n="62"/>lia,  tunc ultra futurum ad 7, est majus
+<lb ed="#V" n="63"/>praeterito ad 4; ergo est majus futuro ad
+<lb ed="#V" n="64"/>A. Patet, quia praeteritum ad 4, et 
+futu<lb ed="#V" break="no" n="65"/>rum ad A sunt aequalia, sed futurum ad
+<lb ed="#V" n="66"/>B, est pars futuri ad A4, patet, quia 
+futu<lb ed="#V" break="no" n="67"/>rum ad A incipit a praesenti meridie, et
+<lb ed="#V" n="68"/>futurum ad 2 incipit a meridie crastinx
+<lb ed="#V" n="69"/>dici, et sic futurum ad 7 est pars futuri
+<lb ed="#V" n="70"/>ad A; ergo sequitur, quod pars est major
+<lb ed="#V" n="71"/>toto, quia futurum ad 7, quod est pars
+<lb ed="#V" n="72"/>futuri ad A4, erit majus futuro ad 4, quod
+<lb ed="#V" n="73"/>est totum respectu futuri ad 7.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e1495">
+               <lb ed="#V" n="74"/>Ad ultimum argumentum dici potest,
+<lb ed="#V" n="75"/>quod aequale, majus et minus non 
+conve<lb ed="#V" break="no" n="76"/>niunt quantitati molis, etc. et sic patet
+<lb ed="#V" n="77"/>responsio ad omnes rationes pro opinione
+<lb ed="#V" n="78"/>Henrici.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e1508">
+               <lb ed="#V" n="79"/>(n) Ad primum argumentum.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e1513">
+               <lb ed="#V" n="80"/>Ad argumenta principalia, etc.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e1518">
+               <lb ed="#V" n="81"/>Respondet Doctor quod verum est ma- ;
+<lb ed="#V" n="82"/>teriam primam esse ingenitam, loquendo
+<lb ed="#V" n="83"/>de generatione proprie dicta, quae in 
+cerea<lb ed="#V" break="no" n="84"/>turis includit mutationem, ut patet a 
+Do<lb ed="#V" break="no" n="85"/>ctore n primo dist. 2. part. 2. q. 3. dist. 5.
+<lb ed="#V" n="86"/>q. 9. et alibi, quia omne quod generatur,
+<lb ed="#V" n="87"/>est compositum ex materia et forma, et
+<lb ed="#V" n="88"/>sic generatur ex materia; si ergo 
+mate<lb ed="#V" break="no" n="89"/>ria generaretur, esset composita ex mate-
+<pb ed="#L" n="95"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>ria et forma, et sic esset processus in 
+in<lb ed="#V" break="no" n="2"/>finitum in materiis, ut dixi supra. 
+Conce<lb ed="#V" break="no" n="3"/>dit tamen, quod etsi non sit genita, est
+<lb ed="#V" n="4"/>tamen tota producta per creationem, utl
+<lb ed="#V" n="5"/>ipse dicit infra distinct. 12.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e1555">
+               <lb ed="#V" n="6"/>(o) Ad aliud de sempiternitate.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e1561">
+               <lb ed="#V" n="7"/>Respondet Doctor, dicens quod non 
+va<lb ed="#V" break="no" n="8"/>let, etc Et. quod dicit de ante, dicit 
+Do<lb ed="#V" break="no" n="9"/>ctor quod ante tempus reale non esset
+<lb ed="#V" n="10"/>nisi tempus imaginarium, et per 
+conse<lb ed="#V" break="no" n="11"/>quens ly ante esset differentia temporis
+<lb ed="#V" n="12"/>imaginarii, sicut extra universum nihil
+<lb ed="#V" n="13"/>est, ibi vel negatur extra, vel non 
+affir<lb ed="#V" break="no" n="14"/>matur nisi imaginatum.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e1581">
+               <lb ed="#V" n="15"/>(p) Ad illud.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e1586">
+               <lb ed="#V" n="16"/>Respondet Doctor dicens primo, quod
+<lb ed="#V" n="17"/>respiciendo ad futurum, ista est vera et
+<lb ed="#V" n="18"/>salis propria : corruptio unius est. 
+genera<lb ed="#V" break="no" n="19"/>tio alterius, quia agens non intendit 
+cor<lb ed="#V" break="no" n="20"/>rumpere per se, sed tantum per 
+acci<lb ed="#V" break="no" n="21"/>dens, propter incompossibilitatem 
+forma<lb ed="#V" break="no" n="22"/>rum, ideo enim corrumpit ut. generet, et
+<lb ed="#V" n="23"/>ideo expellit, puta formam a materia
+<lb ed="#V" n="24"/>aqusB, ut ibi introducat formam terra.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e1608">
+               <lb ed="#V" n="25"/>Et addit quod dabitur ultra corruptio,
+<lb ed="#V" n="26"/>post quam non aequetur alia generatio, ut
+<lb ed="#V" n="27"/>quando omnia mixta corrumpentur et 
+re<lb ed="#V" break="no" n="28"/>solventur in quatuor elementa. Secundo
+<lb ed="#V" n="29"/>dicil, quod respiciendo ad praeteritum, 
+ge<lb ed="#V" break="no" n="30"/>neratio unius est corruptio alterius, et
+<lb ed="#V" n="31"/>hecnon est ita propria, quia ex vi 
+ser<lb ed="#V" break="no" n="32"/>monis videtur, quod agens ideo 
+corrum<lb ed="#V" break="no" n="33"/>pit, ut generet. Et addit, quod datur 
+pri<lb ed="#V" break="no" n="34"/>ma generatio, nulla corruptione 
+prwece<lb ed="#V" break="no" n="35"/>denle, patet, quia prima forma, quae 
+pro<lb ed="#V" break="no" n="36"/>ducitur in materiam, ex tali forma et ex
+<lb ed="#V" n="37"/>tali materia vere generatur compositum,
+<lb ed="#V" n="38"/>et tamen nihil corrumpitur, patet, quia
+<lb ed="#V" n="39"/>non maleria, cum sit incorruptibilis, non
+<lb ed="#V" n="40"/>forma, cum nulla prefuerit.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e1645">
+               <lb ed="#V" n="41"/>(q) Ad illud quartum. argumentum.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e1650">
+               <lb ed="#V" n="42"/>Respondet Doctor, quod ubi agens et
+<lb ed="#V" n="43"/>effectus possunt habere essentiam 
+unige<lb ed="#V" break="no" n="44"/>neam, id est, ubi possunt habere eam-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>dem essentiam, major est vera, scilicet
+<lb ed="#V" n="46"/>quod causa perfecta et non impedita »
+o<lb ed="#V" break="no" n="47"/>test habere effectum sibi cosaevum, sed
+<lb ed="#V" n="48"/>ubi non possunt esse unigenea, sed 
+prio<lb ed="#V" break="no" n="49"/>rilas nature in causa de necessitate 
+re<lb ed="#V" break="no" n="50"/>quirit prioritatem durationis ejus 
+respe<lb ed="#V" break="no" n="51"/>ctu effectus, ibi major est falsa.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e1677">
+               <lb ed="#V" n="52"/>(r) Ad primum n oppositum. Nunc 
+Do<lb ed="#V" break="no" n="53"/>ctor respondet ad argumenta ad 
+opposi<lb ed="#V" break="no" n="54"/>tum, quibus probatur quod est impossibile
+<lb ed="#V" n="55"/>aliquid aliud a Deo posse produci sine
+<lb ed="#V" n="56"/>principio. EL primum argumentum stat in
+<lb ed="#V" n="57"/>hoc: omne, quod de necessitate 
+produ<lb ed="#V" break="no" n="58"/>citur de non esse ad esse, de necessitate
+<lb ed="#V" n="59"/>producitur de 20* esse duratione 
+prwce<lb ed="#V" break="no" n="60"/>dente, sed omnis creatura est 
+hujusmo<lb ed="#V" break="no" n="61"/>di; ergo. Major videtur nota, minor 
+pro<lb ed="#V" break="no" n="62"/>batur auctoritate Augustini dicentis, quod
+<lb ed="#V" n="63"/>creatura ex eo, etc.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e1706">
+               <lb ed="#V" n="64"/>Secundo probatur idem, per 
+argumen<lb ed="#V" break="no" n="65"/>tum ducens ad impossibile, quia si potuit
+<lb ed="#V" n="66"/>producere unum sine principio 
+durati<lb ed="#V" break="no" n="67"/>onis, ita et aliud, cum non sit major ratio
+<lb ed="#V" n="68"/>de uno quam de alio; ergo potuissent
+<lb ed="#V" n="69"/>esse producta actu infinita in multitudine,
+<lb ed="#V" n="70"/>quia infinitas numeralis individuorum non
+<lb ed="#V" n="71"/>est impossibilis successive, potuisset etiam
+<lb ed="#V" n="72"/>aggregasse omnes lapides, qui postea
+<lb ed="#V" n="73"/>fuissent, et ita infinitum mole fecisse. Sed
+<lb ed="#V" n="74"/>tam infinitas numeralis in actu, quam in
+<lb ed="#V" n="75"/>mole actu est impossibilis, ut patet 3.
+<lb ed="#V" n="76"/>Physicor. text. com. 61. et 37.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e1737">
+               <lb ed="#V" n="77"/>Respondetur ad primum, et dicit Doctor
+<lb ed="#V" n="78"/>primo, quod h:ec est descriptio Arii,nam
+<lb ed="#V" n="79"/>Arius dixit Filium Dei esse creaturam. Et
+<lb ed="#V" n="80"/>Augustinus contrarium probando, quod
+<lb ed="#V" n="81"/>filius Dei non sit creatura, assumit hanc
+<lb ed="#V" n="82"/>definitionem contra Arium, quasi dicat
+<lb ed="#V" n="83"/>lu dicis, quod creatura est ex eo quod
+<lb ed="#V" n="84"/>omnipolentis Dei, etc. Contra, Filius Dei
+<lb ed="#V" n="85"/>non producitur voluntate omnipotentis
+<lb ed="#V" n="86"/>Dei, sed intellectu, ut tu concedis ;
+<lb ed="#V" n="87"/>ergo Filius Dei non est creatura. 
+Se<lb ed="#V" break="no" n="88"/>cundo dicit, quod supponendo, quod
+<pb ed="#L" n="96"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>haec sit definitio creature, loquendo 
+pro<lb ed="#V" break="no" n="2"/>prie de creatura ut creatura, dicit quod
+<lb ed="#V" n="3"/>creatura ut creatura, de necessitate habet
+<lb ed="#V" n="4"/>esse post non esse, ut puta Angelus, ut
+<lb ed="#V" n="5"/>creatura necessario habet esse pos: non
+<lb ed="#V" n="6"/>esse, et repugnat sibi esse ab aeterno, ut
+<lb ed="#V" n="7"/>creatura, tamen Angelo ut Angelo, non
+<lb ed="#V" n="8"/>repugnat sibi fuisse ab aeterno, et si 
+fuis<lb ed="#V" break="no" n="9"/>set ab aeterno, non diceretur creatus, sed
+<lb ed="#V" n="10"/>magis productus. Et quod dicit de fallacia
+<lb ed="#V" n="11"/>accidentis, ut clarius cognoscatur fiat sic
+<lb ed="#V" n="12"/>argumentum : omne quod incipit esse est
+<lb ed="#V" n="13"/>creatura ; sed omne aliud a Deo de 
+ne<lb ed="#V" break="no" n="14"/>cessitate incipit esse, patet, quia de facto
+<lb ed="#V" n="15"/>incipit esse, ergo omne aliud a Deo est
+<lb ed="#V" n="16"/>creatura. Dico quod est fallacia 
+acciden<lb ed="#V" break="no" n="17"/>lis, nam accipere esse accidit minori 
+ex<lb ed="#V" break="no" n="18"/>remitali, quia non repugnat omni alii a
+<lb ed="#V" n="19"/>Deo, vel saltem alicui esse ab aeterno, et
+<lb ed="#V" n="20"/>hoc est quod dicit. Sed est fallacia 
+acciden<lb ed="#V" break="no" n="21"/>tis propter extraneitatem medii, quod est
+<lb ed="#V" n="22"/>incipiens esse respectu tertij, quod est
+<lb ed="#V" n="23"/>minor extremitas, inquantum comparatur
+<lb ed="#V" n="24"/>ad primum, scilicet ad majorem 
+extremi<lb ed="#V" break="no" n="25"/>tatem ; non enim quidquid repugnat 
+acci<lb ed="#V" break="no" n="26"/>denti repugnat subjecto, cui accidit tale
+<lb ed="#V" n="27"/>accidens, sicut in ista : Animal est genus,
+<lb ed="#V" n="28"/>homo est animal, ergo homo est genus, non
+<lb ed="#V" n="29"/>enim quod repugnat animali, quod 
+acci<lb ed="#V" break="no" n="30"/>dit homini, inquantum animal comparatur
+<lb ed="#V" n="31"/>ad genus repugnat ipsi homini, nam
+<lb ed="#V" n="32"/>animali ut comparatur ad genus repugnat
+<lb ed="#V" n="33"/>absolute quod praedicetur de alio 
+perso<lb ed="#V" break="no" n="34"/>naliter. Patet, quia animal ut est genus,
+<lb ed="#V" n="35"/>tantum supponit simpliciter, et tamen
+<lb ed="#V" n="36"/>supponere personaliter non repugnat 
+ho<lb ed="#V" break="no" n="37"/>mini, quia AAomo potest supponere pro
+<lb ed="#V" n="38"/>inferioribus; sic in proposito, non enim
+<lb ed="#V" n="39"/>quod repugnat accidenti, id est, huic
+<lb ed="#V" n="40"/>quod est incipere esse, quod accidit alii a
+<lb ed="#V" n="41"/>Deo repugnat alii a. Deo, nam «aeternitas
+<lb ed="#V" n="42"/>repugnat huie quod est incipere esse, ut
+<lb ed="#V" n="43"/>ly incipere esee comparatur ad creaturam,
+<lb ed="#V" n="44"/>et tamen non repugnat Angelo, et hoc
+<lb ed="#V" n="45"/>est quod dicit Doctor.
+</p>
+            <p xml:id="mm30o9-d1e1510-d1e1867">
+               <cb ed="#V" n="b"/>
+               <lb ed="#V" n="46"/>(s) Ad aliud de infinito. Ad secundum de
+<lb ed="#V" n="47"/>infinito in multitudine et magnitudine,
+<lb ed="#V" n="48"/>patuit responsio supra in responsione de
+<lb ed="#V" n="49"/>infinitate actuali animarum,quia est 
+repu<lb ed="#V" break="no" n="50"/>gnantia ex parte creature quod sint 
+infi<lb ed="#V" break="no" n="51"/>nil? actu. Pariformiter dicendum est de
+<lb ed="#V" n="52"/>infinitate tantum numerali,et similiter de
+<lb ed="#V" n="53"/>infinitate molis, sicut ibi exposui. Nam ibi
+<lb ed="#V" n="54"/>dictum est, quod quidquid non potest
+<lb ed="#V" n="55"/>fieri a Deo in uno die, quia includit 
+con<lb ed="#V" break="no" n="56"/>tradictionem, hoc non posset fieri in 
+in<lb ed="#V" break="no" n="57"/>finito praeterito, si fuisset propter eamdem
+<lb ed="#V" n="58"/>rationem. Palet, quia in ista die sunt
+<lb ed="#V" n="59"/>infinita instantia, in quorum quolibet 
+pos<lb ed="#V" break="no" n="60"/>sel causare unam animam, imo in uno
+<lb ed="#V" n="61"/>posset creare mille si vellet; si ergo in
+<lb ed="#V" n="62"/>infinitis instantibus unius dici non potest
+<lb ed="#V" n="63"/>creare infinitas animas, ita nec in infinito
+<lb ed="#V" n="64"/>tempore, sic similiter non posset creare
+<lb ed="#V" n="65"/>infinitos lapides in numero; non enim
+<lb ed="#V" n="66"/>oportet eum quiescere a die in diem, ut
+<lb ed="#V" n="67"/>creet unam animam post aliam, ita non
+<lb ed="#V" n="68"/>oportet eum quiescere a die in diem, ut
+<lb ed="#V" n="69"/>creet unum lapidem post alium. Sic 
+si<lb ed="#V" break="no" n="70"/>militer si in uno die non potest creare
+<lb ed="#V" n="71"/>magnitudinem infinitam addendo partem
+<lb ed="#V" n="72"/>post partem in infinitum, cum in una die
+<lb ed="#V" n="73"/>sint infinita instantia, in quorum quolibet
+<lb ed="#V" n="74"/>potest partem addere, sic nec in infinilo
+<lb ed="#V" n="75"/>tempore. De ista tamen quaestione, non
+<lb ed="#V" n="76"/>multum curandum est, cum sit problema- :
+<lb ed="#V" n="77"/>lica, et utraque pars sustentabilis. Et sic
+<lb ed="#V" n="78"/>finis praesentis questionis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>
