@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#per-FLBca3">Franciscus Lychetus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2024-08-25">August 25, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x12">Vives, Paris, 1893, volume 12</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="87"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="mm30o9-d1e1739"><!-- lycht-l2d3q3-p1 -->
+        <head xml:id="mm30o9-d1e1739-Hd1e101">Quaestio 3</head>
+        <p xml:id="mm30o9-d1e1739-d1e103">
+          <pb ed="#L" n="87"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=87"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1739-d1e112">
+          <lb ed="#L" n="2"/>(a) Tertio principaliter quaerit Doctor
+          <lb ed="#L" n="3"/>sine argumentis : an substantia  materialis
+          <lb ed="#L" n="4"/>per actualem existentiam sit individua, vel
+          <lb ed="#L" n="5"/>ratio individuandi aliquid aliud, id est, an
+          <lb ed="#L" n="6"/>actualis existentia nature humane sit
+          <lb ed="#L" n="7"/>ratio formalis contrahendi naturam ad
+          <lb ed="#L" n="8"/>esse individuale.
+        </p>
+        <p xml:id="mm30o9-d1e1739-d1e130">
+          <lb ed="#L" n="9"/>Opinio <ref xml:id="mm30o9-d1e1739-Rd1e134">
+            <name xml:id="mm30o9-d1e1739-Nd1e136">Nicolai Boneti</name> in octavo Metaph.
+            <lb ed="#L" n="10"/>suae</ref>, ista est, quod substantia  materialis
+          <lb ed="#L" n="11"/>contrahatur ad esse individuale per 
+          actua<lb ed="#L" break="no" n="12"/>lem existentiam ipsius substantiae, quod
+          <lb ed="#L" n="13"/>probat per dictum <ref xml:id="mm30o9-d1e1739-Rd1e148">Philosophi septimo
+            <lb ed="#L" n="14"/>metaphysicorum, text. com. 49.</ref> ubi 
+          habe<lb ed="#L" break="no" n="15"/>tur, quod actus determinat et distinguit,
+          <lb ed="#L" n="16"/>nam secundum nostram translationem sic
+          <lb ed="#L" n="17"/>habetur ab Aristotele : Vam, inquit, actus
+          <lb ed="#L" n="18"/>separat, et secundum translationem 
+          Com<lb ed="#L" break="no" n="19"/>mentatoris : Actus, inquit, dividit 
+          substan<lb ed="#L" break="no" n="20"/>liam, ex hoc arguit, si actus distinguit ;
+          <lb ed="#L" n="21"/>ergo ultima distinctio est per ultimum 
+          a<lb ed="#L" break="no" n="22"/>ctum, «timus autem actus est 
+          individuo<lb ed="#L" break="no" n="23"/>rum, etc.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d3q3-p2">-->
+        <p xml:id="mm30o9-d1e1739-d1e176">
+          <lb ed="#L" n="38" type="fixed=88"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1739-d1e181">
+          <lb ed="#L" n="39"/>(a) Contra istud. Hic Doctor improbat
+          <lb ed="#L" n="40"/>hanc positionem.
+        </p>
+        <p xml:id="mm30o9-d1e1739-d1e188">
+          <lb ed="#L" n="41"/>Primo, quia quod non est ex se 
+          distin<lb ed="#L" break="no" n="42"/>ctum, etc. Et vult dicere Doctor quod sic-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="43"/>ut datur natura in communi, qua sit hoc !
+          <lb ed="#L" n="44"/>per aliquid distinctum a natura, ita datur
+          <lb ed="#L" n="45"/>existentia in communi quae sit haec per :
+          <lb ed="#L" n="46"/>aliquid positivum aliud ab illa.
+        </p>
+        <p xml:id="mm30o9-d1e1739-d1e206">
+          <lb ed="#L" n="47"/>Hic Doctor in ista littera dicit aliqua
+          <lb ed="#L" n="48"/>salis notanda. Primum, quod eo modo,
+          <lb ed="#L" n="49"/>quo datur esse essentiae, etiam datur esse
+          <lb ed="#L" n="50"/>existentia e conveniens tali esse essentiae.
+          <lb ed="#L" n="51"/>Nam si esse essentiae nature humans sil
+          <lb ed="#L" n="52"/>tantum in potentia, esse existentiae ipsius
+          <lb ed="#L" n="53"/>erit tantum in potentia; et si esse essenti:
+          <lb ed="#L" n="54"/>sit in esse reali actuali, tunc esse existentic
+          <lb ed="#L" n="55"/>ipsius erit in esse reali et actuali, cum sit
+          <lb ed="#L" n="56"/>gradus intrinsecus ejus, ut supra exposui
+          <lb ed="#L" n="57"/>in quast. l1. praesentis dist.
+        </p>
+        <p xml:id="mm30o9-d1e1739-d1e232">
+          <lb ed="#L" n="58"/>Secundum est, quod eo modo quod esse
+          <lb ed="#L" n="59"/>essentiae est prius vel communius alio, sic
+          <lb ed="#L" n="60"/>esse existentiae ejus erit prius et 
+          commu<lb ed="#L" break="no" n="61"/>nius. Et ex hoc infertur, quod si 
+          Substan<lb ed="#L" break="no" n="62"/>lia, quae ponitur genus generalissimum,
+          <lb ed="#L" n="63"/>ponitur prior ex natura rei omnibus 
+          infe<lb ed="#L" break="no" n="64"/>rioribus in esse tantum possibili, ita esse
+          <lb ed="#L" n="65"/>existenti: ejus in tali esse possibili, 
+          poni<lb ed="#L" break="no" n="66"/>tur prior omni esse existentivae nato 
+          compe<lb ed="#L" break="no" n="67"/>tere inferioribus. Et similiter si prior in
+          <lb ed="#L" n="68"/>essereali, et actu. ab omnibus 
+          inferio<lb ed="#L" break="no" n="69"/>ribus in esse reali et actuali consideratis,
+          <lb ed="#L" n="70"/>quod videtur ponendum, ita esse 
+          exi<lb ed="#L" break="no" n="71"/>slentiae reale et actuale ipsius 
+          substan<lb ed="#L" break="no" n="72"/>li: generice, in tali esse erit prius omni
+          <lb ed="#L" n="73"/>existentia reali et. actuali nata competere
+          <lb ed="#L" n="74"/>inferioribus.
+        </p>
+        <p xml:id="mm30o9-d1e1739-d1e271">
+          <lb ed="#L" n="75"/>Tertium, quod sequitur ex ista littera
+          <lb ed="#L" n="76"/>Doctoris est, quod natura communis non
+          <lb ed="#L" n="77"/>praeise existit per existentia m singularis,
+          <lb ed="#L" n="78"/>ut aliqui exponunt Doctorem, quia sicut
+          <lb ed="#L" n="79"/>natura est prior singulari, ita ejus 
+          exisLen<lb ed="#L" break="no" n="80"/>lia, bene verum est quod nunquam natu -
+          <lb ed="#L" n="81"/>ra communis habet esse reale actuale, et
+          <lb ed="#L" n="82"/>existens sine esse reali et actuali, et 
+          exi<lb ed="#L" break="no" n="83"/>slenti: individuorum, tamen cum hoc
+          <lb ed="#L" n="84"/>stat, quod tale esse reale, et existens 
+          ip<lb ed="#L" break="no" n="85"/>sius natur: sit prius natura esse reali, et
+          <lb ed="#L" n="86"/>existentiae individuorum.
+        </p>
+        <p xml:id="mm30o9-d1e1739-d1e301">
+          <lb ed="#L" n="87"/>Quartum est, quod respectu existentiae
+          <pb ed="#L" n="89"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>naturae humanae non datur alia differentia,
+          <lb ed="#L" n="2"/>nec aliud genus; easdem enim praecise
+          <lb ed="#L" n="3"/>differentias habet, quas et natura, quia
+          <lb ed="#L" n="4"/>ipsa existentia ponitur praecise gradus 
+          in<lb ed="#L" break="no" n="5"/>trinsecus natura.
+        </p>
+        <p xml:id="mm30o9-d1e1739-d1e321">
+          <lb ed="#L" n="6"/>Si dicatur, quod ex hoc videtur sequi,
+          <lb ed="#L" n="7"/>quod ita animal praedicatur in quid de
+          <lb ed="#L" n="8"/>existentia hominis, sicut de ipso homine,
+          <lb ed="#L" n="9"/>et similiter rationale videretur ita 
+          prwdi<lb ed="#L" break="no" n="10"/>cari essentia liter de existentia hominis,
+          <lb ed="#L" n="11"/>sicut de ipso homine.
+        </p>
+        <p xml:id="mm30o9-d1e1739-d1e337">
+          <lb ed="#L" n="12"/>Dico, quod includere eamdem 
+          diffe<lb ed="#L" break="no" n="13"/>rentiam potest intelligi uno modo 
+          for<lb ed="#L" break="no" n="14"/>maliter et quidditative, alio modo 
+          reali<lb ed="#L" break="no" n="15"/>ter, et identice. Primo modo, homo, ut
+          <lb ed="#L" n="16"/>prescindit ab omni existentia tam 
+          ac<lb ed="#L" break="no" n="17"/>tuali quam aptitudinali, recipit 
+          praedica<lb ed="#L" break="no" n="18"/>lionem essentialem, et omnia quas 
+          prae<lb ed="#L" break="no" n="19"/>dicantur essentialiter de homine, 
+          pre<lb ed="#L" break="no" n="20"/>scindunt ab omni existentia tam actuali
+          <lb ed="#L" n="21"/>quam aptitudinali, quia praedicata 
+          essen<lb ed="#L" break="no" n="22"/>tialia praecise accipiuntur penes 
+          quiddi<lb ed="#L" break="no" n="23"/>tatem ; et quando animal, ut includit esse
+          <lb ed="#L" n="24"/>existenti, praedicatur de homine, non
+          <lb ed="#L" n="25"/>praedicatur in quid, quia quod non dicit
+          <lb ed="#L" n="26"/>unum conceptum per se in qud, 
+          nun<lb ed="#L" break="no" n="27"/>quam prwedicatur in quid ; patet a <ref xml:id="mm30o9-d1e1739-Rd1e373">Doctore
+            <lb ed="#L" n="28"/>in primo, dist. 2. part. 1. q. 9.</ref> et. 
+          simili<lb ed="#L" break="no" n="29"/>ter in. tertio ubi quaerit Doctor an ista
+          <lb ed="#L" n="30"/>sil per se: Christus est homo, modo 
+          ani<lb ed="#L" break="no" n="31"/>mal cum sua existentia sive actuali,
+          <lb ed="#L" n="32"/>sive aptitudinali, non dicit unum 
+          conce<lb ed="#L" break="no" n="33"/>plum per se quidditativum, ut patet. Si
+          <lb ed="#L" n="34"/>secundo modo, dico quod talis 
+          existen<lb ed="#L" break="no" n="35"/>lentia  est per realem identitatem 
+          eam<lb ed="#L" break="no" n="36"/>dem nature humans, sic intelligenda
+          <lb ed="#L" n="37"/>quod rationale, quod constituit hominem
+          <lb ed="#L" n="38"/>in esse specifico habet existentiam, ut
+          <lb ed="#L" n="39"/>gradum intrinsecum, et similiter animal
+          <lb ed="#L" n="40"/>habet existentiam propriam, ut gradum 
+          in<lb ed="#L" break="no" n="41"/>trinsecum ; et licet animal, ut prius natu.
+          <lb ed="#L" n="42"/>ra sua existentia  concurrat ad esse 
+          quid<lb ed="#L" break="no" n="43"/>ditativum hominis, nunquam tamen 
+          ani<lb ed="#L" break="no" n="44"/>mal intelligitur esse in homine. «quin con-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>comitanter intelligatur et ejus existentia 
+          <lb ed="#L" n="46"/>in homine; et sic patet quomodo 
+          exi<lb ed="#L" break="no" n="47"/>stentia hominis non includit alias 
+          diffe<lb ed="#L" break="no" n="48"/>rentias ab illis, quas includit homo, quod
+          <lb ed="#L" n="49"/>etiam probatur per argumentum a 
+          for<lb ed="#L" break="no" n="50"/>tiori, quia propria passio non includit 
+          ali<lb ed="#L" break="no" n="51"/>am differentiam a differentia speciei ;
+          <lb ed="#L" n="52"/>quia si sic, tunc oporteret ponere unam
+          <lb ed="#L" n="53"/>coordinationem passionum, quod est 
+          fal<lb ed="#L" break="no" n="54"/>sum, a fortiori existentia non includit
+          <lb ed="#L" n="55"/>aliam differentiam a differentia speciei
+          <lb ed="#L" n="56"/>cujus est. Patet consequentia, quia 
+          exis<lb ed="#L" break="no" n="57"/>tentia , cum sit gradus intrinsecus rei
+          <lb ed="#L" n="58"/>cujus est, est valde intimior quam 
+          quae<lb ed="#L" break="no" n="59"/>cumque passio, ut patet a <ref xml:id="mm30o9-d1e1739-Rd1e448">Doctore, in
+            <lb ed="#L" n="60"/>primo. dist. 3. quest. 1l.</ref> et in <ref xml:id="mm30o9-d1e1739-Rd1e453">quodlib.
+              <lb ed="#L" n="61"/>quast. l. e[5.</ref>
+        </p>
+        <p xml:id="mm30o9-d1e1739-d1e459">
+          <lb ed="#L" n="62"/>Quintum est, quod tota coordinatio
+          <lb ed="#L" n="63"/>Praedicamentalis praecise attenditur 
+          se<lb ed="#L" break="no" n="64"/>cundum entitatem superiorum et 
+          inferi<lb ed="#L" break="no" n="65"/>orum, ut priorem natura omni 
+          existen<lb ed="#L" break="no" n="66"/>lia, sic quod datur tota coordinatio, 
+          pu<lb ed="#L" break="no" n="67"/>ta generum, specierum et individuorum,
+          <lb ed="#L" n="68"/>ut natura prior existentiis datis 
+          conve<lb ed="#L" break="no" n="69"/>nire generibus, speciebus et individuis ;
+          <lb ed="#L" n="70"/>sicut ergo species, ut species est prior
+          <lb ed="#L" n="71"/>existentia nata sibi competere, ita 
+          in<lb ed="#L" break="no" n="72"/>dividuum, ut hujusmodi erit prius 
+          exi<lb ed="#L" break="no" n="73"/>stentia  nata sibi convenire; ergo in iilo
+          <lb ed="#L" n="74"/>priori oporlereL assignare rationem 
+          in<lb ed="#L" break="no" n="75"/>dividualem contrahentem naturam ad esse
+          <lb ed="#L" n="76"/>individuale, et sic sequitur, quod per
+          <lb ed="#L" n="77"/>existentiam aliquam nulla natura sil
+          <lb ed="#L" n="78"/>primo individua, sed per aliquod 
+          posili<lb ed="#L" break="no" n="79"/>livum prius natura omni existentia.
+        </p>
+        <p xml:id="mm30o9-d1e1739-d1e501">
+          <lb ed="#L" n="80"/>Sed tunc occurrit dubium, quia si in illo
+          <lb ed="#L" n="81"/>priori non includitur existentia, quaeritur
+          <lb ed="#L" n="82"/>per quid existentia  hominis contrahitur ad
+          <lb ed="#L" n="83"/>esse individuale? aut contrahitur per 
+          eam<lb ed="#L" break="no" n="84"/>dem rationem individualem, per quam
+          <lb ed="#L" n="85"/>contrahitur natura, aut per aliam. Non
+          <lb ed="#L" n="86"/>primo, quia illa ratio individualis 
+          prein<lb ed="#L" break="no" n="87"/>telligitur existentia hominis. Non secundo,
+          <lb ed="#L" n="88"/>quia eodem modo quaero per quid existen-
+          <pb ed="#L" n="90"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>tia animalis contrahitur ad esse specificum
+          <lb ed="#L" n="2"/>hominis? Non per differentiam hominis,
+          <lb ed="#L" n="3"/>quia intelligitur prior tali existentia. Si
+          <lb ed="#L" n="4"/>peraliquid aliud, oportebit assignare 
+          il<lb ed="#L" break="no" n="5"/>lud, et non videtur posse assignari aliud,
+          <lb ed="#L" n="6"/>nisi alia differentia a differentia hominis;
+          <lb ed="#L" n="7"/>et tunc sequitur,quod existentia hominis
+          <lb ed="#L" n="8"/>habebit aliam differentiam a differentia
+          <lb ed="#L" n="9"/>hominis, et sic existentiarum erit alia 
+          co<lb ed="#L" break="no" n="10"/>ordinatio.
+        </p>
+        <p xml:id="mm30o9-d1e1739-d1e549">
+          <lb ed="#L" n="11"/>Respondeo, quod non intelligo, ut 
+          ali<lb ed="#L" break="no" n="12"/>qui volunt exponere Doctorem quod 
+          de<lb ed="#L" break="no" n="13"/>tur una differentia individualis respectu 
+          na<lb ed="#L" break="no" n="14"/>tur: hominis, et alia respectu existenlise,
+          <lb ed="#L" n="15"/>quia oporterel darialiam et aliam 
+          respe<lb ed="#L" break="no" n="16"/>clu alterius et alterius passionis ipsius 
+          ho<lb ed="#L" break="no" n="17"/>minis, cum passio sit magis distincla quam
+          <lb ed="#L" n="18"/>existentia . Dico ergo, quod natura 
+          huma<lb ed="#L" break="no" n="19"/>na respectu unius individui praecise 
+          con<lb ed="#L" break="no" n="20"/>trahitur ad esse individuale per unam 
+          dif<lb ed="#L" break="no" n="21"/>ferentiam individualem, et per eamdem
+          <lb ed="#L" n="22"/>concomilanler conlrahitur quidquid ad
+          <lb ed="#L" n="23"/>hominem pertinet, sive ut esse essentia le,
+          <lb ed="#L" n="24"/>sive ut passio, sive ut gradus inlrinsecus ;
+          <lb ed="#L" n="25"/>nunquam enim natura in quocumque sil,
+          <lb ed="#L" n="26"/>potest separari a suo gradu intrinseco,
+          <lb ed="#L" n="27"/>nec a suis passionibus, ideo eadem 
+          diffe<lb ed="#L" break="no" n="28"/>rentia, quae:e primo et. immediate contrahit
+          <lb ed="#L" n="29"/>naturam ad esse individui, ex 
+          consequen<lb ed="#L" break="no" n="30"/>ti et concomilanter contrahit omne quod
+          <lb ed="#L" n="31"/>per realem identitatem includitur in ipsa
+          <lb ed="#L" n="32"/>natura, contrahit dico ad esse individuale,
+          <lb ed="#L" n="33"/>quod bene nota.
+        </p>
+        <p xml:id="mm30o9-d1e1739-d1e602">
+          <lb ed="#L" n="34"/>(b) Et si dicatur, quod praesupponit 
+          di<lb ed="#L" break="no" n="35"/>slinctionem, id est, si dicatur, quod esse
+          <lb ed="#L" n="36"/>existenti:e bene praesupponit 
+          distincti<lb ed="#L" break="no" n="37"/>onem essentia rum ad invicem, puta 
+          spe<lb ed="#L" break="no" n="38"/>cific;oe nature, generics, suballerne et
+          <lb ed="#L" n="39"/>generalissime, non tamen praesupponil
+          <lb ed="#L" n="40"/>distinctionem naturarum singularium, sed
+          <lb ed="#L" n="41"/>ipsum esse existenli:e praecise contrahit
+          <lb ed="#L" n="42"/>naturam ad esse individui.
+        </p>
+        <p xml:id="mm30o9-d1e1739-d1e624">
+          <lb ed="#L" n="43"/>(c) Contra. Hic Doctor improbat hanc
+          <lb ed="#L" n="44"/>responsionem, et ratio stal in hoc, quia
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>in coordinatione praedicamentali sunt. 
+          om<lb ed="#L" break="no" n="46"/>nia, etc.
+        </p>
+        <p xml:id="mm30o9-d1e1739-d1e637">
+          <lb ed="#L" n="47"/>(d) Nam st natura specifica eadem sit in
+          <lb ed="#L" n="48"/>pluribus individuis habet etiam — 
+          existen<lb ed="#L" break="no" n="49"/>tiam ejusdem rationis in eis, patet, quia
+          <lb ed="#L" n="50"/>natura in quolibet individuo est ejusdem
+          <lb ed="#L" n="51"/>rationis ; ergo et existentia, quae:e est 
+          mo<lb ed="#L" break="no" n="52"/>dus intrinsecus erit ejusdem rationis in
+          <lb ed="#L" n="53"/>omni individuo ; et sic potest quaeri per
+          <lb ed="#L" n="54"/>quid existentia sit haec? quia non est dare,
+          <lb ed="#L" n="55"/>quod sit de se hxc, et ita non sufficit dare
+          <lb ed="#L" n="56"/>primam existentiam, qua natura sil haec,
+          <lb ed="#L" n="57"/>quia natura ut hi?e, praecedit. primam 
+          exi<lb ed="#L" break="no" n="58"/>stentiam. Ex ista lillera aliqui voluerunt 
+          ex<lb ed="#L" break="no" n="59"/>ponere Doctorem quod existentia hominis
+          <lb ed="#L" n="60"/>contrahatur ad esse individuale per 
+          ali<lb ed="#L" break="no" n="61"/>quam haeceitalem aliam ab  haeceitate
+          <lb ed="#L" n="62"/>contrahente naturam, sed hoc non 
+          vide<lb ed="#L" break="no" n="63"/>tur, ut dixi supra, quia sufficit haecceilas
+          <lb ed="#L" n="64"/>contrahens naturam, ad quam naturam
+          <lb ed="#L" n="65"/>contractam concomitanter dicitur contrahi,
+          <lb ed="#L" n="66"/>quidquid est in tali natura. Si tamen 
+          intel<lb ed="#L" break="no" n="67"/>ligunt aliam ha»eceilatem respectu existen -
+          <lb ed="#L" n="68"/>ti: et nature, tunc solvant rationem 
+          fa<lb ed="#L" break="no" n="69"/>ctam, quam, ui credo, solvere non possent.
+          <lb ed="#L" n="70"/>Nec enim Doctor dicit, quod contrahatur
+          <lb ed="#L" n="71"/>peraliam hseceitalem, sed tantum dicit
+          <lb ed="#L" n="72"/>quod sicut natura, puta hominis non est
+          <lb ed="#L" n="73"/>de se hac, ita et existentia , quaex est gradus
+          <lb ed="#L" n="74"/>intrinsecus natur:aet non est de se haec ; 
+          er<lb ed="#L" break="no" n="75"/>go oportet dare per quid talis existentia
+          <lb ed="#L" n="76"/>fiat h:ec. Non per aliam existentiam, cum
+          <lb ed="#L" n="77"/>illa sit simpliciter ejusdem rationis ; 
+          con<lb ed="#L" break="no" n="78"/>trahens autem ad esse individuale non est
+          <lb ed="#L" n="79"/>simpliciter ejusdem rationis eum natura
+          <lb ed="#L" n="80"/>contracta, oportet ergo dare aliquid aliud
+          <lb ed="#L" n="81"/>contrahens naturam ad esse individuale, et
+          <lb ed="#L" n="82"/>per illud idem concomilanter contrahitur
+          <lb ed="#L" n="83"/>existentia nature human: ad esse indivi -
+          <lb ed="#L" n="84"/>duale.
+        </p>
+        <p xml:id="mm30o9-d1e1739-d1e722">
+          <lb ed="#L" n="85"/>(e) Per hoc patet ad argumentum pro
+          <lb ed="#L" n="86"/>opinione. Hic Doctor solvit rationem 
+          fa<lb ed="#L" break="no" n="87"/>clam pro opinione Boneti, et dicit quod
+          <lb ed="#L" n="88"/>actus eo modo distinguit. quo est actus, etc.
+          <pb ed="#L" n="91"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>et illa est per ultimum actum per se 
+          perti<lb ed="#L" break="no" n="2"/>nentem ad coordinationem 
+          praedicamenta<lb ed="#L" break="no" n="3"/>lem. Illa enim sola pertinent ad 
+          coordina<lb ed="#L" break="no" n="4"/>lionem praedica menlalem, quae per se 
+          po<lb ed="#L" break="no" n="5"/>nuntur in recta linea praedicamenlali, et
+          <lb ed="#L" n="6"/>illa proprie et per se sunt in pr:dicamento
+          <lb ed="#L" n="7"/>et quidditalive, qua recipiunt 
+          praedica<lb ed="#L" break="no" n="8"/>lionem talis Praedicamenli, et similiter
+          <lb ed="#L" n="9"/>omnia per se perlinenl ad talem 
+          coordi<lb ed="#L" break="no" n="10"/>nationem, qui per se constituunt aliquid
+          <lb ed="#L" n="11"/>quod est in recta linea praeedieamentali; et
+          <lb ed="#L" n="12"/>hoc modo differentiae constituentes 
+          spe<lb ed="#L" break="no" n="13"/>cies, vel specialissimas, vel subalternas,
+          <lb ed="#L" n="14"/>et similiter hacceilatles per se pertinent
+          <lb ed="#L" n="15"/>ad talem coordinationem, non quod 
+          reci<lb ed="#L" break="no" n="16"/>piant praedicationem per se talis 
+          Priedica<lb ed="#L" break="no" n="17"/>menli, quia genus per se non praedicatur
+          <lb ed="#L" n="18"/>de differentiis, sed per se dicuntur 
+          perti<lb ed="#L" break="no" n="19"/>nere, quia conslituunt per se ultimale
+          <lb ed="#L" n="20"/>aliquid, quod per se est in recta linea
+          <lb ed="#L" n="21"/>praedicamentali, et per se recipit 
+          praedica<lb ed="#L" break="no" n="22"/>lionem talis praedicamenti. Sed in 
+          proposi<lb ed="#L" break="no" n="23"/>to : Actualis existentia  non per se pertinet
+          <lb ed="#L" n="24"/>ad coordinationem praedicamentalem, cum
+          <lb ed="#L" n="25"/>per se sit actus posterior Lota 
+          coordinati<lb ed="#L" break="no" n="26"/>one praedicamentali, et ideo dicit Doctor,
+          <lb ed="#L" n="27"/>quod existentia distinguit ultimate sed 
+          di<lb ed="#L" break="no" n="28"/>slinelione, qua est extra totam per se
+          <lb ed="#L" n="29"/>coordinatlionem praedicamentalem, qua
+          <lb ed="#L" n="30"/>distinctio est aliquo modo accidentalis, 
+          li<lb ed="#L" break="no" n="31"/>cel non sit vere accidentalis. Dicitur
+          <lb ed="#L" n="32"/>enim quasi accidentalis, quia non per se
+          <lb ed="#L" n="33"/>pertinet ad aliquid ejusdem 
+          Praedicamen<lb ed="#L" break="no" n="34"/>ti, sed concomitatur illud, quod per sc
+          <lb ed="#L" n="35"/>est in Predicamento non tamen est pro:
+          <lb ed="#L" n="36"/>prie accidentalis, cum sit gradus 
+          intrinse<lb ed="#L" break="no" n="37"/>cus rei cujus est, sed extra rationem 
+          for<lb ed="#L" break="no" n="38"/>malem illius ; sequitur enim totam 
+          distin<lb ed="#L" break="no" n="39"/>ctionem secundum esse quidditativum,
+          <lb ed="#L" n="40"/>scilicet ejusdem coordinationis praedica.
+          <lb ed="#L" n="41"/>mentalis; eo ergo modo quo est actus,
+          <lb ed="#L" n="42"/>distinguit, et in quo est ultimus actus,
+          <lb ed="#L" n="43"/>ultimate distinguit, etc.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

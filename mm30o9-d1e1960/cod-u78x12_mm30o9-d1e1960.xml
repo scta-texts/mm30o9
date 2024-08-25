@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#per-FLBca3">Franciscus Lychetus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2024-08-25">August 25, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x12">Vives, Paris, 1893, volume 12</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="523"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="mm30o9-d1e1960"><!-- lycht-l2d10q1-p2 -->
+        <head xml:id="mm30o9-d1e1960-Hd1e101">Quaestio 1</head>
+        <p xml:id="mm30o9-d1e1960-d1e103">
+          <lb ed="#L" n="80" type="fixed=523"/>COMMENTARIUS.,
+        </p>
+        <p xml:id="mm30o9-d1e1960-d1e108">
+          <lb ed="#L" n="81"/>(a) Haec quaestio est satis facilis, nec
+          <lb ed="#L" n="82"/>indiget aliqua expositione, et si quid 
+          dif<lb ed="#L" break="no" n="83"/>ficultatis est in ista qusstione, ex his
+          <lb ed="#L" n="84"/>qua dicta sunt supra dist. 9. et. dist. 9.
+          <lb ed="#L" n="85"/>q. 9. faciliter patere potest. Dicit tamen
+          <lb ed="#L" n="86"/>Doctor quod auctoritas Apostoli ad
+          <pb ed="#L" n="524"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>Hebr. 4. quae dicit, quod omnes sunt 
+          ad<lb ed="#L" break="no" n="2"/>ministratorii spiritus, concedenda est, 
+          lo<lb ed="#L" break="no" n="3"/>quendo de missione intra et extra. De 
+          mis<lb ed="#L" break="no" n="4"/>sione intra patet, quia de communi lege
+          <lb ed="#L" n="5"/>superiores mittuntur ad inferiores, 
+          qui<lb ed="#L" break="no" n="6"/>bus superioribus majora Dei mysteria 
+          re<lb ed="#L" break="no" n="7"/>velantur, inferiores vero mittuntur 
+          exte<lb ed="#L" break="no" n="8"/>rius ad illa revelata nuntianda hominibus,
+          <lb ed="#L" n="9"/>et ita non omnes mittuntur extra. Sed
+          <lb ed="#L" n="10"/>quomodo inferiores possint illuminare 
+          ho<lb ed="#L" break="no" n="11"/>mines de his revelationibus, dicetur in dist.
+          <lb ed="#L" n="12"/>sequenti.
+        </p>
+        <p xml:id="mm30o9-d1e1960-d1e154">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="13"/>(b) Per hoc patet. Ad auctoritatem 
+          Da<lb ed="#L" break="no" n="14"/>nielis 1. concedit quod communiter non
+          <lb ed="#L" n="15"/>mittuntur, et ideo distinctio quam ponit
+          <lb ed="#L" n="16"/>Daniel inter illos, scilicet hi ministrabant
+          <lb ed="#L" n="17"/>et hi assistebant ei, intelligenda est 
+          com<lb ed="#L" break="no" n="18"/>muniter, scilicet millia millium assistunt ei
+          <lb ed="#L" n="19"/>communiter, qui communiter non 
+          mittun<lb ed="#L" break="no" n="20"/>tur, et decies centena millia ministrabant
+          <lb ed="#L" n="21"/>ei communiter.
+        </p>
+        <p xml:id="mm30o9-d1e1960-d1e178">
+          <lb ed="#L" n="22"/>Auctoritas Apostoli concedenda est
+          <lb ed="#L" n="23"/>absolute, quia omnes spiritus sunt ministri
+          <lb ed="#L" n="24"/>Dei, quia mittuntur, vel ad intra vel extra.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

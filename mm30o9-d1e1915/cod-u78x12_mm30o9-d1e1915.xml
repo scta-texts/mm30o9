@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#per-FLBca3">Franciscus Lychetus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2024-08-25">August 25, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x12">Vives, Paris, 1893, volume 12</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="432"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="mm30o9-d1e1915"><!-- lycht-l2d8q1-p2 -->
+        <head xml:id="mm30o9-d1e1915-Hd1e101">Quaestio 1</head>
+        <p xml:id="mm30o9-d1e1915-d1e103">
+          <lb ed="#L" n="14" type="fixed=419"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1915-d1e108">
+          <lb ed="#L" n="15"/>(a) In ista questione tria sunt videnda :
+          <lb ed="#L" n="16"/>Primo, quid sit Angelum assumere 
+          cor<lb ed="#L" break="no" n="17"/>pus. Secundo, quale corpus assumit, 
+          sci<lb ed="#L" break="no" n="18"/>licet an coeleste, an elementare, an 
+          mix<lb ed="#L" break="no" n="19"/>tum. Tertio, quas operationes potest 
+          exer<lb ed="#L" break="no" n="20"/>cere in corpore.
+        </p>
+        <p xml:id="mm30o9-d1e1915-d1e124">
+          <lb ed="#L" n="21"/>De primo dicit Doctor, quod Angelum
+          <lb ed="#L" n="22"/>assumere corpus non est informare corpus,
+          <lb ed="#L" n="23"/>nec etiam hypostatice sibi unire, sed 
+          tan<lb ed="#L" break="no" n="24"/>tum esse intrinsecus molor corporis.
+        </p>
+        <p xml:id="mm30o9-d1e1915-d1e135">
+          <lb ed="#L" n="25"/>De primo patet, quia si Angelus 
+          infor<lb ed="#L" break="no" n="26"/>maret corpus, tunc ex Angelo et corpore
+          <lb ed="#L" n="27"/>fieret compositam per se, quia ex per se
+          <lb ed="#L" n="28"/>actu, et per se potentia, ut patet S. 
+          Me<lb ed="#L" break="no" n="29"/>taph. text. com. 15. et 16. hoc autem 
+          re<lb ed="#L" break="no" n="30"/>pugnat Angelo posse informare corpus,
+          <lb ed="#L" n="31"/>ut probat Doctor quest. 9. quodl. 
+          Seque<lb ed="#L" break="no" n="32"/>retur etiam compositum illud esse
+          <lb ed="#L" n="33"/>perfectius ipso Angelo, ut patet a Doctore
+          <lb ed="#L" n="34"/>in simili in quarto dist. 43.
+        </p>
+        <p xml:id="mm30o9-d1e1915-d1e160">
+          <lb ed="#L" n="35"/>De secundo patet, quod quando assumit
+          <lb ed="#L" n="36"/>corpus non unit illud sibi hypostatice,
+          <lb ed="#L" n="37"/>nam unire sibi aliquid hypostatice est
+          <lb ed="#L" n="38"/>terminare dependentiam illius nature, et
+          <lb ed="#L" n="39"/>suppositare illam in seipso, ut patet a
+          <lb ed="#L" n="40"/>Doctore ?n tertio, dist. 14. quest. 1. et q.
+          <lb ed="#L" n="41"/>19. quodl. est enim impossibile Angelum
+          <lb ed="#L" n="42"/>propria virtute posse assumere aliquod
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="43"/>corpus in unitate suppositi, ut patet a 
+          Do<lb ed="#L" break="no" n="44"/>etore in tertio, dist. 1.
+        </p>
+        <p xml:id="mm30o9-d1e1915-d1e186">
+          <lb ed="#L" n="45"/>De tertio patet, quia ex hoc Angelus
+          <lb ed="#L" n="46"/>assumit corpus, quia intrinsece movet
+          <lb ed="#L" n="47"/>illud, applicando se illi.
+        </p>
+        <p xml:id="mm30o9-d1e1915-d1e195">
+          <lb ed="#L" n="48"/>(b) Secundo dico. De secundo principali,
+          <lb ed="#L" n="49"/>dicit Doctor duas conclusiones ; unam 
+          nega<lb ed="#L" break="no" n="50"/>tivam, aliam affirmativam. Negativa est
+          <lb ed="#L" n="51"/>ista : Angelus non assumit corpus celeste,
+          <lb ed="#L" n="52"/>nec elementare, in quibus appareat. De 
+          cce<lb ed="#L" break="no" n="53"/>lesti apparet, quia quando apparet nobis,
+          <lb ed="#L" n="54"/>non assumit Solem, nec Lunam, imo in tali
+          <lb ed="#L" n="55"/>corpore non posset exercere operationes
+          <lb ed="#L" n="56"/>quas exercet, dum apparet nobis. De 
+          ele<lb ed="#L" break="no" n="57"/>mentari patet; tum quia corpus 
+          elementa<lb ed="#L" break="no" n="58"/>re non est visibile, ut patet, sed apparet
+          <lb ed="#L" n="59"/>in corpore visibili; tum etiam quia 
+          ap<lb ed="#L" break="no" n="60"/>paret nobis in aliquibus accidentibus,
+          <lb ed="#L" n="61"/>quae non sunt nata suscipi in corpore 
+          al<lb ed="#L" break="no" n="62"/>bo vel rubeo, vel aliquo alio colore 
+          colo<lb ed="#L" break="no" n="63"/>rato.
+        </p>
+        <p xml:id="mm30o9-d1e1915-d1e232">
+          <lb ed="#L" n="64"/>Secunda conclusio affirmativa est ista,
+          <lb ed="#L" n="65"/>quod Angelus potest assumere corpus 
+          mix<lb ed="#L" break="no" n="66"/>tum a matura generatum, et similiter
+          <lb ed="#L" n="67"/>potest assumere corpus non natura prius
+          <lb ed="#L" n="68"/>genitum, sed statim. generandum. Prima
+          <lb ed="#L" n="69"/>pars conclusionis patet, quia potest 
+          assu<lb ed="#L" break="no" n="70"/>mere cadaver mortui, vellapidem vel 
+          ali<lb ed="#L" break="no" n="71"/>quid tale. Secunda pars patet de corpore
+          <lb ed="#L" n="72"/>imperfecte mixto, quod completa 
+          opera<lb ed="#L" break="no" n="73"/>tione statim disparet, ut patet de 
+          Rapha<lb ed="#L" break="no" n="74"/>ele, etc, Et dicit Doctor quod quando 
+          as<lb ed="#L" break="no" n="75"/>sumit tale corpus, quod subito disparet
+          <lb ed="#L" n="76"/>completa operatione, tale corpus videtur
+          <lb ed="#L" n="77"/>mixtum propter accidentia, quae apparent
+          <lb ed="#L" n="78"/>in corpore, puta colores, vel aliqua alia,
+          <lb ed="#L" n="79"/>qui non possunt inesse, nisi corporibus
+          <lb ed="#L" n="80"/>mixtis, illud tamen non erit mixtum ple.
+          <lb ed="#L" n="81"/>na mixtione, patet, quia corpus tale subito
+          <lb ed="#L" n="82"/>videtur formari; perfectum autem 
+          mix<lb ed="#L" break="no" n="83"/>tum non ita subito formatur, patet de ho.
+          <lb ed="#L" n="84"/>mine, qui non est natus generari, nisi 
+          se<lb ed="#L" break="no" n="85"/>cundum determinatum processum naturae,
+          <lb ed="#L" n="86"/>et hoc in matrice. Caetera patent.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d8q1-p3">-->
+        <p xml:id="mm30o9-d1e1915-d1e286">
+          <lb ed="#L" n="3" type="fixed=422"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1915-d1e292">
+          <lb ed="#L" n="4"/>(c) De tertio principali dicit aliquas 
+          con<lb ed="#L" break="no" n="5"/>clusiones, quarum aliquae sunt affirmativa,
+          <lb ed="#L" n="6"/>aliquae. negativae.
+        </p>
+        <p xml:id="mm30o9-d1e1915-d1e301">
+          <lb ed="#L" n="7"/>Prima affirmativa est hec: Angelus
+          <lb ed="#L" n="8"/>potest causare motum. localem in corpore
+          <lb ed="#L" n="9"/>assumpto. Patet, quia potest movere 
+          to<lb ed="#L" break="no" n="10"/>tum illud corpus, non movendo partem
+          <lb ed="#L" n="11"/>post partem ; potest etiam movere illud
+          <lb ed="#L" n="12"/>corpus motu, qui videtur progressivus,
+          <lb ed="#L" n="13"/>sed non erit proprie progressivus, quia
+          <lb ed="#L" n="14"/>corpus moveri progressive est proprie
+          <lb ed="#L" n="15"/>moveri organice; ibi enim in tali motu
+          <lb ed="#L" n="16"/>una pars movetur mota alia, et ideo 
+          An<lb ed="#L" break="no" n="17"/>gelus non proprie movebit illud motu
+          <lb ed="#L" n="18"/>progressivo, sed alio motu, qui apparet
+          <lb ed="#L" n="19"/>progressivus.
+        </p>
+        <p xml:id="mm30o9-d1e1915-d1e332">
+          <lb ed="#L" n="20"/>Secunda conclusio affirmativa est, quod
+          <lb ed="#L" n="21"/>Angelus potest movere corpus assumptum
+          <lb ed="#L" n="22"/>motu inspirationis et respirationis, et
+          <lb ed="#L" n="23"/>movere palpebras et manus, et. similia,
+          <lb ed="#L" n="24"/>nam omnes isti motus sunt motus locales.
+          <lb ed="#L" n="25"/>Et Doctor assignat rationem horum 
+          mo<lb ed="#L" break="no" n="26"/>tuum, per argumentum a minori, quia
+          <lb ed="#L" n="27"/>non est aliquod corpus ita imperfectum
+          <lb ed="#L" n="28"/>in universo, quin habeat in virtute sua
+          <lb ed="#L" n="29"/>aliquod ubi, ut patet de gravi respectu
+          <lb ed="#L" n="30"/>centri, quod habet virtutem movendi se,
+          <lb ed="#L" n="31"/>ut supra patet in isto secundo, dist. 9.
+          <lb ed="#L" n="32"/>q. ult. ergo a fortiori Angelus poterit 
+          cau<lb ed="#L" break="no" n="33"/>sare motum localem in corpore 
+          as<lb ed="#L" break="no" n="34"/>sumpto.
+        </p>
+        <p xml:id="mm30o9-d1e1915-d1e367">
+          <lb ed="#L" n="35"/>Prima conclusio negativa est ista
+          <lb ed="#L" n="36"/>Angelus in corpore assumpto non potest
+          <lb ed="#L" n="37"/>causare aliquam operationem sensualem,
+          <lb ed="#L" n="38"/>puta nec visionem, nec auditionem, et
+          <lb ed="#L" n="39"/>hujusmodi. Patet, quia tales operationes
+          <lb ed="#L" n="40"/>non sunt nate recipi, nisi in composito
+          <lb ed="#L" n="41"/>ex organo saltem perfecte mixto et ex 
+          ani<lb ed="#L" break="no" n="42"/>ma. inquantum habet. potentiam pnerfeecti-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="43"/>vam illius organi, ut patuit in primo,
+          <lb ed="#L" n="44"/>dist. 3. 'q. 6. Sed in corpore sumpto ab
+          <lb ed="#L" n="45"/>Angelo non est talis mixtio organi, nec
+          <lb ed="#L" n="46"/>anima perficiens ipsum organum, et ideo
+          <lb ed="#L" n="47"/>simpliciter in tali corpore composito quod
+          <lb ed="#L" n="48"/>assumit, nulla est sensatio.
+        </p>
+        <p xml:id="mm30o9-d1e1915-d1e402">
+          <lb ed="#L" n="49"/>Secunda conclusio negativa: 
+          Operati<lb ed="#L" break="no" n="50"/>ones, quae vere consistunt in vere agendo,
+          <lb ed="#L" n="51"/>cusjusmodi sunt operationes negative,
+          <lb ed="#L" n="52"/>ut generare, et hujusmodi, non competunt
+          <lb ed="#L" n="53"/>illi composito assumpto, quia illae 
+          opera<lb ed="#L" break="no" n="54"/>tiones natae sunt. esse compositi animati,
+          <lb ed="#L" n="55"/>quale non est ibi, vel nate sunt esse 
+          cor<lb ed="#L" break="no" n="56"/>poris mixti, puta, si caro generaret 
+          car<lb ed="#L" break="no" n="57"/>nem, neutrum autem est ibi. De hoc
+          <lb ed="#L" n="58"/>habet videri in quarto, dist. 13. et multo
+          <lb ed="#L" n="59"/>clarius dist. 44. quest. 1.
+        </p>
+        <p xml:id="mm30o9-d1e1915-d1e428">
+          <lb ed="#L" n="60"/>Tertia conclusio negativa: Cognitio
+          <lb ed="#L" n="61"/>quam videtur habere de particularibus
+          <lb ed="#L" n="62"/>factis audiendo vel videndo, non est vera
+          <lb ed="#L" n="63"/>auditio, neque visio, sed tantum 
+          intelle<lb ed="#L" break="no" n="64"/>ctio, et illam intellectionem suam potest
+          <lb ed="#L" n="65"/>exprimere, formando verba, et movendo
+          <lb ed="#L" n="66"/>linguam localiter, ut infra patebit 
+          distin<lb ed="#L" break="no" n="67"/>cione undecima.
+        </p>
+        <p xml:id="mm30o9-d1e1915-d1e449">
+          <lb ed="#L" n="68"/>Quarta conclusio negativa: Angelus
+          <lb ed="#L" n="69"/>in corpore assumpto non potest causare
+          <lb ed="#L" n="70"/>veram mutritionem, cum tale corpus non
+          <lb ed="#L" n="71"/>sit nutribile, ut patet, quia tantum 
+          cor<lb ed="#L" break="no" n="72"/>pus animatum potest nutriri; potest 
+          ta<lb ed="#L" break="no" n="73"/>men causare in tali corpore comestionem,
+          <lb ed="#L" n="74"/>qua. non est nisi divisio cibi, etc.
+        </p>
+        <p xml:id="mm30o9-d1e1915-d1e467">
+          <lb ed="#L" n="75"/>Quinta conclusio: Angelus non potest
+          <lb ed="#L" n="76"/>augmentare corpus quod assumit, 
+          loquen<lb ed="#L" break="no" n="77"/>do de augmentatione proprie dicta, de qua
+          <lb ed="#L" n="78"/>Doctor in quarto, dist. 4^4. quest. prima,
+          <lb ed="#L" n="79"/>quae augmentatio fit per aggenerationem,
+          <lb ed="#L" n="80"/>ut infra patebit; virtute tamen Angeli in
+          <lb ed="#L" n="81"/>tali corpore potest esse vera juxtapositio,
+          <lb ed="#L" n="82"/>si ipse velit subito alia elementa, quae
+          <lb ed="#L" n="83"/>possunt imperfecte misceri ad talem 
+          im<lb ed="#L" break="no" n="84"/>perfectam mixtionem apponere corpori
+          <lb ed="#L" n="85"/>suo, ut videatur crescere. Cetera 
+          pa<lb ed="#L" break="no" n="86"/>tent.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

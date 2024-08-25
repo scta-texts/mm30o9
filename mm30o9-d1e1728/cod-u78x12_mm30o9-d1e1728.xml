@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#per-FLBca3">Franciscus Lychetus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2024-08-25">August 25, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x12">Vives, Paris, 1893, volume 12</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="80"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="mm30o9-d1e1728"><!-- lycht-l2d3q2-p1 -->
+        <head xml:id="mm30o9-d1e1728-Hd1e101">Quaestio 2</head>
+        <p xml:id="mm30o9-d1e1728-d1e103">
+          <lb ed="#L" n="16" type="fixed=78"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1728-d1e108">
+          <lb ed="#L" n="17"/>(a) Hic dicitur, quod non individuatur
+          <lb ed="#L" n="18"/>per aliquod positivum. Hic Doctor in 
+          pra<lb ed="#L" break="no" n="19"/>senili quaesiione primo recitat opinionem
+          <lb ed="#L" n="20"/>
+          <ref xml:id="mm30o9-d1e1728-Rd1e118">Henrici quodi. 5. quast. 8. et 15.</ref> 
+          Secun<lb ed="#L" break="no" n="21"/>do improbat illam opinionem pluribus
+          <lb ed="#L" n="22"/>ralionibus. Et tertio affirmative 
+          respon<lb ed="#L" break="no" n="23"/>del ad quaesitum principale.
+        </p>
+        <p xml:id="mm30o9-d1e1728-d1e128">
+          <lb ed="#L" n="24"/>Quantum ad primum, dicit Henricus,
+          <lb ed="#L" n="25"/>quod substantia materialis est individua,
+          <lb ed="#L" n="26"/>non per aliquod positivum, sed per 
+          du<lb ed="#L" break="no" n="27"/>plicem negationem, quia unum numero
+          <lb ed="#L" n="28"/>est indivisum a se, et divisum a quolibet
+          <lb ed="#L" n="29"/>alio ; esse enim indivisum a se 
+          numera<lb ed="#L" break="no" n="30"/>liter, dicit negationem sui in plura 
+          nu<lb ed="#L" break="no" n="31"/>mero, et esse divisum ab alio dicit 
+          ne<lb ed="#L" break="no" n="32"/>gationem identitatis cum alio; ista ergo
+          <lb ed="#L" n="33"/>duplex negatio consliluit substantiam
+          <lb ed="#L" n="34"/>materialem in esse individuali, et hanc
+          <lb ed="#L" n="35"/>suam positionem probat unica ratione,
+          <lb ed="#L" n="36"/>qua postea solvetur.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d3q2-p2">-->
+        <p xml:id="mm30o9-d1e1728-d1e162">
+          <lb ed="#L" n="62" type="fixed=80"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1728-d1e167">
+          <lb ed="#L" n="63"/>(a) Contra ista. Hic Doctor primo exponit
+          <lb ed="#L" n="64"/>intellectum quaestionis, et secundo 
+          impro<lb ed="#L" break="no" n="65"/>bat opinionem Henrici. De primo dicit quod
+          <lb ed="#L" n="66"/>quaslio non quaerit, quo substantia  
+          ma<lb ed="#L" break="no" n="67"/>terialis. est singularis: s? Zsiag 
+          stgni<lb ed="#L" break="no" n="68"/>ficent intentionem secundam,et tunc 
+          in<lb ed="#L" break="no" n="69"/>tentione secunda formaliter esset natura
+          <lb ed="#L" n="70"/>singularis, et effective ab intellectu 
+          cau<lb ed="#L" break="no" n="71"/>sante illam, conferente hanc na'uram
+          <lb ed="#L" n="72"/>ad naturam, sicut subjicibile ad  
+          prae<lb ed="#L" break="no" n="73"/>dicabile ; non intelligitur ergo 
+          que<lb ed="#L" break="no" n="74"/>slio, nec quaerit an aliqua secunda 
+          in<lb ed="#L" break="no" n="75"/>tentio, quia dicatur singularitas constitu -
+          <lb ed="#L" n="76"/>at naturam in esse singulari, quia certum
+          <lb ed="#L" n="77"/>est quod talis singularitas potest ab 
+          in<lb ed="#L" break="no" n="78"/>tellectu causari conferendo, etc. Sequitur:
+          <lb ed="#L" n="79"/>nec etiam quaeritur de unitate numerali
+          <lb ed="#L" n="80"/>reali, qua formaliter natura est sic una,
+          <lb ed="#L" n="81"/>et quod non loquitur de illa unitate 
+          nume<lb ed="#L" break="no" n="82"/>rali, quia secundum aliquos exponentes
+          <lb ed="#L" n="83"/>Doctorem, substantia materialis dicit 
+          indi<lb ed="#L" break="no" n="84"/>visionem in partes subjectivas, vel forte
+          <lb ed="#L" n="85"/>melius, non loquitur de unitate numerali
+          <lb ed="#L" n="86"/>reali, qua natura ponitur de numero en-
+          <pb ed="#L" n="81"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>tium. Sequitur: Sed quia n entibus est 
+          ali<lb ed="#L" break="no" n="2"/>quid indivisibile in partes subjectivas, hoc
+          <lb ed="#L" n="3"/>est, cui formaliter repugnat dividi iu
+          <lb ed="#L" n="4"/>plura, quorum quodlibet sil. ipsum; hoc
+          <lb ed="#L" n="5"/>patet, nam Socrati formaliter repugnat
+          <lb ed="#L" n="6"/>dividi in plura, quorum quodlibet sit 
+          ip<lb ed="#L" break="no" n="7"/>sum quidditative, nature vero human,
+          <lb ed="#L" n="8"/>uL praescindiL a singularilate non 
+          repu<lb ed="#L" break="no" n="9"/>gnal; ipsa enim potest dividi in plura
+          <lb ed="#L" n="10"/>; individua, quorum quodlibet quiditative
+          <lb ed="#L" n="11"/>sit ipsum divisum, sic intelligendo
+          <lb ed="#L" n="12"/>? quod ipsa natura, quantum est ex se,
+          <lb ed="#L" n="13"/>"esl indifferens ad omne individuum,
+          <lb ed="#L" n="14"/>et ex se ita potest esse in uno sicut in
+          <lb ed="#L" n="15"/>alio, licet ut facta propria uni, actu
+          <lb ed="#L" n="16"/>non possit esse in alio, sicut prolixe
+          <lb ed="#L" n="17"/>expositum est in Qquaecstione immediate
+          <lb ed="#L" n="18"/>praecedenti. Sequitur : quaeritur non quo
+          <lb ed="#L" n="19"/>formaliter illud repugnat, quia sic 
+          repu<lb ed="#L" break="no" n="20"/>gnantia formaliter repugnat, sed quo, ut
+          <lb ed="#L" n="21"/>fundamento proximo et intrinseco ista 
+          re<lb ed="#L" break="no" n="22"/>pugnantia insit ?sti, supple Socrali ; et est
+          <lb ed="#L" n="23"/>simile, sicut si dicatur : Socrates est 
+          si<lb ed="#L" break="no" n="24"/>milis Platoni similitudine formaliter, et
+          <lb ed="#L" n="25"/>albedine fundamentaliter, qua» est 
+          imme<lb ed="#L" break="no" n="26"/>diate ratio fundandi similitudinem ; sic
+          <lb ed="#L" n="27"/>repugnat — Socrali dividi in plura
+          <lb ed="#L" n="28"/>individua repugnantia formaliter, et
+          <lb ed="#L" n="29"/>fundamentaliter repugnant sibi per 
+          ali<lb ed="#L" break="no" n="30"/>quid intrinsecum, quod est immediatum
+          <lb ed="#L" n="31"/>fundamentum talis repugnantis.
+        </p>
+        <p xml:id="mm30o9-d1e1728-d1e293">
+          <lb ed="#L" n="32"/>(b) Est. ergo intellectus questionis, etc.
+          <lb ed="#L" n="33"/>EL sic intelligendo titulum  quaestionis
+          <lb ed="#L" n="34"/>Doctor arguit/probando contra Henricum,
+          <lb ed="#L" n="35"/>quod nulla negatio potest poni 
+          funda<lb ed="#L" break="no" n="36"/>mentum proximum talis repugnantiae, 
+          si<lb ed="#L" break="no" n="37"/>ve non potest poni ratio fundamentalis,
+          <lb ed="#L" n="38"/>propter quam repugnat nature dividi in
+          <lb ed="#L" n="39"/>plures partes subjectivas. Et primo arguit
+          <lb ed="#L" n="40"/>sic : nihil. simpliciter repugnat alicui enti,
+          <lb ed="#L" n="41"/>! Vult dicere Doctor quod licet czcitas
+          <lb ed="#L" n="42"/>tollat potentiam proximam videndi, quae
+          <lb ed="#L" n="43"/>visio est quaedam actio immanens, et 
+          si<lb ed="#L" break="no" n="44"/>militer negatio quantitatis in aliqua sub-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>stantia materiali tollat potentia m 
+          proxi<lb ed="#L" break="no" n="46"/>mam ad pali, supple ad dividi in partes
+          <lb ed="#L" n="47"/>quantitativas ejusdem rationis, quia illa
+          <lb ed="#L" n="48"/>divisio in partes quantitativas ejusdem 
+          ra<lb ed="#L" break="no" n="49"/>tionis, tantum fit per quanlitatem ; et
+          <lb ed="#L" n="50"/>similiter negatio alicujus qualitatis in
+          <lb ed="#L" n="51"/>aliquo subjecto tollat affirmationem 
+          ejus<lb ed="#L" break="no" n="52"/>dem, patet, quia homo non potest esse
+          <lb ed="#L" n="53"/>simul sub negatione albedinis et sub 
+          al<lb ed="#L" break="no" n="54"/>bedine ; non tamen dicimus, quod tali
+          <lb ed="#L" n="55"/>subjecto repugnet absolute albedo, licet
+          <lb ed="#L" n="56"/>sibi repugnet stanti sub tali negatione.
+          <lb ed="#L" n="57"/>Sic visio absolute non repugnat polenticx
+          <lb ed="#L" n="58"/>visive, quia si absolute repugnaret, 
+          nun<lb ed="#L" break="no" n="59"/>quam visio posset inesse tali potentiae,
+          <lb ed="#L" n="60"/>sed repugnat sibi ex suppositione, ut
+          <lb ed="#L" n="61"/>est, supple sub dispositionibus 
+          repugnan<lb ed="#L" break="no" n="62"/>tibus ad visionem, non tamen absolute,
+          <lb ed="#L" n="63"/>quia dispositiones ille repugnantes 
+          visi<lb ed="#L" break="no" n="64"/>oni, et facientes pro cemcilale, possent
+          <lb ed="#L" n="65"/>corrumpi et. introduci possent 
+          disposili<lb ed="#L" break="no" n="66"/>ones facientes pro divisione. Doctor ergo
+          <lb ed="#L" n="67"/>in proposito tantum loquitur de 
+          repu<lb ed="#L" break="no" n="68"/>gnantia absoluta ad dividi in partes 
+          sub<lb ed="#L" break="no" n="69"/>jectivas, et. de fundamento talis 
+          repu<lb ed="#L" break="no" n="70"/>gnantiae, propter quod absolute, insit 
+          ta<lb ed="#L" break="no" n="71"/>lis repugnantia, et sic intendit probare,
+          <lb ed="#L" n="72"/>quod nulla negalio potest esse ratio 
+          for<lb ed="#L" break="no" n="73"/>malis hujus repugnantiae absolute. Cum
+          <lb ed="#L" n="74"/>ergo absolute repugnat huic lapidi 
+          divi<lb ed="#L" break="no" n="75"/>di in plures partes subjectivas, talis 
+          repu<lb ed="#L" break="no" n="76"/>gnantia inerit sibi propter aliquod posili -
+          <lb ed="#L" n="77"/>vum intrinsecum lapidi, cui simpliciter
+          <lb ed="#L" n="78"/>repugnet sic posse dividi.
+        </p>
+        <p xml:id="mm30o9-d1e1728-d1e400">
+          <lb ed="#L" n="79"/>(c) Et si aliquo modo instetur prima
+          <lb ed="#L" n="80"/>propositioni rationis, prima propositio est
+          <lb ed="#L" n="81"/>j$'a, non simpliciter repugnat alicui enti
+          <lb ed="#L" n="82"/>aliquid per solam negationem, vel 
+          priva<lb ed="#L" break="no" n="83"/>tionem in eo, sed per aliquid posilivum
+          <lb ed="#L" n="84"/>in eo, tunc assumo istam propositionem:
+          <lb ed="#L" n="85"/>Nulla imperfectio repugnat alicui, nisi
+          <lb ed="#L" n="86"/>propter aliquid positivum in eo, ita quod
+          <lb ed="#L" n="87"/>nulla imperfectio repugnat alicui, nisi
+          <lb ed="#L" n="88"/>propter aliquam perfectionem, quae est
+          <pb ed="#L" n="82"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>aliquid positivum et entitas positiva ; sed
+          <lb ed="#L" n="2"/>dividi est quedam  imperfectio, et ideo
+          <lb ed="#L" n="3"/>non potest competere nature divina.
+        </p>
+        <p xml:id="mm30o9-d1e1728-d1e435">
+          <lb ed="#L" n="4"/>In istis tamen responsionibus occurrunt
+          <lb ed="#L" n="5"/>aliquae difficultates ex dictis Doctoris.
+          <lb ed="#L" n="6"/>Nam cum primo dicit, quod nihil 
+          repu<lb ed="#L" break="no" n="7"/>gnat absolute alicui per aliquam 
+          negati<lb ed="#L" break="no" n="8"/>onem, videtur sibi contradicere, quia vull
+          <lb ed="#L" n="9"/>quod supposito creato repugnet 
+          simplici<lb ed="#L" break="no" n="10"/>ter dependere ad aliud suppositum, et
+          <lb ed="#L" n="11"/>tamen talis repugnantia inest ex sola
+          <lb ed="#L" n="12"/>negatione. Nam ipse dicit in tertio dist.
+          <lb ed="#L" n="13"/>prima, quast. prima, quod suppositum
+          <lb ed="#L" n="14"/>praecise dicit. negationem duplicis 
+          depen<lb ed="#L" break="no" n="15"/>denti, scilicet actualis et aptitudinalis,
+          <lb ed="#L" n="16"/>per quam negationem repugnat sibi esse
+          <lb ed="#L" n="17"/>in alio. Palet etiam, quia posse 
+          commu<lb ed="#L" break="no" n="18"/>nicari alicui, ut quo. et ut quod absolute
+          <lb ed="#L" n="19"/>repugnat cuicumque supposito, nec 
+          ta<lb ed="#L" break="no" n="20"/>men per aliquod positivum in supposito,
+          <lb ed="#L" n="21"/>sed tantum per negationem, dicit enim
+          <lb ed="#L" n="22"/>ipse i» primo dist. 9. quaest. prima,
+          <lb ed="#L" n="23"/>part. secunda. quod suppositum dicit
+          <lb ed="#L" n="24"/>praecise negationem duplicis 
+          communica<lb ed="#L" break="no" n="25"/>bililatis, ut quo et ut. quod, hoc idem
+          <lb ed="#L" n="26"/>videtur tenere in quodlib. quaesl. 9. el
+          <lb ed="#L" n="27"/>19. Et ideo diceretur, quod ratio prima
+          <lb ed="#L" n="28"/>Doctoris nihil concludit contra Henricum
+          <lb ed="#L" n="29"/>quia sicut ipse dicit, supposito repugnat
+          <lb ed="#L" n="30"/>communicari, ut quo et ut quod non per
+          <lb ed="#L" n="31"/>aliquod positivum in supposito, sed per
+          <lb ed="#L" n="32"/>solam negationem ; ita diceret Henricus
+          <lb ed="#L" n="33"/>quod huic lapidi repugnaret dividi in
+          <lb ed="#L" n="34"/>partes subjectivas propter illam duplicem
+          <lb ed="#L" n="35"/>negationem, de qua supra.
+        </p>
+        <p xml:id="mm30o9-d1e1728-d1e507">
+          <lb ed="#L" n="36"/>Secundo principaliter dubitatur in hoc
+          <lb ed="#L" n="37"/>quod dicit, quod nulla imperfectio 
+          repu<lb ed="#L" break="no" n="38"/>gnal alicui, nisi ratione alicujus positivi.
+          <lb ed="#L" n="39"/>Nam supposito creato, ut suppositum est,
+          <lb ed="#L" n="40"/>repugnat dependentia actualis et 
+          aptitu<lb ed="#L" break="no" n="41"/>dinalis ad aliud suppositum, quia 
+          depen<lb ed="#L" break="no" n="42"/>dentia  est formaliter imperfectio, ut alias
+          <lb ed="#L" n="43"/>exposui, et tamen talis imperfectio non
+          <lb ed="#L" n="44"/>repugnat supposito, propter aliquod posi-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>tivum in eo, sed tantum propter 
+          negali<lb ed="#L" break="no" n="46"/>onem duplicis dependentiae. Similiter 
+          com<lb ed="#L" break="no" n="47"/>municari supposito alterius naturae in 
+          ra<lb ed="#L" break="no" n="48"/>tione suppositi, dicit formaliter 
+          imperfe<lb ed="#L" break="no" n="49"/>ctionem, patet, quia quod sic 
+          communi<lb ed="#L" break="no" n="50"/>catur dicit actualem dependentiam ad 
+          il<lb ed="#L" break="no" n="51"/>lud suppositum, et ullra in tali supposito
+          <lb ed="#L" n="52"/>sustentatur, quae omnia palent a Doctore
+          <lb ed="#L" n="53"/>in tertio, dist. prima, quaest. prima, et
+          <lb ed="#L" n="54"/>tamen talis imperfectio simpliciter 
+          repu<lb ed="#L" break="no" n="55"/>gnal in supposito, non ratione alicujus
+          <lb ed="#L" n="56"/>positivi, sed ratione negationis duplicis
+          <lb ed="#L" n="57"/>communicabilitatis, et ut quo et ut quod.
+        </p>
+        <p xml:id="mm30o9-d1e1728-d1e560">
+          <lb ed="#L" n="58"/>Tertio dubitatur in hoc quod dicit, quod
+          <lb ed="#L" n="59"/>nunquam imperfectio aliqua repugnat 
+          ali<lb ed="#L" break="no" n="60"/>cui simpliciter, nisi ratione alicujus 
+          per<lb ed="#L" break="no" n="61"/>fectionis existentis in eo, nam 
+          relationi<lb ed="#L" break="no" n="62"/>bus divinis personas constituenlibus, 
+          sim<lb ed="#L" break="no" n="63"/>pliciter et absolute repugnal omnis 
+          im<lb ed="#L" break="no" n="64"/>perfectio, et tamen ipse formaliter 
+          nul<lb ed="#L" break="no" n="65"/>lam dicunt perfectionem, cum sint entia 
+          <lb ed="#L" n="66"/>non quanta, id est, nullam perfectionem,
+          <lb ed="#L" n="67"/>nec imperfectionem dicentia, ut dicit 
+          Do<lb ed="#L" break="no" n="68"/>ctor in quodlib. quast. 3. loquendo etiam
+          <lb ed="#L" n="69"/>de relationibus communibus in divinis
+          <lb ed="#L" n="70"/>puta de similitudine, aequalitate et 
+          identi<lb ed="#L" break="no" n="71"/>tate eis simpliciter repugnat omnis 
+          im<lb ed="#L" break="no" n="72"/>perfectio, et tamen formaliter nullam 
+          di<lb ed="#L" break="no" n="73"/>cunt perfectionem, patet, quia tunc in una
+          <lb ed="#L" n="74"/>persona esset aliqua perfectio, qua non
+          <lb ed="#L" n="75"/>esset in alia, et e contra, nam aequalitas,
+          <lb ed="#L" n="76"/>qua Pater est qualis Filio est alia ab
+          <lb ed="#L" n="77"/>:qualitale, qua Filius est aequalis Patri ;
+          <lb ed="#L" n="78"/>hoc idem dico de similitudine et 
+          identita<lb ed="#L" break="no" n="79"/>te, ut patet a. Doctore in primo dist. 31.
+          <lb ed="#L" n="80"/>non ergo repugnat eis simpliciter 
+          imper<lb ed="#L" break="no" n="81"/>fectio ratione alicujus perfectionis 
+          forma<lb ed="#L" break="no" n="82"/>liter inexistentis. Similiter si teneatur,
+          <lb ed="#L" n="83"/>quod persone divino constituantur in. 
+          es<lb ed="#L" break="no" n="84"/>se personali per aliquod absolutum, tali
+          <lb ed="#L" n="85"/>absoluto simpliciter repugnat. omnis 
+          im<lb ed="#L" break="no" n="86"/>perfeelio, et tamen nullam perfectionem
+          <lb ed="#L" n="87"/>dicit formaliter, patet, quia Lune essel
+          <lb ed="#L" n="88"/>aliqua perfectio in una persona, qui nor
+          <pb ed="#L" n="83"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>erit in alia ; videtur ergo, quod ista 
+          pro<lb ed="#L" break="no" n="2"/>positio absolute sumpta sit falsa, scilicet
+          <lb ed="#L" n="3"/>quod imperfectio non. repugnat alicui
+          <lb ed="#L" n="4"/>simpliciter, nisi ratione alicujus 
+          perfecti<lb ed="#L" break="no" n="5"/>onis existentis in eo.
+        </p>
+        <p xml:id="mm30o9-d1e1728-d1e645">
+          <lb ed="#L" n="6"/>Praeterea, sicut. aliqua negatio pertinet
+          <lb ed="#L" n="7"/>ad dignitatem, ita non videtur 
+          inconve<lb ed="#L" break="no" n="8"/>niens imperfectionem aliquam posse 
+          sim<lb ed="#L" break="no" n="9"/>pliciter repugnare alicui ratione alicujus
+          <lb ed="#L" n="10"/>negationis pertinentis ad dignitatem, nam
+          <lb ed="#L" n="11"/>ingenitum simpliciter convenit patri 
+          rati<lb ed="#L" break="no" n="12"/>one alicujus negationis, et de hoc vide
+          <lb ed="#L" n="13"/>Doctorem in primo, dist. 98. quast.2. Ex
+          <lb ed="#L" n="14"/>his ergo difficultatibus adductis non
+          <lb ed="#L" n="15"/>videtur, quod prima et secunda ratio 
+          Do<lb ed="#L" break="no" n="16"/>cloris concludat propositum contra 
+          Opi<lb ed="#L" break="no" n="17"/>nionem Henrici.
+        </p>
+        <p xml:id="mm30o9-d1e1728-d1e674">
+          <lb ed="#L" n="18"/>Respondeo ad has difficultates, et pro
+          <lb ed="#L" n="19"/>clariori intelligentia primae difficultatis
+          <lb ed="#L" n="20"/>solvende praemitto aliqua. Primo, quod
+          <lb ed="#L" n="21"/>aliquid repugnare alicui, potest dupliciter
+          <lb ed="#L" n="22"/>intelligi. Primo quod simpliciter repugnet
+          <lb ed="#L" n="23"/>dividi in plura, quorum quodlibet sit 
+          ip<lb ed="#L" break="no" n="24"/>sum divisum per identitatem, sive quod
+          <lb ed="#L" n="25"/>repugnet communicari ut quod. Secundo
+          <lb ed="#L" n="26"/>quod licet repugnet sibi sic dividi in 
+          plu<lb ed="#L" break="no" n="27"/>ra quorum quodlibet etc. ultra tamen 
+          re<lb ed="#L" break="no" n="28"/>pugnatei posse quovis modo 
+          communi<lb ed="#L" break="no" n="29"/>cari alteri tam in ratione formae 
+          informan<lb ed="#L" break="no" n="30"/>lis, quam in ratione suppositi. Primo
+          <lb ed="#L" n="31"/>modo talis repugnantia simpliciter inest
+          <lb ed="#L" n="32"/>per aliquid positivum, et hoc patet in
+          <lb ed="#L" n="33"/>omnibus, quae non possunt sic dividi ; 
+          di<lb ed="#L" break="no" n="34"/>cimus enim, quod animali repugnat 
+          sim<lb ed="#L" break="no" n="35"/>pliciter dividi in plura genera, et patet
+          <lb ed="#L" n="36"/>quod talis repugnantia inest animali per
+          <lb ed="#L" n="37"/>aliquid positivum, puta per 
+          sensibilita<lb ed="#L" break="no" n="38"/>tem; patet, quia substantia corporea et
+          <lb ed="#L" n="39"/>vivens est divisibilis in plura genera, 
+          ani<lb ed="#L" break="no" n="40"/>mali vero repugnat propter hanc 
+          differen<lb ed="#L" break="no" n="41"/>liam, quae est sensibile. Similiter patet,
+          <lb ed="#L" n="42"/>quia speciei specialissimae simpliciter 
+          re<lb ed="#L" break="no" n="43"/>pugnat dividi in plures species per 
+          ali<lb ed="#L" break="no" n="44"/>quid positivum, repugnat enim homini
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>non inquantum animal, dividi in plura
+          <lb ed="#L" n="46"/>specie, sed inquantum rationalis, quod
+          <lb ed="#L" n="47"/>est differentia positiva ; ergo Similiter
+          <lb ed="#L" n="48"/>simpliciter repugnat singulari dividi in
+          <lb ed="#L" n="49"/>plura singularia, quorum quodlibet sil
+          <lb ed="#L" n="50"/>ipsum, per aliquid positivam, videlicet
+          <lb ed="#L" n="51"/>per differentia m individualem. Secundo
+          <lb ed="#L" n="52"/>modo aliquid potest repugnare alteri 
+          prae<lb ed="#L" break="no" n="53"/>cise per aliquam negationem, et non per
+          <lb ed="#L" n="54"/>positivum, sed si ultra quaeratur, quare
+          <lb ed="#L" n="55"/>talis negatio inest, Oportet assignare 
+          ali<lb ed="#L" break="no" n="56"/>quod positivum, propter quod negatio
+          <lb ed="#L" n="57"/>possit inesse ; et sic supposito creato 
+          re<lb ed="#L" break="no" n="58"/>pugnal communicari alicui tam in ratione
+          <lb ed="#L" n="59"/>formae informantis quam in ratione 
+          sup<lb ed="#L" break="no" n="60"/>posili, sive etiam quam in ratione partis ;
+          <lb ed="#L" n="61"/>et sic dicimus, quod suppositum actu, 
+          lo<lb ed="#L" break="no" n="62"/>quendo de supposito creato formaliter,
+          <lb ed="#L" n="63"/>dicit negationem duplicis dependentix ad
+          <lb ed="#L" n="64"/>aliud supposilum, scilicet actualis et 
+          apti<lb ed="#L" break="no" n="65"/>tudinalis, sive negationem duplicis 
+          commu<lb ed="#L" break="no" n="66"/>nicabilitalis ut quo et ut quod, sed talis 
+          du<lb ed="#L" break="no" n="67"/>plex negatio non inest, nisi per aliquod
+          <lb ed="#L" n="68"/>positivum, puta, quia est Singulare talis
+          <lb ed="#L" n="69"/>nature. Nam cuilibet singulari 
+          praedica<lb ed="#L" break="no" n="70"/>menti Substantiae convenit hac duplex 
+          ne<lb ed="#L" break="no" n="71"/>gatio praecise per differentiam 
+          individu<lb ed="#L" break="no" n="72"/>alem, sicut etiam singularibus alterius
+          <lb ed="#L" n="73"/>praedicamenti a substantia convenit ista
+          <lb ed="#L" n="74"/>negatio qua dicitur incommunicabile, ut
+          <lb ed="#L" n="75"/>quod praecise per differentiam positivam
+          <lb ed="#L" n="76"/>individualem, non autem convenit sibi alia
+          <lb ed="#L" n="77"/>negatio qua dicatur incommunicabile ut
+          <lb ed="#L" n="78"/>q"0, quia tantum illa convenit singulari,
+          <lb ed="#L" n="79"/>quod natum est per se stare, cujusmodi
+          <lb ed="#L" n="80"/>est solum singulare praedicamenti 
+          Sub<lb ed="#L" break="no" n="81"/>stanti:, de quibus prolixe exposui in 
+          ter<lb ed="#L" break="no" n="82"/>lio, dist. 1. q. 1.
+        </p>
+        <p xml:id="mm30o9-d1e1728-d1e820">
+          <lb ed="#L" n="83"/>Secundo praemitto quod aliud est 
+          ali<lb ed="#L" break="no" n="84"/>quam affirmationem repugnare alicui, et
+          <lb ed="#L" n="85"/>aliud est negationem illius affirmationis
+          <lb ed="#L" n="86"/>convenire alicui. Primo modo aliquid 
+          re<lb ed="#L" break="no" n="87"/>pugnat alicui per solam negationem, 
+          pa<lb ed="#L" break="no" n="88"/>lel quia supposito, ut hujusmodi repu-
+          <pb ed="#L" n="84"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>gnat communicari, etc. quia ut suppositum  
+          <lb ed="#L" n="2"/>est formaliter, dicit, negationem duplicis 
+          <lb ed="#L" n="3"/>communicabilitatis. Secundo modo, non a
+          <lb ed="#L" n="4"/>videtur possibile, quod negatio propter i
+          <lb ed="#L" n="5"/>quam affirmatio opposita praecise 
+          repu<lb ed="#L" break="no" n="6"/>gnat possit inesse, nisi per aliquid 
+          positi<lb ed="#L" break="no" n="7"/>vum, ut patet discurrendo in omnibus his 
+          <lb ed="#L" n="8"/>praesuppositis. Dico ergo, quod ratio 
+          Do<lb ed="#L" break="no" n="9"/>ctoris simpliciter concludit de singulari 
+          <lb ed="#L" n="10"/>nature, et simpliciter concludit de 
+          ne<lb ed="#L" break="no" n="11"/>gatione, propter quam repugnat 
+          affirma<lb ed="#L" break="no" n="12"/>tio, quia talis negatio, puta ad dividi in
+          <lb ed="#L" n="13"/>plura numero, mere convenit singulari :
+          <lb ed="#L" n="14"/>propter aliquod positivum, et per 
+          conse<lb ed="#L" break="no" n="15"/>quens affirmatio opposita, licet primo 
+          re<lb ed="#L" break="no" n="16"/>pugnet negationi opposite, tamen ex
+          <lb ed="#L" n="17"/>consequenti repugnat singulari, propter
+          <lb ed="#L" n="18"/>aliquod positivum existens in eo, licet
+          <lb ed="#L" n="19"/>non sit simile de supposito, quia hac
+          <lb ed="#L" n="20"/>affirmatio, qua dicimus suppositum posse
+          <lb ed="#L" n="21"/>communicari ut. quo, formaliter repugnat
+          <lb ed="#L" n="22"/>negationi opposiue, qua dicimus non 
+          pos<lb ed="#L" break="no" n="23"/>se sic communicari; et licet talis negatio
+          <lb ed="#L" n="24"/>non insit alicui, propter aliquod 
+          positi<lb ed="#L" break="no" n="25"/>vum, tamen affirmatio opposita non 
+          re<lb ed="#L" break="no" n="26"/>pugnat propter aliquod positivum, patet,
+          <lb ed="#L" n="27"/>quia omne positivum in singulari est 
+          sal<lb ed="#L" break="no" n="28"/>tem communicabile ut quo, ut probat
+          <lb ed="#L" n="29"/>Doctor in 3. dist. 1. quest. 1. Ratio ergo
+          <lb ed="#L" n="30"/>Doctoris prima si fiat. de singulari, bene
+          <lb ed="#L" n="31"/>concludit, quod negatio ad dividi in 
+          plu<lb ed="#L" break="no" n="32"/>ra numero inest propter aliquod 
+          positi<lb ed="#L" break="no" n="33"/>vum, et affirmatio opposita, quia est ad
+          <lb ed="#L" n="34"/>dividi in plura numero, etsi formaliter
+          <lb ed="#L" n="35"/>repugnat negationi opposi:te, non 
+          pro<lb ed="#L" break="no" n="36"/>pter aliquod positivum, ex consequenti
+          <lb ed="#L" n="37"/>tamen repugnat singulari propter aliquod
+          <lb ed="#L" n="38"/>positivum, cui convenit negatio opposita,
+          <lb ed="#L" n="39"/>et sic patet solutio prima difficultatis,
+          <lb ed="#L" n="40"/>quam bene nola.
+        </p>
+        <p xml:id="mm30o9-d1e1728-d1e927">
+          <lb ed="#L" n="41"/>Ad secundam dubitationem respondeo,
+          <lb ed="#L" n="42"/>io praemittendo aliqua. Primum, quod 
+          com<lb ed="#L" break="no" n="43"/>um municari alicui in. ratione suppositi vel
+          <lb ed="#L" n="44"/>TM persons? nullam dicit. imperfectionem,
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>quia et essentia divina tribus suppositis
+          <lb ed="#L" n="46"/>communicatur. Secundum, communicari
+          <lb ed="#L" n="47"/>alicui in ratione formae informantis, sive
+          <lb ed="#L" n="48"/>in ratione actus perficientis, licet ut 
+          per<lb ed="#L" break="no" n="49"/>ficit non dicat imperfectionem, ex 
+          couse<lb ed="#L" break="no" n="50"/>quenti tamen includit imperfectionem,
+          <lb ed="#L" n="51"/>quia inherentiam et dependentia m ad
+          <lb ed="#L" n="52"/>perfectibile. Tertium, esse ens, cui ex
+          <lb ed="#L" n="53"/>sua ratione formali convenit, posse 
+          exi<lb ed="#L" break="no" n="54"/>stere per se, non tantum non dicit 
+          im<lb ed="#L" break="no" n="55"/>perfectionem, sed formaliter dicit 
+          perfe<lb ed="#L" break="no" n="56"/>ctionem, hoc enim perfectissime conve:
+          <lb ed="#L" n="57"/>nit essentiae divine, sicut. arguit 
+          Augu<lb ed="#L" break="no" n="58"/>stinus. Si res ad se subsistunt, quanto
+          <lb ed="#L" n="59"/>magis Deus? sed esse simpliciter 
+          incom<lb ed="#L" break="no" n="60"/>municabile, nullam perfectionem dicit,
+          <lb ed="#L" n="61"/>patet, quia persone in divinis sunt. 
+          sim<lb ed="#L" break="no" n="62"/>pliciter incommunicabiles.
+        </p>
+        <p xml:id="mm30o9-d1e1728-d1e979">
+          <lb ed="#L" n="63"/>Quartum, naturam natam per se 
+          exi<lb ed="#L" break="no" n="64"/>stere communicari supposito alterius 
+          na<lb ed="#L" break="no" n="65"/>turae nulla apparet imperfectio in ipsa
+          <lb ed="#L" n="66"/>natura; tum quia communicatur 
+          suppo<lb ed="#L" break="no" n="67"/>sito divino, et hoc est magis perfectionis
+          <lb ed="#L" n="68"/>denominatione extrinseca ; tum quia actu
+          <lb ed="#L" n="69"/>non communicari dicit praecise 
+          negali<lb ed="#L" break="no" n="70"/>onem ipsius ad suppositum alterius 
+          na<lb ed="#L" break="no" n="71"/>ture, qui? negatio nullam imperfectionem
+          <lb ed="#L" n="72"/>dicit in tali natura, nec perfectionem ;
+          <lb ed="#L" n="73"/>ergo actu communicari nullam imperfe -
+          <lb ed="#L" n="74"/>ctionem dicit, quia ut actu 
+          communica<lb ed="#L" break="no" n="75"/>tur tantum. removetur illa negatio 
+          actu<lb ed="#L" break="no" n="76"/>alis. Et licet forte aptitudo ad 
+          communi<lb ed="#L" break="no" n="77"/>cari supposito alterius nature, loquendo
+          <lb ed="#L" n="78"/>de supposito vero creato dicat 
+          imper<lb ed="#L" break="no" n="79"/>fectionem, aptitudo ad communicari 
+          sup<lb ed="#L" break="no" n="80"/>posito divino nullam dicit 
+          imperfecti<lb ed="#L" break="no" n="81"/>onem, cum sit in perfecta potentia 
+          obe<lb ed="#L" break="no" n="82"/>dientiali ad Deum, ideo dicit aptitudinem
+          <lb ed="#L" n="83"/>ad suppositum divinum, nullam autem ad
+          <lb ed="#L" n="84"/>suppositum creatum, ut patet a Doctore
+          <lb ed="#L" n="85"/>in tertio, distinctione prima, quast. 1. et in
+          <lb ed="#L" n="86"/>quodlibet. qust. 19.
+        </p>
+        <p xml:id="mm30o9-d1e1728-d1e1035">
+          <lb ed="#L" n="87"/>Quintum est, naturam dividi in plures
+          <lb ed="#L" n="88"/>naturas est simpliciter imperfectionis
+          <pb ed="#L" n="85"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>patet per oppositum, quia eamdem 
+          nma<lb ed="#L" break="no" n="2"/>luram numero posse pluribus suppositis
+          <lb ed="#L" n="3"/>communicari, est perfectionis formaliter
+          <lb ed="#L" n="4"/>infine, ut declarat Doctor in primo
+          <lb ed="#L" n="5"/>dist. 28. ergo naturam esse divisam in
+          <lb ed="#L" n="6"/>alio et alio supposito, est simpliciter
+          <lb ed="#L" n="7"/>imperfectionis; et sic dicimus naturam
+          <lb ed="#L" n="8"/>communem ex natura rei includere 
+          for<lb ed="#L" break="no" n="9"/>maliter imperfectionem ex hoc, quod est
+          <lb ed="#L" n="10"/>in plura singularia realiter divisibilis, eo
+          <lb ed="#L" n="11"/>scilicet modo quo exposui in quaest. 
+          im<lb ed="#L" break="no" n="12"/>mediale praecedenti, et talis imperfectio
+          <lb ed="#L" n="13"/>repugnal simpliciter alicui ratione 
+          ali<lb ed="#L" break="no" n="14"/>cujus perfectionis, sive ratione alicujus
+          <lb ed="#L" n="15"/>positivi existens in eo; et patet 
+          discur<lb ed="#L" break="no" n="16"/>rendo in omnibus imperfectionibus, quie
+          <lb ed="#L" n="17"/>non conveniunl alicui, nisi propter 
+          posi<lb ed="#L" break="no" n="18"/>livum in eo, et de hoc vide Doctorem
+          <lb ed="#L" n="19"/>in primo, dist. 3. qusst. 1l. improbando
+          <lb ed="#L" n="20"/>opinionem Thom:e, patet etiam, quia 
+          ne<lb ed="#L" break="no" n="21"/>gatio. affirmationis dicentis 
+          imperfecti<lb ed="#L" break="no" n="22"/>onem non inest alicui, nisi propter 
+          ali<lb ed="#L" break="no" n="23"/>quod positivum existens in eo, ut 
+          su<lb ed="#L" break="no" n="24"/>pra dixi. Cum ergo negatio divisionis
+          <lb ed="#L" n="25"/>nature conveniat singulari, conveniet
+          <lb ed="#L" n="26"/>praecise ratione alicujus positivi 
+          exi<lb ed="#L" break="no" n="27"/>slentis in eo, et per consequens 
+          affir<lb ed="#L" break="no" n="28"/>malio opposita, qui dicit hujusmodi 
+          im<lb ed="#L" break="no" n="29"/>perfectionem, repugnabit singulari 
+          ra<lb ed="#L" break="no" n="30"/>üone alicujus positivi; non est ergo 
+          si<lb ed="#L" break="no" n="31"/>mile de singulari, et de supposito.
+        </p>
+        <p xml:id="mm30o9-d1e1728-d1e1113">
+          <lb ed="#L" n="32"/>Ad tertium, cum dicitur quod non 
+          vi<lb ed="#L" break="no" n="33"/>detur,quod imperfectio repugnet alicui
+          <lb ed="#L" n="34"/>propter aliquam perfectionem :
+        </p>
+        <p xml:id="mm30o9-d1e1728-d1e1122">
+          <lb ed="#L" n="35"/>Dico primo, quod est aliqua 
+          imper<lb ed="#L" break="no" n="36"/>fectio, cujus oppositum dicit 
+          periecti<lb ed="#L" break="no" n="37"/>onem, et sic cui repugnat talis 
+          imper<lb ed="#L" break="no" n="38"/>fectio, sequitur quod ei oppositum 
+          con<lb ed="#L" break="no" n="39"/>veniat, et per consequens talis 
+          imper<lb ed="#L" break="no" n="40"/>fectio non repugnat, nisi propter perfe -
+          <lb ed="#L" n="41"/>ctionem existentem in eo cui repugnat ;
+          <lb ed="#L" n="42"/>cum ergo naturam dividi in plura 
+          reali<lb ed="#L" break="no" n="43"/>ler dicat formaliter imperfectionem, 
+          se<lb ed="#L" break="no" n="44"/>quitur quod naturam non posse in plura
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>realiter dividi, dicat perfectionem. si
+          <lb ed="#L" n="46"/>ergo sic dividi repugnat singulari, 
+          se<lb ed="#L" break="no" n="47"/>quitur quod repugnabit sibi propter 
+          per<lb ed="#L" break="no" n="48"/>fectionem existentem in eo.
+        </p>
+        <p xml:id="mm30o9-d1e1728-d1e1157">
+          <lb ed="#L" n="49"/>Dico secundo, quod est aliqua 
+          imper<lb ed="#L" break="no" n="50"/>fectio, cujus oppositum nullam includit
+          <lb ed="#L" n="51"/>perfectionem formaliter, Nam proprietas
+          <lb ed="#L" n="52"/>hypostatica in creatis, tenendo quod dicit
+          <lb ed="#L" n="53"/>enlitatem — positivam, dicit 
+          imperfecti<lb ed="#L" break="no" n="54"/>onem, quia limitata ; proprietas tamen
+          <lb ed="#L" n="55"/>hypostatica in divinis, quae est 
+          simplici<lb ed="#L" break="no" n="56"/>ler illimitata, nullam perfectionem dicit,
+          <lb ed="#L" n="57"/>quia tunc esset aliqua perfectio in una
+          <lb ed="#L" n="58"/>persona, qua non esset in alia, et sic 
+          li<lb ed="#L" break="no" n="59"/>mitatio proprietatis simpliciter repugnat
+          <lb ed="#L" n="60"/>proprielati hypostatice in divinis 
+          simpli<lb ed="#L" break="no" n="61"/>citer illimitlat?e, et tamen sibi non 
+          repu<lb ed="#L" break="no" n="62"/>gnat ratione alicujus perfectionis 
+          forma<lb ed="#L" break="no" n="63"/>liter existentis in ea.
+        </p>
+        <p xml:id="mm30o9-d1e1728-d1e1192">
+          <lb ed="#L" n="64"/>Dico tertio, quod omnis imperfectio
+          <lb ed="#L" n="65"/>repugnat proprietati personali in divinis,
+          <lb ed="#L" n="66"/>non ratione alicujus perfectionis 
+          forma<lb ed="#L" break="no" n="67"/>liter in ea, sed ratione perfectionis 
+          sim<lb ed="#L" break="no" n="68"/>pliciter, cui per realem identitatem 
+          iden<lb ed="#L" break="no" n="69"/>lificatur, et sic repugnat sibi ratione
+          <lb ed="#L" n="70"/>essentia e divine, cui nulla imperfectio
+          <lb ed="#L" n="71"/>identificari potest. Ex his ergo patet 
+          so<lb ed="#L" break="no" n="72"/>lutio ad omnes difficultates.
+        </p>
+        <p xml:id="mm30o9-d1e1728-d1e1214">
+          <lb ed="#L" n="73"/>(d) Item negatione non constituitur. 
+          ali<lb ed="#L" break="no" n="74"/>quid, formaliter. Hic Doctor tertio arguil,
+          <lb ed="#L" n="75"/>probando quod differentia individualis
+          <lb ed="#L" n="76"/>non dicit praecise negationem, et 
+          ra<lb ed="#L" break="no" n="77"/>lio clara est, quia quod constituitur in
+          <lb ed="#L" n="78"/>majori perfectione, quam prius fuerit tale
+          <lb ed="#L" n="79"/>conslituens, non dicit solam negationem ;
+          <lb ed="#L" n="80"/>patet, quia negalio ut negatio nullam 
+          per<lb ed="#L" break="no" n="81"/>fectionem dicit, sed prima substantia, cum
+          <lb ed="#L" n="82"/>Sit maxima substantia, per Philosophum 2
+          <lb ed="#L" n="83"/>Predicamentis, ei magis substantia quam
+          <lb ed="#L" n="84"/>secunda, est perfectior subslantia  quam
+          <lb ed="#L" n="85"/>secunda, ergo conslituens aliquid in esse
+          <lb ed="#L" n="86"/>primae substanti: non erit aliqua negatio;
+          <lb ed="#L" n="87"/>sed differentia individualis ultimate 
+          con<lb ed="#L" break="no" n="88"/>stituit primam substantiam, ergo talis dif-
+          <pb ed="#L" n="86"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>ferentia non dicit praecise negationem.
+        </p>
+        <p xml:id="mm30o9-d1e1728-d1e1259">
+          <lb ed="#L" n="2"/>(e) Item de singulari per se primo.
+          <lb ed="#L" n="3"/>Quarto principaliter arguit Doctor 
+          suppo<lb ed="#L" break="no" n="4"/>nendo unum, quod declaravit 2m primo,
+          <lb ed="#L" n="5"/>distinct. 2. quast. 2. quod nihil potest
+          <lb ed="#L" n="6"/>praedicari per se de illo, quod non est per
+          <lb ed="#L" n="7"/>se unum ; cum ergo natura per se primo
+          <lb ed="#L" n="8"/>modo praedicetur de singulari, sequitur
+          <lb ed="#L" n="9"/>quod singularitate erit aliquod ens per se ;
+          <lb ed="#L" n="10"/>sed nulla negatio constituit aliquod ens
+          <lb ed="#L" n="11"/>per se, cum eo cui advenit, ergo si 
+          singu<lb ed="#L" break="no" n="12"/>lare praecise diceret. negationem additam
+          <lb ed="#L" n="13"/>nature, de tali singulari nihil per se pra"
+          <lb ed="#L" n="14"/>dicaretur. Nec valet dicere, quod recipit
+          <lb ed="#L" n="15"/>praedicationem natura per se, non ratione
+          <lb ed="#L" n="16"/>negationis, sed ratione nature incluss,
+          <lb ed="#L" n="17"/>quia Lunc esset tantum praedicatio ejusdem
+          <lb ed="#L" n="18"/>de seipso.
+        </p>
+        <p xml:id="mm30o9-d1e1728-d1e1298">
+          <lb ed="#L" n="19"/>(f) Praeterea, licet ista positio videatur
+          <lb ed="#L" n="20"/>esse falsa, etc.
+        </p>
+        <p xml:id="mm30o9-d1e1728-d1e1305">
+          <lb ed="#L" n="21"/>Nam ista positio ponit duplicem nega-.
+          <lb ed="#L" n="22"/>tionem esse rationem, propter quam tali
+          <lb ed="#L" n="23"/>substantiae repugnat dividi in plures 
+          par<lb ed="#L" break="no" n="24"/>tes subjectivas, si quaeritur, quare 
+          oppo<lb ed="#L" break="no" n="25"/>siium  istus duplicis negationis, quod
+          <lb ed="#L" n="26"/>est dividi in plures partes subjectivas,
+          re<lb ed="#L" break="no" n="27"/>pugnat tali substantiae? Si dicis, quod 
+          repu<lb ed="#L" break="no" n="28"/>gnat, propter illam duplicem negationem,
+          <lb ed="#L" n="29"/>assignas causam suiipsius, quia quaero de
+          <lb ed="#L" n="30"/>ista duplici negatione, propter quid 
+          con<lb ed="#L" break="no" n="31"/>veniat tali substantiae ? si dicis, quod
+          <lb ed="#L" n="32"/>propter aliquid positivum, habetur 
+          pro<lb ed="#L" break="no" n="33"/>positum, si propter illam duplicem 
+          ne<lb ed="#L" break="no" n="34"/>gationem,tunc sensus est,quod illa duplex
+          <lb ed="#L" n="35"/>negalio inest, vel sic. Si dicis, quod sic
+          <lb ed="#L" n="36"/>dividi repugnat propter duplicem 
+          nega<lb ed="#L" break="no" n="37"/>lionem, assignas causam suiipsius, et
+          <lb ed="#L" n="38"/>sensus est, non potest dividi, quia inest
+          <lb ed="#L" n="39"/>sibi ista duplex negatio, et sic sequitur,
+          <lb ed="#L" n="40"/>non potest dividi, quia non potest dividi.
+          <lb ed="#L" n="41"/>Si non dal istam duplicem negationem
+          <lb ed="#L" n="42"/>ut causam hujus, quod. est 
+          repugna<lb ed="#L" break="no" n="43"/>re ad dividi, tunc non respondetur
+          <lb ed="#L" n="44"/>ad quaestionem, quia quaeritur quid est
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>illud, propter quod absolute repugnat
+          <lb ed="#L" n="46"/>subslanti: materiali dividi in partes 
+          sub<lb ed="#L" break="no" n="47"/>jectivas, sicut. si dicerem, quaero a te,
+          <lb ed="#L" n="48"/>propter quid repugnat homini affirmatio
+          <lb ed="#L" n="49"/>asini ? Si dicatur, quod repugnat propter
+          <lb ed="#L" n="50"/>negationem, tunc sequitur quod homo
+          <lb ed="#L" n="51"/>non est asinus, quia non est asinus, 
+          qua<lb ed="#L" break="no" n="52"/>ritur enim hic quid sit illud, propter quod
+          <lb ed="#L" n="53"/>insit talis negatio, et repugnat talis 
+          affir<lb ed="#L" break="no" n="54"/>malio, sic in proposito ; quaeritur enim
+          <lb ed="#L" n="55"/>quid est illud, propter quod negatio 
+          divi<lb ed="#L" break="no" n="56"/>sionis in partes subjectivas insit 
+          substan<lb ed="#L" break="no" n="57"/>li: materiali, etl per consequens propter
+          <lb ed="#L" n="58"/>quid repugnantia ad hujusmodi 
+          divisi<lb ed="#L" break="no" n="59"/>onem insit sibi; et sic tandem oportet 
+          po<lb ed="#L" break="no" n="60"/>nere aliquid positivum in substantia 
+          ma<lb ed="#L" break="no" n="61"/>teriali, propter quod insit hujusmodi
+          <lb ed="#L" n="62"/>negatio subslanti: . materiali, et propter
+          <lb ed="#L" n="63"/>quod affirmalio opposita negalioni 
+          repu<lb ed="#L" break="no" n="64"/>gnat.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

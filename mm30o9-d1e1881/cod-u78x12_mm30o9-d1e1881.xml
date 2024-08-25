@@ -1,0 +1,1160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+        <author ref="#per-FLBca3">Franciscus Lychetus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title/>
+          <date when="2024-08-25">August 25, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x12">Vives, Paris, 1893, volume 12</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="347"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="mm30o9-d1e1881"><!-- lycht-l2d6q2-p2 -->
+        <head xml:id="mm30o9-d1e1881-Hd1e101">Quaestio 2</head>
+        <p xml:id="mm30o9-d1e1881-d1e103">
+          <lb ed="#L" n="21" type="fixed=347"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e108">
+          <lb ed="#L" n="22"/>(a) In ista questione sunt. duo 
+          prin<lb ed="#L" break="no" n="23"/>cipaliter videnda.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e115">
+          <lb ed="#L" n="24"/>Primo est ostendendum, quae fuit 
+          ma<lb ed="#L" break="no" n="25"/>litia in Angelo peccante.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e122">
+          <lb ed="#L" n="26"/>Secundo, ad quod genus peccati 
+          per<lb ed="#L" break="no" n="27"/>tinebat ista malitia.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e130">
+          <lb ed="#L" n="28"/>Circa primum, licet littera sit satis 
+          cla<lb ed="#L" break="no" n="29"/>ra, succincte tamen aliqua dicam.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e137">
+          <lb ed="#L" n="30"/>Primo dicit, quod duplex est actus 
+          vo<lb ed="#L" break="no" n="31"/>luntatis, scilicet velle et nolle, qui sunt
+          <lb ed="#L" n="32"/>actus positivi, et entitates absolutz, ut
+          <lb ed="#L" n="33"/>patet ab ipso Doctore in quodl. quest. 22.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e148">
+          <lb ed="#L" n="34"/>Secundo, declarat quid sit velle et. 
+          nol<lb ed="#L" break="no" n="35"/>le, quia nolle est actus, quo voluntas 
+          fu<lb ed="#L" break="no" n="36"/>git disconveniens, et velle est actus, quo
+          <lb ed="#L" n="37"/>voluntas acceptat conveniens.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e159">
+          <lb ed="#L" n="38"/>Sed hic occurrit difficultas, quia non
+          <lb ed="#L" n="39"/>videtur aliquod objectum voluntatis esse
+          <lb ed="#L" n="40"/>disconveniens ipsi voluntati; patet, quia
+          <lb ed="#L" n="41"/>sicut objectum intellectus, et omne 
+          conten<lb ed="#L" break="no" n="42"/>tum sub tali objecto est conveniens ipsi in-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="43"/>tellectui, ita videtur quod omne objectum
+          <lb ed="#L" n="44"/>voluntatis sit conveniens ipsi voluntati,
+          <lb ed="#L" n="45"/>et hoc patet expresse a Doctore in 
+          quar<lb ed="#L" break="no" n="46"/>to, dist. 44. quest. 2.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e183">
+          <lb ed="#L" n="47"/>Respondeo, quod h:ec difficultas 
+          requi<lb ed="#L" break="no" n="48"/>rit prolixiorem tractatum, unde sit 
+          dis<lb ed="#L" break="no" n="49"/>convenientia objecti ex parte voluntatis,
+          <lb ed="#L" n="50"/>quae difficultas pro nunc differatur usque
+          <lb ed="#L" n="51"/>ad. decimam quintam distinctionem tertii,
+          <lb ed="#L" n="52"/>et aliqualiter usque ad. 44. distinct. 
+          quar<lb ed="#L" break="no" n="53"/>ta. Aliqui tamen Soeotiste» dicunt, quod
+          <lb ed="#L" n="54"/>nullum objectum voluntatis absolute 
+          sum<lb ed="#L" break="no" n="55"/>ptum est disconveniens, sed fit 
+          disconve<lb ed="#L" break="no" n="56"/>niens, pro quanto repugnat objecto 
+          con<lb ed="#L" break="no" n="57"/>venienti ipsi voluntati, sicut. exponunt de
+          <lb ed="#L" n="58"/>avaro, nummo et pane; quod panis sit
+          <lb ed="#L" n="59"/>disconveniens avaro, quia non repugnat
+          <lb ed="#L" n="60"/>nummo, qui est valde conveniens sibi,
+          <lb ed="#L" n="61"/>quia si vult panem, oportet amittere 
+          num<lb ed="#L" break="no" n="62"/>mum. Et licet ista expositio sit satis 
+          con<lb ed="#L" break="no" n="63"/>veniens, quia tamen non tangit rationem
+          <lb ed="#L" n="64"/>formalem objecti convenientis et 
+          discon<lb ed="#L" break="no" n="65"/>venientis, ideo pro nunc differatur ad loca
+          <lb ed="#L" n="66"/>supra dicta.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e229">
+          <lb ed="#L" n="67"/>Tertio dicit, quod velle est duplex, 
+          sci<lb ed="#L" break="no" n="68"/>licet velle amicitie, et velle 
+          concupiscen<lb ed="#L" break="no" n="69"/>tiae ; et velle amicitie est objecti, cui
+          <lb ed="#L" n="70"/>volo bonum ; et velle concupiscentice est
+          <lb ed="#L" n="71"/>objecti, quod volo alicui alii amato.
+          <lb ed="#L" n="72"/>Exemplum primi: Diligo Franciscum in
+          <lb ed="#L" n="73"/>se. Exemplum secundi: Diligo pecunias
+          <lb ed="#L" n="74"/>Francisco. Et communiter amatum 
+          amo<lb ed="#L" break="no" n="75"/>re amicitiae est finis respectu amati 
+          amo<lb ed="#L" break="no" n="76"/>re concupiscentiae.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e254">
+          <lb ed="#L" n="77"/>Quarto dicit, quod omne nolle semper
+          <lb ed="#L" n="78"/>praesupponit aliquod velle, et patet 
+          exem<lb ed="#L" break="no" n="79"/>plum de avaro, nummo, et pane, ut 
+          su<lb ed="#L" break="no" n="80"/>pra dixi.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e265">
+          <lb ed="#L" n="81"/>Quinto dicit, quod velle concupiscentiae
+          <lb ed="#L" n="82"/>semper praesupponit velle amicitiae, quia
+          <lb ed="#L" n="83"/>propter amatum amore amicitie 
+          concu<lb ed="#L" break="no" n="84"/>pisco sibi bonum, quod sibi volo.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e276">
+          <lb ed="#L" n="85"/>Sexto dicit, quod nullum nolle potest
+          <lb ed="#L" n="86"/>esse deordinatum, nisi praesupponat ali-
+          <pb ed="#L" n="348"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>quod velle deordinatam. Exemplum, quia
+          <lb ed="#L" n="2"/>si inordinate amo, inordinate odio nociva,
+          <lb ed="#L" n="3"/>qui enim inordinate diligit sibi vitam,
+          <lb ed="#L" n="4"/>inordinate refugit nociva vite inordinate
+          <lb ed="#L" n="5"/>amate. Sequitur etiam, quod non potest
+          <lb ed="#L" n="6"/>esse inordinatum nolle, nisi in virtute
+          <lb ed="#L" n="7"/>alicujus  inordinati velle, si enim 
+          ordina<lb ed="#L" break="no" n="8"/>te diligo mihi vitam, ordinate declino
+          <lb ed="#L" n="9"/>omnia nociva.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e307">
+          <lb ed="#L" n="10"/>Septimo dicit Doctor, si velle amicitice
+          <lb ed="#L" n="11"/>est ordinatum, velle concupiscentiae erit
+          <lb ed="#L" n="12"/>similiter ordinatum ; si enim ordinate
+          <lb ed="#L" n="13"/>amo Ludovicum amore amiciti:e 
+          ordina<lb ed="#L" break="no" n="14"/>te, concupisco sibi bonum, et si 
+          inordi<lb ed="#L" break="no" n="15"/>nate amo illum, inordinate concupisco
+          <lb ed="#L" n="16"/>sibi bonum. Ex his patet quomodo velle
+          <lb ed="#L" n="17"/>amiciti:e est prima radix actus boni vel
+          <lb ed="#L" n="18"/>mali.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e329">
+          <lb ed="#L" n="19"/>(b) Sequitur igitur, quod. simpliciter
+          <lb ed="#L" n="20"/>actus, etc. Hic Doctor declarat qualis 
+          fue<lb ed="#L" break="no" n="21"/>rit primus actus inordinatus Angeli, et
+          <lb ed="#L" n="22"/>circa quod objectum. De primo patet ex
+          <lb ed="#L" n="23"/>supra dictis, quod fuit primum vel/e 
+          ami<lb ed="#L" break="no" n="24"/>citi:e, quo Angelus aliquid inordinate 
+          dili<lb ed="#L" break="no" n="25"/>git in se. De secundo dicit Doctor duas
+          <lb ed="#L" n="26"/>conclusiones
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e349">
+          <lb ed="#L" n="27"/>Prima, quod talis amor amicitiae 
+          inordi<lb ed="#L" break="no" n="28"/>natus non fuit circa Deum, quia a nulla
+          <lb ed="#L" n="29"/>creatura quantumcumque . perfecta potest
+          <lb ed="#L" n="30"/>inordinate amari Deus amore amicitic,
+          <lb ed="#L" n="31"/>etiamsi infinito amore amaretur, cum
+          <lb ed="#L" n="32"/>sit simpliciter diligibilis amore infinito;
+          <lb ed="#L" n="33"/>imo perfectissima ratio objecti diligibilis
+          <lb ed="#L" n="34"/>amore amiciti:e est ipse Deus sub ratione
+          <lb ed="#L" n="35"/>Deitatis, ut patebit in tertio, dist. 97.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e372">
+          <lb ed="#L" n="36"/>Secunda conclusio est affirmativa, et
+          <lb ed="#L" n="37"/>est talis, quod amor amicitiae. 
+          inordina<lb ed="#L" break="no" n="38"/>tus fuit circa seipsum, nam Angelus 
+          ni<lb ed="#L" break="no" n="39"/>mis intense et immoderate se dilexit; et
+          <lb ed="#L" n="40"/>quod talis amor primo fuerit circa 
+          se<lb ed="#L" break="no" n="41"/>ipsum, probat Doctor duabus rationibus.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e388">
+          <lb ed="#L" n="42"/>Prima, quia inclinatio naturalis magis
+          <lb ed="#L" n="43"/>inclinavit ad se, quam ad aliquid" aliud
+          <lb ed="#L" n="44"/>creatum sic amandum: hoc enim est ve-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>risimile, quia ex quo inordinate dilexit
+          <lb ed="#L" n="46"/>creaturam, magis videtur diligere primc
+          <lb ed="#L" n="47"/>illud, ad quod inclinatio naturalis impellit.
+          <lb ed="#L" n="48"/>Secunda ratio est, quia Angelus magis
+          <lb ed="#L" n="49"/>se intellexit quam alias creaturas ; tum
+          <lb ed="#L" n="50"/>quia perfecte cognovit se per essentiam
+          <lb ed="#L" n="51"/>suam, ut supra patuit dist. 3. tum, quio
+          <lb ed="#L" n="52"/>essentia Angeli fuit intellectui suo magis
+          <lb ed="#L" n="53"/>prassens, et magis proportionata in 
+          rati<lb ed="#L" break="no" n="54"/>ne objecti perfecti intelligibilis intuitive,
+          <lb ed="#L" n="55"/>quam aliqua alia creatura ; videtur ergo
+          <lb ed="#L" n="56"/>verisimile, quod pro illo tunc magis se
+          <lb ed="#L" n="57"/>dilexerit quam aliam creaturam.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d6q2-p3">-->
+        <p xml:id="mm30o9-d1e1881-d1e429">
+          <lb ed="#L" n="55" type="fixed=350"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e434">
+          <lb ed="#L" n="56"/>(c) Restat nunc. videre de 
+          inordinati<lb ed="#L" break="no" n="57"/>one ipsius velle concupiscenticae. Nam ex
+          <lb ed="#L" n="58"/>quo Doctor supra probavit quod 
+          inordi<lb ed="#L" break="no" n="59"/>natum velle concupiscenti:te praesupponit
+          <lb ed="#L" n="60"/>inordinatum velle amicitiae, et quia 
+          pri<lb ed="#L" break="no" n="61"/>mus actus inordinatus in Angelo fuit
+          <lb ed="#L" n="62"/>amor amiciti:e sui, cum sibi amato 
+          mul<lb ed="#L" break="no" n="63"/>ta inordinate concupivit, et dicit Doctor
+          <lb ed="#L" n="64"/>quod primo concupivit sibi inordinate
+          <lb ed="#L" n="65"/>beatitudinem, et hoc probat quatuor 
+          ra<lb ed="#L" break="no" n="66"/>tionibus :
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e460">
+          <lb ed="#L" n="67"/>Prima est ibi: Nam primum 
+          concupis<lb ed="#L" break="no" n="68"/>cere inordinatum, etc. ut clarius 
+          intel<lb ed="#L" break="no" n="69"/>ligatur ista ratio, declaro aliqua: Primo,
+          <lb ed="#L" n="70"/>quod voluntas potest dupliciter 
+          conside<lb ed="#L" break="no" n="71"/>rari, videlicet secundum affectionem 
+          jus<lb ed="#L" break="no" n="72"/>titi:e, vel secundum affectionem 
+          commo<lb ed="#L" break="no" n="73"/>di. Primo modo tantum sequitur 
+          rati<lb ed="#L" break="no" n="74"/>onem rectam intellectus, quia electio
+          <lb ed="#L" n="75"/>recta conformiter se habet rationi rectae,
+          <lb ed="#L" n="76"/>ut patet 6. Ethic. et diffuse expositum est
+          <lb ed="#L" n="77"/>in quest.ult. prolog. Secundo modo 
+          tan<lb ed="#L" break="no" n="78"/>tum sequitur naturalem inclinationem,
+          <lb ed="#L" n="79"/>quae semper est ad proprium commodum
+          <lb ed="#L" n="80"/>et valde delectabile, et ut sequitur 
+          alfe<lb ed="#L" break="no" n="81"/>ctionem commodi declinat a regula recta
+          <lb ed="#L" n="82"/>et a ratione recta, ut. infra patebit. 
+          Pri<lb ed="#L" break="no" n="83"/>mo etiam modo nunquam contingit 
+          vo<lb ed="#L" break="no" n="84"/>luntatem peccare, et secundo modo 
+          con<lb ed="#L" break="no" n="85"/>tingit semper voluntatem — inordinate
+          <lb ed="#L" n="86"/>acere.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e507">
+          <pb ed="#L" n="351"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>Secundo praemittendum est, quod 
+          appe<lb ed="#L" break="no" n="2"/>titus naturalis,sive inclinatio naturalis 
+          vo<lb ed="#L" break="no" n="3"/>luntatis est simpliciter ad summam 
+          per<lb ed="#L" break="no" n="4"/>fectionem necessario, semper et summe,
+          <lb ed="#L" n="5"/>ut declarat <ref xml:id="mm30o9-d1e1881-Rd1e524">Doctor in 4. distinct. 49.</ref> et
+          <lb ed="#L" n="6"/>talis appetitus est ad summum  
+          commo<lb ed="#L" break="no" n="7"/>dum sibi, ut ostendit infra in sto 2.
+          <lb ed="#L" n="8"/>distinct, 23.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e533">
+          <lb ed="#L" n="9"/>Tertio praemitto, quod Deus ordinavit
+          <lb ed="#L" n="10"/>voluntatem debere esse moderatricem 
+          ta<lb ed="#L" break="no" n="11"/>lis appetitus, id est, quod non velit, sicut
+          <lb ed="#L" n="12"/>appetitus inclinat, exempli gratia : Deus
+          <lb ed="#L" n="13"/>vult dare beatitudinem tantum pro 
+          meri<lb ed="#L" break="no" n="14"/>tis, et tantam beatitudinem, quamvis 
+          ap<lb ed="#L" break="no" n="15"/>petitus naturalis sit ad summam 
+          beatitudi<lb ed="#L" break="no" n="16"/>nem, etiam nullis meritis existentibus, si
+          <lb ed="#L" n="17"/>voluntas in appetendo beatitudinem 
+          se<lb ed="#L" break="no" n="18"/>quitur naturalem appetitum sui, statim
+          <lb ed="#L" n="19"/>peceat.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e559">
+          <lb ed="#L" n="20"/>Quarto praemitto, quod voluntas creata,
+          <lb ed="#L" n="21"/>quae non est regula sui actus, ut infra 
+          pa<lb ed="#L" break="no" n="22"/>tebit dist. 23. relicta regula justitiate, 
+          com<lb ed="#L" break="no" n="23"/>muniter sequitur appetitum naturalem
+          <lb ed="#L" n="24"/>sui. Ex his formo rationem : appetitus
+          <lb ed="#L" n="25"/>naturalis Angeli fuit ad summam 
+          beatitu<lb ed="#L" break="no" n="26"/>dinem, tanquam ad summum commodum
+          <lb ed="#L" n="27"/>sibi, et summum delectabile; sed 
+          volun<lb ed="#L" break="no" n="28"/>tas Angeli relicta regula justiti:e, primo
+          <lb ed="#L" n="29"/>sequitur talem appetitum ; ergo peccatum
+          <lb ed="#L" n="30"/>ipsius fuit inordinatum concupiscere 
+          res<lb ed="#L" break="no" n="31"/>pectu beatitudinis, quam inordinate sibi
+          <lb ed="#L" n="32"/>concupivit, ut summum commodum et
+          <lb ed="#L" n="33"/>summum delectabile.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e592">
+          <lb ed="#L" n="34"/>Confirmatur ista ratio, quia sicut 
+          pri<lb ed="#L" break="no" n="35"/>mum velle amicitie inordinatum fuit 
+          cir<lb ed="#L" break="no" n="36"/>ca se, ad quod primo erat inclinatio 
+          natu<lb ed="#L" break="no" n="37"/>ralis, ut supra exposui, ita primum velle
+          <lb ed="#L" n="38"/>coneupiscenti:e inordinatum fuit circa
+          <lb ed="#L" n="39"/>summum delectabile, ad quod primo erat
+          <lb ed="#L" n="40"/>inclinatio naturalis.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e610">
+          <lb ed="#L" n="41"/>(d) Secundo probatur. Haec est secunda
+          <lb ed="#L" n="42"/>ratio principalis, ad quam intelligendam
+          <lb ed="#L" n="43"/>premitto aliqua. Primo, quod triplex
+          <lb ed="#L" n="44"/>est bonum: honestum, utile, et delecta-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>bile. Honestum est duplex: Primum,
+          <lb ed="#L" n="46"/>quod est primo et per se honestum, 
+          con<lb ed="#L" break="no" n="47"/>comitanter tamen est bonum commodi,
+          <lb ed="#L" n="48"/>et delectabile, ut sunt virtutes et actus
+          <lb ed="#L" n="49"/>morales. Secundum est bonum honest
+          <lb ed="#L" n="50"/>concomitanter, principaliter tamen  esi
+          <lb ed="#L" n="51"/>bonum delectabile. Unde Doctor ?n 4.
+          <lb ed="#L" n="52"/>distinct. 46. quest. 4. sic dicit: Bonum
+          <lb ed="#L" n="53"/>(inquit) intellectuale in genere duplex
+          <lb ed="#L" n="54"/>est, bonum scilicet. commodi, et bonwm
+          <lb ed="#L" n="55"/>honesti. Bonum quidem «tile, quod
+          <lb ed="#L" n="56"/>ponitur tertium ad. alterum illorum
+          <lb ed="#L" n="57"/>reducitur, secundum quod ad ipsum
+          <lb ed="#L" n="58"/>ordinatur. Et licet quandoque in eodem
+          <lb ed="#L" n="59"/>concurrant rationes commodi et honesti,
+          <lb ed="#L" n="60"/>ut in fruitione Dei in patria, imo 
+          gene<lb ed="#L" break="no" n="61"/>raliter omne honestum sit. commodum,
+          <lb ed="#L" n="62"/>licet non e contra, tamen summwnm 
+          com<lb ed="#L" break="no" n="63"/>modum. est beatitudo, et esset 
+          commo<lb ed="#L" break="no" n="64"/>dum, licet per impossibile non esset 
+          ho<lb ed="#L" break="no" n="65"/>nestum, summum etiam honestum — est
+          <lb ed="#L" n="66"/>charitas, et esset honestum, licet per
+          <lb ed="#L" n="67"/>impossibile non esset commodum. Mec
+          <lb ed="#L" n="68"/>ille. Accipio ergo bonum honestum primo
+          <lb ed="#L" n="69"/>et per se, quod si adhuc non esset bonum
+          <lb ed="#L" n="70"/>commodum et delectabile, adhuc essei
+          <lb ed="#L" n="71"/>bonum honestum, et bonum honestum
+          <lb ed="#L" n="72"/>non primo et per se, quod quamvis sit
+          <lb ed="#L" n="73"/>bonum honestum, si tamen per 
+          impossi<lb ed="#L" break="no" n="74"/>bile esset separata ratio boni honesti, 
+          ad<lb ed="#L" break="no" n="75"/>huc esset bonum commodum sive 
+          delecta<lb ed="#L" break="no" n="76"/>bile. Secundum bonum est bonum 
+          com<lb ed="#L" break="no" n="77"/>modi sive delectabilis, et tale bonum in
+          <lb ed="#L" n="78"/>plus se habet, quam bonum honestum;
+          <lb ed="#L" n="79"/>patet, quia omne bonum honestum est
+          <lb ed="#L" n="80"/>etiam commodum et delectabile, non 
+          ta<lb ed="#L" break="no" n="81"/>men omne bonum delectabile est bonum
+          <lb ed="#L" n="82"/>honestum, ut patet a Doctore ubi supra.
+          <lb ed="#L" n="83"/>Tertium bonum est bonum utile, et dicitur
+          <lb ed="#L" n="84"/>bonum utile in relatione ad aliud, cui est
+          <lb ed="#L" n="85"/>utile, ae omne bonum honestum, et tam
+          <lb ed="#L" n="86"/>utile quam delectabile potest dici utile, ut
+          <lb ed="#L" n="87"/>patet a Doctore ubi supra, prout tamen 
+          di<lb ed="#L" break="no" n="88"/>citur utile, proprie dicitur ad aliquid utile,
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e719">
+          <pb ed="#L" n="352"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>Secundo praemitto, quod triplex est
+          <lb ed="#L" n="2"/>amor, scilicet amor honesti, utilis et 
+          de<lb ed="#L" break="no" n="3"/>lectabilis. Amor honesti potest accipi 
+          du<lb ed="#L" break="no" n="4"/>pliciter : Primo, quod ex hoc dicatur amor
+          <lb ed="#L" n="5"/>honesti, quia terminatur ad bonum 
+          hone<lb ed="#L" break="no" n="6"/>stum. Secundo, quod dicatur amor 
+          hone<lb ed="#L" break="no" n="7"/>sti ex hoc, quod conformiter elicitur 
+          ra<lb ed="#L" break="no" n="8"/>tioni rectae. Primo modo amor honesti
+          <lb ed="#L" n="9"/>non est semper ordinatus; patet, quia
+          <lb ed="#L" n="10"/>beatitado est bonum honestum, quam 
+          ta<lb ed="#L" break="no" n="11"/>men Angeli inordinate dilexerunt. 
+          Secun<lb ed="#L" break="no" n="12"/>dus amor est semper ordinatus, et de tali
+          <lb ed="#L" n="13"/>hic loquitur Doctor. Amor vero utilis, qui
+          <lb ed="#L" n="14"/>est respectu alicujus rei utilis, talis amor
+          <lb ed="#L" n="15"/>proprie non est primus actus 
+          concupiscen<lb ed="#L" break="no" n="16"/>di, cum communiter prasupponat alium,
+          <lb ed="#L" n="17"/>sicut amo panem, quia utilis est 
+          susten<lb ed="#L" break="no" n="18"/>tationi naturae, ideo prius concupisco 
+          nu<lb ed="#L" break="no" n="19"/>tritionem ipsi naturae quam panem ; sed
+          <lb ed="#L" n="20"/>amor delectabilis est ille, quo amo et
+          <lb ed="#L" n="21"/>concupisco delectabile. Tertio praemitto,
+          <lb ed="#L" n="22"/>quod primum concupiscere simpliciter est
+          <lb ed="#L" n="23"/>respectu summe delectabilis; patet per
+          <lb ed="#L" n="24"/>primam rationem supra factam, quia
+          <lb ed="#L" n="25"/>voluntas relicta regula justiti:e, primo
+          <lb ed="#L" n="26"/>sequitur quantum potest, naturalem 
+          in<lb ed="#L" break="no" n="27"/>clinationem sui, quia naturalis inclinatio
+          <lb ed="#L" n="28"/>primo est ad summum delectabile, et
+          <lb ed="#L" n="29"/>per consequens primum concupiscere 
+          in<lb ed="#L" break="no" n="30"/>ordinatum erit circa summum 
+          delecta<lb ed="#L" break="no" n="31"/>bile, quod est beatitudo.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e794">
+          <lb ed="#L" n="32"/>Ex his ergo patet ratio Doctoris, quia
+          <lb ed="#L" n="33"/>ex quo primum peccatum in concupiscendo
+          <lb ed="#L" n="34"/>fuit aliquod velle, sed tale velle 
+          concupi<lb ed="#L" break="no" n="35"/>scentiae inordinate, primo fuit circa 
+          sum<lb ed="#L" break="no" n="36"/>mum delectabile, et tale est beatitudo; 
+          er<lb ed="#L" break="no" n="37"/>go et quod dicit Doctor, videlicet 
+          delecta<lb ed="#L" break="no" n="38"/>bilesummum est bonum honestum, 
+          inquan<lb ed="#L" break="no" n="39"/>tum honestum, ut ipsa beatitudo, hoc 
+          di<lb ed="#L" break="no" n="40"/>ctum debet sane intelligi, quia ipsa 
+          bea<lb ed="#L" break="no" n="41"/>titudo, inquantum beatitudo, formaliter
+          <lb ed="#L" n="42"/>loquendo de beatitudine, quae consistit. in
+          <lb ed="#L" n="43"/>fruitione Dei clare visi, si per impossibile
+          <lb ed="#L" n="44"/>separetur a ratione boni honesti, adhuc
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>esset summum delectabile, ut dicit Doctor
+          <lb ed="#L" n="46"/>dist. 46. q. 4. Debet ergo sic intelligi,
+          <lb ed="#L" n="47"/>quod ipsa beatitudo, etiam inquantum est
+          <lb ed="#L" n="48"/>summum bonum honestum, est summum
+          <lb ed="#L" n="49"/>bonum delectabile. Vel potest exponi de
+          <lb ed="#L" n="50"/>objecto beatifico, quod inquantum est
+          <lb ed="#L" n="51"/>summum bonum honestum, est 
+          simplici<lb ed="#L" break="no" n="52"/>ter summum bonum delectabile. Si 
+          dica<lb ed="#L" break="no" n="53"/>tur, quomodo Angeli peccaverunt, 
+          concu<lb ed="#L" break="no" n="54"/>piscendo summum  bonura honestum ?
+          <lb ed="#L" n="55"/>dico, quod ideo peccaverunt, quia 
+          inordi<lb ed="#L" break="no" n="56"/>nate concupierunt illud, vel quia sine
+          <lb ed="#L" n="57"/>meritis praecedentibus, vel quia ante 
+          tem<lb ed="#L" break="no" n="58"/>pus prefixum, vel alio modo, ut infra
+          <lb ed="#L" n="59"/>patebit.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e859">
+          <lb ed="#L" n="60"/>(e) Tertio hoc persuadetur sic. Hec. est
+          <lb ed="#L" n="61"/>tertia ratio, quae est alia a priecedentibus,
+          <lb ed="#L" n="62"/>et stat in hoc: sicut se habet appetitiva
+          <lb ed="#L" n="63"/>sensitiva ad sensitivam apprehensivam,
+          <lb ed="#L" n="64"/>sic se habet appetitiva intellectiva ad 
+          co<lb ed="#L" break="no" n="65"/>gnitivam; sed appetitiva sensitiva primo
+          <lb ed="#L" n="66"/>et principaliter, et raaxime quietatur in
+          <lb ed="#L" n="67"/>objecto summe convenienti su: 
+          cogni<lb ed="#L" break="no" n="68"/>tivie; patet de appetitiva visiva, quae
+          <lb ed="#L" n="69"/>summe appetit pulcherrimum visibile,
+          <lb ed="#L" n="70"/>quod est. summe conveniens cognitiva
+          <lb ed="#L" n="71"/>visivie, ergo et appetitiva intellectiva 
+          pri<lb ed="#L" break="no" n="72"/>mo appetit et concupiscit objectum 
+          con<lb ed="#L" break="no" n="73"/>venientissimum ipsi cognitive, illud 
+          au<lb ed="#L" break="no" n="74"/>tem est summa felicitas; ergo appetitiva
+          <lb ed="#L" n="75"/>intellectiva Angeli primo inordinate 
+          con<lb ed="#L" break="no" n="76"/>cupivit summam felicitatem.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e898">
+          <lb ed="#L" n="77"/>(f) Quarto hoc persuadetur sic. Hec
+          <lb ed="#L" n="78"/>est quarta ratio, qua stat in hoc, quod si
+          <lb ed="#L" n="79"/>delectatio summa esset separata a 
+          quo<lb ed="#L" break="no" n="80"/>cumque alio,primo appeteretur a voluntate
+          <lb ed="#L" n="81"/>deferente regulam justiti:e ; patet, quia
+          <lb ed="#L" n="82"/>ut sic, valde sequitur appetitum 
+          natura<lb ed="#L" break="no" n="83"/>lem, qui summe est ad delectationem
+          <lb ed="#L" n="84"/>summam ; et positis quibuscumque aliis,
+          <lb ed="#L" n="85"/>puta excellentia, dignitate et hujusmodi,
+          <lb ed="#L" n="86"/>illa primo non appeterentur. Ex his ergo
+          <lb ed="#L" n="87"/>quatuor rationibus patet, quomodo 
+          pri<lb ed="#L" break="no" n="88"/>mum concupiscere inordinatum  Angeli
+          <pb ed="#L" n="353"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>mali, fuit in concupiscendo beatitudinem.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e933">
+          <lb ed="#L" n="2"/>(g) Et si arguas. contra. istud. primo.
+          <lb ed="#L" n="3"/>Hic Doctor facit tres rationes, quibus 
+          pro<lb ed="#L" break="no" n="4"/>bat quod Angeli in appetendo 
+          beatitudi<lb ed="#L" break="no" n="5"/>nem non potuerunt peccare. Et prima ratio
+          <lb ed="#L" n="6"/>stat in hoc. : Nulla voluntas in eliciendo
+          <lb ed="#L" n="7"/>actum conformiter appetitui recto peccat,
+          <lb ed="#L" n="8"/>sed voluntas Angeli in volendo 
+          beatitudi<lb ed="#L" break="no" n="9"/>nem vult illam conformiter appetitui recto ;
+          <lb ed="#L" n="10"/>ergo. Major patet, quia actus conformis
+          <lb ed="#L" n="11"/>reguli rectae non potest esse inordinatus.
+          <lb ed="#L" n="12"/>Minor etiam patet, quia appetitus naturalis
+          <lb ed="#L" n="13"/>cum sit a Deo, est rectus, et talis est ad
+          <lb ed="#L" n="14"/>summam beatitudinem, cum ab omnibus
+          <lb ed="#L" n="15"/>uniformiter appetatur, secundum 
+          <ref xml:id="mm30o9-d1e1881-Rd1e965">Augu<lb ed="#L" break="no" n="16"/>sinum 13. de Civit. Dei cap. 5.</ref>
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e971">
+          <lb ed="#L" n="17"/>(h) Praeterea nullus intellectus. 
+          Secun<lb ed="#L" break="no" n="18"/>da ratio stat in hoc, sicut se habet 
+          intel<lb ed="#L" break="no" n="19"/>lectus circa prima principia, sic voluntas
+          <lb ed="#L" n="20"/>circa ultimum finem; patet ista 
+          proposi<lb ed="#L" break="no" n="21"/>to 2. Physicorum, text. com. 89. Sicut
+          <lb ed="#L" n="22"/>principium in speculabilibus, ita. finis in
+          <lb ed="#L" n="23"/>operabilibus, sed intellectus non errat 
+          cir<lb ed="#L" break="no" n="24"/>ca principia, ut patet 9. Metaphys. text.
+          <lb ed="#L" n="25"/>com. primi ; ergo nec voluntas inordinate
+          <lb ed="#L" n="26"/>vult ultimum finem, qui est beatitudo.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e995">
+          <lb ed="#L" n="27"/>(i) Praeterea, boni. Waec est tertia ratio
+          <lb ed="#L" n="28"/>et stat in hoc: si in volendo bonum 
+          com<lb ed="#L" break="no" n="29"/>modi contingit peccatum, sequitur quod
+          <lb ed="#L" n="30"/>ita boni peccant, sicut et mali. 
+          Conse<lb ed="#L" break="no" n="31"/>quentia patet, quia boni habuerunt 
+          affecti<lb ed="#L" break="no" n="32"/>onem commodi, sicut. et mali, secundum
+          <lb ed="#L" n="33"/>Anselmum de Concordia.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d6q2-p4">-->
+        <p xml:id="mm30o9-d1e1881-d1e1016">
+          <lb ed="#L" n="69" type="fixed=356"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e1021">
+          <lb ed="#L" n="70"/>(a) Ad videndum, etc. Hic Doctor 
+          sol<lb ed="#L" break="no" n="71"/>vit has tres rationes, et antequam solvat
+          <lb ed="#L" n="72"/>eas, priemittit aliqua, quae ut clarius 
+          in<lb ed="#L" break="no" n="73"/>tellimantur, reducenda sunt per 
+          proposi<lb ed="#L" break="no" n="74"/>tiones.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e1034">
+          <lb ed="#L" n="75"/>Prima : Affectio justitie, de qua 
+          loqui<lb ed="#L" break="no" n="76"/>tur Anselmus, potest intelligi, vel de 
+          ju<lb ed="#L" break="no" n="77"/>stitia infusa, quae est gratia gratum 
+          fa<lb ed="#L" break="no" n="78"/>ciens; vel de acquisita, qua accipitur
+          <lb ed="#L" n="79"/>pro omni virtute morali; vel de innata,
+          <lb ed="#L" n="80"/>quae est libertas voluntatis. Et nota, quod
+          <lb ed="#L" n="81"/>libertas voluntatis, pro tanto potest dici
+          <lb ed="#L" n="82"/>justitia innata, quia ex sua ratione 
+          for<lb ed="#L" break="no" n="83"/>mali, et ex sua innata libertate,habet unde
+          <lb ed="#L" n="84"/>possit conformiter agere regule superiori,
+          <lb ed="#L" n="85"/>et si agit conformiter, tunc agit 
+          secun<lb ed="#L" break="no" n="86"/>dum affectionem justitia.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e1063">
+          <pb ed="#L" n="357"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>(b) Quod esset. Secunda propositio est
+          <lb ed="#L" n="2"/>ibi: quod esset Angelus tantum habens
+          <lb ed="#L" n="3"/>affectionem cominodi, etc. Hic aliqui 
+          ex<lb ed="#L" break="no" n="4"/>ponunt Doctorem quod talis appetitus est
+          <lb ed="#L" n="5"/>appetitus naturalis, sed hoc non videtur
+          <lb ed="#L" n="6"/>ad mentem Doctoris, quia secundum 
+          ip<lb ed="#L" break="no" n="7"/>sum,actus appetitus naturalis non 
+          sequi<lb ed="#L" break="no" n="8"/>tur cognitionem, ut patet 2m 4. d. 49.
+          <lb ed="#L" n="9"/>q. 10. et art. 1. Patet etiam. in proemio
+          <lb ed="#L" n="10"/>Metaphysieee sue; modo iste appetitus,
+          <lb ed="#L" n="11"/>qui ponitur hic affectio commodi, sequitur
+          <lb ed="#L" n="12"/>cognitivam, patet per verba ejus, ubi sic
+          <lb ed="#L" n="13"/>ait: Jste (inquit) appetitus se haberet. ad
+          <lb ed="#L" n="14"/>suam. cognitivam, sicut modo appetitus
+          <lb ed="#L" n="15"/>visivus ad. visum, etc. Patet ergo ex ista
+          <lb ed="#L" n="16"/>littera, quod non accipitur hic talis 
+          appe<lb ed="#L" break="no" n="17"/>titus pro appetitu mere naturali, quia non
+          <lb ed="#L" n="18"/>diceretur appetitus consequens 
+          cogniti<lb ed="#L" break="no" n="19"/>vam, sicut dicimus quod in potentia 
+          visi<lb ed="#L" break="no" n="20"/>va est, duplex appetitus, scilicet naturalis,
+          <lb ed="#L" n="21"/>qui nullo modo sequitur cognitionem, et
+          <lb ed="#L" n="22"/>sensualis, qui videlicet supponit 
+          cogniti<lb ed="#L" break="no" n="23"/>onem; et uterque diceretur appetitus
+          <lb ed="#L" n="24"/>commodi, sed unus sequeretur 
+          cogniti<lb ed="#L" break="no" n="25"/>onem, alius vero non. Sic pariformiter
+          <lb ed="#L" n="26"/>posset dici de natura intellectuali Angeli,
+          <lb ed="#L" n="27"/>quod si per impossibile esset 
+          circumscri<lb ed="#L" break="no" n="28"/>pta libertate voluntatis, esset ibi 
+          distin<lb ed="#L" break="no" n="29"/>guere duplicem appetitum, videlicet mere
+          <lb ed="#L" n="30"/>naturalem. nullo modo sequentem 
+          cogni<lb ed="#L" break="no" n="31"/>tionem, et appetitum intellectualem 
+          se<lb ed="#L" break="no" n="32"/>quentem cognitionem. Et sicut appetitus
+          <lb ed="#L" n="33"/>naturalis successive et necessario 
+          iaclina<lb ed="#L" break="no" n="34"/>tur ad perfectionem, ad quam est, ita 
+          ap<lb ed="#L" break="no" n="35"/>petitus naturalis sequens cognitionem, 
+          ne<lb ed="#L" break="no" n="36"/>cessario et successive appetit delectabile
+          <lb ed="#L" n="37"/>preecognitum, sicut et appetitus sensitivus
+          <lb ed="#L" n="38"/>necessario appetit delectabile  
+          praeosten<lb ed="#L" break="no" n="39"/>sum a potentia sensitiva, et in tali 
+          appe<lb ed="#L" break="no" n="40"/>ttu non contingit, nec ordinate, nec in
+          <lb ed="#L" n="41"/>ordinate agere.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e1159">
+          <lb ed="#L" n="42"/>(c) Illa. igitur. affectu. Tertia 
+          proposi<lb ed="#L" break="no" n="43"/>tio: Affectio justiti;e, quae est prima 
+          mo<lb ed="#L" break="no" n="44"/>deratrix affectionis commodi, et. quantum
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>ad hoc, quod non oportet voluntatem actu
+          <lb ed="#L" n="46"/>appetere illud, ad quod inclinat affectic
+          <lb ed="#L" n="47"/>commodi, nec etiam appetere successive,
+          <lb ed="#L" n="48"/>est libertas innata voluntatis. Ut ista 
+          pro<lb ed="#L" break="no" n="49"/>positio clarius intelligatur, praemitto 
+          ali<lb ed="#L" break="no" n="50"/>qua :
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e1183">
+          <lb ed="#L" n="51"/>Primo, quod in voluntate possumus
+          <lb ed="#L" n="52"/>considerare duplicem appetitum, —
+          scili<lb ed="#L" break="no" n="53"/>cet naturalem mere non sequentem 
+          cogni<lb ed="#L" break="no" n="54"/>tonem, et intellectivum sequentem 
+          co<lb ed="#L" break="no" n="55"/>gnitionem. Isti duo appetitus summe
+          <lb ed="#L" n="56"/>tendunt in objecta maxime delectabilia.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e1200">
+          <lb ed="#L" n="57"/>Secundo praemitto, quod in eadem 
+          vo<lb ed="#L" break="no" n="58"/>luntate est alius appetitus liber, quo ipsa
+          <lb ed="#L" n="59"/>voluntas potest conformiter velle aliis
+          <lb ed="#L" n="60"/>appetitibus, et difformiter; patet, quia
+          <lb ed="#L" n="61"/>appetitus naturalis voluntatis est ad
+          <lb ed="#L" n="62"/>summam beatitudinem, semper et summe,
+          <lb ed="#L" n="63"/>et tamen appetitus liber non semper vult
+          <lb ed="#L" n="64"/>illam, sed pro illo tempore, pro quo Deus
+          <lb ed="#L" n="65"/>vult sibi dare, et sic vult difformiter illis
+          <lb ed="#L" n="66"/>appetitibus.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e1224">
+          <lb ed="#L" n="67"/>Tertio praemitto, quod ista libertas
+          <lb ed="#L" n="68"/>dicitur moderatrix affectionis commodi,
+          <lb ed="#L" n="69"/>et hoc dupliciter. Primo, non volendo 
+          il<lb ed="#L" break="no" n="70"/>lud, in quod affectio commodi tendit.
+          <lb ed="#L" n="71"/>Secundo, non volendo ita intense. De ista
+          <lb ed="#L" n="72"/>autem moderatione, dictum est in primo,
+          <lb ed="#L" n="73"/>distinct. A1. et sic patet ista tertia 
+          pro<lb ed="#L" break="no" n="74"/>positio, et patet littera sequens usque
+          <lb ed="#L" n="75"/>ibi : Ipsa eadem facta jam libera.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e1246">
+          <lb ed="#L" n="76"/>Quod dicit hic, quod eadem res 
+          inclu<lb ed="#L" break="no" n="77"/>dit, etc. clare patebit infra distinct. 16.
+          <lb ed="#L" n="78"/>quest. 2. quomodo eadem anima 
+          intel<lb ed="#L" break="no" n="79"/>lectiva virtualiter includit potentiam 
+          in<lb ed="#L" break="no" n="80"/>tellectivam et volitivam, quae sunt 
+          distin<lb ed="#L" break="no" n="81"/>cte perfectiones ex natura rei, in ipsa
+          <lb ed="#L" n="82"/>anima non realiter distinctae, nec ab 
+          invi<lb ed="#L" break="no" n="83"/>cem, nec ab ipsa anima; prout ergo ipsa
+          <lb ed="#L" n="84"/>anima, sive natura Angeli consideratur,
+          <lb ed="#L" n="85"/>ut includit libertatem voluntatis, plures
+          <lb ed="#L" n="86"/>rationes perfectionales virtualiter includit,
+          <lb ed="#L" n="87"/>quia intellectum :et voluntatem, quam si
+          <lb ed="#L" n="88"/>eam non includeret.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e1277">
+          <pb ed="#L" n="358"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>(d) Per hoc ergo ad argumenta. Nunc
+          <lb ed="#L" n="2"/>Doctor solvit illas tres rationes superius
+          <lb ed="#L" n="3"/>factas. Ad primam dicit tria. Primo 
+          con<lb ed="#L" break="no" n="4"/>cedit, quod appetunt naturaliter 
+          beatitudi<lb ed="#L" break="no" n="5"/>nem, et tali appetitu nullo modo peccant;
+          <lb ed="#L" n="6"/>cum ille, et ejus inclinatio sita Deo; et
+          <lb ed="#L" n="7"/>tale appetere non est aqjus elicitus, sed
+          <lb ed="#L" n="8"/>solum inclinatio naturae, ut probabit in 4.
+          <lb ed="#L" n="9"/>dist. 49. quest. 10. art. 1. El posito,
+          <lb ed="#L" n="10"/>quod esset actus elicitus, adhuc non esset
+          <lb ed="#L" n="11"/>peccatum, quia ille de necessitate 
+          elicere<lb ed="#L" break="no" n="12"/>tur. Secundo dicit, quod voluntas, ut 
+          libe<lb ed="#L" break="no" n="13"/>ra in appetendo beatitudinem, potest 
+          pec<lb ed="#L" break="no" n="14"/>care, cum teneatur moderari naturalem
+          <lb ed="#L" n="15"/>appetitum, ut, expositum est supra. 
+          Ter<lb ed="#L" break="no" n="16"/>tio dicit, quod quamvis appetitus 
+          natura<lb ed="#L" break="no" n="17"/>lis semper sit rectus, tamen voluntas 
+          libe<lb ed="#L" break="no" n="18"/>ra potest peccare, volendo conformiter
+          <lb ed="#L" n="19"/>tali appetitui, quia tenetur se conformare
+          <lb ed="#L" n="20"/>regule superiori, scilicet. voluntati 
+          divi<lb ed="#L" break="no" n="21"/>ne, quod magis patebit in quarto, 
+          di<lb ed="#L" break="no" n="22"/>stinct. 90.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e1332">
+          <lb ed="#L" n="23"/>(e) Ad secundum dico per idem. Dat
+          <lb ed="#L" n="24"/>duas responsiones, quarum prima est,
+          <lb ed="#L" n="25"/>quod non est simile de voluntate et 
+          intel<lb ed="#L" break="no" n="26"/>lectu, quia intellectus de necessitate 
+          natu<lb ed="#L" break="no" n="27"/>rm assentit vero, voluntas autem libere
+          <lb ed="#L" n="28"/>et contingenter, et ideo potest peccare;
+          <lb ed="#L" n="29"/>potest enim avertere intellectum a 
+          consi<lb ed="#L" break="no" n="30"/>deratione objecti, et si speculatio objecti
+          <lb ed="#L" n="31"/>sit peccatum materialiter, tenetur avertere
+          <lb ed="#L" n="32"/>intellectum a. tali speculatione. Quomodo
+          <lb ed="#L" n="33"/>autem aliqua speculatio possit dici 
+          pecca<lb ed="#L" break="no" n="34"/>tum materialiter, patebit in ?sto 2. dist. 42.
+          <lb ed="#L" n="35"/>quest. 2. Et similiter quomodo 
+          intelliga<lb ed="#L" break="no" n="36"/>tür ista propositio : sicut. principium. in
+          <lb ed="#L" n="37"/>speculabilibus, ita finis, etc. aliqualiter
+          <lb ed="#L" n="38"/>patet a Doctore ?n prologo, qutest. ultima,
+          <lb ed="#L" n="39"/>et multo clarius patet nm primo, 
+          di<lb ed="#L" break="no" n="40"/>stinct. 1. quest. ^.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e1374">
+          <lb ed="#L" n="41"/>(f) Aliter potest dici. Secunda responsio
+          <lb ed="#L" n="42"/>est, tenendo similitudinem intellectus et
+          <lb ed="#L" n="43"/>voluntatis, intellectus circa verum, 
+          vo<lb ed="#L" break="no" n="44"/>luntas circa finem. Concedit Doctor quod
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>sicut intellectus non errat circa primum
+          <lb ed="#L" n="46"/>verum, assentiendo illi primo vero in
+          <lb ed="#L" n="47"/>se, sic voluntas non peccat, volendo
+          <lb ed="#L" n="48"/>ulimum finem in se, quia talis 
+          voli<lb ed="#L" break="no" n="49"/>tio est volitio amicitie, quae circa 
+          ulti<lb ed="#L" break="no" n="50"/>mum finem nullo modo potest esse
+          <lb ed="#L" n="51"/>inordinata, ut supra patuit. Et sicut 
+          intel<lb ed="#L" break="no" n="52"/>lectus potest errare circa primum —
+          ve<lb ed="#L" break="no" n="53"/>rum, assentiaendo illi propter aliud, sic
+          <lb ed="#L" n="54"/>voluntas potest peccare circa ultimum 
+          fi<lb ed="#L" break="no" n="55"/>nem, volendo illum eo modo quo non
+          <lb ed="#L" n="56"/>convenit, qui modus supra patuit.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e1414">
+          <lb ed="#L" n="57"/>(g) Ad tertium, concedit quod in bonis
+          <lb ed="#L" n="58"/>erat appetitus naturalis ad beatitudinem,
+          <lb ed="#L" n="59"/>et tanta inclinatio, etiam major inclinatio,
+          <lb ed="#L" n="60"/>si natura eorum fuit ita perfecta ; tamen
+          <lb ed="#L" n="61"/>boni non peccarunt, quia libertate sus
+          <lb ed="#L" n="62"/>voluntatis moderabantur talem appetitum,
+          <lb ed="#L" n="63"/>actu enim elicito sic volebant 
+          beatitudi<lb ed="#L" break="no" n="64"/>nem, sicut ex divina determinatione eis
+          <lb ed="#L" n="65"/>congruebat.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e1436">
+          <lb ed="#L" n="66"/>(h) Et cum dicitur. Ad auctoritatem
+          <lb ed="#L" n="67"/>Anselmi, scilicet voluntas commodum non
+          <lb ed="#L" n="68"/>velle nequit. Doctor dicit, quod boni nec
+          <lb ed="#L" n="69"/>potuerunt, nec voluerunt nolle sibi 
+          beati<lb ed="#L" break="no" n="70"/>tudinem, etiam concupiscendo. Hic esset
+          <lb ed="#L" n="71"/>bona difficultas, an voluntas possit nolle
+          <lb ed="#L" n="72"/>beatitudinem, ex quo libere est respectu
+          <lb ed="#L" n="73"/>utriusque actus, Dicerem tamen, quod ex
+          <lb ed="#L" n="74"/>quo in beatitudine nulla ratio mali 
+          appa<lb ed="#L" break="no" n="75"/>ret, sed tantum ratio boni, quod voluntas
+          <lb ed="#L" n="76"/>non posset nolle, nec odire eam. Sed 
+          quo<lb ed="#L" break="no" n="77"/>modo hoc stat cum perfecta libertate 
+          vo<lb ed="#L" break="no" n="78"/>luntatis,inferius declarabitur ?n isto 
+          secun<lb ed="#L" break="no" n="79"/>do. Sequitur in littera : Sed illam non
+          <lb ed="#L" n="80"/>voluerunt. plus sibi, quam Deo bene esse
+          <lb ed="#L" n="81"/>in se, etc. Vult dicere quod boni prius
+          <lb ed="#L" n="82"/>voluerunt Deo bene esse, amando ipsum
+          <lb ed="#L" n="83"/>amore amicitie, et plus quam 
+          quodcum<lb ed="#L" break="no" n="84"/>que aliud, et per consequens si voluerunt
+          <lb ed="#L" n="85"/>beatitudinem actu elicito, eam voluerunt
+          <lb ed="#L" n="86"/>eo modo quod eis congruebat ex determi.
+          <lb ed="#L" n="87"/>natione divinae voluntatis, et sic Angeli
+          <lb ed="#L" n="88"/>boni moderabantur affectionem commodi
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e1488">
+          <pb ed="#L" n="359"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>(1) Et si objicias, etc. Dicit, quod 
+          appe<lb ed="#L" break="no" n="2"/>tere, sive concupiscere actum perfectum,
+          <lb ed="#L" n="3"/>ut per illum magis habeat objectum in se,
+          <lb ed="#L" n="4"/>est ex affectione justitiee, etc. Et videtur
+          <lb ed="#L" n="5"/>dicere Doctor quod si voluntas appeteret
+          <lb ed="#L" n="6"/>illam beatitudinem, ut tantum sisteret in
+          <lb ed="#L" n="7"/>tali amore concupiscentiwe, non recte 
+          ap<lb ed="#L" break="no" n="8"/>peteret. Si vero appetat iilam, puta 
+          frui<lb ed="#L" break="no" n="9"/>tionem essentic, clare visce, ut magis
+          <lb ed="#L" n="10"/>amet illam amore amiciti:, tunc bene
+          <lb ed="#L" n="11"/>amat, et hoc si appetit, sicut sibi congruit
+          <lb ed="#L" n="12"/>ex determinatione divinae voluntatis.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d6q2-p5">-->
+        <p xml:id="mm30o9-d1e1881-d1e1523">
+          <lb ed="#L" n="77" type="fixed=359"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e1528">
+          <lb ed="#L" n="78"/>(k) Viso igitur de primo inordinate
+          <lb ed="#L" n="79"/>concupito. Dicit Doctor, quod ultra 
+          pri<lb ed="#L" break="no" n="80"/>mum inordinate concupitum amore 
+          concu<lb ed="#L" break="no" n="81"/>piseentite, quod fuit ipsa beatitudo, ut
+          <lb ed="#L" n="82"/>supra patuit, potuit inordinate 
+          concupisce<lb ed="#L" break="no" n="83"/>re multa alia, puta excellentiam respectu
+          <lb ed="#L" n="84"/>aliorum. Et ultra habuit inordinata nolle,
+          <lb ed="#L" n="85"/>nolendo opposita eorum, quae concupivit,
+          <pb ed="#L" n="360"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>quia sicut immoderate concupivit 
+          sum<lb ed="#L" break="no" n="2"/>mam beatitudinem, ita immoderate 
+          no<lb ed="#L" break="no" n="3"/>luit oppositum ejus, et patet littera.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e1560">
+          <lb ed="#L" n="4"/>(I) Sed hic. est unum dubiwm. Hic 
+          Do<lb ed="#L" break="no" n="5"/>ctor videtur tenere, sicut etiam alibi,
+          <lb ed="#L" n="6"/>quod Deus in se odiri non possit, nec 
+          si<lb ed="#L" break="no" n="7"/>militer aliqua — perfectio attributa Deo,
+          <lb ed="#L" n="8"/>cum ibi nulla ratio mali reperiatur, sed
+          <lb ed="#L" n="9"/>tantum ratio boni, effectus tamen Dei,
+          <lb ed="#L" n="10"/>puta effectus justitite. vindicativae potest
+          <lb ed="#L" n="11"/>odiri, et per consequens concomitanter
+          <lb ed="#L" n="12"/>videtur quod Deus possit odiri.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e1582">
+          <lb ed="#L" n="13"/>In ista littera occurrit non parva 
+          diffi<lb ed="#L" break="no" n="14"/>cultas, videlicet, quare voluntas non
+          <lb ed="#L" n="15"/>possit Deum odire in se, ex quo habet ens,
+          <lb ed="#L" n="16"/>inquantum ens, pro objecto sibi 
+          adeequa<lb ed="#L" break="no" n="17"/>to, ut supra patuit praesenti dist. q. 1.
+          <lb ed="#L" n="18"/>et in quarto, dist. 49. et in primo, dist. 3.
+          <lb ed="#L" n="19"/>g. 3. ubi vult, quod idem sub eadem 
+          ra<lb ed="#L" break="no" n="20"/>tione formali sit objectum intellectus et
+          <lb ed="#L" n="21"/>voluntatis; cum ergo ipsa voluntas sit
+          <lb ed="#L" n="22"/>libera respectu cujuscumque contenti sub
+          <lb ed="#L" n="23"/>ejus objecto adeequato, quare non potest
+          <lb ed="#L" n="24"/>esse libera circa Deum, ipsum libere, vel
+          <lb ed="#L" n="25"/>volendo, vel nolendo? tum, quia ipsa est
+          <lb ed="#L" n="26"/>essentialiter libera ex hoc, quod potest
+          <lb ed="#L" n="27"/>libere elicere actus suos, ut patet a 
+          Docto<lb ed="#L" break="no" n="28"/>re in primo, dist. 1. et 10. et in. isto 
+          se<lb ed="#L" break="no" n="29"/>cundo, dist. 25. et per Augustinum primo
+          <lb ed="#L" n="30"/>Retract. Nihil est tam in potestate 
+          volun<lb ed="#L" break="no" n="31"/>tatis, quam ipsa. voluntas, id est, quam
+          <lb ed="#L" n="32"/>ipse actus voluntatis, sicut Doctor 
+          expo<lb ed="#L" break="no" n="33"/>nit in primo, dist. 1. q. 2. dist 1. et in
+          <lb ed="#L" n="34"/>quarto, d. 49. et sic videtur quod sicut
+          <lb ed="#L" n="35"/>potest velle Deum in se, quod ita possit
+          <lb ed="#L" n="36"/>nolle Deum in se, et odire, tum quia isti
+          <lb ed="#L" n="37"/>duo actus nolle et velle respectu ejusdem
+          <lb ed="#L" n="38"/>objecti sunt contrarii, ut patet a Doctore
+          <lb ed="#L" n="39"/>in tertio, dist. 30. et alibi, ergo sicut
+          <lb ed="#L" n="40"/>voluntas potest habere velle circa unum
+          <lb ed="#L" n="41"/>objectum, ita et nolle circa illud idem.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e1647">
+          <lb ed="#L" n="42"/>Dico sustinendo, quod non possit Deus
+          <lb ed="#L" n="43"/>odiri in se, quamvis Doctor de hoc dubie
+          <lb ed="#L" n="44"/>loquatur in primo, distinctione prima,
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>quod voluntas habet ens inquantum ens
+          <lb ed="#L" n="46"/>pro objecto adaequato, sic quod potest 
+          vel<lb ed="#L" break="no" n="47"/>le illud, vel in ordine ad se, vel in ordine
+          <lb ed="#L" n="48"/>ad aliud, ut patet a Doctore ?n ista 
+          quc<lb ed="#L" break="no" n="49"/>stione. Respectu autem nolle non habet
+          <lb ed="#L" n="50"/>simpliciter ens, inquantum ens, sed habet
+          <lb ed="#L" n="51"/>ens creatum, in quo est defectus alicujus
+          <lb ed="#L" n="52"/>boni, et etiam aliquando potest esse ratio
+          <lb ed="#L" n="53"/>alicujus mali. Et quia ipse Deus est 
+          sum<lb ed="#L" break="no" n="54"/>mum bonum, in quo nulla est ratio 
+          alicu<lb ed="#L" break="no" n="55"/>jus mali, nec defectus alicajus boni, ideo
+          <lb ed="#L" n="56"/>non potest illum odire, nec Doctor dicit,
+          <lb ed="#L" n="57"/>quod respectu cujuscumque entis 
+          habe<lb ed="#L" break="no" n="58"/>at velle et nolle, sed bene dicit quod habet
+          <lb ed="#L" n="59"/>velle.Et cum dicitur,quod est essentialiter
+          <lb ed="#L" n="60"/>libera, etc. dico, quod libertas proprie non
+          <lb ed="#L" n="61"/>attenditur penes actus contrarios, quia
+          <lb ed="#L" n="62"/>tunc Sol posset dici agens libere, quia
+          <lb ed="#L" n="63"/>potest habere actus contrarios, puta 
+          con<lb ed="#L" break="no" n="64"/>stringere et liquefacere; sed dicitur libera
+          <lb ed="#L" n="65"/>propter actus contradictorios, puta, quia
+          <lb ed="#L" n="66"/>est in potestate sua amare et non 
+          ama<lb ed="#L" break="no" n="67"/>re, et sic Doctor dicit m primo, dist. 1.
+          <lb ed="#L" n="68"/>et alibi, quod voluntas respectu 
+          cujus<lb ed="#L" break="no" n="69"/>cumque objecti potest velle et non velle,
+          <lb ed="#L" n="70"/>quae sunt contradictoria, et illud non velle
+          <lb ed="#L" n="71"/>est communiter actus suspensivus; agens
+          <lb ed="#L" n="72"/>vero naturale approximatum passo, non
+          <lb ed="#L" n="73"/>habet in potestate sua agere et non agere,
+          <lb ed="#L" n="74"/>et sic prima libertas voluntatis est 
+          princi<lb ed="#L" break="no" n="75"/>paliter respectu velle et non velle, et sic
+          <lb ed="#L" n="76"/>beatitudinem sibi ostensam potest velle et
+          <lb ed="#L" n="77"/>non velle, non tamen potest nolle, sed de
+          <lb ed="#L" n="78"/>ista materia alibi amplius dicetur.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d6q2-p6">-->
+        <p xml:id="mm30o9-d1e1881-d1e1734">
+          <lb ed="#L" n="49" type="fixed=362"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e1739">
+          <lb ed="#L" n="50"/>(a) Quantum ad primum. Hic Doctor
+          <lb ed="#L" n="51"/>recitat opinionem <ref xml:id="mm30o9-d1e1881-Rd1e1745">Bonaventure in 
+            secun<lb ed="#L" break="no" n="52"/>do, dist. 5.</ref> qui videtur tenere, quod 
+          pri<lb ed="#L" break="no" n="53"/>mum peccatum mali Angeli, quale fuit
+          <lb ed="#L" n="54"/>immoderatus amor respectu sui, sit 
+          super<lb ed="#L" break="no" n="55"/>bia; et nititur hoc probare auctoritate
+          <lb ed="#L" n="56"/>
+          <ref xml:id="mm30o9-d1e1881-Rd1e1759">Augustini 14. de Civit. Dei. cap. 13.</ref> ubi
+          <lb ed="#L" n="57"/>vult quod praesumptio est nimis placere
+          <lb ed="#L" n="58"/>sibi, et ideo superbi in Scriptura dicuntur
+          <lb ed="#L" n="59"/>placentes sibi.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e1769">
+          <lb ed="#L" n="60"/>(b) Sed hic videtur dubium. Hic Doctor
+          <lb ed="#L" n="61"/>probat quod immoderata complacentia
+          <lb ed="#L" n="62"/>sul, sive immoderatus amor amicitiae
+          <lb ed="#L" n="63"/>respectu sui, non potest proprie dici 
+          su<lb ed="#L" break="no" n="64"/>perbia, et hoc propter rationes formales
+          <lb ed="#L" n="65"/>distinctas, scilicet superbice et amoris
+          <lb ed="#L" n="66"/>amicitiee immoderatae respectu sui, quia
+          <lb ed="#L" n="67"/>superbia proprie est immoderatus 
+          appeti<lb ed="#L" break="no" n="68"/>tus proprie excellentic, id. est, 
+          immode<lb ed="#L" break="no" n="69"/>ratus amor coneupiscentiae propriae 
+          excel<lb ed="#L" break="no" n="70"/>lentiie ; immoderata vero complacentia
+          <lb ed="#L" n="71"/>sui, est immoderatus amor amicitiae sui,
+          <lb ed="#L" n="72"/>et sic patet. quomodo iste rationes sunt
+          <lb ed="#L" n="73"/>divers.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e1802">
+          <lb ed="#L" n="74"/>(c) Item. secundo. praesumptuosus, etc.
+          <lb ed="#L" n="75"/>Dicit quod si immoderata complacentia
+          <lb ed="#L" n="76"/>sui esset superbia, praecipue pertineret
+          <lb ed="#L" n="77"/>ad praesumptionem, quae est species 
+          su<lb ed="#L" break="no" n="78"/>perbiae , sed hoc non, quia praesumptuosus
+          <lb ed="#L" n="79"/>videtur praeferre se aliis, vel in bonis quae
+          <lb ed="#L" n="80"/>habet vere, vel in his quia reputat habere
+          <lb ed="#L" n="81"/>dese, sed immoderata complacentia sui
+          <lb ed="#L" n="82"/>non est hujusmodi; patet, quia ejusdem
+          <lb ed="#L" n="83"/>rationis videtur esse in malitia, videlicet,
+          <lb ed="#L" n="84"/>immoderate se amare amore amicitia,
+          <lb ed="#L" n="85"/>et alium ut proximum, Sed amando alium
+          <lb ed="#L" n="86"/>immoderate nullus dicitur superbus vel
+          <pb ed="#L" n="363"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>praesumptuosus, sed magis luxuriosus ;
+          <lb ed="#L" n="2"/>ergo nec sic amando se,
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e1841">
+          <lb ed="#L" n="3"/>(d) Ideo dico. Hic Doctor determinat
+          <lb ed="#L" n="4"/>se loquendo de superbia proprie dicta,
+          <lb ed="#L" n="5"/>quod immoderatus amor sui non potest
+          <lb ed="#L" n="6"/>dici superbia, sed propter maximam 
+          de<lb ed="#L" break="no" n="7"/>lectationem in amando se immoderate, 
+          ta<lb ed="#L" break="no" n="8"/>lis amor potest reduci ad luxuriam.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e1857">
+          <lb ed="#L" n="9"/>(e) Ad. ista dico. Hic Doctor solvit illa
+          <lb ed="#L" n="10"/>argumenta, quibus probat immoderatum
+          <lb ed="#L" n="11"/>amorem sui non pertinere ad superbiam,
+          <lb ed="#L" n="12"/>nec ad aliquam speciem ejus. Adverte
+          <lb ed="#L" n="13"/>tamen, quod expresse tenet, quod 
+          immo<lb ed="#L" break="no" n="14"/>deratus amor respectu sui, non potest 
+          di<lb ed="#L" break="no" n="15"/>ci superbia proprie dicta, sed magis 
+          lu<lb ed="#L" break="no" n="16"/>xuria. Et si potest nominari superbia vel
+          <lb ed="#L" n="17"/>praesumptio, hoc erit improprie; et hoc
+          <lb ed="#L" n="18"/>modo solvit illa argumenta, quae 
+          viden<lb ed="#L" break="no" n="19"/>tur probare, quod talis amor nullo modc
+          <lb ed="#L" n="20"/>sit superbia, et sic respondet ad illa, 
+          te<lb ed="#L" break="no" n="21"/>nendo quod saltem sit superbia improprie
+          <lb ed="#L" n="22"/>dicta, et praesertim quod dicatur 
+          praesum<lb ed="#L" break="no" n="23"/>ptio. Dicit ergo, amans aliquod bonum
+          <lb ed="#L" n="24"/>immoderate, vult. illud. immoderate esse
+          <lb ed="#L" n="25"/>magnum bonum, imo maximum, et ideo
+          <lb ed="#L" n="26"/>immoderate, quia absque eo quod velit
+          <lb ed="#L" n="27"/>aliquid. evenire, per quod. crescat, vult
+          <lb ed="#L" n="28"/>illud majus esse quam sit. Hic declarat
+          <lb ed="#L" n="29"/>quare quis dicatur immoderate diligere,
+          <lb ed="#L" n="30"/>dicit quod hoc contingit, quando non
+          <lb ed="#L" n="31"/>querit media debita, per quia illud 
+          bo<lb ed="#L" break="no" n="32"/>num crescat, et sic diligens se 
+          immodera<lb ed="#L" break="no" n="33"/>te vult bonum suum esse summum, non
+          <lb ed="#L" n="34"/>tamen qusrit, unde hoc sit, nec debita
+          <lb ed="#L" n="35"/>media, et quia non potest aliquod bonum
+          <lb ed="#L" n="36"/>infinitum esse majus quam sit, 
+          praesum<lb ed="#L" break="no" n="37"/>ptuosi hoc non potentes attingere volunt
+          <lb ed="#L" n="38"/>bonum suum esse maximum, et hoc vel in
+          <lb ed="#L" n="39"/>comparatione, ut praesit bonis aliorum, et
+          <lb ed="#L" n="40"/>ita voluntas talium primo est circa bonum
+          <lb ed="#L" n="41"/>suum, ut sit maximum; secundo est circa
+          <lb ed="#L" n="42"/>illud bonum, ut praeemineat et dominetur
+          <lb ed="#L" n="43"/>aliis, et sic voluntas dominandi sequitur
+          <lb ed="#L" n="44"/>velle quo auis vult suum bonum immode-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>rate, et ideo in re praesumptio praecedit
+          <lb ed="#L" n="46"/>superbiam proprie acceptam, ut vicelicet
+          <lb ed="#L" n="47"/>est immoderatus appetitus propric 
+          excel<lb ed="#L" break="no" n="48"/>lenti:e, ut supra exposui. Et nota, quod
+          <lb ed="#L" n="49"/>duplex est excellentia, scilicet excellentia,
+          <lb ed="#L" n="50"/>quae est relatio in ordine ad alios, quos
+          <lb ed="#L" n="51"/>quis excellit, et hoc est proprie objectum
+          <lb ed="#L" n="52"/>superbie. Alio modo accipitur excellentia
+          <lb ed="#L" n="53"/>ut est quid absolutum, et sic excellentia
+          <lb ed="#L" n="54"/>non est aliud, nisi magnitudo in se, et
+          <lb ed="#L" n="55"/>sic praessumptuosus habet immoderatum
+          <lb ed="#L" n="56"/>amorem respectu su:e excellentis, sive
+          <lb ed="#L" n="57"/>magnitudinis in se, ex qua magnitudine
+          <lb ed="#L" n="58"/>sequitur excellentia, quae est relatio ad
+          <lb ed="#L" n="59"/>alios.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e1972">
+          <lb ed="#L" n="60"/>(f) Ad secundum dico, quod 
+          praesum<lb ed="#L" break="no" n="61"/>ptio non est peccatwm — intellectus, ut
+          <lb ed="#L" n="62"/>quidam voluerunt dicere, quas? intellectus
+          <lb ed="#L" n="63"/>praesumptuosi. judicaret, vel ostenderet se
+          <lb ed="#L" n="64"/>esse tantum, quantus non est, quia tunc
+          <lb ed="#L" n="65"/>in Angelis fuisset ignorantia ante 
+          pecca<lb ed="#L" break="no" n="66"/>tum, quod non tenetur, sed. est peccatum
+          <lb ed="#L" n="67"/>voluntatis immoderate appetentis bonum
+          <lb ed="#L" n="68"/>suum. esse tantum quantum non est, et ex
+          <lb ed="#L" n="69"/>hoc sequitur exececatio intellectus.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e1996">
+          <lb ed="#L" n="70"/>(g) Sed quando additur, quod etiam
+          <lb ed="#L" n="71"/>illud, etc. Patet responsio ex supradictis,
+          <lb ed="#L" n="72"/>quod tale vel/e fuit praesumptio et 
+          super<lb ed="#L" break="no" n="73"/>bia communiter dicta, qua quis vult 
+          bo<lb ed="#L" break="no" n="74"/>num, quod amat esse excellens in se et
+          <lb ed="#L" n="75"/>absolute, et si ultra hoc appetit illud 
+          bo<lb ed="#L" break="no" n="76"/>num, quod sic amat prcecedere alia bona,
+          <lb ed="#L" n="77"/>ita quod appetitus talis excellentis dicat
+          <lb ed="#L" n="78"/>relationem ad alios, tunc erit superbia
+          <lb ed="#L" n="79"/>magis proprie.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d6q2-p7">-->
+        <p xml:id="mm30o9-d1e1881-d1e2023">
+          <lb ed="#L" n="78" type="fixed=365"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e2028">
+          <lb ed="#L" n="79"/>(a) Quantum vero ad. deordinationem.
+          <lb ed="#L" n="80"/>Hic Doctor dicit duo :
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e2035">
+          <lb ed="#L" n="81"/>Primum, quod appetitus beatitudinis
+          <lb ed="#L" n="82"/>non fuit proprie superbia; patet, quia
+          <lb ed="#L" n="83"/>non quantum ad ejus primam speciem, 1
+          <lb ed="#L" n="84"/>quia praesumptio si pertinebat ad primum
+          <lb ed="#L" n="85"/>velle inordinatum amicitie, non pertinet
+          <lb ed="#L" n="86"/>ad aliquod inordinatum velle concunpi-
+          <pb ed="#L" n="366"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>scentiae, ut patet, quia distinctae sunt
+          <lb ed="#L" n="2"/>rationes respectu velle amicitiae, et velle
+          <lb ed="#L" n="3"/>concupiscentiae.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e2061">
+          <lb ed="#L" n="4"/>Secundum est, quod appetitus 
+          beatitu<lb ed="#L" break="no" n="5"/>dinis immoderatus magis consonat peccato
+          <lb ed="#L" n="6"/>luxurie, pro quanto omne delectabile
+          <lb ed="#L" n="7"/>immoderate appetitum, nquantum  
+          de<lb ed="#L" break="no" n="8"/>lectabile, potest dici luxuria, etc.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e2074">
+          <lb ed="#L" n="9"/>(b) Quantum ad deordinationem
+          <lb ed="#L" n="10"/>lerti?, etc. Quia nollens aliquid, vellet
+          <lb ed="#L" n="11"/>nolitum non esse, sicut patet de damnatis,
+          <lb ed="#L" n="12"/>quia nollunt detineri a voluntate divina
+          <lb ed="#L" n="13"/>in igne, ideo volunt tale nolitum non 
+          es<lb ed="#L" break="no" n="14"/>se, et per consequens volunt velle 
+          divi<lb ed="#L" break="no" n="15"/>num, quo detinentur ibi non esse, et hoc
+          <lb ed="#L" n="16"/>ex consequenti, quia nolunt talem 
+          puni<lb ed="#L" break="no" n="17"/>tionem, et per consequens volunt ipsam
+          <lb ed="#L" n="18"/>non esse, et quia talis punitio est 
+          aucto<lb ed="#L" break="no" n="19"/>ritate divina, ex consequenti volunt illam
+          <lb ed="#L" n="20"/>non esse, et ex hoc sequitur propositum,
+          <lb ed="#L" n="21"/>quia esse Dei erat majus esse Angelorum,
+          <lb ed="#L" n="22"/>et similiter sua beatitudine. Et quia non
+          <lb ed="#L" n="23"/>potuerunt habere beatitudinem, ut 
+          vole<lb ed="#L" break="no" n="24"/>bant, in tantum crevit appetitus habendi,
+          <lb ed="#L" n="25"/>et non habuerunt, et in hoc nolebant in
+          <lb ed="#L" n="26"/>habendo subjici Deo, ideo noluerunt Deum
+          <lb ed="#L" n="27"/>esse, et tristabantur de perfectione Dei,
+          <lb ed="#L" n="28"/>saltem concomitanter, et ita invidia, quia
+          <lb ed="#L" n="29"/>invidia est tristitia de bono alterius, quae
+          <lb ed="#L" n="30"/>tristitia sequitur ad nolitionem talis boni,
+          <lb ed="#L" n="31"/>et tamen positi, quia tristitia est ex his
+          <lb ed="#L" n="32"/>rebus, quia nobis nolentibus accidunt,
+          <lb ed="#L" n="33"/>ut patet per Augustinum 14. de Civil.
+          <lb ed="#L" n="34"/>Dei, ad quam invidiam communiter
+          <lb ed="#L" n="35"/>sequitur ira.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e2135">
+          <lb ed="#L" n="36"/>(c) Et si objiciatur de ipso 
+          concupisce<lb ed="#L" break="no" n="37"/>re, etc. Contra, dicit Doctor, quod divisio
+          <lb ed="#L" n="38"/>peccatorum, vel accipitur per oppositum
+          <lb ed="#L" n="39"/>ad septem habitus, scilicet quatuor 
+          mora<lb ed="#L" break="no" n="40"/>les, et tres Theologicos. Adhuc ista 
+          divi<lb ed="#L" break="no" n="41"/>sio est insufficiens, quia infidelitas et 
+          de<lb ed="#L" break="no" n="42"/>speratio non continentur sub aliquo
+          <lb ed="#L" n="43"/>istorum, licet enim temperanti:? 
+          oppo<lb ed="#L" break="no" n="44"/>natur gula et luxuria, et fortitudini ace-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>dia, justitia et avaritia, charitati ira, fidei
+          <lb ed="#L" n="46"/>autem et spei nullum aliorum opponitur,
+          <lb ed="#L" n="47"/>sed possunt stare cum fide et spe, et ita
+          <lb ed="#L" n="48"/>infidelitas et desperatio non erunt de 
+          nu<lb ed="#L" break="no" n="49"/>mero illorum septem, et sic insufficiens
+          <lb ed="#L" n="50"/>divisio. Aut ista divisio sumitur per
+          <lb ed="#L" n="51"/>oppositum ad actus bonos decem 
+          praece<lb ed="#L" break="no" n="52"/>ptorum, et sic deberent esse decem 
+          pec<lb ed="#L" break="no" n="53"/>cata capitalia secundum transgressionem
+          <lb ed="#L" n="54"/>Decalogi, et ita illa divisio non tenetur
+          <lb ed="#L" n="55"/>in omnibus actibus malis, quia sunt 
+          mul<lb ed="#L" break="no" n="56"/>ti actus mali, qui nec continentur sub
+          <lb ed="#L" n="57"/>aliquo septem, nec sub aliquo decem
+          <lb ed="#L" n="58"/>peccatorum.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e2191">
+          <lb ed="#L" n="59"/>Et addit, quod nec ista septem peccata
+          <lb ed="#L" n="60"/>sunt prima radices peccatorum, sed
+          <lb ed="#L" n="61"/>amor sui inordinatus, nec sunt principalia
+          <lb ed="#L" n="62"/>peecata, sed ista, odium Dei (si ponatur)
+          <lb ed="#L" n="63"/>desperatio, infidelitas, quae opponuntur
+          <lb ed="#L" n="64"/>primis habitibus bonis Theologicis, imo
+          <lb ed="#L" n="65"/>ista septem sunt radices valde communes,
+          <lb ed="#L" n="66"/>et magis occasiones peccatorum quam
+          <lb ed="#L" n="67"/>cause peccandi.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e2213">
+          <lb ed="#L" n="68"/>(d) Ad argumentum principalia. Ad
+          <lb ed="#L" n="69"/>primum. Respondet Doctor, concedendo
+          <lb ed="#L" n="70"/>quod tale peccatum est praesumptio, et
+          <lb ed="#L" n="71"/>hoc modo ponitur superbia, sed non fuit
+          <lb ed="#L" n="72"/>illa prima species superbire, secundum
+          <lb ed="#L" n="73"/>quod accipitur proprie superbia, ut supra
+          <lb ed="#L" n="74"/>expositum est, quae scilicet est appetitus
+          <lb ed="#L" n="75"/>excellentiae.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e2233">
+          <lb ed="#L" n="76"/>(e) Ad aliud. Dat duas responsiones. 
+          Pri<lb ed="#L" break="no" n="77"/>ma, quod auctoritas Joannis intelligitur
+          <lb ed="#L" n="78"/>de hominibus existentibus in hoc mundo.
+          <lb ed="#L" n="79"/>Secundo, quod si illud peccatum 
+          concu<lb ed="#L" break="no" n="80"/>piscendi in secundo gradu deberet reduci
+          <lb ed="#L" n="81"/>ad aliquod istorum, magis deberet reduci
+          <lb ed="#L" n="82"/>ad concupiscentiam oculorum, sicut in
+          <lb ed="#L" n="83"/>nobis ad concupiscentiam oculorum 
+          spec<lb ed="#L" break="no" n="84"/>tant immoderati appetitus alicujus 
+          visi<lb ed="#L" break="no" n="85"/>bilis pulchri, ita et in eis ad 
+          concupi<lb ed="#L" break="no" n="86"/>scentiam oculorum debet spectare 
+          immode<lb ed="#L" break="no" n="87"/>ratus appetitus delectabilis, et sic peccatum
+          <lb ed="#L" n="88"/>mali Aneeli. quod fuit respectu velle
+          <pb ed="#L" n="367"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>concupiscenti: magis debet reduci ad
+          <lb ed="#L" n="2"/>concupiscentiam oculorum, et illud non
+          <lb ed="#L" n="3"/>fuit simpliciter primum peccatum.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e2275">
+          <lb ed="#L" n="4"/>Ad tertium. Patet responsio.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e2280">
+          <lb ed="#L" n="5"/>Ad quartum — respondet nesando
+          <lb ed="#L" n="6"/>antecedens, quia fuerunt multa peccata,
+          <lb ed="#L" n="7"/>ut supra patuit dist. 5. art. 3. ubi sic dicit,
+          <lb ed="#L" n="8"/>quod n secunda mora, in qua fuerunt
+          <lb ed="#L" n="9"/>difformes in via, fuerunt multe morule,
+          <lb ed="#L" n="10"/>quia mali peccaverunt multis speciebus
+          <lb ed="#L" n="11"/>peccati, scilicet. superbia, odio, et 
+          in<lb ed="#L" break="no" n="12"/>vidia, et isti actus non in eodem instant?
+          <lb ed="#L" n="13"/>fuerunt eliciti: hsc ille. Et sic patet
+          <lb ed="#L" n="14"/>antecedens esse falsum. Et cum probatur
+          <lb ed="#L" n="15"/>per hoc, quod primum peccatum fuit
+          <lb ed="#L" n="16"/>irremediabile, dicit Doctor quod si 
+          poe<lb ed="#L" break="no" n="17"/>nituisset, quando peccavit secundo 
+          pec<lb ed="#L" break="no" n="18"/>cato invenisset veniam tamen ex quo
+          <lb ed="#L" n="19"/>in illo peccato devenit ad terminum. om-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="20"/>nia peccata ejus facta sunt 
+          irremedia<lb ed="#L" break="no" n="21"/>bilia.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e2322">
+          <lb ed="#L" n="22"/>(g) Ad primum argumentum. Hic
+          <lb ed="#L" n="23"/>probat quatuor rationibus, quod 
+          pecca<lb ed="#L" break="no" n="24"/>tum eorum non fuerit superbia, quod
+          <lb ed="#L" n="25"/>tamen debet intelligi, ut exposui ?n 
+          cor<lb ed="#L" break="no" n="26"/>pore questionis, quod si quis vellet
+          <lb ed="#L" n="27"/>sustinere, quod fuerit superbia eo modo
+          <lb ed="#L" n="28"/>quo expositum est, poterit respondere
+          <lb ed="#L" n="29"/>ad ista argumenta, qua probant non
+          <lb ed="#L" n="30"/>fuisse superbiam. Primum argumentum
+          <lb ed="#L" n="31"/>stat in hoc: Superbia non est maximum
+          <lb ed="#L" n="32"/>peccatum, sed peccatum mali Angeli fuit
+          <lb ed="#L" n="33"/>maximum; ergo. Major patet, quia 
+          op<lb ed="#L" break="no" n="34"/>positum non est maximum bonum, quod
+          <lb ed="#L" n="35"/>est humilitas.
+        </p>
+        <p xml:id="mm30o9-d1e1881-d1e2356">
+          <lb ed="#L" n="36"/>Respondet Doctor negando minorem,
+          <lb ed="#L" n="37"/>quia primum peccatum eorum non fuit
+          <lb ed="#L" n="38"/>maximum, etc. Reliqua patent.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

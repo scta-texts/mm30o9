@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#per-FLBca3">Franciscus Lychetus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2024-08-25">August 25, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x12">Vives, Paris, 1893, volume 12</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="643"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="mm30o9-d1e2012"><!-- lycht-l2d14q1-p2 -->
+        <head xml:id="mm30o9-d1e2012-Hd1e101">Quaestio 1</head>
+        <p xml:id="mm30o9-d1e2012-d1e103">
+          <lb ed="#L" n="9" type="fixed=643"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e2012-d1e108">
+          <lb ed="#L" n="10"/>(a) Respondeo. Circa primam  
+          quaesti<lb ed="#L" break="no" n="11"/>onem, quae est: An in coelo sit materia,
+          <lb ed="#L" n="12"/>qui sit pars intrinseca coeli. Dicit Doctor
+          <lb ed="#L" n="13"/>quod in hoc Philosophi discordant a 
+          Theo<lb ed="#L" break="no" n="14"/>logis. Loquendo enim secundum 
+          inlen<lb ed="#L" break="no" n="15"/>tionem Philosophi, oportet negare omnem
+          <lb ed="#L" n="16"/>materiam in coelo, et ratio Philosophi stat
+          <lb ed="#L" n="17"/>in hoc: omne sempiternum est 
+          simplici<lb ed="#L" break="no" n="18"/>ter necessarium ; sed corpora cueleslia
+          <lb ed="#L" n="19"/>sunt sempiterna; ergo sunt simpliciter
+          <lb ed="#L" n="20"/>necessaria. Major patet, primo Celi et
+          <lb ed="#L" n="21"/>Mundi, text. com. 38. et com. 39. hoc
+          <lb ed="#L" n="22"/>idem patet 9. Met. text. com. 17. Et
+          <lb ed="#L" n="23"/>ultra, si ecclum est necessarium, ergo
+          <lb ed="#L" n="24"/>non habet materiam. Consequentia patet,
+          <lb ed="#L" n="25"/>quia materia est potentia 
+          contradicti<lb ed="#L" break="no" n="26"/>onis, et per consequens est id quo res
+          <lb ed="#L" n="27"/>potest esse et non esse, et hoc tolum
+          <lb ed="#L" n="28"/>patet 9. Met. text. com. 17. Est, inquit,
+          <lb ed="#L" n="29"/>nihil potentia sempiternum, ratio vero
+          <lb ed="#L" n="30"/>hac omnis potentia simul contradictionis
+          <lb ed="#L" n="31"/>est. Hxc ille. Si ergo coelum haberet 
+          ma<lb ed="#L" break="no" n="32"/>teriam, tunc talis materia esset in 
+          po<lb ed="#L" break="no" n="33"/>lentia ad formam eoli et ad privationem
+          <lb ed="#L" n="34"/>ejus, et per consequens colum esset
+          <lb ed="#L" n="35"/>corruptibile, sicut ignis. Dato enim quod
+          <lb ed="#L" n="36"/>non esset aliquod agens extra 
+          extrinse<lb ed="#L" break="no" n="37"/>cum, quod posset ipsum coelum 
+          corrum<lb ed="#L" break="no" n="38"/>pere, quia colum non haberet 
+          contra<lb ed="#L" break="no" n="39"/>rium, et omne corruptibile corrumpitur
+          <lb ed="#L" n="40"/>a contrario, hoc non tolleret quin intra
+          <lb ed="#L" n="41"/>haberet principium corruptionis, scilicet
+          <lb ed="#L" n="42"/>materiam, qua res potest esse et non
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="43"/>esse, sicut ignis. Et in hoc videtur ille
+          <lb ed="#L" n="44"/>Averroes in iractatu de Substantia orbis,
+          <lb ed="#L" n="45"/>melius habere intentionem Philosophi
+          <lb ed="#L" n="46"/>quam alii, ponentes in ecelo materiam ;
+          <lb ed="#L" n="47"/>nam ipse Averroes probat, quod coelum
+          <lb ed="#L" n="48"/>non sit compositum ex materia et forma.
+          <lb ed="#L" n="49"/>Vide cap. secundo: Dicamus igttur, inquit,
+          <lb ed="#L" n="50"/>quomodo illud corpus non. componitur ex
+          <lb ed="#L" n="51"/>materia et forma, sicut generabilia et
+          <lb ed="#L" n="52"/>corruptibilia componuntur ; nulla enim
+          <lb ed="#L" n="53"/>potentia est in ea omnino, non enim. in
+          <lb ed="#L" n="54"/>quo est potentia, nisi ad duo 
+          contradi<lb ed="#L" break="no" n="55"/>cloria. Hxc ille. Et hoc probat in o
+          <lb ed="#L" n="56"/>cap. hoc idem capit. ultimo.
+        </p>
+        <p xml:id="mm30o9-d1e2012-d1e215">
+          <lb ed="#L" n="57"/>(b) Ad ostendendum tamen, etc. et hoc
+          <lb ed="#L" n="58"/>probat ibi Philosophus, ex hoc quod 
+          ele<lb ed="#L" break="no" n="59"/>mentum habet contrarium, et coelo nihil
+          <lb ed="#L" n="60"/>contrariatur ; et omne quod corrumpitur a
+          <lb ed="#L" n="61"/>suo contrario corrumpilur, qua 
+          incorrup<lb ed="#L" break="no" n="62"/>Libilitate ostensa, oslendetur carentia 
+          ma<lb ed="#L" break="no" n="63"/>teria in coelo , nzs? diceretur quod forma
+          <lb ed="#L" n="64"/>incorruptibilis posset necessario actuare
+          <lb ed="#L" n="65"/>materiam possibilem de se carere illa 
+          for<lb ed="#L" break="no" n="66"/>ma, ita quod habitudo non esset 
+          utrius<lb ed="#L" break="no" n="67"/>que necessaria, id est, quod materia non
+          <lb ed="#L" n="68"/>haberet necessariam habitudinem ad illam
+          <lb ed="#L" n="69"/>formam, quantum est ex parte materia,
+          <lb ed="#L" n="70"/>quia tunc materia quantum est ex se, non
+          <lb ed="#L" n="71"/>posset carere tali forma, sed bene esset
+          <lb ed="#L" n="72"/>necessaria habitudo illius formxv ad 
+          mate<lb ed="#L" break="no" n="73"/>riam. Si enim talis forma necessario actuat
+          <lb ed="#L" n="74"/>materiam, tunc habet necessariam 
+          habi<lb ed="#L" break="no" n="75"/>tudinem ad ipsam; quantum ergo est ex
+          <lb ed="#L" n="76"/>parte materie, colum esset contingens,
+          <lb ed="#L" n="77"/>cum materia talis, quantum est ex parte
+          <lb ed="#L" n="78"/>sua, nala sit carere tali forma. Sequitur :
+          <lb ed="#L" n="79"/>quare non est simile de necessaria 
+          inha<lb ed="#L" break="no" n="80"/>rentia a/icujus accidentis suo subjecto, ubi
+          <lb ed="#L" n="81"/>necessitas est ex parte uliriusque extremi.
+          <lb ed="#L" n="82"/>Quia si compositum ex subjecto et 
+          acci<lb ed="#L" break="no" n="83"/>dente, est simpliciter necessarium, quia
+          <lb ed="#L" n="84"/>sj accidens habet necessariam 
+          habitudi<lb ed="#L" break="no" n="85"/>nem ad subjectum, necessario actuando
+          <lb ed="#L" n="86"/>illud, etiam subjectum habebit necessariam
+          <pb ed="#L" n="644"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>habitudinem ad tale accidens, quia 
+          aeci<lb ed="#L" break="no" n="2"/>dens non potest habere esse necessarium,
+          <lb ed="#L" n="3"/>quin subjectum ejus habeat esse 
+          neces<lb ed="#L" break="no" n="4"/>sarium, cum subjectum sit necessarium
+          <lb ed="#L" n="5"/>magis in actu. Sed hoc sic non 
+          seque<lb ed="#L" break="no" n="6"/>retur de forma et materia, quia posito
+          <lb ed="#L" n="7"/>quod aliqua forma haberet necessariam
+          <lb ed="#L" n="8"/>habitudinem ad materiam illam 
+          necessa<lb ed="#L" break="no" n="9"/>rio actuando, non tamen sequitur e 
+          con<lb ed="#L" break="no" n="10"/>(ra, cum materia, secundum mullos, non
+          <lb ed="#L" n="11"/>sit in actu nisi per formam, et posito
+          <lb ed="#L" n="12"/>etiam quod sit in actu et non per formam,
+          <lb ed="#L" n="13"/>adhuc tamen non videtur sequi quod
+          <lb ed="#L" n="14"/>haberet necessariam habitudinem ad
+          <lb ed="#L" n="15"/>formam.
+        </p>
+        <p xml:id="mm30o9-d1e2012-d1e319">
+          <lb ed="#L" n="16"/>(c) Quod si dicatur. Hic recitat unam
+          <lb ed="#L" n="17"/>opinionem, qua est Goffredi, quodlib. 5.
+          <lb ed="#L" n="18"/>q. 9. et Henrici quodlib. 4. q. 16. et etiam
+          <lb ed="#L" n="19"/>Thom:s, qui dicit quod materia coeli
+          <lb ed="#L" n="20"/>non esset ejusdem rationis cum materiis
+          <lb ed="#L" n="21"/>receplivis diversarum formarum, quales
+          <lb ed="#L" n="22"/>sunt :nateriae generabilium et 
+          corruptibi<lb ed="#L" break="no" n="23"/>lium; et sic talis materia coeli, quantum
+          <lb ed="#L" n="24"/>est ex se, esset simpliciter 
+          intransmu<lb ed="#L" break="no" n="25"/>labilis ab una forma ad aliam.
+        </p>
+        <p xml:id="mm30o9-d1e2012-d1e344">
+          <lb ed="#L" n="26"/>Contra istam opinionem instat Doctor
+          <lb ed="#L" n="27"/>primo, quod non detur materia in coelo
+          <lb ed="#L" n="28"/>alterius rationis a materia generabilium,
+          <lb ed="#L" n="29"/>quia si sic, ergo essent due malerice
+          <lb ed="#L" n="30"/>allerius et alterius rationis; consequens
+          <lb ed="#L" n="31"/>est falsum, ergo et antecedens. Probatio
+          <lb ed="#L" n="32"/>falsitatis consequentis, quia sicut non
+          <lb ed="#L" n="33"/>sunt duo fines primi, nec duo efficientes
+          <lb ed="#L" n="34"/>primi alterius et alterius rationis; ergo
+          <lb ed="#L" n="35"/>nec similiter du: materie prim:e alterius
+          <lb ed="#L" n="36"/>et alterius rationis, nam <ref xml:id="mm30o9-d1e2012-Rd1e370">Philosophus 12.
+            <lb ed="#L" n="37"/>Met. t. com. 52.</ref> concludit unitalem
+          <lb ed="#L" n="38"/>universi ex unitate finis, ubi sic ait :
+          <lb ed="#L" n="39"/>Ad unum quidem enim omnia  
+          coor<lb ed="#L" break="no" n="40"/>dinata sunt. Et in alia transtatione sic
+          <lb ed="#L" n="41"/>habetur : Omnia enim ordinata sunt ad
+          <lb ed="#L" n="42"/>invicem in respectu alicujus. Et ibi 
+          Com<lb ed="#L" break="no" n="43"/>menltlalor habet : Apparet enim quod hoc
+          <lb ed="#L" n="44"/>commune est omnibus entibus. sedihicet
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>quod omnia sunt propter unum, et quod ac.
+          <lb ed="#L" n="46"/>tiones eorum sunt erga illum wunwm, et est
+          <lb ed="#L" n="47"/>prima causa, id. est, quod illud unum esi
+          <lb ed="#L" n="48"/>prima causa, quemadmodum omnia qua
+          <lb ed="#L" n="49"/>sunt in domo propter dominum domus
+          <lb ed="#L" n="50"/>sunt. Wc ille. Apparet ergo, quod in
+          <lb ed="#L" n="51"/>universo est tantum unus finis ultimus,
+          <lb ed="#L" n="52"/>et si essent plures fines ultimi, essent
+          <lb ed="#L" n="53"/>necessario plura universa. Et si tantum
+          <lb ed="#L" n="54"/>est unus finis ultimus, erit etiam tantum
+          <lb ed="#L" n="55"/>unum primum efficiens, quia cujus est
+          <lb ed="#L" n="56"/>causa finalis, ejus etiam est causa 
+          effi<lb ed="#L" break="no" n="57"/>ciens; si ergo respectu totius universi
+          <lb ed="#L" n="58"/>est tantum una causa finalis prima, 
+          se<lb ed="#L" break="no" n="59"/>quitur quod respectu ejusdem universi
+          <lb ed="#L" n="60"/>erit tantum unum efficiens primum, sed
+          <lb ed="#L" n="61"/>ista prolixius pateat in 1l. d. 2. parte 
+          pri<lb ed="#L" break="no" n="62"/>ma. Sic similiter videtur quod ad 
+          unita<lb ed="#L" break="no" n="63"/>lem universi sit unitas materie prim:
+          <lb ed="#L" n="64"/>ejusdem rationis respectu cujuscumque
+          <lb ed="#L" n="65"/>compositi.
+        </p>
+        <p xml:id="mm30o9-d1e2012-d1e438">
+          <lb ed="#L" n="66"/>(d) Item, videtur difficile assignare, etc.
+          <lb ed="#L" n="67"/>Si dicatur quod sit ratione forme, quia
+          <lb ed="#L" n="68"/>materia coeli ordinatur ad formam 
+          incor<lb ed="#L" break="no" n="69"/>ruplibllem per se et per accidens, el
+          <lb ed="#L" n="70"/>materia istorum inferiorum ordinatur ad
+          <lb ed="#L" n="71"/>formam  corruptibillem. Sed hoc non
+          <lb ed="#L" n="72"/>videtur, quia ipsi ponunt animam 
+          intel<lb ed="#L" break="no" n="73"/>lectivam immortalem et incorruptibilem,
+          <lb ed="#L" n="74"/>et tamen ipsa recipitur in materia 
+          ejus<lb ed="#L" break="no" n="75"/>dem rationis cum materia istorum 
+          infe<lb ed="#L" break="no" n="76"/>riorum.
+        </p>
+        <p xml:id="mm30o9-d1e2012-d1e464">
+          <lb ed="#L" n="77"/>(e) Secundo. Hic Doctor adhuc instat
+          <lb ed="#L" n="78"/>contra opinionem concedendo eis istam
+          <lb ed="#L" n="79"/>alteritatem, et dicit quod adhuc posita
+          <lb ed="#L" n="80"/>tali alteritate, adhuc non sequitur 
+          cce<lb ed="#L" break="no" n="81"/>lum esse incorruptibile, et probat sic :
+          <lb ed="#L" n="82"/>Illud est simpliciter corruptibile, cujus
+          <lb ed="#L" n="83"/>materia est in potentia contradictionis,
+          <lb ed="#L" n="84"/>scilicet ad formam et ad privationem ejus,
+          <lb ed="#L" n="85"/>hoc supra patet; sed materia coeli,
+          <lb ed="#L" n="86"/>quamvis sit alterius rationis a materia
+          <lb ed="#L" n="87"/>generabilium, et in potentia 
+          contradicti<lb ed="#L" break="no" n="88"/>onis ad formam ceoli. et ad oppositum
+          <pb ed="#L" n="645"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>ejus, scilicet ad privationem ; patet ista,
+          <lb ed="#L" n="2"/>quia omne receplivum inquantum 
+          hujus<lb ed="#L" break="no" n="3"/>modi, est simpliciter in potentia  
+          contra<lb ed="#L" break="no" n="4"/>dictionis, scilicet ad receptum et ad
+          <lb ed="#L" n="5"/>oppositum ejus. Si dicatur, quod 
+          subje<lb ed="#L" break="no" n="6"/>clum est receplivum propriae passionis,
+          <lb ed="#L" n="7"/>et tamen non est in potentia  
+          contradi<lb ed="#L" break="no" n="8"/>elionis ad illam et ad privationem ejus,
+          <lb ed="#L" n="9"/>cum sit impossibile esse sine illa, ut
+          <lb ed="#L" n="10"/>patet a Doctore, dico quod subjectum
+          <lb ed="#L" n="11"/>passionis necessario includit illam, non
+          <lb ed="#L" n="12"/>ex hoc quod recipit eam, sed ex hoc
+          <lb ed="#L" n="13"/>quod necessario efficit illam in se, et
+          <lb ed="#L" n="14"/>ideo inquantum receplivum passionis. est
+          <lb ed="#L" n="15"/>in potentia  contradielionis ad illam, sed
+          <lb ed="#L" n="16"/>inquantum effectivum illius necessario in
+          <lb ed="#L" n="17"/>se,non est in potentia contradictionis. Sed
+          <lb ed="#L" n="18"/>in proposito materia coli esset tantum
+          <lb ed="#L" n="19"/>receptiva forme coeli, et nullo modo 
+          ef<lb ed="#L" break="no" n="20"/>fectiva ejusdem, et per consequens esset
+          <lb ed="#L" n="21"/>in potentia contradictionis ad illam, et
+          <lb ed="#L" n="22"/>si coelum est causa inlrinseca non esset
+          <lb ed="#L" n="23"/>simpliciter incorruplibile, quod est contra
+          <lb ed="#L" n="24"/>Philosophum in locis pr:iallegalis. Si
+          <lb ed="#L" n="25"/>dicatur, quod ideo materia est causa
+          <lb ed="#L" n="26"/>corruplibilitatis compositi, quia est in
+          <lb ed="#L" n="27"/>potentia ad aliam formam, hoc non est
+          <lb ed="#L" n="28"/>verum, sed est causa corruplbilitatis,
+          <lb ed="#L" n="29"/>inquantum est in potentia  ad 
+          privali<lb ed="#L" break="no" n="30"/>onem forme quam habet, et hoc 
+          ex<lb ed="#L" break="no" n="31"/>presse patet a <ref xml:id="mm30o9-d1e2012-Rd1e563">Philosopho 9. Metaph.
+            <lb ed="#L" n="32"/>textu com. 17.</ref> ut supra patuit. Vide ibi
+          <lb ed="#L" n="33"/>Commentatorem. Et hoc etiam expresse
+          <lb ed="#L" n="34"/>patet <ref xml:id="mm30o9-d1e2012-Rd1e573">7. Mei. text. .com. 22.</ref> ubi
+          <lb ed="#L" n="35"/>reddit causam quare generabilia 
+          pos<lb ed="#L" break="no" n="36"/>sunt esse et non esse, quia scilicet
+          <lb ed="#L" n="37"/>habent materiam : Omnia (inquit) qua
+          <lb ed="#L" n="38"/>fiunt, aut natura, aut arte, habent 
+          mate<lb ed="#L" break="no" n="39"/>riam, possibile enim, et esse ei non esse
+          <lb ed="#L" n="40"/>eorum, quodlibet, hxc autem est que
+          <lb ed="#L" n="41"/>in unoquoque materia. Hec ille. Et clarius
+          <lb ed="#L" n="42"/>secundum aliam transtationem, ubi sic
+          <lb ed="#L" n="43"/>habetur: Ei omnia qua sunl, aut a 
+          nda<lb ed="#L" break="no" n="44"/>lura, aut. artificio, habent materiam,
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>quodlibet enim habet potentiam ad. esse
+          <lb ed="#L" n="46"/>et non esse, et hoc n quolibet est 
+          ma<lb ed="#L" break="no" n="47"/>leria. Haec ibi.
+        </p>
+        <p xml:id="mm30o9-d1e2012-d1e606">
+          <lb ed="#L" n="48"/>Ex hoc ergo quod materia est in 
+          po<lb ed="#L" break="no" n="49"/>lentia ad formam, per quam compositum
+          <lb ed="#L" n="50"/>habet esse, et ad privationem ejusdem
+          <lb ed="#L" n="51"/>forma, per quam compositum non habet
+          <lb ed="#L" n="52"/>esse, dicitur compositum possibile esse
+          <lb ed="#L" n="53"/>et non esse; ergo ex haec solo quod
+          <lb ed="#L" n="54"/>materia est in potentia contradictionis
+          <lb ed="#L" n="55"/>ad formam, et ad privationem ejus, 
+          di<lb ed="#L" break="no" n="56"/>citur causa corruptibilitatis, et non per
+          <lb ed="#L" n="57"/>hoc quod est in potentia ad aliam 
+          for<lb ed="#L" break="no" n="58"/>mam. Et quod sic Philosophus intelligat,
+          <lb ed="#L" n="59"/>patet. per Commentatorem bi com. 22.
+          <lb ed="#L" n="60"/>ubi sic ail : In. quolibet enim eorum  
+          in<lb ed="#L" break="no" n="61"/>venitur aliquid, quod potest recipere 
+          for<lb ed="#L" break="no" n="62"/>mam mnaturalem, aut. ar(ificialem, aul
+          <lb ed="#L" n="63"/>non recipere, ei quod est tale dicitur
+          <lb ed="#L" n="64"/>materia, et est illud ex quo est natura 
+          to<lb ed="#L" break="no" n="65"/>tius. Haec ibi.
+        </p>
+        <p xml:id="mm30o9-d1e2012-d1e648">
+          <lb ed="#L" n="66"/>(f) Si dicatur, quod materia in colo
+          <lb ed="#L" n="67"/>non est in potentia contradictionis, 
+          vide<lb ed="#L" break="no" n="68"/>licet, quod materia coeli possit esse sub
+          <lb ed="#L" n="69"/>alia forma, patet, quia forma coeli 
+          coin<lb ed="#L" break="no" n="70"/>plel totum suum appetitum, ideo enim
+          <lb ed="#L" n="71"/>materia est in potentia ad aliam formam,
+          <lb ed="#L" n="72"/>quia appelit esse sub illa, sed si ejus
+          <lb ed="#L" n="73"/>appelitus est totaliter satiatus, ut est
+          <lb ed="#L" n="74"/>sub aliqua forma, nunquam appelil esse
+          <lb ed="#L" n="75"/>sub alia forma.
+        </p>
+        <p xml:id="mm30o9-d1e2012-d1e672">
+          <lb ed="#L" n="76"/>Contra : Nulla forma complet totum
+          <lb ed="#L" n="77"/>appetitum maleriae suae, etc.
+        </p>
+        <p xml:id="mm30o9-d1e2012-d1e680">
+          <lb ed="#L" n="78"/>Sed hic oritur aliqualis difficultas,
+          <lb ed="#L" n="79"/>in hoc quod dicit, quod si forma
+          <lb ed="#L" n="80"/>continerelL virtualiter aliam formam, tunc
+          <lb ed="#L" n="81"/>daret actum oppositum privationi illius
+          <lb ed="#L" n="82"/>forms, nam anima intellectiva virlualiler
+          <lb ed="#L" n="83"/>continet sensitivam elt vegelativam, et
+          <lb ed="#L" n="84"/>tamen non videtur satiare appelitum
+          <lb ed="#L" n="85"/>materie, quin ipsa appelal esse sul
+          <lb ed="#L" n="86"/>vegelativa — vel sensitiva formaliter ;
+          <lb ed="#L" n="87"/>similiter videtur quod conlineat etiam
+          <lb ed="#L" n="88"/>alias formas corporales propter sui per-
+          <pb ed="#L" n="646"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>tectionem, et tamen non videtur sic
+          <lb ed="#L" n="2"/>saliare appetitum materie quin, ipsa 
+          ap<lb ed="#L" break="no" n="3"/>petat esse formaliter sub alia forma,
+          <lb ed="#L" n="4"/>etiam imperfectiore: si enim sic saliaret
+          <lb ed="#L" n="5"/>appelitum  malerie, nunquam materia
+          <lb ed="#L" n="6"/>appeleret esse sub alia forma, et per
+          <lb ed="#L" n="7"/>consequens non esset causa 
+          corruplibi<lb ed="#L" break="no" n="8"/>litatis. Praeterea, forma mixti virtualiter
+          <lb ed="#L" n="9"/>continet formas elemenltares, patet, quia
+          <lb ed="#L" n="10"/>virtualiter continet qualitates 
+          elemento<lb ed="#L" break="no" n="11"/>runi; ergo et formas illorum. Palet 
+          con<lb ed="#L" break="no" n="12"/>sequentia , quia conlinens virtualiter 
+          pro<lb ed="#L" break="no" n="13"/>prietatem alicujus formae, contnet etiam
+          <lb ed="#L" n="14"/>virlualiter illam formam, et tamen forma
+          <lb ed="#L" n="15"/>mixlü non sic satiat appelitum materias,
+          <lb ed="#L" n="16"/>quin ipsa appetal esse, puta sub forma
+          <lb ed="#L" n="17"/>ignis. Tertio instatur, quia Doctor videtur
+          <lb ed="#L" n="18"/>innuere quod forma coeli contineal 
+          vir<lb ed="#L" break="no" n="19"/>tualiter alias formas ab anima 
+          intelle<lb ed="#L" break="no" n="20"/>ctiva, et per consequens, quod sic satiat
+          <lb ed="#L" n="21"/>appelitum materia, quod non appetat esse
+          <lb ed="#L" n="22"/>sub alia forma, puta sub anima sensitiva.
+          <lb ed="#L" n="23"/>Sed hoc non videtur; tum quia ipse /n/ra,
+          <lb ed="#L" n="24"/>dist. 18. expresse tenet quod nec anima
+          <lb ed="#L" n="25"/>sensitiva, nec vegelativa dependent a
+          <lb ed="#L" n="26"/>collo in essendo, ergo nec virtualiter
+          <lb ed="#L" n="27"/>continentur in eo ; tum quia positio quod
+          <lb ed="#L" n="28"/>conlinerentur virtualiter, adhuc non 
+          vi<lb ed="#L" break="no" n="29"/>detur sequi quod materia coeli non 
+          ap<lb ed="#L" break="no" n="30"/>petat esse sub tali forma. Et confirmatur,
+          <lb ed="#L" n="31"/>quia quamvis intellectus noster habeat
+          <lb ed="#L" n="32"/>perfectissimau intellectionem, quam 
+          na<lb ed="#L" break="no" n="33"/>turaliter appetit, adhuc stante tali 
+          intel<lb ed="#L" break="no" n="34"/>lectione perfectissima, naturaliter appetat
+          <lb ed="#L" n="35"/>aliam, et sic intrinsece et formaliter, non
+          <lb ed="#L" n="36"/>ita perfecte quielatur in illa, quin etiam
+          <lb ed="#L" n="37"/>appelet aliam. Sic videtur dicendum de
+          <lb ed="#L" n="38"/>materia coeli, quia ex quo habet 
+          natura<lb ed="#L" break="no" n="39"/>lem inclinationem ad omnem formam,
+          <lb ed="#L" n="40"/>quamvis sit sub forma perfectissima,
+          <lb ed="#L" n="41"/>adhuctamen aliam appetere potest. 
+          Re<lb ed="#L" break="no" n="42"/>sponsionem qure alibi.
+        </p>
+        <p xml:id="mm30o9-d1e2012-d1e802">
+          <lb ed="#L" n="43"/>(g) Ex hoc sequitur ulterius. Hic 
+          Do<lb ed="#L" break="no" n="44"/>ctor inferi unum, scilicet quod ex quo
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>secundum Philosophos in coelo non est
+          <lb ed="#L" n="46"/>materia, sequitur coelum non posse esse
+          <lb ed="#L" n="47"/>formaliter animatum ; et hoc probat, quia
+          <lb ed="#L" n="48"/>si celum non haberet materiam, et esset
+          <lb ed="#L" n="49"/>formaliter animatum, et tunc ipsum 
+          cce<lb ed="#L" break="no" n="50"/>lum esset essentia liter tantum anima, el
+          <lb ed="#L" n="51"/>non nisi intellectiva, quia Philosophi non
+          <lb ed="#L" n="52"/>posuerunt ibi nisi animam intlellectivam,
+          <lb ed="#L" n="53"/>et ita solus intellectus erit quantus, quod
+          <lb ed="#L" n="54"/>non est intelligibile. Patet, quia coelum
+          <lb ed="#L" n="55"/>est quantum formaliter, et sic quanlilas
+          <lb ed="#L" n="56"/>esset formaliter in anima intellectiva, el
+          <lb ed="#L" n="57"/>per consequens anima intellectiva essel
+          <lb ed="#L" n="58"/>realiter divisibilis in infinitas partes ad
+          <lb ed="#L" n="59"/>divisibilitatem quantitatis, sicut et caro
+          <lb ed="#L" n="60"/>habens quantitatem formaliter, est 
+          divi<lb ed="#L" break="no" n="61"/>sibilis in infinitas partes carnis, ut supra
+          <lb ed="#L" n="62"/>patuit. d. 2. q. nona.
+        </p>
+        <p xml:id="mm30o9-d1e2012-d1e850">
+          <lb ed="#L" n="63"/>Vel in colo prater animam, qua est de
+          <lb ed="#L" n="64"/>essentia coli erit aliquid aliud per se
+          <lb ed="#L" n="65"/>perfectibile per animam, et ita erit ibi
+          <lb ed="#L" n="66"/>potentia passiva et potentia  
+          contradicti<lb ed="#L" break="no" n="67"/>onis. Palet, quia omne perfectibile ak
+          <lb ed="#L" n="68"/>aliquo realiter distincto est in potentia
+          <lb ed="#L" n="69"/>receptiva, sive passiva ad illud, et in
+          <lb ed="#L" n="70"/>potentia  contradielionis respectu illius,
+          <lb ed="#L" n="71"/>et ita celum non erit sempiternum el
+          <lb ed="#L" n="72"/>necessarium, ut patet per dictum 
+          Philo<lb ed="#L" break="no" n="73"/>sophi, nono Met. text. com. l7. Unde sive
+          <lb ed="#L" n="74"/>Philosophus, etc. Videtur statim recedere
+          <lb ed="#L" n="75"/>a prima positione praehabita, quae positio
+          <lb ed="#L" n="76"/>est, quod in coelo non est materia.
+        </p>
+        <p xml:id="mm30o9-d1e2012-d1e883">
+          <lb ed="#L" n="77"/>(h) Quidquid sit de Averroe, qui 
+          vide<lb ed="#L" break="no" n="78"/>lur velle coelum esse animatum 
+          forma<lb ed="#L" break="no" n="79"/>liter, ut patet de subslantia orbis, mon
+          <lb ed="#L" n="80"/>dicamus Aristotelem recessisse a positione
+          <lb ed="#L" n="81"/>prima, qui est, quod in coelo non est
+          <lb ed="#L" n="82"/>materia. /Vec verba ejus cogunt haec sibi
+          <lb ed="#L" n="83"/>imponere, etc. Et talis non est nisi t:nica
+          <lb ed="#L" n="84"/>unius orbis, Et pro hoc est <ref xml:id="mm30o9-d1e2012-Rd1e902">Philosophus 8.
+            <lb ed="#L" n="85"/>Physic. text. com. c. 40.</ref> qui motum ex
+          <lb ed="#L" n="86"/>se distinguit in duo, quorum unum est
+          <lb ed="#L" n="87"/>molum tantum, et reliquum movens 
+          lan<lb ed="#L" break="no" n="88"/>tum, Illud distineuibile est compositum ex
+          <pb ed="#L" n="647"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>duobus unitis, scilicet movente mobili,
+          <lb ed="#L" n="2"/>et hoc vere movet, et illud vere movetur;
+          <lb ed="#L" n="3"/>sed in nobis anima non movel, sed est
+          <lb ed="#L" n="4"/>ratio movendi tantum, ut patet per 
+          Phi<lb ed="#L" break="no" n="5"/>losophum /ertio de Anima, quia est formo
+          <lb ed="#L" n="6"/>moli, sed in coelo movens, nec per se,
+          <lb ed="#L" n="7"/>nec per accidens movetur, et tamen si
+          <lb ed="#L" n="8"/>esset forma coli, tunc per accidens 
+          mo<lb ed="#L" break="no" n="9"/>veretur ad motum coeli.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

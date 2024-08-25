@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 5</title>
+        <author ref="#per-FLBca3">Franciscus Lychetus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 5</title>
+          <date when="2024-08-25">August 25, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x12">Vives, Paris, 1893, volume 12</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="125"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="mm30o9-d1e1762"><!-- lycht-l2d3q5-p1 -->
+        <head xml:id="mm30o9-d1e1762-Hd1e101">Quaestio 5</head>
+        <p xml:id="mm30o9-d1e1762-d1e103">
+          <lb ed="#L" n="58" type="fixed=124"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1762-d1e108">
+          <lb ed="#L" n="59"/>(a) Utrum substantia materialis, quae
+          <lb ed="#L" n="60"/>supple est composita ex materia et forma
+          <lb ed="#L" n="61"/>Physicali sit haec, et individua per 
+          mate<lb ed="#L" break="no" n="62"/>riam, qua supple est altera pars compositi,
+        </p>
+        <p xml:id="mm30o9-d1e1762-d1e119">
+          <lb ed="#L" n="63"/>(b) Hic dicitur. Doctor hic recilat 
+          opi<lb ed="#L" break="no" n="64"/>nionem <ref xml:id="mm30o9-d1e1762-Rd1e125">Thome in prima parte Summa,
+          <lb ed="#L" n="65"/>quaest. 7. artic. 1.</ref> qui vult substantiam
+          <lb ed="#L" n="66"/>materialem praecise individuari per 
+          ma<lb ed="#L" break="no" n="67"/>leriam.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d3q5-p2">-->
+        <p xml:id="mm30o9-d1e1762-d1e138">
+          <lb ed="#L" n="61" type="fixed=125"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1762-d1e143">
+          <lb ed="#L" n="62"/>(c) <quote xml:id="mm30o9-d1e1762-Qd1e147">Contra istud primo</quote>. Doctor hic
+          <lb ed="#L" n="63"/>improbat opinionem Thomae multis 
+          au<lb ed="#L" break="no" n="64"/>ctoritatibus.
+        </p>
+        <p xml:id="mm30o9-d1e1762-d1e154">
+          <lb ed="#L" n="65"/>Prima est <ref xml:id="mm30o9-d1e1762-Rd1e158">Philosophi, 1. Metaph. text.
+            <lb ed="#L" n="66"/>com. 39.</ref> Palam autem, quod anima 
+          qui<lb ed="#L" break="no" n="67"/>dem substantia prima, corpus vero 
+          ma<lb ed="#L" break="no" n="68"/>teria, homo vero aut animal, quod est. es
+          <lb ed="#L" n="69"/>utrisque, ut universale; Socrates autem
+          <lb ed="#L" n="70"/>et Goriscus, ut. singulariter supple ex
+          <lb ed="#L" n="71"/>his, siquidem igitur anima dupliciter
+          <lb ed="#L" n="72"/>dicitur. Alii namque ut animam, alii 
+          ve<lb ed="#L" break="no" n="73"/>ro ut totum ; si vero simpliciter anima
+          <lb ed="#L" n="74"/>hcc, et corpus hoc, ut quidem universale.
+          <lb ed="#L" n="75"/>et singulare. W:ec ille. Sententia hujus
+          <lb ed="#L" n="76"/>textus est, quod sicut datur compositum
+          <lb ed="#L" n="77"/>materiale universale, et aliquod tantum
+          <lb ed="#L" n="78"/>unum numero, ita partes componentes sic
+          <lb ed="#L" n="79"/>se habent, quod respectu compositi com.
+          <lb ed="#L" n="80"/>munis partes, scilicet materia et forma
+          <lb ed="#L" n="81"/>accipiuntur in communi, et si 
+          composi<lb ed="#L" break="no" n="82"/>tum est hoc aliquid, sive singulare, partes
+          <lb ed="#L" n="83"/>compositae erunt singulares, et ex hoc 
+          se<lb ed="#L" break="no" n="84"/>quitur, quod compositum singulare 
+          ha<lb ed="#L" break="no" n="85"/>beat propriam heaecceitatem. Et si dicatur,
+          <lb ed="#L" n="86"/>quod habeat illam a materia sineulari.
+          <pb ed="#L" n="126"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>contra, tum quia ex quo compositum est
+          <lb ed="#L" n="2"/>aliud a partibus, ut probatur a <ref xml:id="mm30o9-d1e1762-Rd1e215">Doctore in
+            <lb ed="#L" n="3"/>tertio, dist. 2.</ref> ita habet propriam 
+          hsec<lb ed="#L" break="no" n="4"/>ceitatem. Tum, quia si compositum esset
+          <lb ed="#L" n="5"/>hoc per aliquam partem componentem,
+          <lb ed="#L" n="6"/>magis esset hoc per formam singularem
+          <lb ed="#L" n="7"/>quam per materiam, quia forma magis dat
+          <lb ed="#L" n="8"/>esse. Tum etiam, quia sicut materia est
+          <lb ed="#L" n="9"/>communis respectu compositi communis,
+          <lb ed="#L" n="10"/>et contrahitur per aliquam haecceitatem ad
+          <lb ed="#L" n="11"/>hoc ut sit haec, ita compositum in 
+          com<lb ed="#L" break="no" n="12"/>muni, quod est aliud a materia et forma
+          <lb ed="#L" n="13"/>in communi, contrahitur ad esse hoc per
+          <lb ed="#L" n="14"/>aliquid, quod non est neque materia 
+          ne<lb ed="#L" break="no" n="15"/>que forma.
+        </p>
+        <p xml:id="mm30o9-d1e1762-d1e247">
+          <lb ed="#L" n="16"/>Nunc expono hunc textum cum 
+          dici<lb ed="#L" break="no" n="17"/>tur: Palam autem, quod. anima quidem
+          <lb ed="#L" n="18"/>substantia prima, corpus vero materia,
+          <lb ed="#L" n="19"/>homo vero, id est, quod homo respectu
+          <lb ed="#L" n="20"/>anim: intellectivae et materie, puta 
+          cor<lb ed="#L" break="no" n="21"/>poris organici, aut animal respectu animae
+          <lb ed="#L" n="22"/>sensitivce, et respectu materia suc, 
+          sup<lb ed="#L" break="no" n="23"/>ple est ex utrisque ; ut universale, id est,
+          <lb ed="#L" n="24"/>quod ex anima sensitiva in communi, et
+          <lb ed="#L" n="25"/>materia in communi constituitur animal
+          <lb ed="#L" n="26"/>in communi, et similiter homo in 
+          com<lb ed="#L" break="no" n="27"/>muni constituitur ex anima intellectiva in
+          <lb ed="#L" n="28"/>communi, et ex tali corpore organico in
+          <lb ed="#L" n="29"/>communi. Sequitur :
+        </p>
+        <p xml:id="mm30o9-d1e1762-d1e280">
+          <lb ed="#L" n="30"/>Coriscus autem, et Socrates ut 
+          singu<lb ed="#L" break="no" n="31"/>lariter, id est, quod ista composita sicut
+          <lb ed="#L" n="32"/>sunt singularia, ita partes componentes,
+          <lb ed="#L" n="33"/>puta haec materia et haec. forma ; et quod
+          <lb ed="#L" n="34"/>sit verum, probat infra ibi : Siquidem 
+          igi<lb ed="#L" break="no" n="35"/>tur. anima dupliciter dicitur, supple in
+          <lb ed="#L" n="36"/>universali et in particulari, ergo eadem
+          <lb ed="#L" n="37"/>ratione, et ipsum compositum. Sequitur
+          <lb ed="#L" n="38"/>in textu : Alii namque, ut animam, 
+          sup<lb ed="#L" break="no" n="39"/>ple dicunt hominem et animal, ita quod
+          <lb ed="#L" n="40"/>anima sit tota essentia animalis ut 
+          qui<lb ed="#L" break="no" n="41"/>dam dicunt; alii vero, ut totum, id est,
+          <lb ed="#L" n="42"/>compositum, et non animam. Sequitur :
+          <lb ed="#L" n="43"/>Si vero anima hec, et corpus hoc, ut
+          <lb ed="#L" n="44"/>quidem universale singulare. id est. dato
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>quod animal sit compositum ex anima et
+          <lb ed="#L" n="46"/>corpore, si ipsa simplicia, id est, anima
+          <lb ed="#L" n="47"/>et corpus dicuntur universaliter et 
+          parti<lb ed="#L" break="no" n="48"/>culariter, sequitur etiam, quod compositum
+          <lb ed="#L" n="49"/>sic dicatur, sequitur et in ante eodem cap.
+          <lb ed="#L" n="50"/>homo et equus, supple in communi, e/ que
+          <lb ed="#L" n="51"/>ita in. singularibus, supple homo 
+          singu<lb ed="#L" break="no" n="52"/>laris et equus singularis. Universaliter
+          <lb ed="#L" n="53"/>autem non sunt. substantia, supple homo
+          <lb ed="#L" n="54"/>et equus, id est, formaliter, accipiendo
+          <lb ed="#L" n="55"/>formam pro forma partis, sed simul 
+          quod<lb ed="#L" break="no" n="56"/>dam totum, id est, compositum ex hac
+          <lb ed="#L" n="57"/>materia ; et hac ratione, ubi per ly hac
+          <lb ed="#L" n="58"/>dicit Doctor, quod Aristoteles dicit, quod
+          <lb ed="#L" n="59"/>homo in communi est compositus ex hac
+          <lb ed="#L" n="60"/>materia, non debet accipi ly hac pro 
+          ma<lb ed="#L" break="no" n="61"/>teria singulari, sed pro materia 
+          determi<lb ed="#L" break="no" n="62"/>nata, supple quod sit compositus ex tali
+          <lb ed="#L" n="63"/>corpore in communi, et ex tali forma 
+          ali<lb ed="#L" break="no" n="64"/>ter contradiceret sibimet, unde subdit 
+          ibi<lb ed="#L" break="no" n="65"/>dem : Et universaliter, ut exposul prius,
+          <lb ed="#L" n="66"/>et subdit postea ex ultima materia, 
+          sci<lb ed="#L" break="no" n="67"/>licet singulari, cum dicit : Socrates jam
+          <lb ed="#L" n="68"/>est-Lelip.
+        </p>
+        <p xml:id="mm30o9-d1e1762-d1e369">
+          <lb ed="#L" n="69"/>(d) Praeterea, idem per eumdem. 
+          Se<lb ed="#L" break="no" n="70"/>cundo principaliter Doctor probat, quod
+          <lb ed="#L" n="71"/>substantia materialis non sit praecise haec
+          <lb ed="#L" n="72"/>per materiam. Et probat auctoritate 
+          Phi<lb ed="#L" break="no" n="73"/>losophi 12. Metaph. et vide ibi 
+          Commen<lb ed="#L" break="no" n="74"/>tatorem ; ergo ita concedit distinctionem
+          <lb ed="#L" n="75"/>forme, sicut materia in particulari, et ita
+          <lb ed="#L" n="76"/>unitatem materiae in communi, sicut 
+          for<lb ed="#L" break="no" n="77"/>ma, et ideo debet adhuc quaerere quo
+          <lb ed="#L" n="78"/>materia sit haec, si enim datur materia in
+          <lb ed="#L" n="79"/>communi, et per illam substantia 
+          materia<lb ed="#L" break="no" n="80"/>lis non dicitur hcec, oportet quaerere quo
+          <lb ed="#L" n="81"/>materia sit haec, ut per illam substantia
+          <lb ed="#L" n="82"/>materialis dicatur hcc. Et si materia 
+          di<lb ed="#L" break="no" n="83"/>citur haec, hoc erit per aliquid positivum
+          <lb ed="#L" n="84"/>adveniens ipsi materie, et contrahens
+          <lb ed="#L" n="85"/>ipsam ad esse individuale. Hoc idem 
+          ap<lb ed="#L" break="no" n="86"/>paret de forma partis, quc:e in communi
+          <lb ed="#L" n="87"/>non dicitur haec, et si erit. haec, erit. per
+          <lb ed="#L" n="88"/>aliauid adveniens sibi contrahens ipsam
+          <pb ed="#L" n="127"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>ad esse quale, et certum est quod illud
+          <lb ed="#L" n="2"/>non erit materia, ut patet, quia si 
+          prin<lb ed="#L" break="no" n="3"/>cipiatum est hoc aliquid, et individuum,
+          <lb ed="#L" n="4"/>et principia erunt similiter hoc aliquid.
+        </p>
+        <p xml:id="mm30o9-d1e1762-d1e429">
+          <lb ed="#L" n="5"/>(e) Praeterea, sicut. probatur ex 
+          mul<lb ed="#L" break="no" n="6"/>lis locis. Tertio principaliter hoc. idem
+          <lb ed="#L" n="7"/>probat Doctor auctoritate Philosophi, etc.
+          <lb ed="#L" n="8"/>ergo sicut illud. compositum non potest
+          <lb ed="#L" n="9"/>ez se esse hoc, ex 1. q. praesent. dist.
+          <lb ed="#L" n="10"/>ita nec materia, quae est pars ejus, 
+          scili<lb ed="#L" break="no" n="11"/>cet compositi communis est de se hac,
+          <lb ed="#L" n="12"/>quia non potest esse compositum 
+          commu<lb ed="#L" break="no" n="13"/>ne, et ejusdem rationis in diversis, 
+          sup<lb ed="#L" break="no" n="14"/>ple partibus subjectivis, quin quodlibet,
+          <lb ed="#L" n="15"/>quod. est de essentia ejus posset esse 
+          ejus<lb ed="#L" break="no" n="16"/>dem rationis cum eis, puta si homo ut
+          <lb ed="#L" n="17"/>est in Socrate est singularis, ita partes
+          <lb ed="#L" n="18"/>componentes hominem ut in Socrate,
+          <lb ed="#L" n="19"/>sunt singulares, cum sint de essentia
+          <lb ed="#L" n="20"/>ejus, et tunc quaeritur per quid sunt 
+          sin<lb ed="#L" break="no" n="21"/>eulares? non ex se, sicut nec homo ex se
+          <lb ed="#L" n="22"/>est singularis ; ergo per aliquid adveniens
+          <lb ed="#L" n="23"/>contrahens illas partes ad esse 
+          individu<lb ed="#L" break="no" n="24"/>ale, et illud non erit materia, quae est 
+          al<lb ed="#L" break="no" n="25"/>tera pars compositi, cum illa de se non
+          <lb ed="#L" n="26"/>sit singularis, sed contrahatur ad 
+          singu<lb ed="#L" break="no" n="27"/>laritatem.
+        </p>
+        <p xml:id="mm30o9-d1e1762-d1e481">
+          <lb ed="#L" n="28"/>(f) Praeterea per rationem. Quarto 
+          Do<lb ed="#L" break="no" n="29"/>ctor arguit probando, quod materia non
+          <lb ed="#L" n="30"/>sit singularitas, et arguit per rationem
+          <lb ed="#L" n="31"/>ducentem ad impossibile, quia sequeretur
+          <lb ed="#L" n="32"/>quod hic ignis et hcec aqua essent 
+          simpli<lb ed="#L" break="no" n="33"/>citer unum numero, quia si materia est
+          <lb ed="#L" n="34"/>ratio individualis substantiae materialis,
+          <lb ed="#L" n="35"/>tunc generatum et corruptum essent.
+          <lb ed="#L" n="36"/>unum numero ; patet, quia illa sunt
+          <lb ed="#L" n="37"/>unum numero, quorum ratio singularitatis
+          <lb ed="#L" n="38"/>est simpliciter eadem, sed materia manet
+          <lb ed="#L" n="39"/>simpliciter eadem in generato et 
+          corrup<lb ed="#L" break="no" n="40"/>10; ergo res qua generatur, erit eadem
+          <lb ed="#L" n="41"/>numero cum re qua corrrumpitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

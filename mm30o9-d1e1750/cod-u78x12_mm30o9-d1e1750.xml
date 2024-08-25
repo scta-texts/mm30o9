@@ -1,0 +1,1943 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4</title>
+        <author ref="#per-FLBca3">Franciscus Lychetus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4</title>
+          <date when="2024-08-25">August 25, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x12">Vives, Paris, 1893, volume 12</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="96"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="mm30o9-d1e1750"><!-- lycht-l2d3q4-p3 -->
+        <head xml:id="mm30o9-d1e1750-Hd1e101">Quaestio 4</head>
+        <p xml:id="mm30o9-d1e1750-d1e103">
+          <lb ed="#L" n="54" type="fixed=96"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e108">
+          <lb ed="#L" n="55"/>(a) Contra istam conclusionem. Hic
+          <lb ed="#L" n="56"/>Doctor intendit duo improbare hanc 
+          posi<lb ed="#L" break="no" n="57"/>tionem, et intendit duo principaliter.
+          <lb ed="#L" n="58"/>Primo improbare conclusionem in se.
+          <lb ed="#L" n="59"/>Secundo specialiter arguere contra 
+          ra<lb ed="#L" break="no" n="60"/>tiones opinionis.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e124">
+          <lb ed="#L" n="61"/>Quantum ad primum arguit ex quatuor .
+          <lb ed="#L" n="62"/>viis : Quantum ad. primam, etc. id est; 
+          <lb ed="#L" n="63"/>quod quando loquitur de individuatione, 
+          <lb ed="#L" n="64"/>sive de unitate numerali, non loquitur
+          <lb ed="#L" n="65"/>de uno numero in confuso, sicut 
+          dici<lb ed="#L" break="no" n="66"/>mus, quod quilibet homo in specie 
+          hu<lb ed="#L" break="no" n="67"/>mana est unum mumero in confuso et
+          <lb ed="#L" n="68"/>indeterminate, sed prccise loquitur de
+          <lb ed="#L" n="69"/>unitate numerali signata, ita quod sicut
+          <lb ed="#L" n="70"/>prius dictum est, quod impossibile est
+          <lb ed="#L" n="71"/>individuum dividi in partes 
+          subjecti<lb ed="#L" break="no" n="72"/>vas, etc.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e153">
+          <lb ed="#L" n="73"/>Hoc modo intelligendo singularitatem,
+          <lb ed="#L" n="74"/>ex prima via arguitur dupliciter :
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e161">
+          <lb ed="#L" n="75"/>Prima ratio stat in hoc, supponendo
+          <lb ed="#L" n="76"/>unum, scilicet quod est simpliciter 
+          im<lb ed="#L" break="no" n="77"/>possibile unam et eamdem substantiam
+          <lb ed="#L" n="78"/>numero, nulla facta mutatione, sive
+          <lb ed="#L" n="79"/>transmutatione circa ipsam, quod sit hiec
+          <lb ed="#L" n="80"/>substantia, et non sit hoc substantia,
+          <lb ed="#L" n="81"/>sicut est simpliciter impossibile quod 
+          ea<lb ed="#L" break="no" n="82"/>dem natura specifica,nulla facta mutatione
+          <lb ed="#L" n="83"/>circa ipsam, sit aliquando talis natura, ef
+          <lb ed="#L" n="84"/>aliquando non talis natura.Supponit etiam
+          <lb ed="#L" n="85"/>quod quacumque res dicitur simpliciter
+          <lb ed="#L" n="86"/>habere tale esse per suum ultimatum
+          <pb ed="#L" n="97"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>constitutivum, sicut. natura specifica 
+          dici<lb ed="#L" break="no" n="2"/>tur habere esse tale simpliciter, per 
+          ul<lb ed="#L" break="no" n="3"/>iüimam differentiam constituentem, qua
+          <lb ed="#L" n="4"/>differentia ultüimata remota non est 
+          am<lb ed="#L" break="no" n="5"/>pliustalis natura,similiter prima 
+          substan<lb ed="#L" break="no" n="6"/>tia simpliciter dicitur talis per suam 
+          rati<lb ed="#L" break="no" n="7"/>onem individualem, quae» remota non est
+          <lb ed="#L" n="8"/>amplius prima substantia.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e211">
+          <lb ed="#L" n="9"/>Tertio praesupponit, quod substantia
+          <lb ed="#L" n="10"/>materialis, sic se habet ad hscceitatem,
+          <lb ed="#L" n="11"/>quod ipsa haecceitate desinente esse, per
+          <lb ed="#L" n="12"/>quam tale individuum constituitur in esse,
+          <lb ed="#L" n="13"/>tale individuum simpliciter desinit esse
+          <lb ed="#L" n="14"/>quoad suam realem identitatem, ita quod
+          <lb ed="#L" n="15"/>cum dico primam substantiam esse 
+          in<lb ed="#L" break="no" n="16"/>dividuam per A, remoto ipso A, 
+          sim<lb ed="#L" break="no" n="17"/>pliciter. substantia quoad esse reale 
+          desi<lb ed="#L" break="no" n="18"/>nit esse, ita quod amplias non est, nisi
+          <lb ed="#L" n="19"/>tantum in esse possibili.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e237">
+          <lb ed="#L" n="20"/>(b) Primo sic. His praesuppositis 
+          ar<lb ed="#L" break="no" n="21"/>guit Doctor sic: Si substantia singularis
+          <lb ed="#L" n="22"/>est singularis per quantitatem; ergo 
+          ea<lb ed="#L" break="no" n="23"/>dem substantia realiter et ut actu existens
+          <lb ed="#L" n="24"/>erit actu existens, et non erit actu 
+          exi<lb ed="#L" break="no" n="25"/>stens, patet, quia Deus potest separare
+          <lb ed="#L" n="26"/>omnem quantitatem ab illa, ipsa 
+          rema<lb ed="#L" break="no" n="27"/>nente in suo esse realis existentioe, et ut
+          <lb ed="#L" n="28"/>separata non erit in tali esse; patet,
+          <lb ed="#L" n="29"/>quia est simpliciter impossibile 
+          substan<lb ed="#L" break="no" n="30"/>tiam aliquam actu existere, et non esse
+          <lb ed="#L" n="31"/>singularem ; modo separata quantitate erit
+          <lb ed="#L" n="32"/>aetu existens, hoc patet, quia omnis 
+          sub<lb ed="#L" break="no" n="33"/>stantia actu existens est singularis, et
+          <lb ed="#L" n="34"/>non erit actu existens hac, quia sua
+          <lb ed="#L" n="35"/>haeceitas est separata, imo plus sequitur
+          <lb ed="#L" n="36"/>quod eadem substantia numero, nulla 
+          fa<lb ed="#L" break="no" n="37"/>cta (transmutatione circa substantiam,
+          <lb ed="#L" n="38"/>erit simpliciter alia et alia substantia
+          <lb ed="#L" n="39"/>numero; patet, quia illud est aliud et
+          <lb ed="#L" n="40"/>aliud numero, quod habet aliam et aliam
+          <lb ed="#L" n="41"/>haeceitatem, Sed eadem substantia actu
+          <lb ed="#L" n="42"/>existens potest successive esse sub alia
+          <lb ed="#L" n="43"/>et alia quantitate; ergo si quantitas est
+          <lb ed="#L" n="44"/>ratio individualis, erit aliquando eadem
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>numero, et aliquando non eadem 
+          nu<lb ed="#L" break="no" n="46"/>mero cum  varietur ejus ratio 
+          indivi<lb ed="#L" break="no" n="47"/>dualis, imo ex ista ratione sequitur plus
+          <lb ed="#L" n="48"/>quod erit eadem numero de necessitate
+          <lb ed="#L" n="49"/>duplici differentia individuali, quod est
+          <lb ed="#L" n="50"/>impossibile, sicut quod eadem natura 
+          spe<lb ed="#L" break="no" n="51"/>cifica dicatur specifice duplici differentia
+          <lb ed="#L" n="52"/>specifica. Probatur assumptum, quia 
+          sub<lb ed="#L" break="no" n="53"/>stantia actu separata a quantitate et actu
+          <lb ed="#L" n="54"/>existens, necessario est, unum numero;
+          <lb ed="#L" n="55"/>patet, quia nulla substantia realiter actu
+          <lb ed="#L" n="56"/>existens, potest communicari pluribus,
+          <lb ed="#L" n="57"/>nisi sola substantia divina, quae actu est
+          <lb ed="#L" n="58"/>in tribus suppositis. Si ergo est 
+          singu<lb ed="#L" break="no" n="59"/>laris per quantitatem, cum quantitas non
+          <lb ed="#L" n="60"/>insit substantiae materiali, nisi actu 
+          exi<lb ed="#L" break="no" n="61"/>stenti, sequitur quod eadem substantia
+          <lb ed="#L" n="62"/>materialis duplici differentia numerali
+          <lb ed="#L" n="63"/>erit una numero, ita quod adaequate per
+          <lb ed="#L" n="64"/>utramque erit una numero, et sic 
+          sequi<lb ed="#L" break="no" n="65"/>tur quod erit una numero et non erit una
+          <lb ed="#L" n="66"/>numero, quia circumscripta una ratione
+          <lb ed="#L" n="67"/>formali, puta quantitate, non erit una
+          <lb ed="#L" n="68"/>numero, et erit una numero posita alia
+          <lb ed="#L" n="69"/>differentia individuali.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e350">
+          <lb ed="#L" n="70"/>Similiter si mutetur a. quocumque
+          <lb ed="#L" n="71"/>accidente. Vult dicere, si tu dicis, quod
+          <lb ed="#L" n="72"/>est individua per aliquod accidens contra,
+          <lb ed="#L" n="73"/>quia faeta quacumque mutatione 
+          acci<lb ed="#L" break="no" n="74"/>dentali, nulla facta mutatione circa 
+          sub<lb ed="#L" break="no" n="75"/>stantiam materialem, si sit actu existens
+          <lb ed="#L" n="76"/>adhuc erit haec, ergo non erit haec per 
+          ali<lb ed="#L" break="no" n="77"/>quod accidens; alias si esset haec. tantum
+          <lb ed="#L" n="78"/>per aliquod accidens facta mutatione illius
+          <lb ed="#L" n="79"/>accidentis, de hoc posset facere non hoc,
+          <lb ed="#L" n="80"/>ipsa substantia manente in suo esse 
+          ac<lb ed="#L" break="no" n="81"/>tuali reali, quod est impossibile. Et cum
+          <lb ed="#L" n="82"/>dicit :sive hoc sit possibile, sive sit 
+          impossi<lb ed="#L" break="no" n="83"/>bile, vult dicere, quod si posset fieri mutatio
+          <lb ed="#L" n="84"/>accidentalis, puta quantitatis, sine 
+          muta<lb ed="#L" break="no" n="85"/>tione substantiali, sive impossibile sit fieri
+          <lb ed="#L" n="86"/>mutatio in quantitate, vel in aliquo alic
+          <lb ed="#L" n="87"/>accidente, sine mutatione substantiali.
+          <lb ed="#L" n="88"/>non tamen propter hoc erit formaliter
+          <pb ed="#L" n="98"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>haec vel non haec, quia semper etiam
+          <lb ed="#L" n="2"/>ut actu existens praeintelligitur omni 
+          ac<lb ed="#L" break="no" n="3"/>cidente, sicut subjectum est prius suo
+          <lb ed="#L" n="4"/>accidente.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e407">
+          <lb ed="#L" n="5"/>(c) Secundo sic, duarum 
+          producti<lb ed="#L" break="no" n="6"/>onum; etc. Haec est secunda ratio 
+          princi<lb ed="#L" break="no" n="7"/>palis ex prima via, et stat in hoc: Nam
+          <lb ed="#L" n="8"/>impossibile est, quod una et eadem 
+          sub<lb ed="#L" break="no" n="9"/>stantia numero sit per se terminus 
+          dua<lb ed="#L" break="no" n="10"/>rum productionum completarum, ut supra
+          <lb ed="#L" n="11"/>probatum est in primo, distinct. 2. 
+          par<lb ed="#L" break="no" n="12"/>le 4. quaest. 1. modo suppono quod 
+          termi<lb ed="#L" break="no" n="13"/>nus totalis alicujus productionis 
+          comple<lb ed="#L" break="no" n="14"/>te est aliqua substantia includens 
+          na<lb ed="#L" break="no" n="15"/>turam cum sua haecceitate, ut puta, hic
+          <lb ed="#L" n="16"/>panis generatur ; generatio enim 
+          termi<lb ed="#L" break="no" n="17"/>natur ad singulare primo, ut patet 2m
+          <lb ed="#L" n="18"/>proemio Metaph. si ergo dicis, quod hic
+          <lb ed="#L" n="19"/>panis est hic per quantitatem, manente
+          <lb ed="#L" n="20"/>ergo eadem quantitate, semper erit hic
+          <lb ed="#L" n="21"/>panis, et ex alia parte pono, quod ille 
+          pa<lb ed="#L" break="no" n="22"/>nis transubstantiaetur in corpus Christi, et
+          <lb ed="#L" n="23"/>in tali transubstantiatione nihil substantiae
+          <lb ed="#L" n="24"/>panis manet, ut declarat Doctor m 4.
+          <lb ed="#L" n="25"/>d.141. et tamen remanet qeantitas illius
+          <lb ed="#L" n="26"/>panis secundum fidem, quae per te, est 
+          hcec<lb ed="#L" break="no" n="27"/>ceitas illius panis. Deinde pono, quod Deus
+          <lb ed="#L" n="28"/>creet aliam substantiam panis sub illa
+          <lb ed="#L" n="29"/>quantitate; ergo ille. panis creatus erit
+          <lb ed="#L" n="30"/>simpliciter idem, quod ille panis 
+          annihi<lb ed="#L" break="no" n="31"/>latus, cum eadem ratio individualis sit
+          <lb ed="#L" n="32"/>utriusque; ergo idem panis erit. 
+          termi<lb ed="#L" break="no" n="33"/>nus totalis generationis completae, et 
+          simi<lb ed="#L" break="no" n="34"/>liter erit terminus totalis creationis, quod
+          <lb ed="#L" n="35"/>est impossibile.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e477">
+          <lb ed="#L" n="36"/>Si dicatur, quod non est possibile idem
+          <lb ed="#L" n="37"/>successive esse totalem terminum 
+          gene<lb ed="#L" break="no" n="38"/>rationis et creationis, quia genitum 
+          anni<lb ed="#L" break="no" n="39"/>hilatum potest simpliciter idem reparari
+          <lb ed="#L" n="40"/>a Deo, et sic simpliciter idem poterit 
+          crea<lb ed="#L" break="no" n="41"/>ri, ut patet a Doctore, supra distinct. 2.
+          <lb ed="#L" n="42"/>q. 4. et in 4. dist. 43. sic. diceretur
+          <lb ed="#L" n="43"/>forte in proposito, quod idem panis post
+          <lb ed="#L" n="44"/>annihilatus erit idem creatus. Dico, quod
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>haec instantia non est contra rationem
+          <lb ed="#L" n="46"/>Doctoris, non' enim negaret quod idem ^
+          <lb ed="#L" n="47"/>annihilatum non posset reparari, negaret p
+          <lb ed="#L" n="48"/>tamen, quod idem manens idem complete
+          <lb ed="#L" n="49"/>productum ab aliquo, ab alio etiam possit
+          <lb ed="#L" n="50"/>complete produci; cum ergo hic panis
+          <lb ed="#L" n="51"/>dicatur praecise hic panis per differentiam
+          <lb ed="#L" n="52"/>individualem, qui ut sic, est terminus
+          <lb ed="#L" n="53"/>totalis generationis complete; ergo 
+          an<lb ed="#L" break="no" n="54"/>nihilata substantia panis, manente ejus
+          <lb ed="#L" n="55"/>differentia individuali, scilicet. quantitate,
+          <lb ed="#L" n="56"/>si creetur alia substantia panis sub illa
+          <lb ed="#L" n="57"/>quantitate, erit idem panis; qui prius,
+          <lb ed="#L" n="58"/>et sic idem ut idem erit terminus duarum
+          <lb ed="#L" n="59"/>productionum  completarum.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e535">
+          <lb ed="#L" n="60"/>Si dicatur, quod terminus creationis
+          <lb ed="#L" n="61"/>erit substantia panis, ut prior tali 
+          quan<lb ed="#L" break="no" n="62"/>titatae, contra, quia creatio non erit 
+          sub<lb ed="#L" break="no" n="63"/>stantiae panis nisi ut, actu existentis, quia
+          <lb ed="#L" n="64"/>creatio tantum terminatur ad rem 
+          exi<lb ed="#L" break="no" n="65"/>stentem, ut existens est, ut patet a 
+          Docto<lb ed="#L" break="no" n="66"/>re in primo, distinct. 36. Et tunc quiero,
+          <lb ed="#L" n="67"/>aut ille panis, ut prior est singularis,
+          <lb ed="#L" n="68"/>aut non ; si sic, habetur propositum, quia
+          <lb ed="#L" n="69"/>non erit singularis per quantitatem; Si
+          <lb ed="#L" n="70"/>non, ergo creatio terminatur ad rem 
+          exi<lb ed="#L" break="no" n="71"/>stentem, quae non erit singularis, quod
+          <lb ed="#L" n="72"/>est impossibile; si ergo terminatur ad
+          <lb ed="#L" n="73"/>panem ut singularem, ut fit singularis per
+          <lb ed="#L" n="74"/>quantitatem quae erat panis geniti, ergo
+          <lb ed="#L" n="75"/>idem singulare, quod prius fuit terminus
+          <lb ed="#L" n="76"/>generationis manens idem, adhuc erit
+          <lb ed="#L" n="77"/>terminus generationis, quod non est 
+          ima<lb ed="#L" break="no" n="78"/>cinabile. Ex ista etiam ratione Doctoris
+          <lb ed="#L" n="79"/>videtur sequi, quod panis nullo modo
+          <lb ed="#L" n="80"/>erit transubstantiatus, patet, quia 
+          quam<lb ed="#L" break="no" n="81"/>diu remanet differentia individualis 
+          ali<lb ed="#L" break="no" n="82"/>cujus, tamdiu manet illud, quamdiu
+          <lb ed="#L" n="83"/>enim manet rationale, tamdiu manet 
+          ho<lb ed="#L" break="no" n="84"/>mo. Si ergo quantitas est ratio 
+          individuan<lb ed="#L" break="no" n="85"/>di substantiam panis; ergo manente eadem
+          <lb ed="#L" n="86"/>quantitate, manet eadem substantia panis
+          <lb ed="#L" n="87"/>numero. Praeterea cum. talis 
+          transubstan<lb ed="#L" break="no" n="88"/>tiatio panis in corpus Christi sit. vere
+          <pb ed="#L" n="99"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>realis, ergo panis realiter 
+          transubstan<lb ed="#L" break="no" n="2"/>tiatur in corpus Christi, sed non habet
+          <lb ed="#L" n="3"/>esse reale, nisi ut actu singularis; ergo
+          <lb ed="#L" n="4"/>si realiter transubstantiatur, sequitur
+          <lb ed="#L" n="5"/>quod in tali transubstantiatione desinet
+          <lb ed="#L" n="6"/>quantitas panis, cujus oppositum tenet 
+          fi<lb ed="#L" break="no" n="7"/>des Catholica.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e620">
+          <lb ed="#L" n="8"/>(d) Ex secunda via, quae est ordine
+          <lb ed="#L" n="9"/>substantiaete ad accidentia arguitur 
+          multi<lb ed="#L" break="no" n="10"/>pliciter. Ev prima ratio stat in hoc, quia
+          <lb ed="#L" n="11"/>substantia secundum totam suam  
+          co<lb ed="#L" break="no" n="12"/>ordinationem est prior accidente, ergo
+          <lb ed="#L" n="13"/>in tali priori erit substantia materialis
+          <lb ed="#L" n="14"/>hiec; patet consequentia, quia in 
+          praedi<lb ed="#L" break="no" n="15"/>camento Substantive non tantum per se
+          <lb ed="#L" n="16"/>ponuntur genera et. species, sed etiam
+          <lb ed="#L" n="17"/>individua. Antecedens ^ patet per 
+          Philo<lb ed="#L" break="no" n="18"/>sophum septimo Metaphys. text. com. 8.
+          <lb ed="#L" n="19"/>qui vulü quod substantia sit prior omni
+          <lb ed="#L" n="20"/>accidente — naturaliter. Quare, inquit,
+          <lb ed="#L" n="21"/>prümum ens et non aliquid ens, sed
+          <lb ed="#L" n="22"/>ens simpliciter substantia  wlique erit
+          <lb ed="#L" n="23"/>multipliciter ; quidem igitur dicitur. 
+          pri<lb ed="#L" break="no" n="24"/>mum, sed substantia omnium primwunm
+          <lb ed="#L" n="25"/>ratione, et notitia, et. tempore, et 
+          na<lb ed="#L" break="no" n="26"/>tura. Haec ille.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e664">
+          <lb ed="#L" n="27"/>Nec oportet fugere dicendo, quod 
+          in<lb ed="#L" break="no" n="28"/>tentio Aristotelis. est loqui ibi de 
+          sub<lb ed="#L" break="no" n="29"/>stantia; quae est Deus, vel quia est prima
+          <lb ed="#L" n="30"/>causa, quia expresse loquitur ibi de 
+          sub<lb ed="#L" break="no" n="31"/>stantia, secundum quod est unum 
+          isto<lb ed="#L" break="no" n="32"/>rum, quia dividunt ens; ita enim probat
+          <lb ed="#L" n="33"/>substantiam esse primam, quomodo 
+          pro<lb ed="#L" break="no" n="34"/>bat substantiam esse de numero 
+          divi<lb ed="#L" break="no" n="35"/>dentium ens, quod est prior omni 
+          acci<lb ed="#L" break="no" n="36"/>dente, ita scilicet quod ad 
+          determinan<lb ed="#L" break="no" n="37"/>dum de omnibus, quia dividunt ens,
+          <lb ed="#L" n="38"/>suffieit determinare de substantia 
+          tan<lb ed="#L" break="no" n="39"/>quam de primo, pro eo quod cognitio 
+          ac<lb ed="#L" break="no" n="40"/>cidentium habetur ex eo quod attribuuntur
+          <lb ed="#L" n="41"/>substantive. Istud autem non potest esse,
+          <lb ed="#L" n="42"/>nisi de substantia secundum totalem 
+          coor<lb ed="#L" break="no" n="43"/>dinationem suam, et quod Aristoteles sic
+          <lb ed="#L" n="44"/>intendat loqui de substantia praedicamen-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>tali, nam <ref xml:id="mm30o9-d1e1750-Rd1e709">in principio 7.</ref>
+          <ref xml:id="mm30o9-d1e1750-Rd1e711">Ens, inquit, 
+            anul<lb ed="#L" break="no" n="46"/>tipliciter dicitur, sicut divisimus in his,
+            <lb ed="#L" n="47"/>que de quoties</ref>, videlicet in <ref xml:id="mm30o9-d1e1750-Rd1e718">quinto  
+              Me<lb ed="#L" break="no" n="48"/>taph. text. com. 14.</ref> ubi sic habetur : 
+          <quote xml:id="mm30o9-d1e1750-Qd1e724">Se<lb ed="#L" break="no" n="49"/>cundum, id est, entia per se, dicuntur
+            <lb ed="#L" n="50"/>esse quaecumque significant figuras. 
+            prc<lb ed="#L" break="no" n="51"/>dicationis, quoties enim dicitur, lolies
+            <lb ed="#L" n="52"/>esse significat.</quote> Haec ibi; patet ergo, 
+          quo<lb ed="#L" break="no" n="53"/>modo in isto septimo intendat loqui de
+          <lb ed="#L" n="54"/>substantia praedicamentali, et ideo <ref xml:id="mm30o9-d1e1750-Rd1e739">in
+            <lb ed="#L" n="55"/>eodem septimo text. com. 9. secundum
+            <lb ed="#L" n="56"/>aliam translationem</ref>, ubi sic habetur: ef
+          <lb ed="#L" n="57"/>cum ens dicitur multis modis, 
+          manife<lb ed="#L" break="no" n="58"/>stum est, quod primum ens istorum est 
+          il<lb ed="#L" break="no" n="59"/>lud. quod. significat. quid, et hoc est illud
+          <lb ed="#L" n="60"/>quod. significat. substantiam. Mec ibi. Et
+          <lb ed="#L" n="61"/>ibi Commentator : Cum declaravit, inquit,
+          <lb ed="#L" n="62"/>quod hoc nomen ens significat 
+          substan<lb ed="#L" break="no" n="63"/>Liam, et accidentia substantiae, quae sunt
+          <lb ed="#L" n="64"/>i^vem praedicamenta, intendit. declarare
+          <lb ed="#L" n="65"/>qu... hoc nomen ens principaliter et
+          <lb ed="#L" n="66"/>simpliciter — significat — praedicamentum
+          <lb ed="#L" n="67"/>Substantiae secundario et determinate,
+          <lb ed="#L" n="68"/>scilicet relative ad substantiam, alia 
+          prc<lb ed="#L" break="no" n="69"/>dicamenta accidentium, quae non. 
+          dicun<lb ed="#L" break="no" n="70"/>tur esse, nisi quia accidunt enti, quod est
+          <lb ed="#L" n="71"/>ens perse, scilicet substantice. Hec ille.
+          <lb ed="#L" n="72"/>Cum ergo in textu quarto dicit 
+          substan<lb ed="#L" break="no" n="73"/>tiam esse prius natura omni accidente,
+          <lb ed="#L" n="74"/>patet quod ibi accipit substantiam 
+          praedi<lb ed="#L" break="no" n="75"/>camentalem, hoc etiam expresse patet
+          <lb ed="#L" n="76"/>per <ref xml:id="mm30o9-d1e1750-Rd1e790">Commentatorem com. 4.</ref> Si ergo 
+          sub<lb ed="#L" break="no" n="77"/>stantia praedicamentalis secundum totam
+          <lb ed="#L" n="78"/>suam coordinationem est prior tempore,
+          <lb ed="#L" n="79"/>et natura omni accidente, sequitur, quod
+          <lb ed="#L" n="80"/>individua substantiae non erunt haec per
+          <lb ed="#L" n="81"/>aliquod accidens. Et confirmatio sequens
+          <lb ed="#L" n="82"/>est clara in littera. Si enim aliquid sit
+          <lb ed="#L" n="83"/>prius ad aliud, maxime primum illius est
+          <lb ed="#L" n="84"/>primum ad illad, sed maxime primum
+          <lb ed="#L" n="85"/>substantiae in communi est substantia 
+          pri<lb ed="#L" break="no" n="86"/>ma, quod debet intelligi sic, quia si 
+          sub<lb ed="#L" break="no" n="87"/>stantia est prior accidente, illud, quod
+          <lb ed="#L" n="88"/>erit maxime substantia, erit maesis pri-
+          <pb ed="#L" n="100"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>mum; igitur substantia prima est simpli.
+          <lb ed="#L" n="2"/>citer prior omni accidente.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e827">
+          <lb ed="#L" n="3"/>(e) Hic dicitur, quod licet prima 
+          sub<lb ed="#L" break="no" n="4"/>stantia, etc. Patet, quia divisibilitas 
+          com<lb ed="#L" break="no" n="5"/>petit quantitati primo et per se, et sic
+          <lb ed="#L" n="6"/>substantia materialis, quamvis sit prior
+          <lb ed="#L" n="7"/>ipsa in suo esse, non tamen potest dividi
+          <lb ed="#L" n="8"/>nisi per quantitatem.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e843">
+          <lb ed="#L" n="9"/>Contra, sta responsio seipsam 
+          de<lb ed="#L" break="no" n="10"/>struit, etc. nisi inquantum hec, patet,
+          <lb ed="#L" n="11"/>quia non est prima substantia, nisi ut 
+          sin<lb ed="#L" break="no" n="12"/>eularis et individua; ergo non erit hiec
+          <lb ed="#L" n="13"/>per quantitatem.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e856">
+          <lb ed="#L" n="14"/>(f) Praeterea, forma est. simpliciter
+          <lb ed="#L" n="15"/>prior composito, ut patet <ref xml:id="mm30o9-d1e1750-Rd1e862">septimo  
+            Meta<lb ed="#L" break="no" n="16"/>phus. text. com. 1.</ref> ubi sic habetur : 
+          Qua<lb ed="#L" break="no" n="17"/>re si species, scilicet forma, materia. est
+          <lb ed="#L" n="18"/>prior, et magis ens, et ipso, quod ex
+          <lb ed="#L" n="19"/>utrisque prior erit, propter eamdem 
+          vra<lb ed="#L" break="no" n="20"/>tionem. Haec ille. Et ibi Commentator :
+          <lb ed="#L" n="21"/>si igitur fuerit prior in esse quam 
+          mate<lb ed="#L" break="no" n="22"/>ria, et magis ens, propter hoc quod 
+          mate<lb ed="#L" break="no" n="23"/>ria est in potentia, et forma est in actu,
+          <lb ed="#L" n="24"/>etiam erit prior composito ex ambobus,
+          <lb ed="#L" n="25"/>compositum etiasn non est. in actu nisi
+          <lb ed="#L" n="26"/>propter formam, et hoc intendebat, cum
+          <lb ed="#L" n="27"/>dixit, propter eamdem rationem, id. est,
+          <lb ed="#L" n="28"/>quod. modus, secundum quem forma est
+          <lb ed="#L" n="29"/>prior materia, est idem cum eo, 
+          secun<lb ed="#L" break="no" n="30"/>dum quem est prior composito, et 
+          inten<lb ed="#L" break="no" n="31"/>debat, quod. cum forma est prior 
+          compo<lb ed="#L" break="no" n="32"/>silo ex materia et forma, et compositum
+          <lb ed="#L" n="33"/>est. substantia, sequitur. quod forma sit
+          <lb ed="#L" n="34"/>magis substantia quam compositum. Ex
+          <lb ed="#L" n="35"/>quo sequitur, quod si quantitas sit, 
+          ulti<lb ed="#L" break="no" n="36"/>mum constitutivum prim: — substantii:,
+          <lb ed="#L" n="37"/>quod ipsa sit prior ipsa prima 
+          substan<lb ed="#L" break="no" n="38"/>tia in essendo, sed hoc est impossibile,
+          <lb ed="#L" n="39"/>quia omnis substantia in essendo est
+          <lb ed="#L" n="40"/>prior omni accidente, per  
+          Philoso<lb ed="#L" break="no" n="41"/>phum septimo Metaphysicorum, — text.
+          <lb ed="#L" n="42"/>com. quarto: ergo si quantitas non est
+          <lb ed="#L" n="43"/>prior in essendo prima substantia, 
+          sequi<lb ed="#L" break="no" n="44"/>tur quod nec erit prior in unitate compe-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>tente primae substantiae, inquantum tale
+          <lb ed="#L" n="46"/>ens. Si enim prima substantia est una.
+          <lb ed="#L" n="47"/>unitate numerali et indivisibili in plura
+          <lb ed="#L" n="48"/>numero, et ut sic est prior quantitate; 
+          er<lb ed="#L" break="no" n="49"/>2o talem unitatem non habet a quantitate.
+          <lb ed="#L" n="50"/>Sequitur : quamlibet enim entitatem 
+          con<lb ed="#L" break="no" n="51"/>sequitur propria unitas, non habens aliam
+          <lb ed="#L" n="52"/>causam propriam sui quam causam 
+          entita<lb ed="#L" break="no" n="53"/>lis, patet, quia unitas propria et intrinseca
+          <lb ed="#L" n="54"/>alicujus est ratione entitatis pertinentis
+          <lb ed="#L" n="55"/>ad rauonem illius ; homo enim habet 
+          unita<lb ed="#L" break="no" n="56"/>iem specificam propriam et intrinsecam
+          <lb ed="#L" n="57"/>per entitatem differentiate ultimee. 
+          consti<lb ed="#L" break="no" n="58"/>tuentem ipsam in tali esse et unitate, quae
+          <lb ed="#L" n="59"/>entitas est prior homine constituto, sic et
+          <lb ed="#L" n="60"/>prima substantia est.una unitate 
+          numera<lb ed="#L" break="no" n="61"/>li propria et intrinseca per entitatem 
+          con<lb ed="#L" break="no" n="62"/>stituentem ipsam in tali esse et unitate,
+          <lb ed="#L" n="63"/>et per consequens prior illa, et tale est
+          <lb ed="#L" n="64"/>differentia individualis, quae est prior 
+          pri<lb ed="#L" break="no" n="65"/>ma substantia; ergo talis unitas numeralis
+          <lb ed="#L" n="66"/>non competit prima substantiae per
+          <lb ed="#L" n="67"/>quantitatem, cum illa sit simpliciter 
+          po<lb ed="#L" break="no" n="68"/>sterior.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e984">
+          <lb ed="#L" n="69"/>(g) Praeterea, eodem modo substantia
+          <lb ed="#L" n="70"/>est prior naturaliter omni accidente, quo
+          <lb ed="#L" n="71"/>est subjectum omnium accidentium, 
+          in<lb ed="#L" break="no" n="72"/>quantum enim subjectum. probatur. esse
+          <lb ed="#L" n="73"/>prius definitione omni accidente, et hoc
+          <lb ed="#L" n="74"/>per additamentum, ut patet 1. Metaph 
+          y<lb ed="#L" break="no" n="75"/>sicorum, text. com. 4. secundum aliam
+          <lb ed="#L" n="76"/>transtationem : Substantia, inquit, est
+          <lb ed="#L" n="77"/>prima omnium rerum definitione, et 
+          co<lb ed="#L" break="no" n="78"/>gnitione, et tempore; nullum enim 
+          alio<lb ed="#L" break="no" n="79"/>rum praedicabilium est. separabile, et
+          <lb ed="#L" n="80"/>istud solum est separabile. Et est prima
+          <lb ed="#L" n="81"/>secundum. definitionem, necessarium est
+          <lb ed="#L" n="82"/>enim, ut definitio substantiae accipiatur
+          <lb ed="#L" n="83"/>in. definitione cujuslibet rei. Hwc ille.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e1019">
+          <lb ed="#L" n="84"/>Ex quo sequitur, quod ut sic prima
+          <lb ed="#L" n="85"/>substantia erit prior omni accidente, quia
+          <lb ed="#L" n="86"/>singulare accidens est primo in prima
+          <lb ed="#L" n="87"/>substantia, tanquam in subjecto, ut patet
+          <lb ed="#L" n="88"/>per Philosophum 12. Metaphysicorum ,
+          <pb ed="#L" n="101"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>text. com. trigesimo septimo, qui textus
+          <lb ed="#L" n="2"/>incipit, secundum aliam transtationem
+          <lb ed="#L" n="3"/>Et etiam considerandum est, quod 
+          que<lb ed="#L" break="no" n="4"/>dam sunt quae possumus dicere 
+          universa<lb ed="#L" break="no" n="5"/>liter, et. quedam quae possumus. dicere
+          <lb ed="#L" n="6"/>particulariter, et prima principia habent
+          <lb ed="#L" n="7"/>materiam qua in actu, hoc est prius, et
+          <lb ed="#L" n="8"/>aliud in potentia, id est, secundum 
+          Com<lb ed="#L" break="no" n="9"/>mentatorem, e/ principia principalia sunt
+          <lb ed="#L" n="10"/>ea, quorum substantia est aliquod. ens in
+          <lb ed="#L" n="11"/>actu extra animam. Sequitur in textu
+          <lb ed="#L" n="12"/>Hoc est prius, et aliud in potentia, id
+          <lb ed="#L" n="13"/>est, alia sunt ea, quae sunt in potentia
+          <lb ed="#L" n="14"/>particularia, et primum  praecedit hoc.
+          <lb ed="#L" n="15"/>Sequitur : et illa universalia non sunt,
+          <lb ed="#L" n="16"/>quoniam quod est, individui est, et 
+          pa<lb ed="#L" break="no" n="17"/>rum infra : Quodlibet singularium est
+          <lb ed="#L" n="18"/>aliud, et materia et forma. Vide 
+          Com<lb ed="#L" break="no" n="19"/>mentatorem ibi.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e1078">
+          <lb ed="#L" n="20"/>(h) Et confirmatur maxime de 
+          acciden<lb ed="#L" break="no" n="21"/>fe per accidens, quia illud primo inest
+          <lb ed="#L" n="22"/>singulari, <ref xml:id="mm30o9-d1e1750-Rd1e1086">quinto Metaphysicorum, capit.
+            <lb ed="#L" n="23"/>de Eodem</ref>, qui textus non habet 
+          com<lb ed="#L" break="no" n="24"/>mentum, quia non habet textum 
+          corre<lb ed="#L" break="no" n="25"/>spondentem in Arabica transtatione, et
+          <lb ed="#L" n="26"/>ponitur immediate post textum decimum
+          <lb ed="#L" n="27"/>quintum, ubi sic habetur : Nam 
+          univer<lb ed="#L" break="no" n="28"/>salia secundum se existunt, accidentia
+          <lb ed="#L" n="29"/>vero non secundum. se, sed in 
+          singulari<lb ed="#L" break="no" n="30"/>bus simpliciter dicuntur. Haec ille; et per
+          <lb ed="#L" n="31"/>accidens erit prima substantia hic, cum
+          <lb ed="#L" n="32"/>sit. subjectum accidentium per aliquid
+          <lb ed="#L" n="33"/>aliud quam per accidens.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e1114">
+          <lb ed="#L" n="34"/>(i). Universaliter enim prioritas 
+          natu<lb ed="#L" break="no" n="35"/>re includit in priori posse esse sine 
+          po<lb ed="#L" break="no" n="36"/>steriori sine. contradictione, ex <ref xml:id="mm30o9-d1e1750-Rd1e1122">quinto
+            <lb ed="#L" n="37"/>Metaph. text. com. 46.</ref> ubi sic habetur
+          <lb ed="#L" n="38"/>circa finem illius textus : Alia, inquit,
+          <lb ed="#L" n="39"/>vero secundum substantiam et naturam,
+          <lb ed="#L" n="40"/>supple sunt priora, quaecumque contingit
+          <lb ed="#L" n="41"/>esse sine aliis, et illa non sine iliis. Haec
+          <lb ed="#L" n="42"/>ille; igitur sine contradictione posset 
+          quaee<lb ed="#L" break="no" n="43"/>cumque substantia, quantum esse ex se
+          <lb ed="#L" n="44"/>esse prius duratione omni accidente. et
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>sic nullum accidens erit differentia 
+          indivi<lb ed="#L" break="no" n="46"/>dualis alicujus substanti:e.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e1150">
+          <lb ed="#L" n="47"/>(j) Ex tertia via arguitur sic. Primo
+          <lb ed="#L" n="48"/>et ratio stat in hoc : tota coordinatio 
+          prae<lb ed="#L" break="no" n="49"/>dicamenti Substantiae est prior omni 
+          ae<lb ed="#L" break="no" n="50"/>cidente, ut patet <ref xml:id="mm30o9-d1e1750-Rd1e1160">septimo Metaphysicorum,
+            <lb ed="#L" n="51"/>text. com. 4</ref>, Et in tali coordinatione 
+          prae<lb ed="#L" break="no" n="52"/>dicamentali ponuntur individua, et nihil
+          <lb ed="#L" n="53"/>unius coordinationis est tale propter 
+          ali<lb ed="#L" break="no" n="54"/>quid coordinationis alterius; modo in 
+          coor<lb ed="#L" break="no" n="55"/>dinatione praedicamenti Substantiae, cum
+          <lb ed="#L" n="56"/>sit finita, sicut est. aliquod primum 
+          prae<lb ed="#L" break="no" n="57"/>dicatum, de quo nihil praedicatur, ita 
+          ali<lb ed="#L" break="no" n="58"/>quod subjectam, cui nihil subjicitur, ut
+          <lb ed="#L" n="59"/>patet primo Posteriorum, text. com. 34.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e1184">
+          <lb ed="#L" n="60"/>(k) Praeterea tertio. Ratio stat. in hoc :
+          <lb ed="#L" n="61"/>singulare substantiae recipit 
+          praedicati<lb ed="#L" break="no" n="62"/>onem in quid cujuscumque superioris;
+          <lb ed="#L" n="63"/>sed ens per accidens non recipit 
+          praedica<lb ed="#L" break="no" n="64"/>tionem in quid; et sic, si prima 
+          substan<lb ed="#L" break="no" n="65"/>tia esset haec per quantitatem, esset unum
+          <lb ed="#L" n="66"/>per accidens, quia aggregatum ex rebus
+          <lb ed="#L" n="67"/>diversorum generum, ut patet <ref xml:id="mm30o9-d1e1750-Rd1e1203">5. Mefaph.
+            <lb ed="#L" n="68"/>c. de Uno text. com. 1. et 45.</ref>
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e1210">
+          <lb ed="#L" n="69"/>(l) Praeterea. quando. aliquid convenit.
+          <lb ed="#L" n="70"/>Ista ratio stat in hoc, quod sicut 
+          commu<lb ed="#L" break="no" n="71"/>nitas convenit essentialiter, puta naturce
+          <lb ed="#L" n="72"/>humane, inquantum est pertinens ad 
+          co<lb ed="#L" break="no" n="73"/>ordinationem praedicamenti substantiae,
+          <lb ed="#L" n="74"/>sic ei simpliciter convenit, quod quamvis
+          <lb ed="#L" n="75"/>per aliquid posterius alterius generis 
+          con<lb ed="#L" break="no" n="76"/>trahatur, adhuc simpliciter erit tale. 
+          Exem<lb ed="#L" break="no" n="77"/>plum: Ex quo enim natura humana,ut 
+          perti<lb ed="#L" break="no" n="78"/>net ad coordinationem praedicamenti 
+          Sup<lb ed="#L" break="no" n="79"/>stantice, est essentialiter communis ad 
+          om<lb ed="#L" break="no" n="80"/>nia individua, si ponatur sub albedine, per
+          <lb ed="#L" n="81"/>possibile vel impossibile, adhuc 
+          simplici<lb ed="#L" break="no" n="82"/>ter erit talis natura sic communis 
+          quid<lb ed="#L" break="no" n="83"/>ditative ad sua inferiora, eodem modo 
+          di<lb ed="#L" break="no" n="84"/>co de prima substantia, quae ut pertinet
+          <lb ed="#L" n="85"/>ad coordinationem priedicamentalem, 
+          com<lb ed="#L" break="no" n="86"/>petit sibi hoc, quod non possit dividi in
+          <lb ed="#L" n="87"/>plures. partes subjectivas; posito ergo,
+          <lb ed="#L" n="88"/>quod contrahatur per quantitatem, vel per
+          <pb ed="#L" n="102"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>aliud accidens semper erit simpliciter 
+          ta<lb ed="#L" break="no" n="2"/>lis, ut est aliquid praedicamenti 
+          Substan<lb ed="#L" break="no" n="3"/>tic, et sic simpliciter erit haec, et non
+          <lb ed="#L" n="4"/>per aliquid pertinens ad aliam 
+          coordina<lb ed="#L" break="no" n="5"/>tionem.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d3q4-p4">-->
+        <p xml:id="mm30o9-d1e1750-d1e1273">
+          <lb ed="#L" n="14" type="fixed=103"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e1278">
+          <lb ed="#L" n="15"/>(a) Propter argumenta forte, etc. Hic 
+          Do<lb ed="#L" break="no" n="16"/>ctor ponit positionem <name xml:id="mm30o9-d1e1750-Nd1e1284">AEgidii</name>, qui dicit
+          <lb ed="#L" n="17"/>quod prima substantia est hsec, non per
+          <lb ed="#L" n="18"/>quantitatem, sed propter aliquid causatum
+          <lb ed="#L" n="19"/>a quantitate, quod causatum est realiter
+          <lb ed="#L" n="20"/>idemgnm tali substantia.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e1296">
+          <lb ed="#L" n="21"/>1. in hac littera, quod duplex est 
+          ex<lb ed="#L" break="no" n="22"/>lensk : quaedam per se, ut quantitas ;
+          <lb ed="#L" n="23"/>quaedam vero per accidens. ut. substantia,
+          <lb ed="#L" n="24"/>pro quanto subjicitar quantitati, per
+          <lb ed="#L" n="25"/>quantitatem enim est divisibilis. Et hoc
+          <lb ed="#L" n="26"/>est quod dicit hie, quod sew 
+          exten<lb ed="#L" break="no" n="27"/>sio materie, supple per accidens, es/ alia
+          <lb ed="#L" n="28"/>natura a. natura quantitatis ?psius 
+          mate<lb ed="#L" break="no" n="29"/>rice, quia ipsa quantitas est extensa per
+          <lb ed="#L" n="30"/>se. Sequitur : et nihil addit super 
+          essenti<lb ed="#L" break="no" n="31"/>am inaterie, supple illa extensio per 
+          ac<lb ed="#L" break="no" n="32"/>cidens ; sequitur : sic signalio malerice
+          <lb ed="#L" n="33"/>quam habet causaliter per. quantitatem,
+          <lb ed="#L" n="34"/>est alia a. signatione quantilalis, et prior
+          <lb ed="#L" n="35"/>naturaliter signatione, quam habet. per
+          <lb ed="#L" n="36"/>quantitatem, id est, quod individuatio
+          <lb ed="#L" n="37"/>materie, sive signatio causata a 
+          quan<lb ed="#L" break="no" n="38"/>titate in ipsa materia est alia ab 
+          indivi<lb ed="#L" break="no" n="39"/>duatione quantitatis, et etiam est prior
+          <lb ed="#L" n="40"/>naturaliter. individuatione, quam habet,
+          <lb ed="#L" n="41"/>supple formaliter — quantitatem. — Vult
+          <lb ed="#L" n="42"/>dicere, quod prima materia habet in-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="43"/>dividuationem causatam a quantitate, et
+          <lb ed="#L" n="44"/>hec individuatio, propter quam 
+          pro<lb ed="#L" break="no" n="45"/>prie materia est hac, est ab alia ab
+          <lb ed="#L" n="46"/>ila quantitate. Secundo, quia 
+          quanti<lb ed="#L" break="no" n="47"/>tas informat materiam, dicit, quod sicut
+          <lb ed="#L" n="48"/>talis materia est, quanta per quantitatem,
+          <lb ed="#L" n="49"/>ita est individua accidentaliter per 
+          indivi<lb ed="#L" break="no" n="50"/>duationem, qua ipsa quantitas est 
+          indivi<lb ed="#L" break="no" n="51"/>dua; et addit quod individuatio sive 
+          si<lb ed="#L" break="no" n="52"/>gnatio causata a quantitate, per quam 
+          ip<lb ed="#L" break="no" n="53"/>sa materia est hcec, est eadem realiter cum
+          <lb ed="#L" n="54"/>ipsa materia.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e1374">
+          <lb ed="#L" n="55"/>(b) Contra, ista positio. Hic Doctor
+          <lb ed="#L" n="56"/>intendit, improbare AEgidium quantum ad
+          <lb ed="#L" n="57"/>hoc principaliter, quod scilicet 
+          individu<lb ed="#L" break="no" n="58"/>atio materie causata a quantitate sit idem
+          <lb ed="#L" n="59"/>realiter cum ipsa materia, quia est 
+          sim<lb ed="#L" break="no" n="60"/>pliciter impossibile, quod aliquid 
+          causa<lb ed="#L" break="no" n="61"/>tum a quantitate distincta realiter a 
+          mate<lb ed="#L" break="no" n="62"/>ria, et posteriore realiter ipsa, sit idem 
+          re<lb ed="#L" break="no" n="63"/>aliter cum materia ; patet, quia si prius
+          <lb ed="#L" n="64"/>non est idem realiter cum A,multo minus,
+          <lb ed="#L" n="65"/>nec posterius erit idem realiter.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e1401">
+          <lb ed="#L" n="66"/>(c) Praeterea illud, etc. Vult dicere 
+          Do<lb ed="#L" break="no" n="67"/>ctor, quod conditio necessaria causse, ut
+          <lb ed="#L" n="68"/>sit sufficiens ad causandum, est 
+          singulari<lb ed="#L" break="no" n="69"/>tas, ut supra patult ?n primo, dist. 3.
+          <lb ed="#L" n="70"/>quest. 6. et 8. et talis conditio, quae est
+          <lb ed="#L" n="71"/>singularitas, est prior causato. Cum ergo
+          <lb ed="#L" n="72"/>hec substantia, inquantum haec, causet
+          <lb ed="#L" n="73"/>quantitatem hanc, et per consequens ipsa
+          <lb ed="#L" n="74"/>quantitas erit posterior ipsa substantia 
+          si<lb ed="#L" break="no" n="75"/>gnata, sequitur quod si signatio 
+          substan<lb ed="#L" break="no" n="76"/>ti:e, sive singularitas, sit per te causata
+          <lb ed="#L" n="77"/>a quantitate, quod hxc substantia 
+          suffici<lb ed="#L" break="no" n="78"/>ens ad causandum quantitatem, sit 
+          cau<lb ed="#L" break="no" n="79"/>sata a quantitate, et sic prius erit. 
+          causa<lb ed="#L" break="no" n="80"/>tum a suo posteriori. quod est impossibile.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d3q4-p5">-->
+        <p xml:id="mm30o9-d1e1750-d1e1438">
+          <lb ed="#L" n="23" type="fixed=105"/>COMMENTARIUS.,
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e1443">
+          <lb ed="#L" n="24"/>(d) Ex quarta via arguo sic, quantitas
+          <lb ed="#L" n="25"/>ista,etc. Hicnota, quod quantitas 
+          termi<lb ed="#L" break="no" n="26"/>nata sive extensio, nihil dicit in re 
+          mate<lb ed="#L" break="no" n="27"/>riali sive extensibili, nisi tantam 
+          aptitu<lb ed="#L" break="no" n="28"/>dinem ad extensionem actualem sive
+          <lb ed="#L" n="29"/>terminatam. Quantitas vero terminata 
+          si<lb ed="#L" break="no" n="30"/>ve extensio est ipsa extensio actualis, 
+          pu<lb ed="#L" break="no" n="31"/>ta pedalis,vel bipedalis, et sic quando
+          <lb ed="#L" n="32"/>quantitas est in materia, dicimus 
+          materi<lb ed="#L" break="no" n="33"/>am esse tantam quantitative sive 
+          extensi<lb ed="#L" break="no" n="34"/>ve, quanta quantitas est ibi extensa. Dicit
+          <lb ed="#L" n="35"/>ergo Doctor, quod substantia materialis
+          <lb ed="#L" n="36"/>non est haec per quantitatem 
+          termina<lb ed="#L" break="no" n="37"/>tam, quia illa est simpliciter posterior,
+          <lb ed="#L" n="38"/>nec certe haec per quantitatem 
+          intermina<lb ed="#L" break="no" n="39"/>iam, quia eadem manet in generato et
+          <lb ed="#L" n="40"/>corrupto, cum sit inseparabilisa materia,
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e1482">
+          <lb ed="#L" n="41"/>Nam eadem materia, quae est sub forma
+          <lb ed="#L" n="42"/>aqua, fit sub forma. ignis, ita quod eor-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="43"/>rumpitur forma aquae, generatur ibi forma
+          <lb ed="#L" n="44"/>ignis ; et tunc ultra, cum quantitas 
+          inter<lb ed="#L" break="no" n="45"/>minata, per te, sit signatio substantic 
+          ma<lb ed="#L" break="no" n="46"/>terialis, manente eadem, manet eadem
+          <lb ed="#L" n="47"/>substantia materialis. Cum ergo sit 
+          sim<lb ed="#L" break="no" n="48"/>pliciter eadem tam ignis geniti quam
+          <lb ed="#L" n="49"/>aqua corrupte, sequitur quod ista duo
+          <lb ed="#L" n="50"/>sint unum numero, quod est 
+          impossi<lb ed="#L" break="no" n="51"/>bile.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e1511">
+          <lb ed="#L" n="52"/>(e) Si dicatur, quod non sequitur, etc.
+          <lb ed="#L" n="53"/>Hic intendit probare, quod etiam genitum
+          <lb ed="#L" n="54"/>et corruptum sint ejusdem speciei, et per
+          <lb ed="#L" n="55"/>consequens possint esse idem numero, ut
+          <lb ed="#L" n="56"/>deductum est supra. Et quod possint esse
+          <lb ed="#L" n="57"/>ejusdem speciei, ponendo quod ex aqua
+          <lb ed="#L" n="58"/>primo generetur ignis, secundo ex igne
+          <lb ed="#L" n="59"/>generetur aqua, est ibi simpliciter eadem
+          <lb ed="#L" n="60"/>materia numero, patet, quia cum ignis
+          <lb ed="#L" n="61"/>generatur ex aqua, a materia aqua 
+          ex<lb ed="#L" break="no" n="62"/>pellitur forma aquae, et ibi inducitur 
+          for<lb ed="#L" break="no" n="63"/>ma ignis ; et cum ex illo igne possit 
+          ge<lb ed="#L" break="no" n="64"/>nerari aqua, sequitur quod eadem materia
+          <lb ed="#L" n="65"/>erit respectu aqua prius corruptz, et
+          <lb ed="#L" n="66"/>aquae posterius generate, et per 
+          conse<lb ed="#L" break="no" n="67"/>quens erit ibi eadem quantitas non solum
+          <lb ed="#L" n="68"/>interminata, sed etiam terminata vel 
+          sal<lb ed="#L" break="no" n="69"/>tem interminata, et illa, per te, est causa
+          <lb ed="#L" n="70"/>singularitatis, ergo aqua corrupta et 
+          geni<lb ed="#L" break="no" n="71"/>nita erunt eadem numero, quod videtur
+          <lb ed="#L" n="72"/>impossibile, quia idem individuum 
+          nume<lb ed="#L" break="no" n="73"/>ro non redit naturali actione, ut patet 
+          se<lb ed="#L" break="no" n="74"/>cundo de Generat. text. com. 10. 
+          Homi<lb ed="#L" break="no" n="75"/>nes, inquit,e/ animalia non reiterantur in
+          <lb ed="#L" n="76"/>seipsos, ut rursus generetur idem. Et 
+          cir<lb ed="#L" break="no" n="77"/>ca finem illius textus: /deo aqua ex aere,
+          <lb ed="#L" n="78"/>et aer ex aqua specie idem, mom autem
+          <lb ed="#L" n="79"/>numero. Et Commentator ibi : 
+          Corru<lb ed="#L" break="no" n="80"/>ptibilia autem impossibile est ut 
+          rever<lb ed="#L" break="no" n="81"/>lantur, misi secundum speciem, 
+          ver<lb ed="#L" break="no" n="82"/>bi gratia, aer  generabitur ab aqua,
+          <lb ed="#L" n="83"/>et. aqua ab aere,mon quod 
+          individu<lb ed="#L" break="no" n="84"/>um illius aque corrupte revertatur. per
+          <lb ed="#L" n="85"/>se, quamvis materia esset eadem, et
+          <lb ed="#L" n="86"/>agens idem, quoniam si idem agens ex
+          <pb ed="#L" n="106"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>eadem materia facerel lateres, et postea
+          <lb ed="#L" n="2"/>corrumperentur ut faceret alios posterius,
+          <lb ed="#L" n="3"/>manifestum. est, quod differt posterius
+          <lb ed="#L" n="4"/>a praecedentibus : hoc ille. Hoc idem 
+          ha<lb ed="#L" break="no" n="5"/>betur quinto Physicorum text. com. 96.
+          <lb ed="#L" n="6"/>secundum aliam transtationem: Sed s? 
+          pos<lb ed="#L" break="no" n="7"/>sibile est, ut illud quod. jam corruptum
+          <lb ed="#L" n="8"/>est, revertatur, et fiat unum numero, tunc
+          <lb ed="#L" n="9"/>motus possibile est, ut sit etiam unus,
+          <lb ed="#L" n="10"/>supple numero, et si. illud fuerit 
+          impos<lb ed="#L" break="no" n="11"/>sibile, motus erit ille idem, sed non unus.
+          <lb ed="#L" n="12"/>Hac ille.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e1621">
+          <lb ed="#L" n="13"/>(f) Praeterea si quantitas sit primo 
+          indi<lb ed="#L" break="no" n="14"/>viduans substantiam. Vult dicere Doctor
+          <lb ed="#L" n="15"/>hie, quod si Socrates est singulare, et
+          <lb ed="#L" n="16"/>Plato similiter per aliam et aliam 
+          quanti<lb ed="#L" break="no" n="17"/>tatem, oportet quod illa et illa quantitas
+          <lb ed="#L" n="18"/>differant, cum sint vere formae, et sic 
+          pe<lb ed="#L" break="no" n="19"/>rit fundamentum eorum, qui dicunt, quod
+          <lb ed="#L" n="20"/>omnis differentia formalis est differentia
+          <lb ed="#L" n="21"/>specifica, et si sic, tunc haec quantitas, et
+          <lb ed="#L" n="22"/>hec quantitas, cum sint duae form:e, 
+          dif<lb ed="#L" break="no" n="23"/>ferrent specie, quod est contra eos, et 
+          con<lb ed="#L" break="no" n="24"/>ira veritatem.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e1650">
+          <lb ed="#L" n="25"/>(g) Et si dicas, imo quantitas habet ex
+          <lb ed="#L" n="26"/>se situm determinatum, et per consequens
+          <lb ed="#L" n="27"/>hoc distinguitur ex se ab alia quantitate,
+          <lb ed="#L" n="28"/>id est, forte isti dicerent, quod iste due
+          <lb ed="#L" n="29"/>quantitates non differunt, ut, due form:e,
+          <lb ed="#L" n="30"/>sed praecise differunt propter alium et
+          <lb ed="#L" n="31"/>alium situm, quia quantitas Francisci 
+          ha<lb ed="#L" break="no" n="32"/>bet alium et alium situm a quantitate
+          <lb ed="#L" n="33"/>Joannis.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e1672">
+          <lb ed="#L" n="34"/>(h) Contra, quaero de quo situ loqueris.
+          <lb ed="#L" n="35"/>Nota in ista ratione,quod duplex est situs,
+          <lb ed="#L" n="36"/>scilicet situs, quod est praedicamentum, et
+          <lb ed="#L" n="37"/>talis situs non tantum dicit ordinem 
+          par<lb ed="#L" break="no" n="38"/>tium in aliquo toto, sed ultra dicit 
+          ordi<lb ed="#L" break="no" n="39"/>nem totius ad locum circumscribentem, et
+          <lb ed="#L" n="40"/>ordinem partium ad partes loci, ut 
+          de<lb ed="#L" break="no" n="41"/>clarat Doctor in. quarto, dist. 10. 
+          Secun<lb ed="#L" break="no" n="42"/>do accipitur, ut est differentia 
+          praedica<lb ed="#L" break="no" n="43"/>menti quantitatis, et dicitur positio, quae
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="44"/>dicit tantum ordinem partium quantitati -
+          <lb ed="#L" n="45"/>varum in aliquo toto.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e1703">
+          <lb ed="#L" n="46"/>Ad propositum applicando dicit Doctor,
+          <lb ed="#L" n="47"/>quod situs primo modo est posterius pc
+          <lb ed="#L" n="48"/>quantitate ; patet, quia talis ordo totius dE
+          <lb ed="#L" n="49"/>ad locum, et partium ad partes loci, est
+          <lb ed="#L" n="50"/>respectus fundatus in ipsa quantitate, et
+          <lb ed="#L" n="51"/>per consequens una quantitas non differt
+          <lb ed="#L" n="52"/>ab alia per talem. Si secundo modo, 
+          ea<lb ed="#L" break="no" n="53"/>dem est questio de situ, sicut et de 
+          quan<lb ed="#L" break="no" n="54"/>titate : non enim est nolius partes 
+          per<lb ed="#L" break="no" n="55"/>manentes, etc. Vult dicere, quod cum iste
+          <lb ed="#L" n="56"/>situs non sit notior ista quantitate, 
+          quo<lb ed="#L" break="no" n="57"/>modo dicimus quod una distinguitur ab
+          <lb ed="#L" n="58"/>alia per situm.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e1734">
+          <lb ed="#L" n="59"/>(i) Praeterea omnia. argumenta, quae
+          <lb ed="#L" n="60"/>facta sunt, etc. Hic dicit Doctor quod 
+          si<lb ed="#L" break="no" n="61"/>cut in questione prima hujus 
+          distincti<lb ed="#L" break="no" n="62"/>onis probavimus, quol datur natura com- «
+          <lb ed="#L" n="63"/>munis, quae ex natura rei non est de se
+          <lb ed="#L" n="64"/>haec, ita per easdem rationes, potest 
+          pro<lb ed="#L" break="no" n="65"/>bari quod detur quantitas in communi,
+          <lb ed="#L" n="66"/>quae ex natura rei non sit de se hiec, et
+          <lb ed="#L" n="67"/>sic oportebit quaerere propter quid 
+          quanti<lb ed="#L" break="no" n="68"/>tas sit de se haec.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d3q4-p6">-->
+        <p xml:id="mm30o9-d1e1750-d1e1761">
+          <lb ed="#L" n="62" type="fixed=112"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e1766">
+          <lb ed="#L" n="63"/>(a) <quote xml:id="mm30o9-d1e1750-Qd1e1770">Contra rationes opinionis</quote>. Hic 
+          Do<lb ed="#L" break="no" n="64"/>ctor specialiter arguit contra rationes
+          <lb ed="#L" n="65"/>factas a Goffredo in principio 
+          qussti<lb ed="#L" break="no" n="66"/>onis, cum dicit, quod dividi in partes
+          <lb ed="#L" n="67"/>ejusdem rationis est proprietas, quae per
+          <lb ed="#L" n="68"/>se convenit Quantitati, et per 
+          Quantita<lb ed="#L" break="no" n="69"/>tem convenit substantiae dividi in. partes
+          <lb ed="#L" n="70"/>ejusdem rationis. Et Doctor hic 
+          pro<lb ed="#L" break="no" n="71"/>bat, quod etsi quantitas sit ratio 
+          divi<lb ed="#L" break="no" n="72"/>dendi in partes integrales et 
+          quantitati<lb ed="#L" break="no" n="73"/>vas ejusdem rationis, non est tamen
+          <lb ed="#L" n="74"/>ratio dividendi in partes subjectivas, de
+          <lb ed="#L" n="75"/>quibus est quaestio ista, quia tunc 
+          ines<lb ed="#L" break="no" n="76"/>set formaliter ipsi substantiae, quod est
+          <lb ed="#L" n="77"/>falsum; non enim quantitas inest 
+          na<lb ed="#L" break="no" n="78"/>ture humane, inquantum ipsa est 
+          divi<lb ed="#L" break="no" n="79"/>sibilis in partes subjectivas.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e1808">
+          <lb ed="#L" n="80"/>(b) <quote xml:id="mm30o9-d1e1750-Qd1e1812">Confirmatur ratio</quote>, etc. Ista 
+          con<lb ed="#L" break="no" n="81"/>firmatio est satis evidens, qua probatur
+          <lb ed="#L" n="82"/>quod quantitas non sit ratio formalis
+          <lb ed="#L" n="83"/>dividendi in partes subjectivas; est enim
+          <lb ed="#L" n="84"/>manifesta differentia inter partes 
+          subje<lb ed="#L" break="no" n="85"/>cüvas et partes quantitativas homogeneas,
+          <lb ed="#L" n="86"/>auia anbieetive reeininnt. nriedieationem
+          <pb ed="#L" n="113"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>totius in recto, ut ista est vera: Ai
+          <lb ed="#L" n="2"/>homo est homo, quantitative vero non,
+          <lb ed="#L" n="3"/>quia haec est falsa: Acc pars vini esi
+          <lb ed="#L" n="4"/>ipsum totum vinum. Et addit Doctor,
+          <lb ed="#L" n="5"/>quod licet ad divisionem totius 
+          integra<lb ed="#L" break="no" n="6"/>lis in partes quantitativas, sequatur 
+          divi<lb ed="#L" break="no" n="7"/>sio partium subjectivarum, tamen iste
+          <lb ed="#L" n="8"/>partes sunt alic» et aliae respectu alterius
+          <lb ed="#L" n="9"/>et alterius totius. Nam si quantitas
+          <lb ed="#L" n="10"/>vini dividatur in decem partes 
+          integra<lb ed="#L" break="no" n="11"/>les ipsius, licet respectu ipsius 
+          dican<lb ed="#L" break="no" n="12"/>tur integrales, ut sunt in toto, tamen
+          <lb ed="#L" n="13"/>ipsee ut separate recipiunt 
+          praedicati<lb ed="#L" break="no" n="14"/>onem totius universalis, quia haec est
+          <lb ed="#L" n="15"/>vera: haec pars vini est vinum, et hoc
+          <lb ed="#L" n="16"/>est quod dicit Doctor, hoc idem dico de
+          <lb ed="#L" n="17"/>toto heterogeneo.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e1869">
+          <lb ed="#L" n="18"/>(c) Et quod accipitur a <ref xml:id="mm30o9-d1e1750-Rd1e1873">Philosopho
+            <lb ed="#L" n="19"/>in quinto  Metaphysic. text. com. 48.</ref>
+          <lb ed="#L" n="20"/>quod dividi in partes ejusdem rationis
+          <lb ed="#L" n="21"/>est proprietas per se conveniens 
+          quan<lb ed="#L" break="no" n="22"/>titati, dicit quod Philosophus non dicit
+          <lb ed="#L" n="23"/>quantum dividi in partes ejusdem 
+          ra<lb ed="#L" break="no" n="24"/>tionis, etc.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e1890">
+          <lb ed="#L" n="25"/>(d) Quia inquantum aliquid est pars
+          <lb ed="#L" n="26"/>quantilativa, dividens, ita. per se potest
+          <lb ed="#L" n="27"/>esse, sicut. totum. divisum, quia ita pars
+          <lb ed="#L" n="28"/>est composita ex materia et forma, 
+          sic<lb ed="#L" break="no" n="29"/>ut ipsum totum; et si totam natum sit
+          <lb ed="#L" n="30"/>esse individuum alicujus speciei, puta
+          <lb ed="#L" n="31"/>aliqua caro, ita quaelibet pars ipsius,
+          <lb ed="#L" n="32"/>ut separata, erit simpliciter individuum
+          <lb ed="#L" n="33"/>ejusdem speciei, ut supra patuit <ref xml:id="mm30o9-d1e1750-Rd1e1911">dist. 2.
+            <lb ed="#L" n="34"/>quest. 9</ref>. Et haec divisio in partes est
+          <lb ed="#L" n="35"/>contra divisionem compositi ex materia
+          <lb ed="#L" n="36"/>et forma, ut patet, et divisio in hoc
+          <lb ed="#L" n="37"/>aliquid, et hoc aliquid, puta in 
+          singu<lb ed="#L" break="no" n="38"/>laria est conwa divisionem generis in
+          <lb ed="#L" n="39"/>Species, quae non sunt hoc aliquid, sed
+          <lb ed="#L" n="40"/>quale quid. Sequitur: et si numerus
+          <lb ed="#L" n="41"/>componeretur, etc. Vult ostendere Doctor,
+          <lb ed="#L" n="42"/>quod etiam non est necesse quantitatem
+          <lb ed="#L" n="43"/>dividi in partes ejusdem rationis, sive
+          <lb ed="#L" n="44"/>ejusdem speciei, quia si componeretur
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>aliquis numerus, puta senarius ex 
+          ter<lb ed="#L" break="no" n="46"/>nario et ternario, ita quod diceretur 
+          nu<lb ed="#L" break="no" n="47"/>merus numerorum, ille numerus 
+          divide<lb ed="#L" break="no" n="48"/>retur in plures species, et sic non 
+          divi<lb ed="#L" break="no" n="49"/>deretur in partes ejusdem rationis.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e1952">
+          <lb ed="#L" n="50"/>(e) Praeterea arguo. contra. secundam
+          <lb ed="#L" n="51"/>rationem. Secunda enim ratio <name xml:id="mm30o9-d1e1750-Nd1e1958">Goffredi</name>
+          <lb ed="#L" n="52"/>fuit, quod generans distinguitur a. 
+          geni<lb ed="#L" break="no" n="53"/>to, et e contra per aliam et aliam 
+          quan<lb ed="#L" break="no" n="54"/>ttatem. Contra quam rationem arguit
+          <lb ed="#L" n="55"/>Doctor sic: quia sicut ratio formalis 
+          ge<lb ed="#L" break="no" n="56"/>nerandi est substantia, ita et terminus
+          <lb ed="#L" n="57"/>generationis est substantia; et sicut 
+          sub<lb ed="#L" break="no" n="58"/>stantia illa non generat, nisi inquantum
+          <lb ed="#L" n="59"/>hac, ut est prior quantitate, sic 
+          sub<lb ed="#L" break="no" n="60"/>stantia non generatur nisi inquantum
+          <lb ed="#L" n="61"/>hec, ut prior quantitate.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e1984">
+          <lb ed="#L" n="62"/>Quidam novus expositor primae partis
+          <lb ed="#L" n="63"/>sancti Thomae, in libro de Ente et 
+          es<lb ed="#L" break="no" n="64"/>sentia, nititur. solvere rationes illas, quas
+          <lb ed="#L" n="65"/>facit Doctor contra positionem <name xml:id="mm30o9-d1e1750-Nd1e1994">Egidii</name> de
+          <lb ed="#L" n="66"/>differentia individuali, quia ultimo loco
+          <lb ed="#L" n="67"/>ponuntur. Et primo ad primam 
+          respon<lb ed="#L" break="no" n="68"/>det. Ad cujus evidentiam est notandum,
+          <lb ed="#L" n="69"/>quod proportio materive signatae ad hanc
+          <lb ed="#L" n="70"/>quantitatem est proportio potentiae ad
+          <lb ed="#L" n="71"/>proprium actum. Unde sicut potentia
+          <lb ed="#L" n="72"/>materire est eadem realiter ipsi materiae,
+          <lb ed="#L" n="73"/>et tamen dependet a forma, ita potentia
+          <lb ed="#L" n="74"/>seu capacitas materie respectu hujus
+          <lb ed="#L" n="75"/>quantitatis, quae vocatur ejus signatio,
+          <lb ed="#L" n="76"/>dependet a quantitate, et tamen est 
+          ea<lb ed="#L" break="no" n="77"/>dem materiae. Et quia potentia est prior
+          <lb ed="#L" n="78"/>et posterior naturaliter actu, prior est,
+          <lb ed="#L" n="79"/>quoniam causa materialis, posterior in
+          <lb ed="#L" n="80"/>ordine causae formalis, ideo signatio 
+          ma<lb ed="#L" break="no" n="81"/>teri? est prior quantum in ordine caus:e
+          <lb ed="#L" n="82"/>materialis, posterior autem in ordine 
+          cau<lb ed="#L" break="no" n="83"/>se formalis. Unde utroque modo major
+          <lb ed="#L" n="84"/>est falsa, tam si intelligatur de priore et
+          <lb ed="#L" n="85"/>posteriore secundum genus causs 
+          mate<lb ed="#L" break="no" n="86"/>rialis, quam si intelligatur de priore et
+          <lb ed="#L" n="87"/>posteriore in ordine caus:e formalis ; 
+          ali<lb ed="#L" break="no" n="88"/>quid enim dependens a forma, est idem
+          <pb ed="#L" n="114"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>realiter materie, et aliquid dependens
+          <lb ed="#L" n="2"/>a materia, est ilem realiter forme, ut
+          <lb ed="#L" n="3"/>patet ad probationem primam, qua 
+          dici<lb ed="#L" break="no" n="4"/>tur quia tunc idem esset prius et non
+          <lb ed="#L" n="5"/>prius; dico, quod non est inconveniens in
+          <lb ed="#L" n="6"/>diversis generibus causarum. Ad aliam
+          <lb ed="#L" n="7"/>probationem, qua dicitur, ubi est vera
+          <lb ed="#L" n="8"/>et realis identitas, negatur, et sic 
+          pro<lb ed="#L" break="no" n="9"/>positio assumpta, non enim omne prius
+          <lb ed="#L" n="10"/>potest esse sine posteriori, ut alias 
+          osten<lb ed="#L" break="no" n="11"/>detur.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e2075">
+          <lb ed="#L" n="12"/>Ad secundum negatur major, cum 
+          cau<lb ed="#L" break="no" n="13"/>satum est causa, sive caus: in aliquo 
+          ge<lb ed="#L" break="no" n="14"/>nere cause», sicut in proposito accidit ;
+          <lb ed="#L" n="15"/>materia enim signata est causa quantitatis
+          <lb ed="#L" n="16"/>in genere causae materialis. Quantitas est
+          <lb ed="#L" n="17"/>causa materic:e signatce in genere causae
+          <lb ed="#L" n="18"/>formalis, ut actus potentis, et patet. 
+          falsi<lb ed="#L" break="no" n="19"/>tas majoris in exemplo supra posito; 
+          po<lb ed="#L" break="no" n="20"/>tentia enim materi: est necessaria 
+          condi<lb ed="#L" break="no" n="21"/>tio materi: ad causandum formam, et 
+          ta<lb ed="#L" break="no" n="22"/>men dependet a forma in genere cause
+          <lb ed="#L" n="23"/>formalis.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e2104">
+          <lb ed="#L" n="24"/>Ad probationem dicitur, quod causa
+          <lb ed="#L" n="25"/>materialis secundum  causalitatem suam
+          <lb ed="#L" n="26"/>dependet a suo effectu,scilicet forma, sed
+          <lb ed="#L" n="27"/>non inquantum est effectus ejus, sed in eo
+          <lb ed="#L" n="28"/>quod est causa materice ; causae enim sunt
+          <lb ed="#L" n="29"/>sibi invicem causae, ut dicitur secundo
+          <lb ed="#L" n="30"/>Physicorum, et. Comment. com. 30. non
+          <lb ed="#L" n="31"/>ergo inconvenit causam in causando 
+          de<lb ed="#L" break="no" n="32"/>pendere a causato, ut non causato, sed ut
+          <lb ed="#L" n="33"/>causa est secundum aliud genus.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e2128">
+          <lb ed="#L" n="34"/>Ad tertium dicitur, quod quantitatem
+          <lb ed="#L" n="35"/>causare talem signationem in materia, 
+          ni<lb ed="#L" break="no" n="36"/>hil aliud est, quam materiam esse ab hoc
+          <lb ed="#L" n="37"/>agente factam capacem, adeo hujus 
+          quan<lb ed="#L" break="no" n="38"/>titatis, quod non illius, et sic quantum
+          <lb ed="#L" n="39"/>concurrit ad signationem — materie ut
+          <lb ed="#L" n="40"/>actus, propter quem talis capacitas sit
+          <lb ed="#L" n="41"/>agens, non u: efficiens illam ; et talis 
+          si<lb ed="#L" break="no" n="42"/>enatio seu capacitas praeest ipsi 
+          quanti<lb ed="#L" break="no" n="43"/>tati in genere causae materialis, et non
+          <lb ed="#L" n="44"/>potest ex hoc inferri, ergo non fit per
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>quantitatem, eo quod fit per quantitatem
+          <lb ed="#L" n="46"/>in genere causae formalis, quae sicut et. 
+          fi<lb ed="#L" break="no" n="47"/>nis inter causas posteriores in esse 
+          nume<lb ed="#L" break="no" n="48"/>rate.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e2165">
+          <lb ed="#L" n="49"/>Ad quartum dicitur, quod non solum
+          <lb ed="#L" n="50"/>quantitates tali modo signant materiam,
+          <lb ed="#L" n="51"/>sed etiam qualitates proprie; materia
+          <lb ed="#L" n="52"/>enim Socratis ita est capax harum 
+          qualita<lb ed="#L" break="no" n="53"/>tum, quod non aliarum. Sed quia sola
+          <lb ed="#L" n="54"/>quantitas immediate recipitur in 
+          substan<lb ed="#L" break="no" n="55"/>tia, et haec sola ostenditur, oritur 
+          radica<lb ed="#L" break="no" n="56"/>liter distinctio materialis, ideo ad 
+          proposi<lb ed="#L" break="no" n="57"/>tum materiam signatam, materiam sub
+          <lb ed="#L" n="58"/>certis dimensionibus, et non sub certis
+          <lb ed="#L" n="59"/>qualitatibus dicimus.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e2191">
+          <lb ed="#L" n="60"/>Ad quintum dicitur, quod quantitas illa,
+          <lb ed="#L" n="61"/>quae ad individuaüionem, ut originale non
+          <lb ed="#L" n="62"/>intrinsecum — individuationis principium
+          <lb ed="#L" n="63"/>concurrit, est quantitas determinata, nec
+          <lb ed="#L" n="64"/>obstat, quod sequatur formam, quia etiam
+          <lb ed="#L" n="65"/>forma sequitur potentiam materid, a qua
+          <lb ed="#L" n="66"/>tamen causatur, et concedimus hanc 
+          sub<lb ed="#L" break="no" n="67"/>stantia m etiam causam materialem hujus
+          <lb ed="#L" n="68"/>quantitatis, sed e converso in genere 
+          cau<lb ed="#L" break="no" n="69"/>see formalis hanc quantitatem esse causam
+          <lb ed="#L" n="70"/>hujus signationis materie, modo 
+          praeex<lb ed="#L" break="no" n="71"/>posito.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e2221">
+          <lb ed="#L" n="72"/>Ad confirmationem <name xml:id="mm30o9-d1e1750-Nd1e2225">Antonii Trombettae</name>
+          <lb ed="#L" n="73"/>dicitur, quod quantitas terminata ad 
+          indi<lb ed="#L" break="no" n="74"/>viduationem concurrens, non stat in 
+          indi<lb ed="#L" break="no" n="75"/>visibili, sed latitudinem habet; sicut enim
+          <lb ed="#L" n="76"/>quaelibet species naturalis determinat sibi
+          <lb ed="#L" n="77"/>quantitatem maximam et minimam infra
+          <lb ed="#L" n="78"/>quamdam latitudinem, ita et quodlibet 
+          in<lb ed="#L" break="no" n="79"/>dividuum determinat sibi hanc 
+          quantita<lb ed="#L" break="no" n="80"/>tem infra tales limites, et non in 
+          indivi<lb ed="#L" break="no" n="81"/>sibili, unde patet fieri rarefactio, sive ut
+          <lb ed="#L" n="82"/>individuativa est variatione, non enim hic
+          <lb ed="#L" n="83"/>accipitur. quantitas terminata punctualis,
+          <lb ed="#L" n="84"/>sed cum certa latitudine.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e2254">
+          <lb ed="#L" n="85"/>Ad sextum dicitur, concedendo 
+          conse<lb ed="#L" break="no" n="86"/>quentiam primam, sed negando quod ex
+          <lb ed="#L" n="87"/>hoc sequatur falsitas illius propositionis
+          <lb ed="#L" n="88"/>fundamentalis firmissimi aedificii. Peccavit
+          <pb ed="#L" n="115"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>enim arguens peccato maximo non 
+          distin<lb ed="#L" break="no" n="2"/>guens inter differentiam formalem et 
+          for<lb ed="#L" break="no" n="3"/>marum; omnis enim differentia formali
+          <lb ed="#L" n="4"/>est specifica, non autem omnis differentia
+          <lb ed="#L" n="5"/>formarum, «ut dicit sanctus <ref xml:id="mm30o9-d1e1750-Rd1e2280">Thomas 9.
+            <lb ed="#L" n="6"/>contra Gentil. cap. 81.</ref> alioquin forma
+          <lb ed="#L" n="7"/>hujus ignis, et si est alius ignis, 
+          distin<lb ed="#L" break="no" n="8"/>guerentur specifice, cum sint forme, et
+          <lb ed="#L" n="9"/>differant; unde linea Mathematica divisa
+          <lb ed="#L" n="10"/>in partes habet duo individua; quaelibet
+          <lb ed="#L" n="11"/>enim pars lineae est linea, et illa individua
+          <lb ed="#L" n="12"/>sunt formae et differunt, sed non 
+          differen<lb ed="#L" break="no" n="13"/>tia formaliter. Appellatur autem 
+          differen<lb ed="#L" break="no" n="14"/>tia formalis illa, quae est per principia
+          <lb ed="#L" n="15"/>quidditativa, haec enim semper oritur a
+          <lb ed="#L" n="16"/>forma in eo quod forma, qualis non est
+          <lb ed="#L" n="17"/>inter hanc lineam et illam, eum sit eadem
+          <lb ed="#L" n="18"/>utriusque quidditas; verum arguentis error
+          <lb ed="#L" n="19"/>est valde puerilis : sunt. forma, et 
+          diffe<lb ed="#L" break="no" n="20"/>runt; ergo differunt formaliter ; est 
+          Mo<lb ed="#L" break="no" n="21"/>nachus et est albus, ergo est Monachus
+          <lb ed="#L" n="22"/>albus.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e2320">
+          <lb ed="#L" n="23"/>Ad ultimum negatur consequentia, licet
+          <lb ed="#L" n="24"/>enim id quod in praedicamento 
+          Substan<lb ed="#L" break="no" n="25"/>tiae sit prius simpliciter quolibet alio
+          <lb ed="#L" n="26"/>Predicamento, tamen aliqua conditio,
+          <lb ed="#L" n="27"/>sine qua individuum, ut sic non est in
+          <lb ed="#L" n="28"/>Predicamento, potest esse posterior in
+          <lb ed="#L" n="29"/>genere causae formalis alterius 
+          Praodi<lb ed="#L" break="no" n="30"/>camenti, eo quod causa formalis est
+          <lb ed="#L" n="31"/>posterior in esse.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e2342">
+          <lb ed="#L" n="32"/>Ad confirmationem dicitur, quod 
+          quod<lb ed="#L" break="no" n="33"/>libet Praedicamentum. completur per res
+          <lb ed="#L" n="34"/>sui generis, si loquamur de his, quia 
+          po<lb ed="#L" break="no" n="35"/>nuntur in Praedicamentis, et de ratione
+          <lb ed="#L" n="36"/>reponendi ea in illis, non autem si 
+          loqua<lb ed="#L" break="no" n="37"/>mur de conditione rei reposita in 
+          Przdi<lb ed="#L" break="no" n="38"/>camento ; Socrates enim non est nisi 
+          sub<lb ed="#L" break="no" n="39"/>stantia, et ratio ponens ipsum in 
+          Praedica<lb ed="#L" break="no" n="40"/>mento est substantia, conditio autem 
+          in<lb ed="#L" break="no" n="41"/>dividuationis suae, quae non est ratio 
+          re<lb ed="#L" break="no" n="42"/>ponendi ipsum in Przwdicamento non
+          <lb ed="#L" n="43"/>convenit, quod coexigat aliquid actus,
+          <lb ed="#L" n="44"/>puta quantitatis.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e2373">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>Nunc ostendendum est has responsiones
+          <lb ed="#L" n="46"/>hajus novi expositoris minime evacuare
+          <lb ed="#L" n="47"/>rationes Doctoris. Et cum dicit primo,
+          <lb ed="#L" n="48"/>negando majorem primae rationis, patet
+          <lb ed="#L" n="49"/>quod non recte negat, quia est 
+          simplici<lb ed="#L" break="no" n="50"/>ter impossibile, quod si A4 realiter 
+          di<lb ed="#L" break="no" n="51"/>sünguitur a B, ut a posteriori, quin 
+          eti<lb ed="#L" break="no" n="52"/>am realiter distinguatur a (C causato ab
+          <lb ed="#L" n="53"/>ipso B, quia si prius C non potest 
+          rea<lb ed="#L" break="no" n="54"/>liter identificari A, multo minus, nec
+          <lb ed="#L" n="55"/>realiter posterius ipso D, aliter ipsum
+          <lb ed="#L" n="56"/>C esset realiter prius, et realiter 
+          poste<lb ed="#L" break="no" n="57"/>rius ipso B, patet, quia si B, quia 
+          po<lb ed="#L" break="no" n="58"/>sterius 4, non realiter identificatur A,
+          <lb ed="#L" n="59"/>sequitur quod C, si identificatur realiter
+          <lb ed="#L" n="60"/>A, quod erit realiter prius B, sequitur
+          <lb ed="#L" n="61"/>etiam, quod idem C sit realiter posterius
+          <lb ed="#L" n="62"/>D, cum realiter ponatur causari a DB, et
+          <lb ed="#L" n="63"/>sic patet quomodo male negavit illam
+          <lb ed="#L" n="64"/>majorem. Et cum ostendit illara majorem
+          <lb ed="#L" n="65"/>non esse veram ex hoc, quod potentia
+          <lb ed="#L" n="66"/>materi:e est eadem realiter ipsi materice,
+          <lb ed="#L" n="67"/>eti tamen dependet a forma, dico hoc
+          <lb ed="#L" n="68"/>esse impossibile; et quaero quid accipit
+          <lb ed="#L" n="69"/>per potentiam materiae? aut accipit pro
+          <lb ed="#L" n="70"/>ipsa materia praecise, aut accipit pro 
+          po<lb ed="#L" break="no" n="71"/>tentia, quia dicit ordinem ad actum, aut
+          <lb ed="#L" n="72"/>accipit potentiam materic pro aptitadine
+          <lb ed="#L" n="73"/>essendi sub forma.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e2441">
+          <lb ed="#L" n="74"/>Si primo, patet quod potentia 
+          mate<lb ed="#L" break="no" n="75"/>rie realiter distinguitur ab actu, quia 
+          se<lb ed="#L" break="no" n="76"/>cundum Doctorem et secundum 
+          verita<lb ed="#L" break="no" n="77"/>tem, et secundum viam Philosophi, ut
+          <lb ed="#L" n="78"/>patebit infra dist. 19. quest. 1. materia
+          <lb ed="#L" n="79"/>dicit entitatem realem realiter distinctam
+          <lb ed="#L" n="80"/>ab actu sive forma, sive etiam accipiatur
+          <lb ed="#L" n="81"/>materia, prout ipsi accipiunt, ut non 
+          di<lb ed="#L" break="no" n="82"/>cit entitatem realem actualem ; sed ut
+          <lb ed="#L" n="83"/>dicit puram potentiam, patet quod talis
+          <lb ed="#L" n="84"/>potentia non est causata a forma, sicut
+          <lb ed="#L" n="85"/>nec materia accepta secundum opinionem
+          <lb ed="#L" n="86"/>Doctoris.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e2473">
+          <lb ed="#L" n="87"/>Si secundo, accipitur pro potentia, ut
+          <lb ed="#L" n="88"/>dicit ordinem ad actum, patet, quod illa
+          <pb ed="#L" n="116"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>distinguitur realiter ab actu, quia 
+          adve<lb ed="#L" break="no" n="2"/>niente forma in materia desinit talis 
+          po<lb ed="#L" break="no" n="3"/>tentia, aliter idem esset actu sub 4, et
+          <lb ed="#L" n="4"/>in potentia ad ipsum 4, quod est 
+          im<lb ed="#L" break="no" n="5"/>plieatio.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e2495">
+          <lb ed="#L" n="6"/>Si tertio accipit potentiam pro 
+          aptitu<lb ed="#L" break="no" n="7"/>dine, patet, quod talis aptitudo non 
+          cau<lb ed="#L" break="no" n="8"/>satur a forma, cum omnis aptitudo 
+          prae<lb ed="#L" break="no" n="9"/>cise oriatur a re, cujus est ; tum etiam,
+          <lb ed="#L" n="10"/>quia quaereretur de tali aptitudine in quo
+          <lb ed="#L" n="11"/>fundetur, ipsi non possunt assignare
+          <lb ed="#L" n="12"/>subjectum talis aptitudinis, cum dicant
+          <lb ed="#L" n="13"/>materiam esse purum nihil, quia tantum
+          <lb ed="#L" n="14"/>purum esse in potentia. Et sic patet,
+          <lb ed="#L" n="15"/>quod illa probatio nihil est ad B, nisi
+          <lb ed="#L" n="16"/>exponat porentiam materie aliter, et
+          <lb ed="#L" n="17"/>quomodocumque exponatur, si talis 
+          po<lb ed="#L" break="no" n="18"/>tentia ponitur causari a forma, a qua
+          <lb ed="#L" n="19"/>materia realiter distinguitur, ut a 
+          poste<lb ed="#L" break="no" n="20"/>riori, oportebit eum dicere eamdem 
+          po<lb ed="#L" break="no" n="21"/>tentiam realiter distingui a materia. Et
+          <lb ed="#L" n="22"/>cum infert, quod illa potentia, seu 
+          capa<lb ed="#L" break="no" n="23"/>citas materiae respectu hujus quantitatis,
+          <lb ed="#L" n="24"/>qua vocatur ejus signatio, dependet a
+          <lb ed="#L" n="25"/>quantitate, et tamen est eadem materiae, 
+          pa<lb ed="#L" break="no" n="26"/>tet hoc esse falsum per ea quae dixi 
+          su<lb ed="#L" break="no" n="27"/>pra. Et ultra quaero quid intelligit per 
+          ca<lb ed="#L" break="no" n="28"/>pacitatem materie respecta hujus 
+          quan<lb ed="#L" break="no" n="29"/>titatis? aut intelligit ipsam materiam nude,
+          <lb ed="#L" n="30"/>et patet quod illa non dependet a 
+          quanti<lb ed="#L" break="no" n="31"/>tate, aut intelligit aliquil additum ipsi
+          <lb ed="#L" n="32"/>materizs, et tune. quaero, aut illud 
+          addi<lb ed="#L" break="no" n="33"/>tum quod accipitur pro capacitate, est
+          <lb ed="#L" n="34"/>praise aptitudo materi respectu hujus
+          <lb ed="#L" n="35"/>quantitatis, et tunc arguatur ut prius, 
+          sic<lb ed="#L" break="no" n="36"/>ut de potentia aptitudinaria, aut dicit 
+          ali<lb ed="#L" break="no" n="37"/>quam entitatem actualem, et tunc quaero,
+          <lb ed="#L" n="38"/>in quo fundetur? Non in materia, cum
+          <lb ed="#L" n="39"/>ponaat eam esse puram potentiam. Modo
+          <lb ed="#L" n="40"/>entitas actualis non potest immediate fun
+          <lb ed="#L" n="41"/>dari in eo quod nihil est in se; tum etiam
+          <lb ed="#L" n="42"/>quia si entitas actualis ponatur realiter
+          <lb ed="#L" n="43"/>causari a quantitate, est simpliciter 
+          im<lb ed="#L" break="no" n="44"/>possibile ipsam realiter identificari mat-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>riae, ut dixi supra, et quomodocumque
+          <lb ed="#L" n="46"/>assignetur capacitas materiae respectu 
+          il<lb ed="#L" break="no" n="47"/>lius quantitatis semper arguatur, ut 
+          ar<lb ed="#L" break="no" n="48"/>gutum est de potentia materie. Et cum
+          <lb ed="#L" n="49"/>dicit, quod potentia materiae est prior et
+          <lb ed="#L" n="50"/>posterior naturaliter actu; prior, quia
+          <lb ed="#L" n="51"/>causa materialis posterior in ordine 
+          cau<lb ed="#L" break="no" n="52"/>se materialis ; posterior in ordine causae
+          <lb ed="#L" n="53"/>formalis, dico, quod ista responsio 
+          nul<lb ed="#L" break="no" n="54"/>lam includit veritatem, quia 
+          quomodo<lb ed="#L" break="no" n="55"/>cumque accipiatur potentia materie, non
+          <lb ed="#L" n="56"/>potest dici realiter prior ipso actu, et 
+          re<lb ed="#L" break="no" n="57"/>aliter posterior. Posito enim, quod 
+          po<lb ed="#L" break="no" n="58"/>tentia materiae, ut causa materialis 
+          com<lb ed="#L" break="no" n="59"/>positi sit prior actu,est tamen impossibile,
+          <lb ed="#L" n="60"/>quod ipsa eadem potentia dicatur causa
+          <lb ed="#L" n="61"/>formalis, patet; tum quia talis potentia
+          <lb ed="#L" n="62"/>poneretur actus materiae, quod est 
+          omni<lb ed="#L" break="no" n="63"/>no inconveniens; tum etiam, quia in 
+          eo<lb ed="#L" break="no" n="64"/>dem composito essent plures actus, non
+          <lb ed="#L" n="65"/>enim est intelligibile, quod idem respectu
+          <lb ed="#L" n="66"/>ejusdem subjecti, dicatur prius et 
+          poste<lb ed="#L" break="no" n="67"/>rius naturaliter; quod enim potentia 
+          ma<lb ed="#L" break="no" n="68"/>terim sit realiter prior ipsa materia, et
+          <lb ed="#L" n="69"/>realiter posterior, videtur omnino 
+          impli<lb ed="#L" break="no" n="70"/>catio contradictionis. Et sic patet 
+          quomo<lb ed="#L" break="no" n="71"/>do prima ratio Doctoris minime 
+          eva<lb ed="#L" break="no" n="72"/>cuetur.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e2645">
+          <lb ed="#L" n="73"/>Ad illa, quae dicit ad secundam 
+          rati<lb ed="#L" break="no" n="74"/>onem Doctor, cum dicit quod non est 
+          in<lb ed="#L" break="no" n="75"/>conveniens aliquid causatum ab A in uno
+          <lb ed="#L" n="76"/>genere causae esse causam ipsius 4
+          <lb ed="#L" n="77"/>in genere, et sic materia signata est 
+          cau<lb ed="#L" break="no" n="78"/>sa quantitatis in genere causcz materialis,
+          <lb ed="#L" n="79"/>et quantitas est causa materie signatae in
+          <lb ed="#L" n="80"/>genere causae formalis, ut actus potentiae.
+          <lb ed="#L" n="81"/>Dico simpliciter, quod haec responsio 
+          vi<lb ed="#L" break="no" n="82"/>detur tantum ad placitum; est enim 
+          im<lb ed="#L" break="no" n="83"/>possibile, aliquid causatum in genere
+          <lb ed="#L" n="84"/>causz materialis esse causam illius 
+          cau<lb ed="#L" break="no" n="85"/>sm in genere causae formalis, quia tum
+          <lb ed="#L" n="86"/>idem esset realiter et essentialiter priu:
+          <lb ed="#L" n="87"/>et posterius respectu ejusdem. Si enim 4
+          <lb ed="#L" n="88"/>est realiter causa. materialis B, erit reali.
+          <pb ed="#L" n="117"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>ter prius ipso, et si B est causa formalis
+          <lb ed="#L" n="2"/>ipsius: A, sequitur quod erit realiter prius
+          <lb ed="#L" n="3"/>ipso A causato ; non enim est intelligibile
+          <lb ed="#L" n="4"/>causam in quocumque genere esse realiter
+          <lb ed="#L" n="5"/>posteriorem ipso causato. Si ergo materia
+          <lb ed="#L" n="6"/>signata est causa materialis quantitatis,
+          <lb ed="#L" n="7"/>sequitur quod erit realiter prior ipsa
+          <lb ed="#L" n="8"/>quantitate, et ex alia parte, si materia ut
+          <lb ed="#L" n="9"/>signata est realiter causata a quantitate
+          <lb ed="#L" n="10"/>uta causa formali, erit realiter posterior
+          <lb ed="#L" n="11"/>ipsa quantitate, et sic idem respectu 
+          ejus<lb ed="#L" break="no" n="12"/>dem erit realiter et essentialiter prius et
+          <lb ed="#L" n="13"/>posterius.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e2715">
+          <lb ed="#L" n="14"/>Praeterea quiero, cum dicit quod 
+          mate<lb ed="#L" break="no" n="15"/>ria signata est causa materialis 
+          quantita<lb ed="#L" break="no" n="16"/>tis, et quod talis signatio est praecise a
+          <lb ed="#L" n="17"/>quantitate, aut talis signatio est causata a
+          <lb ed="#L" n="18"/>quantitate potentiali, aut actuali. Non 
+          pri<lb ed="#L" break="no" n="19"/>mo, quia quod non est in se, nihil potest
+          <lb ed="#L" n="20"/>causare in quocumque genere causz, 
+          lo<lb ed="#L" break="no" n="21"/>quendo de causatione reali. Non secundo,
+          <lb ed="#L" n="22"/>quia tunc non est quantitas in actu, 
+          pa<lb ed="#L" break="no" n="23"/>tet, auia quantitas in actu ponitur causari
+          <lb ed="#L" n="24"/>a materia signata; modo causa materialis
+          <lb ed="#L" n="25"/>praesupponitur ipsi quantitati, ergo talis
+          <lb ed="#L" n="26"/>signatio materie non erit a tali 
+          quan<lb ed="#L" break="no" n="27"/>titate.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e2748">
+          <lb ed="#L" n="28"/>Praeterea, si quantitas est causa 
+          signa<lb ed="#L" break="no" n="29"/>tionis materiae, aut ipsam causat, ut actu
+          <lb ed="#L" n="30"/>informat materiam, aut ut non informat
+          <lb ed="#L" n="31"/>actu. Si primo, sequitur quod materia
+          <lb ed="#L" n="32"/>erit prius signata, quam informetur a
+          <lb ed="#L" n="33"/>quantitate, patet, quia causa materialis
+          <lb ed="#L" n="34"/>est naturaliter prior illo, cujus est causa;
+          <lb ed="#L" n="35"/>sed materia, per te, ut signata, est causa
+          <lb ed="#L" n="36"/>materialis talis quantitatis, ergo. Non 
+          se<lb ed="#L" break="no" n="37"/>cundo, quia nihil causat formaliter in 
+          sub<lb ed="#L" break="no" n="38"/>jecto, nisi inquantum actu informat; et
+          <lb ed="#L" n="39"/>sic patet quomodo propositio Doctoris
+          <lb ed="#L" n="40"/>est ita evidens, quod nullo modo 
+          impro<lb ed="#L" break="no" n="41"/>bari potest, nisi forte formando 
+          propositi<lb ed="#L" break="no" n="42"/>ones ad placitum. Et quod infert, quod
+          <lb ed="#L" n="43"/>causa materialis secundum causalitatem
+          <lb ed="#L" n="44"/>suam dependet a suo effectu. scilicet for-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>ma, sed non inquantum est effectus ejus,
+          <lb ed="#L" n="46"/>sedin eo quod est causa materie, hoc
+          <lb ed="#L" n="47"/>patet esse falsum, quia nec materia in eo
+          <lb ed="#L" n="48"/>quod causat compositum dependet a forma,
+          <lb ed="#L" n="49"/>nec e converso, sunt enim distinctae 
+          cau<lb ed="#L" break="no" n="50"/>salitates, quarum una in causando non
+          <lb ed="#L" n="51"/>dependet ab alia, et hoc magis patebit 
+          in<lb ed="#L" break="no" n="52"/>fra dist. 12. Et quod adducit, quod cause
+          <lb ed="#L" n="53"/>sunt sibi invicem causae, ut patet <ref xml:id="mm30o9-d1e1750-Rd1e2808">2. 
+            PAy<lb ed="#L" break="no" n="54"/>sic. com. 30.</ref> dico, quod hoc non est ad
+          <lb ed="#L" n="55"/>propositum, quia quamvis materia sit 
+          sub<lb ed="#L" break="no" n="56"/>jectum formae, et forma sitactus materie,
+          <lb ed="#L" n="57"/>non tamen dicimus quod sit causa 
+          mate<lb ed="#L" break="no" n="58"/>rialis formae, nec quod forma sit causa 
+          for<lb ed="#L" break="no" n="59"/>malis materiae, sed materia dicitur causa
+          <lb ed="#L" n="60"/>materialis respectu compositi, et 
+          simili<lb ed="#L" break="no" n="61"/>ter forma. Non enim habetur ab 
+          Aristo<lb ed="#L" break="no" n="62"/>tele quod materia sit causa forme, nec 
+          for<lb ed="#L" break="no" n="63"/>ma causa materie, ut patet in text. 30.
+          <lb ed="#L" n="64"/>ubi ostendit, quae sunt ille causc quee
+          <lb ed="#L" n="65"/>ponuntur sibi invicem cause, vide ibi.
+          <lb ed="#L" n="66"/>Et licet <ref xml:id="mm30o9-d1e1750-Rd1e2839">Commentator com. 30.</ref> sic dicat :
+          <lb ed="#L" n="67"/>Materia est causa forme, secundum quod
+          <lb ed="#L" n="68"/>forma non potest inveniri nisi per illam,
+          <lb ed="#L" n="69"/>forma autem est causa materie, 
+          secun<lb ed="#L" break="no" n="70"/>dum quod materia non potest esse in actu
+          <lb ed="#L" n="71"/>et demonstrata, nisi per illam, et 
+          praeci<lb ed="#L" break="no" n="72"/>pue prima materia. Haec ille; tamen hoc
+          <lb ed="#L" n="73"/>dictam Commentatoris non est ad 
+          proposi<lb ed="#L" break="no" n="74"/>tum, quia per hoc vult formam non posse
+          <lb ed="#L" n="75"/>existere, nisi in materia, et materiam non
+          <lb ed="#L" n="76"/>posse habere actum formalem,sive non 
+          pos<lb ed="#L" break="no" n="77"/>se existere in actu formali, nisi per 
+          for<lb ed="#L" break="no" n="78"/>mam;non enim vult,quod forma secundum
+          <lb ed="#L" n="79"/>suam entitatem sit causata a materia, sed
+          <lb ed="#L" n="80"/>tantum ab agente extrinseco, nec similiter
+          <lb ed="#L" n="81"/>entitas materie sit causata ab ipsa forma,
+          <lb ed="#L" n="82"/>ita quod nullam entitatem actualem dicat
+          <lb ed="#L" n="83"/>realiter distinctam ab ipsa forma; et si
+          <lb ed="#L" n="84"/>hoc intenderet negandus esset 
+          Commenta<lb ed="#L" break="no" n="85"/>tor, quia in hoc est expresse contra 
+          doctri<lb ed="#L" break="no" n="86"/>nam Magistri sui, ut prolixe patebit infra
+          <lb ed="#L" n="87"/>distinct, 12. quest. prima.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e2888">
+          <lb ed="#L" n="88"/>Ad illud, quod dicit ad tertiam rationem,
+          <pb ed="#L" n="118"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>quod quantitatem causare talem 
+          signati<lb ed="#L" break="no" n="2"/>onem in materia nihil aliud est, quam
+          <lb ed="#L" n="3"/>materiam esse ab hoc agente factam 
+          capa<lb ed="#L" break="no" n="4"/>cem a Deo hujus quantitatis, quod non 
+          il<lb ed="#L" break="no" n="5"/>lius, et sic quantum concurrit ad 
+          signati<lb ed="#L" break="no" n="6"/>onem materiae ut actus, patet ex 
+          supradi<lb ed="#L" break="no" n="7"/>ctis hanc responsionem non evacuare
+          <lb ed="#L" n="8"/>rationem Doctoris, quia semper quaero de
+          <lb ed="#L" n="9"/>illa capacitate materie, ut supra. Cum
+          <lb ed="#L" n="10"/>enim dicit, quod ipsa materia est effecta
+          <lb ed="#L" n="11"/>capax hujus quantitatis a Deo, quae 
+          capa<lb ed="#L" break="no" n="12"/>citas dicitur signatio materie, et ut sic
+          <lb ed="#L" n="13"/>est prior quantitate, hoc concesso habetur
+          <lb ed="#L" n="14"/>propositum, quod talis signatio non erit
+          <lb ed="#L" n="15"/>per quantitatem ; tum etiam, quia ipsa
+          <lb ed="#L" n="16"/>quantitas secundum eum est causata a
+          <lb ed="#L" n="17"/>materia signata, et sic erit posterior 
+          ma<lb ed="#L" break="no" n="18"/>teria signata, et per consequens signatio
+          <lb ed="#L" n="19"/>materice praecedit quantitatem, et ut sic,
+          <lb ed="#L" n="20"/>nullo modo erit a quantitate. Et quia 
+          re<lb ed="#L" break="no" n="21"/>sponsiones sequentes ad alias rationes
+          <lb ed="#L" n="22"/>Doctoris procedunt ex eodem fundamento
+          <lb ed="#L" n="23"/>falso, quae etiam ex his, quae dixi supra,
+          <lb ed="#L" n="24"/>facillime solvi possunt, ideo brevitatis
+          <lb ed="#L" n="25"/>causa pertranseo illas.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e2952">
+          <lb ed="#L" n="26"/>Nunc solvendae sunt rationes factae pro
+          <lb ed="#L" n="27"/>opinione <ref xml:id="mm30o9-d1e1750-Rd1e2958">Goffredi, n. 2. textus.</ref>
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e2961">
+          <lb ed="#L" n="28"/>(f) Ad. primam rationem. Dicit Doctor
+          <lb ed="#L" n="29"/>quod male accipit illam propositionem
+          <lb ed="#L" n="30"/>Philosophi, ut supra declaratum est. Non
+          <lb ed="#L" n="31"/>enim Philosophus dicit quantitatem dividi
+          <lb ed="#L" n="32"/>in partes ejusdem rationis,sed quod 
+          quan<lb ed="#L" break="no" n="33"/>Lum est divisibile in ea quae insunt, 
+          quo<lb ed="#L" break="no" n="34"/>rum utrumque, vel singulum est. natum
+          <lb ed="#L" n="35"/>esse aliquid, et hoc aliquid. In ea qua
+          <lb ed="#L" n="36"/>insunt, inquit, tanquam componentia 
+          to<lb ed="#L" break="no" n="37"/>tum cul insunt; igitur non sicut in partes
+          <lb ed="#L" n="38"/>subjectivas, quae non sic insunt, etc. ut
+          <lb ed="#L" n="39"/>supra expositum est. Et cum ultra dicit,
+          <lb ed="#L" n="40"/>quod eodem est aliquid divisibile, et quod
+          <lb ed="#L" n="41"/>partes dividentes distinguuntur, hoc est
+          <lb ed="#L" n="42"/>falsum, quia natura communis divisibilis
+          <lb ed="#L" n="43"/>est ex se in individentia, puta animal in
+          <lb ed="#L" n="44"/>specie, et tamen dividentia non distingu-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>untur ratione nature, cum conveniant in
+          <lb ed="#L" n="46"/>ea, sed distinguuntur propriis rationibus.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e3007">
+          <lb ed="#L" n="47"/>(g) Ad. secundam rationem. Respondet,
+          <lb ed="#L" n="48"/>et primo dicit, quod ex ista ratione potest
+          <lb ed="#L" n="49"/>concludi, quod idem generaret se, cum
+          <lb ed="#L" n="50"/>sit eadem quantitas, praesertim secundum
+          <lb ed="#L" n="51"/>eos, ingenita et incorrupta, ut supra 
+          pa<lb ed="#L" break="no" n="52"/>tuit. Deinde ad formam argumenti dicit,
+          <lb ed="#L" n="53"/>quod ambae praemissae sunt falsae. Prima
+          <lb ed="#L" n="54"/>enim est falsa, scilicet ista forma non 
+          dif<lb ed="#L" break="no" n="55"/>fert a forma, nisi quia est in alia materia,
+          <lb ed="#L" n="56"/>licet enim actu sit in alia materia, non
+          <lb ed="#L" n="57"/>tamen propter hoc differt ab alia forma,
+          <lb ed="#L" n="58"/>sed praecise quantitatis, ratione suae 
+          u<lb ed="#L" break="no" n="59"/>nitatis. Secunda etiam propositio est falsa,
+          <lb ed="#L" n="60"/>scilicet ista, non est alia pars materiae, 
+          ni<lb ed="#L" break="no" n="61"/>si propter aliam partem quantitatis ; prior
+          <lb ed="#L" n="62"/>enim est distinctio partis materiae quam
+          <lb ed="#L" n="63"/>quantitatis, quia subjectum hujus 
+          acci<lb ed="#L" break="no" n="64"/>dentis est hoc aliquid.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e3049">
+          <lb ed="#L" n="65"/>Ultimo, ista opinio confirmat rationem,
+          <lb ed="#L" n="66"/>quia generans generat aliud propter 
+          di<lb ed="#L" break="no" n="67"/>stinctionem materiae,sed materia geniti 
+          ne<lb ed="#L" break="no" n="68"/>cessario praesupponitur quanta, et sic
+          <lb ed="#L" n="69"/>quantitate distincta. Quod quanta, patet,
+          <lb ed="#L" n="70"/>quia agens naturale non potest agere in
+          <lb ed="#L" n="71"/>non quantum; quod etiam quanta ali:
+          <lb ed="#L" n="72"/>quantitate, patet, quia non potest esse
+          <lb ed="#L" n="73"/>quanta quantitate generantis, sed ista
+          <lb ed="#L" n="74"/>quantitas praecedit naturaliter esse ipsius
+          <lb ed="#L" n="75"/>geniti; igitur et distinctionem ipsius 
+          ge<lb ed="#L" break="no" n="76"/>nerantis et geniti, non autem praecedere:
+          <lb ed="#L" n="77"/>naturaliter, si non esset naturaliter 
+          requi<lb ed="#L" break="no" n="78"/>situm, et per se ut distinctivum ipsius.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e3082">
+          <lb ed="#L" n="79"/>(h) Ad confirmationem. Ad hanc 
+          con<lb ed="#L" break="no" n="80"/>firmationem respondet. Doctor, et 
+          respon<lb ed="#L" break="no" n="81"/>sio stat in hoc : Posito enim, et non con
+          <lb ed="#L" n="82"/>cesso, quod generans non generat, nis
+          <lb ed="#L" n="83"/>de materia quanta alia quantitate, ad.
+          <lb ed="#L" n="84"/>huc unitas materie supple numera.
+          <lb ed="#L" n="85"/>lis, inest. materie, non ratione 
+          quanti<lb ed="#L" break="no" n="86"/>tatis, imo, ut simpliciter procedit ipsam
+          <lb ed="#L" n="87"/>quantitatem ; ponatur enim quod ignis
+          <lb ed="#L" n="88"/>quantus eeneret alium ienem de aqua
+          <pb ed="#L" n="119"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>quanta, quamvis ignis quantus generet
+          <lb ed="#L" n="2"/>de aqua quanta, tamen ignis quantus
+          <lb ed="#L" n="3"/>non est unum numero praecise per 
+          quan<lb ed="#L" break="no" n="4"/>titatem sibi inherentem, nec similiter
+          <lb ed="#L" n="5"/>materia ipsius ignis quanti erit  
+          praeci<lb ed="#L" break="no" n="6"/>se una numero per quantitatem, sed per
+          <lb ed="#L" n="7"/>aliquid sibi intrinsecum praecedens 
+          quam<lb ed="#L" break="no" n="8"/>cumque quantitatem.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e3128">
+          <lb ed="#L" n="9"/>Declaro tamen hanc litteram cum dicit :
+          <lb ed="#L" n="10"/>Sive ita sit, sive non, de quo alias, id
+          <lb ed="#L" n="11"/>esti, sive generans generet de materia
+          <lb ed="#L" n="12"/>quanta, sive non, et tenet Doctor quod non
+          <lb ed="#L" n="13"/>de materia quanta generet, saltem in 
+          par<lb ed="#L" break="no" n="14"/>libus materie — distinctis secundum 
+          for<lb ed="#L" break="no" n="15"/>mam quantitatis, ita quod una pars 
+          mate<lb ed="#L" break="no" n="16"/>rie sit sub una quantitate, et alia pars
+          <lb ed="#L" n="17"/>materiae sub alia quantitate, quod non 
+          de<lb ed="#L" break="no" n="18"/>bet intelligi immediate, quia non ponitur
+          <lb ed="#L" n="19"/>materia immediatum subjectum accidentis,
+          <lb ed="#L" n="20"/>sed mediante forma substantiali, et. sic
+          <lb ed="#L" n="21"/>materia ut est sub una forma substantiali,
+          <lb ed="#L" n="22"/>puta ignis, et materia ut est sub alia 
+          for<lb ed="#L" break="no" n="23"/>ma substantiali, puta aquae, utraque 
+          ma<lb ed="#L" break="no" n="24"/>teria est sub alia et alia quantitate. 
+          Se<lb ed="#L" break="no" n="25"/>quitur:
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e3168">
+          <lb ed="#L" n="26"/>Dico, quod. unitas materiae est. passio
+          <lb ed="#L" n="27"/>immediata, id est, quod unitas numeralis
+          <lb ed="#L" n="28"/>sive indivisibilis materi: existentis sub
+          <lb ed="#L" n="29"/>quantitate ignis, et materiae existentis sub
+          <lb ed="#L" n="30"/>quantitate aquae, est passio immediata 
+          ip<lb ed="#L" break="no" n="31"/>sius aquae, id est, quod talis unitas inest
+          <lb ed="#L" n="32"/>materie per aliquid intrinsecum, et non
+          <lb ed="#L" n="33"/>per quantitatem, ita quod unitas ejus 
+          na<lb ed="#L" break="no" n="34"/>turaliter praecedit rationem. quameumque
+          <lb ed="#L" n="35"/>generationis. ftatio enim generantis, 
+          sup<lb ed="#L" break="no" n="36"/>ple naturalis est, quod generet aliquid,
+          <lb ed="#L" n="37"/>non in materianr quam habet, sed in 
+          ali<lb ed="#L" break="no" n="38"/>am materiam, de qua generat ; patet, quia
+          <lb ed="#L" n="39"/>ignis generans alium ignem, id est, 
+          pro<lb ed="#L" break="no" n="40"/>ducens formam substantialem ignis, non
+          <lb ed="#L" n="41"/>producit eam in materiam quam habet,
+          <lb ed="#L" n="42"/>quia tunc eadem materia numero esset
+          <lb ed="#L" n="43"/>sub duabus formis substantialibus 
+          ejus<lb ed="#L" break="no" n="44"/>dem speciei, quod non est possibile: ad
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>hoc ergo, quod generet alium ignem, 
+          si<lb ed="#L" break="no" n="46"/>ve aliain formam substantialem ignis, 
+          re<lb ed="#L" break="no" n="47"/>quirit aliam materiam, puta materiam 
+          li<lb ed="#L" break="no" n="48"/>gni de qua generat, quae erit immediatum
+          <lb ed="#L" n="49"/>receptivum form: ignis geniti. Et dicit
+          <lb ed="#L" n="50"/>hoc de agente naturali, quia agens 
+          super<lb ed="#L" break="no" n="51"/>naturale non praesupponit materiam 
+          ali<lb ed="#L" break="no" n="52"/>quam, ad hoc, ut aliud generet. 
+          Sequi<lb ed="#L" break="no" n="53"/>tur : Et requirit istam quantitatem, sicut.
+          <lb ed="#L" n="54"/>concomitantem distinctionem materie a
+          <lb ed="#L" n="55"/>materia,id est, quod ignis generans, 
+          quan<lb ed="#L" break="no" n="56"/>do generat de aqua quanta, licet requirat
+          <lb ed="#L" n="57"/>quantitatem, quae concomitetur 
+          distincti<lb ed="#L" break="no" n="58"/>onem materie a materia, quia in 
+          mate<lb ed="#L" break="no" n="59"/>ria ignis generantis est alia quantitas, 
+          me<lb ed="#L" break="no" n="60"/>diante forma substantiali ignis,et in 
+          mate<lb ed="#L" break="no" n="61"/>ria aque de qua generat, est alia 
+          quanti<lb ed="#L" break="no" n="62"/>tas mediante forma substantiali aquae.Istce
+          <lb ed="#L" n="63"/>tamen du:e quantitates non efficiunt primo
+          <lb ed="#L" n="64"/>aliam et aliam materiam, imo 
+          praesuppo<lb ed="#L" break="no" n="65"/>nunt distinctionem numeralem materiae a
+          <lb ed="#L" n="66"/>materia, sed praecise concomitantur.
+          <lb ed="#L" n="67"/>Adverte tamen, quod tam in igne 
+          gene<lb ed="#L" break="no" n="68"/>rante quam in aqua de qua generat, sunt
+          <lb ed="#L" n="69"/>quatuor entitates, entitas materi:e, entitas
+          <lb ed="#L" n="70"/>forme substantialis, entitas compositi ex
+          <lb ed="#L" n="71"/>materia et forma, et entitas quantitatis,
+          <lb ed="#L" n="72"/>qui subjective est composita. Et 
+          quieli<lb ed="#L" break="no" n="73"/>bet entitas habet propriam unitatem 
+          nu<lb ed="#L" break="no" n="74"/>meralem et propriam haecceitatem, non
+          <lb ed="#L" n="75"/>enim materia ignis est haec per formam
+          <lb ed="#L" n="76"/>ignis, nec e contra. Nec similiter materia
+          <lb ed="#L" n="77"/>ignis et forma ignis sunt hsc praecise
+          <lb ed="#L" n="78"/>per formam totius compositi, cum 
+          prxece<lb ed="#L" break="no" n="79"/>dant eam, nec e contra. Nec quantitas
+          <lb ed="#L" n="80"/>est haec per entitatem compositi, vel 
+          par<lb ed="#L" break="no" n="81"/>tium, nec e contra, imo simpliciter quot
+          <lb ed="#L" n="82"/>eptitates realiter distinctae sunt in 
+          compo<lb ed="#L" break="no" n="83"/>sito, tot haecceitates sunt in illo, licet 
+          po<lb ed="#L" break="no" n="84"/>stea compositum dicatur praecise unum
+          <lb ed="#L" n="85"/>numero, de quo alias. Sequitur : Et 
+          debe<lb ed="#L" break="no" n="86"/>ret probari, quod. quantitas esset propria
+          <lb ed="#L" n="87"/>ratio unitatis talis, scilicet singularitatis
+          <lb ed="#L" n="88"/>in substantia, et probatur quod est ratio
+          <pb ed="#L" n="120"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>sine qua non, id est, quod per hanc 
+          ra<lb ed="#L" break="no" n="2"/>tionem, in qua dicit quod generans non
+          <lb ed="#L" n="3"/>generat, nisi de materia quanta, non
+          <lb ed="#L" n="4"/>probat quod quantitas sit ratio 
+          singula<lb ed="#L" break="no" n="5"/>ritatis ipsius materie sive substantiae ;
+          <lb ed="#L" n="6"/>sed si aliquid probat, tantum probat
+          <lb ed="#L" n="7"/>quod est ratio sine qua non, supple sine
+          <lb ed="#L" n="8"/>qua generans non generat, quia 
+          gene<lb ed="#L" break="no" n="9"/>rans non generat nisi de materia quanta,
+          <lb ed="#L" n="10"/>quamvis etiam hoc non sit verum, quia
+          <lb ed="#L" n="11"/>generans immediate generat de materia,
+          <lb ed="#L" n="12"/>cum inducat formam substantialem in
+          <lb ed="#L" n="13"/>materia immediate, et non in materia ut
+          <lb ed="#L" n="14"/>quanta, ut infra patebit.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e3344">
+          <lb ed="#L" n="15"/>(i) Si objicitur, quod. saltem ex 
+          con<lb ed="#L" break="no" n="16"/>firmatione, etc. ergo naturaliter 
+          priesup<lb ed="#L" break="no" n="17"/>ponitur quantitas materi: individuationi
+          <lb ed="#L" n="18"/>ipsius geniti Nam ex secunda via, quae
+          <lb ed="#L" n="19"/>erat ex ordine substantite ad accidentia,
+          <lb ed="#L" n="20"/>probatum est quod singularis substantia
+          <lb ed="#L" n="21"/>est naturaliter prior omni accidente per
+          <lb ed="#L" n="22"/>Philosophum 7. Metaphys. text. com. 4.
+          <lb ed="#L" n="23"/>et sic non erit haec per quantitatem. Hic
+          <lb ed="#L" n="24"/>modo videtur probare oppositum, quia si
+          <lb ed="#L" n="25"/>ignis generat alium ignem de materia
+          <lb ed="#L" n="26"/>quanta; ergo quantitas ignis generandi,
+          <lb ed="#L" n="27"/>erit prior ipso igne genito.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e3375">
+          <lb ed="#L" n="28"/>(j) Respondeo, quod individuationi, etc.
+          <lb ed="#L" n="29"/>Vult dicere in ista littera, quod ignis
+          <lb ed="#L" n="30"/>singularis genitus, puta de aqua, 
+          prxe<lb ed="#L" break="no" n="31"/>supponit ipsam aquam et quantam, quae
+          <lb ed="#L" n="32"/>prius corrumpitur, quam de ipsa ignis
+          <lb ed="#L" n="33"/>generetur, quia generans prius agit in
+          <lb ed="#L" n="34"/>aquam habentem propriam quantitatem,
+          <lb ed="#L" n="35"/>et cetera accidentia, puta frigiditatem
+          <lb ed="#L" n="36"/>et humiditatem, etc. quam sit ignis 
+          ge<lb ed="#L" break="no" n="37"/>nitus. Et hoc modo quantitas aquae 
+          cor<lb ed="#L" break="no" n="38"/>rumpend:e, et ccetera accidentia ipsius
+          <lb ed="#L" n="39"/>naturaliter  praecedunt — individuationem
+          <lb ed="#L" n="40"/>ignis generandi ex tali aqua.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e3406">
+          <lb ed="#L" n="41"/>Adverte tamen, quod quando in 
+          mate<lb ed="#L" break="no" n="42"/>ria aque inducitur forma substantialis
+          <lb ed="#L" n="43"/>ignis, desinente forma substantiali aque,
+          <lb ed="#L" n="44"/>omnia aceidentia, quae erant in ipsa, de
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>sinunt. Non enim aliquod accidens ipsius
+          <lb ed="#L" n="46"/>aquae corrumpende: remanet igne genito,
+          <lb ed="#L" n="47"/>quia tunc aliquod accidens migraret de
+          <lb ed="#L" n="48"/>subjecto in subjectum; modo ex hoc,
+          <lb ed="#L" n="49"/>quod talis quantitas aquae corrumpendae
+          <lb ed="#L" n="50"/>naturaliter praecedit singularitatem ignis
+          <lb ed="#L" n="51"/>generandi, non habetur quod quantitas sit
+          <lb ed="#L" n="52"/>ratio singularitatis, nec aqua 
+          corrum<lb ed="#L" break="no" n="53"/>pende, nec ignis generandi, imo talis
+          <lb ed="#L" n="54"/>quantitas cum aliis accidentibus 
+          praesup<lb ed="#L" break="no" n="55"/>ponit materiam aquae singularem. Et 
+          si<lb ed="#L" break="no" n="56"/>militer quantitas l1gnis geniti ex aqua
+          <lb ed="#L" n="57"/>cum accidentibus ipsius Ignis, puta 
+          ca<lb ed="#L" break="no" n="58"/>liditate et siccitate praesupponit 
+          singu<lb ed="#L" break="no" n="59"/>laritatem ipsius ignis geniti, et hoc est
+          <lb ed="#L" n="60"/>quod dicit.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e3454">
+          <lb ed="#L" n="61"/>(k) Sed. adhuc ulterius deducitur 
+          ar<lb ed="#L" break="no" n="62"/>gumentum, etc. Vult dicere Doctor quod
+          <lb ed="#L" n="63"/>si quantitas materie, de qua generatur
+          <lb ed="#L" n="64"/>ignis, non praecederet ignem, et sibi
+          <lb ed="#L" n="65"/>inexisteret, tunc agens particulare 
+          indu<lb ed="#L" break="no" n="66"/>ceret formam ignis in materiam nudam,
+          <lb ed="#L" n="67"/>et non quantam ; videtur enim quod 
+          for<lb ed="#L" break="no" n="68"/>ma geniti, ut quando generatur ignis,
+          <lb ed="#L" n="69"/>puta de materia aque, inducitur in 
+          ma<lb ed="#L" break="no" n="70"/>teria aquae ut quanta. Et hoc patet per
+          <lb ed="#L" n="71"/>Commentatorem in de Substantia orbis,
+          <lb ed="#L" n="72"/>ubi videtur velle, quod maneat eadem
+          <lb ed="#L" n="73"/>quantitas in generato et corrupto, 
+          alio<lb ed="#L" break="no" n="74"/>quin generans generaret de non 
+          corpo<lb ed="#L" break="no" n="75"/>re corpus. Vult dicere Commentator quod
+          <lb ed="#L" n="76"/>eadem quantitas numero, quae erat in
+          <lb ed="#L" n="77"/>materia aque corrumpende, erit etiam
+          <lb ed="#L" n="78"/>in materia ignis geniti ex tali aqua, 
+          ali<lb ed="#L" break="no" n="79"/>ter generaretur ignis, qui ponitur 
+          cor<lb ed="#L" break="no" n="80"/>pus de non corpore.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e3500">
+          <lb ed="#L" n="81"/>(l) Contra. illud primo arguitur. Hic
+          <lb ed="#L" n="82"/>Doctor primo arguit ad hominem, et 
+          se<lb ed="#L" break="no" n="83"/>cundo arguit contra conclusionem ia se.
+          <lb ed="#L" n="84"/>Primo dicit, quod hae ratio non debet
+          <lb ed="#L" n="85"/>adduci pro ista positione, quia fundator
+          <lb ed="#L" n="86"/>hujus positionis videtur tenere 
+          contra<lb ed="#L" break="no" n="87"/>rium; tenet enim ipse, quod nulla 
+          for<lb ed="#L" break="no" n="88"/>ma aecidentalis potest immediate induei
+          <pb ed="#L" n="121"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>in materia, sed immediate inducitur in
+          <lb ed="#L" n="2"/>forma substantiali. Et vult etiam, quod
+          <lb ed="#L" n="3"/>nulla forma corporeitatis maneat eadem
+          <lb ed="#L" n="4"/>in generato et corrupto, et sic nulla
+          <lb ed="#L" n="5"/>quantitas manet eadem in generato et
+          <lb ed="#L" n="6"/>corrupto, quidquid sit de Commentatore,
+          <lb ed="#L" n="7"/>hoc tamen non est de opinione ponentis
+          <lb ed="#L" n="8"/>eam.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e3543">
+          <lb ed="#L" n="9"/>(m) Sed ad conclusionem in se. Hic
+          <lb ed="#L" n="10"/>Doctor ostendit illam conclusionem esse
+          <lb ed="#L" n="11"/>falsam, videlicet, quod eadem quantitas
+          <lb ed="#L" n="12"/>maneat in generato et corrupto. Et vult
+          <lb ed="#L" n="13"/>in ista littera, quod quando corrumpitur
+          <lb ed="#L" n="14"/>forma aqua, quod quantitas et ccetera
+          <lb ed="#L" n="15"/>accidentia ipsius corrumpantur, cum sint
+          <lb ed="#L" n="16"/>posteriora substantia aqua, et sic nullum
+          <lb ed="#L" n="17"/>aecidens aquae manet in materia aquae,
+          <lb ed="#L" n="18"/>de qua generatur ignis. Et vult quod
+          <lb ed="#L" n="19"/>forma substantialis ignis immediate 
+          in<lb ed="#L" break="no" n="20"/>ducatur in materia aquai, et non 
+          medi<lb ed="#L" break="no" n="21"/>ante aliquo accidente.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e3574">
+          <lb ed="#L" n="22"/>(n) Ad Averroem dico quod de eo.
+          <lb ed="#L" n="23"/>Sensus litterae est, quod agens naturale
+          <lb ed="#L" n="24"/>potest generare corpus de eo quod 
+          ali<lb ed="#L" break="no" n="25"/>quando esset non corpus, quod 
+          dupli<lb ed="#L" break="no" n="26"/>citer intelligi potest, vel tanquam de
+          <lb ed="#L" n="27"/>opposito, vel ut de aliquo inexistente
+          <lb ed="#L" n="28"/>ipsi genito. Primo modo ignis generatui
+          <lb ed="#L" n="29"/>de aqua, tanquam de opposito, quae aqua
+          <lb ed="#L" n="30"/>quandoque erit non corpus, patet quia ir
+          <lb ed="#L" n="31"/>illo instanti in quo ignis generatur ex
+          <lb ed="#L" n="32"/>aqua, desinit forma substantialis aque.
+          <lb ed="#L" n="33"/>Secundo modo generatur de materia
+          <lb ed="#L" n="34"/>aqua, quia ut actu est sub form aqua
+          <lb ed="#L" n="35"/>dicitur corpus. Et si desinit esse sub
+          <lb ed="#L" n="36"/>forma aquae, desinit esse tale 
+          cor<lb ed="#L" break="no" n="37"/>pus, quia corrupta forma substantiali
+          <lb ed="#L" n="38"/>aqua, corrumpitur et quantitas fundata
+          <lb ed="#L" n="39"/>in illa, et sic de eo quod aliquando esset
+          <lb ed="#L" n="40"/>non corpus, posset generari corpus. 
+          Se<lb ed="#L" break="no" n="41"/>quitur: Sed forte non posset naturale
+          <lb ed="#L" n="42"/>agens generare corpus de non corpore.
+          <lb ed="#L" n="43"/>sicut de corrupto, accipiendo non corpus
+          <lb ed="#L" n="44"/>pro materia prima. Certum est, quod na-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>turale agens non posset generare, puta
+          <lb ed="#L" n="46"/>ignem de tali materia corrupta, cum a
+          <lb ed="#L" n="47"/>nullo agente naturali sit corruptibilis,
+          <lb ed="#L" n="48"/>agens vero supernaturale posset 
+          genera<lb ed="#L" break="no" n="49"/>re quodcumque corpus de materia 
+          cor<lb ed="#L" break="no" n="50"/>rupta ipsam corrumpendo, ita quod ad
+          <lb ed="#L" n="51"/>corruptionem materie possit immediate
+          <lb ed="#L" n="52"/>succedere aliquod corpus, et hoc praecise
+          <lb ed="#L" n="53"/>per actionem agentis supernaturalis ; sed
+          <lb ed="#L" n="54"/>hoc magis patebit a Doctore m quarto,
+          <lb ed="#L" n="55"/>dist. 10. ubi ostendit quomodo Deus
+          <lb ed="#L" n="56"/>potest convertere quodlibet in quolibet.
+          <lb ed="#L" n="57"/>Sequitar ibi: Sed totum, supple 
+          corrum<lb ed="#L" break="no" n="58"/>pitur, solum enim compositum 
+          corrum<lb ed="#L" break="no" n="59"/>pitur. Sequitur: Sed de eo, quod fuit
+          <lb ed="#L" n="60"/>corpus usque ad instans generationis,
+          <lb ed="#L" n="61"/>et hoc quantitate inherente sibi, potest
+          <lb ed="#L" n="62"/>agens naturale generare aliud. quantum
+          <lb ed="#L" n="63"/>alia quantitate generare in illo instanti,
+          <lb ed="#L" n="64"/>id est, quod de materia, puta aque, quae
+          <lb ed="#L" n="65"/>prius fuit corpus quantitate inhzrente,
+          <lb ed="#L" n="66"/>non immediate ipsi materie, sed 
+          me<lb ed="#L" break="no" n="67"/>diante forma substantiali aque, potest
+          <lb ed="#L" n="68"/>generari, puta ignis, alia quantitate 
+          me<lb ed="#L" break="no" n="69"/>diante forma substantiali ignis 
+          inhae<lb ed="#L" break="no" n="70"/>rente materie, quae prius fuit materia
+          <lb ed="#L" n="71"/>aque. Sequitur: Quia sicut potest 
+          pro<lb ed="#L" break="no" n="72"/>ducere substantiam, etc.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e3689">
+          <lb ed="#L" n="73"/>Sed dubium est, an illa accidentia 
+          con<lb ed="#L" break="no" n="74"/>sequentia formam  substantialem, 
+          pro<lb ed="#L" break="no" n="75"/>ducantur in eodem instanti in quo 
+          pro<lb ed="#L" break="no" n="76"/>ducitur forma substantialis, an etiam
+          <lb ed="#L" n="77"/>producantur a generante formam 
+          sub<lb ed="#L" break="no" n="78"/>stantialem, an ab ipsa forma substantiali
+          <lb ed="#L" n="79"/>immediate, de hoc erit prolixior 
+          mate<lb ed="#L" break="no" n="80"/>ria in quarto, dist. 12.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e3709">
+          <lb ed="#L" n="81"/>(o) Si dicas, etc, Dico, quod. necesse
+          <lb ed="#L" n="82"/>est de non composito, ut parte fieri vel
+          <lb ed="#L" n="83"/>produci compositum, id est, quod de
+          <lb ed="#L" n="84"/>materia, quae. non est compositum, sed
+          <lb ed="#L" n="85"/>pars compositi, producitur compositum
+          <lb ed="#L" n="86"/>per inexistentiam ipsius materie, et non
+          <lb ed="#L" n="87"/>producitur tanquam de opposito corrupto,
+          <lb ed="#L" n="88"/>et intellivzo sic: eum dicit, eum de parte
+          <pb ed="#L" n="122"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>compositi producitur compositum, quod
+          <lb ed="#L" n="2"/>de materia quae fuit aqua producitur
+          <lb ed="#L" n="3"/>compositum, puta ignis qui componitur
+          <lb ed="#L" n="4"/>ex tali materia et forma substantiali
+          <lb ed="#L" n="5"/>ignis, quia producendo formam 
+          substan<lb ed="#L" break="no" n="6"/>tialem ignis in tali materia, statim 
+          resul<lb ed="#L" break="no" n="7"/>tat compositum. Sequitur : Et ita de 
+          ma<lb ed="#L" break="no" n="8"/>leria secundum suam substantiam 
+          abso<lb ed="#L" break="no" n="9"/>lute, ut de parte, potest produci corpus
+          <lb ed="#L" n="10"/>aliquod, quod est. substantia. composita,
+          <lb ed="#L" n="11"/>et concomitratur substantia — quanta,
+          <lb ed="#L" n="12"/>quia quantitas est. passio istius 
+          substan<lb ed="#L" break="no" n="13"/>(ie composite, non quod sit passio
+          <lb ed="#L" n="14"/>convertibilis, nec eadem substantiae 
+          com<lb ed="#L" break="no" n="15"/>posite, sed quia necessario concomitatur
+          <lb ed="#L" n="16"/>talem substantiam, licet a Deo posset fieri
+          <lb ed="#L" n="17"/>substantia composita sine tali quantitate.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e3770">
+          <lb ed="#L" n="18"/>Nunc solvendae sunt rationes 
+          princi<lb ed="#L" break="no" n="19"/>pales. Ad auctoritatem Boetii.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e3777">
+          <lb ed="#L" n="20"/>(p) Ad auctoritates. Dicit Doctor primo,
+          <lb ed="#L" n="21"/>quod varietas accidentium facit in 
+          sub<lb ed="#L" break="no" n="22"/>stantia differentiam numeralem, puta
+          <lb ed="#L" n="23"/>Franciscus et Joannes per quaecumque
+          <lb ed="#L" n="24"/>accidentia eis inh:erentia differunt 
+          nume<lb ed="#L" break="no" n="25"/>ro, non tamen differentia prima 
+          numera<lb ed="#L" break="no" n="26"/>li, cum differant per proprias 
+          haecceita<lb ed="#L" break="no" n="27"/>tes, sed per secundam et adventitiam ;
+          <lb ed="#L" n="28"/>nam omnes distinctae. forme faciunt 
+          ali<lb ed="#L" break="no" n="29"/>quam differentiam in eis, in quibus sunt,
+          <lb ed="#L" n="30"/>supple, vel specificam vel numeralem,
+          <lb ed="#L" n="31"/>accidentia autem non possunt facere 
+          dif<lb ed="#L" break="no" n="32"/>ferentiam  specificam in substantia, in
+          <lb ed="#L" n="33"/>qua sunt, ut patet 3. Metaph. text.
+          <lb ed="#L" n="34"/>com. 95. Q"apropter, inquit, ominis
+          <lb ed="#L" n="35"/>albedo non facit, nec nigredo, supple
+          <lb ed="#L" n="36"/>differentiam specificam ?n homine, mec
+          <lb ed="#L" n="37"/>albi hominis est. differentia. secundum
+          <lb ed="#L" n="38"/>speciem ad. nigrum hominem. Wc ille;
+          <lb ed="#L" n="39"/>faciunt ergo talia aecidentia in 
+          substan<lb ed="#L" break="no" n="40"/>tiis solum differentiam numeralem, sed
+          <lb ed="#L" n="41"/>non faciunt primam differentiam, sed alia
+          <lb ed="#L" n="42"/>est prior differentia numeralis ; nam 
+          albe<lb ed="#L" break="no" n="43"/>do in Francisco, et nigredo in Joanne,
+          <lb ed="#L" n="44"/>faciunt tantum differre numero, quamvis
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>nigredo et albedo in se differant specie,
+          <lb ed="#L" n="46"/>ut tamen sunt in alia et alia substantia
+          <lb ed="#L" n="47"/>tantum numero faciunt differre, 
+          prssup<lb ed="#L" break="no" n="48"/>ponendo tamen primam differentiam 
+          nu<lb ed="#L" break="no" n="49"/>meralem in substantiis. Sequitur : ec illa
+          <lb ed="#L" n="50"/>sola, supple accidentia, faciunt 
+          differen<lb ed="#L" break="no" n="51"/>tium nume?ralem, supple in substantiis,
+          <lb ed="#L" n="52"/>cum in illis alia sit prior, sed faciunt 
+          dif<lb ed="#L" break="no" n="53"/>ferre numero tantum per accidens. 
+          Sequi<lb ed="#L" break="no" n="54"/>tur: Et nullum. istorum dicit auctoritas
+          <lb ed="#L" n="55"/>illa, etc. Patet, quia auctoritas Boetii
+          <lb ed="#L" n="56"/>non dicit, quod accidentia faciant differre
+          <lb ed="#L" n="57"/>numeraliter substantiam, prima 
+          differen<lb ed="#L" break="no" n="58"/>iia numerali, cum illa prassupponatur,
+          <lb ed="#L" n="59"/>nec quod per se praecise una substantia
+          <lb ed="#L" n="60"/>differat numeraliter ab alia per 
+          quaedecum<lb ed="#L" break="no" n="61"/>que accidentia, sed si differt, tantum
+          <lb ed="#L" n="62"/>per accidens differt.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e3876">
+          <lb ed="#L" n="63"/>(q) Sed quid ad intentionem Boetii.
+          <lb ed="#L" n="64"/>Postquam Doctor declaravit auctoritatem
+          <lb ed="#L" n="65"/>Boetii, nunc declarat intentionem ipsius
+          <lb ed="#L" n="66"/>Boetii, id est, quid intendat principaliter
+          <lb ed="#L" n="67"/>inferre, et dicit quod intendit inferre,
+          <lb ed="#L" n="68"/>quod divina persone non differunt 
+          nu<lb ed="#L" break="no" n="69"/>meraliter sine differentia materiali 
+          nume<lb ed="#L" break="no" n="70"/>rali; licet enim differant personaliter
+          <lb ed="#L" n="71"/>sive suppositaliter, non tamen differunt
+          <lb ed="#L" n="72"/>numero, nam qua numero differunt, 
+          di<lb ed="#L" break="no" n="73"/>cunt simpliciter aliam et aliam rem 
+          nu<lb ed="#L" break="no" n="74"/>meraliter, sicut dicimus quod Franciscus
+          <lb ed="#L" n="75"/>et Joannes differunt numero, quia alia
+          <lb ed="#L" n="76"/>natura est in Francisco, et alia in. 
+          Joan<lb ed="#L" break="no" n="77"/>ne; cum ergo essentia divina sit 
+          sin<lb ed="#L" break="no" n="78"/>eularissima et simpliciter indivisibilis,
+          <lb ed="#L" n="79"/>in illa non possunt esse plura supposita
+          <lb ed="#L" n="80"/>numeraliter distincta, licet. suppositaliter
+          <lb ed="#L" n="81"/>sive personaliter distincta. Probat ergo
+          <lb ed="#L" n="82"/>Boetius per hanc auctoritatem, divinas
+          <lb ed="#L" n="83"/>personas non diffeere numero, quia ubi
+          <lb ed="#L" n="84"/>est differentia numeralis, ibi potest esse
+          <lb ed="#L" n="85"/>varietas accidentium, per qui differunt
+          <lb ed="#L" n="86"/>numero accidentaliter: sed in divinis
+          <lb ed="#L" n="87"/>personis non est varietas accidentium,
+          <lb ed="#L" n="88"/>quia forma simpler. cujusmodi est per-
+          <pb ed="#L" n="123"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>sona divina, non potes esse subjectum
+          <lb ed="#L" n="2"/>alicujus accidentis; igitur ibi non est
+          <lb ed="#L" n="3"/>differentia numeralis, videretur ergo
+          <lb ed="#L" n="4"/>argumentum non valere, nisi ipse 
+          in<lb ed="#L" break="no" n="5"/>tenderet quod sola accidentia possent
+          <lb ed="#L" n="6"/>distinguere numeraliter ; si enim 
+          distin<lb ed="#L" break="no" n="7"/>ctio numeralis, puta in substantiis, potest
+          <lb ed="#L" n="8"/>esse per aliqua alia, quam supple per
+          <lb ed="#L" n="9"/>accidentia, ergo ex megaltione accidentis
+          <lb ed="#L" n="10"/>in divinis personis, non sequitur negatio
+          <lb ed="#L" n="11"/>distinctionis numeralis in illis.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e3963">
+          <lb ed="#L" n="12"/>(r) Dico, quod omnem distinctionem 
+          nu<lb ed="#L" break="no" n="13"/>meralem concomitatur divisio 
+          acciden<lb ed="#L" break="no" n="14"/>tium. Dicit Doctor, quod Boetius per 
+          il<lb ed="#L" break="no" n="15"/>lam auctoritatem non arguit, sicut a causa
+          <lb ed="#L" n="16"/>praecisa negata ad negationem illius, cujus
+          <lb ed="#L" n="17"/>est causa, quasi quod varietas 
+          acciden<lb ed="#L" break="no" n="18"/>tium sit causa praecisa differentiae 
+          nume<lb ed="#L" break="no" n="19"/>ralis in substantia, quia tunc bene 
+          seque<lb ed="#L" break="no" n="20"/>retur a negatione talium accidentium 
+          ne<lb ed="#L" break="no" n="21"/>gatio distinctionis numeralis ; sicut in
+          <lb ed="#L" n="22"/>homine, pulmo est praecisa causa 
+          respiran<lb ed="#L" break="no" n="23"/>di, ita ad negationem pulmonis, ut ad
+          <lb ed="#L" n="24"/>causam praecisam negatam, et respectu
+          <lb ed="#L" n="25"/>respirationis, sequitur negatio 
+          respirati<lb ed="#L" break="no" n="26"/>onis. Cum ergo per auctoritatem Boetii
+          <lb ed="#L" n="27"/>tantum habeatur quod varietas 
+          acciden<lb ed="#L" break="no" n="28"/>tium in substantiis necessario 
+          concomite<lb ed="#L" break="no" n="29"/>tur distinctionem numeralem in illis, 
+          ar<lb ed="#L" break="no" n="30"/>euendo a negatione talium accidentium,
+          <lb ed="#L" n="31"/>arguitur praecise, sicut a negatione 
+          alicu<lb ed="#L" break="no" n="32"/>jus concomitantis al negationem illius
+          <lb ed="#L" n="33"/>ad quod concomitatur, et ideo si personce
+          <lb ed="#L" n="34"/>divine differunt numero, necessario 
+          con<lb ed="#L" break="no" n="35"/>comitaretur in illis varietas accidentium.
+          <lb ed="#L" n="36"/>Cum ergo talis varietas nullo modo 
+          con<lb ed="#L" break="no" n="37"/>comitetur, sequitur quod in illis non erit
+          <lb ed="#L" n="38"/>numeralis distinctio, et sic patet 
+          auctori<lb ed="#L" break="no" n="39"/>tas Boetii.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e4026">
+          <lb ed="#L" n="40"/>(s) Ad Damascenwm. Doctor dicit, si
+          <lb ed="#L" n="41"/>accipiatur accidens pro omni eo quod est
+          <lb ed="#L" n="42"/>extra rationem formalem alicujus, sic 
+          dif<lb ed="#L" break="no" n="43"/>ferentia individualis potest dici accidens,
+          <lb ed="#L" n="44"/>et hoc patet per Damascenum, Et quod
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>ipse non intelligat proprie de accidente
+          <lb ed="#L" n="46"/>per accidens, patet per ipsum, et pate!
+          <lb ed="#L" n="47"/>auctoritas in littera. Et cum dicit, quod
+          <lb ed="#L" n="48"/>hypostases non sint in se invicem in 
+          na<lb ed="#L" break="no" n="49"/>tura reali, sicut sunt hypostases divine,
+          <lb ed="#L" n="50"/>quae habent unitatem nature, propter
+          <lb ed="#L" n="51"/>quod sunt in se invicem, ut satis 
+          proba<lb ed="#L" break="no" n="52"/>tum est in primo, dist. 19. quest. 2. d«
+          <lb ed="#L" n="53"/>circumincessione personarum. Cum etiam
+          <lb ed="#L" n="54"/>dicit ibi: Plus autem omnibus, eo quod
+          <lb ed="#L" n="55"/>non sunt in se invicem, sed separatim
+          <lb ed="#L" n="56"/>sunt, id est, quod hypostases create plus
+          <lb ed="#L" n="57"/>differunt quam hypostases divinae, quio
+          <lb ed="#L" n="58"/>hypostases creatae necessario sunt 
+          sepa<lb ed="#L" break="no" n="59"/>rate ab invicem, et habent necessaric
+          <lb ed="#L" n="60"/>aliam et aliam naturam, et una potest 
+          es<lb ed="#L" break="no" n="61"/>se sine alia, non sic hypostases divinae,
+          <lb ed="#L" n="62"/>non enim una hypostasis divina potes!
+          <lb ed="#L" n="63"/>separatim esse sine alia propter unitatem
+          <lb ed="#L" n="64"/>nature in eis.
+        </p>
+        <p xml:id="mm30o9-d1e1750-d1e4085">
+          <lb ed="#L" n="65"/>(t) Ad Avicennam. Et sic conceditur,
+          <lb ed="#L" n="66"/>quod differentia individualis est accidens
+          <lb ed="#L" n="67"/>nature, quam contrahit ad esse 
+          individu<lb ed="#L" break="no" n="68"/>ale, non tamen accidens per accidens, sed
+          <lb ed="#L" n="69"/>aliquid, quod est extra rationem 
+          forma<lb ed="#L" break="no" n="70"/>lem ipsius nature, sicut dicimus quod
+          <lb ed="#L" n="71"/>differentia generica accidit generi, ex
+          <lb ed="#L" n="72"/>hoc quod est extra rationem formalem
+          <lb ed="#L" n="73"/>generis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,1249 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 7</title>
+        <author ref="#per-FLBca3">Franciscus Lychetus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 7</title>
+          <date when="2024-08-25">August 25, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x12">Vives, Paris, 1893, volume 12</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="180"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="mm30o9-d1e1784"><!-- lycht-l2d3q8-p1 -->
+        <head xml:id="mm30o9-d1e1784-Hd1e101">Quaestio 7</head>
+        <p xml:id="mm30o9-d1e1784-d1e103">
+          <lb ed="#L" n="16" type="fixed=180"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e108">
+          <lb ed="#L" n="17"/>(a) Titulus quaestionis sic intelligitur :
+          <lb ed="#L" n="18"/>An Angelus cognoscat se per essentiam
+          <lb ed="#L" n="19"/>suam, idest, an essentia Angeli, puta 
+          con<lb ed="#L" break="no" n="20"/>trahibilis sit ratio formalis producendi 
+          in<lb ed="#L" break="no" n="21"/>tellectionem sui in intellectu suo, ita quod
+          <lb ed="#L" n="22"/>intellectus Angelieus intelligat essentiam
+          <lb ed="#L" n="23"/>ipsius Angeli, lanquam per principium
+          <lb ed="#L" n="24"/>formale produelivum ipsius intellectionis,
+          <lb ed="#L" n="25"/>sic quod inter ipsius essentiam et 
+          intelle<lb ed="#L" break="no" n="26"/>clum non Sit simpliciter necessarium
+          <lb ed="#L" n="27"/>aliquod aliud repraesentativum, quod sit
+          <lb ed="#L" n="28"/>formalis ratio reprsesentandi essentiam
+          <lb ed="#L" n="29"/>Angeli ipsi intellectui; et hoc loquendo de
+          <lb ed="#L" n="30"/>cognilione intuitiva. Secus esset de 
+          abs<lb ed="#L" break="no" n="31"/>(ractiva, qua Angelus potest se 
+          abstra<lb ed="#L" break="no" n="32"/>ctive intelligere, quia tunc poneretur 
+          spe<lb ed="#L" break="no" n="33"/>cies intelligibilis ratio formalis 
+          repraesen<lb ed="#L" break="no" n="34"/>landi ipsum Angelum in ratione actu
+          <lb ed="#L" n="35"/>objecti intelligibilis, de qua patebit infra
+          <lb ed="#L" n="36"/>quast. ultima dist. praesentis.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e154">
+          <lb ed="#L" n="37"/>Primo arguit Doctor, probando quod
+          <lb ed="#L" n="38"/>Angelus non cognoscat se per essentiam
+          <lb ed="#L" n="39"/>suam, quia si sic, sequeretur quod 
+          es<lb ed="#L" break="no" n="40"/>sentia  animv eum sit actu intelligibilis et
+          <lb ed="#L" n="41"/>praesens intellectui, posset esse ratio
+          <lb ed="#L" n="42"/>intellivendi seipsum respeeltu suiipsius,
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="43"/>quod est contra Philosophum 3. de anima
+          <lb ed="#L" n="44"/>text. com. 8, qui vull quod anima 
+          intel<lb ed="#L" break="no" n="45"/>ligat se sicut alia, ubi sic habetur 
+          secun<lb ed="#L" break="no" n="46"/>dum aliam translationem : Et cum 
+          quodli<lb ed="#L" break="no" n="47"/>bel eorum fuerit sic, scilicet sicut. dicitur
+          <lb ed="#L" n="48"/>scientia in actu, et hoc continget. quando
+          <lb ed="#L" n="49"/>poterit intelligere per se, tunc etiam erit
+          <lb ed="#L" n="50"/>in potentia quoquomodo, sed non eodem
+          <lb ed="#L" n="51"/>modo quo anle erat antequam scivit, aut
+          <lb ed="#L" n="52"/>invenit, et ipse tunc potest intelligere per
+          <lb ed="#L" n="53"/>se. Et ibi Commentator : Quando intellecta
+          <lb ed="#L" n="54"/>fuerint in eo entia in actu, et hoc continget
+          <lb ed="#L" n="55"/>intellectui, quando poterit. intelligere per
+          <lb ed="#L" n="56"/>se, non quando intellexerit per aliud, et
+          <lb ed="#L" n="57"/>hoc quod  dixit est. differentia inter virtutes
+          <lb ed="#L" n="58"/>ageutres propinquas, aut remotas , 
+          propin<lb ed="#L" break="no" n="59"/>qua eni", actui sunt. qua agunt per se,
+          <lb ed="#L" n="60"/>non indigent extrahente eas de potentia  in
+          <lb ed="#L" n="61"/>actu, remota autem indigent. Et cum 
+          in<lb ed="#L" break="no" n="62"/>Lellectus fuerit in hac dispositione, (unc
+          <lb ed="#L" n="63"/>intelliget se secundum quod ipse non aliud,
+          <lb ed="#L" n="64"/>nisi forma rerum, inquantum extrahit eas
+          <lb ed="#L" n="65"/>a materia. Hxc ille. Hoc idem habetui
+          <lb ed="#L" n="66"/>Lezt, com. 13. Cum enim dicit, anima 
+          n<lb ed="#L" break="no" n="67"/>Llelligit se sicut alia, debet sic intelligi.
+          <lb ed="#L" n="68"/>quod sicut alia res cognoscuntur ab 
+          in<lb ed="#L" break="no" n="69"/>tellectu, virtute  intellectus agentis el
+          <lb ed="#L" n="70"/>phantasmalis, quae causant speciem 
+          in<lb ed="#L" break="no" n="71"/>Lelligibilem rei sensibilis, ut patet n primc
+          <lb ed="#L" n="72"/>dist. 3. q. 8. et quod res sensibiles extr?
+          <lb ed="#L" n="73"/>speciem intelligibilem sunt tantum intel.
+          <lb ed="#L" n="74"/>ligibiles in potentia, sic anima non potest
+          <lb ed="#L" n="75"/>immediate movere intellectum suum ad
+          <lb ed="#L" n="76"/>sui cognitionem ; ut enim est extra 
+          spe<lb ed="#L" break="no" n="77"/>ciem intelligibilem ( non ipsius animae,
+          <lb ed="#L" n="78"/>quia talis pro stalu isto haberi non potest,
+          <lb ed="#L" n="79"/>sed ut est extra speciem intelligibilem
+          <lb ed="#L" n="80"/>sensibilium ) est tantum intelligibilis in
+          <lb ed="#L" n="81"/>potentia remota ; habita vero specie 
+          intel<lb ed="#L" break="no" n="82"/>ligibili alicujus sensibilis, potest arguitive
+          <lb ed="#L" n="83"/>cognoscere seipsam, ut alias exposui.
+          <lb ed="#L" n="84"/>Sequitur ergo quod intelligat se per 
+          es<lb ed="#L" break="no" n="85"/>sentiam suam, et quod hoc sit verum,
+          <lb ed="#L" n="86"/>patet, etiam auctoritate Philosophi 3. de
+          <pb ed="#L" n="181"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>Anima text. com. 5. qui vult quod ante
+          <lb ed="#L" n="2"/>intelligere aliorum intellectus non sit 
+          in<lb ed="#L" break="no" n="3"/>Lelligibilis. Dico, inquit, intellectum, quo
+          <lb ed="#L" n="4"/>opinatur et. intelligit. anima, et hoc. nihil
+          <lb ed="#L" n="5"/>aliud est in actu eorum, qua» sunt ante 
+          in<lb ed="#L" break="no" n="6"/>telligere. Haec ille. Coetera argumenta clara
+          <lb ed="#L" n="7"/>sunt.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d3q8-p2">-->
+        <p xml:id="mm30o9-d1e1784-d1e290">
+          <lb ed="#L" n="48" type="fixed=182"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e295">
+          <lb ed="#L" n="49"/>(b) Hic dicitur. Hic Doctor recitat 
+          <ref xml:id="mm30o9-d1e1784-Rd1e299">opi<lb ed="#L" break="no" n="50"/>nionem Thomae prima parte summa
+            <lb ed="#L" n="51"/>q. 58. art. 1.</ref> ubi vult quod essentia Angeli
+          <lb ed="#L" n="52"/>perfecte unita intellectui est sibi tota ratio
+          <lb ed="#L" n="53"/>formalis producendi intellectionem sui,
+          <lb ed="#L" n="54"/>quia licet in actione transeunte objectum
+          <lb ed="#L" n="55"/>sit separatum ab agente, tamen in 
+          acli<lb ed="#L" break="no" n="56"/>one immanente oportet esse unitum, et ut
+          <lb ed="#L" n="57"/>sic est ratio formalis talis operationis 
+          im<lb ed="#L" break="no" n="58"/>manentis.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e322">
+          <lb ed="#L" n="59"/>(c) Et si objiciatur. Hic Doctor movet
+          <lb ed="#L" n="60"/>difficultatem contra Thomam quia illud
+          <lb ed="#L" n="61"/>quod est ratio formalis agendi alicui inest
+          <lb ed="#L" n="62"/>formaliter illi, et hoc vel quidditative, 
+          sic<lb ed="#L" break="no" n="63"/>ut humanitas est ratio formalis 
+          generan<lb ed="#L" break="no" n="64"/>di Francisco, et inest sibi quidditative,
+          <lb ed="#L" n="65"/>vel denominative, sicut calor inest igni,
+          <lb ed="#L" n="66"/>ut ratio formalis calefaciendi, puta lignum.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e342">
+          <lb ed="#L" n="67"/>Cum ergo essentia Angeli, quia est per
+          <lb ed="#L" n="68"/>se existens, quamvis sit perfecte praesens
+          <lb ed="#L" n="69"/>intellectui, non tamen inest sibi nec 
+          quid<lb ed="#L" break="no" n="70"/>ditative, nec denominative, ut patet; ergo
+          <lb ed="#L" n="71"/>non erit ratio formalis intelligendi ipsi 
+          in<lb ed="#L" break="no" n="72"/>tellectui Angelico. Sequitur ibi : videntur
+          <lb ed="#L" n="73"/>respondere. Dicunt isti, quod sufficit quod
+          <lb ed="#L" n="74"/>talis ratio formalis sit praesens et unita ipsi
+          <lb ed="#L" n="75"/>intellectui, licet non informet illum, sicut
+          <lb ed="#L" n="76"/>calor separatus esset principium caloris,
+          <lb ed="#L" n="77"/>quantum ex se est.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e368">
+          <lb ed="#L" n="78"/>(d) Et si objicias iterum. Dicit. Doctor
+          <lb ed="#L" n="79"/>quod si aliquod passum, puta lignum, 
+          di<lb ed="#L" break="no" n="80"/>eatur agere, puta calefacere per aliquod
+          <lb ed="#L" n="81"/>agens, oportet de necessitate alterum isto:
+          <lb ed="#L" n="82"/>rum sibi inesse, vel ipsum agens quoc
+          <lb ed="#L" n="83"/>dicatur agere, vel quod recipiat aliquid al
+          <lb ed="#L" n="84"/>ipso agente, puta calorem, quo formalitet
+          <lb ed="#L" n="85"/>dicatur calefacere, aliter lignum non pos:
+          <pb ed="#L" n="183"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>set formaliter calefacere, nisi principium
+          <lb ed="#L" n="2"/>formale calefaciendi insit sibi, ut patet a
+          <lb ed="#L" n="3"/>Doctore in primo, dist. 17. Sed essentia
+          <lb ed="#L" n="4"/>Angeli, quae dicitur ratio agendi respectu
+          <lb ed="#L" n="5"/>intellectionis, non inest formaliter ipsi 
+          in<lb ed="#L" break="no" n="6"/>lellectui nec imprimit in intellectu 
+          ali<lb ed="#L" break="no" n="7"/>quid, quod sit ratio formalis agendi ipsi
+          <lb ed="#L" n="8"/>intellectui, ergo ipsa essentia Angeli 
+          nul<lb ed="#L" break="no" n="9"/>lo modo erit ratio formalis agendi 
+          in<lb ed="#L" break="no" n="10"/>tellectui.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e414">
+          <lb ed="#L" n="11"/>(e) Respondent, quod potentia, etc. 
+          Tho<lb ed="#L" break="no" n="12"/>mas enim facit differentiam inter 
+          intelle<lb ed="#L" break="no" n="13"/>ctum nostrum et Angelicum, quia 
+          intelle<lb ed="#L" break="no" n="14"/>tus nosler quandoque est in actu, ut 
+          pos<lb ed="#L" break="no" n="15"/>Sit agere, puta quando habet speciem 
+          in<lb ed="#L" break="no" n="16"/>telligibilem in actu, quandoque est in 
+          po<lb ed="#L" break="no" n="17"/>Lentia, scilicet quando non habet speciem
+          <lb ed="#L" n="18"/>intelligibilen; objecti. Et ipse Thomas 
+          po<lb ed="#L" break="no" n="19"/>nil, quod species intelligibilis objecti
+          <lb ed="#L" n="20"/>est ratio formalis intelliaendi 
+          intelle<lb ed="#L" break="no" n="21"/>clui nostro, ut patet 7n prima parte
+          <lb ed="#L" n="22"/>sum. q. 85. art. 2. Et talis intellectus, ut
+          <lb ed="#L" n="23"/>siL in actu principium formale agendi 
+          re<lb ed="#L" break="no" n="24"/>cipit ab objecto, sive phantasmate 
+          hujus<lb ed="#L" break="no" n="25"/>modi speciem intelligibilem, qua est ei 
+          ra<lb ed="#L" break="no" n="26"/>lio formalis intelligendi ; et quod oporteat
+          <lb ed="#L" n="27"/>ipsum sic recipere, hoc non competit sibi,
+          <lb ed="#L" n="28"/>inquantum est potentia cognitiva, quia tunc
+          <lb ed="#L" n="29"/>compeleret cuilibet cognitive, sed 
+          com<lb ed="#L" break="no" n="30"/>pelit sibi, inquantum est in potentia ad
+          <lb ed="#L" n="31"/>actum, puta ad intellectionem. Intellectus
+          <lb ed="#L" n="32"/>vero Angelicus semper cognoscit 
+          essen<lb ed="#L" break="no" n="33"/>tiam suam, et nunquam est in potentia ad
+          <lb ed="#L" n="34"/>actum intelligendi respectu su:e essenticx,
+          <lb ed="#L" n="35"/>et per consequens nec erit in potentia ad
+          <lb ed="#L" n="36"/>aliquam formam impressam ab essentia,
+          <lb ed="#L" n="37"/>quia sit ratio formalis intelligenli ipsi 
+          An<lb ed="#L" break="no" n="38"/>gelo. Sed quia essentia Angeli est semper
+          <lb ed="#L" n="39"/>praesens ipsi intellectui, ut tota ratio 
+          for<lb ed="#L" break="no" n="40"/>malis inteliigendi, ideo intellectus 
+          Ange<lb ed="#L" break="no" n="41"/>lieus semper est in actu intelligens 
+          essen<lb ed="#L" break="no" n="42"/>tiam Angeli.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e487">
+          <lb ed="#L" n="43"/>(f) Contra, haec opinio. Hic Doctore 
+          ar<lb ed="#L" break="no" n="44"/>guit contra illud, quod dixit supra de ca-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>lore, quia dicii ibi Tomas quod essentia
+          <lb ed="#L" n="46"/>Angeli est tola ratio formalis intelligendi
+          <lb ed="#L" n="47"/>ipsi intellectui, et tamen non informal 
+          ip<lb ed="#L" break="no" n="48"/>sum. Nunc probat Doctor quod hoc sit 
+          im<lb ed="#L" break="no" n="49"/>possibile, videlicet, quod aliquid sil ratio
+          <lb ed="#L" n="50"/>formalis agendi alicui, et. quod formaliter
+          <lb ed="#L" n="51"/>non sit in ipso, modo praexposito, quia
+          <lb ed="#L" n="52"/>nihil potest habere principium alicujus
+          <lb ed="#L" n="53"/>operationis ammanentis, nisi sit in actu per
+          <lb ed="#L" n="54"/>illud, quod est principium talis 
+          operati<lb ed="#L" break="no" n="55"/>onis, quia principium formale agendi dat
+          <lb ed="#L" n="56"/>actum primum supposito quod agit per
+          <lb ed="#L" n="57"/>ipsum, id est, quod ipsum suppositum est
+          <lb ed="#L" n="58"/>formaliter in actu primo respectu actus
+          <lb ed="#L" n="59"/>secundi. Sed intellectus Angeli non est in
+          <lb ed="#L" n="60"/>actu per illam essentiam, etc.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e531">
+          <lb ed="#L" n="61"/>(g) Item secundo. Nunc Doctor arguit
+          <lb ed="#L" n="62"/>contra Thomam, quia dicit Thomas quod
+          <lb ed="#L" n="63"/>ideo intellectus Angelicus nihil recipit ab
+          <lb ed="#L" n="64"/>essentia Angeli, puta non recipit 
+          cogniti<lb ed="#L" break="no" n="65"/>onem sui, quia quod recipit aliquam 
+          cogni<lb ed="#L" break="no" n="66"/>lionem alicujus objecti, quandoque actu
+          <lb ed="#L" n="67"/>intelligit illud, quandoque non, etsic ad
+          <lb ed="#L" n="68"/>hoc ut dicatur recipere, oportet recipere
+          <lb ed="#L" n="69"/>actum novum. Doctor improbat hanc 
+          posi<lb ed="#L" break="no" n="70"/>tionem, et improbatio stat in hoc, quia ex
+          <lb ed="#L" n="71"/>quo intellectio Angeli non est qualitas vere
+          <lb ed="#L" n="72"/>permanens, qui: habeat verum esse 
+          ces<lb ed="#L" break="no" n="73"/>saute actione objecti et intellectus, tamdiu
+          <lb ed="#L" n="74"/>enim est quamdiu intellectus et objectum
+          <lb ed="#L" n="75"/>continuant illam per continuam actionem,
+          <lb ed="#L" n="76"/>ut supra patuit in sto secundo, dist. 2. q. 4.
+          <lb ed="#L" n="77"/>et in primo, dist. 3. q. ult. in responsione
+          <lb ed="#L" n="78"/>ad ultamum argumentum principale. Dicit
+          <lb ed="#L" n="79"/>ergo Doctor, supposito quod intellectus
+          <lb ed="#L" n="80"/>Angelicus non recipiat novam 
+          intellecti<lb ed="#L" break="no" n="81"/>onem essentiae Angeli, tamen ex hoc non
+          <lb ed="#L" n="82"/>sequitur, quin vere recipiat 
+          intellecti<lb ed="#L" break="no" n="83"/>onem, quia ex quo essentia Angeli, per te,
+          <lb ed="#L" n="84"/>causat intellectionem sui, et tamdiu est
+          <lb ed="#L" n="85"/>lalis intellectio, quamdiu durat talis 
+          causa<lb ed="#L" break="no" n="86"/>lio, et illa intellectio est verum accidens,
+          <lb ed="#L" n="87"/>ergo vere recipit illam; si ergo est 
+          rece<lb ed="#L" break="no" n="88"/>ptivus intellectionis, erit etiam receptivus
+          <pb ed="#L" n="184"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>alicujus prioris intellectione, quo 
+          formali<lb ed="#L" break="no" n="2"/>ter dicatur agere, ex quo essentia illa non
+          <lb ed="#L" n="3"/>est formaliter in illo, sicut. etiam - posito
+          <lb ed="#L" n="4"/>quod intellectus noster ab instanti 
+          crea<lb ed="#L" break="no" n="5"/>tionis suc recipiat cognitionem a lapide
+          <lb ed="#L" n="6"/>continuatlam, nunquam tamen dicetur 
+          for<lb ed="#L" break="no" n="7"/>maliter agere hujusmodi cognitione, nisi
+          <lb ed="#L" n="8"/>habeat in se formaliter ipsum lapidem,
+          <lb ed="#L" n="9"/>qui ponitur ratio formalis agendi, vel nisi
+          <lb ed="#L" n="10"/>prius recipiat ab ipso lapide aliquam 
+          spe<lb ed="#L" break="no" n="11"/>ciem intelligibilem formaliter sibi 
+          existen<lb ed="#L" break="no" n="12"/>tem, qua formaliter dicatur agere.
+        </p>
+        <!--</div>
+          <!-\- no commentary here -\->
+          <div alias="lycht-l2d3q8-p4">-->
+        <p xml:id="mm30o9-d1e1784-d1e627">
+          <lb ed="#L" n="51" type="fixed=189"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e632">
+          <lb ed="#L" n="52"/>(a) Ad. quaestionem igttur dico. Nunc
+          <lb ed="#L" n="53"/>Doctor respondendo ad quaestionem dicit,
+          <lb ed="#L" n="54"/>quod essentia Angeli est ratio formalis
+          <lb ed="#L" n="55"/>parlalis tamen intelligendi se, id est,
+          <lb ed="#L" n="56"/>quod est ratio formalis partialis productiva
+          <lb ed="#L" n="57"/>intellectionis sui, et in hoc discrepat a
+          <lb ed="#L" n="58"/>S. Thoma, qui posuit ipsam essentiam
+          <lb ed="#L" n="59"/>Angeli esse rationem formalem tolalem ;
+          <lb ed="#L" n="60"/>et addit Doctor quod intellectus Angeli
+          <lb ed="#L" n="61"/>est alia ratio formalis parlialis respectu
+          <lb ed="#L" n="62"/>intellectionis essentiv Angeli, et iste duae
+          <lb ed="#L" n="63"/>caussaet parliales iutegrant unam totalem.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e661">
+          <lb ed="#L" n="64"/>Sed hic occurrit aliqualis difficultas,
+          <lb ed="#L" n="65"/>videlicet, quomodo intellectus et essentia
+          <lb ed="#L" n="66"/>Angeli, ex quo sunt una et eadem res
+          <lb ed="#L" n="67"/>dicantur du: causx partiales, quae sic se
+          <lb ed="#L" n="68"/>habent, quod nna est principalior, et alia
+          <lb ed="#L" n="69"/>minus principalis, ut patet a Doctore in
+          <lb ed="#L" n="70"/>primo, d. 3. q. 8. Dico primo, quod etsi
+          <lb ed="#L" n="71"/>realiter sint penitus una res, tamen inter
+          <lb ed="#L" n="72"/>intellectum et essentiam Angeli est 
+          ali<lb ed="#L" break="no" n="73"/>qualis distinctio praeter omne opus 
+          in<lb ed="#L" break="no" n="74"/>Lellectus, sicut etiam est de intellectu et
+          <lb ed="#L" n="75"/>anima noslra, ut infra palebit d. 16. et
+          <lb ed="#L" n="76"/>talis distinctio erit sufficiens ad hoc, ut
+          <lb ed="#L" n="77"/>dicantur du: caus: partiales. Dico 
+          secun<lb ed="#L" break="no" n="78"/>do, quod etiam posito quod sint penilus
+          <lb ed="#L" n="79"/>eadem res, saltem secundum rationem
+          <lb ed="#L" n="80"/>sunt duse causae parliales, quarum una
+          <lb ed="#L" n="81"/>erit in ratione objecti, puta essentia, et
+          <lb ed="#L" n="82"/>alia in ratione polenti$, puta intellectus.
+          <lb ed="#L" n="83"/>Et haec patet per illam propositionem 
+          Do<lb ed="#L" break="no" n="84"/>cloris in q. 9. prolog, et 1. q. quodlib. et
+          <lb ed="#L" n="85"/>alibi, qualis est ordo inter aliqua, ubi 
+          rea<lb ed="#L" break="no" n="86"/>liter distinguuntur, talis est ubi sola ra-
+          <pb ed="#L" n="190"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>lione distinguuntur. Sed si essentia et
+          <lb ed="#L" n="2"/>intellectus Angeli realiter 
+          distingueren<lb ed="#L" break="no" n="3"/>lur, essenL due causs parliales 
+          respe<lb ed="#L" break="no" n="4"/>ctu intellectionis, quarum una se baberet
+          <lb ed="#L" n="5"/>in ratione objecti, et alia in ratione 
+          po<lb ed="#L" break="no" n="6"/>lenti? ; ergo ubi sola ratione 
+          distinguun<lb ed="#L" break="no" n="7"/>lur, erunt du:? caus:ae partiales secundum
+          <lb ed="#L" n="8"/>rationem, quarum una se babebit 
+          secun<lb ed="#L" break="no" n="9"/>dum rationem per modum objecti, et
+          <lb ed="#L" n="10"/>alia per modum intellectus.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e740">
+          <lb ed="#L" n="11"/>(b) Praeterea in intellectibus habentibus
+          <lb ed="#L" n="12"/>species intelligibiles. Hic Doctor probat
+          <lb ed="#L" n="13"/>secundo, quomodo essentia Angeli sit 
+          ra<lb ed="#L" break="no" n="14"/>tio formalis, partialis tamen respectu 
+          intel<lb ed="#L" break="no" n="15"/>lectionis su:e. Et argumentum est a minori :
+          <lb ed="#L" n="16"/>si de quo minus, etc. Sed minus videtur,
+          <lb ed="#L" n="17"/>quod species intelligibilis objecti, in qua
+          <lb ed="#L" n="18"/>objectum habet tantum esse diminutum,
+          <lb ed="#L" n="19"/>possit esse ratio formalis partialis 
+          produ<lb ed="#L" break="no" n="20"/>cendi intellectionem talis objecti, quam
+          <lb ed="#L" n="21"/>si objectum esset in se praesens, patet,
+          <lb ed="#L" n="22"/>quia objectum in se praesens est magis
+          <lb ed="#L" n="23"/>ens. Sed species intelligibilis, per quam
+          <lb ed="#L" n="24"/>objectum est praesens intellectui, est 
+          ra<lb ed="#L" break="no" n="25"/>tio formalis producendi intellectionem 
+          ta<lb ed="#L" break="no" n="26"/>lis objecti,partialis tamen ; ergo a forliori,
+          <lb ed="#L" n="27"/>et objectum in se praesens.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e779">
+          <lb ed="#L" n="28"/>Hic tamen adverte, quia Doctor in 
+          is<lb ed="#L" break="no" n="29"/>la littera plura dicit, quae sunt. valde 
+          du<lb ed="#L" break="no" n="30"/>bia, nisi sane intelligantur. Primum
+          <lb ed="#L" n="31"/>dictum est ibi : /stae species virtute 
+          objecto<lb ed="#L" break="no" n="32"/>rum, cum intellectu causant 
+          intellecli<lb ed="#L" break="no" n="33"/>onem, exemplum  intellectus — Joannis,
+          <lb ed="#L" n="34"/>habens speciem intelligibilem albedinis,
+          <lb ed="#L" n="35"/>illa species causat intellectionem albedinis
+          <lb ed="#L" n="36"/>virtute ipsius albedinis. Si ergo intelligat
+          <lb ed="#L" n="37"/>Doctor quod species albedinis causet 
+          par<lb ed="#L" break="no" n="38"/>lialiter cognitionem albedinis virtute ipsius
+          <lb ed="#L" n="39"/>albedinis, ita quod in causando dependeat
+          <lb ed="#L" n="40"/>ab iila, hoc non videtur, quia talis albedo
+          <lb ed="#L" n="41"/>habet tantum esse diminulum. Si vero sic
+          <lb ed="#L" n="42"/>intelligat, quod quia talis species est 
+          cau<lb ed="#L" break="no" n="43"/>sala parlialiter ab ipsa albedine, tanquam
+          <lb ed="#L" n="44"/>a ratione formali causandi, conceditur ; sic
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>tamen intelligendo, quod albedo extra
+          <lb ed="#L" n="46"/>causal speciem sensibilem in potentia
+          <lb ed="#L" n="47"/>visiva, et post causato in phantasia 
+          phan<lb ed="#L" break="no" n="48"/>lasmale albedinis repraesentante ipsam
+          <lb ed="#L" n="49"/>cum Aic et mune, et ut singularem. Et
+          <lb ed="#L" n="50"/>ipsum phantasma est causa partialis 
+          spe<lb ed="#L" break="no" n="51"/>ciei intelligibilis repraesentantis ipsam 
+          al<lb ed="#L" break="no" n="52"/>bedinem, et sic intelligendo species 
+          in<lb ed="#L" break="no" n="53"/>Llelligibilis albedinis causat partialiter 
+          in<lb ed="#L" break="no" n="54"/>tellectionem albedinis in virtute ipsius,
+          <lb ed="#L" n="55"/>modo praeexposito ; patet enim a Doctore
+          <lb ed="#L" n="56"/>quod ipsa species intelligibilis ponitur,
+          <lb ed="#L" n="57"/>ut parlialis causa cognitionis abstraetlivzse,
+          <lb ed="#L" n="58"/>ut supra patuit in» praemo, dist. 3. q. 6. 7.
+          <lb ed="#L" n="59"/>et 8. et dist. 17. et mullis aliis locis, sed
+          <lb ed="#L" n="60"/>dicitur agere in virtute objecti, quia ab
+          <lb ed="#L" n="61"/>ipso est causata saltem ut a causa 
+          re<lb ed="#L" break="no" n="62"/>mola. Potest etiam dici agere in virlute
+          <lb ed="#L" n="63"/>objecti, quia ex quo albedo extra est 
+          ra<lb ed="#L" break="no" n="64"/>tio formalis causandi speciem sensibilem,
+          <lb ed="#L" n="65"/>et quia est talis ordo, quod illa species
+          <lb ed="#L" n="66"/>intelligibilis fortius movet intellectum,
+          <lb ed="#L" n="67"/>qui forlius excitatur a phantasmate, et
+          <lb ed="#L" n="68"/>phantasma fortius excitat, cujus 
+          singula<lb ed="#L" break="no" n="69"/>re fortius movet sensum exteriorem, ut
+          <lb ed="#L" n="70"/>patet n primo, dist. 3. q. 2. Dicit ergo
+          <lb ed="#L" n="71"/>Doctor quod si talis species intelligibilis
+          <lb ed="#L" n="72"/>causat intellectionem objecti partialiter, a
+          <lb ed="#L" n="73"/>forliori si objectum esset in se perfecte
+          <lb ed="#L" n="74"/>praesens, esset magis causa partialis 
+          intel<lb ed="#L" break="no" n="75"/>lectionis sui.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e888">
+          <lb ed="#L" n="76"/>Secundo principaliter nota, quod dicit
+          <lb ed="#L" n="77"/>ibi de objecto actu intelligibili, sic debet
+          <lb ed="#L" n="78"/>intelligi, quod tunc objectam est actu 
+          in<lb ed="#L" break="no" n="79"/>telligibile, quando est in potentia proxima
+          <lb ed="#L" n="80"/>ad causandum partialiter cognitionem sui,
+          <lb ed="#L" n="81"/>si tamen est tale ens, quod possit causare;
+          <lb ed="#L" n="82"/>si vero sit tale ens, quod non sit ex se
+          <lb ed="#L" n="83"/>sufficiens ad causandum  partialiter 
+          co<lb ed="#L" break="no" n="84"/>gnitionem sui, sed talis cognitio causatur
+          <lb ed="#L" n="85"/>ab aliquo, in quo continetur virtualiter,
+          <lb ed="#L" n="86"/>vel quidditative, ut supra exposui in 
+          zri<lb ed="#L" break="no" n="87"/>mo, distinct, 3. q. 3. tunc dico, quod 
+          ta<lb ed="#L" break="no" n="88"/>le ens dicitur actu intellivibile. quia obie-
+          <pb ed="#L" n="191"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>ctum continens ipsum essentia liter vel
+          <lb ed="#L" n="2"/>virtualiter est in potentia  proxima ad
+          <lb ed="#L" n="3"/>causandum partialiter cognitionem illius
+          <lb ed="#L" n="4"/>objecti contenti.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e932">
+          <lb ed="#L" n="5"/>Tertio nota, quod dicit in ista lillera,
+          <lb ed="#L" n="6"/>quod objectum relucens in specie 
+          inlel<lb ed="#L" break="no" n="7"/>ligibili, sive habens esse ibi diminutum,
+          <lb ed="#L" n="8"/>quia tantum repraesentatum, causat 
+          dimi<lb ed="#L" break="no" n="9"/>nule eognitionem sui, talis causatio non
+          <lb ed="#L" n="10"/>debet attribui tali objecto sic relucenli,
+          <lb ed="#L" n="11"/>sed speciei intelligibili, ut patet a 
+          Docto<lb ed="#L" break="no" n="12"/>re in locis prweallegatis. Ex hoc enim,
+          <lb ed="#L" n="13"/>quod species talis objecti vere 
+          cau<lb ed="#L" break="no" n="14"/>sal partialiter cognitionem talis objecli,
+          <lb ed="#L" n="15"/>dicimus, quod objectum sic relucens
+          <lb ed="#L" n="16"/>causat.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e961">
+          <lb ed="#L" n="17"/>(c) Objicitur contra istud. Hic Doctor,
+          <lb ed="#L" n="18"/>quia dixit supra, quod substantia , ut
+          <lb ed="#L" n="19"/>relucet in specie intelligibili potest 
+          cau<lb ed="#L" break="no" n="20"/>sare cognitionem sui secundum qw?d ; ut
+          <lb ed="#L" n="21"/>vero non relucet in tali specie, poterit 
+          ab<lb ed="#L" break="no" n="22"/>solute causare. Modo arguit Doctor,quia si
+          <lb ed="#L" n="23"/>sie, sequitur, quod aliquod sensibile, 
+          pu<lb ed="#L" break="no" n="24"/>la albedo, ut est extra speciem 
+          intelligi<lb ed="#L" break="no" n="25"/>bilem poterit causare in intellectu nostro
+          <lb ed="#L" n="26"/>cognilionem sui simpliciter, patet, quia
+          <lb ed="#L" n="27"/>ut relucet in specie sua intelligibiii, potes!
+          <lb ed="#L" n="28"/>causare secundum quid; ergo a fortiori
+          <lb ed="#L" n="29"/>si sibl in se praesens, poterit simpliciter
+          <lb ed="#L" n="30"/>causare.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e994">
+          <lb ed="#L" n="31"/>(d) Praeterea, ista. duo agentia, etc. Hic
+          <lb ed="#L" n="32"/>Doctor specialiter arguit, quia si tu vis
+          <lb ed="#L" n="33"/>dicere, quod essentia Angeli sit causa
+          <lb ed="#L" n="34"/>partialis intellectionis ipsius, et intellectus
+          <lb ed="#L" n="35"/>ejus sit alia causa partialis, cum non sint
+          <lb ed="#L" n="36"/>ejusdem rationis, allera causa erit prior,
+          <lb ed="#L" n="37"/>altera vero posterior; accipiendo pus
+          <lb ed="#L" n="38"/>pro perfectiori in causando, patet, quia
+          <lb ed="#L" n="39"/>quando sunt duae causae alterius rationis,
+          <lb ed="#L" n="40"/>semper una est perfectior, ut patet in 
+          es<lb ed="#L" break="no" n="41"/>sentia liter ordinatis cum vero sunt 
+          ejus<lb ed="#L" break="no" n="42"/>dem rationis, sicut sunt causae 
+          acciden<lb ed="#L" break="no" n="43"/>taliter ordinate ; una non est perfectior
+          <lb ed="#L" n="44"/>alia, ut patet in primo, distinct. 9.
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>quast. 1l. et distinct. 3. quaost. 8. et
+          <lb ed="#L" n="46"/>distinct. 17. Et sic sequitur, quod 
+          in<lb ed="#L" break="no" n="47"/>tellectus erit rnovens ^et motum 
+          re<lb ed="#L" break="no" n="48"/>Speclu objecti, quod est conta 
+          Philoso<lb ed="#L" break="no" n="49"/>phum /ertio de 4nima, nam si 
+          intelle<lb ed="#L" break="no" n="50"/>clus esset causa minus principalis 
+          respe<lb ed="#L" break="no" n="51"/>clu essenti:$ Angeli, ut sic esset motus
+          <lb ed="#L" n="52"/>ab essentia Angeli, quia causa secunda
+          <lb ed="#L" n="53"/>eo modo movet, quo movetur a prima,
+          <lb ed="#L" n="54"/>uL patet a Doctore 2» primo, dist. 9.
+          <lb ed="#L" n="55"/>quasi. l. et ex alia parte moveret se,
+          <lb ed="#L" n="56"/>causando in se partialiter intellectionem
+          <lb ed="#L" n="57"/>essenli: Angeli.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e1058">
+          <lb ed="#L" n="58"/>(e) Ad primum dico. Hic Doctor negat
+          <lb ed="#L" n="59"/>quod sensibile in se possit causare 
+          cogni<lb ed="#L" break="no" n="60"/>lionem sui parlialiter, negat etiam, quod
+          <lb ed="#L" n="61"/>uL sic sil actu intelligibile, scilicet quod
+          <lb ed="#L" n="62"/>sit sufficienler praesens intellectui in 
+          ra<lb ed="#L" break="no" n="63"/>Gone objecti actu intelligibilis, nam si in
+          <lb ed="#L" n="64"/>se praesens posset causare cognitionem
+          <lb ed="#L" n="65"/>sui, tantum causaret cognitionem 
+          intuiti<lb ed="#L" break="no" n="66"/>vam ; sed pro statu isto non potest haberi
+          <lb ed="#L" n="67"/>cognitio intuitiva de aliquo sensibili in se,
+          <lb ed="#L" n="68"/>licet forte posset haberi aliqua cognitio
+          <lb ed="#L" n="69"/>intuitiva de aliquo actu nostro, de hoc in
+          <lb ed="#L" n="70"/>quarto distinct. 45. Videtur etiam, quod
+          <lb ed="#L" n="71"/>sensibile possit intuitive cognosci pro
+          <lb ed="#L" n="72"/>statu isto, de quo vide ibi. Et vult Occham
+          <lb ed="#L" n="73"/>n primo, dist. 1. quod haec sit mens 
+          Do<lb ed="#L" break="no" n="74"/>cloris, quidquid alii Scotistae. dicant. Si
+          <lb ed="#L" n="75"/>tamen sensibile posset esse in se perfecte
+          <lb ed="#L" n="76"/>praesens intellectui noslro in ratione
+          <lb ed="#L" n="77"/>objecü actu intelligibilis, certum est quod
+          <lb ed="#L" n="78"/>partialiter causaret cognitionem sui 
+          intui<lb ed="#L" break="no" n="79"/>tivam, sicut etiam nunc quando aliquod
+          <lb ed="#L" n="80"/>sensibile est perfecte praesens in sua 
+          exi<lb ed="#L" break="no" n="81"/>stentia intellectui Angelico partialiter 
+          cau<lb ed="#L" break="no" n="82"/>sal cognitionem sui inluitivam, ut patet
+          <lb ed="#L" n="83"/>a Doctore in isto secundo praesenti dist.
+          <lb ed="#L" n="84"/>q. ult. Sensibile vero pro statu isto 
+          nun<lb ed="#L" break="no" n="85"/>quam est objectum intellectus nostri actu
+          <lb ed="#L" n="86"/>intelligibille nisi inquantum relucet in
+          <lb ed="#L" n="87"/>specie intelligibili. Et quod dicit circa 
+          fi<lb ed="#L" break="no" n="88"/>nem hujus responsionis ibi, qwia non
+          <pb ed="#L" n="192"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>est extra istam actu ens tale, vult dicere
+          <lb ed="#L" n="2"/>quod ipsum sensibile, ut est extra 
+          spe<lb ed="#L" break="no" n="3"/>ciem intelligibilem, est tantum potentia
+          <lb ed="#L" n="4"/>tale, supple intelligibile, quale est suum
+          <lb ed="#L" n="5"/>activum, nam activum parliale 
+          cognili<lb ed="#L" break="no" n="6"/>onis objecti sensibilis est species 
+          intelli<lb ed="#L" break="no" n="7"/>gibilis, ut dixi supra. Et quod actu 
+          relu<lb ed="#L" break="no" n="8"/>cel in tali specie, est actu intelligibile,
+          <lb ed="#L" n="9"/>id est, quod potentia proxima potest 
+          cau<lb ed="#L" break="no" n="10"/>sare cognitionem sui abstractivam sive
+          <lb ed="#L" n="11"/>diminutam; causare dico denominatione
+          <lb ed="#L" n="12"/>exirinseca, prout relucet in specie 
+          inLel<lb ed="#L" break="no" n="13"/>ligibili quae est vere causativa, ut dixi.
+          <lb ed="#L" n="14"/>Cum vero ipsum sensibile nullo modo
+          <lb ed="#L" n="15"/>relucet in specie intelligibili est tantum
+          <lb ed="#L" n="16"/>in potentia intelligibile, et hoc est quod
+          <lb ed="#L" n="17"/>dicit. Doctor.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e1169">
+          <lb ed="#L" n="18"/>Ad secundum, etc. patet littera. Et de
+          <lb ed="#L" n="19"/>hoc vide, quae dicit Doctor m primo,
+          <lb ed="#L" n="20"/>(ISI, 9100: 8. er Ost. - 105
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e1178">
+          <lb ed="#L" n="21"/>Ad tertium dico, etc. hsec littera clara
+          <lb ed="#L" n="22"/>est hic, et exposita supra n primo, d. 3.
+          <lb ed="#L" n="23"/>Q. 7. vide ibi.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e1187">
+          <lb ed="#L" n="24"/>(f) Forte enim causa, inferior eorum. 
+          Di<lb ed="#L" break="no" n="25"/>cit Doctor quod in causis essentia liler
+          <lb ed="#L" n="26"/>ordinalis, quando inferior agil in virlule
+          <lb ed="#L" n="27"/>prioris, quod non dicitur agere in virlute
+          <lb ed="#L" n="28"/>ejus, nisi forma agendi iu inferiori 
+          de<lb ed="#L" break="no" n="29"/>pendeat a superiori, id est, quod ratio
+          <lb ed="#L" n="30"/>formalis agendi in inferiori dependet in
+          <lb ed="#L" n="31"/>esse forte tamen a superiori ; et etiam sic
+          <lb ed="#L" n="32"/>dependet, quod non potest esse ratio
+          <lb ed="#L" n="33"/>formalis agendi in inferiori, nisi actu
+          <lb ed="#L" n="34"/>dependeat a superiori in agendo, non
+          <lb ed="#L" n="35"/>tamen quod superior aliquid influat actu
+          <lb ed="#L" n="36"/>in inferiori, sed quod inferior non potest
+          <lb ed="#L" n="37"/>agere, nisi superior agat, et hoc vide
+          <lb ed="#L" n="38"/>clarius in quarto dist. l. q. l. et infra:
+          <lb ed="#L" n="39"/>Nec enim objectum. Dicit Doctor quod
+          <lb ed="#L" n="40"/>quando intellectus et objectum, vel 
+          sal<lb ed="#L" break="no" n="41"/>tem supplens vicem objecli, ut species
+          <lb ed="#L" n="42"/>intelligibilis, quod ipsum objectum, vel
+          <lb ed="#L" n="43"/>supplens vicem objecti in causando 
+          in<lb ed="#L" break="no" n="44"/>Lellectionem objecti non dependet ab ani-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>ma, accipiendo animam pro intellectu
+          <lb ed="#L" n="46"/>possibili; et hoc dicit Doctor, quia vult
+          <lb ed="#L" n="47"/>quod species intelligibilis, qua est causa A
+          <lb ed="#L" n="48"/>parlialis abstractivae intellectionis 
+          depen<lb ed="#L" break="no" n="49"/>det in esse ab intellectu agenle ut a cau- "
+          <lb ed="#L" n="50"/>sa parliali, et a phantasmale ut a causa
+          <lb ed="#L" n="51"/>parliali, ut patet supra in primo, disi. 9.
+          <lb ed="#L" n="52"/>q. 8. et q. 15. quodlib. Ipsa tamen 
+          spe<lb ed="#L" break="no" n="53"/>cies intelligibilis in essendo dependet ab
+          <lb ed="#L" n="54"/>intellectu possibili, ut patet ubi supra, 
+          et<lb ed="#L" break="no" n="55"/>sic accipiendo animam pro intellectu
+          <lb ed="#L" n="56"/>possibili, non dat speciei intelligibili esse,
+          <lb ed="#L" n="57"/>etsic ipsa species non agit in virlute
+          <lb ed="#L" n="58"/>intellectus possibilis, cum ab ipso non
+          <lb ed="#L" n="59"/>dependeat in esse. Sed est difficultas, ex
+          <lb ed="#L" n="60"/>quo species intelligibilis dependet ab
+          <lb ed="#L" n="61"/>intellectu agente; ergo agit ad 
+          intelle<lb ed="#L" break="no" n="62"/>ctionem in virtute intellectus agentis.
+          <lb ed="#L" n="63"/>Quidam dicunt quod sic, et ideo Doctor
+          <lb ed="#L" n="64"/>dicit: De intellectu possibili saltem. Sed
+          <lb ed="#L" n="65"/>judicio meo, isti qui sic exponunt 
+          Docto<lb ed="#L" break="no" n="66"/>rem, scilicet. quod species intelligibilis
+          <lb ed="#L" n="67"/>agat ad intellectionem objecti, in virtute
+          <lb ed="#L" n="68"/>intellectus agentis, non recte exponunt,
+          <lb ed="#L" n="69"/>nam ad hoc quod aliquid agat in virtute
+          <lb ed="#L" n="70"/>alterius ( proprie loquendo ),oportet ipsum
+          <lb ed="#L" n="71"/>non tantum dependere in essendo ab
+          <lb ed="#L" n="72"/>illo alio, sive in forma quae agit, sed
+          <lb ed="#L" n="73"/>oportet etiam ipsum dependere in 
+          ope<lb ed="#L" break="no" n="74"/>rando, ita quod talem operationem 
+          eli<lb ed="#L" break="no" n="75"/>ciat in virtute alterius, patet a Doctore
+          <lb ed="#L" n="76"/>in primo, dist. 9. q. l. et in quarto,
+          <lb ed="#L" n="77"/>dist. 1. gib
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e1309">
+          <lb ed="#L" n="78"/>Licet ergo species intelligibilis 
+          cause<lb ed="#L" break="no" n="79"/>tur ab intellectu agente, non tamen
+          <lb ed="#L" n="80"/>propter hoc dicitur agere in virtute 
+          in<lb ed="#L" break="no" n="81"/>tellectus agentis, quia si (per 
+          impossibi<lb ed="#L" break="no" n="82"/>le) talis intellectus agens non esset, el
+          <lb ed="#L" n="83"/>species intelligibilis esset in intelleclu
+          <lb ed="#L" n="84"/>possibili, adhuc partialiter causaret 
+          inLel<lb ed="#L" break="no" n="85"/>lectionem objecti, et intellectus 
+          possibi<lb ed="#L" break="no" n="86"/>lis esset alia causa parlialis, ut patet a
+          <lb ed="#L" n="87"/>Doctore 4. l5. quodlib. Et ullra ipsa
+          <lb ed="#L" n="88"/>species intellieibilis est causala partliali-
+          <pb ed="#L" n="193"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>ter a phantasmate, ut patet ubi supra,
+          <lb ed="#L" n="2"/>et tamen phantasmate corrupto, adhuc
+          <lb ed="#L" n="3"/>agil ad intellectionem objecti ; et sic 
+          pa<lb ed="#L" break="no" n="4"/>lel quod exponentes Doctorem de specie
+          <lb ed="#L" n="5"/>intelligibili; quod agit in virtute 
+          intelle<lb ed="#L" break="no" n="6"/>ctus agentis, non recte intelligunt ipsum.
+          <lb ed="#L" n="7"/>Et quod dicit ibi in littera : saltem ut est
+          <lb ed="#L" n="8"/>intellectus possibilis, hoc. dicit, quia non
+          <lb ed="#L" n="9"/>es( praesentis speculationis de intellectu
+          <lb ed="#L" n="10"/>agente, quia forte aliqui possent dicere,
+          <lb ed="#L" n="11"/>quod species intelligibilis, quae supplet
+          <lb ed="#L" n="12"/>vicem objecti, agit ad intellectionem
+          <lb ed="#L" n="13"/>objeeti in virtute intellectus agentis; et
+          <lb ed="#L" n="14"/>dicit quod quidquid sit de intellectu
+          <lb ed="#L" n="15"/>agente, saltem intellectus possibilis non
+          <lb ed="#L" n="16"/>sic concurrit ad intellectionem, ut 
+          spe<lb ed="#L" break="no" n="17"/>cies intelligibilis agat in virtute illius,
+          <lb ed="#L" n="18"/>cum nullo modo ab ipso dependeat. Et
+          <lb ed="#L" n="19"/>infra ibi: /Vec multo magts e converso, id
+          <lb ed="#L" n="20"/>est, quod intellectus non agit in virtute
+          <lb ed="#L" n="21"/>objecti. Sed forte esset difficultas de 
+          essen<lb ed="#L" break="no" n="22"/>lia divina, nam si ipsa moveret ad extra,
+          <lb ed="#L" n="23"/>forte intellectus in causando cognitionem
+          <lb ed="#L" n="24"/>ipsius, dependeret ab ipsa, et ageret in
+          <lb ed="#L" n="25"/>virtule ipsius, sed tenendum est quod
+          <lb ed="#L" n="26"/>nullo modo essentia ut essentia, agat
+          <lb ed="#L" n="27"/>aliquid ad extra, sed tantum voluntas. Si
+          <lb ed="#L" n="28"/>etiam teneretur, quod ipsa immediate
+          <lb ed="#L" n="29"/>movet intellectum ad visionem sui, ut
+          <lb ed="#L" n="30"/>quidam tenent, dico, quod si partialiter
+          <lb ed="#L" n="31"/>moveret ad visionem, non tamen 
+          inlel<lb ed="#L" break="no" n="32"/>leetus beali diceretur agere parlialiter ad
+          <lb ed="#L" n="33"/>visionem illam in virtute essentiae 
+          divi<lb ed="#L" break="no" n="34"/>ns, sed in virtute voluntatis divinae,
+          <lb ed="#L" n="35"/>a qua dependet in essendo et operando.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e1416">
+          <lb ed="#L" n="36"/>Item esset difficultas de intellectu et
+          <lb ed="#L" n="37"/>essentia  anime. Nam ex quo. intellectus
+          <lb ed="#L" n="38"/>pullulat ab ipsa anima , licet non 
+          distin<lb ed="#L" break="no" n="39"/>guatur realiter ab ipsa, suo modo 
+          vide<lb ed="#L" break="no" n="40"/>tur dependere essentialiter ab ipsa; et
+          <lb ed="#L" n="41"/>etiam videtur sequi quod intellectus 
+          ha<lb ed="#L" break="no" n="42"/>beat ab anima quod sitactivus 
+          intelle<lb ed="#L" break="no" n="43"/>ctionis ipsius animae. Dico, quod ipse 
+          in<lb ed="#L" break="no" n="44"/>tellectus in nullo genere caussa depen-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>det ab ipsa anima intellectiva, et de hoc
+          <lb ed="#L" n="46"/>inferius desi. 16. Sequitur ibi: £6 deo
+          <lb ed="#L" n="47"/>nullo modo, id est, quod ipsum 
+          obje<lb ed="#L" break="no" n="48"/>clum, ut movet ad intellectionem, id est,
+          <lb ed="#L" n="49"/>ut partialiter causat illam, non est motum
+          <lb ed="#L" n="50"/>ab anima, saltem ut est intellectus 
+          pos<lb ed="#L" break="no" n="51"/>sibilis, ut dixi supra, id est, quod non
+          <lb ed="#L" n="52"/>causat illam intellectionem in virtute
+          <lb ed="#L" n="53"/>anime, nec habet virtutem causandi ab
+          <lb ed="#L" n="54"/>ipsa. El infra ibi: Potest tamen esse 
+          mo<lb ed="#L" break="no" n="55"/>vens. Dicit, quod objectum potest 
+          move<lb ed="#L" break="no" n="56"/>re ipsum intellectum, sic intelligendo,
+          <lb ed="#L" n="57"/>quod potest partialiter causare, puta 
+          in<lb ed="#L" break="no" n="58"/>tellectionem vel speciem intelligibilem,
+          <lb ed="#L" n="59"/>qus recipitur in anima, et tunc anima
+          <lb ed="#L" n="60"/>dicitur moveri ab objecto, inquantum 
+          re<lb ed="#L" break="no" n="61"/>cipit aliquid ab ipso. Sed prout anima
+          <lb ed="#L" n="62"/>est parlialis causa intellectionis, non 
+          di<lb ed="#L" break="no" n="63"/>citur moveri ab objecto, quia ipsam
+          <lb ed="#L" n="64"/>causalitatem non habet ab objecto. Et hoc
+          <lb ed="#L" n="65"/>est quod dicit infra ibi: Sed tunc mon
+          <lb ed="#L" n="66"/>movel animam, quia dicitur movere per
+          <lb ed="#L" n="67"/>accidens ex hoc, quod causat aliquid
+          <lb ed="#L" n="68"/>accidentale in ipso, puta ipsam speciem
+          <lb ed="#L" n="69"/>intelligibilem, qua» est causa partialis 
+          in<lb ed="#L" break="no" n="70"/>tellectionis, et infra ibi: va quod 7n 
+          pri<lb ed="#L" break="no" n="71"/>mo signo. Dicit, quod in primo signo 
+          phan<lb ed="#L" break="no" n="72"/>lasma, et intellectus agens movet animam
+          <lb ed="#L" n="73"/>ad speciem intelligibilem, causando 
+          sup<lb ed="#L" break="no" n="74"/>ple in intellectu possibili, ipsam speciem
+          <lb ed="#L" n="75"/>intelligibilem. Et infra ibi: et non ad actum
+          <lb ed="#L" n="76"/>primum, id est, quod ipsum phantasma
+          <lb ed="#L" n="77"/>non dat ipsi intellectui, ut dicatur actus
+          <lb ed="#L" n="78"/>primus parlialis respectu intellectionis,
+          <lb ed="#L" n="79"/>sed quod sit talis actus partialis est ex
+          <lb ed="#L" n="80"/>natura talis intellectus. Sequitur: Sed
+          <lb ed="#L" n="81"/>ad illum, id est, quod ipsum 
+          phantas<lb ed="#L" break="no" n="82"/>ma movet ad illum actum primum 
+          par<lb ed="#L" break="no" n="83"/>lialem, quas est altera causa partialis,
+          <lb ed="#L" n="84"/>id est, quod causat in ipsa anima 
+          spe<lb ed="#L" break="no" n="85"/>ciem intelligibilem, qua est actus 
+          pri<lb ed="#L" break="no" n="86"/>mus partialis, et altera causa parlialis
+          <lb ed="#L" n="87"/>intellectionis objecti. /» secundo autem
+          <lb ed="#L" n="88"/>Signo, dicit Doctor quod impressa spe-
+          <pb ed="#L" n="194"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>cie intelligibili movet tantum ad effectum
+          <lb ed="#L" n="2"/>communem, id est, quod partialiter 
+          cau<lb ed="#L" break="no" n="3"/>sat intellectionem sui, quae recipitur in
+          <lb ed="#L" n="4"/>anima ab objecto, tanquam a causa
+          <lb ed="#L" n="5"/>partiali, dicitur moveri modo  
+          praeex<lb ed="#L" break="no" n="6"/>posito; et quod dicit quod objectum
+          <lb ed="#L" n="7"/>movel in cognitione abstractiva, 
+          intel<lb ed="#L" break="no" n="8"/>ligo objectum movere ipsam speciem
+          <lb ed="#L" n="9"/>intelligibilem, ut supra diffuse declaravi.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e1560">
+          <lb ed="#L" n="10"/>(g) Ad quartum dico. Dicit quod 
+          cau<lb ed="#L" break="no" n="11"/>sie, quia sunt alterius rationis 
+          concur<lb ed="#L" break="no" n="12"/>rentes ad eumdem effectum, ita quod
+          <lb ed="#L" n="13"/>sit ordo inter illas secundum perfectius, el
+          <lb ed="#L" n="14"/>minus perfectum essentialiter, illa cause
+          <lb ed="#L" n="15"/>non sunt tantum distinciae specie. Hoc
+          <lb ed="#L" n="16"/>est manifestum, quia communiler du:
+          <lb ed="#L" n="17"/>species specialissimdae non concurrunt ad
+          <lb ed="#L" n="18"/>aliquem unum effectum, patet de mula
+          <lb ed="#L" n="19"/>et equo, nec hujusmodi causs, quia sic
+          <lb ed="#L" n="20"/>coneurrunt, non tantum distinguuntur 
+          nu<lb ed="#L" break="no" n="21"/>mero, ut patet, quia due causae solo 
+          nu<lb ed="#L" break="no" n="22"/>mero distincte non sunt sic ordinate
+          <lb ed="#L" n="23"/>respectu ejusdem effectus, quod una sit
+          <lb ed="#L" n="24"/>essentialiter perfectior altera; ille ergo
+          <lb ed="#L" n="25"/>caus, qui sic concurrunt, communitler
+          <lb ed="#L" n="26"/>distinguuntur genere, ut patet de 
+          intel<lb ed="#L" break="no" n="27"/>lectu et de specie intelligibili et aliis.
+          <lb ed="#L" n="28"/>Sequitur: et s? accipias, id est, si dicas,
+          <lb ed="#L" n="29"/>quod dux causae efficientes distincl: 
+          ge<lb ed="#L" break="no" n="30"/>nere praedicamentali, non possunt 
+          con<lb ed="#L" break="no" n="31"/>currere ad eumdem effectum, falsum
+          <lb ed="#L" n="32"/>est, quia intellectus, qui est de genere
+          <lb ed="#L" n="33"/>Substantiae, et albedo, qua est de genere
+          <lb ed="#L" n="34"/>Qualitatis, possunt concurrere ad 
+          causan<lb ed="#L" break="no" n="35"/>dam cognitionem intuitivam ipsius 
+          albe<lb ed="#L" break="no" n="36"/>dinis. Vel si etiam dicas, quod duc
+          <lb ed="#L" n="37"/>cause dislnetz:» genere Physico, 
+          acci<lb ed="#L" break="no" n="38"/>piendo pro causa materiali, formali,
+          <lb ed="#L" n="39"/>finali et efficiente, non possunt 
+          concur<lb ed="#L" break="no" n="40"/>rere ad eumdem effectum, hoc falsum
+          <lb ed="#L" n="41"/>est, quia composilum naturale semper
+          <lb ed="#L" n="42"/>dependet ab istis qualuor causis, et ideo
+          <lb ed="#L" n="43"/>dicit Doctor quod non possunt quaeri
+          <lb ed="#L" n="44"/>magis hoc, supple, quod idem effectus,
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>sit a distinelis causis genere, et hoc non
+          <lb ed="#L" n="46"/>potest magis quaeri in hoc genere, puta
+          <lb ed="#L" n="47"/>predieamentali quam in alio, puta 
+          Physi<lb ed="#L" break="no" n="48"/>co, quia lam causa pertinentes ad 
+          distin<lb ed="#L" break="no" n="49"/>cta Predicamenta possunt concurrere ad
+          <lb ed="#L" n="50"/>eumdem effectum, quam causa 
+          natura<lb ed="#L" break="no" n="51"/>les sive physicales, modo praeexpositlo.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d3q8-p5">-->
+        <p xml:id="mm30o9-d1e1784-d1e1658">
+          <lb ed="#L" n="66" type="fixed=196"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e1663">
+          <lb ed="#L" n="67"/>(a) Ad argumenta principalia.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e1668">
+          <lb ed="#L" n="68"/>Ad primum respondet Doctor, in qua
+          <lb ed="#L" n="69"/>responsione plura sunt notanda et decla: i
+          <lb ed="#L" n="70"/>randa, primo ibi : anima de se actu 
+          intel<lb ed="#L" break="no" n="71"/>ligibilis est, intelligit quod ipsa anima ex
+          <lb ed="#L" n="72"/>parte sua est ratio formalis eliciendi 
+          intel<lb ed="#L" break="no" n="73"/>lectionem sui, et est praesens sibi, supple
+          <lb ed="#L" n="74"/>inquantum est intelle ctus,id est, quod
+          <lb ed="#L" n="75"/>ipsa essentia anime, qua est ratio 
+          forma<lb ed="#L" break="no" n="76"/>lis partialis producendi cognitionem sui,
+          <lb ed="#L" n="77"/>est praesens intellectui, qui est allera
+          <lb ed="#L" n="78"/>causa parlialis; est tamen praesens non in
+          <lb ed="#L" n="79"/>ratione objecti actu intelligibilis, quia 
+          sla<lb ed="#L" break="no" n="80"/>tim sequeretur cognitio illius, ut patet a
+          <lb ed="#L" n="81"/>Doctore q. prima prologi. et d. 3. primi
+          <lb ed="#L" n="82"/>q.1. et vide quae ibi notavi, sed est praesens
+          <lb ed="#L" n="83"/>sibi in ratione entitatis. Nam quando ali:
+          <lb ed="#L" n="84"/>quid est perfecte praesens intellectui in
+          <lb ed="#L" n="85"/>ratione objecti actu intelligibilis statim 
+          se<lb ed="#L" break="no" n="86"/>quitur intellectio, vel salem potest sequi
+          <pb ed="#L" n="197"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>quia objectum hoc modo in se prwsens,
+          <lb ed="#L" n="2"/>nihil aliud est, nisi ipsum intellectum esse
+          <lb ed="#L" n="3"/>memoriam perfectam, et -perfecte 
+          disposi<lb ed="#L" break="no" n="4"/>tum respectu intellectionis talis objecli,
+          <lb ed="#L" n="5"/>ut patet, in primo, dist. 2. p. 2. et dist. 9.
+          <lb ed="#L" n="6"/>q. 7. et vide qua ibi exposui in declarando
+          <lb ed="#L" n="7"/>titulum quaestionis septima.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e1731">
+          <lb ed="#L" n="8"/>Nihil enim. deficit actui primo, id est,
+          <lb ed="#L" n="9"/>quod ipsi anima nihil deficit perlinens ad
+          <lb ed="#L" n="10"/>activitatem intellectionis illius, et similiter
+          <lb ed="#L" n="11"/>ipsi intellectui nihil deficit. quantum ad
+          <lb ed="#L" n="12"/>activitatem pertinentem ad ipsum.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e1745">
+          <lb ed="#L" n="13"/>Nihil deficit ex parte unionis earum, id
+          <lb ed="#L" n="14"/>est, quod ipsa anima et intellectus 
+          quan<lb ed="#L" break="no" n="15"/>tum est ex parte sua sunt perfectie causcde
+          <lb ed="#L" n="16"/>intellectionis ipsius anima, et sunt 
+          per<lb ed="#L" break="no" n="17"/>fecte unita, cum sint una res realiter. Sed
+          <lb ed="#L" n="18"/>quare non sequitur intellectio, hoc ideo
+          <lb ed="#L" n="19"/>est, quia pro statu isto non sunt perfecte
+          <lb ed="#L" n="20"/>unita, loquendo de unione, quia anima
+          <lb ed="#L" n="21"/>sit perfecte praesens intellectui in ratione
+          <lb ed="#L" n="22"/>objecti intelligibilis, quae omnia patent in
+          <lb ed="#L" n="23"/>primo dist. 3. quaest. 3.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e1771">
+          <lb ed="#L" n="24"/>Secundum declarandum est ibi : Et 
+          for<lb ed="#L" break="no" n="25"/>te propter hoc dicit. frequenter Augustinus,
+          <lb ed="#L" n="26"/>quod anima novit semper se. Quod sic 
+          de<lb ed="#L" break="no" n="27"/>bet intelligi, quod ex quo anima, qua est
+          <lb ed="#L" n="28"/>- causa partialis cognitionis sui, est semper
+          <lb ed="#L" n="29"/>perfecte praesens intellectui suo, et ista
+          <lb ed="#L" n="30"/>duo integrant unam causam totalem, et
+          <lb ed="#L" n="31"/>si nullum impedimentum esset ab 
+          extrin<lb ed="#L" break="no" n="32"/>seco, sequeretur cognitio ipsius anima.
+          <lb ed="#L" n="33"/>Et ideo Augustinus dicit, quod anima
+          <lb ed="#L" n="34"/>semper novit se, id est, quod causa 
+          per<lb ed="#L" break="no" n="35"/>fecta cognitionis anima semper est intra
+          <lb ed="#L" n="36"/>ipsam animam, et quod actu non 
+          cogno<lb ed="#L" break="no" n="37"/>scat se, hoc non est ex defectu ipsius, sed
+          <lb ed="#L" n="38"/>alicujus extrinseci; et ideo bene dicit 
+          Do<lb ed="#L" break="no" n="39"/>clor quod non semper novit lapidem, id
+          <lb ed="#L" n="40"/>est, quod ipsa anima non habet sibi 
+          in<lb ed="#L" break="no" n="41"/>trinsece causam totalem cognitionis 
+          lapi<lb ed="#L" break="no" n="42"/>dis, quia ad cognitionem ipsius non 
+          tan<lb ed="#L" break="no" n="43"/>tum requiritur anima, sed etiam lapis in
+          <lb ed="#L" n="44"/>se praesens respectu coegnitionis intuitiva,
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>vel praesens in specie intelligibili respectu
+          <lb ed="#L" n="46"/>cognitionis abstractiva.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e1826">
+          <lb ed="#L" n="47"/>(b) Et hoc modo. Tertium declarandum
+          <lb ed="#L" n="48"/>est ibi : e/ hoc modo (rinitatem ponit 
+          Au<lb ed="#L" break="no" n="49"/>gustinus. Nota in ista lillera duplicem 
+          tri<lb ed="#L" break="no" n="50"/>nitatem, scilicet, perfectam et potentialem,
+          <lb ed="#L" n="51"/>Aclualis perfecta primo consistit in 
+          me<lb ed="#L" break="no" n="52"/>moria perfecta, quae includit intellectum
+          <lb ed="#L" n="53"/>objectum et voluntatem, ut patet in 
+          pri<lb ed="#L" break="no" n="54"/>mo dist. 3. quaest. ult. Secundo consislit in
+          <lb ed="#L" n="55"/>actuali intelliventia, sive  intellectione
+          <lb ed="#L" n="56"/>actuali objecti; et tertio in actuali 
+          a<lb ed="#L" break="no" n="57"/>more ipsius objecti. Per primum 
+          reprxe<lb ed="#L" break="no" n="58"/>sentatur Pater, per secundum Filius, et
+          <lb ed="#L" n="59"/>per tertium Spiritus sanctus.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e1857">
+          <lb ed="#L" n="60"/>Secunda, qui est potentialis, consistit
+          <lb ed="#L" n="61"/>in memoria perfecta, qui ut 
+          altribui<lb ed="#L" break="no" n="62"/>tur Patri, est perfectissima fecunditas 
+          pro<lb ed="#L" break="no" n="63"/>ductionis Filii et. Spiritus sancti, quae 
+          in<lb ed="#L" break="no" n="64"/>cludit intellectum et objectum praesens, et
+          <lb ed="#L" n="65"/>voluntatem; nam ista possunt esse causa
+          <lb ed="#L" n="66"/>perfecta secundae et tertie partis 
+          imagi<lb ed="#L" break="no" n="67"/>nis, quia intellectus et objectum est causa
+          <lb ed="#L" n="68"/>totalis intellectionis illius, et voluntas 
+          ha<lb ed="#L" break="no" n="69"/>bens praesens illud objectum, non tamen
+          <lb ed="#L" n="70"/>in ratione cogniti, quia lune esset 
+          secun<lb ed="#L" break="no" n="71"/>da pars imaginis in actu, sed in ratione
+          <lb ed="#L" n="72"/>cognoscibilis et amabilis potest amare 
+          il<lb ed="#L" break="no" n="73"/>lud, et sic producere tertiam partem 
+          ima<lb ed="#L" break="no" n="74"/>ginis; in tali ergo memoria est intellectio
+          <lb ed="#L" n="75"/>virtualis objecti illius, quia falis memoria
+          <lb ed="#L" n="76"/>habet in virtute sua posse producere 
+          co<lb ed="#L" break="no" n="77"/>gnitionem objecti.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e1899">
+          <lb ed="#L" n="78"/>(c) EL hoc modo cum voluntas sit. 
+          pra<lb ed="#L" break="no" n="79"/>sens, etc. id est, quod tertia pars 
+          imagi<lb ed="#L" break="no" n="80"/>nis, quia est amor, virtualiter est in 
+          vo<lb ed="#L" break="no" n="81"/>luntate, ut in causa efficiente, et 
+          intelle<lb ed="#L" break="no" n="82"/>ctione objecti, ut in causa sine qua non,
+          <lb ed="#L" n="83"/>quia voluntas non fertur, nisi in 
+          praeco<lb ed="#L" break="no" n="84"/>gaitum, Sed an objectum vel intellectio
+          <lb ed="#L" n="85"/>objeeti sit causa activa tolalis, vel 
+          partia<lb ed="#L" break="no" n="86"/>lis actus voluntatis, patebit infra dist. 25.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e1921">
+          <lb ed="#L" n="87"/>(d) Sed quia nihil est de isto. toto in 
+          a<lb ed="#L" break="no" n="88"/>clu. etc. id est, quod loquendo de ista ima-
+          <pb ed="#L" n="198"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>gine et trinitate potentiali, nihil habetur in
+          <lb ed="#L" n="2"/>actu, nisi perfecta memoria, quae, ut dixi,
+          <lb ed="#L" n="3"/>includit intellectum, objectum et 
+          volunta<lb ed="#L" break="no" n="4"/>tem, quaexe dicuntur actus primus totalis 
+          re<lb ed="#L" break="no" n="5"/>spectu secunde et Lerli:e parlis imaginis,
+          <lb ed="#L" n="6"/>quia intellectus cum objecto est actus
+          <lb ed="#L" n="7"/>primus respectu secundae partis imaginis,
+          <lb ed="#L" n="8"/>et voluntas est actus primus respectu 
+          ter<lb ed="#L" break="no" n="9"/>lie partis.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e1953">
+          <lb ed="#L" n="10"/>(e) Intellectus non est aliquod 
+          intelligibi<lb ed="#L" break="no" n="11"/>lium ante intelligere, id est, non est. 
+          possi<lb ed="#L" break="no" n="12"/>bile intelligi a se ante intelligere aliorum.
+          <lb ed="#L" n="13"/>Qua propositio potest habere duplicem
+          <lb ed="#L" n="14"/>sensum, scilicet compositum et divisum;
+          <lb ed="#L" n="15"/>nam in sensu composito negatur tantum
+          <lb ed="#L" n="16"/>actus intelligendi respectu intellectus, et
+          <lb ed="#L" n="17"/>est sensus : non est possibile intellectum
+          <lb ed="#L" n="18"/>intelligere se ante intelligere, id est, non
+          <lb ed="#L" n="19"/>potest dari aliquod instans in quo 
+          intel<lb ed="#L" break="no" n="20"/>leetus noster,pro statu isto habeat 
+          actu<lb ed="#L" break="no" n="21"/>alem intellectionem sui anle 
+          intellecti<lb ed="#L" break="no" n="22"/>onem aliorum. Et hic sensus est verus,quia
+          <lb ed="#L" n="23"/>in eodem instanti, quo intellectus 
+          intelli<lb ed="#L" break="no" n="24"/>git se, necesse est, vel simul habere 
+          intel<lb ed="#L" break="no" n="25"/>lectionem aliorum, vel necesse est prius
+          <lb ed="#L" n="26"/>alia intellexisse; et. hoc est quod dicit 
+          Do<lb ed="#L" break="no" n="27"/>ctor, quod praeexepositio ista,scilicet ante cum
+          <lb ed="#L" n="28"/>suo causali, «quipollet adverbiali deler.
+          <lb ed="#L" n="29"/>minationi, et potest construi cum infinitivo
+          <lb ed="#L" n="30"/>illo significante terminum potentis, id est,
+          <lb ed="#L" n="31"/>quod hoc totum, ante intelligere aliorum,
+          <lb ed="#L" n="32"/>potest construi cum hoc infinitivo passivo,
+          <lb ed="#L" n="33"/>scilicet Zntelligi a se, quae intellectio, sive
+          <lb ed="#L" n="34"/>quod intelligi a se, est terminus poltenti:,
+          <lb ed="#L" n="35"/>Et tunc negatur tantum hoc, quod est 
+          in<lb ed="#L" break="no" n="36"/>telligi a seipso intellectu, ante ?ntelligere
+          <lb ed="#L" n="37"/>aliorum, id est, quod actualis intellectio,
+          <lb ed="#L" n="38"/>quia intellectus intelligit se, non potest
+          <lb ed="#L" n="39"/>sibi inesse, anle Zntelligere aliorum, et sic
+          <lb ed="#L" n="40"/>solum negat actualis intellectio ante ?n£e/-
+          <lb ed="#L" n="41"/>ligere aliorum.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e2025">
+          <lb ed="#L" n="42"/>Cum vero accipitur in sensu diviso, tune
+          <lb ed="#L" n="43"/>ante intelligere aliorum construitur cum
+          <lb ed="#L" n="44"/>indicativo, id est,cum lv potes(, et est sen-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>sus: impossibile est, intellectum habere
+          <lb ed="#L" n="46"/>potentiam ad intellectionem sui, ante 
+          2z<lb ed="#L" break="no" n="47"/>telligere aliorum; et hic sensus est falsus,
+          <lb ed="#L" n="48"/>quia licet intellectus actualiter non 
+          intel<lb ed="#L" break="no" n="49"/>ligat se ante intelligere aliorum, habet 
+          ta<lb ed="#L" break="no" n="50"/>men potentiam ad intelligendum se ante
+          <lb ed="#L" n="51"/>intelligere aliorum, sicut hie: Aoc nunc
+          <lb ed="#L" n="52"/>primo est immortale, nam ly Zmmortale
+          <lb ed="#L" n="53"/>aul terminat actum, et tunc sensus est:
+          <lb ed="#L" n="54"/>hocc nunc, supple in statu innocentiae, hoc
+          <lb ed="#L" n="55"/>est potens non mori, quia Adam in statu
+          <lb ed="#L" n="56"/>innocentiv€ erat potens non mori, et hic
+          <lb ed="#L" n="57"/>sensus est verus; vel determinat potenti -
+          <lb ed="#L" n="58"/>am, et sensus est falsus, et est sensus :
+          <lb ed="#L" n="59"/>hoc nunc in statu innocenti:, non est 
+          po<lb ed="#L" break="no" n="60"/>tens mori. Sic in proposito de ista 
+          propo<lb ed="#L" break="no" n="61"/>sitione, non est possibile intellectum 
+          in<lb ed="#L" break="no" n="62"/>telligi a se, ante Zn£ellzgere aliorum.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e2075">
+          <lb ed="#L" n="63"/>(f) Ad. secundum, Doctor inducit duas
+          <lb ed="#L" n="64"/>responsiones quarum prima est Thom:.
+          <lb ed="#L" n="65"/>Secunda est Henrici, et patet littera.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d3q8-p6">-->
+        <p xml:id="mm30o9-d1e1784-d1e2086">
+          <lb ed="#L" n="17" type="fixed=200"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e2091">
+          <lb ed="#L" n="18"/>(a) Ad tertium. Responsio stat in hoc,
+          <lb ed="#L" n="19"/>quod illa propositio tantum habet 
+          veri<lb ed="#L" break="no" n="20"/>talem in potentiis organicis, quae 
+          requi<lb ed="#L" break="no" n="21"/>runt determinatam dispositionem ; unde
+          <lb ed="#L" n="22"/>ex determinato numero potentiarum 
+          or<lb ed="#L" break="no" n="23"/>ganicarum, concludit Philosophus 
+          deter<lb ed="#L" break="no" n="24"/>minatum numerum actionum vel 
+          obje<lb ed="#L" break="no" n="25"/>clorum, ut patet 2. de anima text. c. 128.
+          <lb ed="#L" n="26"/>aut, inquit, non si sensus alius praeter
+          <lb ed="#L" n="27"/>quinque. Dico autem hos, visum, 
+          audi<lb ed="#L" break="no" n="28"/>tum, olfactum, gustum et tactum, etc.
+          <lb ed="#L" n="29"/>Istud autem organum oportel ita esse
+          <lb ed="#L" n="30"/>dispositum, ut possit recipere ipsum 
+          sen<lb ed="#L" break="no" n="31"/>sible sine materia, quod enim est
+          <lb ed="#L" n="32"/>receplivum forme sine materia, requirit
+          <lb ed="#L" n="33"/>aliam dispositionem a dispositione 
+          rece<lb ed="#L" break="no" n="34"/>plivi forme cum materia, ut patet a
+          <lb ed="#L" n="35"/>Doctore infra, nam subjectum coloris est
+          <lb ed="#L" n="36"/>superficies terminata, sive corporis 
+          ter<lb ed="#L" break="no" n="37"/>minatli, puta parielis ; receplivum vero 
+          si<lb ed="#L" break="no" n="38"/>mililudinis albedinis, est superficies 
+          cor<lb ed="#L" break="no" n="39"/>poris terminali, puta alicujus perspicui
+          <lb ed="#L" n="40"/>sicut aer. Certum est enim quod aer,
+          <lb ed="#L" n="41"/>qui est receptivus non materialis, puta
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="42"/>speciei sensibilis respectu albedinis, non
+          <lb ed="#L" n="43"/>potest recipere in se albedinem, ut 
+          pa<lb ed="#L" break="no" n="44"/>Let ; sic potentia  organica, puta visiva,
+          <lb ed="#L" n="45"/>vel ipsum organum est tantum 
+          disposi<lb ed="#L" break="no" n="46"/>tum ad recipiendum formam sine 
+          mate<lb ed="#L" break="no" n="47"/>ria, id est, ipsam speciem sensibilem,
+          <lb ed="#L" n="48"/>et sic ponitur communiter organum 
+          po<lb ed="#L" break="no" n="49"/>tentiae visive in dispositione perspicua,
+          <lb ed="#L" n="50"/>et sic tantum recipit speciem sensibilem
+          <lb ed="#L" n="51"/>coloris, non autem ipsum colorem ; ad
+          <lb ed="#L" n="52"/>hoc ergo ut videat colorem, oportet 
+          de<lb ed="#L" break="no" n="53"/>nudari ab ipso, nam si color esselL in 
+          or<lb ed="#L" break="no" n="54"/>gano, forte non posset videri. EL quod
+          <lb ed="#L" n="55"/>dicit Doctor communiter assignando de
+          <lb ed="#L" n="56"/>tactu, nam dubium est de tactu: an
+          <lb ed="#L" n="57"/>possit recipere speciem coloris, ipsum
+          <lb ed="#L" n="58"/>colorem, quidquid sit de hoc, non est
+          <lb ed="#L" n="59"/>praesentis speculationis. Cum ergo 
+          intel<lb ed="#L" break="no" n="60"/>lectus non requirat talem dispositionem
+          <lb ed="#L" n="61"/>determinatam, sicut potlentia  organica,
+          <lb ed="#L" n="62"/>non oportet ipsum denudari ab omni eo
+          <lb ed="#L" n="63"/>quod intelligit ; idem enim intellectus
+          <lb ed="#L" n="64"/>potest esse ipsemel realiter, et in actu
+          <lb ed="#L" n="65"/>per habitum realiter, et tamen 
+          recepti<lb ed="#L" break="no" n="66"/>vus intellectualiter, et sui, et habitus
+          <lb ed="#L" n="67"/>cujuscumque informantis eum realiter ; et
+          <lb ed="#L" n="68"/>est tota ratio, quia talia sic recepta 
+          intel<lb ed="#L" break="no" n="69"/>lectualiter non requirunt in recipiente
+          <lb ed="#L" n="70"/>delerminatam  dispositionem oppositam
+          <lb ed="#L" n="71"/>intelligibili reali.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d3q8-p7">-->
+        <p xml:id="mm30o9-d1e1784-d1e2216">
+          <lb ed="#L" n="40" type="fixed=201"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e2221">
+          <lb ed="#L" n="41"/>(a) Ad ultimum. Respondet Doctor
+          <lb ed="#L" n="42"/>primo recitando opinionem aliquorum
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="43"/>quam improbat, qui dicunt talem intel
+          <lb ed="#L" n="44"/>lectionem esse eamdem essentic Angeli,
+          <lb ed="#L" n="45"/>hoc autem est impossibile, quia tunc
+          <lb ed="#L" n="46"/>sequeretur quod illa intellectio esset actu
+          <lb ed="#L" n="47"/>infinita; potest enim intelleclus 
+          quicum<lb ed="#L" break="no" n="48"/>que esse infinitorum intelligibilium, et s;
+          <lb ed="#L" n="49"/>tunc haberet intellectionem eamdem 
+          si<lb ed="#L" break="no" n="50"/>bi, pari ratione  intellectio cujuslibet
+          <lb ed="#L" n="51"/>esset eadem sibi. Hoc autem potest 
+          de<lb ed="#L" break="no" n="52"/>duci ex his, qua dicit Doctor ?m praeZmo,
+          <lb ed="#L" n="53"/>distinct. 9. probando intellectionem Dei
+          <lb ed="#L" n="54"/>respectu aliorum intelligibilium esse 
+          eam<lb ed="#L" break="no" n="55"/>dem sibi; ergo negat illam 
+          consequen<lb ed="#L" break="no" n="56"/>tiam, et ad probationem dicit, quod illa
+          <lb ed="#L" n="57"/>intellectio non mediat inter potentiam
+          <lb ed="#L" n="58"/>et objectum, sed est exiraneum 
+          respe<lb ed="#L" break="no" n="59"/>ctu utriusque, cum sit effectus amborum,
+          <lb ed="#L" n="60"/>ut supra patuit 2» primo, distinct. 3.
+          <lb ed="#L" n="61"/>quast. 7.
+        </p>
+        <!--</div>
+          <!-\- commentary here -\->
+          <div alias="lycht-l2d3q9-p2">-->
+        <p xml:id="mm30o9-d1e1784-d1e2273">
+          <pb ed="#L" n="204"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=204"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e2282">
+          <lb ed="#L" n="2"/>(a) Hic concordant aliqui in ista negativa,
+          <lb ed="#L" n="3"/>quod Angelus non habeat distinctam 
+          no<lb ed="#L" break="no" n="4"/>liam naturaliter Deitatis, et probatur a
+          <lb ed="#L" n="5"/>Thoma l. quast. 56. art. 3. istam 
+          negati<lb ed="#L" break="no" n="6"/>vam tenendo. Si qusaeris per quid 
+          affir<lb ed="#L" break="no" n="7"/>mative respondent, quod Angelus non
+          <lb ed="#L" n="8"/>cognoscit essentiam divinam naturaliter
+          <lb ed="#L" n="9"/>per aliquam speciem, etc. hoc idem dicit
+          <lb ed="#L" n="10"/>Henricus; dicunt ergo isti, quod Angelus
+          <lb ed="#L" n="11"/>non habet notitiam naturalem distinctam
+          <lb ed="#L" n="12"/>essentia e divinae, et si quaeretur ab eis
+          <lb ed="#L" n="13"/>per quid cognoscitur Deus affirmative,
+          <lb ed="#L" n="14"/>puta afürmando aliquid de Deo, supple
+          <lb ed="#L" n="15"/>quod est trinus et unus, vel quod est 
+          in<lb ed="#L" break="no" n="16"/>finitum ens, et hujusmodi :
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e2317">
+          <lb ed="#L" n="17"/>Dicit Henricus quod non cognoscitur
+          <lb ed="#L" n="18"/>naturaliter neque per essentiam Dei, 
+          ne<lb ed="#L" break="no" n="19"/>que per essentiam Angeli, neque per
+          <lb ed="#L" n="20"/>speciem repraesentantem ipsum Deum;
+          <lb ed="#L" n="21"/>et ex hoc probat Doctor quod Angeli
+          <lb ed="#L" n="22"/>non possunt habere aliquam cognitionem
+          <lb ed="#L" n="23"/>de Deo naturaliter, neque distincte, 
+          ne<lb ed="#L" break="no" n="24"/>que confuse, et isl» du: rationes, licet
+          <lb ed="#L" n="25"/>sint nole et glossate in primo, dist. 3.
+          <lb ed="#L" n="26"/>quast. l. et secunda ratio etiam pateat
+          <lb ed="#L" n="27"/>in primo, dist. 8. q. penult. aliqualiter
+          <lb ed="#L" n="28"/>tamen expono eas. Et prima ratio stat in
+          <lb ed="#L" n="29"/>hoc, quia si Angelus naturaliter non 
+          po<lb ed="#L" break="no" n="30"/>test cognoscere distincte essentiam 
+          divi<lb ed="#L" break="no" n="31"/>nam per speciem intelligibilem, ipsam
+          <lb ed="#L" n="32"/>distincte repraesentantem ; ergo nullo
+          <lb ed="#L" n="33"/>modo potest ipsam cognoscere. Probatur
+          <lb ed="#L" n="34"/>consequentia , quia si potest eam 
+          natura<lb ed="#L" break="no" n="35"/>liler. cognoscere, aut cognoscere eam
+          <lb ed="#L" n="36"/>distincte, scilicet vel in se, vel in 
+          con<lb ed="#L" break="no" n="37"/>ceptu proprio, et in complexo aut 
+          con<lb ed="#L" break="no" n="38"/>fuse, quia in conceptu communi sibi et
+          <lb ed="#L" n="39"/>nobis, alius modus cognoscendi non 
+          ap<lb ed="#L" break="no" n="40"/>paret. Si primo modo non cognoscit 
+          na<lb ed="#L" break="no" n="41"/>Luraliter, quia tunc essentia  divina, vel
+          <lb ed="#L" n="42"/>aliqua ejus proprietas immediate move-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="43"/>ret, vel esset ratio formalis immediate 
+          mo<lb ed="#L" break="no" n="44"/>vendi intellectum Angeli, et tunc non 
+          co<lb ed="#L" break="no" n="45"/>gnoscerel naturaliter eam, sed tantum
+          <lb ed="#L" n="46"/>supernaturaliter, et ultra ipsa tantum 
+          im<lb ed="#L" break="no" n="47"/>mediate movet intellectum divinum, ut
+          <lb ed="#L" n="48"/>patet a Doctore in q. 14. art. 1l. quodl.
+          <lb ed="#L" n="49"/>Nec secundo modo, patet quia Henricus
+          <lb ed="#L" n="50"/>negat conceptum commune Deo et 
+          cre<lb ed="#L" break="no" n="51"/>ature. Sed si talis conceplus communis
+          <lb ed="#L" n="52"/>sit impossibilis, est simpliciter impossibile
+          <lb ed="#L" n="53"/>quod habeatur naturaliter aliquis 
+          conce<lb ed="#L" break="no" n="54"/>plus de Deo, et hoc prolixe probatum est
+          <lb ed="#L" n="55"/>a Doctore in primo, dist. 3. q. 1. ubi facit
+          <lb ed="#L" n="56"/>tres rationes singulares, quas ibi clare
+          <lb ed="#L" n="57"/>exposui, haec idem probat in» dist. 8. q. 1.
+          <lb ed="#L" n="58"/>ejusdem primi. Si ergo Angelus non
+          <lb ed="#L" n="59"/>cognoscit essentiam divinam distincto per
+          <lb ed="#L" n="60"/>aliquam speciem intelligibilem, sequitur
+          <lb ed="#L" n="61"/>quod nullo modo poterit eam cognoscere,
+          <lb ed="#L" n="62"/>scilicet nec distincte, nec confuse in 
+          ali<lb ed="#L" break="no" n="63"/>quo, scilicet conceptu communi, quia si
+          <lb ed="#L" n="64"/>talis non datur, nullo modo potest 
+          co<lb ed="#L" break="no" n="65"/>gnosci.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e2429">
+          <lb ed="#L" n="66"/>(b) Contra primum. Secunda ratio stat
+          <lb ed="#L" n="67"/>in hoc, quia si dicatur, quod Angelus
+          <lb ed="#L" n="68"/>cognoscit essentia m non in se et 
+          intui<lb ed="#L" break="no" n="69"/>tive, nec per speciem aliquam, sed 
+          co<lb ed="#L" break="no" n="70"/>gnoscit eam in aliquo conceptu reali,
+          <lb ed="#L" n="71"/>alio ab essentia divina, patet quod 
+          co<lb ed="#L" break="no" n="72"/>enoscit eam in conceptu reali, summi
+          <lb ed="#L" n="73"/>boni, vel entis primi, et hujusmodi. Et si
+          <lb ed="#L" n="74"/>ultra quaratur, a quo causatur cognitio
+          <lb ed="#L" n="75"/>talis conceptus; non a creatura, ut patet
+          <lb ed="#L" n="76"/>per tres rationes factas a Doctore in 
+          pri<lb ed="#L" break="no" n="77"/>mo, dist. 3. q. 1. quia creatura non potest
+          <lb ed="#L" n="78"/>causare talem conceptum, sive notitiam
+          <lb ed="#L" n="79"/>lalis conceptus, nisi contineat illum 
+          con<lb ed="#L" break="no" n="80"/>ceptum, vel essentialiter, vel virtualiter ;
+          <lb ed="#L" n="81"/>vide ibi. Diceret ergo Henricus quod lalis
+          <lb ed="#L" n="82"/>conceptus realis, alius ab essentia divina,
+          <lb ed="#L" n="83"/>et sic cognitio hujus conceptus realis,
+          <lb ed="#L" n="84"/>scilicet summi boni, vel entis primi, vel
+          <lb ed="#L" n="85"/>summe sapientis, esset causata ab 
+          essen<lb ed="#L" break="no" n="86"/>tia divina.
+        </p>
+        <p xml:id="mm30o9-d1e1784-d1e2477">
+          <pb ed="#L" n="205"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>Contra, hic Doctor specialiter instat ex
+          <lb ed="#L" n="2"/>dictis Henrici, quia ipse dicit quod 
+          es<lb ed="#L" break="no" n="3"/>sentia divina est nata facere tanlum, 
+          vide<lb ed="#L" break="no" n="4"/>licet conceptum realem in intellectu 
+          divi<lb ed="#L" break="no" n="5"/>no, ita quod nullus alius habetur de ea,
+          <lb ed="#L" n="6"/>nisi per intelleclum  negoliantem; igitur
+          <lb ed="#L" n="7"/>ista essentia est nata facere tantum per
+          <lb ed="#L" n="8"/>se conceptum unum realem in quocum.-
+          <lb ed="#L" n="9"/>que intellectu. Probatio consequentiae,
+          <lb ed="#L" n="10"/>omnis conceptus, qui natus est haberi,
+          <lb ed="#L" n="11"/>et etiam causari virtute hujus essenti: in
+          <lb ed="#L" n="12"/>aliquo intellectus est nalus haberi  
+          vir<lb ed="#L" break="no" n="13"/>tute ejus in intellectu comprehendente 
+          ip<lb ed="#L" break="no" n="14"/>sam, et talis est divinus intellectus ; cum
+          <lb ed="#L" n="15"/>ergo essentia divina sit nata facere tantum
+          <lb ed="#L" n="16"/>conceptum unum per se realiter in 
+          intel<lb ed="#L" break="no" n="17"/>lectu divino, id est, cum sit nata facere,
+          <lb ed="#L" n="18"/>sive causare notitiam unius conceptus
+          <lb ed="#L" n="19"/>realis in intellectu divino, et talis concep -
+          <lb ed="#L" n="20"/>tus realis est praecise essentia divina, ut
+          <lb ed="#L" n="21"/>essentia, ita quod secundum ipsum 
+          Henri<lb ed="#L" break="no" n="22"/>cum non est ibi aliqua entitas, nisi 
+          tan<lb ed="#L" break="no" n="23"/>tum essentia  ut easentia, et sic conceptus
+          <lb ed="#L" n="24"/>sive entitas summi boni, vel entis primi,
+          <lb ed="#L" n="25"/>et hujusmodi, non dicit aliquid reale 
+          distin<lb ed="#L" break="no" n="26"/>clum prater opus intellectus ab essentia
+          <lb ed="#L" n="27"/>divina, quia si talis esset ibi, posset 
+          no<lb ed="#L" break="no" n="28"/>Litiam illius realis conceptus causare in 
+          in<lb ed="#L" break="no" n="29"/>tellectu divino, si talem posset causare in
+          <lb ed="#L" n="30"/>intellectu creato ; patet, quia si illud, quod
+          <lb ed="#L" n="31"/>est in ratione objecti, scilicet molivi 
+          im<lb ed="#L" break="no" n="32"/>perfectissimum potest causare communem
+          <lb ed="#L" n="33"/>conceptum de se causabilem, id est, 
+          noti<lb ed="#L" break="no" n="34"/>tiam communis conceptus in :?:vo, vel 
+          es<lb ed="#L" break="no" n="35"/>sentialiter, vel virtualiter contenti, a 
+          for<lb ed="#L" break="no" n="36"/>liori essentia divina notitiam cujuscumque
+          <lb ed="#L" n="37"/>conceplus realis de se poterit causare in
+          <lb ed="#L" n="38"/>intellectu suo. Sequitur ergo quod vel 
+          in<lb ed="#L" break="no" n="39"/>tellectus Angeli habebit istum unicum
+          <lb ed="#L" n="40"/>conceptum, scilicet essentliae divin: 
+          unde<lb ed="#L" break="no" n="41"/>eumque causetur, vel omnino neque 
+          ha<lb ed="#L" break="no" n="42"/>bebit, illum autem omnino habere non po:
+          <lb ed="#L" n="43"/>terit; nisi vel cognosceret per essentiam
+          <lb ed="#L" n="44"/>vel per propriam rationem repraesentan-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>tem, scilicet per speciem intelligibilem.
+          <lb ed="#L" n="46"/>Consequentiam negat, ergo nullum 
+          conce<lb ed="#L" break="no" n="47"/>ptum habebit de essentia divina, quod est
+          <lb ed="#L" n="48"/>falsum, et negatum fere ab omnibus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

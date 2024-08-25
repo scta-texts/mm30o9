@@ -1,0 +1,2129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 7</title>
+        <author ref="#per-FLBca3">Franciscus Lychetus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 7</title>
+          <date when="2024-08-25">August 25, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x12">Vives, Paris, 1893, volume 12</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="377"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="mm30o9-d1e1898"><!-- lycht-l2d7q1-p2 -->
+        <head xml:id="mm30o9-d1e1898-Hd1e101">Quaestio 7</head>
+        <p xml:id="mm30o9-d1e1898-d1e103">
+          <lb ed="#L" n="34" type="fixed=374"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e108">
+          <lb ed="#L" n="35"/>(a) Hic ponitur duplex ratio. Hic Doctor
+          <lb ed="#L" n="36"/>recitat duas opiuiones, qua in eadem
+          <lb ed="#L" n="37"/>conclusione sunt concordes. Alia tamen,
+          <lb ed="#L" n="38"/>et alia ratione probant, quarum prima est
+          <lb ed="#L" n="39"/>Thome 1. p. q. 64. art. 2. qui dicit quod
+          <lb ed="#L" n="40"/>Angelus ex hoc necessario continuat 
+          mali<lb ed="#L" break="no" n="41"/>(iam, quia apprehendit objectum, quod
+          <lb ed="#L" n="42"/>intellieit immobiliter. ita quod. talis an-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="43"/>prehensio necessario movet voluntatem
+          <lb ed="#L" n="44"/>ad continuandum actum suum circa talem
+          <lb ed="#L" n="45"/>apprehensum. Exemplum : Intellectus
+          <lb ed="#L" n="46"/>Angeli apprehendit naturam suam ut 
+          di<lb ed="#L" break="no" n="47"/>ligibilem ut octo, licet in re sit tantum
+          <lb ed="#L" n="48"/>diligibilis ut quatuor, et voluntas 
+          sequi<lb ed="#L" break="no" n="49"/>tur talem apprehensionem, diligendo 
+          il<lb ed="#L" break="no" n="50"/>lam naturam ut octo, et sic peccat 
+          immo<lb ed="#L" break="no" n="51"/>derate diligendo; et quia talis 
+          apprehen<lb ed="#L" break="no" n="52"/>sio valde firmatur post tale peccatum, et
+          <lb ed="#L" n="53"/>immobiliter apprehendit, et talis 
+          appre<lb ed="#L" break="no" n="54"/>hensio est causa necessaria ipsius amoris
+          <lb ed="#L" n="55"/>immoderati, ideo semper voluntas 
+          Ange<lb ed="#L" break="no" n="56"/>li mali continuat malitiam suam. Alia 
+          ra<lb ed="#L" break="no" n="57"/>tio ponitur ab <ref xml:id="mm30o9-d1e1898-Rd1e162">Henrico quodl. 4. q. 11.</ref>
+          <lb ed="#L" n="58"/>quae patent in littera.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e167">
+          <lb ed="#L" n="59"/>(b) Modus assignatur ex illo Proverb. 18.
+          <lb ed="#L" n="60"/>Et littera stat in hoc quod voluntas 
+          An<lb ed="#L" break="no" n="61"/>celi sic immoderate vult, sive amat,
+          <lb ed="#L" n="62"/>puta se, quod in tali objecto sic amato 
+          im<lb ed="#L" break="no" n="63"/>mergitur, ponendo sibi finem suum ; 
+          ve<lb ed="#L" break="no" n="64"/>niens autem ad. obstaculum,  synteresis
+          <lb ed="#L" n="65"/>non ibi sistit, id est, quod quando arguitur
+          <lb ed="#L" n="66"/>a synteresi. de tali amore sic immoderato
+          <lb ed="#L" n="67"/>non assentit synleresl, sed contemnenda
+          <lb ed="#L" n="68"/>synteresim. ?mpingit, et in. illam etiam
+          <lb ed="#L" n="69"/>retunditur, id est, quod contemnendc
+          <lb ed="#L" n="70"/>synteresim, magis vult illud volitum, et
+          <lb ed="#L" n="71"/>sic ibi retunditur, quod ipsa voluntas
+          <lb ed="#L" n="72"/>non potest se retrahere ab amore talis 
+          vo<lb ed="#L" break="no" n="73"/>liti; sicut virtus infigens clavum in 
+          li<lb ed="#L" break="no" n="74"/>enum, licet quando infigit possit 
+          retra<lb ed="#L" break="no" n="75"/>here illum, tamen quando clavus 
+          retun<lb ed="#L" break="no" n="76"/>ditur in ligno, dum infigitur a tali
+          <lb ed="#L" n="77"/>virtute, non potest retrahi.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d7q1-p3">-->
+        <p xml:id="mm30o9-d1e1898-d1e214">
+          <lb ed="#L" n="51" type="fixed=377"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e219">
+          <lb ed="#L" n="52"/>(c) Contra conclusionem. Hic Doctor
+          <lb ed="#L" n="53"/>probat multis rationibus conclusionem
+          <lb ed="#L" n="54"/>Thomae et Henrici non esse veram, et
+          <lb ed="#L" n="55"/>praesertim non esse veram per rationes
+          <lb ed="#L" n="56"/>quas ipsi faciunt. Et prima ratio tenet per
+          <lb ed="#L" n="57"/>argumentum a minori, quia minus 
+          vide<lb ed="#L" break="no" n="58"/>tur quod anima corpori conjuncta posset
+          <lb ed="#L" n="59"/>redire ad justitiam post peccatum, quam
+          <lb ed="#L" n="60"/>Angelus, ut patet per Augustinum de fide
+          <lb ed="#L" n="61"/>ad Petrum cap. 5. Sed anima dum est in
+          <lb ed="#L" n="62"/>via post peccatum ad justitiam redire 
+          po<lb ed="#L" break="no" n="63"/>test; ergo et Angelus post peccatum,
+          <lb ed="#L" n="64"/>ergo ipsa natura Angelica, etc.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e250">
+          <lb ed="#L" n="65"/>(d) Praeterea, contra. conclusionem 
+          is<lb ed="#L" break="no" n="66"/>tam arguo. Haec ratio est satis evidens,
+          <lb ed="#L" n="67"/>quia oportet assignare causam 
+          commu<lb ed="#L" break="no" n="68"/>nem tam in Angelo, quam in anima 
+          se<lb ed="#L" break="no" n="69"/>parata respectu obstinationis. Patet, quia
+          <lb ed="#L" n="70"/>ex hoc solo ponitur differentia inter 
+          An<lb ed="#L" break="no" n="71"/>gelum et animam respectu obstinationis
+          <lb ed="#L" n="72"/>post peccatum, quia anima ut conjuncta
+          <lb ed="#L" n="73"/>non apprehendit immobiliter, ut dicit
+          <lb ed="#L" n="74"/>Thomas, nec immergitur in objecto, etc.
+          <lb ed="#L" n="75"/>ut dicit Henricus; separata ergo a 
+          corpo<lb ed="#L" break="no" n="76"/>re, Istae rationes non verificantur de ipsa.
+          <lb ed="#L" n="77"/>Pono ergo casum, quod anima Juds sit
+          <lb ed="#L" n="78"/>actu separata'et damnata, et per 
+          conse<lb ed="#L" break="no" n="79"/>quens obstinata in peccato. Qu:ero, per
+          <lb ed="#L" n="80"/>quem actum est obstinata? non per actum
+          <lb ed="#L" n="81"/>elieitum ante separationem, patet per
+          <lb ed="#L" n="82"/>Thomam et Henricum; aut ergo 
+          separa<lb ed="#L" break="no" n="83"/>ta ante omnem actum elicitum est 
+          obsti<lb ed="#L" break="no" n="84"/>nata, aut per actum elicitum, Non primo,
+          <lb ed="#L" n="85"/>quia tam Thomas quam Henricus per 
+          ra<lb ed="#L" break="no" n="86"/>tiones prius factas dicunt, quod Aneselus
+          <pb ed="#L" n="378"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>est obstinatus per actum elicitum, 
+          videli<lb ed="#L" break="no" n="2"/>cet per actum elicitum sequentem 
+          appre<lb ed="#L" break="no" n="3"/>hensionem immobiliter, ut dicit Thomas ;
+          <lb ed="#L" n="4"/>vel per actum elicitum sequentem 
+          perfe<lb ed="#L" break="no" n="5"/>ctam libertatem, quo immergitur in 
+          obje<lb ed="#L" break="no" n="6"/>ctum, ut dicit Henricus. Non secundo,
+          <lb ed="#L" n="7"/>quia ut separata, sicut non potest elicere
+          <lb ed="#L" n="8"/>actum merendi, ita non potest elicere
+          <lb ed="#L" n="9"/>actum demerendi, oportet ergo assignare
+          <lb ed="#L" n="10"/>aliam causam obstinationis communem
+          <lb ed="#L" n="11"/>tam Angelo, quam anim:e separatae.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e328">
+          <lb ed="#L" n="12"/>(e) Praeterea secundo causa totalis, etc.
+          <lb ed="#L" n="13"/>Haec ratio stat in hoc, quia posito quod
+          <lb ed="#L" n="14"/>voluntas Angeli sit actu sub aliquo actu,
+          <lb ed="#L" n="15"/>tamen ut elicit actum, est prior actu; 
+          po<lb ed="#L" break="no" n="16"/>no ergo casum, quod anima, sive 
+          con<lb ed="#L" break="no" n="17"/>juncta sive separata, habeat actum 
+          pecca<lb ed="#L" break="no" n="18"/>ti sibi inherentem, puta dilectionem 
+          ali<lb ed="#L" break="no" n="19"/>cujus objecti inordinatam, et ipsa anima
+          <lb ed="#L" n="20"/>conjuncta potest elicere actum amandi
+          <lb ed="#L" n="21"/>ordinatum ; patet, quia licet sit sub actu
+          <lb ed="#L" n="22"/>peccati, adhuc tamen est prior, etiam ut
+          <lb ed="#L" n="23"/>elicit ipso actu amandi ordinato, non 
+          di<lb ed="#L" break="no" n="24"/>co tamen quod simul sit sub actu amandi
+          <lb ed="#L" n="25"/>inordinate et ordinate,sed dico quod actus
+          <lb ed="#L" n="26"/>amandi inordinatus non sic impedit 
+          volun<lb ed="#L" break="no" n="27"/>tatem, quin in illo priori possit elicere
+          <lb ed="#L" n="28"/>actum amandi ordinatum, quia in illo 
+          pri<lb ed="#L" break="no" n="29"/>ori attenditur libertas voluntatis; sicut ergo
+          <lb ed="#L" n="30"/>ipsa voluntas conjuncta contingenter 
+          eli<lb ed="#L" break="no" n="31"/>cit actum amandi ordinatum post actum
+          <lb ed="#L" n="32"/>amandi inordinatum ; ergo et separata,
+          <lb ed="#L" n="33"/>quantum est ex parte sua post actum 
+          pec<lb ed="#L" break="no" n="34"/>cati sibi inhaerentem, contingenter potest
+          <lb ed="#L" n="35"/>elicere actum ordinatum, et sic oportet
+          <lb ed="#L" n="36"/>assignare aliam — causam * obstinationis,
+          <lb ed="#L" n="37"/>quam assignetur a Thoma et Henrico. Et
+          <lb ed="#L" n="38"/>hoc est, quod Doctor principaliter intendit
+          <lb ed="#L" n="39"/>in ista ratione. Expono tamen aliqua dicta
+          <lb ed="#L" n="40"/>in ista littera, primum est ibi : Causa
+          <lb ed="#L" n="41"/>Lotalis non aliter causat nisi ipsa, etc.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e396">
+          <lb ed="#L" n="42"/>Hic nota, quod causam aliter causare
+          <lb ed="#L" n="43"/>potest multipliciter intelligi. Primo, quod
+          <lb ed="#L" n="44"/>alium et alium effectum causet, et sic
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>non requiritur, quod in se aliter se 
+          ha<lb ed="#L" break="no" n="46"/>beat; patet, quia Sol non aliter se 
+          haben<lb ed="#L" break="no" n="47"/>do in se potest producere plures effectus,
+          <lb ed="#L" n="48"/>non tantum numero, sed etiam specie
+          <lb ed="#L" n="49"/>distinctos. Secundo, quod alio et alio 
+          mo<lb ed="#L" break="no" n="50"/>do causet, puta majori vel minori conatu,
+          <lb ed="#L" n="51"/>velintensius aut minus intense; et hoc
+          <lb ed="#L" n="52"/>etiam modo non oportet causam aliter se
+          <lb ed="#L" n="53"/>habere, praecipue loquendo de causa 
+          libe<lb ed="#L" break="no" n="54"/>ra, ut satis patet a Doctore in 4. d. 41.
+          <lb ed="#L" n="55"/>Tertio, quod necessario causet, vel quod
+          <lb ed="#L" n="56"/>contingenter, et hoc modo intelligitur haec
+          <lb ed="#L" n="57"/>propositio, scilicet quod causa totalis 
+          cir<lb ed="#L" break="no" n="58"/>ca idem objectum aeque dispositum non
+          <lb ed="#L" n="59"/>potest aliquando contingenter causare, et
+          <lb ed="#L" n="60"/>aliquando necessario, nisi ipsa causa 
+          ali<lb ed="#L" break="no" n="61"/>ter se habeat ; patet, quia isti duo modi
+          <lb ed="#L" n="62"/>contingenter causare, et necessario 
+          causa<lb ed="#L" break="no" n="63"/>re, sunt simpliciter oppositi, praecipue
+          <lb ed="#L" n="64"/>circa idem objectum. Et de hoc vide 
+          Do<lb ed="#L" break="no" n="65"/>ctorem in primo, dist. 2. parte 2. q. 4.
+          <lb ed="#L" n="66"/>et dist. 10. et hoc modo intendit in ista
+          <lb ed="#L" n="67"/>propositione, cum dicit : causa totalis
+          <lb ed="#L" n="68"/>non aliter causat, etc.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e459">
+          <lb ed="#L" n="69"/>Et si dicatur,quod eadem voluntas 
+          divi<lb ed="#L" break="no" n="70"/>na est causa, vel quasi. causa necessaria
+          <lb ed="#L" n="71"/>respectu amoris essenti:e. divinae, ut patet
+          <lb ed="#L" n="72"/>a Doctore in 1. dist. 10. et est causa 
+          con<lb ed="#L" break="no" n="73"/>tingens respectu creare, ut patet ab ipso
+          <lb ed="#L" n="74"/>in primo, dist. 2. 8. 10. et alibi; dico,
+          <lb ed="#L" n="75"/>quod non est simile, quia voluntas divina
+          <lb ed="#L" n="76"/>non comparatur ad idem objectum. Sed
+          <lb ed="#L" n="77"/>de hoc vide quae exposui in primo, dist.1.
+          <lb ed="#L" n="78"/>quest. 4. et dist. 10.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e484">
+          <lb ed="#L" n="79"/>Si etiam dicatur, quod supra dixit 
+          Do<lb ed="#L" break="no" n="80"/>ctor distinct. 5. quod eadem voluntas ut
+          <lb ed="#L" n="81"/>est in via, vult mutabiliter, et ut est in
+          <lb ed="#L" n="82"/>termino, vult immutabiliter, et tamen est
+          <lb ed="#L" n="83"/>eadem et prior utroque actu; dico, quod
+          <lb ed="#L" n="84"/>hoc solutum est ibi, quia ista. necessitas
+          <lb ed="#L" n="85"/>volendi, non est simpliciter ab ipsa, el
+          <lb ed="#L" n="86"/>vide ibi quae. diffuse exposui. Deinde 
+          se<lb ed="#L" break="no" n="87"/>quitur in littera ista: Sed voluntas, wi
+          <lb ed="#L" n="88"/>prior naturaliter actu. suo, etc, Et vuli
+          <pb ed="#L" n="379"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>dicere (ut infra patebit) quod ex quo ipsa
+          <lb ed="#L" n="2"/>voluntas, ut causa est prior actu; ergo
+          <lb ed="#L" n="3"/>per acetum sibi inhaerentem non aliter se
+          <lb ed="#L" n="4"/>habebit in causando, quia ille actus sibi
+          <lb ed="#L" n="5"/>inherens nullo modo est ei ratio 
+          causan<lb ed="#L" break="no" n="6"/>di actum, sed sola voluntas, ut sic prior
+          <lb ed="#L" n="7"/>est ratio formalis causandi.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e528">
+          <lb ed="#L" n="8"/>Adverte etiam, quod hsc littera non
+          <lb ed="#L" n="9"/>contradicit illi, quod dixit supra, dist. 5.
+          <lb ed="#L" n="10"/>quest. 2. quod voluntas non elicit actum
+          <lb ed="#L" n="11"/>libere, antequam eliciat ; sic ergo dicitur
+          <lb ed="#L" n="12"/>libera, quando actu elicit actum, ergo ut
+          <lb ed="#L" n="13"/>sic, non erit prior, quia quando elicit 
+          ac<lb ed="#L" break="no" n="14"/>ilum, actus est; actus enim tamdiu est,
+          <lb ed="#L" n="15"/>quamdiu — voluntas elicit — actum, et
+          <lb ed="#L" n="16"/>quando actum non elicit, actus non est,
+          <lb ed="#L" n="17"/>ui patet a Doctore in primo,dist. 3. quest.
+          <lb ed="#L" n="18"/>ultima, resp. ad ultimum arg. principale,
+          <lb ed="#L" n="19"/>et sic videtur falsum dicere, quod libertas
+          <lb ed="#L" n="20"/>competat voluntati,ut est prior actu. Dioc,
+          <lb ed="#L" n="21"/>quod nulla est contradictio, quia hic 
+          intel<lb ed="#L" break="no" n="22"/>ligit quod voluntas sit prior actu elicito,
+          <lb ed="#L" n="23"/>et ut elicit, est etiam prior ipso actu 
+          na<lb ed="#L" break="no" n="24"/>tura, ut infra patebit, dist. 35. et supra
+          <lb ed="#L" n="25"/>declaratum est, dist. 4. quest. 9. et d. 5.
+          <lb ed="#L" n="26"/>q. 2. quod causa ut causat est semper
+          <lb ed="#L" n="27"/>prior causato, et sic intelligit quod 
+          liber<lb ed="#L" break="no" n="28"/>las non inest. voluntati, nisi ut prior actu,
+          <lb ed="#L" n="29"/>ld est,quod libere elicere non inest sibi,
+          <lb ed="#L" n="30"/>nisi ut ipsa eliciens sit prior natura actu
+          <lb ed="#L" n="31"/>elicito ; et quod sic intelligat, patet per
+          <lb ed="#L" n="32"/>verba sequentia ibi : quia ut est. sub actu
+          <lb ed="#L" n="33"/>habet actum, ut formam naturalem, etc.
+          <lb ed="#L" n="34"/>nam voluntas, ut est sub actuali volitione,
+          <lb ed="#L" n="35"/>sicuae subjectum sub forma informante,
+          <lb ed="#L" n="36"/>non dicitur elicere illam, quia tunc elicita
+          <lb ed="#L" n="37"/>est; ergo ut elicit, prior erit, imo ut est
+          <lb ed="#L" n="38"/>subjectum talis actus videtur posterius ea,
+          <lb ed="#L" n="39"/>sicut compositum est posterius forma sua,
+          <lb ed="#L" n="40"/>1. Metaph. text. com. 1. ubi sic habetur:
+          <lb ed="#L" n="41"/>Quare si species materia est prior,et 
+          ma<lb ed="#L" break="no" n="42"/>gis ens,et ipso quod ex utrisque prior erit.
+          <lb ed="#L" n="43"/>Hec ill, id est, quod sicut forma est
+          <lb ed="#L" n="44"/>prior materia. ita est prior composito con-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>stituto ex materia et. forma, quia licet ho:
+          <lb ed="#L" n="46"/>mo absolute sit prior albedine, tamen 
+          ho<lb ed="#L" break="no" n="47"/>mo albus est posterior albedine, sic dicc
+          <lb ed="#L" n="48"/>quod voluntas, ut est formaliter volens,
+          <lb ed="#L" n="49"/>est posterior ipsa volitione, licet absolute
+          <lb ed="#L" n="50"/>sumpta, et ut eliciens actum sit prior. Et
+          <lb ed="#L" n="51"/>quod dicit ibi : Aabet actum, ut. formam
+          <lb ed="#L" n="52"/>naturalem, vult dicere quod ipsa voluntas,
+          <lb ed="#L" n="53"/>ut ponitur subjectum sui actus, habet
+          <lb ed="#L" n="54"/>ipsum tanquam perfectionem ad quam
+          <lb ed="#L" n="55"/>inclinatur; inclinatio autem naturalis est
+          <lb ed="#L" n="56"/>respectu receptivi,ut infra patebit dist.18.
+          <lb ed="#L" n="57"/>hujus 2. et aliqualiter patebit in quarto,
+          <lb ed="#L" n="58"/>dist. 49.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e643">
+          <lb ed="#L" n="59"/>(f) Et confirmatur ratio, etc. Hcc ratio
+          <lb ed="#L" n="60"/>stat in hoc, quod ex quo ille actus 
+          suppo<lb ed="#L" break="no" n="61"/>neretur causa obstinationis (quod tamen
+          <lb ed="#L" n="62"/>falsum est ) esset tantum causa secunda,
+          <lb ed="#L" n="63"/>et minus principalis, et voluntas erit 
+          cau<lb ed="#L" break="no" n="64"/>sa principalis Modo causa secunda non
+          <lb ed="#L" n="65"/>potest determinare causam primam ad
+          <lb ed="#L" n="66"/>agendum opposito modo, qui conipetit
+          <lb ed="#L" n="67"/>primc, puta prima agit libere, et secunda
+          <lb ed="#L" n="68"/>necessario; illa secunda non potest 
+          deter<lb ed="#L" break="no" n="69"/>minare primam, ut agat necessario, et sic
+          <lb ed="#L" n="70"/>ille actus, posito quod sit causa 
+          obstinati<lb ed="#L" break="no" n="71"/>onis minus principalis, non poterit 
+          deter<lb ed="#L" break="no" n="72"/>minare voluntatem, ut necessario 
+          obsti<lb ed="#L" break="no" n="73"/>nata.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e678">
+          <lb ed="#L" n="74"/>Sed hic videtur difficultas, quia. tunc
+          <lb ed="#L" n="75"/>meritum non erit voluntarium, nam dicit
+          <lb ed="#L" n="76"/>Doctor in primo, dist. 11. quod charitas
+          <lb ed="#L" n="77"/>est causa magis principalis meritorii quam
+          <lb ed="#L" n="78"/>voluntas, et tamen ipsa voluntas agit de
+          <lb ed="#L" n="79"/>necessitate naturae, ut patet a Doctore ;
+          <lb ed="#L" n="80"/>sl ergo causa minus principalis non 
+          po<lb ed="#L" break="no" n="81"/>test determinare causam magis principa -
+          <lb ed="#L" n="82"/>lem, sequitur quod actus meritorius erit
+          <lb ed="#L" n="83"/>necessario elicitus, et sic non libere.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e702">
+          <lb ed="#L" n="84"/>Dico, quod actus meritorius dicitur
+          <lb ed="#L" n="85"/>meritorius principaliter a charitate, et hoc
+          <lb ed="#L" n="86"/>non esta ratione charitatis, quod ipsa
+          <lb ed="#L" n="87"/>sit causa principalior talis actus,sed ex 
+          so<lb ed="#L" break="no" n="88"/>la acceptatione divina, quae: maeis acce-
+          <pb ed="#L" n="380"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>ptat illum actum, ut procedit a. charitate,
+          <lb ed="#L" n="2"/>quam ut a voluntate, ut patet a Doctore
+          <lb ed="#L" n="3"/>ubi supra.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e726">
+          <lb ed="#L" n="4"/>Dico etiam, quod quando charitas et
+          <lb ed="#L" n="5"/>voluntas comparantur ad actum meritori -
+          <lb ed="#L" n="6"/>um, puta ad acceptabilitatem passivam,
+          <lb ed="#L" n="7"/>quod ultra substantiam actus, et 
+          intensi<lb ed="#L" break="no" n="8"/>onem ejus, nihil causat, quia acceptatio
+          <lb ed="#L" n="9"/>passiva est a sola voluntate divina sic vel
+          <lb ed="#L" n="10"/>sic acceptante, ut patet in 1. dist. 17.
+          <lb ed="#L" n="11"/>Respectu tamen substantive actus et 
+          inten<lb ed="#L" break="no" n="12"/>sionis ejus, voluntas est causa magis
+          <lb ed="#L" n="13"/>principalis, ut patet a Doctore ubi. supra.
+          <lb ed="#L" n="14"/>Et de hac materia vide quia prolixe 
+          ex<lb ed="#L" break="no" n="15"/>posui super 171. dist. primi.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e756">
+          <lb ed="#L" n="16"/>Si etiam dicatur, quod essentia 
+          divi<lb ed="#L" break="no" n="17"/>na, et ipsa voluntas divina 
+          respe<lb ed="#L" break="no" n="18"/>ctu  productionis Spiritus sancti sic se
+          <lb ed="#L" n="19"/>habent, quod essentia divina est ratio
+          <lb ed="#L" n="20"/>magis principalis producendi Spiritum
+          <lb ed="#L" n="21"/>sanctum quam voluntas, patet, quia ratio
+          <lb ed="#L" n="22"/>magis universalis, nam ipsa concurrit ad
+          <lb ed="#L" n="23"/>productionem Filii et Spiritus sancti ; 
+          er<lb ed="#L" break="no" n="24"/>£o videtur sequi ex isto dicto Doctoris,
+          <lb ed="#L" n="25"/>quod productio Spiritus sancti magis 
+          de<lb ed="#L" break="no" n="26"/>beret dicit necessaria, et. per modum 
+          na<lb ed="#L" break="no" n="27"/>ture quam libera, quod tamen est 
+          com<lb ed="#L" break="no" n="28"/>muniter contra Doctores et praecipue
+          <lb ed="#L" n="29"/>contra Doctorem in primo, dist. 10.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e789">
+          <lb ed="#L" n="30"/>Respondet <ref xml:id="mm30o9-d1e1898-Rd1e793">Franciscus de Mayr. in 
+            pri<lb ed="#L" break="no" n="31"/>mo, dist. 2</ref>, quod effectus sequitur 
+          dete<lb ed="#L" break="no" n="32"/>riorem partem, et sic quando effectus est
+          <lb ed="#L" n="33"/>a duabus causis, ab una per modum 
+          na<lb ed="#L" break="no" n="34"/>ture, et ab alia per modum libertatis,
+          <lb ed="#L" n="35"/>talis effectus. dicitur libere produci. Sed
+          <lb ed="#L" n="36"/>ego non intelligo hoc dictum, salva 
+          ta<lb ed="#L" break="no" n="37"/>men reverentia tanti viri, nam voluntas
+          <lb ed="#L" n="38"/>divina et ignis concurrunt, puta ad 
+          ali<lb ed="#L" break="no" n="39"/>quem effectum, et tamen absolute ille
+          <lb ed="#L" n="40"/>effectus — dicitur contingenter — 
+          produ<lb ed="#L" break="no" n="41"/>ctus, licet necessario ab ipso igne, quia
+          <lb ed="#L" n="42"/>causa principalior est voluntas divina,
+          <lb ed="#L" n="43"/>et hoc patet a <ref xml:id="mm30o9-d1e1898-Rd1e824">Doctore in. primo, dist. 23.
+            <lb ed="#L" n="44"/>parte 1. quest. 1.</ref> et in <ref xml:id="mm30o9-d1e1898-Rd1e829">secundo, dist. 4.</ref>
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>imo causa superior magis assimilat 
+          effe<lb ed="#L" break="no" n="46"/>ctum causs secundi, quam ipsa causa
+          <lb ed="#L" n="47"/>secunda assimilat, uv patet ?n primo,
+          <lb ed="#L" n="48"/>dist. 3. q. 8. Dicerem ergo pro nunc
+          <lb ed="#L" n="49"/>(salvo meliori judicio) quod quamvis 
+          es<lb ed="#L" break="no" n="50"/>sentia divina sit universalior ratio 
+          produ<lb ed="#L" break="no" n="51"/>cendi, non tamen perfectior, voluntas
+          <lb ed="#L" n="52"/>enim divina est ita formaliter infinita, 
+          sic<lb ed="#L" break="no" n="53"/>ut essentia divina. Doctor autem 
+          intelli<lb ed="#L" break="no" n="54"/>git de causis, quarum una sit 
+          principali<lb ed="#L" break="no" n="55"/>or, et perfectior alia. Dico secundo, quod
+          <lb ed="#L" n="56"/>ad habendum effectum liberum, sufficit
+          <lb ed="#L" n="57"/>quod una causa libere agat, et tota 
+          con<lb ed="#L" break="no" n="58"/>tingentia ipsius effectus sumitur a tali
+          <lb ed="#L" n="59"/>causa libera.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e867">
+          <lb ed="#L" n="60"/>(g) Praeterea sicut fuit dictum, etc.
+          <lb ed="#L" n="61"/>In ista ratione supponit secundum 
+          pri<lb ed="#L" break="no" n="62"/>mam viam, quod Angelus in primo 
+          pec<lb ed="#L" break="no" n="63"/>cato habuit, immobilem apprehensionem
+          <lb ed="#L" n="64"/>respectu objecti, circa quod peccavit, e!
+          <lb ed="#L" n="65"/>secundum secundam viam, quod 
+          volun<lb ed="#L" break="no" n="66"/>tas Angeli in primo peccato fuerit perfecte
+          <lb ed="#L" n="67"/>libera
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e887">
+          <lb ed="#L" n="68"/>Ex hoc infert Doctor, quod tam 
+          secun<lb ed="#L" break="no" n="69"/>dum primam viam, quam secundum 
+          se<lb ed="#L" break="no" n="70"/>cundam viam, non potuerit peccare 
+          se<lb ed="#L" break="no" n="71"/>cundo peccato, cujus oppositum 
+          osten<lb ed="#L" break="no" n="72"/>sum est supra, dist. 5. et 6. Et quod non
+          <lb ed="#L" n="73"/>potuerit peccare secundum istos secundo
+          <lb ed="#L" n="74"/>peccato, patet, quia voluntas sequens 
+          im<lb ed="#L" break="no" n="75"/>mobilem  apprehensionem, immobiliter
+          <lb ed="#L" n="76"/>adheret post illam apprehensionem, 
+          se<lb ed="#L" break="no" n="77"/>cundum primam opinionem, et similiter
+          <lb ed="#L" n="78"/>voluntas perfecte libera immobiliter se
+          <lb ed="#L" n="79"/>immergit in objecto, ita ut ab illo resilire
+          <lb ed="#L" n="80"/>non possit secundum secundam  opini
+          <lb ed="#L" n="81"/>onem. Si dicatur, quod potuit peccare 
+          se<lb ed="#L" break="no" n="82"/>cundo peccato, contra, quia tunc est in
+          <lb ed="#L" n="83"/>statu merendi et demerendi, et per 
+          con<lb ed="#L" break="no" n="84"/>sequens post primum peccatum Angeli
+          <lb ed="#L" n="85"/>non immobiliter inhaeret, Si dicatur, quoc
+          <lb ed="#L" n="86"/>secundum peccatum non fuit aliud a pri:
+          <lb ed="#L" n="87"/>mo peccato, sed idem continuatur, contra,
+          <lb ed="#L" n="88"/>quia oppositum est ostensum supra,
+          <pb ed="#L" n="381"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>dist. 6. quest. 9. vide ibi, et hoc est,
+          <lb ed="#L" n="2"/>quod dicit Doctor in fine hujus rationis,
+          <lb ed="#L" n="3"/>scilicet e£. non fuit idem peccatum. cum
+          <lb ed="#L" n="4"/>peccato praecedenti. Primum enim 
+          pecca<lb ed="#L" break="no" n="5"/>tum Angeli fuit ex inimoderato amore
+          <lb ed="#L" n="6"/>amiciti:? respectu sui, et ex illo actu
+          <lb ed="#L" n="7"/>amandi se, immoderate eliciebat actum
+          <lb ed="#L" n="8"/>concupiscendi sibi summum commodum,
+          <lb ed="#L" n="9"/>et ex illo actu. excellenti:, quo voluit 
+          ha<lb ed="#L" break="no" n="10"/>bere illad commodum, non sub regula
+          <lb ed="#L" n="11"/>voluntatis superioris, sed contra eam, ut
+          <lb ed="#L" n="12"/>supra patuit, dist. 6. quest. 2.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d7q1-p4">-->
+        <p xml:id="mm30o9-d1e1898-d1e967">
+          <lb ed="#L" n="16" type="fixed=382"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e973">
+          <lb ed="#L" n="17"/>(a) Praeterea, contra primam viam.
+          <lb ed="#L" n="18"/>Postquam — Doctor simul  improbavit
+          <lb ed="#L" n="19"/>utramque viam, nunc specialiter arguit
+          <lb ed="#L" n="20"/>primo contra primam viam, et secundo
+          <lb ed="#L" n="21"/>contra secundam. Contra primam primo
+          <lb ed="#L" n="22"/>dicit, quod illa via supponit falsum, 
+          sci<lb ed="#L" break="no" n="23"/>licet quod intellectus sit sufficiens causa
+          <lb ed="#L" n="24"/>movendi voluntatem ad operationem, ut
+          <lb ed="#L" n="25"/>patebit in isto 2. dist. 25. ubi Doctor 
+          pro<lb ed="#L" break="no" n="26"/>babit quod nihil aliud a voluntate est 
+          suf<lb ed="#L" break="no" n="27"/>ficiens causa movendi ipsam ad 
+          opera<lb ed="#L" break="no" n="28"/>tionem.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e1002">
+          <lb ed="#L" n="29"/>Secundo dicit, quod posito quod 
+          intelle<lb ed="#L" break="no" n="30"/>ctus sit sufficiens causa movendi 
+          volunta<lb ed="#L" break="no" n="31"/>tem, adhuc sequuntur duo, quas 
+          repu<lb ed="#L" break="no" n="32"/>gnant dictis eorum. Primum, quod 
+          Ange<lb ed="#L" break="no" n="33"/>lus nunquam potuerit peccare, patet, quia
+          <lb ed="#L" n="34"/>intellectus Angeli ante primum peccatum
+          <lb ed="#L" n="35"/>fuit rectus in apprehendendo, aliter poena
+          <lb ed="#L" n="36"/>processisset culpam, puta caecitas vel
+          <lb ed="#L" n="37"/>ignorantia; ergo movit voluntatem 
+          Ange<lb ed="#L" break="no" n="38"/>li ad aliquid recte appetendum et 
+          immo<lb ed="#L" break="no" n="39"/>biliter, patet, quia intellectus est movens
+          <lb ed="#L" n="40"/>mere naturale et per modum mere 
+          natu<lb ed="#L" break="no" n="41"/>ri, Sicut ergo immobiliter apprehendit
+          <lb ed="#L" n="42"/>recte, ita immobiliter movet voluntatem
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="43"/>ad aliquid recte appetendum, et sic 
+          se<lb ed="#L" break="no" n="44"/>quitur, quod voluntas Angeli nunquam
+          <lb ed="#L" n="45"/>potuerit peccare,
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e1044">
+          <lb ed="#L" n="46"/>(b) Secundo contradicit. illud falsum
+          <lb ed="#L" n="47"/>positioni eorum. Hic Doctor adducit 
+          se<lb ed="#L" break="no" n="48"/>cundum repugnans dictis opinionibus,
+          <lb ed="#L" n="49"/>quod sequitur ex illo falso, videlicet, quod
+          <lb ed="#L" n="50"/>intellectus sit sufficiens causa movendi
+          <lb ed="#L" n="51"/>voluntatem. Dicit enim opinio, quod post
+          <lb ed="#L" n="52"/>primam electionem intellectus movet  
+          vo<lb ed="#L" break="no" n="53"/>luntatem immobiliter, sed non in ipsa
+          <lb ed="#L" n="54"/>prima electione, sive ante primam 
+          ele<lb ed="#L" break="no" n="55"/>ctionem, quia tunc movet mobiliter ; sed
+          <lb ed="#L" n="56"/>hoc videtur repugnare, quia intellectus
+          <lb ed="#L" n="57"/>Angeli, ita est movens per modum 
+          natu<lb ed="#L" break="no" n="58"/>ra ante primam electionem, igitar ita 
+          im<lb ed="#L" break="no" n="59"/>mobiliter movet ante primam electionem,
+          <lb ed="#L" n="60"/>sicut post primam. Patet etiam, quia ita
+          <lb ed="#L" n="61"/>immobiliter apprehendit ante primam 
+          ele<lb ed="#L" break="no" n="62"/>ctionem, sicut post primam, cum in 
+          utra<lb ed="#L" break="no" n="63"/>que apprehendat per modum naturae; 
+          igi<lb ed="#L" break="no" n="64"/>tur ita immobiliter movet voluntatem 
+          an<lb ed="#L" break="no" n="65"/>te primam electionem, sive in ipsa prima
+          <lb ed="#L" n="66"/>electione, sicut et post primam, quod 
+          con<lb ed="#L" break="no" n="67"/>tradicit opinioni eorum.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e1094">
+          <lb ed="#L" n="68"/>(c) Praeterea ex illa via. Hic Doctor 
+          de<lb ed="#L" break="no" n="69"/>ducit ad aliud inconveniens, quod 
+          sequi<lb ed="#L" break="no" n="70"/>tur ex dictis opinionibus, videlicet
+          <lb ed="#L" n="71"/>quod in prima electione fiat omnino 
+          im<lb ed="#L" break="no" n="72"/>peeccabilis. Et quod hoc sequatur ex dictis
+          <lb ed="#L" n="73"/>eorum, patet, quia ipsi dicunt quod 
+          vo<lb ed="#L" break="no" n="74"/>luntas sequens apprehensionem 
+          immobi<lb ed="#L" break="no" n="75"/>lem, vult immobiliter, ut patet per ipsum
+          <lb ed="#L" n="76"/>Thomam 1. p. quest. 63. art. 2. Ex hoc
+          <lb ed="#L" n="77"/>dicto infert Doctor propositum, quia 
+          te<lb ed="#L" break="no" n="78"/>nendo opinionem eorum, scilicet quod 
+          An<lb ed="#L" break="no" n="79"/>gelus fuerit creatus in gratia, tunc sic in
+          <lb ed="#L" n="80"/>illo instanti quo fuit creatus in gratia, 
+          ple<lb ed="#L" break="no" n="81"/>ne et perfecte apprehendebat, patet, quia
+          <lb ed="#L" n="82"/>sine discursu; ipsi enim negant omnem
+          <lb ed="#L" n="83"/>discursum in Angelo; ergo immobilite
+          <lb ed="#L" n="84"/>apprehendebat, et pro illo instanti voluntas
+          <lb ed="#L" n="85"/>fuit perfecta in gratia, et sic. immobiliter
+          <lb ed="#L" n="86"/>volebat. Patet etiam. quia intellectus. se.
+          <pb ed="#L" n="383"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>cundum eos, est sufficiens causa movendi
+          <lb ed="#L" n="2"/>voluntatem ; ergo in illo instanti quo 
+          ap<lb ed="#L" break="no" n="3"/>prehendit immobiliter, movet voluntatem
+          <lb ed="#L" n="4"/>immobiliter, et talis actus elicitus in
+          <lb ed="#L" n="5"/>gratia est actus rectus et meritorius, non
+          <lb ed="#L" n="6"/>enim cum gratia potuit esse actus peccati ;
+          <lb ed="#L" n="7"/>si ergo ille actus immobiliter fuit 
+          elici<lb ed="#L" break="no" n="8"/>tus, ergo simpliciter fuit impeccabilis.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e1159">
+          <lb ed="#L" n="9"/>(d) Praeterea differentia, etc. 
+          HicDo<lb ed="#L" break="no" n="10"/>ctor improbat aliud dictum Thom: ubi
+          <lb ed="#L" n="11"/>supra. Dicit enim Thomas quod ideo 
+          in<lb ed="#L" break="no" n="12"/>tellectus Angeli apprehendit immobiliter,
+          <lb ed="#L" n="13"/>quia sine discursu, intellectus vero 
+          ho<lb ed="#L" break="no" n="14"/>minis mobiliter, quia cam discursu, ut
+          <lb ed="#L" n="15"/>supra patuit. Sed haec differentia 
+          vide<lb ed="#L" break="no" n="16"/>tur nulla, quia intellectus hominis 
+          immo<lb ed="#L" break="no" n="17"/>biliter adhzret conclusioni ad quam 
+          dis<lb ed="#L" break="no" n="18"/>currit, sicut et intellectus Angeli ad
+          <lb ed="#L" n="19"/>quam non discurrit; patet, quia 
+          intelle<lb ed="#L" break="no" n="20"/>ctus hominis ita certitudinaliter adheret
+          <lb ed="#L" n="21"/>conclusioni ad quam discurrit, et 
+          immo<lb ed="#L" break="no" n="22"/>biliter, quia necessario et per modum 
+          na<lb ed="#L" break="no" n="23"/>ture, sicut intellectus Angeli, et sic 
+          vide<lb ed="#L" break="no" n="24"/>tur sequi quod ita voluntas hominis in 
+          elici<lb ed="#L" break="no" n="25"/>endo immobiliter se habeat, cum 
+          sequa<lb ed="#L" break="no" n="26"/>tur apprehensionem immobilem, sicut et
+          <lb ed="#L" n="27"/>voluntas Angeli.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e1203">
+          <lb ed="#L" n="28"/>(c) Quod etiam negatur ab Angelis, etc.
+          <lb ed="#L" n="29"/>Sequitur in procmio primi libri quest.
+          <lb ed="#L" n="30"/>illa : Utrum Theologia sit scientia. 
+          Di<lb ed="#L" break="no" n="31"/>ctum est enim ibi, quod discursus non
+          <lb ed="#L" n="32"/>requirit necessario successionem, sive
+          <lb ed="#L" n="33"/>ordinem temporis, sed sufficit ordo 
+          na<lb ed="#L" break="no" n="34"/>ture, vide qua ibi exposui.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d7q1-p5">-->
+        <p xml:id="mm30o9-d1e1898-d1e1224">
+          <lb ed="#L" n="61" type="fixed=384"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e1229">
+          <lb ed="#L" n="62"/>(a) Contra secundam viam arguitur
+          <lb ed="#L" n="63"/>specialiter. Hic Doctor arguit contra 
+          opi<lb ed="#L" break="no" n="64"/>nionem Henrici, et primo contra illud
+          <lb ed="#L" n="65"/>quod dicit, quod voluntas perfecta, 
+          cu<lb ed="#L" break="no" n="66"/>jusmodi est separata vel existens in 
+          cor<lb ed="#L" break="no" n="67"/>pore incorruptibili, immobiliter se 
+          immer<lb ed="#L" break="no" n="68"/>git in objecto, ita ut ab illo resilire non
+          <lb ed="#L" n="69"/>possit, etc. Et Doctor intendit probare
+          <lb ed="#L" n="70"/>oppositum hic, quia quanto voluntas est
+          <lb ed="#L" n="71"/>perfectior, tanto magis libere agit, etiam
+          <lb ed="#L" n="72"/>ponendo quod agat omni conatu ; et arguit
+          <lb ed="#L" n="73"/>sic, quia sicut agens per modum natur:
+          <lb ed="#L" n="74"/>sic de necessitate agit, quod non est in
+          <lb ed="#L" n="75"/>potestate ejus modus agendi, puta 
+          inten<lb ed="#L" break="no" n="76"/>se vel remisse, cum agat omni conatu,
+          <lb ed="#L" n="77"/>ita agens liberum sic libere agit, quod
+          <lb ed="#L" n="78"/>non tantum in potestate ejus est actio 
+          li<lb ed="#L" break="no" n="79"/>bera, sed etiam modus agendi, quia potest
+          <lb ed="#L" n="80"/>intense et remisse agere, ergo 
+          quantocum<lb ed="#L" break="no" n="81"/>que voluntas est perfecta, tanto ejus actio
+          <lb ed="#L" n="82"/>est in potestate ejus; et posito quod velit
+          <lb ed="#L" n="83"/>aliquod objectum omni conatu, adhuc
+          <lb ed="#L" n="84"/>libere vult illud, et nullo modo de 
+          neces<lb ed="#L" break="no" n="85"/>sitate. Et addit Doctor quod voluntas ex
+          <lb ed="#L" n="86"/>perfecta et absoluta ejus libertate posset
+          <pb ed="#L" n="385"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>non sic ferri in illud objectum, ut supra
+          <lb ed="#L" n="2"/>patuit n primo, dist. 4. quaest. 4. vide
+          <lb ed="#L" n="3"/>ibi multa bona.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e1297">
+          <lb ed="#L" n="4"/>In ista littera Doctoris occurrunt aliqua
+          <lb ed="#L" n="5"/>dubia, primo, contra hoc quod dicit, quod
+          <lb ed="#L" n="6"/>sicut. actio est in potestate voluntatis, ita
+          <lb ed="#L" n="7"/>et modus agendi. Hoc enim videtur 
+          con<lb ed="#L" break="no" n="8"/>tradicere sibi ipsi, nam in primo, dist. 4.
+          <lb ed="#L" n="9"/>qu'est. 2. expresse dicit quod licet 
+          volun<lb ed="#L" break="no" n="10"/>tas possit habere actum absolute, sive
+          <lb ed="#L" n="11"/>elicere, sive non elicere, non tamen est
+          <lb ed="#L" n="12"/>in potestate sua sic vel sic elicere circa
+          <lb ed="#L" n="13"/>quodcumque objectum.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e1321">
+          <lb ed="#L" n="14"/>Secundo occurrit dubium in hoc quod
+          <lb ed="#L" n="15"/>dicit, quod voluntas quanto est perfectior
+          <lb ed="#L" n="16"/>magis sibi ipsi dominatur. In hoc 
+          vide<lb ed="#L" break="no" n="17"/>tur sibi contradicere, quia ipse probat in
+          <lb ed="#L" n="18"/>primo, dist. 10. quod voluntas divina ex
+          <lb ed="#L" n="19"/>sua infinita petfectione necessario vult
+          <lb ed="#L" n="20"/>essentiam divinam.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e1339">
+          <lb ed="#L" n="21"/>Respondeo ad primum dubium, et dico
+          <lb ed="#L" n="22"/>quod non est ibi contradictio ; tum quia
+          <lb ed="#L" n="23"/>hie accipit. modum agendi pro intense
+          <lb ed="#L" n="24"/>vel remisse agere, ita quod sicut est in
+          <lb ed="#L" n="25"/>potestate voluntatis velle aliquid, ita est
+          <lb ed="#L" n="26"/>in potestate ejus velle intense vel remisse
+          <lb ed="#L" n="27"/>quod non convenit agenti naturali.
+          <lb ed="#L" n="28"/>In distinctione autem prima primi, non
+          <lb ed="#L" n="29"/>negat quin in potestate voluntatis sit velle
+          <lb ed="#L" n="30"/>et modus volendi, scilicet intense vel 
+          re<lb ed="#L" break="no" n="31"/>misse, concurrente semper influentia 
+          ge<lb ed="#L" break="no" n="32"/>nerali prime causs, sed dicit quod non
+          <lb ed="#L" n="33"/>est in potestate ejus talis modus volendi.
+          <lb ed="#L" n="34"/>ut posse frui, puta essentia clare visa non
+          <lb ed="#L" n="35"/>fruendo personis, vel frui una persona
+          <lb ed="#L" n="36"/>clare visa non fruendo alia. Dico secundo,
+          <lb ed="#L" n="37"/>quod modus volendi est duplex, quidam
+          <lb ed="#L" n="38"/>est in potestate voluntatis, qui 
+          consequi<lb ed="#L" break="no" n="39"/>tur operationem ejus. Alius non est in
+          <lb ed="#L" n="40"/>potestate ejus, quia talis modus ex se non
+          <lb ed="#L" n="41"/>sequitur operationem talem, nisi 
+          inquan<lb ed="#L" break="no" n="42"/>tum agens superius sic vel sic refert
+          <lb ed="#L" n="43"/>actum illum. De primo modo loquitur
+          <lb ed="#L" n="44"/>Doctor, non autem de secundo. Et de hoc
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>vide in primo, dist. 4. quest. 9. art.
+          <lb ed="#L" n="46"/>ult. et vide quae ibi notavi.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e1400">
+          <lb ed="#L" n="47"/>Ad secundum dico, quod voluntas 
+          di<lb ed="#L" break="no" n="48"/>vina respectu cujuscumque objecti, 
+          sem<lb ed="#L" break="no" n="49"/>per libere agit, et quanto perfectior, tanto
+          <lb ed="#L" n="50"/>magis libere agit. Sed quod velit essen -
+          <lb ed="#L" n="51"/>tiam divinam necessario, licet libere, hoc
+          <lb ed="#L" n="52"/>est ex infinita perfectione tam voluntatis
+          <lb ed="#L" n="53"/>divine quam essentiae, sed respectu 
+          cu<lb ed="#L" break="no" n="54"/>juscumque objecti mere contingenter
+          <lb ed="#L" n="55"/>agit. Et de hoc vide Doctorem in primo,
+          <lb ed="#L" n="56"/>dist. 10. et vide quae notavi in 4. d. 4.
+          <lb ed="#L" n="57"/>q. 2. contra opinionem Occham.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e1427">
+          <lb ed="#L" n="58"/>(h) Praeterea eodem principio, etc.1
+          <lb ed="#L" n="59"/>Exemplum ponitur, quomodo eodem 
+          prin<lb ed="#L" break="no" n="60"/>cipio aliquid movetur in terminum, et
+          <lb ed="#L" n="61"/>quiescit in termino, nam gravitas in 
+          lapi<lb ed="#L" break="no" n="62"/>de est ratio tendendi sive movendi 
+          lapi<lb ed="#L" break="no" n="63"/>dem ad centrum, et. etiam est. ratio 
+          quie<lb ed="#L" break="no" n="64"/>scendi in illo, quia gravitas illa est causa
+          <lb ed="#L" n="65"/>motus ad centrum, et quietis in illo, ut
+          <lb ed="#L" n="66"/>supra patuit 7n (isto 9. distinct. 9.
+          <lb ed="#L" n="67"/>qu'est. 10. Et sicut gravitas est causa
+          <lb ed="#L" n="68"/>movendi ad centrum, ita est causa 
+          neces<lb ed="#L" break="no" n="69"/>saria quiescendi in illo, sic. voluntas ex
+          <lb ed="#L" n="70"/>quo est causa libere volendi objecti, ita
+          <lb ed="#L" n="71"/>est causa libere quiescendi in illo, ita
+          <lb ed="#L" n="72"/>quod sicut libere vult objectum, sic libere
+          <lb ed="#L" n="73"/>quiescit in illo.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e1464">
+          <lb ed="#L" n="74"/>Sed occurrit aliqualis difficultas, quia D!
+          <lb ed="#L" n="75"/>videtur sequi quod voluntas damnati 
+          libe<lb ed="#L" break="no" n="76"/>re et contingenter continuet malitiam ;
+          <lb ed="#L" n="77"/>patet, quia ex quo in: via libere vult 
+          ma<lb ed="#L" break="no" n="78"/>litiam, ita et. in termino, per te, libere
+          <lb ed="#L" n="79"/>quiescit in illa, et sic. videtur sequi quod
+          <lb ed="#L" n="80"/>possit resilire ab illa.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e1482">
+          <lb ed="#L" n="81"/>Respondeo, quod sicut in via libere ne
+          <lb ed="#L" n="82"/>vult actum substratum in quo fundatur
+          <lb ed="#L" n="83"/>deformitas, concurrente tamen influentia
+          <lb ed="#L" n="84"/>generali voluntatis divinae, ita in termino
+          <lb ed="#L" n="85"/>sic libere quiesceret, quod posset resilire
+          <lb ed="#L" n="86"/>ab illa, si influentia causae primae 
+          concur<lb ed="#L" break="no" n="87"/>reret ad talem resilitionem. De hoc satis
+          <lb ed="#L" n="88"/>dixi in is io 2. dist. B. et clarius vide
+          <pb ed="#L" n="386"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>quae dicit Doctor in 4. dist. 44. quest. 2.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e1508">
+          <lb ed="#L" n="2"/>(h) Praeterea, sicut tactum fuit. 
+          su<lb ed="#L" break="no" n="3"/>pra, etc. Patet, quia demerentes usque ad
+          <lb ed="#L" n="4"/>ultimum instans mortis de necessitate
+          <lb ed="#L" n="5"/>puniuntur, et in illo ultimo instanti sunt
+          <lb ed="#L" n="6"/>in termino, ut supra patuit, dist. A. Tum
+          <lb ed="#L" n="7"/>etiam, quia in illo ultimo instanti in quo
+          <lb ed="#L" n="8"/>sunt in termino, sicut non possunt elicere
+          <lb ed="#L" n="9"/>actum meritorium, ita nec actum 
+          deme<lb ed="#L" break="no" n="10"/>ritorium. Si ergo in illo ultimo instanti
+          <lb ed="#L" n="11"/>voluntas est obstinata, hoc erit per aliquem
+          <lb ed="#L" n="12"/>actum quae m eliciebat dum esset in via
+          <lb ed="#L" n="13"/>;mpingendo se in synteresim. Sed hoc
+          <lb ed="#L" n="14"/>estfalsum, tum quia viator, et per 
+          con<lb ed="#L" break="no" n="15"/>sequens non obstinatus ; tum quia potest
+          <lb ed="#L" n="16"/>aliquis ex minori conatu, etc. et per 
+          con<lb ed="#L" break="no" n="17"/>sequens per nullum actum quem eliciebat
+          <lb ed="#L" n="18"/>in via potest se reddere obstinatum.
+          <lb ed="#L" n="19"/>Reliqua patent.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d7q1-p6">-->
+        <p xml:id="mm30o9-d1e1898-d1e1552">
+          <lb ed="#L" n="50" type="fixed=388"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e1558">
+          <lb ed="#L" n="51"/>(a) Ad solutionem istius questionis.
+          <lb ed="#L" n="52"/>Pro clariori intelligentia primo praemitto
+          <lb ed="#L" n="53"/>unum. Secundo exponam litteram 
+          Docto<lb ed="#L" break="no" n="54"/>ris incipiendo ibi : prima competit
+          <lb ed="#L" n="55"/>volitioni, etc. Quantum ad primum, dico, h
+          <lb ed="#L" n="56"/>quod Doctor hic loquitur de bonitate
+          <lb ed="#L" n="57"/>actus, quae competit actui primo et per se,
+          <lb ed="#L" n="58"/>et non ex participatione tantum, nam
+          <lb ed="#L" n="59"/>solus actus voluntatis elicitus potest dici
+          <lb ed="#L" n="60"/>primo et per se bonus moraliter; actus
+          <lb ed="#L" n="61"/>vero alterius potentis participative 
+          tan<lb ed="#L" break="no" n="62"/>tum potest dici bonus moraliter pro
+          <lb ed="#L" n="63"/>quanto imperatur a voluntate conformiter
+          <lb ed="#L" n="64"/>se habente dictamini, ut patet a Doctore
+          <lb ed="#L" n="65"/>in quest. ult. prolog. et dist. Vi. primi, :
+          <lb ed="#L" n="66"/>et in isto 2. dist. 42. et in 3. dist. 34. et
+          <lb ed="#L" n="67"/>et in. 4. dist. 14. et in quodlib. quest. Vi.
+          <lb ed="#L" n="68"/>et! A8. Quantum ad secundum 
+          declaran<lb ed="#L" break="no" n="69"/>dum, dicit Doctor quod prima bonitas
+          <lb ed="#L" n="70"/>moralis, quae convenit actui elicito 
+          volun<lb ed="#L" break="no" n="71"/>tatis, quae est bonitas ex genere, ex hoc
+          <lb ed="#L" n="72"/>dicitur bonitas ex genere, quia transit 
+          su<lb ed="#L" break="no" n="73"/>per objectum conveniens secundum 
+          re<lb ed="#L" break="no" n="74"/>ctum dictamen rationis; exemplum, vos
+          <lb ed="#L" n="75"/>luntas potest diligere bonum dupliciter,
+          <lb ed="#L" n="76"/>primo, quia diligit illud ut objectum sibi
+          <lb ed="#L" n="77"/>conveniens ex natura rei, et ad quod 
+          na<lb ed="#L" break="no" n="78"/>turaliter inclinatur talis dilectio, ut sic,
+          <lb ed="#L" n="79"/>non potest dici bona ex genere. sive ex
+          <lb ed="#L" n="80"/>circumstantia generis, quia sic visio,
+          <lb ed="#L" n="81"/>quae transit super objectum visibile sibi
+          <lb ed="#L" n="82"/>conveniens ex natura rei, posset dici 
+          bo<lb ed="#L" break="no" n="83"/>num moraliter ex circumstantia generis,
+          <lb ed="#L" n="84"/>quod tamen est falsum, cum nullus actus
+          <lb ed="#L" n="85"/>possit censeri bonus moraliter, loquendo
+          <lb ed="#L" n="86"/>etiam de circumstantiis ex genere, nisi
+          <pb ed="#L" n="389"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>conformiter eliciatur rationi recte 
+          dictan<lb ed="#L" break="no" n="2"/>ti de tali circumstantia- ex genere, ut
+          <lb ed="#L" n="3"/>supra patet in prologo, quest. ultima.
+          <lb ed="#L" n="4"/>Secundo, voluntas potest diligere bonum,
+          <lb ed="#L" n="5"/>recta a ratione dictante, id est, si intelligo
+          <lb ed="#L" n="6"/>aliquod bonum, quod vere est diligibile,
+          <lb ed="#L" n="7"/>hec cognitio dictat voluntati ut diligat
+          <lb ed="#L" n="8"/>illud, tunc si voluntas conformiter tali 
+          co<lb ed="#L" break="no" n="9"/>gnitioni sive rationi eliciat actum 
+          aman<lb ed="#L" break="no" n="10"/>di, talis actus erit bonus ex genere, cum
+          <lb ed="#L" n="11"/>transeat super objectum conveniens 
+          se<lb ed="#L" break="no" n="12"/>cundum dictamen rationis. Si vero 
+          volun<lb ed="#L" break="no" n="13"/>tas odiret illud objectum, quod est vere
+          <lb ed="#L" n="14"/>diligibile secundum dictamen rationis,
+          <lb ed="#L" n="15"/>tunc talis actus odii diceretur malus ex
+          <lb ed="#L" n="16"/>genere, ex hoc quod transit super 
+          obje<lb ed="#L" break="no" n="17"/>ctum disconveniens secundum dictamen
+          <lb ed="#L" n="18"/>rationis. Si vero actus odii transiret 
+          su<lb ed="#L" break="no" n="19"/>per malum, et hoc secundum dictamen
+          <lb ed="#L" n="20"/>rationis, talis actus esset bonus ex 
+          gene<lb ed="#L" break="no" n="21"/>re, quia illud objectum secundum 
+          dicta<lb ed="#L" break="no" n="22"/>men rationis est vere odibile.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e1691">
+          <lb ed="#L" n="23"/>(b) Et hoc est quod dicit Doctor, 
+          pri<lb ed="#L" break="no" n="24"/>ma competit volitioni, etc. Et addit 
+          pa<lb ed="#L" break="no" n="25"/>rum infra, quod Acc bonitas prima, que
+          <lb ed="#L" n="26"/>est ex genere solum, est quasi materialis
+          <lb ed="#L" n="27"/>respectu omnis boni ulterioris in. genere
+          <lb ed="#L" n="28"/>moris. Nam actus volendi potest ordinate
+          <lb ed="#L" n="29"/>habere plures rationes bonitatis, ita quod
+          <lb ed="#L" n="30"/>prima est quasi materialis respectu 
+          secun<lb ed="#L" break="no" n="31"/>dae, et secunda respectu terticte ; nam 
+          pri<lb ed="#L" break="no" n="32"/>ma bonitas, quae est bonitas entitativa,
+          <lb ed="#L" n="33"/>est in potentia ad bonitatem ex genere,
+          <lb ed="#L" n="34"/>ut quando actus volendi habet illam
+          <lb ed="#L" n="35"/>eireumstantiam, quae est transire super
+          <lb ed="#L" n="36"/>objectum conveniens, secundum dictamen
+          <lb ed="#L" n="37"/>rationis. Secundo idem velle cum ista
+          <lb ed="#L" n="38"/>prima circumstantia est in potentia, et
+          <lb ed="#L" n="39"/>quasi materia subjectiva respectu aliarum
+          <lb ed="#L" n="40"/>cireumstantiarum, inter quas prima erit
+          <lb ed="#L" n="41"/>cireumstantia cause, supple, quod ille
+          <lb ed="#L" n="42"/>actus volendi transeat super objectum
+          <lb ed="#L" n="43"/>conveniens mere libere, id est, quod 
+          vo<lb ed="#L" break="no" n="44"/>luntas velit illud obiectum libere: secun-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>da est circumstantia finis, et sic. de aliis,
+          <lb ed="#L" n="46"/>de quibus infra patebit in isto secundo.
+          <lb ed="#L" n="47"/>dist. 40.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e1750">
+          <lb ed="#L" n="48"/>(c) Secunda. bonitas convenit 
+          volitio<lb ed="#L" break="no" n="49"/>ni, etc. Quomodo hoc intelligatur, vide
+          <lb ed="#L" n="50"/>quae prolixe dicit Doctor n primo,
+          <lb ed="#L" n="51"/>dist. 11. de habitu morali, et ea ibi
+          <lb ed="#L" n="52"/>qua diffuse exposui.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e1763">
+          <lb ed="#L" n="53"/>(d) Tertia bonitas convenit actui ea
+          <lb ed="#L" n="54"/>hoc, quod supposita duplici bonitate,
+          <lb ed="#L" n="55"/>scilicet ex genere et perfecte morali,
+          <lb ed="#L" n="56"/>ipsa elicitur conformiter principio 
+          me<lb ed="#L" break="no" n="57"/>rendi, quod. est. gratia et charitas, sive
+          <lb ed="#L" n="58"/>secundum. inclinationem charitatis. 
+          Ac<lb ed="#L" break="no" n="59"/>tus enim meritorius, loquendo semper de
+          <lb ed="#L" n="60"/>potentia Dei ordinata ex hoc solo dicitur
+          <lb ed="#L" n="61"/>meritorius, quia elicitur a voluntate et
+          <lb ed="#L" n="62"/>charitate, vel ut causa partiali 
+          concur<lb ed="#L" break="no" n="63"/>rente, vel saltem inclinante voluntatem ad
+          <lb ed="#L" n="64"/>hujusmodi acetum  eliciendum. De quo
+          <lb ed="#L" n="65"/>actu meritorio, vide Doctorem in primo,
+          <lb ed="#L" n="66"/>dist. A1. et multa quae ibi exposui.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e1796">
+          <lb ed="#L" n="67"/>(e) Quaelibet istarum  malitiarum 
+          po<lb ed="#L" break="no" n="68"/>lest accipi, etc. Accipitur enim malitia
+          <lb ed="#L" n="69"/>privative ex hoc quod privat tantum
+          <lb ed="#L" n="70"/>aliquam circumstantiam ; exemplum, cum
+          <lb ed="#L" n="71"/>quis dat eleemosynam pauperi, non 
+          consi<lb ed="#L" break="no" n="72"/>derando finem, nec alias circumstantias,
+          <lb ed="#L" n="73"/>tunc illa operatio est mala privative,
+          <lb ed="#L" n="74"/>id est, quod non habet actu omnes 
+          cir<lb ed="#L" break="no" n="75"/>cumstantias facientes illam operationem
+          <lb ed="#L" n="76"/>perfecte moralem. Malitia vero contrarie
+          <lb ed="#L" n="77"/>non tantum dicit privationem alicujus
+          <lb ed="#L" n="78"/>cireumstantivte requisit: ad actum 
+          per<lb ed="#L" break="no" n="79"/>fecte moralem, sed etiam ponit 
+          circum<lb ed="#L" break="no" n="80"/>stantiam repugnantem circumstantiae 
+          re<lb ed="#L" break="no" n="81"/>quisittae ad actum perfecte moralem, ut
+          <lb ed="#L" n="82"/>cum quis dat eleemosynam pauperi 
+          prop<lb ed="#L" break="no" n="83"/>ter libidinem, seu propter inanem 
+          elo<lb ed="#L" break="no" n="84"/>riam, talis enim circumstantia repugnat
+          <lb ed="#L" n="85"/>circumstanticee debiti finis.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e1840">
+          <lb ed="#L" n="86"/>(f) Sed malitia ex genere contrarie 
+          ac<lb ed="#L" break="no" n="87"/>cepta, etc. Vult dicere Doctor quod 
+          mali<lb ed="#L" break="no" n="88"/>tla ex eenere privative et contrarie ex
+          <pb ed="#L" n="390"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>hoc convertuntur, quia non potest dari
+          <lb ed="#L" n="2"/>aliquis actus malus ex genere, quin 
+          ne<lb ed="#L" break="no" n="3"/>cessario transeat super objectum 
+          discon<lb ed="#L" break="no" n="4"/>veniens, et ut sic transit, necessario 
+          pri<lb ed="#L" break="no" n="5"/>vatur objecto convenienti; et similiter
+          <lb ed="#L" n="6"/>non potest esse actus malus ex genere,
+          <lb ed="#L" n="7"/>qui careat objecto convenienti, quin 
+          ne<lb ed="#L" break="no" n="8"/>cessario transeat super objectum 
+          discon<lb ed="#L" break="no" n="9"/>veniens. Exemplum, odire Deum est
+          <lb ed="#L" n="10"/>actus malus ex genere, quia transit super
+          <lb ed="#L" n="11"/>objectum disconveniens, et ut sic transit,
+          <lb ed="#L" n="12"/>privatur objecto convenienti, puta malo,
+          <lb ed="#L" n="13"/>quod est, objectum conveniens odii.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e1883">
+          <lb ed="#L" n="14"/>Adverte, quod cum dicit ibi : actus non
+          <lb ed="#L" n="15"/>potest esse quin transeat super objecto, etc.
+          <lb ed="#L" n="16"/>hoc non debet absolute intelligi, quia
+          <lb ed="#L" n="17"/>tunc sibi contradiceret. Vult enim in
+          <lb ed="#L" n="18"/>quodlib. quest. 14. quod possit dari actus
+          <lb ed="#L" n="19"/>absolute sumptus sine relatione ad 
+          obje<lb ed="#L" break="no" n="20"/>ctum ; sed debet sic intelligi, quod non
+          <lb ed="#L" n="21"/>potest dari actus voluntatis, quin transeat
+          <lb ed="#L" n="22"/>super objectum, loquendo tantum de 
+          po<lb ed="#L" break="no" n="23"/>tentia creaturae, vel quod non possit dari
+          <lb ed="#L" n="24"/>actus malus ex genere, vel bonus ex 
+          ge<lb ed="#L" break="no" n="25"/>nere, quin necessario transeat super 
+          ob<lb ed="#L" break="no" n="26"/>jectum ^ conveniens vel disconveniens
+          <lb ed="#L" n="27"/>actui.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e1916">
+          <lb ed="#L" n="28"/>(g) Malitia tertio modo contrarie et
+          <lb ed="#L" n="29"/>privative accepta non — convertuntur,
+          <lb ed="#L" n="30"/>patet, quia malitia hoc tertio modo 
+          con<lb ed="#L" break="no" n="31"/>trarie accepta, est actus demeritorius, ut
+          <lb ed="#L" n="32"/>cum quis dat. eleemosynam pauperi 
+          sim<lb ed="#L" break="no" n="33"/>pliciter propter libidinem, nam hoc est
+          <lb ed="#L" n="34"/>demeritorium, et est malitia quae contrarie
+          <lb ed="#L" n="35"/>opponitur bonitati morali secundo modo
+          <lb ed="#L" n="36"/>accepto, et etiam bonitati tertio modo 
+          ac<lb ed="#L" break="no" n="37"/>ceptae, scilicet. bonitati meritorice. Malitia
+          <lb ed="#L" n="38"/>vero privative accepta tertio modo est
+          <lb ed="#L" n="39"/>illa, quae non est meritoria nec. 
+          demeri<lb ed="#L" break="no" n="40"/>toria, et est ibi sola privatio, vel 
+          gra<lb ed="#L" break="no" n="41"/>tiae, qua est principium merendi 
+          incli<lb ed="#L" break="no" n="42"/>nationis gratiae ad talem actum.  
+          Exem<lb ed="#L" break="no" n="43"/>plum, si Franciscus sit in puris 
+          natura<lb ed="#L" break="no" n="44"/>libus, ita quod nec in eratia, nec in. pec-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>cato posset elicere aliquem actum perfecte
+          <lb ed="#L" n="46"/>circumstantionatum omni circumstantia
+          <lb ed="#L" n="47"/>morali, ille actus nec esset meritorius
+          <lb ed="#L" n="48"/>vitae aeterna, patet, quia non esset a
+          <lb ed="#L" n="49"/>gratia, nec demeritorius, cum sit 
+          per<lb ed="#L" break="no" n="50"/>fecte moralis; ergo erit actus neuter 
+          in<lb ed="#L" break="no" n="51"/>ter actum meritorium et demeritorium,
+          <lb ed="#L" n="52"/>quia nec meritorius nec demeritorius.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e1975">
+          <lb ed="#L" n="53"/>Similiter si aliquis esset in peccato
+          <lb ed="#L" n="54"/>mortali, hoc est, obligatus ad poenam
+          <lb ed="#L" n="55"/>eternam, et daret eleemosynam pauperi
+          <lb ed="#L" n="56"/>amore Dei, et.cum aliis circumstantiis
+          <lb ed="#L" n="57"/>requisitis ad actum perfecte moralem,
+          <lb ed="#L" n="58"/>ille actus non esset meritorius, cum non
+          <lb ed="#L" n="59"/>sit a gratia; nec demeritorius, cum non
+          <lb ed="#L" n="60"/>sit contra aliquod pracceptum, nec juris
+          <lb ed="#L" n="61"/>divini, nec nature, ergo actus neuter. 
+          Si<lb ed="#L" break="no" n="62"/>militer si existens in gratia daret 
+          eleemo<lb ed="#L" break="no" n="63"/>synam pauperi cum omni circumstantia
+          <lb ed="#L" n="64"/>requisita ad actum moralem, esset tamen
+          <lb ed="#L" n="65"/>ibi privatio inclinationis grativ, id est,
+          <lb ed="#L" n="66"/>quod si gratia non inclinaret ad hoc, ille
+          <lb ed="#L" n="67"/>actus non esset meritorius, cum actus 
+          me<lb ed="#L" break="no" n="68"/>ritorius sit principaliter a. gratia, vel ut
+          <lb ed="#L" n="69"/>inclinante voluntatem ad hujusmodi 
+          ac<lb ed="#L" break="no" n="70"/>tum, vel ut a causa partiali concurrente
+          <lb ed="#L" n="71"/>principali, ut patet a Doctore in 1. dist 17.
+          <lb ed="#L" n="72"/>nec etiam esset demeritorius, quia actus
+          <lb ed="#L" n="73"/>demeritorius de potentia ordinata non
+          <lb ed="#L" n="74"/>potest stare cum gratia; ergo actus 
+          neu<lb ed="#L" break="no" n="75"/>ter, et sic potest dari aliquis actus 
+          per<lb ed="#L" break="no" n="76"/>fecte circumstantionatus omni 
+          circum<lb ed="#L" break="no" n="77"/>stantia morali, qui tamen nec esset 
+          me<lb ed="#L" break="no" n="78"/>ritorius, nec demeritorius, sed simpliciter
+          <lb ed="#L" n="79"/>neuter, licet aliqui nitantur improbare
+          <lb ed="#L" n="80"/>Doctorem de actu neutro, ut <name xml:id="mm30o9-d1e1898-Nd1e2037">Gregorius
+            <lb ed="#L" n="81"/>de Arimino</name>, et quidam alii. Sed vide quie
+          <lb ed="#L" n="82"/>notavi in primo, dist. 1. quest. 3. con-
+          <lb ed="#L" n="83"/>tra Gregorium de Arimino.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e2048">
+          <lb ed="#L" n="84"/>(h) Forte tamen in statu isto, etc. Es
+          <lb ed="#L" n="85"/>enim credendum, quod quando voluntas
+          <lb ed="#L" n="86"/>informata charitate elicit aliquem acetum
+          <lb ed="#L" n="87"/>conformiter dictamini recto, et hoc natu
+          <lb ed="#L" n="88"/>rali vel fidei. quod charitas in. tali volun:
+          <pb ed="#L" n="391"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>tate existens (quae est principalis ratic
+          <lb ed="#L" n="2"/>merendi) semper concurrat ad hujusmodi
+          <lb ed="#L" n="3"/>actum, et sic omnis actus perfecte 
+          mora<lb ed="#L" break="no" n="4"/>lis elicitus a. voluntate, charitate 
+          informa<lb ed="#L" break="no" n="5"/>ta, est meritorius vitae aeternc; et talis
+          <lb ed="#L" n="6"/>actus meritorius semper est ex 
+          deliberati<lb ed="#L" break="no" n="7"/>one, qua: supponit in intellectu perfectum
+          <lb ed="#L" n="8"/>dictamen, cui conformiter elicitur ; nec 
+          cre<lb ed="#L" break="no" n="9"/>do, ut aliqui Praeedicatores minus quam 
+          do<lb ed="#L" break="no" n="10"/>cte, qui asserunt, quod quando aliquis est
+          <lb ed="#L" n="11"/>in charitate, quod sive dormiat, sive 
+          co<lb ed="#L" break="no" n="12"/>medat, sive aliquid aliud faciat, quod 
+          sem<lb ed="#L" break="no" n="13"/>per mcreatur. Actus enim meritorius, ut
+          <lb ed="#L" n="14"/>dicit Doctor Aic, et in quodlib. quest. 48.
+          <lb ed="#L" n="15"/>preesupponit actum perfecte moralem, qui
+          <lb ed="#L" n="16"/>actus praesupponit dictamen practicum,
+          <lb ed="#L" n="17"/>cui conformetur, bene verum est, quod
+          <lb ed="#L" n="18"/>quando aliquis actus, licet non actus 
+          cir<lb ed="#L" break="no" n="19"/>cumstantionatus omni circumstantia, ut
+          <lb ed="#L" n="20"/>puta, cum quis vadit ad officium, et actu
+          <lb ed="#L" n="21"/>non dicit illud propter Deum, quod talis
+          <lb ed="#L" n="22"/>actus erit meritorius, si eliciatur in 
+          virtu<lb ed="#L" break="no" n="23"/>te alterius actus perfecte 
+          circumstantiona<lb ed="#L" break="no" n="24"/>ti, ut cum intrat ecclesiam, et ratio dictat,
+          <lb ed="#L" n="25"/>ut voluntas velit dicere officium amore
+          <lb ed="#L" n="26"/>Dei simpliciter, et cum omni alia 
+          circum<lb ed="#L" break="no" n="27"/>stantia, tunc voluntas si determinat sic
+          <lb ed="#L" n="28"/>dicere, ut ratio dictat, talis determinatio
+          <lb ed="#L" n="29"/>est meritoria, et officium actu celebratum,
+          <lb ed="#L" n="30"/>licet tunc non sit in memoria finis 
+          pro<lb ed="#L" break="no" n="31"/>pter quem celebretur, de hoc vide n
+          <lb ed="#L" n="32"/>quarto.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d7q1-p7">-->
+        <p xml:id="mm30o9-d1e1898-d1e2137">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="43" type="fixed=394"/>COMMENTARIUS,
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e2145">
+          <lb ed="#L" n="44"/>(a) De secundo dico. Nunc Doctor 
+          in<lb ed="#L" break="no" n="45"/>tendit declarare secundum principale,
+          <lb ed="#L" n="46"/>scilicet quae bonitas possit inesse 
+          volitio<lb ed="#L" break="no" n="47"/>ni Angeli damnati, vel si aliqua malitia
+          <lb ed="#L" n="48"/>necessario insit. Et primo dicit, quod
+          <lb ed="#L" n="49"/>non est dubium quin Angelus malus 
+          pos<lb ed="#L" break="no" n="50"/>sit habere, et habeat multas volitiones
+          <lb ed="#L" n="51"/>transeuntes super objectum conveniens
+          <lb ed="#L" n="52"/>actui, puta amando se, odiendo poenam,
+          <lb ed="#L" n="53"/>et sic de aliis, et sic. habere multas 
+          voli<lb ed="#L" break="no" n="54"/>tiones bonas ex genere.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e2171">
+          <lb ed="#L" n="55"/>(b) Sed de aliis duobus modis 
+          bonita<lb ed="#L" break="no" n="56"/>tis, etc, Dicit duas conclusiones :
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e2178">
+          <lb ed="#L" n="57"/>Prima, quod non potest habere 
+          volitio<lb ed="#L" break="no" n="58"/>nem meritoriam in sensu. compositionis,
+          <lb ed="#L" n="59"/>quia ista non stant simul quod sit malus,
+          <lb ed="#L" n="60"/>et habeat volitionem  meritoriam, quia
+          <lb ed="#L" n="61"/>tunc simul esset in merito et demerito,
+          <lb ed="#L" n="62"/>vel simul esset in merito, et in poena
+          <lb ed="#L" n="63"/>correspondente, quae sunt absurda.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e2196">
+          <lb ed="#L" n="64"/>Secunda conclusio est de sensu 
+          divi<lb ed="#L" break="no" n="65"/>sionis, an videlicet Angelus malus possit
+          <lb ed="#L" n="66"/>habere volitionem meritoriam in sensu
+          <lb ed="#L" n="67"/>divisionis, sicut dicimus, an album 
+          pos<lb ed="#L" break="no" n="68"/>sit esse nigrum ; et dicit quod in tali
+          <lb ed="#L" n="69"/>sensu divisionis potest ibi negari, aut 
+          po<lb ed="#L" break="no" n="70"/>tentia Logica, aut realis. Et quid sit 
+          po<lb ed="#L" break="no" n="71"/>tentia Logica, vide in primo, dist. 9.
+          <lb ed="#L" n="72"/>parte 2. quest. 3. resp. ad principalia
+          <lb ed="#L" n="73"/>argwunenta, et clarius dist. 1. In 
+          proposi<lb ed="#L" break="no" n="74"/>to cum quaeritur, an Angelus malus 
+          pos<lb ed="#L" break="no" n="75"/>sit habere nolitionem meritoriam ? sensus
+          <lb ed="#L" n="76"/>esset : An Angelo malo simpliciter 
+          repu<lb ed="#L" break="no" n="77"/>gnat, posse habere volitionem  
+          merito<lb ed="#L" break="no" n="78"/>riam. Sequitur in littera : si est potentia
+          <lb ed="#L" n="79"/>realis, aut illa quae dicit rationem 
+          prin<lb ed="#L" break="no" n="80"/>cipii, etc. De istis potentiis patebit infra
+          <lb ed="#L" n="81"/>dist. 16. et satis dictum est in primo,
+          <lb ed="#L" n="82"/>dist. 7.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e2240">
+          <pb ed="#L" n="395"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>(c) De potentia igitur reali. videndum
+          <lb ed="#L" n="2"/>est, etc. Hic Doctor dicit duo :
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e2251">
+          <lb ed="#L" n="3"/>Primo, quod loquendo de principio 
+          rea<lb ed="#L" break="no" n="4"/>li passivo sive receptivo, Angelus malus
+          <lb ed="#L" n="5"/>habet hujusmodi principium respectu
+          <lb ed="#L" n="6"/>actus meritorii, patet, quia semper manet
+          <lb ed="#L" n="7"/>eadem voluntas, quae ex se est receptiva,
+          <lb ed="#L" n="8"/>non tantum actus meritorii, sed etiam
+          <lb ed="#L" n="9"/>premii correspondentis actui meritorio.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e2270">
+          <lb ed="#L" n="10"/>Secundo dicit, quod loquendo de 
+          prin<lb ed="#L" break="no" n="11"/>cipio reali activo, Angelus malus habet
+          <lb ed="#L" n="12"/>principium reale activum actus meritorii,
+          <lb ed="#L" n="13"/>loquendo tantum de activo partiali. 
+          Acti<lb ed="#L" break="no" n="14"/>vum enim totale actus meritori est 
+          vo<lb ed="#L" break="no" n="15"/>luntas et gratia, ut supra patet in primo,
+          <lb ed="#L" n="16"/>dist, A1. modo Angelus malus caret 
+          gra<lb ed="#L" break="no" n="17"/>tia. Et addit Doctor quod voluntas Angeli
+          <lb ed="#L" n="18"/>mali, quae est partiale principium actus
+          <lb ed="#L" n="19"/>meritorii, non habet in potestate sua aliud
+          <lb ed="#L" n="20"/>partiale principium,scilicet ipsam gratiam,
+          <lb ed="#L" n="21"/>non enim voluntas creata potest ponere
+          <lb ed="#L" n="22"/>gratiam in esse, cum tantum sit creabilis
+          <lb ed="#L" n="23"/>ab ipso Deo Addit etiam dicens, quod
+          <lb ed="#L" n="24"/>quamvis gratia jam habita voluntas utens
+          <lb ed="#L" n="25"/>sit principale agens respectu actus.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e2307">
+          <lb ed="#L" n="26"/>In ista littera occurrit aliqualis 
+          difficul<lb ed="#L" break="no" n="27"/>tas in hoc quod dicit, quod gratia jam
+          <lb ed="#L" n="28"/>habita, voluntas utens, supple ipsa gratia,
+          <lb ed="#L" n="29"/>est principale activum actus meritorii,
+          <lb ed="#L" n="30"/>videtur enim sibi contradicere, quia m
+          <lb ed="#L" n="31"/>primo, dist. 4'1. sic dicit : accipiendo
+          <lb ed="#L" n="32"/>actum secundum rationem meritorii, 
+          po<lb ed="#L" break="no" n="33"/>test dici, quod principaliter illa. 
+          accepta<lb ed="#L" break="no" n="34"/>tio convenit actui ab habitu, et minus
+          <lb ed="#L" n="35"/>principaliter a. voluntate; magis enim
+          <lb ed="#L" n="36"/>acceptatur actus. ut. dignus praemio,
+          <lb ed="#L" n="37"/>quia est eticitus a charitate, quam quia
+          <lb ed="#L" n="38"/>est a voluntate libere elicitus. Vaec ille.
+          <lb ed="#L" n="39"/>Vult enim ibi quod gratia respectu actus
+          <lb ed="#L" n="40"/>meritorii sit principalis causa, hic vero
+          <lb ed="#L" n="41"/>oppositum dicit.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e2344">
+          <lb ed="#L" n="42"/>Respondeo et dico, quod nulla est hic
+          <lb ed="#L" n="43"/>contradictio, si recte Doctor intelligatur.
+          <lb ed="#L" n="44"/>Nam ut loquitur de principio vere activo
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>actus meritorii, voluntas est principale
+          <lb ed="#L" n="46"/>activum, et gratia minus principale, et
+          <lb ed="#L" n="47"/>effectum sive productum ab utroque,
+          <lb ed="#L" n="48"/>est actus tantum quoad substantiam et
+          <lb ed="#L" n="49"/>intensionem, non autem secundum illam
+          <lb ed="#L" n="50"/>rationem, secundum quam dicitur 
+          meri<lb ed="#L" break="no" n="51"/>torius. Quod enim actus sit meritortus
+          <lb ed="#L" n="52"/>sive acceptus formaliter, sive dignus
+          <lb ed="#L" n="53"/>vita aeterna, hoc non est effective, neque
+          <lb ed="#L" n="54"/>a voluntate, neque a charitate, sed solum
+          <lb ed="#L" n="55"/>a voluntate divina sic vel sic acceptante,
+          <lb ed="#L" n="56"/>ut patet a Doctore in primo, dist. 4T.
+          <lb ed="#L" n="57"/>et ideo aperte dicit, quod voluntas utens
+          <lb ed="#L" n="58"/>ipsa gratia est principale agens, quia
+          <lb ed="#L" n="59"/>utitur ipsa tantum quoad substantiam et
+          <lb ed="#L" n="60"/>intensionem actus, non autem quantum
+          <lb ed="#L" n="61"/>ad illam rationem, secundum quam
+          <lb ed="#L" n="62"/>dicitur meritorius.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e2394">
+          <lb ed="#L" n="63"/>Si dicatur, quod etiam ipsa voluntas
+          <lb ed="#L" n="64"/>est principale agens, non tantum 
+          respe<lb ed="#L" break="no" n="65"/>ctu substantiae et intensionis actus, sed
+          <lb ed="#L" n="66"/>etiam respectu acceptationis passiva,
+          <lb ed="#L" n="67"/>qua actus formaliter dicitur acceptus
+          <lb ed="#L" n="68"/>sive meritorius, et quod sic possit dici
+          <lb ed="#L" n="69"/>causa activa, probatur, supponendo quod
+          <lb ed="#L" n="70"/>dicit Doctor in quarto, dist. 1. q. 4. ubi
+          <lb ed="#L" n="71"/>sic dicit: producens dispositionem ad
+          <lb ed="#L" n="72"/>aliquem effectum, licet in se non attingat
+          <lb ed="#L" n="73"/>illum effectum, tamen potest. dici causa
+          <lb ed="#L" n="74"/>ipsius, quia producit dispositionem ad
+          <lb ed="#L" n="75"/>quam sequitur talis effectus. Hoc idem
+          <lb ed="#L" n="76"/>potest patere 4m; 4. dist. 14. et in 9.
+          <lb ed="#L" n="77"/>dist. 48. et in tertio, dist. 4. Cum ergo
+          <lb ed="#L" n="78"/>aetus quoad substantiam et intensionem
+          <lb ed="#L" n="79"/>productus a voluntate et gratia sit 
+          dis<lb ed="#L" break="no" n="80"/>positio ad acceptationem passivam (patet,
+          <lb ed="#L" n="81"/>quia Deus ab aeterno disposuit actum a
+          <lb ed="#L" n="82"/>voluntate et a gratia productum 
+          accep<lb ed="#L" break="no" n="83"/>tare, ut dignum vita aeterna, ut patet
+          <lb ed="#L" n="84"/>a Doctore in primo, dist. 11.) sequitur
+          <lb ed="#L" n="85"/>quod cum voluntas sit causa principalis
+          <lb ed="#L" n="86"/>respectu illius actus, quia est 
+          disposi<lb ed="#L" break="no" n="87"/>tio, etc. quod etiam erit causa 
+          principa<lb ed="#L" break="no" n="88"/>lis respectu acceptationis passiva ; et si
+          <pb ed="#L" n="396"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>sic, falsum videtur quod dicit Doctor
+          <lb ed="#L" n="2"/>in 4. dist. A7. quod talis acceptatio sit
+          <lb ed="#L" n="3"/>principalius a gratia quam a voluntate.
+          <lb ed="#L" n="4"/>Respondeo et dico, quod dispositio est
+          <lb ed="#L" n="5"/>duplex: quadam est ex natura rei, qua
+          <lb ed="#L" n="6"/>posita, effectus ex natura rei, et de 
+          ne<lb ed="#L" break="no" n="7"/>cessitate sequitur, sicut calor et siccitas
+          <lb ed="#L" n="8"/>in ligno erit dispositio ex natura rei, qua
+          <lb ed="#L" n="9"/>perfecte posita necessario sequitur forma
+          <lb ed="#L" n="10"/>substantialis ignis, quia ignis agens in
+          <lb ed="#L" n="11"/>lignum, introduncto ultimo gradu 
+          dispo<lb ed="#L" break="no" n="12"/>sitionis, de necessitate producit formam
+          <lb ed="#L" n="13"/>substantialem ignis. Alia est dispositio,
+          <lb ed="#L" n="14"/>quae non est ex natura rei, sed est ex
+          <lb ed="#L" n="15"/>sola voluntate sic vel sic acceptante.
+          <lb ed="#L" n="16"/>Primo modo, verum est quod si aliquid
+          <lb ed="#L" n="17"/>est principalis causa dispositionis ad
+          <lb ed="#L" n="18"/>quam sequitur effectus, sed secundo 
+          mo<lb ed="#L" break="no" n="19"/>do non est verum, non enim sequitur
+          <lb ed="#L" n="20"/>quod si aliquid est causa principalis 
+          ali<lb ed="#L" break="no" n="21"/>cujus actus, quod etiam sit causa 
+          princi<lb ed="#L" break="no" n="22"/>palis effectus sequentis a voluntate 
+          alte<lb ed="#L" break="no" n="23"/>rius, quia et quod talis effectus producatur,
+          <lb ed="#L" n="24"/>et quod talis actus sit dispositio ad illum
+          <lb ed="#L" n="25"/>effectum, est simpliciter ex voluntate
+          <lb ed="#L" n="26"/>acceptantis. Dico ergo, quod nulla est
+          <lb ed="#L" n="27"/>operatio nostra etiam intensissima, que
+          <lb ed="#L" n="28"/>.ex natura sua sit acceptabilis ad vitam
+          <lb ed="#L" n="29"/>eternam, nec etiam quae sit. dispositio
+          <lb ed="#L" n="30"/>hujusmodi acceptationem passivam, sed
+          <lb ed="#L" n="31"/>hoc totum est a voluntate divina. Quod
+          <lb ed="#L" n="32"/>enim operatio elicita a voluntate 
+          accep<lb ed="#L" break="no" n="33"/>tetur ad vitam aeternam, hoc est a solo
+          <lb ed="#L" n="34"/>Deo acceptante, et similiter quod sit
+          <lb ed="#L" n="35"/>dispositio ad hujusmodi «cceptari, est
+          <lb ed="#L" n="36"/>a solo Deo, et tunc dico, quod: quamvis
+          <lb ed="#L" n="37"/>operatio, quantum ad substantiam et 
+          in<lb ed="#L" break="no" n="38"/>tensionem ipsius sit principaliter a 
+          volun<lb ed="#L" break="no" n="39"/>tate, tamen quod ipsa sit dispositio ad
+          <lb ed="#L" n="40"/>acceptari ad vitam aeternam est 
+          princi<lb ed="#L" break="no" n="41"/>paliter a gratia, quia Deus disposuit ab
+          <lb ed="#L" n="42"/>wterno, quod operatio quae procedit a
+          <lb ed="#L" n="43"/>voluntate principaliter quoad substantiam
+          <lb ed="#L" n="44"/>et intensionem. et minus principaliter a
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>gratia, sit principaliter ab ipsa gratia, ut
+          <lb ed="#L" n="46"/>dispositio.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e2559">
+          <lb ed="#L" n="47"/>(d) Tamen gratia non habita, etc.
+          <lb ed="#L" n="48"/>Pro clariori intellectione est 
+          consideran<lb ed="#L" break="no" n="49"/>dum, quod aliquid est principium 
+          par<lb ed="#L" break="no" n="50"/>tiale alicujus effectus, quod habet in
+          <lb ed="#L" n="51"/>virtute sua, posse producere aliud 
+          prin<lb ed="#L" break="no" n="52"/>cipium partiale, et hoc, vel totaliter vel
+          <lb ed="#L" n="53"/>partialiter; patet, quia intellectus agens
+          <lb ed="#L" n="54"/>est principium partiale intellectionis, puta
+          <lb ed="#L" n="55"/>lapidis, ut patet a Doctore in quodlib.
+          <lb ed="#L" n="56"/>quest. 13. Et potest. ponere aliud 
+          prin<lb ed="#L" break="no" n="57"/>cipium partiale in esse, partialiter tamen,
+          <lb ed="#L" n="58"/>puta partialiter causando speciem 
+          intelli<lb ed="#L" break="no" n="59"/>gibilem lapidis, (nam species intelligibilis
+          <lb ed="#L" n="60"/>pro statu isto causatur ab intellectu 
+          agen<lb ed="#L" break="no" n="61"/>te et a phantasmate, licet principaliter ab
+          <lb ed="#L" n="62"/>intellectu agente, ut patet a Doctore in
+          <lb ed="#L" n="63"/>primo, dist. 3. q. 8.) quae species 
+          intel<lb ed="#L" break="no" n="64"/>ligibilis erit principium partiale 
+          intelle<lb ed="#L" break="no" n="65"/>ctionis abstractivae ipsius lapidis, ut
+          <lb ed="#L" n="66"/>patet a Doctore in primo, dist. 3.
+          <lb ed="#L" n="67"/>quaest.6.1. et 8. et in. dist. AT. et in 
+          secun<lb ed="#L" break="no" n="68"/>do, dist. 3. et in quodlib. Et quod aliquod
+          <lb ed="#L" n="69"/>agens partiale possit totaliter ponere aliud
+          <lb ed="#L" n="70"/>principium partiale, patet, quia 
+          sustinen<lb ed="#L" break="no" n="71"/>do quod voluntas sit causa totalis 
+          voliti<lb ed="#L" break="no" n="72"/>onis su:, potest producere unam 
+          voliti<lb ed="#L" break="no" n="73"/>onem ita intensam, ad quam sequitur
+          <lb ed="#L" n="74"/>habitus perfectus, cum habitus causetur
+          <lb ed="#L" n="75"/>ex frequentatis actibus, vel saltem ex
+          <lb ed="#L" n="76"/>uno valde intenso ; et si est causa totalis
+          <lb ed="#L" n="77"/>talis actus, et actus sit productivus
+          <lb ed="#L" n="78"/>habitus in virtute voluntatis, sequitur
+          <lb ed="#L" n="79"/>quod ipsa voluntas sit causa totalis illius
+          <lb ed="#L" n="80"/>habitus, quia quidquid est cawsa  
+          cau<lb ed="#L" break="no" n="81"/>se, etc. Et tamen ille habitus poterit
+          <lb ed="#L" n="82"/>postea esse causa partialis alterius actus
+          <lb ed="#L" n="83"/>producti a voluntate, ut a causa partiali
+          <lb ed="#L" n="84"/>et principali, ut patet a Doctore 7m f.
+          <lb ed="#L" n="85"/>dist. 11. In proposito autem voluntas
+          <lb ed="#L" n="86"/>creata nullo istorum modorum potest
+          <lb ed="#L" n="87"/>causare gratiam, neque totaliter, neque
+          <pb ed="#L" n="397"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>cundum eos, est sufficiens causa movendi
+          <lb ed="#L" n="2"/>voluntatem ; ergo in illo instanti quo 
+          ap<lb ed="#L" break="no" n="3"/>prehendit immobiliter, movet voluntatem
+          <lb ed="#L" n="4"/>immobiliter, et talis actus elicitus in
+          <lb ed="#L" n="5"/>eratia est actus rectus et meritorius, non
+          <lb ed="#L" n="6"/>enim cum gratia potuit esse actus peccati ;
+          <lb ed="#L" n="7"/>sl ergo ille actus immobiliter fuit 
+          elici<lb ed="#L" break="no" n="8"/>tus, ergo simpliciter fuit impeccabilis.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e2672">
+          <lb ed="#L" n="9"/>(d) Praeterea differentia, etc. Hic 
+          Do<lb ed="#L" break="no" n="10"/>ctor improbat aliud dictum Thom:e ubi
+          <lb ed="#L" n="11"/>supra. Dicit enim Thomas quod ideo 
+          in<lb ed="#L" break="no" n="12"/>tellectus Angeli apprehendit immobiliter,
+          <lb ed="#L" n="13"/>quia sine discursu, intellectus vero 
+          ho<lb ed="#L" break="no" n="14"/>minis mobiliter, quia cam discursu, ut
+          <lb ed="#L" n="15"/>supra patuit. Sed haec differentia 
+          vide<lb ed="#L" break="no" n="16"/>tur nulla, quia intellectus hominis 
+          immo<lb ed="#L" break="no" n="17"/>biliter adhzret conclusioni ad quam 
+          dis<lb ed="#L" break="no" n="18"/>currit, sicut et intellectus Angeli ad
+          <lb ed="#L" n="19"/>quam non discurrit; patet, quia 
+          intelle<lb ed="#L" break="no" n="20"/>ctus hominis ita certitudinaliter adhaeret
+          <lb ed="#L" n="21"/>conclusioni ad quam discurrit, et 
+          immo<lb ed="#L" break="no" n="22"/>biliter, quia necessario et per modum 
+          na<lb ed="#L" break="no" n="23"/>turae, sicut intellectus Angeli, et sic 
+          vide<lb ed="#L" break="no" n="24"/>tur sequi quod ita voluntas hominis in 
+          elici<lb ed="#L" break="no" n="25"/>endo immobiliter se habeat, cum 
+          sequa<lb ed="#L" break="no" n="26"/>tur apprehensionem immobilem, sicut et
+          <lb ed="#L" n="27"/>voluntas Angeli.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e2717">
+          <lb ed="#L" n="28"/>(c) Quod etiam negatur ab Angelis, etc.
+          <lb ed="#L" n="29"/>Sequitur in procmio primi libri quest.
+          <lb ed="#L" n="30"/>illa : Utrum Theologia sit scientia. 
+          Di<lb ed="#L" break="no" n="31"/>ctum est enim ibi, quod discursus non
+          <lb ed="#L" n="32"/>requirit necessario successionem, sive
+          <lb ed="#L" n="33"/>ordinem temporis, sed sufficit ordo 
+          na<lb ed="#L" break="no" n="34"/>ture, vide qua ibi exposui.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d7q1-p8">-->
+        <p xml:id="mm30o9-d1e1898-d1e2737">
+          <lb ed="#L" n="66" type="fixed=400"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e2742">
+          <lb ed="#L" n="67"/>(1) Aliud dubium est, si illa 
+          obstina<lb ed="#L" break="no" n="68"/>tio, etc. Doctor in ista littera cum dicit,
+          <lb ed="#L" n="69"/>quod sicut actus malus non potest esse a
+          <lb ed="#L" n="70"/>Deo, ita nec continuatio illius, hoc sic 
+          de<lb ed="#L" break="no" n="71"/>bet intelligi, quod licet Deus sit prima
+          <lb ed="#L" n="72"/>causa, puta amoris, quo malus Angelus
+          <lb ed="#L" n="73"/>amat se, cum talis amor sit ens 
+          absolu<lb ed="#L" break="no" n="74"/>tum, et etiam sit causa quantum ad 
+          sub<lb ed="#L" break="no" n="75"/>stantiam et intensionem illius amoris,
+          <lb ed="#L" n="76"/>quantumcumque intendatur, et sit causa
+          <lb ed="#L" n="77"/>continuationis, continue concausando 
+          vo<lb ed="#L" break="no" n="78"/>luntati Angeli mali, non tamen est causa
+          <lb ed="#L" n="79"/>nec effectiva nec defectiva deformitatis
+          <lb ed="#L" n="80"/>fundat:e in tali amore, puta quod dilectio
+          <lb ed="#L" n="81"/>sic intensa ordinetur ad Angelum 
+          simpli<lb ed="#L" break="no" n="82"/>citer propter seipsum, nam tunc est ibi
+          <lb ed="#L" n="83"/>carentia debiti finis; quantum ergo ad
+          <lb ed="#L" n="84"/>hoc non est causa nec effectiva, nec 
+          de<lb ed="#L" break="no" n="85"/>fectiva, nec quoad esse, nec quoad 
+          conti<lb ed="#L" break="no" n="86"/>nuationem, ut infra patebit dist. 31.
+          <pb ed="#L" n="401"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>et 44. Et quod dicit Doctor hic quod Deus
+          <lb ed="#L" n="2"/>est causa effectiva poenae ignis, de ista
+          <lb ed="#L" n="3"/>bif pena habet diffuse videri in 4. dist. 44.
+          <lb ed="#L" n="4"/>q. 2, et dist. 46. Quod etiam dicit quod
+          <lb ed="#L" n="5"/>sis. Deus potest dici causa obstinationis 
+          de<lb ed="#L" break="no" n="6"/>serendo, non dando scilicet sibi gratiam,
+          <lb ed="#L" n="7"/>hoc est, quia Deus ordinavit nunquam
+          <lb ed="#L" n="8"/>dimittere peccatum, nisi dando gratiam,
+          <lb ed="#L" n="9"/>et hoc loquendo de peccato, scilicet de
+          <lb ed="#L" n="10"/>obligatione illa ad poenam aeternam, quae
+          <lb ed="#L" n="11"/>post peccatum remanet in anima, ut 
+          pate<lb ed="#L" break="no" n="12"/>- bit in quarto, dist. 44. qd. prima. Sed
+          <lb ed="#L" n="13"/>a- haec obligatio non vocatur proprie 
+          obsti<lb ed="#L" break="no" n="14"/>natio, nam proprie obstinatio respicit 
+          con<lb ed="#L" break="no" n="15"/>ünuationem actus mali, et quod possit
+          <lb ed="#L" n="16"/>resilire a tali continuatione, non potest
+          <lb ed="#L" n="17"/>esse nisi ex speciali gratia Dei, quia 
+          vo<lb ed="#L" break="no" n="18"/>luntas divina determinavit non concurrere
+          <lb ed="#L" n="19"/>ad actum bonum respectu existentis in
+          <lb ed="#L" n="20"/>termino damnationis, et sic deserit. Sed
+          <lb ed="#L" n="21"/>de ista obstinatione, vide clarius in 
+          quar<lb ed="#L" break="no" n="22"/>to, dist. 44. q. secunda, et dist 49. q.
+          <lb ed="#L" n="23"/>quarta art. 2.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e2842">
+          <lb ed="#L" n="24"/>(k) Respondeo, etc. Hic Doctor adhuc
+          <lb ed="#L" n="25"/>negat, quod malus Angelus ex se possit
+          <lb ed="#L" n="26"/>resilire a peccato obstinationis, et hoc
+          <lb ed="#L" n="27"/>meritorie, posito quod talis obstinatio sit
+          <lb ed="#L" n="28"/>a voluntate mali Angeli. Est advertendum,
+          <lb ed="#L" n="29"/>quod quando quis resilit a peccato, 
+          com<lb ed="#L" break="no" n="30"/>muniter meritorie resilit; actus enim, quo
+          <lb ed="#L" n="31"/>quis de congruo meretur liberari a 
+          pecca<lb ed="#L" break="no" n="32"/>to, est actus meritorius, ut patebit in 4.
+          <lb ed="#L" n="33"/>dist. 99. Est etiam advertendum, quod
+          <lb ed="#L" n="34"/>ex determinatione divinae voluntatis 
+          dam<lb ed="#L" break="no" n="35"/>natus, et per consequens obstinatus in
+          <lb ed="#L" n="36"/>peccato nec meritorie, nec non meritorie
+          <lb ed="#L" n="37"/>potest resilire a peccato, ut patet in 4.
+          <lb ed="#L" n="38"/>dist. 46. q. ultima, art. 2. Ultra est. 
+          no<lb ed="#L" break="no" n="39"/>tandum, quod obstinatio in peccato in
+          <lb ed="#L" n="40"/>damnatis est principaliter a voluntate 
+          di<lb ed="#L" break="no" n="41"/>vina sic deserente voluntatem in tali 
+          pec<lb ed="#L" break="no" n="42"/>cato ut habet videri in quarto ubi supra.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d7q1-p9">-->
+        <p xml:id="mm30o9-d1e1898-d1e2889">
+          <lb ed="#L" n="80" type="fixed=402"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e2894">
+          <lb ed="#L" n="81"/>(l) Restat nunc. videndum de bonitate
+          <lb ed="#L" n="82"/>morali. Hic Doctor primo recitat 
+          opinio<lb ed="#L" break="no" n="83"/>nem <ref xml:id="mm30o9-d1e1898-Rd1e2902">S. Bonaventure lib. 2. dist. 1.
+            <lb ed="#L" n="84"/>art. 4. quest. 2. et 3.</ref> qui dicit quod 
+          An<lb ed="#L" break="no" n="85"/>gelus malus non potest habere volitionem
+          <lb ed="#L" n="86"/>moralem bonam. auia omnem deformat
+          <pb ed="#L" n="403"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>ex aliqua circumstantia inordinata, refe.
+          <lb ed="#L" n="2"/>rendo illud inordinate ad amorem sui, 
+          si<lb ed="#L" break="no" n="3"/>militer habitus in eis est perfecte malus
+          <lb ed="#L" n="4"/>in eo, ideo perfectissime inclinat in 
+          ma<lb ed="#L" break="no" n="5"/>lum ; nunquam ergo bene volunt propter
+          <lb ed="#L" n="6"/>primum, sed semper male volunt proptei
+          <lb ed="#L" n="7"/>secundum, videlicet propter vehementem
+          <lb ed="#L" n="8"/>inclinationem in malum.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e2934">
+          <lb ed="#L" n="9"/>(m) Contra primum, habent 
+          natura<lb ed="#L" break="no" n="10"/>lia, etc. In ista littera occurrit aliqualis
+          <lb ed="#L" n="11"/>difficultas specialiter circa hoc quod 
+          di<lb ed="#L" break="no" n="12"/>cit. Doctor, quod inclinatio naturalis est ad
+          <lb ed="#L" n="13"/>bonum, ideo voluntas eliciens actum 
+          con<lb ed="#L" break="no" n="14"/>formiiter tali inclinationi habet volitionem
+          <lb ed="#L" n="15"/>illam non malam, nam in hoc videtur sib;
+          <lb ed="#L" n="16"/>contradicere, quia in 4. dist. 49. dicit
+          <lb ed="#L" n="17"/>quod inclinatio naturalis est ad  
+          perfecti<lb ed="#L" break="no" n="18"/>onem, ad quam ordinatur summe intensa,
+          <lb ed="#L" n="19"/>et per consequens si natura aliqua summe
+          <lb ed="#L" n="20"/>inclinatur ad bonum sibi commodum, 
+          vo<lb ed="#L" break="no" n="21"/>luntas eliciens conformiter tali inclinationi
+          <lb ed="#L" n="22"/>videtur mala, et similiter volitio olicita.
+          <lb ed="#L" n="23"/>Praeterea dist. 50. quarti, dicit quod 
+          ap<lb ed="#L" break="no" n="24"/>petitus naturalis est ad summam 
+          beatitu<lb ed="#L" break="no" n="25"/>dinem, et tamen volitio elicita conformiter
+          <lb ed="#L" n="26"/>erit mala, ut patet a Doctore ibi. Pr:
+          te<lb ed="#L" break="no" n="27"/>rea, in hoc 2. dist. 23. probat quod ideo
+          <lb ed="#L" n="28"/>Deus non potest facere voluntatem 
+          crea<lb ed="#L" break="no" n="29"/>tam impeccabilem ex natura, quia 
+          appeti<lb ed="#L" break="no" n="30"/>tus naturalis potest esse ad summum
+          <lb ed="#L" n="31"/>commodum, ordinando illud ad se, et 
+          vo<lb ed="#L" break="no" n="32"/>luntas potest conformiter agere illi 
+          appe<lb ed="#L" break="no" n="33"/>litui, et sic peccare. Praeterea, in isto 2.
+          <lb ed="#L" n="34"/>dist. 6. q. 2. dicit quod voluntas, ut 
+          con<lb ed="#L" break="no" n="35"/>formiter agit regule naturali, hoc est 
+          in<lb ed="#L" break="no" n="36"/>elinationi naturali, non recte agit, et 
+          ta<lb ed="#L" break="no" n="37"/>men hic dicit, quod actus elicitur 
+          con<lb ed="#L" break="no" n="38"/>formiter inclinationi naturali, non erit
+          <lb ed="#L" n="39"/>malus.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e3004">
+          <lb ed="#L" n="40"/>Respondeo quod si Doctor recte 
+          intel<lb ed="#L" break="no" n="41"/>ligatur nulla apparebit contradictio, nam
+          <lb ed="#L" n="42"/>in hoc loco intendit probare, quod 
+          volun<lb ed="#L" break="no" n="43"/>tas eliciens actum .conformiter 
+          inclinatio<lb ed="#L" break="no" n="44"/>ni naturali, non peccat: sic tamen intel-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>ligendo, quod inclinatio natüralis potest
+          <lb ed="#L" n="46"/>esse ad bonum et voluntas absolute aman:
+          <lb ed="#L" n="47"/>bonum non peccat, stando ergo in tali
+          <lb ed="#L" n="48"/>amore absolute, ille actus non est malus
+          <lb ed="#L" n="49"/>contrarie. Cum vero voluntas refert 
+          bo<lb ed="#L" break="no" n="50"/>num illud ad quod non debet referre,
+          <lb ed="#L" n="51"/>puta amando illud tantum in ordine ad se,
+          <lb ed="#L" n="52"/>tunc peccat, vel si sit bonum infinitum,
+          <lb ed="#L" n="53"/>amando illud non propter se, amando 
+          er<lb ed="#L" break="no" n="54"/>£0 bonum absolute non peccat; imo ille
+          <lb ed="#L" n="55"/>actus est bonus ex genere, ut supra 
+          pa<lb ed="#L" break="no" n="56"/>tet in praesenti quest. et sic intendit 
+          Do<lb ed="#L" break="no" n="57"/>ctor hic, quod si voluntas volens banum
+          <lb ed="#L" n="58"/>absolute, ad quod naturalis appetitus 
+          val<lb ed="#L" break="no" n="59"/>de inclinatur, actus conformiter elicitus
+          <lb ed="#L" n="60"/>non erit malus.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e3054">
+          <lb ed="#L" n="61"/>Si dicatur, naturalis appetitus 
+          incli<lb ed="#L" break="no" n="62"/>natur ad: bonum, tanquam ad summe 
+          bo<lb ed="#L" break="no" n="63"/>num sibi; ergo actus voluntatis 
+          confor<lb ed="#L" break="no" n="64"/>miter elicitus tali appetitui, erit malus.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e3065">
+          <lb ed="#L" n="65"/>Dico quod si voluntas vellet illud 
+          bo<lb ed="#L" break="no" n="66"/>num eo modo quo appetitus appetit, tunc
+          <lb ed="#L" n="67"/>peccaret, quia tunc referret illud positive,
+          <lb ed="#L" n="68"/>ad quod referre non debet, sed volendo
+          <lb ed="#L" n="69"/>bonum absolute sistendo ibi, illa volitio
+          <lb ed="#L" n="70"/>non erit mala.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e3082">
+          <lb ed="#L" n="71"/>Et quod sic intelligat Doctor, scilicet de
+          <lb ed="#L" n="72"/>actu non malo contrarie, patet in simili
+          <lb ed="#L" n="73"/>per tertiam rationem contra 
+          Bonaventu<lb ed="#L" break="no" n="74"/>ram, in qua sic dicit : Si nolunt (inquit)
+          <lb ed="#L" n="75"/>penam, inquantum est lesiva nature,
+          <lb ed="#L" n="76"/>sistendo tantum in hoc absque alia 
+          circum<lb ed="#L" break="no" n="77"/>stantia, non videtur actus malus 
+          morali<lb ed="#L" break="no" n="78"/>ter, quia sicut potest. amare naturam
+          <lb ed="#L" n="79"/>suam non male moraliter, ita potest odire
+          <lb ed="#L" n="80"/>contrarium sibi. Hoc idem patet per 
+          se<lb ed="#L" break="no" n="81"/>cundam rationem in qua dicit: Habent
+          <lb ed="#L" n="82"/>(inquit) vermem, qui est remorsus de 
+          pec<lb ed="#L" break="no" n="83"/>cato eorum, remorsus iste est aliqua 
+          di<lb ed="#L" break="no" n="84"/>splicentia, etc. imo talis displicientia est
+          <lb ed="#L" n="85"/>saltem bona ex genere, cum transeat 
+          su<lb ed="#L" break="no" n="86"/>per objectum conveniens actui secundum
+          <lb ed="#L" n="87"/>dictamen rationis. Vult ergo Doctor, quod
+          <lb ed="#L" n="88"/>actus elicitus a voluntate conformiter ap-
+          <pb ed="#L" n="404"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>petitui naturali, quod non sit malus 
+          mo<lb ed="#L" break="no" n="2"/>raliter, imo ut sic, semper erit bonus ex
+          <lb ed="#L" n="3"/>genere, licet postea possit deformari 
+          cir<lb ed="#L" break="no" n="4"/>cumstantiis oppositis circumstantiis 
+          re<lb ed="#L" break="no" n="5"/>quisitis ad actum perfecte moralem.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e3139">
+          <lb ed="#L" n="6"/>Et vult hic quod voluntas mali Angeli
+          <lb ed="#L" n="7"/>possit absolute elicere actum circa 
+          bo<lb ed="#L" break="no" n="8"/>num, ad quod inclinatur ejus naturalis
+          <lb ed="#L" n="9"/>appetitus, volendo illud absolute, et sic
+          <lb ed="#L" n="10"/>patet quomodo in dictis Doctoris nulla sit
+          <lb ed="#L" n="11"/>contradictio.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e3155">
+          <lb ed="#L" n="12"/>(n) Contra secundum. Hic improbat
+          <lb ed="#L" n="13"/>aliud dictum D. Bonaventure videlicet
+          <lb ed="#L" n="14"/>quod Angeli mali semper male volunt
+          <lb ed="#L" n="15"/>propter habitum malum in termino.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e3166">
+          <lb ed="#L" n="16"/>Et primo improbat hanc conclusionem,
+          <lb ed="#L" n="17"/>quod semper male velint, et ratio clara
+          <lb ed="#L" n="18"/>est, et stat in hoc : Angelus malus potest
+          <lb ed="#L" n="19"/>non velle aliquid, quia potest. suspendere
+          <lb ed="#L" n="20"/>actum volendi; ergo non semper male
+          <lb ed="#L" n="21"/>vult. Consequentia patet. Antecedens 
+          pro<lb ed="#L" break="no" n="22"/>batur per Augustinum 1. Retract. cap. 2.
+          <lb ed="#L" n="23"/>Nihil est tam in potestate voluntatis quam
+          <lb ed="#L" n="24"/>ipsa voluntas, id est, quam actus ejus, quia
+          <lb ed="#L" n="25"/>in potestate voluntatis, et velle et non velle,
+          <lb ed="#L" n="26"/>ut patet intuenti. Et addit quod si 
+          volun<lb ed="#L" break="no" n="27"/>tas potest suspendere potentiam 
+          inferi<lb ed="#L" break="no" n="28"/>orem ab omni actu suo, multo fortius
+          <lb ed="#L" n="29"/>potest suspendere se ab actu suo. Et haec
+          <lb ed="#L" n="30"/>ratio fuit declarata supra in primo, dist. 1.
+          <lb ed="#L" n="31"/>quest. 4.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e3203">
+          <lb ed="#L" n="32"/>(o) Praeterea, quod. etiam. adducitur
+          <lb ed="#L" n="33"/>de habitu. Hic Doctor probat duplici 
+          rati<lb ed="#L" break="no" n="34"/>one, quod habitus malus in Angelis 
+          ma<lb ed="#L" break="no" n="35"/>lis non facit eos de necessitate semper 
+          ma<lb ed="#L" break="no" n="36"/>le agere ;et ist:e rationes sunt satis clare,
+          <lb ed="#L" n="37"/>aliqualiter tamen pro junioribus expono
+          <lb ed="#L" n="38"/>litteram. Cum dicit primo, quod omnis 
+          Aha<lb ed="#L" break="no" n="39"/>bitus inclinat ad. aliquem actum in. 
+          ea<lb ed="#L" break="no" n="40"/>dem specie, hoc debet intelligi de habitu
+          <lb ed="#L" n="41"/>acquisito ex frequentatis actibus, vel ex
+          <lb ed="#L" n="42"/>uno valde intenso ; habitus enim 
+          acquisi<lb ed="#L" break="no" n="43"/>tus semper inclinat ad similes actus ex
+          <lb ed="#L" n="44"/>quibus generatur.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e3234">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>Adverte etiam, quod unus habitas non
+          <lb ed="#L" n="46"/>potest generari ex actibus specie 
+          distin<lb ed="#L" break="no" n="47"/>ciis, quia actus specie distincti nati sunt
+          <lb ed="#L" n="48"/>tantum generare habitus specie distinctos.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e3248">
+          <lb ed="#L" n="49"/>Nota etiam quod Doctor intendit hic
+          <lb ed="#L" n="50"/>de inclinatione positive, quae inclinat. ad
+          <lb ed="#L" n="51"/>aliquid prosequendum, non autem de
+          <lb ed="#L" n="52"/>inclinatione, quae inclinat ad oppositum
+          <lb ed="#L" n="53"/>fugiendum; semper enim habitus, qui
+          <lb ed="#L" n="54"/>inclinat ad aliquid prosequendum, inclinat
+          <lb ed="#L" n="55"/>etiam ad oppositum fugiendum, ut patet
+          <lb ed="#L" n="56"/>a Doctore 25 4. dist. 44. q. 2. Sequitur:
+          <lb ed="#L" n="57"/>ille ergo habitus, qui ponitur causa. 
+          pec<lb ed="#L" break="no" n="58"/>candi, aut inclinat tantum ad actum 
+          su<lb ed="#L" break="no" n="59"/>perbiendi, aut tantum ad. actum 
+          odien<lb ed="#L" break="no" n="60"/>di, patet, quia non potest inclinare ad
+          <lb ed="#L" n="61"/>actus specie distinctos, cujusmodi sunt
+          <lb ed="#L" n="62"/>actus  odiendi, et actus  superbiendi:
+          <lb ed="#L" n="63"/>videtur ergo probabile, quod  
+          Ange<lb ed="#L" break="no" n="64"/>lus malus possit aliquando illum 
+          ac<lb ed="#L" break="no" n="65"/>tum non habere, puta actum odiendi;
+          <lb ed="#L" n="66"/>patet, quia potest habere alium actum
+          <lb ed="#L" n="67"/>distincte, et ex toto conatu, puta actum
+          <lb ed="#L" n="68"/>superbiendi, et non potest simul habere
+          <lb ed="#L" n="69"/>duos actus perfectos, ut supra exposui
+          <lb ed="#L" n="70"/>in primo, dist. 2. parte prima. 
+          Sequi<lb ed="#L" break="no" n="71"/>tur: ergo nullus unus actus est, qui 
+          ne<lb ed="#L" break="no" n="72"/>cessario sit perpetuus, haec consequentia
+          <lb ed="#L" n="73"/>patet, quia si ponantur duo tantum.
+          <lb ed="#L" n="74"/>habitus in Angelo malo, quorum unus
+          <lb ed="#L" n="75"/>summe inclinat ad actum  superbiendi,
+          <lb ed="#L" n="76"/>et alius ad actum odiendi; si Angelus
+          <lb ed="#L" n="77"/>malus habeat actum superbiendi 
+          perfe<lb ed="#L" break="no" n="78"/>ctum, tunc non habebit actum odiendi,
+          <lb ed="#L" n="79"/>et per consequens non vult semper male
+          <lb ed="#L" n="80"/>ex habitu, qui inclinat ad actum odiendi.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e3320">
+          <lb ed="#L" n="81"/>Et similiter si habet actum  odiendi
+          <lb ed="#L" n="82"/>perfectum, tunc non habet actum 
+          super<lb ed="#L" break="no" n="83"/>biendi, nec per consequens semper vult
+          <lb ed="#L" n="84"/>male ex habitu superbiendi; ergo nec ex
+          <lb ed="#L" n="85"/>habitu simpliciter semper vult male, quia
+          <lb ed="#L" n="86"/>da oppositum, si necessario vult male
+          <lb ed="#L" n="87"/>ex habitu in communi, ergo necessario
+          <lb ed="#L" n="88"/>vult male ex habitu in speciali Patet
+          <pb ed="#L" n="405"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>consequentia, quia quod necessario 
+          de<lb ed="#L" break="no" n="2"/>terminat sibi aliquod genus, necessario
+          <lb ed="#L" n="3"/>determinat sibi aliquam speciem, et 
+          ul<lb ed="#L" break="no" n="4"/>timo aliquod individuum.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e3353">
+          <lb ed="#L" n="5"/>Haec propositio patet a Doctore ?nfra
+          <lb ed="#L" n="6"/>dist. 12. ergo si Angelus malus 
+          necessa<lb ed="#L" break="no" n="7"/>rio vult male ex habitu in communi, ergo
+          <lb ed="#L" n="8"/>necessario vult male ex isto habitu, cujus
+          <lb ed="#L" n="9"/>oppositum supra patuit.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e3366">
+          <lb ed="#L" n="10"/>(p) Praeterea secundo, habitus non. est
+          <lb ed="#L" n="11"/>ralio, etc. Patet ista propositio, quia
+          <lb ed="#L" n="12"/>modus agendi naturalis potentite. non
+          <lb ed="#L" n="13"/>potest variari per quemcumque habitum,
+          <lb ed="#L" n="14"/>nullus enim habitus in intellectu posset
+          <lb ed="#L" n="15"/>facere intellectum agere non. modo 
+          natu<lb ed="#L" break="no" n="16"/>rali, modus enim agendi intellectus est
+          <lb ed="#L" n="17"/>naturalis.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e3386">
+          <lb ed="#L" n="18"/>Similiter modus agendi voluntatis est
+          <lb ed="#L" n="19"/>libere agere; ergo nullus habitus in
+          <lb ed="#L" n="20"/>voluntate quantumeumque intensus 
+          pos<lb ed="#L" break="no" n="21"/>set facere voluntatem velle aliquid 
+          ne<lb ed="#L" break="no" n="22"/>cessario
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d7q1-p10">-->
+        <p xml:id="mm30o9-d1e1898-d1e3402">
+          <lb ed="#L" n="83" type="fixed=408"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e3407">
+          <lb ed="#L" n="84"/>(a) Quantum ergo ad. istum articulum.
+          <lb ed="#L" n="85"/>Hic Doctor respondet secundum intenti:
+          <lb ed="#L" n="86"/>onem propriam ad illum articulum, in que
+          <pb ed="#L" n="409"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>querebatur de bonitate morali et malitia
+          <lb ed="#L" n="2"/>opposita in Angelo malo, et dicit aliquas
+          <lb ed="#L" n="3"/>conclusiones. ,
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e3427">
+          <lb ed="#L" n="4"/>Prima est ista, quod Angelus malus non
+          <lb ed="#L" n="5"/>necessario habet aliquem. actum malwm,
+          <lb ed="#L" n="6"/>loquendo de actu determinato, puta de
+          <lb ed="#L" n="7"/>actu superbiendi vel de actu obediendi 
+          de<lb ed="#L" break="no" n="8"/>terminate, et probat, quia si tantum 
+          ha<lb ed="#L" break="no" n="9"/>beat actum determinatum, ille inclinat ad
+          <lb ed="#L" n="10"/>cerium actum, unum in specie, et patet
+          <lb ed="#L" n="11"/>quod potest habere aliquem alium actum,
+          <lb ed="#L" n="12"/>puta actum odiendi, et pro tunc non 
+          habe<lb ed="#L" break="no" n="13"/>re actum superbiendi, et per consequens
+          <lb ed="#L" n="14"/>potest non habere quemcumque alium
+          <lb ed="#L" n="15"/>actum, ad quem habitus superbiendi non
+          <lb ed="#L" n="16"/>inclinat, puta non habere actum amoris
+          <lb ed="#L" n="17"/>amicitia circa se immoderatum, vel 
+          amo<lb ed="#L" break="no" n="18"/>ris concupiscentiae inordinatum ; et sic 
+          pa<lb ed="#L" break="no" n="19"/>tet quomodo non necessario vult aliquem
+          <lb ed="#L" n="20"/>actum malum determinatum, ponendo
+          <lb ed="#L" n="21"/>tantum unum habitum malum in Angelo
+          <lb ed="#L" n="22"/>malo.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e3471">
+          <lb ed="#L" n="23"/>Secunda conclusio est, quod etiam 
+          po<lb ed="#L" break="no" n="24"/>nendo plures habitus malos inclinantes ad
+          <lb ed="#L" n="25"/>diversos actus malos in specie, adhuc non
+          <lb ed="#L" n="26"/>sequitur, quod Angelus malus necessario
+          <lb ed="#L" n="27"/>velit actum malum determinate, patet,
+          <lb ed="#L" n="28"/>quia certum est quod illi plures habitus
+          <lb ed="#L" n="29"/>non vehementissime inclinant ; patet, quia
+          <lb ed="#L" n="30"/>tunc Angelus malus vel nullum actum
+          <lb ed="#L" n="31"/>malum haberet, vel simul haberet tot
+          <lb ed="#L" n="32"/>actus malos specie distinctos, quot essent
+          <lb ed="#L" n="33"/>habitus in eo specie distincti ; patet, quia
+          <lb ed="#L" n="34"/>si aeque inclinant, non est major ratio de
+          <lb ed="#L" n="35"/>uno quam de alio.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e3502">
+          <lb ed="#L" n="36"/>Sequitur ergo quod aliquis habitus in
+          <lb ed="#L" n="37"/>eo non vehementissime inclinat, si sic,
+          <lb ed="#L" n="38"/>ergo Angelus malus, poterit non habere
+          <lb ed="#L" n="39"/>actum illius habitus, non vehementissime
+          <lb ed="#L" n="40"/>inclinantis; ergo potest non habere actum
+          <lb ed="#L" n="41"/>cujuscumque alterius habitus,
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e3518">
+          <lb ed="#L" n="42"/>Tertia conclusio est de acta. 
+          indetermi<lb ed="#L" break="no" n="43"/>nato sive vago, et est talis : Angelus malus
+          <lb ed="#L" n="44"/>non necessario habet actum malum mora-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>liter. Quam conclusionem probat, quia
+          <lb ed="#L" n="46"/>aliquando potest habere volitionem non
+          <lb ed="#L" n="47"/>malam, malitia contraria bonitati morali,
+          <lb ed="#L" n="48"/>licet non habeat bonam, bonitate morali
+          <lb ed="#L" n="49"/>completa, quae est ex omnibus 
+          circum<lb ed="#L" break="no" n="50"/>stantis; videtur enim probabile, quod
+          <lb ed="#L" n="51"/>actum bonum ex genere possit habere,
+          <lb ed="#L" n="52"/>hoc est sistendo ibi, non deformando per
+          <lb ed="#L" n="53"/>circumstantias contrarias circumstantiis
+          <lb ed="#L" n="54"/>bonc volitionis.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e3552">
+          <lb ed="#L" n="55"/>Quarta conclusio: Nulla apparet 
+          im<lb ed="#L" break="no" n="56"/>possibilitas, quin Angelus malus. possit
+          <lb ed="#L" n="57"/>habere complete bonum moraliter. Hanc
+          <lb ed="#L" n="58"/>conclusionem aliter non probat, posset
+          <lb ed="#L" n="59"/>tamen probari ex supra habitis, quia in
+          <lb ed="#L" n="60"/>Angelo malo sunt naturalia lucidissima,
+          <lb ed="#L" n="61"/>et per consequens in intellectu ejus potest
+          <lb ed="#L" n="62"/>esse verissimum et certissimum dictamen,
+          <lb ed="#L" n="63"/>et non repugnat voluntati ejus posse 
+          eli<lb ed="#L" break="no" n="64"/>cere aliquem actum conformem tali 
+          dicta<lb ed="#L" break="no" n="65"/>mini. Et addit Doctor: mirum (inquit)
+          <lb ed="#L" n="66"/>videtur negare potentiam naturalem in
+          <lb ed="#L" n="67"/>natura illa excellente, ubi non. apparet
+          <lb ed="#L" n="68"/>aliquid. propter quod sit neganda.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e3585">
+          <lb ed="#L" n="69"/>Quinta conclusio : Probabile est (inquit)
+          <lb ed="#L" n="70"/>quod Angeli mali secundum hanc 
+          poten<lb ed="#L" break="no" n="71"/>Liam, secundum quam possunt. velle 
+          bo<lb ed="#L" break="no" n="72"/>num moraliter non exeant in actum
+          <lb ed="#L" n="73"/>propter vehementem malitiam, secundum
+          <lb ed="#L" n="74"/>quam magis probabile est quod agunt,
+          <lb ed="#L" n="75"/>quam secundum partem naturalem, 
+          se<lb ed="#L" break="no" n="76"/>cundum quam possent in actus aliquo
+          <lb ed="#L" n="77"/>modo oppositos.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e3607">
+          <lb ed="#L" n="78"/>(b) Ad primum. Ad argumenta 
+          princi<lb ed="#L" break="no" n="79"/>palia. Ad primum respondetur primo a
+          <lb ed="#L" n="80"/>Bonaventura ubi supra, quod ille actus
+          <lb ed="#L" n="81"/>credendi in eis est malus, quia odiunt 
+          il<lb ed="#L" break="no" n="82"/>lud creditum.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e3620">
+          <lb ed="#L" n="83"/>Contra hanc responsionem arguit 
+          Do<lb ed="#L" break="no" n="84"/>ctor dicens, quod actus intellectus, ut
+          <lb ed="#L" n="85"/>praecedit actum. voluntatis, non. 
+          determi<lb ed="#L" break="no" n="86"/>natur ab actu voluntatis sequente; 
+          pa<lb ed="#L" break="no" n="87"/>tet, quia talis actus ut praecedit, non 
+          sub<lb ed="#L" break="no" n="88"/>est imperio voluntatis, nam nullus actus
+          <pb ed="#L" n="410"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>intellectus potest dici malus formaliter,
+          <lb ed="#L" n="2"/>nisi pro quanto imperatur a voluntate 
+          iu<lb ed="#L" break="no" n="3"/>ordinate se habente, ut infra patebit in
+          <lb ed="#L" n="4"/>islo 2. dist. 42. Angelus vero malus in
+          <lb ed="#L" n="5"/>illo priori potest aliquod verum concipere
+          <lb ed="#L" n="6"/>tam speculabile quam agibile.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e3653">
+          <lb ed="#L" n="7"/>Dat ergo Doctor aliam responsionem,
+          <lb ed="#L" n="8"/>concedendo quod habent aliquem actum
+          <lb ed="#L" n="9"/>bonum bonitate morali, diminute tamen,
+          <lb ed="#L" n="10"/>quia non malum malitia contrarie, ut 
+          su<lb ed="#L" break="no" n="11"/>pra patuit.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e3666">
+          <lb ed="#L" n="12"/>(c) Ad secundum dico, quod, Angelum
+          <lb ed="#L" n="13"/>vel voluntatem ejus esse capacem, etc. Sed
+          <lb ed="#L" n="14"/>hiec responsio, licet evadat argumentum
+          <lb ed="#L" n="15"/>quantum ad actum bonum meritorium,
+          <lb ed="#L" n="16"/>quia in Angelis malis non est aliud 
+          prin<lb ed="#L" break="no" n="17"/>cipium  partiale actus meritorii, scilicet
+          <lb ed="#L" n="18"/>gratia, ut supra patet, non tamen evadit
+          <lb ed="#L" n="19"/>de actu bono morali, quia imago 
+          secun<lb ed="#L" break="no" n="20"/>dum Doctorem 4n primo, distinct. 3.
+          <lb ed="#L" n="21"/>questione ultima, non tantum sonat 
+          po<lb ed="#L" break="no" n="22"/>tentiam sive principium, sed etiam 
+          in<lb ed="#L" break="no" n="23"/>cludit actum, et tunc in malis Angelis erit
+          <lb ed="#L" n="24"/>imago Trinitatis, cum actu intelligunt
+          <lb ed="#L" n="25"/>Deum, et actu diligunt.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e3700">
+          <lb ed="#L" n="26"/>Respondeo, quod ?mago secundum 
+          Au<lb ed="#L" break="no" n="27"/>gustinum, aliquando accipitur pro ipsa
+          <lb ed="#L" n="28"/>anima includente tantum intellectum et
+          <lb ed="#L" n="29"/>voluntatem, qui sunt principia actuum
+          <lb ed="#L" n="30"/>secundorum, et talis imago est. in 
+          deemo<lb ed="#L" break="no" n="31"/>nibus. Aliquando accipitur 2mago, ut. 
+          in<lb ed="#L" break="no" n="32"/>cludit tam actus primos quam secundos,
+          <lb ed="#L" n="33"/>ut exposui ?n primo, dist. tertia, quest.
+          <lb ed="#L" n="34"/>ult. et talis imago imperfecte potest esse
+          <lb ed="#L" n="35"/>in demonibus, quia possunt cognoscere
+          <lb ed="#L" n="36"/>Deum, et diminute amare, puta amando,
+          <lb ed="#L" n="37"/>ut bonum commodum sibi, non possunt
+          <lb ed="#L" n="38"/>ergo exire in actum perfecte moralem.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e3731">
+          <lb ed="#L" n="39"/>(d) Ad. tertium concedo. Responsio stat
+          <lb ed="#L" n="40"/>in hoc, quod aliud est loqui de potentia
+          <lb ed="#L" n="41"/>peccandi, qua» nominat principium  
+          pro<lb ed="#L" break="no" n="42"/>ductivum ; et aliud est loqui de posse 
+          pec<lb ed="#L" break="no" n="43"/>care, quod dicit ordinem ad peccatum.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e3744">
+          <lb ed="#L" n="44"/>Primo modo nominat intellectum et. vo-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>luntatem, quae sunt partes liberi arbitrii, et
+          <lb ed="#L" n="46"/>tale liberum arbitrium est principium 
+          effe<lb ed="#L" break="no" n="47"/>tivum respectu actus substrati, et 
+          defecti<lb ed="#L" break="no" n="48"/>vum respectu deformitatis, ut infra 
+          pate<lb ed="#L" break="no" n="49"/>bit. distinct. 31. Secundo modo non est
+          <lb ed="#L" n="50"/>liberum arbitrium nec pars liberi arbitrii,
+          <lb ed="#L" n="51"/>quia talis ordo ad actum dicit tantum
+          <lb ed="#L" n="52"/>respectum sive relationem, quae nullo 
+          mo<lb ed="#L" break="no" n="53"/>do pertinet ad liberum arbitrium, et sic
+          <lb ed="#L" n="54"/>concedo quod mali Angeli habent liberum
+          <lb ed="#L" n="55"/>arbitrium, et tamen possunt peccare 
+          defi<lb ed="#L" break="no" n="56"/>ciendo a rectitudine danda actui.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e3777">
+          <lb ed="#L" n="57"/>Hanc litteram declaro. Cum distinguit :
+          <lb ed="#L" n="58"/>aliud est loqui de posse peccare, aliud de
+          <lb ed="#L" n="59"/>potentia ad. peccandum. Primum dicit
+          <lb ed="#L" n="60"/>ordinem ad actum difformem, et talis 
+          or<lb ed="#L" break="no" n="61"/>do potest multipliciter considerari, quia
+          <lb ed="#L" n="62"/>vel terminatur ad actum substratum 
+          de<lb ed="#L" break="no" n="63"/>formitati, et fundatur in libero arbitrio,
+          <lb ed="#L" n="64"/>et tunc talis ordo dicit relationem realem;
+          <lb ed="#L" n="65"/>aut terminatur ad ipsam deformitatem et
+          <lb ed="#L" n="66"/>fundatur in libero arbitrio, et tunc 
+          tan<lb ed="#L" break="no" n="67"/>tum dicit relationem rationis, patet, quia
+          <lb ed="#L" n="68"/>omnis relatio, qua terminatur ad non
+          <lb ed="#L" n="69"/>ens, est relatio rationis, ut infra patebit,
+          <lb ed="#L" n="70"/>dist. 44. sed deformitas est tantum 
+          priva<lb ed="#L" break="no" n="71"/>tio rectitudinis, quae deberet inesse actui,
+          <lb ed="#L" n="72"/>ut infra patet dist. 35. 36. e( 31. Sequitur :
+          <lb ed="#L" n="73"/>Secundum dicit rationem principii, quo
+          <lb ed="#L" n="74"/>potest elici actus deformis, patet, quia
+          <lb ed="#L" n="75"/>dicit ipsum liberum arbitrium, quod est
+          <lb ed="#L" n="76"/>principium quo potest elici actus 
+          defor<lb ed="#L" break="no" n="77"/>mis, sic intelligendo, quod est principium
+          <lb ed="#L" n="78"/>quo ut. productivo respectu actus 
+          substra<lb ed="#L" break="no" n="79"/>ti, et quo ut defectivo respectu 
+          deformita<lb ed="#L" break="no" n="80"/>tis inherentis actui. Sequitur : Primus
+          <lb ed="#L" n="81"/>ordo non est liberi arbitrii, nec aliquid
+          <lb ed="#L" n="82"/>ejus, patet, quia talis ordo tantum dicit
+          <lb ed="#L" n="83"/>relationem vel realem vel rationis. 
+          Sequi<lb ed="#L" break="no" n="84"/>tur : nec absolute aliquis ordo ad. actum
+          <lb ed="#L" n="85"/>est aliquod principium activum, vel pars
+          <lb ed="#L" n="86"/>ejus, patet, quia omne principium 
+          acti<lb ed="#L" break="no" n="87"/>vum semper dicit entitatem absolutam,
+          <lb ed="#L" n="88"/>nulla enim relatio potest poni de genere
+          <pb ed="#L" n="411"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>activorum, ut patet 5. PhAysicor. lext.
+          <lb ed="#L" n="2"/>com. 10. Sequitur : Secundo modo 
+          di<lb ed="#L" break="no" n="3"/>co quod illud, quo illud potest. peccare
+          <lb ed="#L" n="4"/>includit duo, quorum alterum est posse,
+          <lb ed="#L" n="5"/>aliud. deficere, patet, quia potentia 
+          pec<lb ed="#L" break="no" n="6"/>candi, ut est principium quo est 
+          producti<lb ed="#L" break="no" n="7"/>va alicujus actus substrati, et. ut, sic, 
+          in<lb ed="#L" break="no" n="8"/>cludit posse, et est defectiva deficiendo a
+          <lb ed="#L" n="9"/>rectitudine danda, et ut sic includit 
+          defi<lb ed="#L" break="no" n="10"/>cere. Sequitur : e( illud. est. quo potest in
+          <lb ed="#L" n="11"/>illud. est ejus posse, id est, illud 
+          principi<lb ed="#L" break="no" n="12"/>um formale productivum quo potest in
+          <lb ed="#L" n="13"/>substratum peccati, vocatur posse.
+          <lb ed="#L" n="14"/>Sequitur: quod. posse, est per se 
+          liber<lb ed="#L" break="no" n="15"/>latis arbitrii et potentiae, patet, quia 
+          vo<lb ed="#L" break="no" n="16"/>luntas est principium productivum quo
+          <lb ed="#L" n="17"/>homo vel Angelus vere potest producere
+          <lb ed="#L" n="18"/>substratum peccati, et talis voluntas, vel
+          <lb ed="#L" n="19"/>est liberum arbitrium, vel saliem pars 
+          li<lb ed="#L" break="no" n="20"/>beri arbitrii, dicitur etiam potentia 
+          produ<lb ed="#L" break="no" n="21"/>etiva. Sequitur: reliquum vero non est
+          <lb ed="#L" n="22"/>ejus unde liberum arbitrium, sed. unde
+          <lb ed="#L" n="23"/>tale scilicet defectivum, id est, quod 
+          ip<lb ed="#L" break="no" n="24"/>sum deficere a rectitudine danda actui,
+          <lb ed="#L" n="25"/>nec est liberum arbitrium, nec pars liberi
+          <lb ed="#L" n="26"/>arbitrii, inquantum liberum arbitrium, vel
+          <lb ed="#L" n="27"/>inquantum pars, quia ut sic, dicitur 
+          po<lb ed="#L" break="no" n="28"/>tentia productiva; sed bene deficere 
+          per<lb ed="#L" break="no" n="29"/>tinet ad liberum arbitrium, non 
+          inquan<lb ed="#L" break="no" n="30"/>tum liberum arbitrium est effectivum,
+          <lb ed="#L" n="31"/>sel inquantum est defectivum, supple
+          <lb ed="#L" n="32"/>inquantum deficit a rectitudine danda
+          <lb ed="#L" n="33"/>actui. Sequitur : ?ta quod sicut in communi
+          <lb ed="#L" n="34"/>liberum arbitrium est quo. quis potest 
+          vel<lb ed="#L" break="no" n="35"/>le, etc. Dicit Doctor quod accipiendo 
+          li<lb ed="#L" break="no" n="36"/>berum arbitrium, ut tantum est commune
+          <lb ed="#L" n="37"/>Deo et beatis, tunc est principium 
+          produ<lb ed="#L" break="no" n="38"/>ctivum, quo tam Deus et beati possunt 
+          ab<lb ed="#L" break="no" n="39"/>solute velle. Accipiendo vero liberum 
+          ar<lb ed="#L" break="no" n="40"/>bitrium in particulari prout convenit 
+          via<lb ed="#L" break="no" n="41"/>toribus, tunc est id quo viator, non
+          <lb ed="#L" n="42"/>tantum potest absolute velle, sed etiam
+          <lb ed="#L" n="43"/>potest defectibiliter velle, quia est id quo
+          <lb ed="#L" n="44"/>viator potest deficere a rectitadine danda.
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>Sequitur : tamen quantum ad aliquid, 
+          po<lb ed="#L" break="no" n="46"/>test poni dissimile, quia ad. absolute vell
+          <lb ed="#L" n="47"/>tota. entitas positiva liberi arbitrii, el
+          <lb ed="#L" n="48"/>sola, est principium, supple productivum,
+          <lb ed="#L" n="49"/>ad illam autem deformitatem in actu 
+          ni<lb ed="#L" break="no" n="50"/>hil. positivum in libero arbitrio est 
+          prin<lb ed="#L" break="no" n="51"/>cipium; patet, quia respectu non entis,
+          <lb ed="#L" n="52"/>nihil potest esse principium productivum
+          <lb ed="#L" n="53"/>quia principium productivum, tantum 
+          re<lb ed="#L" break="no" n="54"/>Spicit ens positivum pro producto, sed
+          <lb ed="#L" n="55"/>illa deformitas, quae inest actui est 
+          sim<lb ed="#L" break="no" n="56"/>pliciter non ens ; ergo.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e3977">
+          <lb ed="#L" n="57"/>Sequitur: et tunc ad formam dico,
+          <lb ed="#L" n="58"/>quod dato quod ibi sit libertas arbitrii,
+          <lb ed="#L" n="59"/>ete. Vult dicere quod inquantum liberum
+          <lb ed="#L" n="60"/>arbitrium est potentia productiva positivi
+          <lb ed="#L" n="61"/>ut sic, ad liberum arbitrium non pertinet
+          <lb ed="#L" n="62"/>peccatum, quia peecatum proprie 
+          respi<lb ed="#L" break="no" n="63"/>cit potentiam defectivam, et non ut 
+          posi<lb ed="#L" break="no" n="64"/>tive productivam. Sequitur, tamen ex 
+          de<lb ed="#L" break="no" n="65"/>fectu. concomitante illum actum — potest
+          <lb ed="#L" n="66"/>esse peccatum, hoc clarum est, ex 
+          supra<lb ed="#L" break="no" n="67"/>dictis. Sequitur: potest tamen. concedi 
+          to<lb ed="#L" break="no" n="68"/>tum argumentum. etc. Hic dat aliam 
+          re<lb ed="#L" break="no" n="69"/>sponsionem, et concedit quod Angeli mali
+          <lb ed="#L" n="70"/>habent potentiam non peccandi, quia 
+          ha<lb ed="#L" break="no" n="71"/>bent liberum arbitrium, quod non est
+          <lb ed="#L" n="72"/>formaliter peccatum, ut patet. Sive etiam
+          <lb ed="#L" n="73"/>accipiatur potentia ut dicit ordinem ad
+          <lb ed="#L" n="74"/>actum, talis potentia non est formaliter
+          <lb ed="#L" n="75"/>peccatum; sive accipiatur potentia, ut, 
+          no<lb ed="#L" break="no" n="76"/>minat principium, sive activum, sive
+          <lb ed="#L" n="77"/>passivum, talis potentia non est 
+          forma<lb ed="#L" break="no" n="78"/>liter peccatum. Patet, quia peccatum 
+          for<lb ed="#L" break="no" n="79"/>maliter est sola carentia rectitudinis 
+          de<lb ed="#L" break="no" n="80"/>bitae quae deberet inesse actui ut infra
+          <lb ed="#L" n="81"/>patebit 7n isto 2. dist. Sequitur: licet
+          <lb ed="#L" n="82"/>non habeant potentiam non peccandi,
+          <lb ed="#L" n="83"/>hoc est, non esse in peccato, quomodo
+          <lb ed="#L" n="84"/>peccator dicitur esse in peccato, 
+          post<lb ed="#L" break="no" n="85"/>quam transivit. actus, quem. commisit,
+          <lb ed="#L" n="86"/>id est, quod loquendo de peccato, sive
+          <lb ed="#L" n="87"/>de obligatione ad poenam aeternam, quie
+          <lb ed="#L" n="88"/>manet in anima post actum peccati, ut
+          <pb ed="#L" n="412"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>patet in 4. dist. 14. quest. prima. Nulla
+          <lb ed="#L" n="2"/>voluntas creata est potens se liberare a
+          <lb ed="#L" n="3"/>tali obligatione, solus enim Deus potest
+          <lb ed="#L" n="4"/>liberare ab hujusmodi obligatione, ut 
+          pa<lb ed="#L" break="no" n="5"/>tet a Doctore in 4. dist. 14. et 99.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e4064">
+          <lb ed="#L" n="6"/>(e) Ad aliud. Ad quartum respondet,
+          <lb ed="#L" n="7"/>quod. in agentibus mere naturalibus, 
+          ces<lb ed="#L" break="no" n="8"/>sanlibus impedimentis, reditur ad 
+          dis<lb ed="#L" break="no" n="9"/>positionem naturalem, ut patet de aqua
+          <lb ed="#L" n="10"/>calefacta, quae redit ad priorem 
+          frigidita<lb ed="#L" break="no" n="11"/>tem cessante impedimento, quia 
+          principi<lb ed="#L" break="no" n="12"/>um frigiditatis est necessarium, et est 
+          ac<lb ed="#L" break="no" n="13"/>tivum per modum nature in ipsa aqua,
+          <lb ed="#L" n="14"/>sed non est sic de agente libero.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e4087">
+          <lb ed="#L" n="15"/>(f) Aliter potest dici, etc. Sed hic 
+          oc<lb ed="#L" break="no" n="16"/>eurrit non parva difficultas. Si enim 
+          Do<lb ed="#L" break="no" n="17"/>ctor intelligat, quod quando voluntas 
+          eli<lb ed="#L" break="no" n="18"/>cit actum carentem ista conformitate,
+          <lb ed="#L" n="19"/>scilicet quod est elicitus conformiter 
+          in<lb ed="#L" break="no" n="20"/>clinationi naturali, illud est peccatum.
+          <lb ed="#L" n="21"/>Contra, et pono casum, voluntas mea 
+          se<lb ed="#L" break="no" n="22"/>cundum inclinationem naturalem, summe
+          <lb ed="#L" n="23"/>inclinatur ad summum beatitudinem  
+          pos<lb ed="#L" break="no" n="24"/>sibilem creari, ut patet a Doctore in 4.
+          <lb ed="#L" n="25"/>dist. 50. et tamen voluntas vult 
+          beatitu<lb ed="#L" break="no" n="26"/>dinem actu elicito secundum merita, et
+          <lb ed="#L" n="27"/>non vult tantam beatitudinem, quanta
+          <lb ed="#L" n="28"/>ab appetitu naturali appetitur, ut patet
+          <lb ed="#L" n="29"/>ubi supra in 4.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e4122">
+          <lb ed="#L" n="30"/>Dico, quod peccatum dicitur contra
+          <lb ed="#L" n="31"/>naturam, quia est contra actam natum
+          <lb ed="#L" n="32"/>elici conformiter naturali inclinationi, 
+          ac<lb ed="#L" break="no" n="33"/>cipiendo naturalem inclinationem pro 
+          di<lb ed="#L" break="no" n="34"/>ctamine naturali, et sic omnis peccans
+          <lb ed="#L" n="35"/>elicit actum contra rectum dictamen 
+          na<lb ed="#L" break="no" n="36"/>turale rationis. Vel si volumus dicere
+          <lb ed="#L" n="37"/>quod sit contra inclinationem naturalem,
+          <lb ed="#L" n="38"/>potest dici sic, quod natura magis 
+          incli<lb ed="#L" break="no" n="39"/>natur ad acetum perfectum, quam 
+          imper<lb ed="#L" break="no" n="40"/>fectum ; actus autem perfecte  
+          circum<lb ed="#L" break="no" n="41"/>stantionatus est, perfectior actu carente 
+          de<lb ed="#L" break="no" n="42"/>bitis circumstantiis. Vel tertio dici potest,
+          <lb ed="#L" n="43"/>quod ideo peccatum est contra naturam,
+          <lb ed="#L" n="44"/>quia dicit tantum carentiam et nrivatio-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>nem; natura autem inclinatur ad bonum
+          <lb ed="#L" n="46"/>absolute, et ad actum, quo attingit illud
+          <lb ed="#L" n="47"/>bonum.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e4166">
+          <lb ed="#L" n="48"/>(g) Ad quintum respondet ibi: Ad aliud
+          <lb ed="#L" n="49"/>de simili, etc. Dicit primo quod illud 
+          ar<lb ed="#L" break="no" n="50"/>gumentum  concluderet contra eos, qui
+          <lb ed="#L" n="51"/>dicunt intellectum esse sufficiens motivum
+          <lb ed="#L" n="52"/>voluntatis, quia ex quo talis intellectus pet
+          <lb ed="#L" n="53"/>modum natura et de necessitate intelligit
+          <lb ed="#L" n="54"/>objectum praesens, tunc de necessitate 
+          mo<lb ed="#L" break="no" n="55"/>vebit voluntatem ad volendum illud 
+          objec<lb ed="#L" break="no" n="56"/>tum ; si enim intellectus Angeli mali recte
+          <lb ed="#L" n="57"/>intelligeret aliquod principium practicum
+          <lb ed="#L" n="58"/>vel conclusionem practicam, puta quod
+          <lb ed="#L" n="59"/>summum bonum est summe diligibile, et
+          <lb ed="#L" n="60"/>per consequens Deus est summe 
+          diligibi<lb ed="#L" break="no" n="61"/>lis, tunc de necessitate moveret 
+          volunta<lb ed="#L" break="no" n="62"/>tem ad sic diligendum. Et si isti volunt
+          <lb ed="#L" n="63"/>evadere argumentum hoc, oportet eos 
+          di<lb ed="#L" break="no" n="64"/>cere intellectum primi Angeli nullum 
+          prin<lb ed="#L" break="no" n="65"/>cipium practicum recte concipere, quod
+          <lb ed="#L" n="66"/>tamen est falsum ; patet, quia sicut 
+          princi<lb ed="#L" break="no" n="67"/>pia speculabilia sunt vera ex terminis,
+          <lb ed="#L" n="68"/>ita principia operabilia, ut patet in quest.
+          <lb ed="#L" n="69"/>ultima prologi. Ad illam similitudinem
+          <lb ed="#L" n="70"/>Philosophi 2. P/Ajysie. quomodo 
+          initelli<lb ed="#L" break="no" n="71"/>gatur, responsum est supra a Doctore in
+          <lb ed="#L" n="72"/>primo dist. 4. q. 4. et in 4. dist. 49.
+          <lb ed="#L" n="73"/>vide ibi.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e4225">
+          <lb ed="#L" n="74"/>(h) Voluntas autem non cogitur ex 
+          bo<lb ed="#L" break="no" n="75"/>nitate objecti, etc. Similis responsio de
+          <lb ed="#L" n="76"/>intellectu et voluntate data est a Doctore
+          <lb ed="#L" n="77"/>in primo, dist. prima q. quarta, ubi dicit
+          <lb ed="#L" n="78"/>quod non est simile, de primo vero 
+          re<lb ed="#L" break="no" n="79"/>spectu intellectus, et de primo bono 
+          re<lb ed="#L" break="no" n="80"/>spectu voluntatis. Et quod dicit hic quod
+          <lb ed="#L" n="81"/>maximum bonum non movet voluntatem
+          <lb ed="#L" n="82"/>ad amandum saltem ordinate, videtur
+          <lb ed="#L" n="83"/>quasi innuere, quod saltem moveat 
+          volun<lb ed="#L" break="no" n="84"/>tatem ad amandum absolute, sed hoc alias
+          <lb ed="#L" n="85"/>pertractabitur ?n mater?a de Beatitudine.,
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e4254">
+          <lb ed="#L" n="86"/>(i) Ad sextum, respondet ibi : Ad aliud
+          <lb ed="#L" n="87"/>dico, quod habitu existente perfecto, etc.
+          <lb ed="#L" n="88"/>Ista littera est satis clara. in qua tamen no-
+          <pb ed="#L" n="413"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>ta aliquas singulares propositiones quarum
+          <lb ed="#L" n="2"/>prima est, quod  Habitu existente in
+          <lb ed="#L" n="3"/>summo, ac(us. sequentes non augent 
+          ip<lb ed="#L" break="no" n="4"/>sum habitum, sed. tantum procedunt ex
+          <lb ed="#L" n="5"/>habitu jam generato, procedunt enim
+          <lb ed="#L" n="6"/>er summa perfectione habitus.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e4280">
+          <lb ed="#L" n="7"/>Secunda : Actus. Angeli boni non 
+          au<lb ed="#L" break="no" n="8"/>gent habitum charitatis ejus, nec effective,
+          <lb ed="#L" n="9"/>nec meritorie, quia est in termino.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e4290">
+          <lb ed="#L" n="10"/>Tertia : Premium substantiale in 
+          pri<lb ed="#L" break="no" n="11"/>mo instanti, in. quo aliquis est beatus,
+          <lb ed="#L" n="12"/>est determinatum, mec ex tunc crescit,
+          <lb ed="#L" n="13"/>quia actus boni sequentes non sunt 
+          meri<lb ed="#L" break="no" n="14"/>torii. licet sint boni.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e4303">
+          <lb ed="#L" n="15"/>Quarta propositio est : Angelo 
+          damna<lb ed="#L" break="no" n="16"/>to in primo instanti sue damnationis
+          <lb ed="#L" n="17"/>determinatur poena,quae non crescit 
+          inten<lb ed="#L" break="no" n="18"/>sive cum sil in termino.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e4314">
+          <lb ed="#L" n="19"/>Quinta propositio : Mali actus 
+          damna<lb ed="#L" break="no" n="20"/>ti quos continue elicit non sunt impuniti,
+          <lb ed="#L" n="21"/>quia includuntur in. prima pena sibi 
+          de<lb ed="#L" break="no" n="22"/>ter minata, et quilibet sicut. posset habere
+          <lb ed="#L" n="23"/>penam accidentalem, habet seipsum pro
+          <lb ed="#L" n="24"/>pena, juxta illud Augustini : Jussisti, 
+          Do<lb ed="#L" break="no" n="25"/>mine, et ita est, ut poena sit sibi omnis
+          <lb ed="#L" n="26"/>peccator.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e4334">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="27"/>Sexta propositio : Potissima et 
+          mazi<lb ed="#L" break="no" n="28"/>ma. pena est privatio maximi boni, 
+          qua<lb ed="#L" break="no" n="29"/>lis est. formaliter in. actu. malo malitia
+          <lb ed="#L" n="30"/>eulpee peccatorem avertente.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e4347">
+          <lb ed="#L" n="31"/>Septima : In damnato crescet ei. poena
+          <lb ed="#L" n="32"/>in infinitum extensiva, sicut et. malitia,
+          <lb ed="#L" n="33"/>neutrum tamen crescet. intensive.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e4356">
+          <lb ed="#L" n="34"/>Octava: Non omnis culpa est proprie -
+          <lb ed="#L" n="35"/>demeritoria, quia sola illa est 
+          demerito<lb ed="#L" break="no" n="36"/>ria, quae a wviatore elicitur ; illa vere
+          <lb ed="#L" n="37"/>que elicitur a. damnato, magis. proprie
+          <lb ed="#L" n="38"/>dicitur damnatoria.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e4370">
+          <lb ed="#L" n="39"/>Nona propositio est de beato: Boni
+          <lb ed="#L" n="40"/>actus beati includuntur in primo actu
+          <lb ed="#L" n="41"/>beatitudinis, cum procedant ex 
+          perfecti<lb ed="#L" break="no" n="42"/>one actus beatifici, et quantum ad. 
+          acci<lb ed="#L" break="no" n="43"/>dentale praemium, quilibet actus. est sibi
+          <lb ed="#L" n="44"/>premium.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e4386">
+          <lb ed="#L" n="45"/>Decima : Praemium accidentale 
+          bea<lb ed="#L" break="no" n="46"/>crescet in infinitum, sicut. actus boni
+          <lb ed="#L" n="47"/>crescent n infinitum extensive, neutrum
+          <lb ed="#L" n="48"/>tamen crescet. intensive.
+        </p>
+        <p xml:id="mm30o9-d1e1898-d1e4397">
+          <lb ed="#L" n="49"/>Undecima : Actus beati non proprie
+          <lb ed="#L" n="50"/>dicuntur meritorii, sed magis actus 
+          bea<lb ed="#L" break="no" n="51"/>fici ex beatitudine procedentes.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

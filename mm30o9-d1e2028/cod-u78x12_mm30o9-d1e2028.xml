@@ -1,0 +1,1490 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#per-FLBca3">Franciscus Lychetus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2024-08-25">August 25, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x12">Vives, Paris, 1893, volume 12</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="661"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="mm30o9-d1e2028"><!-- lycht-l2d14q3-p1 -->
+        <head xml:id="mm30o9-d1e2028-Hd1e101">Quaestio 3</head>
+        <p xml:id="mm30o9-d1e2028-d1e103">
+          <lb ed="#L" n="73" type="fixed=661"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e108">
+          <lb ed="#L" n="74"/>(a) Circa tertium, scilicet, etc. Hujus
+          <lb ed="#L" n="75"/>etiam quaestionis meminit Lychetus in
+          <lb ed="#L" n="76"/>initio distinctionis, sed eam tamen 
+          inex<lb ed="#L" break="no" n="77"/>plicatam reliquit et ipse et Tartaretus,
+          <lb ed="#L" n="78"/>quam ob causam nescio, cum plures
+          <lb ed="#L" n="79"/>contineat philosophicas difficultates; 
+          prae<lb ed="#L" break="no" n="80"/>ter enim principalem de influxu 
+          corpo<lb ed="#L" break="no" n="81"/>rum coelestium in haec inferiora 
+          univer<lb ed="#L" break="no" n="82"/>saliter, agitur etiam in speciali - de fluxu
+          <lb ed="#L" n="83"/>et refluxu maris, et de influentia 
+          coelo<lb ed="#L" break="no" n="84"/>rum tam in eorpora juxta mixta 
+          inani<lb ed="#L" break="no" n="85"/>mala, quam in corpora animata, etiam
+          <lb ed="#L" n="86"/>anima rationali. In solutione quoque
+          <lb ed="#L" n="87"/>avreumentorum  ostenditur non solum
+          <pb ed="#L" n="662"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>per formas accidentales, sed per 
+          sub<lb ed="#L" break="no" n="2"/>stantiales coelos agere, et non 
+          cessaltu<lb ed="#L" break="no" n="3"/>rum omnem motum inferiorum 
+          corpo<lb ed="#L" break="no" n="4"/>rum, quamvis cessarel molus colorum.
+          <lb ed="#L" n="5"/>Quae omnia parlicularius examinanda
+          <lb ed="#L" n="6"/>sunt.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d14q3-p2">-->
+        <p xml:id="mm30o9-d1e2028-d1e160">
+          <lb ed="#L" n="81" type="fixed=662"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e166">
+          <lb ed="#L" n="82"/>(b) Dico ad questionem, etc. Ponit hic
+          <lb ed="#L" n="83"/>universalem conclusionem  
+          comprehen<lb ed="#L" break="no" n="84"/>dentem praecipua capita, qui deinceps
+          <lb ed="#L" n="85"/>seorsim lractal in hac quaestione, quam
+          <lb ed="#L" n="86"/>propterea resolvemus in suas partes.
+          <pb ed="#L" n="663"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>Sit ergo prima conclusio : Corpora 
+          CcG<lb ed="#L" break="no" n="2"/>lestia agunt in hac inferiora. Hc 
+          conclu<lb ed="#L" break="no" n="3"/>sio est. communis et . certa quotidiana
+          <lb ed="#L" n="4"/>experientia , qua constat Solem, lunam et
+          <lb ed="#L" n="5"/>stellis producere lumen in tolo aere, el
+          <lb ed="#L" n="6"/>Solem producere notabilem calorem ; 
+          un<lb ed="#L" break="no" n="7"/>de de illo dicitur Psalm. 18. Non est qui
+          <lb ed="#L" n="8"/>se abscondat a calore ejus. Hae conclusio
+          <lb ed="#L" n="9"/>amplius palebil per sequentes.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e203">
+          <lb ed="#L" n="10"/>Objicies primo: Agens et passum 
+          de<lb ed="#L" break="no" n="11"/>benL convenire in materia et 
+          disconve<lb ed="#L" break="no" n="12"/>nire in forma, secundum Philosophum 1.
+          <lb ed="#L" n="13"/>de General. Lext. 87. sed coelestia 
+          cor<lb ed="#L" break="no" n="14"/>pora non conveniunt cum sublunaribus
+          <lb ed="#L" n="15"/>in raateria ; ergo non possunt agere in
+          <lb ed="#L" n="16"/>illa. Respondeo primo negando minorem,
+          <lb ed="#L" n="17"/>suppono enim cum communiori sententia,
+          <lb ed="#L" n="18"/>coelos constare materia prima, non minus
+          <lb ed="#L" n="19"/>quam sublunaria, et secundum Seolistas
+          <lb ed="#L" n="20"/>etiam illam materiam esse ejusdem 
+          spe<lb ed="#L" break="no" n="21"/>cie icum materia sublunarium. Respondeo
+          <lb ed="#L" n="22"/>secundo, distinguendo majorem, in 
+          mate<lb ed="#L" break="no" n="23"/>ria prima physica, nego ; in materia, id
+          <lb ed="#L" n="24"/>est, in ratione substanti? corporese 
+          sSus<lb ed="#L" break="no" n="25"/>ceptiva accidentis corporei, concedo 
+          ma<lb ed="#L" break="no" n="26"/>jorem, et distinguo minorem 
+          conformi<lb ed="#L" break="no" n="27"/>Ler ; non conveniunt eum  sublunaribus
+          <lb ed="#L" n="28"/>in materia prima physica, lranseal; in
+          <lb ed="#L" n="29"/>materia, id est, in ratione substantiis 
+          cor<lb ed="#L" break="no" n="30"/>pores susceplivi accidentium 
+          corporeo<lb ed="#L" break="no" n="31"/>rum, nego minorem et consequentiam.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e253">
+          <lb ed="#L" n="32"/>Objicies secundo : Omne agens agil,
+          <lb ed="#L" n="33"/>uL assimilel sibi passum, ut producal
+          <lb ed="#L" n="34"/>effectum .sibi similem, secundu m 
+          Philo<lb ed="#L" break="no" n="35"/>sophum 1. Generat. ext. bl. sed 
+          mani<lb ed="#L" break="no" n="36"/>festum est colum non posse assimilare
+          <lb ed="#L" n="37"/>sibi aliquod sublunare ; ergo non potest
+          <lb ed="#L" n="38"/>agere in aliquod sublunare. Confirmatur,
+          <lb ed="#L" n="39"/>quia omne agens naturale agendo 
+          repa<lb ed="#L" break="no" n="40"/>litur sed coelestia corpora non 
+          repaliun<lb ed="#L" break="no" n="41"/>tur; ergo nec agunl in sublunaria. 
+          Re<lb ed="#L" break="no" n="42"/>n- spondeo distinguendo majorem : omne
+          <lb ed="#L" n="43"/>gens, quod agit actione univoea, 
+          con<lb ed="#L" break="no" n="44"/>cedo majorem ; quod agil actione acqui-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>voca, nego ; et concessa minori similiter
+          <lb ed="#L" n="46"/>distinguo consequens ; non potest agere
+          <lb ed="#L" n="47"/>actione univoca, concedo; aequivoca, 
+          ne<lb ed="#L" break="no" n="48"/>go. Respondeo secundo, distinguendo
+          <lb ed="#L" n="49"/>majorem aliter, ut assimilet sibi 
+          pas<lb ed="#L" break="no" n="50"/>sum quatenus producit in illo talem 
+          for<lb ed="#L" break="no" n="51"/>mam qu alem ipsummet habet, vel 
+          for<lb ed="#L" break="no" n="52"/>maliter vel virtualiter, concedo ; 
+          quate<lb ed="#L" break="no" n="53"/>nus producit in illo formam semper 
+          la<lb ed="#L" break="no" n="54"/>lem, qualem ipsummetl habet formaliter,
+          <lb ed="#L" n="55"/>nego; et similiter distinguo minorem
+          <lb ed="#L" n="56"/>et nego consequentia m. Ad 
+          confirma<lb ed="#L" break="no" n="57"/>lionem — respondeo distinguendo  
+          ma<lb ed="#L" break="no" n="58"/>jorem, quando agens est contra 
+          sphe<lb ed="#L" break="no" n="59"/>ram activitatis passi, et capax form
+          <lb ed="#L" n="60"/>producibilis a passo, concedo, aliter nego
+          <lb ed="#L" n="61"/>majorem; corpora autem coelestia non
+          <lb ed="#L" n="62"/>sunt capacia forme a sublunaribus 
+          pro<lb ed="#L" break="no" n="63"/>ducibilis.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e327">
+          <lb ed="#L" n="64"/>Secunda Conclusio : Corpora coelestia
+          <lb ed="#L" n="65"/>agunl in elementa. hac etiam est 
+          com<lb ed="#L" break="no" n="66"/>munis, et patet, quia certum est quod
+          <lb ed="#L" n="67"/>aer et aqua illuminenlur, et calefiant,
+          <lb ed="#L" n="68"/>ac frigefiant per corpora coeleslia, 
+          secun<lb ed="#L" break="no" n="69"/>dum quod taliter vel taliter applicantur
+          <lb ed="#L" n="70"/>ipsis. Doctor duplicem actionem tribuit
+          <lb ed="#L" n="71"/>corporibus coeleslibus, respectu 
+          elemen<lb ed="#L" break="no" n="72"/>torum, alterativam scilicet et generativam.
+          <lb ed="#L" n="73"/>Prima actio patet ex eo quod ut jam dixi,
+          <lb ed="#L" n="74"/>calefaciant et frigefaciant. Secundam 
+          acti<lb ed="#L" break="no" n="75"/>onem generativam probat Scotus 
+          expe<lb ed="#L" break="no" n="76"/>rientia, quia quando stelle calidis 
+          effe<lb ed="#L" break="no" n="77"/>ctive, hoc est ille quia habent virtutem
+          <lb ed="#L" n="78"/>effectivam caloris, magis accedunt ad 
+          ali<lb ed="#L" break="no" n="79"/>quam regionem, ium plus generatur
+          <lb ed="#L" n="80"/>ignis et aeris, ad quorum generationem
+          <lb ed="#L" n="81"/>calor est qualitas dispositiva, ut patet ;
+          <lb ed="#L" n="82"/>et e contrario, quando accedunt stellae
+          <lb ed="#L" n="83"/>frigid: non formaliter, sed effective, tum
+          <lb ed="#L" n="84"/>magis generatur de terra et aqua, ad
+          <lb ed="#L" n="85"/>quas generandas valde conducit frigus,
+          <lb ed="#L" n="86"/>ut cliam patet. Et quoniam quando 
+          stel<lb ed="#L" break="no" n="87"/>le calide acceduntad unam regionem,
+          <lb ed="#L" n="88"/>frieidae accedunt ad aliam, inde fil ut
+          <pb ed="#L" n="664"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>quantum crescant elementa superiora,
+          <lb ed="#L" n="2"/>scilicet ignis et aer, tantum decrescant
+          <lb ed="#L" n="3"/>inferiora, scilicet terra et aqua, unde fit,
+          <lb ed="#L" n="4"/>ut nunquam detur in universo vacuum,
+          <lb ed="#L" n="5"/>propter hanc majorem augmenlationem
+          <lb ed="#L" n="6"/>illorum elementorum. Alio modo 
+          po<lb ed="#L" break="no" n="7"/>lest facilius probari quod corpora
+          <lb ed="#L" n="8"/>coleslia habeant actionem — 
+          generali<lb ed="#L" break="no" n="9"/>vam elementorum, quia producunt 
+          ful<lb ed="#L" break="no" n="10"/>gura et coruscationes, et quia Sol 
+          com<lb ed="#L" break="no" n="11"/>burit stuppam mediantibus radiis solaribus
+          <lb ed="#L" n="12"/>per vitra quaedam applicatis, neque enim
+          <lb ed="#L" n="13"/>productio istius ignis adscribi potest 
+          ca<lb ed="#L" break="no" n="14"/>lori alio modo quam dispositive, quidquid
+          <lb ed="#L" n="15"/>dicant Thomiste; nec ulla etiam alia
+          <lb ed="#L" n="16"/>causa applicata est tum, praeter corpus
+          <lb ed="#L" n="17"/>aliquod coeleste, cui illa productio possit
+          <lb ed="#L" n="18"/>commode attribui.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e427">
+          <lb ed="#L" n="19"/>(c) Praeterea secundo, stellaa habent 
+          acti<lb ed="#L" break="no" n="20"/>nem, etc. Praeter duas actiones 
+          praemis<lb ed="#L" break="no" n="21"/>sas, allerativam scilicet et generativam,
+          <lb ed="#L" n="22"/>aliam, scilicet locomotivam attribuit
+          <lb ed="#L" n="23"/>Doctor hic corporibus coelestibus respectu
+          <lb ed="#L" n="24"/>elementorum ; quod probat, quia stellae,
+          <lb ed="#L" n="25"/>Sive per se, sive medianlibus colis in
+          <lb ed="#L" n="26"/>quibus sunt, circumferunl secum 
+          supe<lb ed="#L" break="no" n="27"/>riorem partem aeris, et. consequenter a
+          <lb ed="#L" n="28"/>priori sphieram ignis in concavo silam
+          <lb ed="#L" n="29"/>Luns. Quod autem circumagat colum
+          <lb ed="#L" n="30"/>superiorem partem aeris, probat ex eo
+          <lb ed="#L" n="31"/>quod Comete, et alie impressiones 
+          igni<lb ed="#L" break="no" n="32"/>ke in illa parte aeris generate, 
+          circula<lb ed="#L" break="no" n="33"/>riler videantur moveri, qui motus non
+          <lb ed="#L" n="34"/>nisi a coelo provenire dicendus est.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e464">
+          <lb ed="#L" n="35"/>Quia vero supponit Doctor hic duo, quae
+          <lb ed="#L" n="36"/>sunt in controversia, nimirum, dari
+          <lb ed="#L" n="37"/>spheram ignis in concavo Luns, et 
+          co<lb ed="#L" break="no" n="38"/>melas generari in regione aeris, abs re
+          <lb ed="#L" n="39"/>fundamenta, quibus hic supposita 
+          inni<lb ed="#L" break="no" n="40"/>luntur, hic proponere, et quae contra 
+          po<lb ed="#L" break="no" n="41"/>nuntur solvere.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e483">
+          <lb ed="#L" n="42"/>Quantum ergo ad primum, de actuali
+          <lb ed="#L" n="43"/>existentia elementi ignis supremam 
+          par<lb ed="#L" break="no" n="44"/>lem aeris inter et superficiem coneavam
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>coeli Lunas, Veteriores quidam  
+          Philoso<lb ed="#L" break="no" n="46"/>phi existimarunt elementum ignis habere
+          <lb ed="#L" n="47"/>pro propria sede medium mundi, alque
+          <lb ed="#L" n="48"/>intra terram contineri circa mundi 
+          cen<lb ed="#L" break="no" n="49"/>iürum, sicut nos communiter dicimus 
+          ip<lb ed="#L" break="no" n="50"/>sam terram locari. Fundamentum hujus
+          <lb ed="#L" n="51"/>sententiae est, quod ignis sit 
+          elemento<lb ed="#L" break="no" n="52"/>rum perfectissimum, et consequenter
+          <lb ed="#L" n="53"/>habere locum perfectissimum, qualem
+          <lb ed="#L" n="54"/>existimarunt illum qui est circa mundi
+          <lb ed="#L" n="55"/>centrum immediate.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e518">
+          <lb ed="#L" n="56"/>Contra hanc sententiam imprimis facit,
+          <lb ed="#L" n="57"/>quod difficile est his auctoribus probare
+          <lb ed="#L" n="58"/>perfectissimum locum esse illum, qui est
+          <lb ed="#L" n="59"/>circa mundi centrum immediate, imo
+          <lb ed="#L" n="60"/>videtur potius perfectior esse superior
+          <lb ed="#L" n="61"/>locus proximus coelo. Secundo, quamvis
+          <lb ed="#L" n="62"/>id admitteretur, non minus difficile est
+          <lb ed="#L" n="63"/>probare, quod quo perfectius est 
+          elemen<lb ed="#L" break="no" n="64"/>tum, eo perfectiorem debeat habere 
+          lo<lb ed="#L" break="no" n="65"/>cum ; quantum ad locum enim 
+          elemen<lb ed="#L" break="no" n="66"/>torum potius spectari debet 
+          emolumen<lb ed="#L" break="no" n="67"/>tium universi, quam illa major 
+          digni<lb ed="#L" break="no" n="68"/>las, quia accresceret. elemento ex 
+          collo<lb ed="#L" break="no" n="69"/>catione in perfectiori loco, unde si non
+          <lb ed="#L" n="70"/>essel. tam commodum universo, quod
+          <lb ed="#L" n="71"/>ignis in loco perfectissimo collocaretur,
+          <lb ed="#L" n="72"/>non esset in eo collocandus ; argumenta
+          <lb ed="#L" n="73"/>vero probantia ignem collocari in alio
+          <lb ed="#L" n="74"/>loco, ostendunt melius esse universo
+          <lb ed="#L" n="75"/>quod ignis in illo alio loco collocatur.
+          <lb ed="#L" n="76"/>Confirmatur hoc, quia certe non est
+          <lb ed="#L" n="77"/>verisimile quod locus «coeli solaris sit
+          <lb ed="#L" n="78"/>perfectissimus locus, cum non sit nec 
+          me<lb ed="#L" break="no" n="79"/>dius, nec supremus, nec infimus, et tamen
+          <lb ed="#L" n="80"/>communiter asseritur Sol esse 
+          perfectis<lb ed="#L" break="no" n="81"/>sima stellarum. Tertio denique ascensus
+          <lb ed="#L" n="82"/>ignis omnino videtur arguere, quod locus
+          <lb ed="#L" n="83"/>naturalis ejus non sit infra terram, nam
+          <lb ed="#L" n="84"/>corpora omnia moveri polius deberent
+          <lb ed="#L" n="85"/>motu naturali ad locum naturalem, quam
+          <lb ed="#L" n="86"/>ab illo, ut in omnibus aliis experientia 
+          vi<lb ed="#L" break="no" n="87"/>demus.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e590">
+          <lb ed="#L" n="88"/>
+          <name xml:id="mm30o9-d1e2028-Nd1e594">Hieronvmus Cardanus</name> 9. de subtilitate,
+          <pb ed="#L" n="665"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>negat elementum ignis dari ullibi, et illum,
+          <lb ed="#L" n="2"/>qui apud nos est, esse elementum. 
+          Fran<lb ed="#L" break="no" n="3"/>ciscus Vallesius de sacra Philosophia
+          <lb ed="#L" n="4"/>cap. l. admittit quidem dari elementum
+          <lb ed="#L" n="5"/>ignis in magna quantitate in mundo, sed
+          <lb ed="#L" n="6"/>negat ipsi determinatum locum supra
+          <lb ed="#L" n="7"/>aerem, sed polius inlra aerem reperiri
+          <lb ed="#L" n="8"/>trahique lumine Solis in magna 
+          quanti<lb ed="#L" break="no" n="9"/>tate, et propterea Solem  calefacere.
+          <lb ed="#L" n="10"/>Franciscus Patritius tom. 4. disquisit. 
+          pe<lb ed="#L" break="no" n="11"/>ripat. lib. 7. Scipio Capitius Jb. 2. de
+          <lb ed="#L" n="12"/>principiis, Alexander Tassonicus in suo
+          <lb ed="#L" n="13"/>libro Italico de variis conceplibus /?b. 1.
+          <lb ed="#L" n="14"/>quasito 1l. Paulus Aresius lib. 2. de 
+          gene<lb ed="#L" break="no" n="15"/>ral. qg. 3. aliique plures, negant ignem
+          <lb ed="#L" n="16"/>alium esse, nisi qui apud nos 
+          commu<lb ed="#L" break="no" n="17"/>niter habetur, accenditurque, ac 
+          extin<lb ed="#L" break="no" n="18"/>guitur juxta materi applicationem.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e640">
+          <lb ed="#L" n="19"/>Communiter tamen Philosophi cum
+          <lb ed="#L" n="20"/>Aristotele 4. cc? text. 329. et Astronomi ut
+          <lb ed="#L" n="21"/>Cleomedes, <name xml:id="mm30o9-d1e2028-Nd1e648">Joannes de Sacrobosco</name> et
+          <lb ed="#L" n="22"/>alii, tenent elementum ignis situm esse
+          <lb ed="#L" n="23"/>tanquam loco naturali, in concavo Lung,
+          <lb ed="#L" n="24"/>supra aerem in magna quantitate. Quam
+          <lb ed="#L" n="25"/>senlentiam supponunt SS. Ecclesie 
+          Pa<lb ed="#L" break="no" n="26"/>tres, Origenes Aom. 13. n Exodum, 
+          Ba<lb ed="#L" break="no" n="27"/>silius hom. 3. Hexaemeron, Clemens 
+          Ale<lb ed="#L" break="no" n="28"/>xandrinus /;b. 1. strom. Hieronymus 
+          epi<lb ed="#L" break="no" n="29"/>stol. 198. Augustinus lib. 99. Cic. cap.
+          <lb ed="#L" n="30"/>undecimo, Boetius /b. l. Aronom. 
+          quo<lb ed="#L" break="no" n="31"/>rum certe auctoritate sufficienter probata
+          <lb ed="#L" n="32"/>manet, quamvis nulla alia ratio 
+          suppete<lb ed="#L" break="no" n="33"/>ref, praesertim cum nulla sit ratio in 
+          oppo<lb ed="#L" break="no" n="34"/>situm, unde merito Scotus eamdem 
+          sen<lb ed="#L" break="no" n="35"/>Lentiam hic supponit.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e682">
+          <lb ed="#L" n="36"/>Probatur autem ulterius, quia non minus
+          <lb ed="#L" n="37"/>caetera elementa debent habere aliquem
+          <lb ed="#L" n="38"/>locum proprium in quo quiescant, et sint
+          <lb ed="#L" n="39"/>in magna quantitate quam ignis, quem
+          <lb ed="#L" n="40"/>patet tam esse elementum quam aquam
+          <lb ed="#L" n="41"/>aul aerem ; sed cerle nullus est locus in
+          <lb ed="#L" n="42"/>quo ita quiescat et sit, praeter concavum
+          <lb ed="#L" n="43"/>Lunas, ergo debet asseri existere in illo
+          <lb ed="#L" n="44"/>loco. Probatur minor, quia non existat in
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>meditullio mundi seu circa centrum terra,
+          <lb ed="#L" n="46"/>ut patet ex dictis, nullus autem alius locus
+          <lb ed="#L" n="47"/>proprius assignari potest, in quo sit in
+          <lb ed="#L" n="48"/>magna quant!itate. Confirmatur primo,
+          <lb ed="#L" n="49"/>quia cum ignis levissimus sit, et superiora
+          <lb ed="#L" n="50"/>loca maxime conveniant levibus, omnino
+          <lb ed="#L" n="51"/>maxime supremus locus ex sublunaribus
+          <lb ed="#L" n="52"/>attribuendus est igni.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e724">
+          <lb ed="#L" n="53"/>Confirmatur secundo experientia, qua
+          <lb ed="#L" n="54"/>constat ignem, qui apud nos est, sursum.
+          <lb ed="#L" n="55"/>semper moveri, non minus quam terra
+          <lb ed="#L" n="56"/>deorsum; ergo quemadmodum ex eo
+          <lb ed="#L" n="57"/>quod moveatur terra deorsum infra aerem
+          <lb ed="#L" n="58"/>et aquam, dicimus locum naturalem ipsius
+          <lb ed="#L" n="59"/>esse deorsum, ita quandoquidem ignis
+          <lb ed="#L" n="60"/>movetur sursum, debemus dicere quod
+          <lb ed="#L" n="61"/>locus ipsius naturalis sit sursum, at non 
+          in<lb ed="#L" break="no" n="62"/>tra aerem, cum debeat habere locum 
+          pro<lb ed="#L" break="no" n="63"/>prium et moveatur etiam supra aerem, ut
+          <lb ed="#L" n="64"/>patet ; ergo supra aerem, et consequenter
+          <lb ed="#L" n="65"/>in concavo Luna.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e756">
+          <lb ed="#L" n="66"/>Confirmatur tertio, quia omnino per
+          <lb ed="#L" n="67"/>accidens est, quod reperiatur ignis ille
+          <lb ed="#L" n="68"/>usualis noster, et non minus per accidens
+          <lb ed="#L" n="69"/>est quod reperiatur ignis ille inferni, qui
+          <lb ed="#L" n="70"/>a Deo productus est ad poenam 
+          damnato<lb ed="#L" break="no" n="71"/>rum, nec constat dari ratione naturali. Per
+          <lb ed="#L" n="72"/>accidens etiam est quod reperiatur ignis
+          <lb ed="#L" n="73"/>subterraneus ille intra terram, qui 
+          ali<lb ed="#L" break="no" n="74"/>quando erumpil, sicut per accidens est,
+          <lb ed="#L" n="75"/>quod aer reperiatur inclusus in 
+          concavita<lb ed="#L" break="no" n="76"/>libus terre; ergo si non haberet 
+          elemen<lb ed="#L" break="no" n="77"/>tum ignis alium proprium locum, 
+          seque<lb ed="#L" break="no" n="78"/>retur quod elementum ignis omnino per
+          <lb ed="#L" n="79"/>accilens haberetur in mundo, quod valde
+          <lb ed="#L" n="80"/>absurdum videtur. Itaque multo 
+          probabi<lb ed="#L" break="no" n="81"/>lius asseritur, dari elementum ignis in
+          <lb ed="#L" n="82"/>concavo lungs.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e795">
+          <lb ed="#L" n="83"/>Quod si qui auctores, quorum 
+          auctori<lb ed="#L" break="no" n="84"/>las magni facienda, sit, dicant totum 
+          spa<lb ed="#L" break="no" n="85"/>tium inter coelum et terram repleri aere,
+          <lb ed="#L" n="86"/>intelligendi sunt non de aere proprie
+          <lb ed="#L" n="87"/>diclo, sed de corpore quocumque, quod
+          <lb ed="#L" n="88"/>est tenue et fluidum instar aeris, tale autem
+          <pb ed="#L" n="666"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>corpus est ignis in loco illo superiori, et
+          <lb ed="#L" n="2"/>inde accidit ut non possit videri a nobis,
+          <lb ed="#L" n="3"/>nec sit tam vorax quam apud nos, quia
+          <lb ed="#L" n="4"/>scilicet est valde tenuis ac subtilis eo loci,
+          <lb ed="#L" n="5"/>per quod salisfit majori parti objectionum,
+          <lb ed="#L" n="6"/>quibus adversarii utuntur contra hanc
+          <lb ed="#L" n="7"/>communem sententiam.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e830">
+          <lb ed="#L" n="8"/>Objicies praeterea : Ignis indiget novo
+          <lb ed="#L" n="9"/>pabulo,ut patet experientia, et inde fit ut
+          <lb ed="#L" n="10"/>deficiente pabulo deficiat; ergo si daretur
+          <lb ed="#L" n="11"/>in concavo Lune, deberet habere 
+          pabu<lb ed="#L" break="no" n="12"/>lum aliquod, seu materiam, in quam 
+          age<lb ed="#L" break="no" n="13"/>ret; sed certum est quod talem materiam
+          <lb ed="#L" n="14"/>ibi non habeat, ergo ibi non residet. 
+          Re<lb ed="#L" break="no" n="15"/>spondetur imprimis hoc argumentum «que
+          <lb ed="#L" n="16"/>concludere, quod non daretur alimentum
+          <lb ed="#L" n="17"/>ignis circa centrum terr sub ipsa terra,
+          <lb ed="#L" n="18"/>quia neque ibi etiam haberet materiam,
+          <lb ed="#L" n="19"/>aul pabulum magis, quam in concavo
+          <lb ed="#L" n="20"/>Lunx. Respondetur secundo ignem non
+          <lb ed="#L" n="21"/>indigere pabulo, aut materia in quam
+          <lb ed="#L" n="22"/>agat, nisi quatenus circumstarent alia 
+          cor<lb ed="#L" break="no" n="23"/>pora, quae ipsum destruerent, nisi adesset
+          <lb ed="#L" n="24"/>alia materia iu qua produceret, antequam
+          <lb ed="#L" n="25"/>destrueretur, formam suam, unde in 
+          con<lb ed="#L" break="no" n="26"/>cavo Lune, cum non adsit causa 
+          deslru<lb ed="#L" break="no" n="27"/>ctiva, non est necesse ut adsit materia in
+          <lb ed="#L" n="28"/>quam agat, ut conservetur.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e878">
+          <lb ed="#L" n="29"/>Quantam ad secundum quod supponit
+          <lb ed="#L" n="30"/>Doctor de productione Cometarum in 
+          su<lb ed="#L" break="no" n="31"/>prema regione aeris, adverlendum est,
+          <lb ed="#L" n="32"/>Comelam sic dici, quia est quasi stella
+          <lb ed="#L" n="33"/>comala, ex eo scilicet quod appareat 
+          in<lb ed="#L" break="no" n="34"/>star stellae habentis comam, quia vero non
+          <lb ed="#L" n="35"/>habet semper comam ejusdem rationis,
+          <lb ed="#L" n="36"/>nam aliquando diffusam habet comam in
+          <lb ed="#L" n="37"/>circuitum totum, aliquando vero non nisi
+          <lb ed="#L" n="38"/>ad unam partem tantum; hine dividitur
+          <lb ed="#L" n="39"/>Cometa in crnitum, qui est cometa 
+          diffun<lb ed="#L" break="no" n="40"/>dens comam in omnes partes, et barbatum
+          <lb ed="#L" n="41"/>seu caudatum, qui est comela habens
+          <lb ed="#L" n="42"/>comam ad unam partem solummodo 
+          dif<lb ed="#L" break="no" n="43"/>fusam. Alii vero dividunt Cometam 
+          haben<lb ed="#L" break="no" n="44"/>lem comam ex una parte, in illum qui
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>nimis longam habet comam, et hunc 
+          vo<lb ed="#L" break="no" n="46"/>cant caudatum, et illum, qui breviorem
+          <lb ed="#L" n="47"/>habet comam, et hunc vocant barbatum.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e924">
+          <lb ed="#L" n="48"/>Quantum autem ad praesentem 
+          difficul<lb ed="#L" break="no" n="49"/>lalem Anaxagoras et Democritus, Leste
+          <lb ed="#L" n="50"/>Philosopho 1l. Meftereol. cap. 7. 
+          existima<lb ed="#L" break="no" n="51"/>runt Cometam esse collectionem plurium
+          <lb ed="#L" n="52"/>planetarum, qui appropinquantles sibi 
+          in<lb ed="#L" break="no" n="53"/>vicem, illum exhibent aspectum quem 
+          Co<lb ed="#L" break="no" n="54"/>meta exhibet. Artemidorus apud Senecam
+          <lb ed="#L" n="55"/>lib. 7. naturalium qq. q. 9. cap. 13. 
+          puta<lb ed="#L" break="no" n="56"/>vit Cometam esse collectionem aliarum
+          <lb ed="#L" n="57"/>stellarum errantium, distinctarum a 
+          pla<lb ed="#L" break="no" n="58"/>nelis septem nobis notis. Alii putaverunt
+          <lb ed="#L" n="59"/>Cometam omnem esse unam quamdam
+          <lb ed="#L" n="60"/>stellam errantem, quandoque tali 
+          pecu<lb ed="#L" break="no" n="61"/>liari modo apparentem.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e957">
+          <lb ed="#L" n="62"/>Sed imprimis certum est Cometam non
+          <lb ed="#L" n="63"/>esse aggregationem planetarum, cum pla- .
+          <lb ed="#L" n="64"/>nel: appareant, apparentibus Cometis ab |
+          <lb ed="#L" n="65"/>ilis separati; nec etiam est aggregalio
+          <lb ed="#L" n="66"/>aliarum stellarum errantium, quia non
+          <lb ed="#L" n="67"/>constat ullo indicio alias stellas errantes
+          <lb ed="#L" n="68"/>dari, et quia deberent inter se convenire
+          <lb ed="#L" n="69"/>aliquo determinato tempore eum motus
+          <lb ed="#L" n="70"/>coelorum et planetarum sit 
+          ordinatissi<lb ed="#L" break="no" n="71"/>mus, et quia denique talis sLellarum 
+          er<lb ed="#L" break="no" n="72"/>ranlium aggregalio non posset tanto 
+          tem<lb ed="#L" break="no" n="73"/>pore durare, quanto durat Cometa.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e987">
+          <lb ed="#L" n="74"/>Non est etiam una aliqua stella errans
+          <lb ed="#L" n="75"/>infixa coelo, et semper in eo manens, li- -
+          <lb ed="#L" n="76"/>cet non semper apparens, quia ut dixi,
+          <lb ed="#L" n="77"/>si talis esset, deberel apparere aliquo
+          <lb ed="#L" n="78"/>determinato tempore, nec deberet 
+          instan<lb ed="#L" break="no" n="79"/>tanee, et subito disparere, sed paulatim
+          <lb ed="#L" n="80"/>et successive, qualenus scilicet magis ac
+          <lb ed="#L" n="81"/>minus appropinquarel Soli aut Luna,
+          aliis<lb ed="#L" break="no" n="82"/>que stellis, cujus oppositum conslal 
+          ex<lb ed="#L" break="no" n="83"/>perientia , nec imaginabile videtur 
+          quo<lb ed="#L" break="no" n="84"/>modo maneret in tali situ per plures 
+          raen<lb ed="#L" break="no" n="85"/>ses ut appareret in lanta magnitudine, el
+          <lb ed="#L" n="86"/>postea statim  desinerel apparere tol
+          <lb ed="#L" n="87"/>annis.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e1020">
+          <lb ed="#L" n="88"/>Alii recentiores Astronomi ut Tvco Brahe
+          <pb ed="#L" n="667"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>lib. 9. progymnasmatum, Cornelius 
+          Gem<lb ed="#L" break="no" n="2"/>ma, Heliseus Roestin, Christophorus 
+          Rosh<lb ed="#L" break="no" n="3"/>mannus Keplerus, et aliij plures etiam
+          <lb ed="#L" n="4"/>Peripatetici existimant Cometas generari
+          <lb ed="#L" n="5"/>in eclo de novo, atque adeo coelum non
+          <lb ed="#L" n="6"/>esse ingenerabile ac incorruptibile.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e1042">
+          <lb ed="#L" n="7"/>Contrariam tamen senlentia m, quam
+          <lb ed="#L" n="8"/>Doctor supponit asserens Cometas 
+          gene<lb ed="#L" break="no" n="9"/>rari sub coelo in superiori regione aeris,
+          <lb ed="#L" n="10"/>frequentius tenent lum anliquiores, tum
+          <lb ed="#L" n="11"/>recentiores Astronomi ac Philosophi; et
+          <lb ed="#L" n="12"/>quod non generentur in coelo, probatur ex
+          <lb ed="#L" n="13"/>incorruptibilitate coelorum, quam prater
+          <lb ed="#L" n="14"/>Philosophum /5. 1. co?, text. 22. et 2.
+          <lb ed="#L" n="15"/>cali in ?nilio, suosque omnes tenet ex
+          <lb ed="#L" n="16"/>Patribus D. Dionysius de divinis nominibus
+          <lb ed="#L" n="17"/>cap. 4. Et sane hoc est praecipuum 
+          funda<lb ed="#L" break="no" n="18"/>mentum hujus sententive. Et qui novas
+          <lb ed="#L" n="19"/>stellas apparere fatentur in coelo, quae non
+          <lb ed="#L" n="20"/>sunt semper in illo, inter quos unus est
+          <lb ed="#L" n="21"/>Aversa quast. 33. sect. 3. valde difficulter
+          <lb ed="#L" n="22"/>possunt ostendere cur non similiter 
+          Come<lb ed="#L" break="no" n="23"/>tae apparerent in coelo. Unde idem auctor
+          <lb ed="#L" n="24"/>dum hoc negat, et illud asserit, minus
+          <lb ed="#L" n="25"/>consequenter philosophari videtur, et 
+          prae<lb ed="#L" break="no" n="26"/>serlim non apte argumentatur ex eo quod
+          <lb ed="#L" n="27"/>non possit ostendi qualiter comelae de
+          <lb ed="#L" n="28"/>novo gignantur ; nam simili modo 
+          propor<lb ed="#L" break="no" n="29"/>lione servata possunt in eo generari, quo
+          <lb ed="#L" n="30"/>stelle ille nova, et quemadmodum ipse
+          <lb ed="#L" n="31"/>fatetur stellas novas in coelo apparere,
+          <lb ed="#L" n="32"/>quarum tamen causam productivam et
+          <lb ed="#L" n="33"/>modum, quo producuntur faletur se 
+          ne<lb ed="#L" break="no" n="34"/>scire, similiter permittere deberet, ut 
+          di<lb ed="#L" break="no" n="35"/>cerentur Cometae produci in coelo, 
+          quam<lb ed="#L" break="no" n="36"/>vis non sciretur quomodo producerentur.
+          <lb ed="#L" n="37"/>Verum quoniam communiter supponitur
+          <lb ed="#L" n="38"/>quod sublunaria non agant in corpora
+          <lb ed="#L" n="39"/>ecclesia, et quia praeterea non appareret
+          <lb ed="#L" n="40"/>possibile, ut ipsa corpora coelestia agant
+          <lb ed="#L" n="41"/>in se invicem, aut habere possint aliquam
+          <lb ed="#L" n="42"/>talem dispositionem, secundum quam tam
+          <lb ed="#L" n="43"/>incerto modo apparent in coelis, aut stelle
+          <lb ed="#L" n="44"/>aut cometae, potius dicendum omnes stel-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>las et cometas, quia de novo raris vicibus
+          <lb ed="#L" n="46"/>in ecelo apparent sub coelo produci.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e1133">
+          <lb ed="#L" n="47"/>(d) Praeterea, corpora eclestia, etc. 
+          Pro<lb ed="#L" break="no" n="48"/>ponit hic alium salis mirabilem, et 
+          maxi<lb ed="#L" break="no" n="49"/>me notum effectum corporum coelestium, -
+          <lb ed="#L" n="50"/>competentem ipsis per actionem 
+          locomo<lb ed="#L" break="no" n="51"/>tivam, nempe fluxum et refluxum maris,
+          <lb ed="#L" n="52"/>qui ab astronomis et philosophis 
+          antiqui<lb ed="#L" break="no" n="53"/>oribus communiter attribuitur Lunae, ut ab
+          <lb ed="#L" n="54"/>Aristotele lib. de elementis, Cicerone lib. 92.
+          <lb ed="#L" n="55"/>de natura Deorum, Plinio lib. 2. cap. 97.
+          <lb ed="#L" n="56"/>Ptolomao lib. 2. cap. 12. Averroe, Alberto
+          <lb ed="#L" n="57"/>2. Meteorum, quos sequuntur 
+          Conimbri<lb ed="#L" break="no" n="58"/>censes i(ract. 8. cap. 5. Vierius in Meteor.
+          <lb ed="#L" n="59"/>cap. 6. Hieronymus Porrus in fractatu de
+          <lb ed="#L" n="60"/>fluxu et refluxu maris, Scaliger eaercit.52.
+          <lb ed="#L" n="61"/>et alii plures. Quamvis ex iis aliqui dicant
+          <lb ed="#L" n="62"/>Solem etiam aliquo modo cum Luna 
+          con<lb ed="#L" break="no" n="63"/>currere; et et his ipsis aliqui Solem ex
+          <lb ed="#L" n="64"/>sequo concurrere cum Luna, ita ut non
+          <lb ed="#L" n="65"/>magis uni quam alteri, adscribi deberet
+          <lb ed="#L" n="66"/>hic effectus ; alii vero Solem minus 
+          princi<lb ed="#L" break="no" n="67"/>paliter concurrere, Lunam vero esse 
+          cau<lb ed="#L" break="no" n="68"/>sam praecipuam.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e1183">
+          <lb ed="#L" n="69"/>Quod vero hic aeque motus proveniat 
+          <lb ed="#L" n="70"/>ab aliqua causa codlesti, omnino apparet,
+          <lb ed="#L" n="71"/>quia licet a causis sublunaribus possit
+          <lb ed="#L" n="72"/>provenire, ut aqua maris variis modis 
+          mo<lb ed="#L" break="no" n="73"/>veretur, tamen quod moveatur tam 
+          regu<lb ed="#L" break="no" n="74"/>lato motu in cerlis regionibus, ut in 
+          Hiber<lb ed="#L" break="no" n="75"/>nia, Anglia, ac illis partibus contingit, sic
+          <lb ed="#L" n="76"/>scilicet ut bis quolibet die per spatium sex
+          <lb ed="#L" n="77"/>horarum fluat, bis iterum tanto tempore
+          <lb ed="#L" n="78"/>refluat, idque cum tanto incremento, ut
+          <lb ed="#L" n="79"/>multa milliaria terre? cooperiat, et ut ubi
+          <lb ed="#L" n="80"/>nihil aqua, mari refluente, sit, eodem
+          <lb ed="#L" n="81"/>fluente magna navis possit natare, nullo
+          <lb ed="#L" n="82"/>modo potest in aliam refundi causam
+          <lb ed="#L" n="83"/>quam in coelestem. Ex causis vero 
+          coelesti<lb ed="#L" break="no" n="84"/>bus nulla potest assignari, cui potius 
+          po<lb ed="#L" break="no" n="85"/>Lest adscribi hic motus quam Luna, quia
+          <lb ed="#L" n="86"/>experientia constat juxta Lune? 
+          incremen<lb ed="#L" break="no" n="87"/>tum ac decrementum augeri ac minui
+          <lb ed="#L" n="88"/>estum maris sic,ut quando Luna est plena,
+          <pb ed="#L" n="668"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>longe major sit iste vstus quam aliis 
+          tem<lb ed="#L" break="no" n="2"/>poribus.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e1238">
+          <lb ed="#L" n="3"/>Verum quia non eodem modo fit ubique
+          <lb ed="#L" n="4"/>hie fluxus et refluxus, quandoquidem in
+          <lb ed="#L" n="5"/>mari Tirrheno vix discerni possit, in 
+          Oce<lb ed="#L" break="no" n="6"/>ano Hibernico et aliis vicinis partibus
+          <lb ed="#L" n="7"/>valde ingens reperiatur, in mari etiam
+          <lb ed="#L" n="8"/>Adrialico salis nolabilis sit, licet non tam
+          <lb ed="#L" n="9"/>magnus quam in Hibernico, in aliquibus
+          <lb ed="#L" n="10"/>etiam locis pluribus horis fiat luxus quam
+          <lb ed="#L" n="11"/>refluxus ; nam in littore Aquitani: ad 
+          fau<lb ed="#L" break="no" n="12"/>ces Garumne septem horis fluit, quinque
+          <lb ed="#L" n="13"/>refluit mare, in aliis vero pluribus horis e
+          <lb ed="#L" n="14"/>contra fiat refluxus, nam ad Erithreum
+          <lb ed="#L" n="15"/>Afric promontorium quatuor horis fluit,
+          <lb ed="#L" n="16"/>oclo refluit. Sed et id mirum, quod 
+          refe<lb ed="#L" break="no" n="17"/>runt Conimbricenses in littore Cambaiz
+          <lb ed="#L" n="18"/>ad Indi fauces, mare duabus horis triginta
+          <lb ed="#L" n="19"/>lerre leucas oblegere, et aliis duabus
+          <lb ed="#L" n="20"/>detegere, quo fit ut tanta velocitate agatur
+          <lb ed="#L" n="21"/>fluendo et refluendo, ut homines vix cursu
+          <lb ed="#L" n="22"/>evadere possint, quin et ipsi etiam unda
+          <lb ed="#L" n="23"/>supervenienle capiantur. Quandoquidem,
+          <lb ed="#L" n="24"/>inquam, tanta sit varietas in hoc motu,
+          <lb ed="#L" n="25"/>dicendum est solam Lunam non ita esse
+          <lb ed="#L" n="26"/>causam, quin aliqualiter situs terrarum
+          <lb ed="#L" n="27"/>concurrat, et salis etiam verisimiliter Sol,
+          <lb ed="#L" n="28"/>et aliqua astra possunt habere aliquam
+          <lb ed="#L" n="29"/>actionem ad hoc conducentem.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d14q3-p3">-->
+        <p xml:id="mm30o9-d1e2028-d1e1302">
+          <lb ed="#L" n="76" type="fixed=669"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e1307">
+          <lb ed="#L" n="77"/>(e) Quomodo autem ista elevatio fiat
+          <lb ed="#L" n="78"/>effective, etc. Supposito quod Luna causat
+          <lb ed="#L" n="79"/>motum illum maris, quo fluit et refluit,
+          <lb ed="#L" n="80"/>assignat duas sententias de modo quo
+          <lb ed="#L" n="81"/>causat istum motum. Prima sententia est
+          <lb ed="#L" n="82"/>Albumasaris. qui existimat Lunam 
+          cau<lb ed="#L" break="no" n="83"/>sare illum motum per virtutem 
+          occul<lb ed="#L" break="no" n="84"/>tam, sicut magnes causat motum 
+          loca<lb ed="#L" break="no" n="85"/>lem ferri ad se attracti. EL hanc 
+          sequun<lb ed="#L" break="no" n="86"/>tur Conimbricenses tract. 8. de meteoris
+          <pb ed="#L" n="670"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>cap. 6. Altera sententia est. quod Luna
+          <lb ed="#L" n="2"/>id faciat medianlibus radiis lucis a se
+          <lb ed="#L" n="3"/>diffuse hanc tenet Averroes 2. 
+          Meteoro<lb ed="#L" break="no" n="4"/>rum.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e1344">
+          <lb ed="#L" n="5"/>Ex his duabus sententiis qua verior
+          <lb ed="#L" n="6"/>sit, non decidit Scotus, sed certe secunda
+          <lb ed="#L" n="7"/>sententia  non videtur probabilis; tum
+          <lb ed="#L" n="8"/>quia certum videtur lucem non habere
+          <lb ed="#L" n="9"/>virtutem illam loco motivam; tum quia
+          <lb ed="#L" n="10"/>in interlunio, et quando etiam Luna in
+          <lb ed="#L" n="11"/>altero hemispherio sita non illuminat
+          <lb ed="#L" n="12"/>nostrum hemispherium, adhuc non 
+          de<lb ed="#L" break="no" n="13"/>sinit fluxus et refluxus. An tamen prior
+          <lb ed="#L" n="14"/>sententia  vera sit, non sequitur ex hoc,
+          <lb ed="#L" n="15"/>quia licet Luna non moveat per lumen
+          <lb ed="#L" n="16"/>aquas, sed per qualitatem occultam, 
+          ad<lb ed="#L" break="no" n="17"/>huc tamen posset movere qualitate 
+          oc<lb ed="#L" break="no" n="18"/>culta dupliciter : Uno modo imprimendo
+          <lb ed="#L" n="19"/>occulte impulsum motivum aqua, sicut
+          <lb ed="#L" n="20"/>magnes imprimit ferro, et sic videtur
+          <lb ed="#L" n="21"/>Lenere illa prima sententia, 
+          quandoqui<lb ed="#L" break="no" n="22"/>dem assimilat modum, quo Luna movel
+          <lb ed="#L" n="23"/>mare, modo quo magnes trahit ferrum.
+          <lb ed="#L" n="24"/>Alio modo non imprimendo per se 
+          dire<lb ed="#L" break="no" n="25"/>cte talem impulsum, sed potius 
+          rarefa<lb ed="#L" break="no" n="26"/>ciendo aquas, easque augendo, nam iis
+          <lb ed="#L" n="27"/>auclis per rarefactionem deberent fluere,
+          <lb ed="#L" n="28"/>et iis rursum condensalis deberent 
+          re<lb ed="#L" break="no" n="29"/>fluere. Huneque modum dicendi 
+          sequi<lb ed="#L" break="no" n="30"/>tur Conltarenus lib. 2. de elementis, et
+          <lb ed="#L" n="31"/>post ipsum Aversa quaest 42. sect. 7.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e1405">
+          <lb ed="#L" n="32"/>Mihi magis placet quod fluxus fiat
+          <lb ed="#L" n="33"/>praecise per motum localem, et non per
+          <lb ed="#L" n="34"/>parefaetionem; tum quia non apparet
+          <lb ed="#L" n="35"/>ulla raritas in aquas fluente, magis
+          <lb ed="#L" n="36"/>quam in fluente; tum quia nulla
+          <lb ed="#L" n="37"/>prorsus est necessilas istius augmenti
+          <lb ed="#L" n="38"/>aquarum, quod fieret per  
+          rarefaeti<lb ed="#L" break="no" n="39"/>onem, cum purus motus localis 
+          suf<lb ed="#L" break="no" n="40"/>ficere possit, praesertim cum satis 
+          veri<lb ed="#L" break="no" n="41"/>simile sit quod quo tempore apud nos
+          <lb ed="#L" n="42"/>fiat fluxus, eodem refluxus [iat apud
+          <lb ed="#L" n="43"/>Anlipodas, et e contra, ut nec mirum,
+          <lb ed="#L" n="44"/>nec difficile esse possit unde tanta aqua-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>rum copia hauriri possit absque 
+          rarefaeli<lb ed="#L" break="no" n="46"/>one, quantam in fluxu adesse 
+          conspici<lb ed="#L" break="no" n="47"/>mus, nempe hauriri facile potest ex illis
+          <lb ed="#L" n="48"/>locis, a quibus apud Antipodas refluit,
+          <lb ed="#L" n="49"/>et ad eadem loca facile recurrere potest,
+          <lb ed="#L" n="50"/>dum apud ipsos fit fluxus, et apud nos
+          <lb ed="#L" n="51"/>refluxus.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e1453">
+          <lb ed="#L" n="52"/>Sed sive fiat fluxus et refluxus per
+          <lb ed="#L" n="53"/>rarefactionem et condensationem, sive
+          <lb ed="#L" n="54"/>per purum motum localem absque 
+          ac<lb ed="#L" break="no" n="55"/>crelione aut decretione ulla aquarum, in
+          <lb ed="#L" n="56"/>ulraque et communi sententia  altribuente
+          <lb ed="#L" n="57"/>vim elevativam aquarum Lune, dici solet
+          <lb ed="#L" n="58"/>quod elevatio fiat ex directo Lunae, eam- t.
+          <lb ed="#L" n="59"/>que sequatur, et consequenter totidem "
+          <lb ed="#L" n="60"/>horis circumeal terram quot Luna, hoc
+          <lb ed="#L" n="61"/>est, vigintiquinque circiter horis, non 
+          vi<lb ed="#L" break="no" n="62"/>ginti quatuor ut Sol, quia ut patet 
+          expe<lb ed="#L" break="no" n="63"/>rientia , Luna non oritur in eadem parte
+          <lb ed="#L" n="64"/>nostri hemispherii hodie, quo heri, sed
+          <lb ed="#L" n="65"/>relinquitur tantum spatii inter locum,
+          <lb ed="#L" n="66"/>quo heri oriebatur, et hodie oritur,
+          <lb ed="#L" n="67"/>quantum requiritur, ut perlranseat, unam
+          <lb ed="#L" n="68"/>fere horam ; cujus ratio est quod Luna
+          <lb ed="#L" n="69"/>motu suo proprio ab occasu ad ortum
+          <lb ed="#L" n="70"/>impediat, quo minus possit ad idem 
+          pun<lb ed="#L" break="no" n="71"/>clum, recurrere per motum primi mobilis,
+          <lb ed="#L" n="72"/>quo movetur ab ortu ad o?2casum.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e1501">
+          <lb ed="#L" n="73"/>Reliqua pars discursus Seoli circa 
+          flu<lb ed="#L" break="no" n="74"/>xum et refluxum facilis est. Si advertatur
+          <lb ed="#L" n="75"/>praesertim, quod supra diximus, non a
+          <lb ed="#L" n="76"/>sola Luna, aut aliquibus stellis oriri 
+          flu<lb ed="#L" break="no" n="77"/>xum, sed ad illum etiam situm regionum
+          <lb ed="#L" n="78"/>aliqualiter concurrere, et etiam 
+          disposi<lb ed="#L" break="no" n="79"/>tiones aliquas parliculares climalis, quie
+          <lb ed="#L" n="80"/>causa est eur in mari mediterraneo non
+          <lb ed="#L" n="81"/>sentiatur fluxus maris sicut in mari 
+          Adria<lb ed="#L" break="no" n="82"/>lico, nec in hoc, sicut in Hibernico, etl
+          <lb ed="#L" n="83"/>cur alibi breviori tempore fiat refluxus'!
+          <lb ed="#L" n="84"/>quam fluxus, et e contra alibi, cur etiam
+          <lb ed="#L" n="85"/>quidam pulei cum mari refluant ac fluant, -
+          <lb ed="#L" n="86"/>quidam non item. Quod si quaexeratur cur.
+          <lb ed="#L" n="87"/>fluvii pariter non atirahantur a Luna 
+          lo<lb ed="#L" break="no" n="88"/>caliter sicut mare, respondendum id
+          <pb ed="#L" n="671"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>oriri ex diversitate utriusque aqui»; nam
+          <lb ed="#L" n="2"/>quemadmodum magnes non trahiti 
+          plum<lb ed="#L" break="no" n="3"/>bum ut ferrum propter diversam naturam
+          <lb ed="#L" n="4"/>utriusque, quorum unum habet naturam
+          <lb ed="#L" n="5"/>aplam, ut a magnete non moveatur,
+          <lb ed="#L" n="6"/>allerum non habet, ita non est mirum
+          <lb ed="#L" n="7"/>propter maximam diversitatem, quam 
+          vi<lb ed="#L" break="no" n="8"/>demus, inter aquam fluvialem et 
+          mari<lb ed="#L" break="no" n="9"/>nam, hanc moveri posse a Luna, illam
+          <lb ed="#L" n="10"/>non posse.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d14q3-p4">-->
+        <p xml:id="mm30o9-d1e2028-d1e1567">
+          <lb ed="#L" n="74" type="fixed=671"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e1572">
+          <lb ed="#L" n="75"/>(f) Secundo dico quod planeliae, eic. Hic
+          <lb ed="#L" n="76"/>proponit Doctor secundam conclusionem
+          <lb ed="#L" n="77"/>secundum ordinem suum, sed secundum
+          <lb ed="#L" n="78"/>ordinem a me propositum est tertia 
+          con<lb ed="#L" break="no" n="79"/>clusio, scilicet quod Planete et stellce
+          <lb ed="#L" n="80"/>agant in mixta imperfecta, qualia sunt
+          <lb ed="#L" n="81"/>fulgura, coruscationes, grando, pluvia,
+          <lb ed="#L" n="82"/>Comet et similia. Hadec est communis,
+          <lb ed="#L" n="83"/>et patlel maxime de Cometis, qui habent
+          <lb ed="#L" n="84"/>motum particularem ab Aquilone ad
+          <lb ed="#L" n="85"/>Austrum, et hoc non nisi quia atirahun-
+          <pb ed="#L" n="672"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>tura stellis a quibus generantur. Patet
+          <lb ed="#L" n="2"/>etiam in aliis impressionibus, quia nulli
+          <lb ed="#L" n="3"/>potest aptius generatio earum adscribi,
+          <lb ed="#L" n="4"/>quam stellis, quarum virtute materia 
+          ea<lb ed="#L" break="no" n="5"/>rum, ex qua scilicet fiunt, trahitur 
+          non<lb ed="#L" break="no" n="6"/>nunquam ad locum, in quo generantur
+          <lb ed="#L" n="7"/>isl:e impressiones.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e1618">
+          <lb ed="#L" n="8"/>Quod si quaeratur si hi effectus 
+          prove<lb ed="#L" break="no" n="9"/>niat a causis coelestibus, quia naturaliter
+          <lb ed="#L" n="10"/>determinantur ad agendum, et 
+          ordina<lb ed="#L" break="no" n="11"/>lissimo ac certissimo modo semper 
+          appli<lb ed="#L" break="no" n="12"/>canlur suo tempore uniformiter, cur
+          <lb ed="#L" n="13"/>Astrologi, qui cognoscunt quomodo 
+          mo<lb ed="#L" break="no" n="14"/>ventur, non cognoscant quando etl quolies
+          <lb ed="#L" n="15"/>hi effectus ab illis proveniunt ? Respondet
+          <lb ed="#L" n="16"/>Doctor, quia ignorant, quia  parliculares
+          <lb ed="#L" n="17"/>stelle habent illam virtutem, aut quot
+          <lb ed="#L" n="18"/>ex ipsis debeant concurrere; et quia
+          <lb ed="#L" n="19"/>multa alia possunt impedire hic et nunc,
+          <lb ed="#L" n="20"/>ne sequantur effectus alias secuturi, ut
+          <lb ed="#L" n="21"/>si materia tanta hodie a Sole elevanda in
+          <lb ed="#L" n="22"/>hae parte aeris dissiparetur per nimium
+          <lb ed="#L" n="23"/>ventum, ferreturque ad aliam partem, ubi
+          <lb ed="#L" n="24"/>impediret effectum, quia alias ibi esset
+          <lb ed="#L" n="25"/>producendus per stellas. Deinde licet
+          <lb ed="#L" n="26"/>Sciant Astrologi multa de motibus 
+          stella<lb ed="#L" break="no" n="27"/>rum et earum concursibus, ignorant 
+          tla<lb ed="#L" break="no" n="28"/>men plurima, et facile hine in 
+          pradicti<lb ed="#L" break="no" n="29"/>one horum effectum naturalium decipi
+          <lb ed="#L" n="30"/>possunl. Addidit tamen Doctor, et id
+          <lb ed="#L" n="31"/>valde probabile est, quod Angeli 
+          natura<lb ed="#L" break="no" n="32"/>liter possint cognoscere quando essent
+          <lb ed="#L" n="33"/>hujusmodi effectus producendi, ut quando
+          <lb ed="#L" n="34"/>esset futurus Cometa, quando pluvia,
+          <lb ed="#L" n="35"/>quando grando, etc. Sed et boni etiam
+          <lb ed="#L" n="36"/>Astrologi satis bonam conjecturam habere
+          <lb ed="#L" n="37"/>possunt de hujusmodi effectibus, saltem
+          <lb ed="#L" n="38"/>de iis qui frequentius accidunt, ut de
+          <lb ed="#L" n="39"/>pluvia, gelu, ventis, serenitale.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e1690">
+          <lb ed="#L" n="40"/>(g) Tertio dico quod habent, etc. Tertia
+          <lb ed="#L" n="41"/>conclusio Doctoris, seu polius  quarla,
+          <lb ed="#L" n="42"/>est, quod stella» habent actionem in mixta
+          <lb ed="#L" n="43"/>perfecta, qualia sunt metalla auri, 
+          ar<lb ed="#L" break="no" n="44"/>menli, etc. quia in viceribus terre com-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>muniter generantur. Haec est communis,
+          <lb ed="#L" n="46"/>et probatur, quia nullie caus:e sufficientes
+          <lb ed="#L" n="47"/>ad melallorum hujusmodi productionem
+          <lb ed="#L" n="48"/>assignari possunt absque coelestium 
+          cor<lb ed="#L" break="no" n="49"/>porum influxu; neque enim ipsa terra
+          <lb ed="#L" n="50"/>sufficit, neque alie causae  adjacentes
+          <lb ed="#L" n="51"/>possunt ostendi. Deinde nihil impedit
+          <lb ed="#L" n="52"/>quominus coelestia corpora habeanl 
+          vir<lb ed="#L" break="no" n="53"/>tutem activam in hic mixta, et magna
+          <lb ed="#L" n="54"/>eorumdem mixtorum perfectio videtur
+          <lb ed="#L" n="55"/>exigere lam perfectas causas. Falendum
+          <lb ed="#L" n="56"/>quidem est certam causarum sublunarium
+          <lb ed="#L" n="57"/>dispositionem requiri ut metalla 
+          produ<lb ed="#L" break="no" n="58"/>cantur, quia alias ubique producerentur
+          <lb ed="#L" n="59"/>contra experientia m, sed illa per se non
+          <lb ed="#L" n="60"/>suffieiL absque coelestium corporum in
+          <lb ed="#L" n="61"/>fluxu.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d14q3-p5">-->
+        <p xml:id="mm30o9-d1e2028-d1e1744">
+          <lb ed="#L" n="36" type="fixed=673"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e1750">
+          <lb ed="#L" n="37"/>(h) Quarto dico quod habent, etc. Hic
+          <lb ed="#L" n="38"/>piures simul involvit Doctor conclusiones,
+          <lb ed="#L" n="39"/>qua claritalis causa etiam seorsim 
+          propo<lb ed="#L" break="no" n="40"/>nende videntur, sit ergo:
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e1761">
+          <lb ed="#L" n="41"/>Quinta conclusio : Corpora coelestia 
+          con<lb ed="#L" break="no" n="42"/>currunt ad productionem viventium per-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="43"/>fectorum, non (amen possunt Lanquam
+          <lb ed="#L" n="44"/>causa principales ?lla producere. Wc est;
+          <lb ed="#L" n="45"/>communis, et prima pars patet ex 
+          Philo<lb ed="#L" break="no" n="46"/>sopho 2. PhAystc. text. 96. Sol et homo
+          <lb ed="#L" n="47"/>generant hominem. Ralio etiam est de- s
+          <lb ed="#L" n="48"/>ducenda a priori quidem ex dependentia
+          <lb ed="#L" n="49"/>naturali causarum inferiorum a 
+          superi<lb ed="#L" break="no" n="50"/>oribus, in ordine ad hujusmodi praesertim
+          <lb ed="#L" n="51"/>effectus, quorum productio prerequirit
+          <lb ed="#L" n="52"/>longam preparationem et dispositionem
+          <lb ed="#L" n="53"/>malerie ad formam ; et. quemadmodum
+          <lb ed="#L" n="54"/>sunt aliqua sidera, quae formando fcetui
+          <lb ed="#L" n="55"/>sunt obnoxia, ut patet experientia , ila
+          <lb ed="#L" n="56"/>cerle alia sidera sunt dicenda ad ejus
+          <lb ed="#L" n="57"/>formationem propilia. Secunda pars 
+          pa<lb ed="#L" break="no" n="58"/>Let, quia semper ad generationem 
+          hujus<lb ed="#L" break="no" n="59"/>modi animalium debent — concurrere
+          <lb ed="#L" n="60"/>necessario alie causae sublunares, vel
+          <lb ed="#L" n="61"/>perfectiores vel quae perfecte, quibus
+          <lb ed="#L" n="62"/>propterea principalis causalitas attribui
+          <lb ed="#L" n="63"/>potest absque inconvenientia , unde potius
+          <lb ed="#L" n="64"/>ilis attribui debet quam astris. Voco
+          <lb ed="#L" n="65"/>autem hic cum omnibus animalia perfecta
+          <lb ed="#L" n="66"/>illa, quae semper requirunt actionem 
+          ge<lb ed="#L" break="no" n="67"/>nerativam aliorum animalium mediante
+          <lb ed="#L" n="68"/>effusione seminis, ad differentiam aliorum
+          <lb ed="#L" n="69"/>animalium, qui absque simili 
+          propaga<lb ed="#L" break="no" n="70"/>tione quandoque generantur, ut sunt
+          <lb ed="#L" n="71"/>rans, vespa, musca, et similia, quae 
+          pro<lb ed="#L" break="no" n="72"/>pterea animalia imperfecta nuncupantur,
+          <lb ed="#L" n="73"/>et de quorum productione magna est
+          <lb ed="#L" n="74"/>inter Philosophos qusstio. Aliqui enim
+          <lb ed="#L" n="75"/>existimant corpora coelestia esse causas
+          <lb ed="#L" n="76"/>principales productivas hujusmodi 
+          ani<lb ed="#L" break="no" n="77"/>malium, quando producuntur sine 
+          gene<lb ed="#L" break="no" n="78"/>ratione seminali. A'ii vero id negant
+          <lb ed="#L" n="79"/>dicentes, ea esse tantum causas 
+          disposi<lb ed="#L" break="no" n="80"/>tivas. Cum autem qusritur ab ipsis, 
+          qui<lb ed="#L" break="no" n="81"/>nam sit causa principalis ; magna praessi
+          <lb ed="#L" n="82"/>dificullate varie respondet. Quidam
+          <lb ed="#L" n="83"/>nempe asserunl causam principalem esse
+          <lb ed="#L" n="84"/>quamdam formam abstractam et 
+          separa<lb ed="#L" break="no" n="85"/>tam, quam vocant datricem formarum, sic
+          <lb ed="#L" n="86"/>lThemistius etl Avicenna apud Averroem
+          <pb ed="#L" n="674"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>19. Metaph. com. 18. Sed nemo non videt
+          <lb ed="#L" n="2"/>commenliliam esse hanc formam, si non
+          <lb ed="#L" n="3"/>dicatur esse Inteligentia, aut Angelus,
+          <lb ed="#L" n="4"/>eamdemque difficullatem esse de illa ac
+          <lb ed="#L" n="5"/>de ipso coelo.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e1881">
+          <lb ed="#L" n="6"/>Si autem diceretur esse Angelus, S.
+          <lb ed="#L" n="7"/>Thomas 1l. part. quast. 110. probat 
+          An<lb ed="#L" break="no" n="8"/>gelum non posse tanquam causam 
+          prin<lb ed="#L" break="no" n="9"/>cipalem producere compositum aliquod
+          <lb ed="#L" n="10"/>corporeum, quia Angelus non est similis
+          <lb ed="#L" n="11"/>iali composito, aut formaliter, ut patet,
+          <lb ed="#L" n="12"/>aul virtualiter, quandoquidem non 
+          con<lb ed="#L" break="no" n="13"/>Lineat in virtute sua materiam. Verum
+          <lb ed="#L" n="14"/>hxe ratio non satisfacit, quia ut Angelus
+          <lb ed="#L" n="15"/>produceret compositum, sufficeret quod
+          <lb ed="#L" n="16"/>includeret virtualiter formam, nam alias
+          <lb ed="#L" n="17"/>nulla creatura posset producere 
+          compo<lb ed="#L" break="no" n="18"/>situm materiale, cum nulla creatura possit
+          <lb ed="#L" n="19"/>includere virlualiter materiam, quae non
+          <lb ed="#L" n="20"/>potest produci, nisi per creationem, 
+          se<lb ed="#L" break="no" n="21"/>cundum omnes. Deinde certum est quod
+          <lb ed="#L" n="22"/>causa producens compositum non magis
+          <lb ed="#L" n="23"/>debeat includere virtualiter materiam
+          <lb ed="#L" n="24"/>ipsius, quam causa principalis, in cujus
+          <lb ed="#L" n="25"/>virtute causa instrumentalis producit illud
+          <lb ed="#L" n="26"/>compositum, sed secundum D. Thomam 1.
+          <lb ed="#L" n="27"/>parl. quast. 70. art. 3. ae ad 3. quaest. 6. de
+          <lb ed="#L" n="28"/>potentia art. 3. Intelligentia assistens coelo
+          <lb ed="#L" n="29"/>est causa principalis, in cujus virtute
+          <lb ed="#L" n="30"/>colum producit ista animalia; ergo ut
+          <lb ed="#L" n="31"/>produceret immediate compositum, non
+          <lb ed="#L" n="32"/>deberet includere virtualiter materiam
+          <lb ed="#L" n="33"/>ipsius, sicut nec debet includere illam, ut
+          <lb ed="#L" n="34"/>coelum in virtute ejus producat illud
+          <lb ed="#L" n="35"/>compositum.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e1949">
+          <lb ed="#L" n="36"/>Aliter ergo impugnatur illa sententia,
+          <lb ed="#L" n="37"/>quae diceret quod causa principalis 
+          pro<lb ed="#L" break="no" n="38"/>ductiva animalium  imperfectorum Sit
+          <lb ed="#L" n="39"/>Angelus, quia Angeli secundum 
+          Theolo<lb ed="#L" break="no" n="40"/>gos communiter non habent ullos 
+          effe<lb ed="#L" break="no" n="41"/>clus particulares corporeos in corpora
+          <lb ed="#L" n="42"/>prater motum localem, ut supponi debe!
+          <lb ed="#L" n="43"/>lic ex materia de Angelis. Si tamen 
+          ha<lb ed="#L" break="no" n="44"/>berenL virtutem producendi alios effectus
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>corporeos, profecto coelum non deberet
+          <lb ed="#L" n="46"/>dici producere ista animalia in virlute
+          <lb ed="#L" n="47"/>ipsorum, sed posset tamen bene esse
+          <lb ed="#L" n="48"/>causa concurrens dispositive, non tamen
+          <lb ed="#L" n="49"/>in virtute Angeli, sed in virtute sua 
+          pro<lb ed="#L" break="no" n="50"/>pria, cum nullam prorsus virlutem 
+          reci<lb ed="#L" break="no" n="51"/>piat ab Angelo, sed solummodo motum
+          <lb ed="#L" n="52"/>localem, qui tantum est conditio 
+          appli<lb ed="#L" break="no" n="53"/>cans localiter.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e1993">
+          <lb ed="#L" n="54"/>Alii dicunt causam principalem 
+          produ<lb ed="#L" break="no" n="55"/>ctivam animalium  imperfectorum esse
+          <lb ed="#L" n="56"/>alia similia animalia, verbi gratia, causam
+          <lb ed="#L" n="57"/>principalem productivam ran: esse aliam
+          <lb ed="#L" n="58"/>ranam, in viriute cujus coelum producit
+          <lb ed="#L" n="59"/>illam ranam. Dicunt vero non esse 
+          ali<lb ed="#L" break="no" n="60"/>quam determinalam ranam, quae sit causa
+          <lb ed="#L" n="61"/>productiva sed aliquam indeterminatam,
+          <lb ed="#L" n="62"/>determinari vero a Deo, quaenam sit qua
+          <lb ed="#L" n="63"/>actu sit causa principalis.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e2017">
+          <lb ed="#L" n="64"/>Verum haec philosophia minus placet
+          <lb ed="#L" n="65"/>quam praecedens, quae productionem 
+          ad<lb ed="#L" break="no" n="66"/>scribit Angelis, nam quamvis nulla 
+          de<lb ed="#L" break="no" n="67"/>mum rana existeret realiter in rerum
+          <lb ed="#L" n="68"/>natura, et corpora coelestia applicarentur
+          <lb ed="#L" n="69"/>eodem modo quo applicantur, quando
+          <lb ed="#L" n="70"/>producitur rana sine propagatione 
+          semi<lb ed="#L" break="no" n="71"/>nis, profecto produceretur rana; ergo
+          <lb ed="#L" n="72"/>tum causa principalis productiva non est
+          <lb ed="#L" n="73"/>rana aliqua determinata aut 
+          indetermi<lb ed="#L" break="no" n="74"/>nala. Probatur consequentia, quia causa
+          <lb ed="#L" n="75"/>realiter non existens non potest esse
+          <lb ed="#L" n="76"/>causa principalis, cui actualis productio
+          <lb ed="#L" n="77"/>effectus attribui debet. Confirmatur primo,
+          <lb ed="#L" n="78"/>quia causa principalis effectus debet 
+          ha<lb ed="#L" break="no" n="79"/>bere aliquem influxum in effectum 
+          medi<lb ed="#L" break="no" n="80"/>atum vel immediatum, alias nulla prorsus
+          <lb ed="#L" n="81"/>esset ratio, cur potius illa quam alia causa
+          <lb ed="#L" n="82"/>diceretur principalis; sed quando 
+          produci<lb ed="#L" break="no" n="83"/>lur rana absque propagatione seminis,
+          <lb ed="#L" n="84"/>nulla alia rana habet ullum influxum 
+          me<lb ed="#L" break="no" n="85"/>diatum, aut immediatum in illam ranam,
+          <lb ed="#L" n="86"/>ut patet, quia posset contingere ut nec tum
+          <lb ed="#L" n="87"/>existeret ulla alia rana, nec antea unquam
+          <lb ed="#L" n="88"/>exliLeril. nec postea etiam esset extlitura.
+          <pb ed="#L" n="675"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>Evidens autem est, quod res possibilis, ut
+          <lb ed="#L" n="2"/>possibilis praecise, non possit habere
+          <lb ed="#L" n="3"/>ulum influxum realem mediatum, aul
+          <lb ed="#L" n="4"/>immediatum in effectum aliquem realem.
+          <lb ed="#L" n="5"/>Confirmatur secundo, quia etiamsi
+          <lb ed="#L" n="6"/>rana non esset productiva alterius rana,
+          <lb ed="#L" n="7"/>Sed esset. omnino animal slerile, sicut
+          <lb ed="#L" n="8"/>mula est, profecto non eo minus 
+          produ<lb ed="#L" break="no" n="9"/>ceretur rana per actionem corporum 
+          co<lb ed="#L" break="no" n="10"/>lestium, sicut de facto producitur, sed in
+          <lb ed="#L" n="11"/>lali casu certum est quod alia rana non
+          <lb ed="#L" n="12"/>esset causa productiva ullo modo ejus;
+          <lb ed="#L" n="13"/>ergo nec de facto debet dici causa ejus,
+          <lb ed="#L" n="14"/>quando producitur per istorum corporum
+          <lb ed="#L" n="15"/>actionem absque propagatione seminali.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e2112">
+          <lb ed="#L" n="16"/>Confirmatur tertio, quia si virtus 
+          gene<lb ed="#L" break="no" n="17"/>rativa hominis tribueretur lapidi a Deo, et
+          <lb ed="#L" n="18"/>ea mediante lapis produceret hominem,
+          <lb ed="#L" n="19"/>profecto alius homo non deberet dici 
+          cau<lb ed="#L" break="no" n="20"/>sa, aut principalis, aut ullo modo istius
+          <lb ed="#L" n="21"/>hominis producti, quamvis alicui homini
+          <lb ed="#L" n="22"/>eonnaturaliter deberetur ista virlus, ut est
+          <lb ed="#L" n="23"/>evidens ; ergo quamvis alicui rane 
+          conna<lb ed="#L" break="no" n="24"/>luraliter loquendo deberentur iste 
+          qua<lb ed="#L" break="no" n="25"/>litates, quibus disponitur materia ex qua
+          <lb ed="#L" n="26"/>fit rana, aut productio istarum qualitatum,
+          <lb ed="#L" n="27"/>tamen si de faclo ista productio non 
+          com<lb ed="#L" break="no" n="28"/>pelat ipsis, sed Soli, aut alij cause, non
+          <lb ed="#L" n="29"/>debet dici quod rana illa producat ranam
+          <lb ed="#L" n="30"/>a Sole productam, sed tantum quod 
+          pos<lb ed="#L" break="no" n="31"/>set et deberet connaturaliter illam 
+          pro<lb ed="#L" break="no" n="32"/>ducere.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e2151">
+          <lb ed="#L" n="33"/>Hec confirmatio deservit ad 
+          impugna<lb ed="#L" break="no" n="34"/>tionem fundamenti adversariorum, qui
+          <lb ed="#L" n="35"/>propterea dicunt ranam esse causam 
+          prin<lb ed="#L" break="no" n="36"/>cipalem istius productionis, quia 
+          conna<lb ed="#L" break="no" n="37"/>turaliter exigit qualitates dispositivas ad
+          <lb ed="#L" n="38"/>productionem illam, seu quia 
+          connatura<lb ed="#L" break="no" n="39"/>liter exigit producere illas qualitates. 
+          Con<lb ed="#L" break="no" n="40"/>6ra quod etiam praeterea facit, quod 
+          fal<lb ed="#L" break="no" n="41"/>sum sit ranam magis exigere 
+          connatura<lb ed="#L" break="no" n="42"/>liter producere illas qualitates, quam 
+          exi<lb ed="#L" break="no" n="43"/>gunt corpora coelestia taliter applicata.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e2177">
+          <lb ed="#L" n="44"/>Deinde certum est quod rana non exigat
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>producere illas qualitates, nisi mediante
+          <lb ed="#L" n="46"/>semine; ergo quando producuntur isto
+          <lb ed="#L" n="47"/>qualitates absque semine, non debet dici
+          <lb ed="#L" n="48"/>quod rana producat illas.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e2193">
+          <lb ed="#L" n="49"/>Sed longius quam par est immoror in
+          <lb ed="#L" n="50"/>hujus sententi:e impugnatione, quae si
+          <lb ed="#L" n="51"/>vera esset, tam posset dici, quod homo
+          <lb ed="#L" n="52"/>existens produceret hominem quam homo
+          <lb ed="#L" n="53"/>existens, et quod filius producat de facto
+          <lb ed="#L" n="54"/>suum patrem, quia in hac sententia 
+          suffi<lb ed="#L" break="no" n="55"/>cit ut dicatur producere, quod exigat 
+          con<lb ed="#L" break="no" n="56"/>naturaliter virlutem generativam ejus, et
+          <lb ed="#L" n="57"/>qualitales concurrentes ad ejus 
+          genera<lb ed="#L" break="no" n="58"/>lionem. Certum est autem quod 
+          unusquis<lb ed="#L" break="no" n="59"/>que homo, atque adeo filius, tam exigat
+          <lb ed="#L" n="60"/>illam virtutem, et illas qualitates, ac 
+          pro<lb ed="#L" break="no" n="61"/>ductionem quamcumque ipsis 
+          competen<lb ed="#L" break="no" n="62"/>lem, quam rana non existens exigere 
+          pos<lb ed="#L" break="no" n="63"/>sit productionem rane, qui producitur
+          <lb ed="#L" n="64"/>sine propagatione seminali.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e2230">
+          <lb ed="#L" n="65"/>Alii ergo tenent corpora coleslia esse
+          <lb ed="#L" n="66"/>causas principales istorum animalium, non
+          <lb ed="#L" n="67"/>solum quatenus principaliter producunt
+          <lb ed="#L" n="68"/>dispositionem ullimam ad animas eorum,
+          <lb ed="#L" n="69"/>sed etiam quatenus principaliter 
+          produ<lb ed="#L" break="no" n="70"/>cunt ipsamet animas eorum, ita Marsilius
+          <lb ed="#L" n="71"/>l. quaest. l. art. 9. Aversa quaest. 35.
+          <lb ed="#L" n="72"/>sect. 8. Contra hanc sententiam solum
+          <lb ed="#L" n="73"/>occurrit quod communiter supponatur ab
+          <lb ed="#L" n="74"/>omnibus Philosophis et Theologis, 
+          quam<lb ed="#L" break="no" n="75"/>libet animam, eum sil principium alicujus
+          <lb ed="#L" n="76"/>vite, nobiliorem ac perfectiorem esse
+          <lb ed="#L" n="77"/>quam ulla alia forma substantialis, sicut et
+          <lb ed="#L" n="78"/>quodlibel vivens esse perfectius quolibet
+          <lb ed="#L" n="79"/>non vivente. Hoc autem supposilo certum
+          <lb ed="#L" n="80"/>esse debet, cum nullum astrum, aut 
+          cce<lb ed="#L" break="no" n="81"/>lum sit vivens, nullum ex ipsis producere
+          <lb ed="#L" n="82"/>posse ullum vivens, aut ullam 
+          consequen<lb ed="#L" break="no" n="83"/>ter animam, quia evidens est causam 
+          prin<lb ed="#L" break="no" n="84"/>cipalem debere esse ad minus tam 
+          per<lb ed="#L" break="no" n="85"/>fectam, quam sit effectus ab ipsa 
+          produci<lb ed="#L" break="no" n="86"/>bilis, loquendo de causa principali totali,
+          <lb ed="#L" n="87"/>de qua hic agimus.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e2282">
+          <lb ed="#L" n="88"/>Nec valet dicere quod verum quidem
+          <pb ed="#L" n="676"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>sit coelum esse imperfectius quolibet 
+          vi<lb ed="#L" break="no" n="2"/>vente perfecto, praesertim sensitivo, quod
+          <lb ed="#L" n="3"/>scilicet solum natum sit produci per 
+          gene<lb ed="#L" break="no" n="4"/>rationem, non vero quolibet viventi 
+          im<lb ed="#L" break="no" n="5"/>perfecto sensilivo; hoc, inquam, nihil
+          <lb ed="#L" n="6"/>valet, quia si admiltatur coelum esse 
+          per<lb ed="#L" break="no" n="7"/>feciius ullo viventi sensitivo, verbi gratia,
+          <lb ed="#L" n="8"/>rana aut musca, nihil relinquitur 
+          funda<lb ed="#L" break="no" n="9"/>menli ad probandum quod non sil 
+          perfe<lb ed="#L" break="no" n="10"/>ctius vivente quolibet sensitivo, etiam 
+          per<lb ed="#L" break="no" n="11"/>fecto non rationali, ut equo et leone, quia
+          <lb ed="#L" n="12"/>majoritas illa perfectionis, qua est inter
+          <lb ed="#L" n="13"/>utrumque genus viventis, non est lanta
+          <lb ed="#L" n="14"/>nec talis, ut ex ea praecise possit argui,
+          <lb ed="#L" n="15"/>quod vivens habens illam esset perfectius
+          <lb ed="#L" n="16"/>coelo.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e2327">
+          <lb ed="#L" n="17"/>Si quis autem universaliter negaret 
+          cce<lb ed="#L" break="no" n="18"/>lum esse imperfectius ullo vivente 
+          sensi<lb ed="#L" break="no" n="19"/>tivo et vegetativo, non rationali, profecto
+          <lb ed="#L" n="20"/>diffieulter impugnari posset meo judicio,
+          <lb ed="#L" n="21"/>aliter quam auctoritate communis 
+          senten<lb ed="#L" break="no" n="22"/>Lie, et Sancti Augustini, qui lib. de vera
+          <lb ed="#L" n="23"/>el. falsa religione cap. 19. ait: Non enim
+          <lb ed="#L" n="24"/>qualiscumque moles, quanquam ista 
+          visi<lb ed="#L" break="no" n="25"/>bili luce prafulgeat, si vita careat magni
+          <lb ed="#L" n="26"/>aslimanda est, qualibet namque viva 
+          sub<lb ed="#L" break="no" n="27"/>stantia cuilibet non vive substantiae natura
+          <lb ed="#L" n="28"/>lege praponitur. Unde in lib. de duabus
+          <lb ed="#L" n="29"/>animabus cap. 4. dicit muscam Soli esse
+          <lb ed="#L" n="30"/>proeferendam. Porro haec communis 
+          sen<lb ed="#L" break="no" n="31"/>tentia tanti Patris auctoritate comprobata,
+          <lb ed="#L" n="32"/>facit sententiam hanc improbabiliorem,
+          <lb ed="#L" n="33"/>praesertim cum nulla sit ratio pro illa nisi
+          <lb ed="#L" n="34"/>negativa, quod scilicet non constet coelos
+          <lb ed="#L" n="35"/>esse imperfectiores animalibus quibusque
+          <lb ed="#L" n="36"/>sensilivis. Itaque ut resolvamus hanc 
+          diffi<lb ed="#L" break="no" n="37"/>cultatem, sit :
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e2375">
+          <lb ed="#L" n="38"/>Conclusio sexta : Corpora coelestia 
+          pro<lb ed="#L" break="no" n="39"/>ducunt ultimam dispositionem ad animalia
+          <lb ed="#L" n="40"/>imperfecta. producenda, verbi gratia, ad
+          <lb ed="#L" n="41"/>ranam, muscam, et similia ; non vero 
+          pro<lb ed="#L" break="no" n="42"/>ducunt ipsasmet animas earum tanquam
+          <lb ed="#L" n="43"/>causa principalis, sed. earum productio
+          <lb ed="#L" n="44"/>adscribi debel ipsimet Deo specialiter sup-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>plenti defectum causse secunda polentis eds
+          <lb ed="#L" n="46"/>producere. Haec est Scotistarum 
+          communi<lb ed="#L" break="no" n="47"/>ter cum Doctore hie, qui non aliam 
+          acti<lb ed="#L" break="no" n="48"/>onem tribuit coelis in ordine ad animata,
+          <lb ed="#L" n="49"/>quam actionem alterativam ad qualitatem
+          <lb ed="#L" n="50"/>disconvenientem vel convenientem anima
+          <lb ed="#L" n="51"/>eorum, asserens hac ratione ecelos 
+          con<lb ed="#L" break="no" n="52"/>currere ad animatorum generationem et
+          <lb ed="#L" n="53"/>corruplionem ; ad generationem quidem
+          <lb ed="#L" n="54"/>quatenus producunt qualitatem  
+          conve<lb ed="#L" break="no" n="55"/>nientem, hoc est, dispositivam ad 
+          recepti<lb ed="#L" break="no" n="56"/>onem anima; ad corruptionem autem
+          <lb ed="#L" n="57"/>quatenus producunt qualitatem 
+          disconve<lb ed="#L" break="no" n="58"/>nientem. Est etiam conclusio Fonsece 7.
+          <lb ed="#L" n="59"/>Met. cap. 7. quaest. 9. Suarez disp. 18.
+          <lb ed="#L" n="60"/>secl. 9. Ruvii 9. de eclo cap. 3. quaest. 2.
+          <lb ed="#L" n="61"/>Et prima pars patet experientia, quia ad
+          <lb ed="#L" n="62"/>actionem parlieularem causarum 
+          coele<lb ed="#L" break="no" n="63"/>slium disponitur materia ex qua fit rana,
+          <lb ed="#L" n="64"/>ad formam rans sic, ut producatur illa
+          <lb ed="#L" n="65"/>forma, nec est ullum inconveniens in 
+          asse<lb ed="#L" break="no" n="66"/>rendo quod illa productio adscribatur illis
+          <lb ed="#L" n="67"/>corporibus, nec aliquae ali? caus. 
+          assi<lb ed="#L" break="no" n="68"/>gnari possunt, quibus potius esset 
+          adscri<lb ed="#L" break="no" n="69"/>benda. Secunda pars etiam patet ex dictis,
+          <lb ed="#L" n="70"/>quia coeli sunt imperfectiores illis 
+          animan<lb ed="#L" break="no" n="71"/>tibus.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e2453">
+          <lb ed="#L" n="72"/>Tertia denique pars non minus patet,
+          <lb ed="#L" n="73"/>quia ex suppositione senlenti: communis,
+          <lb ed="#L" n="74"/>quod scilicet Angeli non possint 
+          imme<lb ed="#L" break="no" n="75"/>diate per se habere ullam actionem 
+          phy<lb ed="#L" break="no" n="76"/>sicam in corpora, praeter loco motivam,
+          <lb ed="#L" n="77"/>nulla alia. causa relinquitur, qua possit
+          <lb ed="#L" n="78"/>producere illas formas praeter Deum, 
+          ne<lb ed="#L" break="no" n="79"/>que est inconveniens (ut supponit Aversa
+          <lb ed="#L" n="80"/>male) ad Deum recurrere delicientibus
+          <lb ed="#L" n="81"/>causis secundis, imo id est conveniens
+          <lb ed="#L" n="82"/>naturis rerum, et suavi ipsius dispositioni
+          <lb ed="#L" n="83"/>in se recipientis defectus causarum 
+          secun<lb ed="#L" break="no" n="84"/>darum supplere.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e2484">
+          <lb ed="#L" n="85"/>Conclusio septima : Corpora celestia
+          <lb ed="#L" n="86"/>non habent aliquam actionem directam in
+          <lb ed="#L" n="87"/>animam intellectivam, bene tamen 
+          indire<lb ed="#L" break="no" n="88"/>ctam, tum quoad intellectum, tum quoad
+          <pb ed="#L" n="677"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>voluntatem. Haec est Doctoris hic cuim suis,
+          <lb ed="#L" n="2"/>et D. Thome 1l. part. quasl. 115. quos
+          <lb ed="#L" n="3"/>sequuntur Theologi et Philosophi 
+          commu<lb ed="#L" break="no" n="4"/>niter ; et quoad primam partem est contra
+          <lb ed="#L" n="5"/>Priscilianistas et judiciari? Astrologie 
+          pro<lb ed="#L" break="no" n="6"/>fessores, eosque qui illis fidem adhibent.
+          <lb ed="#L" n="7"/>Probatur quoad illam primam partem,
+          <lb ed="#L" n="8"/>quia anima rationalis est omnino 
+          spiritua<lb ed="#L" break="no" n="9"/>lis et indivisibilis; ergo nullam actionem
+          <lb ed="#L" n="10"/>habere potest in illam aliqua causa 
+          cor<lb ed="#L" break="no" n="11"/>porea. Probatur secundo, quia anima non
+          <lb ed="#L" n="12"/>est eapax aliarum qualitatum quam 
+          intel<lb ed="#L" break="no" n="13"/>lectionum, volitionum, habituum, 
+          specie<lb ed="#L" break="no" n="14"/>rum intelligibilum et passionum letitia,
+          <lb ed="#L" n="15"/>tristitie, similiumque, quae causantur ab
+          <lb ed="#L" n="16"/>objectis cognilis talibus vel talibus ; neque
+          <lb ed="#L" n="17"/>enim assignari potest, quas alias 
+          qualita<lb ed="#L" break="no" n="18"/>Les recipere possit, nec ulla est 
+          experien<lb ed="#L" break="no" n="19"/>tia quod alias recipit. Sed certum est quod
+          <lb ed="#L" n="20"/>coelestia corpora non habent particularem
+          <lb ed="#L" n="21"/>vim directam ad hujusmodi qualitates
+          <lb ed="#L" n="22"/>producendas, species enim intelligibiles
+          <lb ed="#L" n="23"/>non sunt nate produci nisi ab objectis,
+          <lb ed="#L" n="24"/>quorum sunt species, actus non sunt nali
+          <lb ed="#L" n="25"/>produci, nisi a potentiis mediantibus his
+          <lb ed="#L" n="26"/>speciebus. Habitus solum producuntur 
+          me<lb ed="#L" break="no" n="27"/>dianlibus actibus (loquendo de 
+          naturali<lb ed="#L" break="no" n="28"/>bus et acquisitis, supernaturales autem a
+          <lb ed="#L" n="29"/>solo Deo sunt producibiles), et passiones
+          <lb ed="#L" n="30"/>demum solum produci possunt ab objecto
+          <lb ed="#L" n="31"/>aliter vel taliter proposito per intellectum.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e2567">
+          <lb ed="#L" n="32"/>Secunda pars conclusionis patet quoad
+          <lb ed="#L" n="33"/>intellectum, quia certum est corpora 
+          cc<lb ed="#L" break="no" n="34"/>lestia posset allerare organa sensitiva, et
+          <lb ed="#L" n="35"/>bene vel male illa disponere ad 
+          exercen<lb ed="#L" break="no" n="36"/>das functiones suas, et hinc fit ut luna
+          <lb ed="#L" n="37"/>habeat particularem influxum in 
+          phreneli<lb ed="#L" break="no" n="38"/>cos, qui propterea lunatiei vocantur. Sed
+          <lb ed="#L" n="39"/>non minus certum est juxta bonam vel
+          <lb ed="#L" n="40"/>malam sensuum dispositionem, intellectum
+          <lb ed="#L" n="41"/>bene vel male posse discurrere, 
+          homines<lb ed="#L" break="no" n="42"/>que esse melioris vel pejoris ingenii; ergo
+          <lb ed="#L" n="43"/>indirectam habent corpora coelestia 
+          acti<lb ed="#L" break="no" n="44"/>onem in animam quoad intellectum, qua-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>lenus scilicet agendo in organa sensuum
+          <lb ed="#L" n="46"/>impedit, vel juvat intellectum in suis 
+          ope<lb ed="#L" break="no" n="47"/>ralionibus. Probatur eadem pars quoad
+          <lb ed="#L" n="48"/>voluntatem, quia exploratum esti juxla
+          <lb ed="#L" n="49"/>variam dispositionem corporis, aliquos
+          <lb ed="#L" n="50"/>esse magis inclinalos ad hao, vel illa vitia
+          <lb ed="#L" n="51"/>et virlules, et his inclinationibus aliquo
+          <lb ed="#L" n="52"/>modo impelli voluntatem ad actus illarum
+          <lb ed="#L" n="53"/>virtutum ac vitiorum, sed non minus 
+          com<lb ed="#L" break="no" n="54"/>pertum est corpora colestia suis 
+          influxi<lb ed="#L" break="no" n="55"/>bus posse causare istas dispositiones ;
+          <lb ed="#L" n="56"/>ergo agere possunt indirecte in animam
+          <lb ed="#L" n="57"/>rationalem quoad voluntatem.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e2628">
+          <lb ed="#L" n="58"/>Conclusio octava : Corpora coelestia non
+          <lb ed="#L" n="59"/>habent ullum influxum directum «aut. 
+          indi<lb ed="#L" break="no" n="60"/>rectum in voluntatem, ita ut necessitent
+          <lb ed="#L" n="61"/>ipsam ad suas actiones. Hxc est communis.
+          <lb ed="#L" n="62"/>cum Scoto hic, et patet ex omnibus locis
+          <lb ed="#L" n="63"/>Scriptur:e et Patrum, quibus probatur
+          <lb ed="#L" n="64"/>dari liberum arbitrium in hominibus pro
+          <lb ed="#L" n="65"/>hoc statu. Et hinc patel, quamvis Astrologi
+          <lb ed="#L" n="66"/>judiciarii possint cognoscere ex influxu
+          <lb ed="#L" n="67"/>astrorum inelinationes particulares 
+          homi<lb ed="#L" break="no" n="68"/>num, et hinc etiam praedicere multa futura
+          <lb ed="#L" n="69"/>conjecturabiliter ; nullo tamen modo eos
+          <lb ed="#L" n="70"/>posse scire certo et infaillibiliter ullum
+          <lb ed="#L" n="71"/>effectum determinate futurum, qui 
+          depen<lb ed="#L" break="no" n="72"/>del a libera voluntate ullo modo, quare
+          <lb ed="#L" n="73"/>cum dignitatum collatio, mors etiam et
+          <lb ed="#L" n="74"/>vila dependet a tali voluntate, quatenus
+          <lb ed="#L" n="75"/>nullus est qui non possit occidi ab aliquo
+          <lb ed="#L" n="76"/>si vellet, omnino stupidum est credere
+          <lb ed="#L" n="77"/>Aslrologis asserentibus aliquem victurum
+          <lb ed="#L" n="78"/>tot annis, moriturum morte naturali, 
+          con<lb ed="#L" break="no" n="79"/>secuturum tot et tales dignitates. Sed nec
+          <lb ed="#L" n="80"/>admodum certam possunt habere 
+          conje<lb ed="#L" break="no" n="81"/>cturam ex influxu coelorum de illismet |
+          <lb ed="#L" n="82"/>inclinalionibus particularibus, quia multa
+          <lb ed="#L" n="83"/>alie possunt adesse circumstantiae 
+          parti<lb ed="#L" break="no" n="84"/>culares et influxus aliarum causarum, 
+          qui<lb ed="#L" break="no" n="85"/>bus impediri possit influxus ille coelorum,
+          <lb ed="#L" n="86"/>qui alias esset ; unde ulterius patet nec
+          <lb ed="#L" n="87"/>probabilem quidem conjecturam posse
+          <lb ed="#L" n="88"/>prsdiclos Astrologos habere de effectibus.
+          <pb ed="#L" n="678"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>liberis dependentibus ullo modo a 
+          volun<lb ed="#L" break="no" n="2"/>lale. Quare merito Astrologia illa 
+          judicia<lb ed="#L" break="no" n="3"/>ria prohibita est, quoad se extendit ad
+          <lb ed="#L" n="4"/>judicium ferendum de hujusmodi 
+          effecti<lb ed="#L" break="no" n="5"/>bus.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e2714">
+          <lb ed="#L" n="6"/>Quaeres, an astra habeant producere hos
+          <lb ed="#L" n="7"/>effectus, quos ipsis adscribimus per lucem
+          <lb ed="#L" n="8"/>et motum tantummodo an vero habeant
+          <lb ed="#L" n="9"/>etiam aliquas influentias occultas praeter
+          <lb ed="#L" n="10"/>has qualitates sensibiles, quibus 
+          median<lb ed="#L" break="no" n="11"/>libus illos producant.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e2730">
+          <lb ed="#L" n="12"/>Quod per solum lumen et motum sine
+          <lb ed="#L" n="13"/>ullis aliis occultis qualitatibus, tenent
+          <lb ed="#L" n="14"/>Averroes 92. coli, com. 49. Zimarra 
+          Theore<lb ed="#L" break="no" n="15"/>mate 45. Mirandulunus, Sirenus, Zabbarel,
+          <lb ed="#L" n="16"/>Piecolom. et alii. Quod vero non agant
+          <lb ed="#L" n="17"/>per solum lumen et molum, sed etiam
+          <lb ed="#L" n="18"/>per calorem et frigus, et alias etiam 
+          qua<lb ed="#L" break="no" n="19"/>litates occullas, communis est sententia
+          <lb ed="#L" n="20"/>Philosophorum cum Doctore hic, ac D.
+          <lb ed="#L" n="21"/>Thoma coliect. 10. D. Bonaventura et
+          <lb ed="#L" n="22"/>Richardo 2» hac distinctione, quos 
+          sequun<lb ed="#L" break="no" n="23"/>tur Conimbricenses 2. col? cap. 3. qucst 3.
+          <lb ed="#L" n="24"/>huvius bid. quast. 2. Aversa quast. 35.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e2761">
+          <lb ed="#L" n="25"/>Probatur haec communis sententia, quia
+          <lb ed="#L" n="26"/>primo incredibile prorsus est quod per
+          <lb ed="#L" n="27"/>unam qualitatem lucis cum quocumque
+          <lb ed="#L" n="28"/>motlu possint coeli producere tam varios
+          <lb ed="#L" n="29"/>effectus quam producunt. Secundo, quia
+          <lb ed="#L" n="30"/>producunt mineralia in visceribus lerre,
+          <lb ed="#L" n="31"/>sed ad illa viscera non pertingit lumen aut
+          <lb ed="#L" n="32"/>lux. Dices pertingere tamen calorem, qui
+          <lb ed="#L" n="33"/>calor producitur per lucem a coelis. Sed
+          <lb ed="#L" n="34"/>quamvis Conimbricenses existiment 
+          calo<lb ed="#L" break="no" n="35"/>rem a coelis per lucem produci, id nullo
+          <lb ed="#L" n="36"/>modo videtur mihi credibile; tum quia
+          <lb ed="#L" n="37"/>nihil impedit quo minus calorem ipsum
+          <lb ed="#L" n="38"/>immediate producerent; tum quia coeli
+          <lb ed="#L" n="39"/>eodem modo producunt frigus quo 
+          calo<lb ed="#L" break="no" n="40"/>rem, sed frigus non producunt per lucem,
+          <lb ed="#L" n="41"/>ut patet; ergo nec calorem. Confirmatur
+          <lb ed="#L" n="42"/>hoc, quia non es! verisimile quod per
+          <lb ed="#L" n="43"/>unam qualitatem lucis formas tam 
+          contra<lb ed="#L" break="no" n="44"/>rias producant, quam sunt frigus et calor.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e2807">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>Probatur tertio, quia magnes trahit fer- ,
+          <lb ed="#L" n="46"/>rum per qualitates aliquas occultas ; ergo
+          <lb ed="#L" n="47"/>agere per tales qualitates convenil 
+          corpo<lb ed="#L" break="no" n="48"/>ribus, sed certe nullis potius quam 
+          coele<lb ed="#L" break="no" n="49"/>stibus. Confirmatur quia non est probabile
+          <lb ed="#L" n="50"/>quod ulla qualilate sensibili ursa minor
+          <lb ed="#L" n="51"/>trahat ad se magneItem, aut Sol 
+          heliolro<lb ed="#L" break="no" n="52"/>pii, aut Scorpionarii flores ; sed isti molus
+          <lb ed="#L" n="53"/>omnino tam debent tribui qualitati alicui
+          <lb ed="#L" n="54"/>occulte illis impresse quam motus ferri,
+          <lb ed="#L" n="55"/>et idem dicendum de motu quo mare fluit,
+          <lb ed="#L" n="56"/>et aliis multis similibus effectibus. Adde
+          <lb ed="#L" n="57"/>ad hec, nullo prorsus fundamento inniti
+          <lb ed="#L" n="58"/>adversarios, quod responsione dignum sil,
+          <lb ed="#L" n="59"/>ut mirum sit eos a communiori recedere
+          <lb ed="#L" n="60"/>sententia.
+        </p>
+        <!--</div>
+          <div alias="lycht-l2d14q3-p6">-->
+        <p xml:id="mm30o9-d1e2028-d1e2848">
+          <lb ed="#L" n="56" type="fixed=679"/>COMMENTARIUS.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e2854">
+          <lb ed="#L" n="57"/>(i) Ad primum argumentum, etc. 
+          Re<lb ed="#L" break="no" n="58"/>spondet ad argumenta principalia, 
+          quo<lb ed="#L" break="no" n="59"/>rum primum erat: Agens et patiens 
+          de<lb ed="#L" break="no" n="60"/>bent esse simul vel immediate vel 
+          me<lb ed="#L" break="no" n="61"/>diate, hoc est, mediante qualitate producta
+          <lb ed="#L" n="62"/>ab agente per totum medium  
+          interposi<lb ed="#L" break="no" n="63"/>tum inter ipsum et agens; corpora 
+          coe<lb ed="#L" break="no" n="64"/>lestia non sunt sic simul cum inferioribus,
+          <lb ed="#L" n="65"/>ergo non possunt agere in illa. Probatur
+          <lb ed="#L" n="66"/>minor, quia certum est quod immediate
+          <lb ed="#L" n="67"/>corpora coelestia non sint simul, hoc est,
+          <lb ed="#L" n="68"/>contigua aut continua visceribus terrae, 
+          ver<lb ed="#L" break="no" n="69"/>bi gratia, aut materie illi, quam disponunt
+          <lb ed="#L" n="70"/>ad formam ranae. Deinde aeque certum
+          <lb ed="#L" n="71"/>est quod non producat firmamentum,
+          <lb ed="#L" n="72"/>verbi gratia, talem qualitatem, qualem
+          <lb ed="#L" n="73"/>producit in corpore sublunari, in quod
+          <lb ed="#L" n="74"/>agit in toto medio interjacenti, quia non
+          <lb ed="#L" n="75"/>producit talem in coelis intermediis 
+          infe<lb ed="#L" break="no" n="76"/>rioribus, cum non sint capaces talis 
+          acti<lb ed="#L" break="no" n="77"/>onis, aut qualitatis. Respondet Doctor 
+          ne<lb ed="#L" break="no" n="78"/>gando minorem, quia ad hoc ut agens,
+          <lb ed="#L" n="79"/>et paliens sint simul sufficienter mediante
+          <lb ed="#L" n="80"/>medio, non requiritur quod talis qualitas
+          <lb ed="#L" n="81"/>producatur per tolum medium, qualis
+          <lb ed="#L" n="82"/>producitur in passo, sed sufficit quod
+          <lb ed="#L" n="83"/>aliqua qualitas in ipso producatur (si
+          <lb ed="#L" n="84"/>tamen hoc ipsum necessario semper 
+          re<lb ed="#L" break="no" n="85"/>quiratur). Certum autem est astra 
+          firma<lb ed="#L" break="no" n="86"/>menli per omnes inferiores ecelos diffun-
+          <pb ed="#L" n="680"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>dere lumen, unde mediante lumine illo
+          <lb ed="#L" n="2"/>sunt simul sufficienter cum aere, et 
+          me<lb ed="#L" break="no" n="3"/>diante hoc, ac qualitatibus per ipsum
+          <lb ed="#L" n="4"/>diffusis usque ad viscera terre, tam sunt
+          <lb ed="#L" n="5"/>sufficienter simul, cum islis visceribus,
+          <lb ed="#L" n="6"/>quam requiritur ut agant in illis 
+          visce<lb ed="#L" break="no" n="7"/>ribus.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e2941">
+          <lb ed="#L" n="8"/>Adde posse dici, quod qualitates 
+          occul<lb ed="#L" break="no" n="9"/>las, quibus mediantibus agit coelum in 
+          in<lb ed="#L" break="no" n="10"/>feriora corpora, diffundat per omnes 
+          cce<lb ed="#L" break="no" n="11"/>los inferiores ; et sic etiam posset dici
+          <lb ed="#L" n="12"/>quod piscis stupefaciens manum 
+          pisca<lb ed="#L" break="no" n="13"/>loris mediante reli, producat illam 
+          qua<lb ed="#L" break="no" n="14"/>litatem stupefactivam in ipso reli, 
+          quam<lb ed="#L" break="no" n="15"/>vis in illo non habeat illam vim, quia
+          <lb ed="#L" n="16"/>non est capax istius effectus. Nec hoc
+          <lb ed="#L" n="17"/>est contra Doctorem hic dicentem quod
+          <lb ed="#L" n="18"/>ila qualitas non producatur ab illo pisce
+          <lb ed="#L" n="19"/>inreli; non enim necesse est quod 
+          ve<lb ed="#L" break="no" n="20"/>lit illam qualitatem non esse in reli 
+          pro<lb ed="#L" break="no" n="21"/>duclam secundum se, sed tantum quod
+          <lb ed="#L" n="22"/>non Sil ibi producta quanlum ad 
+          effe<lb ed="#L" break="no" n="23"/>ctum stupefactionis. Ilaque  
+          quemadmo<lb ed="#L" break="no" n="24"/>dum in sententia communiori species 
+          vi<lb ed="#L" break="no" n="25"/>sibiles diffunduntur a coloribus per totum
+          <lb ed="#L" n="26"/>aerem, cum tamen deserviant ad 
+          visi<lb ed="#L" break="no" n="27"/>onem qua producitur in oculo, ita posset
+          <lb ed="#L" n="28"/>dici quod qualitates occultiae. produci: a
+          <lb ed="#L" n="29"/>celis producantur per totum medium,
+          <lb ed="#L" n="30"/>cum (amen deserviant solummodo ad
+          <lb ed="#L" n="31"/>producendos effectus particulares in 
+          sub<lb ed="#L" break="no" n="32"/>jecüs aliquibus determinatis capacibus
+          <lb ed="#L" n="33"/>effectuum illorum.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e3000">
+          <lb ed="#L" n="34"/>Secundum argumentum est, quod 
+          tolle<lb ed="#L" break="no" n="35"/>rentur contingentia. Respondet negando
+          <lb ed="#L" n="36"/>sequelam, quia voluntas tam divina quam
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="37"/>humana, cum Sit libera, non obstante
+          <lb ed="#L" n="38"/>quacumque coeli actione potest pro 
+          libi<lb ed="#L" break="no" n="39"/>lu suo applicare causas secundas, illa
+          <lb ed="#L" n="40"/>quidem omnes, hwc aliquas, sic ut 
+          con<lb ed="#L" break="no" n="41"/>lingenter possint oriri aliqui effectus, qui
+          <lb ed="#L" n="42"/>alias non. acciderent.
+        </p>
+        <p xml:id="mm30o9-d1e2028-d1e3024">
+          <lb ed="#L" n="43"/>Tertium argumentum est : vel agerent
+          <lb ed="#L" n="44"/>per motum, vel per formam absolutam
+          <lb ed="#L" n="45"/>ac permanentem ; non primum, quia 
+          mo<lb ed="#L" break="no" n="46"/>tus localis formaliter est respectus, 
+          re<lb ed="#L" break="no" n="47"/>speclus autem non est productivus 
+          forma<lb ed="#L" break="no" n="48"/>rum absolutarum, quas coeli in 
+          inferiori<lb ed="#L" break="no" n="49"/>bus producunt; non secundum, quia sic
+          <lb ed="#L" n="50"/>cessante motu agerent, contra 
+          Philoso<lb ed="#L" break="no" n="51"/>phum dicentem 8. Physic. et 2. Generat.
+          <lb ed="#L" n="52"/>quod cessante primo motu cessarent 
+          om<lb ed="#L" break="no" n="53"/>nes alii motus. Respondet quod agant per
+          <lb ed="#L" n="54"/>formam absolutam, sive substantialem
+          <lb ed="#L" n="55"/>sive accidentalem, et quod possunt agere
+          <lb ed="#L" n="56"/>quamvis nullo modo moverentur localiter.
+          <lb ed="#L" n="57"/>Ad auctoritatem Philosophi in 
+          contra<lb ed="#L" break="no" n="58"/>rium, respondendum quod non velit
+          <lb ed="#L" n="59"/>omnes molus omnino cessaturos, eo ipso (
+          <lb ed="#L" n="60"/>quo cessarent motus coelestes; esset enim c
+          <lb ed="#L" n="61"/>absurdissimum dicere quod Sol cessans
+          <lb ed="#L" n="62"/>non posset illuminare aerem sibi 
+          sup<lb ed="#L" break="no" n="63"/>positum, aut quod ignis non calefaceret,
+          <lb ed="#L" n="64"/>Sed vult solum quod motus principales
+          <lb ed="#L" n="65"/>generationum viventium cessarent, quod
+          <lb ed="#L" n="66"/>verissimile est, quia isti motus 
+          depen<lb ed="#L" break="no" n="67"/>dent a variis Planetarum :et coelorum 
+          in<lb ed="#L" break="no" n="68"/>fluxibus, qui non possent ipsis exhiberi
+          <lb ed="#L" n="69"/>debito modo, si celum quiesceret, ex eo
+          <lb ed="#L" n="70"/>quod ipsimet coeli non applicarentur ipsis
+          <lb ed="#L" n="71"/>unum post alterum, sicut requiritur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
