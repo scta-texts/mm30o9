@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 3, Distinctio 28, Quaestio 1</title>
+        <author ref="#per-FLBca3">Franciscus Lychetus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 3, Distinctio 28, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x15">Vives, Paris, 1894, volume 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="380"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="mm30o9-d1e2944"><!-- mm30o9-b3d28q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum eodem habitu sit diligendus proximus quo diligitur Deus</head>
+        <!-- <div alias="lycht-d28q1-p1"> -->
+          <p>
+            <pb ed="#V" n="380"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1" type="fixed=380"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="2"/>(a) De primo dicit quod charitas
+            si<lb ed="#V" n="3" break="no"/>cut tactum est, d. 17. primi, dicitur
+            ha<lb ed="#V" n="4" break="no"/>bitus, quo Deus habetur carus, et in
+            <lb ed="#V" n="5"/>hoc charitas creata differt secundum
+            <lb ed="#V" n="6"/>rationem a gratia, quamvis gratia et
+            <lb ed="#V" n="7"/>charitas sit unus et idem habitus
+            <lb ed="#V" n="8"/>realiter; sed dicitur charitas, ut
+            re<lb ed="#V" n="9" break="no"/>spicit aliquid tanquam carum, et
+            <lb ed="#V" n="10"/>gratia, qua aliquid habetur gratum,
+            <lb ed="#V" n="11"/>quae distinctio patet a Doctore dist. 27.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>Dicit ergo hic, quod charitas est
+            <lb ed="#V" n="13"/>habitus, que Deus habetur carus.
+            Pos<lb ed="#V" n="14" break="no"/>set autem haberi carus aliquo
+            amo<lb ed="#V" n="15" break="no"/>re privato, quo amans nolit habere
+            <lb ed="#V" n="16"/>condiligentem, sed talis amor nec
+            es<lb ed="#V" n="17" break="no"/>set rectus, nec perfectus; non rectus,
+            <lb ed="#V" n="18"/>patet, quia objectum diligibile ab
+            <lb ed="#V" n="19"/>omnibus velle ipsum diligere, et
+            <lb ed="#V" n="20"/>non ab aliis condiligi, est contra
+            ra<lb ed="#V" n="21" break="no"/>tionem; nec similiter esset
+            perfec<lb ed="#V" n="22" break="no"/>tus, quia perfectus amor est, non
+            <lb ed="#V" n="23"/>tantum amare objectum diligibile,
+            <lb ed="#V" n="24"/>sed etiam est velle ipsum ab aliis
+            <lb ed="#V" n="25"/>diligi; et sic charitas est amor
+            ha<lb ed="#V" n="26" break="no"/>bitualis inclinans non tantum ad
+            di<lb ed="#V" n="27" break="no"/>ligendum Deum, sed etiam inclinans,
+            <lb ed="#V" n="28"/>ut Deus condiligatur ab aliis,
+            quo<lb ed="#V" n="29" break="no"/>rum dilectio est grata Deo, vel saltem
+            <lb ed="#V" n="30"/>non ingrata, saltem pro tunc,
+            quan<lb ed="#V" n="31" break="no"/>do dat gratiam. Et hoc dicit, quia
+            <lb ed="#V" n="32"/>si Franciscus habet gratiam, quae
+            <lb ed="#V" n="33"/>est principium dilectionis gratuitae
+            <lb ed="#V" n="34"/>et meritoriae, et si ego habeo
+            gra<lb ed="#V" n="35" break="no"/>tiam, sive charitatem, tunc charitas
+            <lb ed="#V" n="36"/>non tantum inclinat ad dilectionem
+            <lb ed="#V" n="37"/>Dei gratuitam, sed etiam inclinat,
+            <lb ed="#V" n="38"/>ut velim Franciscum diligere Deum
+            <lb ed="#V" n="39"/>gratuite, quia talis dilectio pro illo
+            <lb ed="#V" n="40"/>tunc quo Franciscus habet gratiam,
+            <lb ed="#V" n="41"/>est grata Deo.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>b) Ex hoc patet qualiter habitus
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>charitatis sit unus. Dicit Doctor quod
+            <lb ed="#V" n="44"/>ex quo unitas habitus accipitur
+            <lb ed="#V" n="45"/>ab unitate objecti, et hoc
+            denomi<lb ed="#V" n="46" break="no"/>natione extrinseca, quia charitas,
+            <lb ed="#V" n="47"/>qua Deus diligitur et proximus, ex
+            <lb ed="#V" n="48"/>quo est tantum unus habitus,
+            ha<lb ed="#V" n="49" break="no"/>bet etiam tantum unum objectum
+            <lb ed="#V" n="50"/>sub una ratione formali, scilicet
+            <lb ed="#V" n="51"/>ipsum Deum sub ratione Deitatis.
+            <lb ed="#V" n="52"/>Patet, quia inclinat ad dilectionem
+            <lb ed="#V" n="53"/>Dei in se et propter se, qua eum
+            <lb ed="#V" n="54"/>diligo; inclinat etiam ut ego velim
+            <lb ed="#V" n="55"/>dilectionem proximi, qua proximus
+            <lb ed="#V" n="56"/>diligat Deum in se et propter se, ita
+            <lb ed="#V" n="57"/>quod habens charitatem, charitas in
+            <lb ed="#V" n="58"/>illo supposito primo et immediate,
+            <lb ed="#V" n="59"/>et actu recto inclinat ad
+            dilectio<lb ed="#V" n="60" break="no"/>nem Dei propter se, et quasi actu
+            <lb ed="#V" n="61"/>reflexo inclinat ad dilectionem
+            pro<lb ed="#V" n="62" break="no"/>ximi; sic intelligendo quod sicut
+            <lb ed="#V" n="63"/>quando ego diligo Deum immediate
+            <lb ed="#V" n="64"/>actu reflexo, diligo me diligere Deum,
+            <lb ed="#V" n="65"/>ita quod ista secunda dilectio, quae
+            <lb ed="#V" n="66"/>est actus reflexus, non praecise
+            ter<lb ed="#V" n="67" break="no"/>minatur ad me, sed terminatur ad
+            <lb ed="#V" n="68"/>me, ut diligentem, ita quod vere
+            <lb ed="#V" n="69"/>diligo me non absolute, sed diligo
+            <lb ed="#V" n="70"/>me diligere Deum; sic similiter
+            qua<lb ed="#V" n="71" break="no"/>si actu reflexo diligo proximum,
+            <lb ed="#V" n="72"/>non absolute ex charitate, sed
+            dili<lb ed="#V" n="73" break="no"/>go ipsum diligere Deum, ita quod
+            <lb ed="#V" n="74"/>ille actus reflexus non habet
+            pro<lb ed="#V" n="75" break="no"/>ximum praecise pro objecto, sed
+            <lb ed="#V" n="76"/>habet hoc, scilicet proximum
+            dili<lb ed="#V" n="77" break="no"/>gere Deum, id est, quod amore
+            <lb ed="#V" n="78"/>concupiscentiae concupisco proximo
+            <lb ed="#V" n="79"/>dilectionem, qua diligat Deum in se
+            <lb ed="#V" n="80"/>et propter se, ut supra exposui,
+            <lb ed="#V" n="81"/>distinct. 26. Patet ergo quomodo
+            cha<lb ed="#V" n="82" break="no"/>ritas habet tantum Deum sub ratione
+            <lb ed="#V" n="83"/>Deitatis pro objecto, quia etsi
+            incli<lb ed="#V" n="84" break="no"/>net ad dilectionem proximi, non
+            in<lb ed="#V" n="85" break="no"/>clinat ad dilectionem proximi
+            ha<lb ed="#V" n="86" break="no"/>bendo ipsum pro objecto, sistendo
+            <pb ed="#V" n="381"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ibi, sed praecise inclinat ad hoc,
+            <lb ed="#V" n="2"/>ut ego diligam proximum diligere
+            <lb ed="#V" n="3"/>Deum.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>(c) Contra hoc objicitur. Hic Doctor
+            <lb ed="#V" n="5"/>instat, probando quod eodem habitu
+            <lb ed="#V" n="6"/>non possum me velle Deum, et
+            pro<lb ed="#V" n="7" break="no"/>ximum velle Deum, sive eodem
+            ha<lb ed="#V" n="8" break="no"/>bitu non possum actu reflexo diligere
+            <lb ed="#V" n="9"/>me diligere Deum, et actu quasi
+            refle<lb ed="#V" n="10" break="no"/>xo diligere proximum diligere Deum;
+            <lb ed="#V" n="11"/>patet, quia sicut non possum scire
+            <lb ed="#V" n="12"/>me scire Deum, et scire proximum
+            <lb ed="#V" n="13"/>scire Deum, imo alio habitu scio me
+            <lb ed="#V" n="14"/>scire aliquid, et alio scio proximum
+            <lb ed="#V" n="15"/>scire aliquid, sic in proposito.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Respondet Doctor quod actus, super
+            <lb ed="#V" n="17"/>quem fit reflexio, potest significare
+            <lb ed="#V" n="18"/>nominaliter vel verbaliter. Exemplum
+            <lb ed="#V" n="19"/>primi: Intelligo intellectionem meam,
+            <lb ed="#V" n="20"/>qua intelligo Franciscum. Et dicit
+            <lb ed="#V" n="21"/>quod si intelligo A aliqua
+            intellectio<lb ed="#V" n="22" break="no"/>ne, illam intellectionem possum
+            in<lb ed="#V" n="23" break="no"/>telligere alia intellectione, sive illa
+            <lb ed="#V" n="24"/>prima intellectio inhaereat mihi, sive
+            <lb ed="#V" n="25"/>alteri. Exemplum secundi: si habeo
+            <lb ed="#V" n="26"/>intellectionem inhaerentem mihi, qua
+            <lb ed="#V" n="27"/>intelligo lapidem, alia intellectione
+            <lb ed="#V" n="28"/>reflexa possum intelligere illam, sic
+            <lb ed="#V" n="29"/>dicendo, intelligo intellectionem
+            la<lb ed="#V" n="30" break="no"/>pidis. Si vero intelligerem lapidem
+            <lb ed="#V" n="31"/>intellectione inhaerente Joanni, adhuc
+            <lb ed="#V" n="32"/>super illam possum habere actum
+            <lb ed="#V" n="33"/>reflexum, quia alia intellectione
+            in<lb ed="#V" n="34" break="no"/>telligerem intellectionem lapidis
+            <lb ed="#V" n="35"/>inhaerentem Joanni. Si vero actus
+            <lb ed="#V" n="36"/>rectus, sive actus super quem fit
+            <lb ed="#V" n="37"/>reflexio, accipiatur verbaliter, sicut
+            <lb ed="#V" n="38"/>cum dico intelligere, et tunc talis
+            <lb ed="#V" n="39"/>actus habet suum significatum, ut
+            <lb ed="#V" n="40"/>in supposito, vel ut concernentem
+            <lb ed="#V" n="41"/>suppositum, id est, quod intelligere
+            <lb ed="#V" n="42"/>non praecise significat intellectionem,
+            <lb ed="#V" n="43"/>sed intellectionem ut in supposito,
+            <lb ed="#V" n="44"/>ita quod cum dico, intelligo me
+            in<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>telligere lapidem, illud intelligere
+            prae<lb ed="#V" n="46" break="no"/>cise significat intellectionem, ut in
+            <lb ed="#V" n="47"/>me existentem; et similiter cum dico:
+            <lb ed="#V" n="48"/>intelligo Joannem intelligere, illud
+            in<lb ed="#V" n="49" break="no"/>telligere significat actum intelligendi,
+            <lb ed="#V" n="50"/>ut praecise existentem in Joannem, et
+            <lb ed="#V" n="51"/>talis actus intelligendi si sibi non
+            <lb ed="#V" n="52"/>inexisteret, esset falsum dicere:
+            In<lb ed="#V" n="53" break="no"/>telligo Joannem intelligere; sed non
+            <lb ed="#V" n="54"/>est sic de velle, quia possum habere
+            <lb ed="#V" n="55"/>actum reflexivum super velle Joannis,
+            <lb ed="#V" n="56"/>non solum pro praesente, sed etiam
+            <lb ed="#V" n="57"/>pro futuro, ut cum dico: volo
+            Joan<lb ed="#V" n="58" break="no"/>nem velle currere; velle in Joanne non
+            <lb ed="#V" n="59"/>significat actum volendi in ipso, ut
+            <lb ed="#V" n="60"/>actu sibi inexistentem et praesentem,
+            <lb ed="#V" n="61"/>quia ista est vera: volo Joannem velle
+            <lb ed="#V" n="62"/>currere pro cras; patet ergo quod
+            li<lb ed="#V" n="63" break="no"/>cet non eodem habitu sciam Deum,
+            <lb ed="#V" n="64"/>et sciam te scire Deum, tamen
+            eo<lb ed="#V" n="65" break="no"/>dem habitu volo Deum, et volo te
+            <lb ed="#V" n="66"/>velle Deum; et in hoc diligo te ex
+            <lb ed="#V" n="67"/>charitate, quia secundum hoc volo
+            <lb ed="#V" n="68"/>tibi bonum justitiae, quia volo te
+            <lb ed="#V" n="69"/>diligere Deum, quae dilectio Dei est
+            <lb ed="#V" n="70"/>bonum justitiae, licet illud bonum
+            <lb ed="#V" n="71"/>justitiae velim tibi amore
+            concupis<lb ed="#V" n="72" break="no"/>centiae, sicut cum concupisco Joanni
+            <lb ed="#V" n="73"/>charitatem, qua diligat Deum,
+            cha<lb ed="#V" n="74" break="no"/>ritas est bonum justitiae, quod
+            <lb ed="#V" n="75"/>tibi concupisco, ut diligas Deum, et
+            <lb ed="#V" n="76"/>secundum hoc non assignatur
+            pro<lb ed="#V" n="77" break="no"/>ximus quasi secundum objectum
+            cha<lb ed="#V" n="78" break="no"/>ritatis, ita quod charitas inclinet ad
+            <lb ed="#V" n="79"/>dilectionem Dei, sistendo ibi
+            tan<lb ed="#V" n="80" break="no"/>quam in primario objecto, et ad
+            di<lb ed="#V" n="81" break="no"/>lectionem proximi sistendo ibi
+            tan<lb ed="#V" n="82" break="no"/>quam in secundario; inclinat ergo
+            <lb ed="#V" n="83"/>ad dilectionem proximi non sistendo
+            <lb ed="#V" n="84"/>praecise in proximo, sed dicitur
+            in<lb ed="#V" n="85" break="no"/>clinare ad dilectionem proximi
+            qua<lb ed="#V" n="86" break="no"/>tenus inclinat, ut ego diligam
+            pro<lb ed="#V" n="87" break="no"/>ximum diligere Deum, sive, ut ego
+            <lb ed="#V" n="88"/>diligam dilectionem proximo, qua
+            <pb ed="#V" n="382"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>diligat Deum in se et propter se.
+            <lb ed="#V" n="2"/>Non ponitur ergo proximus objectum
+            <lb ed="#V" n="3"/>per se secundarium charitatis, sed
+            <lb ed="#V" n="4"/>omnino ut quid accidentale, quia
+            <lb ed="#V" n="5"/>respicit proximum non ut objectum
+            <lb ed="#V" n="6"/>dilectum praecise, sed ut quid
+            po<lb ed="#V" n="7" break="no"/>tens condiligere mecum perfecte et
+            <lb ed="#V" n="8"/>ordinate dilectum, et ad hoc eum
+            <lb ed="#V" n="9"/>diligo ex charitate, id est, charitate
+            <lb ed="#V" n="10"/>inclinante, ut condiligat Deum, et
+            <lb ed="#V" n="11"/>in hoc quasi accidentaliter eum
+            di<lb ed="#V" n="12" break="no"/>ligo, puta non propter eum, scilicet
+            <lb ed="#V" n="13"/>sistendo ibi, sed propter objectum,
+            <lb ed="#V" n="14"/>quod volo ab eo condiligi; et
+            vo<lb ed="#V" n="15" break="no"/>lendo hoc ab eo diligi, volo sibi
+            sim<lb ed="#V" n="16" break="no"/>pliciter bonum, quia bonum justitiae,
+            <lb ed="#V" n="17"/>quod bonum justitiae est dilectio Dei
+            <lb ed="#V" n="18"/>propter se, quam volo proximum
+            ha<lb ed="#V" n="19" break="no"/>bere.
+          </p>
+        <!-- </div>
+    <div alias="lycht-d28q1-p2"> -->
+          <p>
+            <lb ed="#V" n="5" type="fixed=383"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>(d) De secundo dico. Hic Doctor
+            de<lb ed="#V" n="7" break="no"/>clarat quomodo habitus charitatis
+            <lb ed="#V" n="8"/>potest stare sine dilectione proximi
+            <lb ed="#V" n="9"/>ex charitate, et quomodo non. Et
+            <lb ed="#V" n="10"/>primo dicit quod ex negatione
+            con<lb ed="#V" n="11" break="no"/>clusionis non necessario sequentis
+            <lb ed="#V" n="12"/>principium, non sequitur destructio
+            <lb ed="#V" n="13"/>principii, quia non omnis error in
+            <lb ed="#V" n="14"/>conclusione destruit veritatem
+            prin<lb ed="#V" n="15" break="no"/>cipii, sed bene error in conclusione
+            <lb ed="#V" n="16"/>necessario sequenti principium
+            des<lb ed="#V" n="17" break="no"/>truit veritatem illius principii, quia
+            <lb ed="#V" n="18"/>tunc veritas conclusionis est
+            princi<lb ed="#V" n="19" break="no"/>palis veritas principii, ut patet a
+            Doc<lb ed="#V" n="20" break="no"/>tore in 1. d. 8. q. ult. sed non est sic,
+            <lb ed="#V" n="21"/>quando conclusio tantum
+            contingen<lb ed="#V" n="22" break="no"/>ter sequitur. Sic dicit in proposito
+            <lb ed="#V" n="23"/>quod ex negatione dilectionis
+            pro<lb ed="#V" n="24" break="no"/>ximi non sequitur destructio
+            dilectio<lb ed="#V" n="25" break="no"/>nis Dei. Et breviter hic nota, quod
+            <lb ed="#V" n="26"/>charitas ex natura rei sic inclinat ad
+            <lb ed="#V" n="27"/>dilectionem Dei, quod negando
+            ta<lb ed="#V" n="28" break="no"/>lem inclinationem, ex consequenti
+            ha<lb ed="#V" n="29" break="no"/>beret destruere charitatem, et
+            simili<lb ed="#V" n="30" break="no"/>ter charitas inclinat ad dilectionem
+            <lb ed="#V" n="31"/>proximi modo praeexposito.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Dico ergo primo quod loquendo de
+            <lb ed="#V" n="33"/>actibus charitatis, scilicet de
+            dilec<lb ed="#V" n="34" break="no"/>tione Dei et proximi, cum dilectione
+            <lb ed="#V" n="35"/>Dei potest absolute stare non dilectio
+            <lb ed="#V" n="36"/>proximi, et hoc sive contradictorie,
+            <lb ed="#V" n="37"/>sive contrarie; contradictorie, non
+            <lb ed="#V" n="38"/>diligendo proximum, quia non
+            dilec<lb ed="#V" n="39" break="no"/>tio proximi, et dilectio proximi
+            con<lb ed="#V" n="40" break="no"/>tradicunt; contrarie, odiendo
+            proxi<lb ed="#V" n="41" break="no"/>mum, quia odium proximi, et
+            dilec<lb ed="#V" n="42" break="no"/>tio proximi opponuntur contrarie. De
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>potentia ergo Dei absoluta possum
+            <lb ed="#V" n="44"/>vere diligere Deum ex charitate, et
+            <lb ed="#V" n="45"/>tamen cum hoc odio habere
+            proxi<lb ed="#V" n="46" break="no"/>mum.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>Secundo dico quod loquendo de
+            po<lb ed="#V" n="48" break="no"/>tentia Dei ordinata cum dilectione
+            <lb ed="#V" n="49"/>Dei ex charitate non stat odium
+            pro<lb ed="#V" n="50" break="no"/>ximi, quia Deus dedit praeceptum de
+            <lb ed="#V" n="51"/>diligendo proximum.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Tertio dico quod habens charitatem
+            <lb ed="#V" n="53"/>ex natura rei vere inclinantem ad
+            di<lb ed="#V" n="54" break="no"/>lectionem Dei in se et propter se, et si
+            <lb ed="#V" n="55"/>actu nunquam diligeret Deum, talis
+            <lb ed="#V" n="56"/>negatio dilectionis non destrueret
+            <lb ed="#V" n="57"/>formaliter charitatem, sed tantum
+            de<lb ed="#V" n="58" break="no"/>meritorie; nam cum habitu
+            charita<lb ed="#V" n="59" break="no"/>tis de potentia Dei absoluta potest
+            <lb ed="#V" n="60"/>stare non dilectio Dei, non posset
+            ta<lb ed="#V" n="61" break="no"/>men Deus de potentia absoluta
+            dis<lb ed="#V" n="62" break="no"/>pensare quod habens charitatem
+            in<lb ed="#V" n="63" break="no"/>clinantem ad dilectionem Dei propter
+            <lb ed="#V" n="64"/>se, nunquam utatur tali inclinatione
+            <lb ed="#V" n="65"/>charitatis, quia tunc Deus ageret
+            con<lb ed="#V" n="66" break="no"/>tra se; non enim potest dispensare
+            <lb ed="#V" n="67"/>contra praecepta juris naturae stricte
+            <lb ed="#V" n="68"/>sumpti, ut infra patebit distinctione
+            <lb ed="#V" n="69"/>37. sed dilectio Dei super omnia,
+            sal<lb ed="#V" n="70" break="no"/>tem pro aliquo tempore, pertinet ad
+            <lb ed="#V" n="71"/>praeceptum juris naturae.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Quarto dico quod habens
+            charita<lb ed="#V" n="73" break="no"/>tem inclinantem ad dilectionem, et
+            <lb ed="#V" n="74"/>hoc ex natura charitatis, sive ex
+            na<lb ed="#V" n="75" break="no"/>tura rei, (quia inclinat ad Deum
+            <lb ed="#V" n="76"/>amandum non private, ut supra dixi)
+            <lb ed="#V" n="77"/>de potentia Dei ordinata non utendo
+            <lb ed="#V" n="78"/>tali inclinatione charitatis, Deus
+            des<lb ed="#V" n="79" break="no"/>truit illam, tamen de potentia Dei
+            ab<lb ed="#V" n="80" break="no"/>soluta posset stare odium proximi
+            <lb ed="#V" n="81"/>cum ipsa charitate; patet, quia si
+            ac<lb ed="#V" n="82" break="no"/>tus odii non repugnat actui
+            charita<lb ed="#V" n="83" break="no"/>tis, multo minus nec habitui. Cum
+            <lb ed="#V" n="84"/>ergo odium proximi non repugnet
+            di<lb ed="#V" n="85" break="no"/>lectioni Dei in se, multo minus
+            repu<lb ed="#V" n="86" break="no"/>gnabit habitui charitatis inclinantis
+            <pb ed="#V" n="384"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ad dilectionem Dei in se, et sic Deus
+            <lb ed="#V" n="2"/>de potentia absoluta posset bene
+            dis<lb ed="#V" n="3" break="no"/>pensare quod habens charitatem
+            in<lb ed="#V" n="4" break="no"/>clinantem ad dilectionem proximi,
+            <lb ed="#V" n="5"/>nunquam utatur charitate secundum
+            <lb ed="#V" n="6"/>talem inclinationem, quia posset
+            <lb ed="#V" n="7"/>Deus dispensare quod nunquam
+            dili<lb ed="#V" n="8" break="no"/>gat proximum, quia dilectio proximi
+            <lb ed="#V" n="9"/>est tantum ex praecepto divino; sed
+            <lb ed="#V" n="10"/>non posset dispensare quod quis odio
+            <lb ed="#V" n="11"/>habeat proximum, sic intelligendo,
+            <lb ed="#V" n="12"/>quod nollet proximum diligere Deum
+            <lb ed="#V" n="13"/>in se et propter se, quia Deus est
+            ob<lb ed="#V" n="14" break="no"/>jectum diligibile ab omnibus; sicut
+            <lb ed="#V" n="15"/>ergo non potest dispensare ut ego non
+            <lb ed="#V" n="16"/>tenear diligere Deum, sic non potest
+            <lb ed="#V" n="17"/>dispensare, ut ego recte velim
+            proxi<lb ed="#V" n="18" break="no"/>mum non diligere Deum.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

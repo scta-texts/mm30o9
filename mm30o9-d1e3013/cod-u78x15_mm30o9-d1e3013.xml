@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 3, Distinctio 32, Quaestio 1</title>
+        <author ref="#per-FLBca3">Franciscus Lychetus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 3, Distinctio 32, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x15">Vives, Paris, 1894, volume 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="427"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="mm30o9-d1e3013"><!-- mm30o9-b3d32q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum Deus diligat omnia ex caritate aequaliter</head>
+        <!-- <div alias="lycht-d32q1-p1"> -->
+          <p>
+            <lb ed="#V" n="15" type="fixed=427"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>(a) Primum probatur, quia sicut
+            os<lb ed="#V" n="17" break="no"/>tensum est d. 2. quaest. 1. primi, per
+            <lb ed="#V" n="18"/>quatuor rationes, quod Deus est
+            for<lb ed="#V" n="19" break="no"/>maliter intelligens et volens, et per
+            <lb ed="#V" n="20"/>consequens beatificabilis, quia sola
+            <lb ed="#V" n="21"/>natura intelligibilis est beatificabilis,
+            <lb ed="#V" n="22"/>ita quod nulla natura inferior est
+            bea<lb ed="#V" n="23" break="no"/>tificabilis, ut probat Doctor in 4. dist.
+            <lb ed="#V" n="24"/>49. quaest. 8. non autem in Deo
+            praece<lb ed="#V" n="25" break="no"/>dit potentia actum, quia quidquid ibi
+            <lb ed="#V" n="26"/>potest esse, necessario actu est, et in
+            <lb ed="#V" n="27"/>ultima actualitate, ut patet a Doctore
+            <lb ed="#V" n="28"/>in pluribus locis. Si ergo Deus est vere
+            <lb ed="#V" n="29"/>beatificabilis, de necessitate actu est
+            <lb ed="#V" n="30"/>beatus et non beatus, nisi intelligendo
+            <lb ed="#V" n="31"/>et volendo se, quia beatitudo
+            formali<lb ed="#V" n="32" break="no"/>ter consistit in visione Deitatis, vel
+            <lb ed="#V" n="33"/>fruitione, ut patet in 4. dist. 49. et
+            <lb ed="#V" n="34"/>tantum Deus sub ratione Deitatis est
+            <lb ed="#V" n="35"/>objectum beatificum, ut patet in 1.
+            <lb ed="#V" n="36"/>dist. 1. quaest. 1. et 2. et in 4. dist. 49.
+            <lb ed="#V" n="37"/>et per consequens actu intelligit et
+            <lb ed="#V" n="38"/>diligit se. Sed ex ista ratione non
+            ha<lb ed="#V" n="39" break="no"/>betur quod Deus intelligat alia a se,
+            <lb ed="#V" n="40"/>et sic dico quod si Deus intelligit se, et
+            <lb ed="#V" n="41"/>talis intellectio est formaliter infinita,
+            <lb ed="#V" n="42"/>concomitanter sequitur quod sit
+            om<cb ed="#V" n="b"/><lb ed="#V" n="43" break="no"/>nium objectorum intelligibilium, ut
+            <lb ed="#V" n="44"/>patet a Doctore in 1. dist. 2. q. 1. et
+            <lb ed="#V" n="45"/>vide quae ibi exposui. Similiter
+            sequi<lb ed="#V" n="46" break="no"/>tur quod ex quo dilectio divina, qua
+            <lb ed="#V" n="47"/>se diligit, est formaliter infinita, ut
+            <lb ed="#V" n="48"/>patet in 1. dist. 2. quaest. 1. quod potest
+            <lb ed="#V" n="49"/>esse respectu omnium diligibilium.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>(b) Objicitur hic. Hic Doctor instat
+            <lb ed="#V" n="51"/>contra hoc, scilicet quod voluntas
+            pos<lb ed="#V" n="52" break="no"/>sit simul diligere omnia diligibilia,
+            <lb ed="#V" n="53"/>quia tunc simul diligeret contraria,
+            <lb ed="#V" n="54"/>cum utrumque sit diligibile. Dicit
+            Do<lb ed="#V" n="55" break="no"/>ctor quod aliud est diligere contraria
+            <lb ed="#V" n="56"/>in se, puta simul diligere album et
+            ni<lb ed="#V" n="57" break="no"/>grum, ut sunt duae natura; et aliud
+            <lb ed="#V" n="58"/>est duo contraria diligere simul inesse
+            <lb ed="#V" n="59"/>eidem susceptivo. Primo modo diligit
+            <lb ed="#V" n="60"/>contraria, sed non secundo modo, quia
+            <lb ed="#V" n="61"/>est impossibile duo contraria simul
+            <lb ed="#V" n="62"/>inesse eidem, et sic hoc totum non est
+            <lb ed="#V" n="63"/>diligibile. Et addit, quod quaedam
+            di<lb ed="#V" n="64" break="no"/>ligit dilectione efficaci, scilicet illa
+            <lb ed="#V" n="65"/>quae aliquando producit in esse, quia
+            <lb ed="#V" n="66"/>quidquid vult voluntate efficaci
+            sem<lb ed="#V" n="67" break="no"/>per producit in esse, ut patet in 1. dist.
+            <lb ed="#V" n="68"/>46. Quaedam autem vult volitione
+            com<lb ed="#V" n="69" break="no"/>placentiae, et non efficaci, quae tamen
+            <lb ed="#V" n="70"/>nunquam producit in esse,
+            ostendun<lb ed="#V" n="71" break="no"/>tur tamen ab intellectu suo, ut
+            possi<lb ed="#V" n="72" break="no"/>bili habere tantam bonitatem sicut
+            <lb ed="#V" n="73"/>illa, quae diligit dilectione efficaci.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>(c) Ad hanc autem conclusionem, etc.
+            <lb ed="#V" n="75"/>Hoc patuit supra in 1. dist. 2. parte 2.
+            <lb ed="#V" n="76"/>quaest. 3. et vide quae ibi exposui.
+            Mo<lb ed="#V" n="77" break="no"/>do si ens dividatur per voluntarium,
+            <lb ed="#V" n="78"/>et non voluntarium, perfectius
+            divi<lb ed="#V" n="79" break="no"/>dens est voluntarium, ergo est
+            perfe<lb ed="#V" n="80" break="no"/>ctio simpliciter; sed omnis perfectio
+            <lb ed="#V" n="81"/>simpliciter formaliter est in Deo, ut
+            <lb ed="#V" n="82"/>satis patuit in primo.
+          </p>
+          <p>
+            <lb ed="#V" n="83"/>Si dicatur, quod tunc sequitur quod
+            <lb ed="#V" n="84"/>intellectus divinus non sit perfectio
+            <lb ed="#V" n="85"/>simpliciter, quia non est potentia
+            vo<lb ed="#V" n="86" break="no"/>luntaria.
+          </p>
+          <p>
+            <pb ed="#V" n="428"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Dico, quod quando dividitur ens per
+            <lb ed="#V" n="2"/>voluntarium, et non voluntarium,
+            <lb ed="#V" n="3"/>membra dividenda accipiuntur, vel
+            <lb ed="#V" n="4"/>pro ente cui competit voluntarium, ut
+            <lb ed="#V" n="5"/>puta Deus vel homo, et non accipitur
+            <lb ed="#V" n="6"/>pro sola potentia volitiva, et per non
+            <lb ed="#V" n="7"/>voluntarium accipitur natura non
+            in<lb ed="#V" n="8" break="no"/>tellectualis.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Adverte etiam, quod licet dilectio
+            <lb ed="#V" n="10"/>Dei in se sit formaliter perfectio
+            sim<lb ed="#V" n="11" break="no"/>pliciter, quia formaliter infinita, non
+            <lb ed="#V" n="12"/>tamen respectus ille, quo transit super
+            <lb ed="#V" n="13"/>aliud objectum diligendo illud, potest
+            <lb ed="#V" n="14"/>dici perfectio simpliciter formaliter,
+            <lb ed="#V" n="15"/>sed si est, erit tantum perfectionis
+            sim<lb ed="#V" n="16" break="no"/>pliciter; aliud enim est aliquid esse
+            <lb ed="#V" n="17"/>perfectionis simpliciter, et aliud esse
+            <lb ed="#V" n="18"/>perfectio simpliciter, et quid per
+            <lb ed="#V" n="19"/>utrumque importetur, vide Doctorem
+            <lb ed="#V" n="20"/>q. 1. quodlib. art. 1.
+          </p>
+        <!-- </div>
+    <div alias="lycht-d32q1-p2"> -->
+          <p>
+            <lb ed="#V" n="63" type="fixed=429"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>(d) Ex isto sequitur secundum
+            decla<lb ed="#V" n="65" break="no"/>randum, scilicet quod diligere omnia
+            <lb ed="#V" n="66"/>ex charitate non est proprium alicui
+            <lb ed="#V" n="67"/>personae, quia nulla perfectio
+            simplici<lb ed="#V" n="68" break="no"/>ter est proprium alicui personae, quia
+            <lb ed="#V" n="69"/>tunc una persona esset simpliciter
+            <lb ed="#V" n="70"/>perfectior alia.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>(e) Hoc enim probatur aliter. Hic
+            Do<lb ed="#V" n="72" break="no"/>ctor specialiter probat quod diligere
+            <lb ed="#V" n="73"/>creaturam non sit proprium alicui
+            <lb ed="#V" n="74"/>personae, quia si alicui personae, esset
+            <lb ed="#V" n="75"/>proprium Spiritus sancti, quia sicut
+            <lb ed="#V" n="76"/>Filio, ex quo producitur per modum
+            <lb ed="#V" n="77"/>intellectus, attribuuntur illa quae per
+            <lb ed="#V" n="78"/>intellectum sunt elicita, vel quasi
+            eli<lb ed="#V" n="79" break="no"/>cita, ut scientia, sapientia, intellectio,
+            <lb ed="#V" n="80"/>et hujusmodi, attribuuntur, dico,
+            ap<lb ed="#V" n="81" break="no"/>propriate, sed non sunt propria; ita
+            <lb ed="#V" n="82"/>Spiritui sancto, quia producitur per
+            <lb ed="#V" n="83"/>modum voluntatis, appropriantur
+            per<lb ed="#V" n="84" break="no"/>tinentia ad voluntatem, scilicet
+            chari<lb ed="#V" n="85" break="no"/>tas, amor, dilectio, et hujusmodi.
+            Di<lb ed="#V" n="86" break="no"/>cit ergo Doctor quod si diligere
+            crea<pb ed="#V" n="430"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>turam esset proprietas Spiritus sancti,
+            <lb ed="#V" n="2"/>sequeretur vel quod Spiritus sanctus
+            <lb ed="#V" n="3"/>non necessario procederet, vel quod
+            <lb ed="#V" n="4"/>Deus amaret necessario aliquid aliud a
+            <lb ed="#V" n="5"/>se, quae sunt impossibilia. Quod autem
+            <lb ed="#V" n="6"/>alterum istorum sequatur, patet, quia
+            <lb ed="#V" n="7"/>si diligere creaturam est proprietas
+            <lb ed="#V" n="8"/>Spiritus sancti, et diligere creaturam
+            <lb ed="#V" n="9"/>convenit sibi tantum contingenter,
+            <lb ed="#V" n="10"/>quia non diligit aliud a se necessario,
+            <lb ed="#V" n="11"/>per consequens ista proprietas
+            Spiri<lb ed="#V" n="12" break="no"/>tus sancti inesset sibi tantum
+            contin<lb ed="#V" n="13" break="no"/>genter; sed hanc proprietatem habet
+            <lb ed="#V" n="14"/>a Patre et Filio per processionem, et
+            <lb ed="#V" n="15"/>sic esset contingenter producta, et per
+            <lb ed="#V" n="16"/>consequens Spiritus sanctus esset
+            con<lb ed="#V" n="17" break="no"/>tingenter productus, ut patet, quia
+            ta<lb ed="#V" n="18" break="no"/>lis proprietas esset simpliciter idem
+            <lb ed="#V" n="19"/>Spiritui sancto.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Si vero dicatur, quod diligit
+            creatu<lb ed="#V" n="21" break="no"/>ram necessario, tunc sequitur aliud
+            <lb ed="#V" n="22"/>inconveniens, scilicet quod Deus
+            ne<lb ed="#V" n="23" break="no"/>cessario diligat aliquid aliud a se,
+            <lb ed="#V" n="24"/>quod est simpliciter impossibile, ut
+            <lb ed="#V" n="25"/>patet a Doctore in 1. dist. 8. quaest. utt.
+            <lb ed="#V" n="26"/>Sequitur pari ratione de Verbo, quod
+            <lb ed="#V" n="27"/>non dicat alium respectum distinctum
+            <lb ed="#V" n="28"/>et proprium necessario ad aliquid
+            <lb ed="#V" n="29"/>aliud, quam ad Deum, quia tunc
+            se<lb ed="#V" n="30" break="no"/>queretur vel quod Verbum non
+            produ<lb ed="#V" n="31" break="no"/>ceretur necessario, vel quod Deus
+            in<lb ed="#V" n="32" break="no"/>telligeret aliquid aliud a se necessario.
+            <lb ed="#V" n="33"/>Primum patet, quia si intelligere
+            <lb ed="#V" n="34"/>creaturam in esse tamen existentiae,
+            <lb ed="#V" n="35"/>(quod dico, quia bene Deus necessario
+            <lb ed="#V" n="36"/>intelligit omnia in esse possibili, vel
+            <lb ed="#V" n="37"/>in esse objectivo, imo necessario tam
+            <lb ed="#V" n="38"/>in esse possibili, quam cognito, ut
+            pa<lb ed="#V" n="39" break="no"/>tet a Doctore in 1. dist. 3. q. 4. et dist.
+            <lb ed="#V" n="40"/>35. 36. 39. et 43. et in 2. dist. 1. q. 1. et
+            <lb ed="#V" n="41"/>specialiter in quodlib. quaest. 11.) esset
+            <lb ed="#V" n="42"/>proprietas Verbi, et contingenter
+            in<lb ed="#V" n="43" break="no"/>esset, tunc Verbum haberet illud a
+            <lb ed="#V" n="44"/>Patre contingenter, et per consequens
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>esset genitum contingenter, quod est
+            <lb ed="#V" n="46"/>impossibile. Si autem intelligere
+            om<lb ed="#V" n="47" break="no"/>nia in esse existentiae esset proprietas
+            <lb ed="#V" n="48"/>Verbi, et necessario sibi competeret,
+            <lb ed="#V" n="49"/>tunc Deus necessario intelligeret
+            crea<lb ed="#V" n="50" break="no"/>turam in esse existentiae, quod tamen
+            <lb ed="#V" n="51"/>est manifeste falsum, quia cognitio
+            <lb ed="#V" n="52"/>creaturae in esse existentiae sequitur
+            <lb ed="#V" n="53"/>actum divinae voluntatis, ita quod
+            vo<lb ed="#V" n="54" break="no"/>luntas divina prius vult creaturam
+            <lb ed="#V" n="55"/>existere, quam Deus intelligat ipsam
+            <lb ed="#V" n="56"/>existere; et quia Deus vult creaturam
+            <lb ed="#V" n="57"/>existere mere contingenter, ideo
+            cog<lb ed="#V" n="58" break="no"/>nitio sequens illam volitionem non
+            <lb ed="#V" n="59"/>est simpliciter necessaria, et hoc patet
+            <lb ed="#V" n="60"/>a Doctore in 1. dist. 39. et in Quodtib.
+            <lb ed="#V" n="61"/>quaest. 14.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>(f) Pro utroque est una ratio,
+            videli<lb ed="#V" n="63" break="no"/>cet quod nec Spiritus sanctus, nec
+            <lb ed="#V" n="64"/>Verbum diceret necessario aliquem
+            <lb ed="#V" n="65"/>respectum ad creaturam; patet, quia
+            <lb ed="#V" n="66"/>si respectus aliquis necessario
+            ter<lb ed="#V" n="67" break="no"/>minatus ad creaturam (puta
+            respe<lb ed="#V" n="68" break="no"/>ctus intellectionis divinae terminatus
+            <lb ed="#V" n="69"/>ad creaturam in esse existentiae, vel
+            <lb ed="#V" n="70"/>respectus dilectionis divinae
+            termina<lb ed="#V" n="71" break="no"/>tus ad creaturam in esse existentiae)
+            <lb ed="#V" n="72"/>esset simpliciter necessarius, tunc
+            <lb ed="#V" n="73"/>creatura in esse existentiae esset
+            sim<lb ed="#V" n="74" break="no"/>pliciter necessaria; patet, quia
+            respe<lb ed="#V" n="75" break="no"/>ctus necessario praeexigit existentiam;
+            <lb ed="#V" n="76"/>modo si respectus est necessarius, et
+            <lb ed="#V" n="77"/>existentia erit necessaria.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>(g) De Verbo etiam arguitur aliter,
+            <lb ed="#V" n="79"/>etc. Vult dicere Doctor quod si esse
+            <lb ed="#V" n="80"/>declarativum creaturae esset
+            proprie<lb ed="#V" n="81" break="no"/>tas Verbi, puta quod talis declaratie
+            <lb ed="#V" n="82"/>esset tantum respectus notitiae ad
+            ob<lb ed="#V" n="83" break="no"/>jectum declaratum, sicut si ego
+            intel<lb ed="#V" n="84" break="no"/>ligo lapidem, intellectio lapidis est
+            de<lb ed="#V" n="85" break="no"/>clarativa, sive manifestativa ipsius
+            la<lb ed="#V" n="86" break="no"/>pidis, quia per talem intellectionem
+            <lb ed="#V" n="87"/>declaratur mihi, et manifestatur esse
+            <lb ed="#V" n="88"/>lapidis, et sic respectus notitiae
+            decla<pb ed="#V" n="431"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>rantis est tantum respectus rationis,
+            <lb ed="#V" n="2"/>ut patet a Doctore in t. dist. 27. quaest.
+            <lb ed="#V" n="3"/>ultima.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Dicit ergo, quod si talis respectus
+            <lb ed="#V" n="5"/>esset proprietas Verbi, aut talis
+            respe<lb ed="#V" n="6" break="no"/>ctus inesset sibi inquantum creatura
+            <lb ed="#V" n="7"/>habet esse in memoria paterna, id est,
+            <lb ed="#V" n="8"/>inquantum ipsa creatura pertinet ad
+            <lb ed="#V" n="9"/>memoriam Patris, sicut dicimus
+            res<lb ed="#V" n="10" break="no"/>pectus notitiae lapidis, quo lapis
+            de<lb ed="#V" n="11" break="no"/>claratur, est a lapide, ut habet esse
+            <lb ed="#V" n="12"/>in memoria; mea id est, ut lapis est
+            <lb ed="#V" n="13"/>pars memoriae, ita quod memoria
+            acci<lb ed="#V" n="14" break="no"/>pitur hic pro principio productivo
+            to<lb ed="#V" n="15" break="no"/>tali notitiae declarativae, et sic notitia
+            <lb ed="#V" n="16"/>declarativa lapidis est a lapide, ut
+            ha<lb ed="#V" n="17" break="no"/>bet esse in memoria, de qua memoria
+            <lb ed="#V" n="18"/>saepe dictum est in 1. dist. 2. parte 2.
+            <lb ed="#V" n="19"/>quaest. 3. et vide quae specialiter
+            ex<lb ed="#V" n="20" break="no"/>posui in 1. dist. 3. quaest. 7. in princ.
+            <lb ed="#V" n="21"/>quaest. Si ergo iste respectus, qui est
+            <lb ed="#V" n="22"/>notitiae declarativae, puta lapidis, sit
+            <lb ed="#V" n="23"/>proprietas ipsius Verbi, et sit a lapide,
+            <lb ed="#V" n="24"/>ut habet esse in memoria Patris, sive
+            <lb ed="#V" n="25"/>at est pars memoriae, sequitur quod
+            <lb ed="#V" n="26"/>ipsa notitia declarativa, quae est
+            pro<lb ed="#V" n="27" break="no"/>prietas Verbi erit expressa a lapide;
+            <lb ed="#V" n="28"/>patet, quia quidquid pertinet ad
+            me<lb ed="#V" n="29" break="no"/>moriam foecundam, est productivum
+            <lb ed="#V" n="30"/>notitiae declarativae sui. Modo notitia
+            <lb ed="#V" n="31"/>declarativa objecti dicitur verbum
+            ob<lb ed="#V" n="32" break="no"/>jecti, ut patet a Doctore in 1. dist. 27.
+            <lb ed="#V" n="33"/>et sic creatura, ut in memoria paterna,
+            <lb ed="#V" n="34"/>sive ut pars memoriae, exprimeret
+            <lb ed="#V" n="35"/>verbum sui, id est, quod saltem
+            par<lb ed="#V" n="36" break="no"/>tialiter produceret in intellectu divino
+            <lb ed="#V" n="37"/>notitiam sui declarativam; sed hoc
+            <lb ed="#V" n="38"/>est manifeste falsum; primo, quia
+            <lb ed="#V" n="39"/>nulla creatura habet esse proprie in
+            <lb ed="#V" n="40"/>memoria divin, ut memoria est, quia
+            <lb ed="#V" n="41"/>tunc esset vere productiva notitiae sui
+            <lb ed="#V" n="42"/>n intellectu divino, sicut patet de
+            <lb ed="#V" n="43"/>quocumque objecto pertinente ad
+            me<lb ed="#V" n="44" break="no"/>moriam, ut memoria est, imo nulla
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>creatura praecedit notitiam intellectus
+            <lb ed="#V" n="46"/>divini, imo fit actu intelligibilis per
+            <lb ed="#V" n="47"/>actum intellectus divini, ita quod
+            in<lb ed="#V" n="48" break="no"/>tellectus divinus primo producit
+            crea<lb ed="#V" n="49" break="no"/>turam tantum in esse intelligibili,
+            <lb ed="#V" n="50"/>quod est esse secundum quid, quod
+            <lb ed="#V" n="51"/>nullo modo pertinet ad memoriam
+            <lb ed="#V" n="52"/>productivam. Et de hoc vide quae ibi
+            <lb ed="#V" n="53"/>exposui super quaest. prima, dist. prima
+            <lb ed="#V" n="54"/>secundi.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>(h) Secundo, quia si creatura
+            habe<lb ed="#V" n="56" break="no"/>ret esse in memoria paterna, tunc esset
+            <lb ed="#V" n="57"/>ratio movendi intellectum infinitum ad
+            <lb ed="#V" n="58"/>Perbum exprimendum inquantum est
+            <lb ed="#V" n="59"/>ejus, id est, ad notitiam sui
+            declara<lb ed="#V" n="60" break="no"/>tivam, et ita finitum moveret
+            intelle<lb ed="#V" n="61" break="no"/>ctum infinitum, et sic vilesceret iste
+            <lb ed="#V" n="62"/>intellectus, quia reciperet talem
+            noti<lb ed="#V" n="63" break="no"/>tiam a creatura. Saltem si per
+            impos<lb ed="#V" n="64" break="no"/>sibile in memoria divina esset unus
+            <lb ed="#V" n="65"/>lapis, id est, quod esset praesens
+            intel<lb ed="#V" n="66" break="no"/>lectui divino in ratione objecti actu
+            <lb ed="#V" n="67"/>intelligibilis, tunc ille lapis cum
+            essen<lb ed="#V" n="68" break="no"/>tia in memoria esset ratio exprimendi,
+            <lb ed="#V" n="69"/>sive producendi Verbum divinum;
+            <lb ed="#V" n="70"/>patet, quia Verbum divinum producitur
+            <lb ed="#V" n="71"/>de his, quae sunt in memoria Patris, id
+            <lb ed="#V" n="72"/>est, quae pertinent ad memoriam, ut
+            <lb ed="#V" n="73"/>memoria est, et tunc sequeretur
+            pro<lb ed="#V" n="74" break="no"/>positum, quod ens finitum esset ratio
+            <lb ed="#V" n="75"/>intelligendi intellectui infinito, id est,
+            <lb ed="#V" n="76"/>esset ratio causandi notitiam sui in
+            <lb ed="#V" n="77"/>intellectu infinito, et non tantum hoc,
+            <lb ed="#V" n="78"/>sed etiam esset ratio producendi
+            no<lb ed="#V" n="79" break="no"/>titiam infinitam, quia verbum, quod
+            <lb ed="#V" n="80"/>est notitia infinita, producitur de
+            om<lb ed="#V" n="81" break="no"/>nibus objectis relucentibus in
+            memo<lb ed="#V" n="82" break="no"/>ria Patris, ut memoria est.
+          </p>
+          <p>
+            <lb ed="#V" n="83"/>(i) Illud etiam quod non est
+            formali<lb ed="#V" n="84" break="no"/>ter infinitum, etc. Si enim lapis non est
+            <lb ed="#V" n="85"/>formaliter infinitus, nec similiter
+            la<lb ed="#V" n="86" break="no"/>pis, ut est in memoria Patris dicitur
+            <lb ed="#V" n="87"/>formaliter infinitus, nec etiam ut in
+            <lb ed="#V" n="88"/>intelligentia Patris, id est, ut actu
+            in<pb ed="#V" n="432"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>telligitur ab intellectu Patris non est
+            <lb ed="#V" n="2"/>formaliter infinitus; non videtur
+            pro<lb ed="#V" n="3" break="no"/>babile quomodo fundaret relationes
+            <lb ed="#V" n="4"/>originis oppositas, nam essentia
+            di<lb ed="#V" n="5" break="no"/>vina, quae pertinet ad memoriam
+            <lb ed="#V" n="6"/>foecundam Patris, fundat relationes
+            <lb ed="#V" n="7"/>originis oppositas, puta
+            generatio<lb ed="#V" n="8" break="no"/>nem activam et passivam, sive
+            pater<lb ed="#V" n="9" break="no"/>nitatem et filiationem, ex hoc quod
+            <lb ed="#V" n="10"/>est formaliter infinita, ut probat
+            Doc<lb ed="#V" n="11" break="no"/>tor in 1. dist. 28. sed si lapis
+            pertine<lb ed="#V" n="12" break="no"/>ret ad memoriam Patris, necessario
+            <lb ed="#V" n="13"/>fundaret hujusmodi relationes, quod
+            <lb ed="#V" n="14"/>videtur impossibile cum tantum sit
+            <lb ed="#V" n="15"/>ens limitatum, sive in se, sive in
+            me<lb ed="#V" n="16" break="no"/>moria Patris, sive in intelligentia.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>(k) Videretur etiam sequi, quod essent
+            <lb ed="#V" n="18"/>tot verba, id est, tot notitiae
+            declara<lb ed="#V" n="19" break="no"/>tivae, quot essent intelligibilia in
+            me<lb ed="#V" n="20" break="no"/>moria paterna, et similiter essent
+            dis<lb ed="#V" n="21" break="no"/>tincta illa verba; patet, quia si ipsa
+            <lb ed="#V" n="22"/>intelligibilia essent in memoria,
+            <lb ed="#V" n="23"/>quodlibet natum esset exprimere
+            ver<lb ed="#V" n="24" break="no"/>bum sui, sive notitiam sui, quod est
+            <lb ed="#V" n="25"/>inconveniens, quia in Deo est tantum
+            <lb ed="#V" n="26"/>unus actus intelligendi respectu
+            <lb ed="#V" n="27"/>uniuscumque objectii, ut patet in 1.
+            <lb ed="#V" n="28"/>dist. 2. quaest. 1.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>(1) Quod si detur alius intellectus
+            <lb ed="#V" n="30"/>prius dicti, scilicet quod respectu
+            no<lb ed="#V" n="31" break="no"/>titiae declarativae est proprietas
+            Ver<lb ed="#V" n="32" break="no"/>bi, inquantum Verbum declarat alia
+            <lb ed="#V" n="33"/>a se, non ut habent esse in memoria
+            <lb ed="#V" n="34"/>Patris, sed ut habent rationem termini,
+            <lb ed="#V" n="35"/>id est, ut sunt termini producti in esse
+            <lb ed="#V" n="36"/>intelligibili, ita quod omnis creatura
+            <lb ed="#V" n="37"/>actu intellectus divini sit producta in
+            <lb ed="#V" n="38"/>esse intelligibili; et hoc modo non est
+            <lb ed="#V" n="39"/>proprietas Verbi, quia in tali esse
+            <lb ed="#V" n="40"/>producuntur a tota Trinitate, ut
+            <lb ed="#V" n="41"/>subtiliter probat Doctor in 2. dist. 1.
+            <lb ed="#V" n="42"/>quaest. 1.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>(m) Qualiter autem concedatur Pater
+            <lb ed="#V" n="44"/>dicere Verbo proprio, de hoc vide
+            lit<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>teram praesentem, et quae notat
+            Doc<lb ed="#V" n="46" break="no"/>tor in 1. dist. 27. quaest. ultim. et dist
+            <lb ed="#V" n="47"/>3. q. 2. et similiter in 2. d. 1. quaest.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>1. et singularem quaestionem in
+            <lb ed="#V" n="49"/>quodlibeto, quae est octava in or.
+            <lb ed="#V" n="50"/>dine.
+          </p>
+        <!-- </div>
+    <div alias="lycht-d32q1-p3"> -->
+          <p>
+            <lb ed="#V" n="22" type="fixed=434"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>(n) Tertium patet. Hic Doctor
+            osten<lb ed="#V" n="24" break="no"/>dit quomodo dilectio Dei est aequalis,
+            <lb ed="#V" n="25"/>et quomodo non aequalis; nam
+            dilec<lb ed="#V" n="26" break="no"/>tio Dei in se considerata est tantum
+            <lb ed="#V" n="27"/>una, et formaliter infinita, ut patet
+            <lb ed="#V" n="28"/>a Doctore in 1. dist. 2. quaest. 1. Talis
+            <lb ed="#V" n="29"/>enim dilectio perfectissime
+            adaequa<lb ed="#V" n="30" break="no"/>tur objecto primo, scilicet Deitati et
+            <lb ed="#V" n="31"/>potentiae volitivae simpliciter primae,
+            <lb ed="#V" n="32"/>quae est voluntas divina, et per
+            con<lb ed="#V" n="33" break="no"/>sequens sicut objectum primum est
+            <lb ed="#V" n="34"/>diligibile amore infinito, ita voluntas
+            <lb ed="#V" n="35"/>prima est nata ipsum diligere amore
+            <lb ed="#V" n="36"/>infinito, et sic talis amor in se
+            con<lb ed="#V" n="37" break="no"/>sideratus, sive ut comparatus
+            volun<lb ed="#V" n="38" break="no"/>tati divinae, sive objecto primo, est
+            <lb ed="#V" n="39"/>formaliter infinitus. Et quod talis
+            <lb ed="#V" n="40"/>amor terminetur etiam ad omnia alia
+            <lb ed="#V" n="41"/>objecta diligibilia, hoc non requiritur
+            <lb ed="#V" n="42"/>quasi ad perfectionem sibi addendam,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>imo quia est formaliter infinitus, ideo
+            <lb ed="#V" n="44"/>concomitanter est omnium
+            diligibi<lb ed="#V" n="45" break="no"/>lium, sicut supra dixi de intellectione
+            <lb ed="#V" n="46"/>divina; quia ergo talis amor perfecte
+            <lb ed="#V" n="47"/>tendit in primum terminum, scilicet
+            <lb ed="#V" n="48"/>in primum objectum, sequitur quod
+            <lb ed="#V" n="49"/>etiam perfecte tendat in omnia, circa
+            <lb ed="#V" n="50"/>quae primum objectum est totalis ratio
+            <lb ed="#V" n="51"/>agendi, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Adverte tamen, quod ubi dicit, quod
+            <lb ed="#V" n="53"/>objectum primum est totalis ratio, debet
+            <lb ed="#V" n="54"/>sic intelligi, quod est totalis ratio in
+            <lb ed="#V" n="55"/>ratione objecti intelligibilis et
+            volibi<lb ed="#V" n="56" break="no"/>lis, ita quod nihil aliud ab essentia
+            <lb ed="#V" n="57"/>divina potest esse ratio movendi
+            in<lb ed="#V" n="58" break="no"/>tellectum vel voluntatem divinam in
+            <lb ed="#V" n="59"/>ratione ohjecti diligibilis, sed praecise
+            <lb ed="#V" n="60"/>sola essentia divina in ratione objecti
+            <lb ed="#V" n="61"/>diligibilis est totalis ratio movendi
+            vo<lb ed="#V" n="62" break="no"/>luntatem divinam ad sui et omnium
+            <lb ed="#V" n="63"/>aliorum dilectionem, ad talem tamen
+            <lb ed="#V" n="64"/>dilectionem etiam voluntas divina
+            <lb ed="#V" n="65"/>concurrit, ut quasi causa
+            partia<lb ed="#V" n="66" break="no"/>lis, ut patet a Doctore in 1. dist. 2.
+            <lb ed="#V" n="67"/>part. 2. licet sola essentia divina in
+            <lb ed="#V" n="68"/>ratione objecti diligibilis sit totalis
+            <lb ed="#V" n="69"/>ratio, sicut etiam eadem essentia in
+            <lb ed="#V" n="70"/>ratione objecti actu intelligibilis est
+            <lb ed="#V" n="71"/>totalis ratio movendi intellectum
+            di<lb ed="#V" n="72" break="no"/>vinum ad sui et omnium aliorum
+            co<lb ed="#V" n="73" break="no"/>gnitionem, et intellectus divinus
+            di<lb ed="#V" n="74" break="no"/>citur etiam totalis ratio quasi causandi
+            <lb ed="#V" n="75"/>notitiam essentiae et omnium aliorum
+            <lb ed="#V" n="76"/>totalis, dico in ratione potentiae
+            in<lb ed="#V" n="77" break="no"/>tellectivae.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>(o) Ex hoc patet quomodo est aequalitas
+            <lb ed="#V" n="79"/>in Deo in diligendo omnia, comparando
+            <lb ed="#V" n="80"/>actum diligendi ad agens, sive
+            acci<lb ed="#V" n="81" break="no"/>piendo dilectionem Dei in se, quia illa
+            <lb ed="#V" n="82"/>non potest intendi, nec remitti, cum
+            <lb ed="#V" n="83"/>sit formaliter infinita, et per
+            conse<lb ed="#V" n="84" break="no"/>quens cuicumque comparetur,
+            sem<lb ed="#V" n="85" break="no"/>per erit eadem et aequalis. Sed
+            com<lb ed="#V" n="86" break="no"/>parando dilectionem Dei ad connotata,
+            <pb ed="#V" n="435"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sive ad objecta secundaria diligibilia,
+            <lb ed="#V" n="2"/>tunc potest esse duobus modis
+            inae<lb ed="#V" n="3" break="no"/>qualitas. Primo, quia talia objecta
+            <lb ed="#V" n="4"/>volita sunt inaequalia, sive inaequalia
+            <lb ed="#V" n="5"/>bona sunt eis volita, nam ideo bona,
+            <lb ed="#V" n="6"/>quia volita; quia ergo talia bona sunt
+            <lb ed="#V" n="7"/>effectus divinae dilectionis, et ad
+            invi<lb ed="#V" n="8" break="no"/>cem inaequalia, tunc dilectio Dei
+            di<lb ed="#V" n="9" break="no"/>citur inaequaliter transire super alium
+            <lb ed="#V" n="10"/>et alium effectum. Secundo, est
+            inae<lb ed="#V" n="11" break="no"/>qualitas quantum ad ordinem
+            tran<lb ed="#V" n="12" break="no"/>seundi super talia objecta, quia divina
+            <lb ed="#V" n="13"/>dilectio primo transit super primum
+            <lb ed="#V" n="14"/>diligibile, quod est essentia divina.
+            <lb ed="#V" n="15"/>Secundo super diligibilia
+            immediatio<lb ed="#V" n="16" break="no"/>ra illi, non quantum ad esse naturae,
+            <lb ed="#V" n="17"/>sed quantum ad esse gratuitum, quia
+            <lb ed="#V" n="18"/>ordinate volens prius vult finem in se,
+            <lb ed="#V" n="19"/>et secundo immediatiora fini attingibili
+            <lb ed="#V" n="20"/>per illa. Cum ergo voluntas divina sit
+            <lb ed="#V" n="21"/>ordinatissime volens, sequitur quod
+            <lb ed="#V" n="22"/>dilectio sive volitio ipsius primo
+            de<lb ed="#V" n="23" break="no"/>terminatur ad finem ultimum in se;
+            <lb ed="#V" n="24"/>et secundo ad immediatiora fini
+            prae<lb ed="#V" n="25" break="no"/>destinando illa ad finem ultimum;
+            <lb ed="#V" n="26"/>et tertio vult illa quae sunt necessaria
+            <lb ed="#V" n="27"/>ad attingendum illum finem, scilicet
+            <lb ed="#V" n="28"/>bona gratiae; et quarto vult propter
+            <lb ed="#V" n="29"/>illos praedestinatos alia remotiora,
+            pu<lb ed="#V" n="30" break="no"/>ta hunc mundum sensibilem, ut
+            ser<lb ed="#V" n="31" break="no"/>viat eis.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Et dicit Doctor quod vult
+            praedesti<lb ed="#V" n="33" break="no"/>natos, quasi reflectendo, volendo illos
+            <lb ed="#V" n="34"/>diligere idem objectum suum, sicut
+            <lb ed="#V" n="35"/>dictum est supra, dist. 28. et 29. hujus.
+            <lb ed="#V" n="36"/>Voluntas enim divina actu recto
+            di<lb ed="#V" n="37" break="no"/>ligit essentiam divinam in se et
+            prop<lb ed="#V" n="38" break="no"/>ter se, et actu quasi reflexo vult non
+            <lb ed="#V" n="39"/>tantum se diligere essentiam, sed
+            <lb ed="#V" n="40"/>etiam vult alios diligere essentiam
+            <lb ed="#V" n="41"/>suam in se et propter se; et si vult illos
+            <lb ed="#V" n="42"/>finaliter diligere essentiam suam in
+            <lb ed="#V" n="43"/>se et propter se, tunc nihil aliud est
+            <lb ed="#V" n="44"/>nisi illos praedestinare ad fruitionem
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Deitatis, quae est dilectio Dei in se et
+            <lb ed="#V" n="46"/>propter se clare visi; patet igitur
+            inae<lb ed="#V" n="47" break="no"/>qualitas volibilium quantum ad ipsa
+            <lb ed="#V" n="48"/>volita, non ut volitio est ipsius
+            vo<lb ed="#V" n="49" break="no"/>luntatis, quia ut sic, est omnino
+            aequa<lb ed="#V" n="50" break="no"/>litas, sed ut volitio transit super
+            ob<lb ed="#V" n="51" break="no"/>jecta modo praedicto, nec tamen illa
+            <lb ed="#V" n="52"/>inaequalitas dilectionis est propter
+            bo<lb ed="#V" n="53" break="no"/>nitatem praesuppositam in objectis
+            <lb ed="#V" n="54"/>volitis aliis a Deo, quae bonitas in illis
+            <lb ed="#V" n="55"/>objectis sit quasi ratio sic vel sic
+            vo<lb ed="#V" n="56" break="no"/>lendi, quia ideo sunt bona, quia
+            vo<lb ed="#V" n="57" break="no"/>lita vel accepta, et non e contra, ut
+            <lb ed="#V" n="58"/>satis patet a Doctore in 2. dist. 37.
+            <lb ed="#V" n="59"/>et in 3. dist. 19. et in 1. dist. 41. et in
+            <lb ed="#V" n="60"/>Quodlib. quaest. 17. Sicut ergo
+            volun<lb ed="#V" n="61" break="no"/>tas divina acceptat alia objecta in
+            <lb ed="#V" n="62"/>tali et tali gradu, ita sunt praecise bona
+            <lb ed="#V" n="63"/>in tali gradu, et non e contra. Vel si
+            <lb ed="#V" n="64"/>detur quod in eis, scilicet objectis
+            se<lb ed="#V" n="65" break="no"/>cundariis, ut ostensa sunt ab intellectu
+            <lb ed="#V" n="66"/>divino ostenditur aliquis gradus
+            bo<lb ed="#V" n="67" break="no"/>nitatis essentialis, secundum quam
+            <lb ed="#V" n="68"/>bonitatem rationabiliter debet
+            compla<lb ed="#V" n="69" break="no"/>cere voluntati; et hoc est, quod alias
+            <lb ed="#V" n="70"/>dictum est, quod voluntas divina
+            ne<lb ed="#V" n="71" break="no"/>cessario complacet quidditatibus
+            os<lb ed="#V" n="72" break="no"/>tensis ab intellectu divino prioribus
+            <lb ed="#V" n="73"/>omni existentia reali; sed
+            complacen<lb ed="#V" n="74" break="no"/>tia illorum objectorum, quantum ad
+            <lb ed="#V" n="75"/>actualem existentiam est mere ex
+            vo<lb ed="#V" n="76" break="no"/>luntate divina absque alia ratione
+            de<lb ed="#V" n="77" break="no"/>terminante ex parte eorum; hoc
+            sub<lb ed="#V" n="78" break="no"/>tiliter patet a Doctore in 1. dist. 39. et
+            <lb ed="#V" n="79"/>41.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Si dicatur, quod haec videtur
+            con<lb ed="#V" n="81" break="no"/>tradictio, quia supra dixit, quod sola
+            <lb ed="#V" n="82"/>essentia divina potest esse prima
+            ra<lb ed="#V" n="83" break="no"/>tio agendi tam intellectui divino
+            <lb ed="#V" n="84"/>quam voluntati, et hoc dicit quod
+            <lb ed="#V" n="85"/>prima ratio volendi est a voluntate
+            <lb ed="#V" n="86"/>divina.
+          </p>
+          <p>
+            <lb ed="#V" n="87"/>Dico breviter, quod prima ratio
+            <lb ed="#V" n="88"/>quasi causandi dilectionem Dei in
+            ra<pb ed="#V" n="436"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tione objecti volibilis est sola essentia
+            <lb ed="#V" n="2"/>divina, sed habita tali volitione
+            essen<lb ed="#V" n="3" break="no"/>tiali, tunc voluntas divina actu suo
+            <lb ed="#V" n="4"/>vult alia a se; quantum ergo ad
+            vo<lb ed="#V" n="5" break="no"/>luntatem absolutam, prima ratio est
+            <lb ed="#V" n="6"/>essentia divina, quantum vero ad
+            tran<lb ed="#V" n="7" break="no"/>sitionem volitionis super actualem
+            <lb ed="#V" n="8"/>existentiam aliorum, est a sola
+            volun<lb ed="#V" n="9" break="no"/>tate divina.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Si etiam dicatur, quod essentia
+            di<lb ed="#V" n="11" break="no"/>vina est ratio movendi voluntatem
+            di<lb ed="#V" n="12" break="no"/>vinam ad volitionem sui et aliorum,
+            <lb ed="#V" n="13"/>tunc dico quod talis transitus
+            volitio<lb ed="#V" n="14" break="no"/>nis super alia objecta, quoad
+            existen<lb ed="#V" n="15" break="no"/>tiam eorum, est ab essentia et
+            volun<lb ed="#V" n="16" break="no"/>tate, et hoc a voluntate contingenter,
+            <lb ed="#V" n="17"/>quia quando duae causae partiales
+            con<lb ed="#V" n="18" break="no"/>currunt ad aliquem effectum, quarum
+            <lb ed="#V" n="19"/>una agit per modum naturae, et alia
+            <lb ed="#V" n="20"/>contingenter, effectus dicitur
+            contin<lb ed="#V" n="21" break="no"/>gens. Sed prima responsio videtur
+            me<lb ed="#V" n="22" break="no"/>lior propter multas difficultates, quae
+            <lb ed="#V" n="23"/>possent oriri ex secunda responsione.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>(p) Ad primum dico. Arguit primo
+            <lb ed="#V" n="25"/>Doctor probando quod Deus non
+            dili<lb ed="#V" n="26" break="no"/>gat ex charitate, quia tunc habitus
+            <lb ed="#V" n="27"/>charitatis esset in Deo, et per
+            conse<lb ed="#V" n="28" break="no"/>quens perficeret voluntatem, et sic
+            vo<lb ed="#V" n="29" break="no"/>luntas divina si esset perfectibilis,
+            es<lb ed="#V" n="30" break="no"/>set imperfecta.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Respondet quod habitus ponitur in
+            <lb ed="#V" n="32"/>Deo quantum ad illud quod est
+            per<lb ed="#V" n="33" break="no"/>fectionis, quia charitas in Deo est
+            per<lb ed="#V" n="34" break="no"/>fectio simpliciter, sicut et alia
+            attri<lb ed="#V" n="35" break="no"/>buta, sed non ponitur quantum ad
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="36"/>illud quod est imperfectionis, quod
+            <lb ed="#V" n="37"/>est esse perfectibile, quia talis habitus
+            <lb ed="#V" n="38"/>est perfecte idem voluntati divinae;
+            <lb ed="#V" n="39"/>modo inter perficiens et perfectibile
+            <lb ed="#V" n="40"/>est distinctio realis. Sed quomodo cha.
+            <lb ed="#V" n="41"/>ritas denominat voluntatem divinam
+            <lb ed="#V" n="42"/>absque hoc, quod non perficiat ipsam,
+            <lb ed="#V" n="43"/>de hoc vide quae prolixe notat Doctor
+            <lb ed="#V" n="44"/>in 1. dist. 5. quaest. 2.
+          </p>
+          <p>
+            <lb ed="#V" n="45"/>Secundo arguit, probando quod non
+            <lb ed="#V" n="46"/>omnia sint diligibilia ex charitate,
+            <lb ed="#V" n="47"/>quia non inanimata. Dicit Doctor,
+            <lb ed="#V" n="48"/>quod licet inanimata non sint proprie
+            <lb ed="#V" n="49"/>diligibilia ex charitate, quae est
+            ami<lb ed="#V" n="50" break="no"/>citia, quia Deus non diligit lapidem
+            <lb ed="#V" n="51"/>diligere Deum in se, sive non vult
+            la<lb ed="#V" n="52" break="no"/>pidem diligere Deum in se et propter
+            <lb ed="#V" n="53"/>se, quae dilectio dicitur amicitia, cum
+            <lb ed="#V" n="54"/>lapis non sit capax hujus dilectionis,
+            <lb ed="#V" n="55"/>potest tamen haberi ad ipsa aliquod
+            <lb ed="#V" n="56"/>velle ex charitate, quale scilicet
+            ha<lb ed="#V" n="57" break="no"/>bendum est ad ea; possum etiam ex
+            <lb ed="#V" n="58"/>charitate velle arborem esse et velle
+            <lb ed="#V" n="59"/>arborem mihi servire ad talem actum,
+            <lb ed="#V" n="60"/>pro quanto talis actus juvat me
+            ulte<lb ed="#V" n="61" break="no"/>rius ad diligendum Deum in se; et hoc
+            <lb ed="#V" n="62"/>modo potest concedi quod Deus ex
+            <lb ed="#V" n="63"/>charitate diligit omnia non volitione
+            <lb ed="#V" n="64"/>amicitiae, ut supra dixi, sed tali,
+            qua<lb ed="#V" n="65" break="no"/>lis est habenda respectu eorum, puta
+            <lb ed="#V" n="66"/>quia vult cibum esse, et-vult ipsum
+            <lb ed="#V" n="67"/>esse in servitium in esse, pro quanto
+            <lb ed="#V" n="68"/>juvar me ad dilectionem Dei in se.
+            <lb ed="#V" n="69"/>Aliae duae rationes cum suis
+            responsio<lb ed="#V" n="70" break="no"/>nibus sunt clarae in littera.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

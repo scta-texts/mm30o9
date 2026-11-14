@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 3, Distinctio 24, Quaestio 1</title>
+        <author ref="#per-FLBca3">Franciscus Lychetus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 3, Distinctio 24, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x15">Vives, Paris, 1894, volume 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="37"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="mm30o9-d1e5173"><!-- mm30o9-b3d24q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum de credibilibus revelatis possit aliquis habere simul scientiam et fidem</head>
+        <!-- <div alias="lycht-d24q1-p1"> -->
+          <p>
+            <lb ed="#V" n="49" type="fixed=37"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>(a) Quaestio ista. Doctor praemittit
+            <lb ed="#V" n="51"/>unum, scilicet quod in hac quaestione
+            <lb ed="#V" n="52"/>possunt esse duo articuli. Primus, an
+            <lb ed="#V" n="53"/>de articulis revelatis possit esse
+            scien<lb ed="#V" n="54" break="no"/>tia absolute? et hic articulus hic non
+            <lb ed="#V" n="55"/>pertractatur. Secundus, an de
+            credibi<lb ed="#V" n="56" break="no"/>libus revelatis possit simul esse
+            scien<lb ed="#V" n="57" break="no"/>tia et fides? et hic articulus specialiter
+            <lb ed="#V" n="58"/>in hac quaestione pertractatur.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>Et quantum ad hunc secundum
+            ar<lb ed="#V" n="60" break="no"/>ticulum: Primo recitat duas opiniones,
+            <lb ed="#V" n="61"/>quas improbat. Secundo respondet ad
+            <lb ed="#V" n="62"/>quaestionem.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>Quantum ad primum recitat primo o
+            <lb ed="#V" n="64"/>opinionem Thomae, in 1. part. sum.
+            <lb ed="#V" n="65"/>quaest. 1. art. 2. quaest. dicit sic, quod
+            <lb ed="#V" n="66"/>scientia subalternata potest simul esse
+            <lb ed="#V" n="67"/>cum fide de credibilibus revelatis, non
+            <lb ed="#V" n="68"/>tamen scientia subalternans Et
+            prae<lb ed="#V" n="69" break="no"/>mittit unum, scilicet quod scientia
+            su<lb ed="#V" n="70" break="no"/>balternans habet principia
+            immedia<lb ed="#V" n="71" break="no"/>ta et prima, quae non habent resolvi,
+            <lb ed="#V" n="72"/>nisi in terminos simplices notos ex
+            <lb ed="#V" n="73"/>evidentia rei in se, et ideo talia
+            prin<lb ed="#V" n="74" break="no"/>cipia sunt nota propter quid ex
+            termi<lb ed="#V" n="75" break="no"/>nis per se notis ex evidentia rei; sed
+            <lb ed="#V" n="76"/>scientia subalternata non habet talia
+            <lb ed="#V" n="77"/>principia, sed accipit ea a scientia
+            <lb ed="#V" n="78"/>subalternante, et non habet ea, ut per
+            <lb ed="#V" n="79"/>se nota, sed supponit ea esse vera.
+            <lb ed="#V" n="80"/>Scientia primo modo, scilicet
+            subal<lb ed="#V" n="81" break="no"/>ternans non stat cum fide, qualem
+            <lb ed="#V" n="82"/>habent Beati de credibilibus, quae
+            <lb ed="#V" n="83"/>nos credimus, et ideo non habent
+            <lb ed="#V" n="84"/>fidem, sed visionem, et cognoscunt
+            <lb ed="#V" n="85"/>propter quid; sed scientia
+            subalter<lb ed="#V" n="86" break="no"/>nata scientiae Beatorum bene potest
+            <pb ed="#V" n="38"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>esse cum fide, qualis est Theologia
+            <lb ed="#V" n="2"/>nostra, quae subalternatur Theologiae
+            <lb ed="#V" n="3"/>Beatorum.
+          </p>
+        <!-- </div>
+    <div alias="lycht-d24q1-p2"> -->
+          <p>
+            <lb ed="#V" n="57" type="fixed=49"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>(b) Ad primum. Doctor respondet ad
+            <lb ed="#V" n="59"/>rationes Thomae, quibus probat quod
+            <lb ed="#V" n="60"/>vera scientia potest stare cum fide. Et
+            <lb ed="#V" n="61"/>primo dicit quod bene scientia
+            subal<lb ed="#V" n="62" break="no"/>ternata, ut subalternata, est vere
+            <lb ed="#V" n="63"/>scientia in se, quia quantum est in se,
+            <lb ed="#V" n="64"/>potest esse evidens ex natura rei, sic
+            <lb ed="#V" n="65"/>quod conclusio scientiae subalternatae
+            <lb ed="#V" n="66"/>est resolubilis ultimate in principia
+            <lb ed="#V" n="67"/>per se nota in scientia subalternante.
+            <lb ed="#V" n="68"/>Secundo dicit quod scientia
+            subalter<lb ed="#V" n="69" break="no"/>nata non est cuicumque vera scientia,
+            <lb ed="#V" n="70"/>sed est tantum scientia illi, qui ex
+            <lb ed="#V" n="71"/>natura rei potest resolvere
+            conclusio<lb ed="#V" n="72" break="no"/>nem demonstratam in scientia
+            subal<lb ed="#V" n="73" break="no"/>ternata in principia per se nota ex
+            na<lb ed="#V" n="74" break="no"/>tura rei; sed talis non potest
+            resol<lb ed="#V" n="75" break="no"/>vere, nisi habeat scientiam
+            subalter<lb ed="#V" n="76" break="no"/>nantem, quia principia scientiae
+            su<lb ed="#V" n="77" break="no"/>balternatae sunt tantum nota ex
+            evi<lb ed="#V" n="78" break="no"/>dentia rei in scientia subalternante,
+            <lb ed="#V" n="79"/>et tantum supposita in scientia
+            subal<lb ed="#V" n="80" break="no"/>ternata. Cum ergo dicit Thomas quod
+            <lb ed="#V" n="81"/>scientia subalternata, inquantum
+            hu<lb ed="#V" n="82" break="no"/>jusmodi est vera scientia, conceditur
+            <lb ed="#V" n="83"/>quod in se est vera scientia, ut supra
+            <lb ed="#V" n="84"/>exposui, sed non est vera scientia, nisi
+            <lb ed="#V" n="85"/>habenti subalternantem, quia
+            prin<lb ed="#V" n="86" break="no"/>cipia in subalternata sunt
+            conclusio<pb ed="#V" n="50"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>nes demonstratae in scientia
+            subalter<lb ed="#V" n="2" break="no"/>nante, et ideo est impossibile quod quis
+            <lb ed="#V" n="3"/>vere sciat Perspectivam, sive
+            conclu<lb ed="#V" n="4" break="no"/>sionem aliquam in Perspectiva, nisi
+            <lb ed="#V" n="5"/>simul habeat Geometriam; potest
+            ta<lb ed="#V" n="6" break="no"/>men habere opinionem de conclusione
+            <lb ed="#V" n="7"/>in Perspectiva sine Geometria.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>(c) Ad secundum concedit Doctor,
+            <lb ed="#V" n="9"/>quod Perspectiva, ut hujusmodi, est
+            <lb ed="#V" n="10"/>scientia, et Perspectivus, ut
+            hujus<lb ed="#V" n="11" break="no"/>modi, est sciens, sed postea negat
+            <lb ed="#V" n="12"/>quod aliquis sit vere Perspectivus, et
+            <lb ed="#V" n="13"/>non sit Geometer; et cum probatur
+            <lb ed="#V" n="14"/>quod Perspectiva et Geometria sunt
+            <lb ed="#V" n="15"/>habitus distincti, verum est, quia
+            Geo<lb ed="#V" n="16" break="no"/>metria est subalternans, et Perspectiva
+            <lb ed="#V" n="17"/>subalternata, et per consequens potest
+            <lb ed="#V" n="18"/>esse Perspectivus et non Geometer.
+            <lb ed="#V" n="19"/>Dicit Doctor quod quamvis sint
+            habi<lb ed="#V" n="20" break="no"/>tus distincti, tamen non potest haberi
+            <lb ed="#V" n="21"/>Perspectiva ab aliquo sine Geometria,
+            <lb ed="#V" n="22"/>quia principia demonstrationis in
+            <lb ed="#V" n="23"/>Perspectiva sunt tantum credita et
+            <lb ed="#V" n="24"/>supposita, et in Geometria
+            demons<lb ed="#V" n="25" break="no"/>trata ex natura rei, et per consequens
+            <lb ed="#V" n="26"/>non potest esse Perspectiva sine
+            Geo<lb ed="#V" n="27" break="no"/>metria, licet sint habitus distincti,
+            <lb ed="#V" n="28"/>nec similiter potest esse vere
+            Perspec<lb ed="#V" n="29" break="no"/>tivus et non Geometer.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Ad Philosophum dico breviter, quod
+            <lb ed="#V" n="31"/>loquitur ibi tantum de scientia per
+            <lb ed="#V" n="32"/>accidens, et non de vera scientia;
+            <lb ed="#V" n="33"/>unde sic dicit in fine illius litterae;
+            <lb ed="#V" n="34"/>Cum enim fidem quodammodo adhibet
+            <lb ed="#V" n="35"/>quis, et principia sibi nota sunt,
+            scili<lb ed="#V" n="36" break="no"/>cet, nam si non magis discursu
+            conclu<lb ed="#V" n="37" break="no"/>sionis per accidens habebit scientiam.
+            <lb ed="#V" n="38"/>Unde Commentator ibi: Quande
+            (in<lb ed="#V" n="39" break="no"/>quit) contingit alicui credulitas rei
+            ali<lb ed="#V" n="40" break="no"/>cujus, et fuerint principia prima illius
+            <lb ed="#V" n="41"/>rei nota apud ipsum, tunc jam
+            contin<lb ed="#V" n="42" break="no"/>git eis scientia illius rei; si vero non
+            <lb ed="#V" n="43"/>fuerint nota apud ipsum, et scientia ejus
+            <lb ed="#V" n="44"/>apud ipsum per modum accidentis. Haec
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>ille; et sic patet quod auctoritas
+            <lb ed="#V" n="46"/>est magis ad oppositum quam
+            pro<lb ed="#V" n="47" break="no"/>positum.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Ad Commentatorem dicit Doctor,
+            <lb ed="#V" n="49"/>quod inductio potest accipi dupliciter.
+            <lb ed="#V" n="50"/>Uno modo ut est una species
+            argu<lb ed="#V" n="51" break="no"/>mentationis, et si loquitur
+            Commen<lb ed="#V" n="52" break="no"/>tator sic; dicit quod inductio non
+            suf<lb ed="#V" n="53" break="no"/>ficit ad scientiam, nec ideo scitur
+            <lb ed="#V" n="54"/>universale, quia ex particularibus
+            <lb ed="#V" n="55"/>deducitur; unde magis sequitur
+            scien<lb ed="#V" n="56" break="no"/>tifice: omne totum est majus sua parte;
+            <lb ed="#V" n="57"/>igitur hoc totum, quam e converso,
+            <lb ed="#V" n="58"/>scilicet hoc et illud totum est majus sua
+            <lb ed="#V" n="59"/>parte; igitur omne. Unde evidentia
+            <lb ed="#V" n="60"/>principiorum in scientia non
+            depen<lb ed="#V" n="61" break="no"/>det ex singularibus, quia si nullum
+            <lb ed="#V" n="62"/>singulare esset, cum scientia sit
+            ne<lb ed="#V" n="63" break="no"/>cessariorum, adhuc staret vera
+            scien<lb ed="#V" n="64" break="no"/>tia, nam principia sunt nota terminis
+            <lb ed="#V" n="65"/>apprehensis, secundum quod termini
+            <lb ed="#V" n="66"/>ultro se offerunt intellectui, et
+            resolu<lb ed="#V" n="67" break="no"/>tio certitudinis stat in hoc, quod ille
+            <lb ed="#V" n="68"/>est talis intellectus, et hi tales
+            ter<lb ed="#V" n="69" break="no"/>mini; nam ostensis intellectui istis
+            <lb ed="#V" n="70"/>terminis, scilicet totum et pars, et
+            <lb ed="#V" n="71"/>facta complexione terminorum,
+            sta<lb ed="#V" n="72" break="no"/>tim intellectus evidenter assentiret
+            <lb ed="#V" n="73"/>huic: Omne totum est majus sua
+            par<lb ed="#V" n="74" break="no"/>te, ex sola apprehensione terminorum
+            <lb ed="#V" n="75"/>in complexione eorum; et quare ex
+            <lb ed="#V" n="76"/>aliquibus terminis sit propositio per
+            <lb ed="#V" n="77"/>se nota, et ex aliquibus non, non
+            vi<lb ed="#V" n="78" break="no"/>detur assignanda alia ratio, nisi quia
+            <lb ed="#V" n="79"/>sunt tales termini; et similiter quare
+            <lb ed="#V" n="80"/>intellectus evidenter assentit
+            comple<lb ed="#V" n="81" break="no"/>xioni talium terminorum, non est
+            <lb ed="#V" n="82"/>assignanda alia ratio, nisi quia talis
+            <lb ed="#V" n="83"/>intellectus, et ideo notitia evidens
+            <lb ed="#V" n="84"/>principiorum non dependet ex
+            sin<lb ed="#V" n="85" break="no"/>gularibus, neque ex inductione
+            syllo<lb ed="#V" n="86" break="no"/>gistica.
+          </p>
+          <p>
+            <lb ed="#V" n="87"/>Alio modo potest accipi inductio,
+            <lb ed="#V" n="88"/>prout inductio dicitur omnis
+            cogni<pb ed="#V" n="51"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tio, quae oritur ex sensu, sicut
+            prin<lb ed="#V" n="2" break="no"/>cipia cognoscimus, quia terminos
+            ap<lb ed="#V" n="3" break="no"/>prehendimus per sensum. Tunc si
+            <lb ed="#V" n="4"/>Commentator sic loquitur, verum est
+            <lb ed="#V" n="5"/>quod notitia principiorum dependet a
+            <lb ed="#V" n="6"/>sensu, et quomodo hoc, vide Doctorem
+            <lb ed="#V" n="7"/>in primo Metaph. quaest. 4. et ea quae
+            <lb ed="#V" n="8"/>ibi prolixe exposui. Et addit hoc,
+            <lb ed="#V" n="9"/>quod non sufficit quaecumque notitia
+            <lb ed="#V" n="10"/>terminorum ad hoc quod
+            cognoscan<lb ed="#V" n="11" break="no"/>tur principia esse prima seu talia, ex
+            <lb ed="#V" n="12"/>quibus possit conclusio necessaria
+            <lb ed="#V" n="13"/>concludi, quae habet generare
+            scien<lb ed="#V" n="14" break="no"/>tiam; sed requiritur cognitio
+            termino<lb ed="#V" n="15" break="no"/>rum sub propriis rationibus ex
+            evi<lb ed="#V" n="16" break="no"/>dentia illorum, sed non semper
+            imme<lb ed="#V" n="17" break="no"/>diate et distincte; sed in aliquibus
+            <lb ed="#V" n="18"/>scientiis sufficit notitia terminorum
+            <lb ed="#V" n="19"/>confusa, sicut in subalternatis; sed
+            re<lb ed="#V" n="20" break="no"/>quiritur quod corum cognitio confusa
+            <lb ed="#V" n="21"/>possit reduci in distinctam; nam
+            om<lb ed="#V" n="22" break="no"/>nis propositio per se nota terminis
+            <lb ed="#V" n="23"/>confuse cognitis, est etiam per se
+            <lb ed="#V" n="24"/>nota terminis distincte cognitis, non
+            <lb ed="#V" n="25"/>tamen omnis propositio per se nota
+            <lb ed="#V" n="26"/>terminis distincte cognitis, est per se
+            <lb ed="#V" n="27"/>nota terminis confuse cognitis, ut
+            <lb ed="#V" n="28"/>patet in primo, dist. 2. quaest. 2. et vide
+            <lb ed="#V" n="29"/>quae ibi exposui. Sunt enim aliqua
+            <lb ed="#V" n="30"/>principia per se nota in aliqua
+            scien<lb ed="#V" n="31" break="no"/>tia terminis confuse cognitis, quae in
+            <lb ed="#V" n="32"/>alia scientia sunt per se nota terminis
+            <lb ed="#V" n="33"/>distincte cognitis, ut clare patet a
+            Doc<lb ed="#V" n="34" break="no"/>tore in 1. ubi supra, et dist. 3. quaest. 4.
+            <lb ed="#V" n="35"/>Sequitur in littera: Similiter scientia
+            <lb ed="#V" n="36"/>naturalis prout praecedit Metaphysicam,
+            <lb ed="#V" n="37"/>etc. Et nota bene hanc litteram, quia
+            <lb ed="#V" n="38"/>ex ista littera expresse habetur quod
+            <lb ed="#V" n="39"/>Metaphysicus ut Metaphysicus,
+            con<lb ed="#V" n="40" break="no"/>siderat distincte quidditates in
+            scien<lb ed="#V" n="41" break="no"/>tia naturali; et oppositum videtur
+            Doc<lb ed="#V" n="42" break="no"/>tor tenere in 9. Metaph. q. 7. licet
+            ali<lb ed="#V" n="43" break="no"/>qui velint ipsum exponere tenentes
+            <lb ed="#V" n="44"/>secundum opinionem Doctoris
+            posi<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>tionem illam; sed de hoc vide quae
+            ex<lb ed="#V" n="46" break="no"/>posui in principio illius quaestionis,
+            <lb ed="#V" n="47"/>etc.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 3, Distinctio 27, Quaestio 1</title>
+        <author ref="#per-FLBca3">Franciscus Lychetus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 3, Distinctio 27, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x15">Vives, Paris, 1894, volume 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="356"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="mm30o9-d1e2927"><!-- mm30o9-b3d27q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum sit aliqua virtus theologica inclinans ad diligendum Deum super omnia</head>
+        <!-- <div alias="lycht-d27q1-p1"> -->
+          <p>
+            <lb ed="#V" n="9" type="fixed=356"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>De primo (a) dicit quod est actus
+            rec<lb ed="#V" n="11" break="no"/>tus; patet, quia omnis actus elicitus a
+            <lb ed="#V" n="12"/>voluntate conformiter se habente
+            ratio<lb ed="#V" n="13" break="no"/>ni naturali rectae est rectus; patet ex
+            <lb ed="#V" n="14"/>6. Ethic. cap. 3. Etectio recta confesse
+            <lb ed="#V" n="15"/>se habet, id est, conformiter rationi
+            <lb ed="#V" n="16"/>rectae, et hoc clare patet a Doctore
+            <lb ed="#V" n="17"/>quaest. utt. Prol. dist. 17. primi. Sed
+            <lb ed="#V" n="18"/>ratio naturalis recta dictat optimum
+            <lb ed="#V" n="19"/>esse summum diligendum; ergo
+            <lb ed="#V" n="20"/>actus diligendi Deum super omnia
+            <lb ed="#V" n="21"/>conformiter elicitus tali rationi, erit
+            <lb ed="#V" n="22"/>vere rectus. Et cum dicit de ratione
+            <lb ed="#V" n="23"/>naturali, accipitur ibi ratio naturalis
+            <lb ed="#V" n="24"/>non pro potentia intellectiva, sed pro
+            <lb ed="#V" n="25"/>cognitione naturali practica, qua
+            <lb ed="#V" n="26"/>intellectus cognoscit optimum esse
+            <lb ed="#V" n="27"/>super omnia diligendum; talis enim
+            <lb ed="#V" n="28"/>cognitio immediate dictat optimum
+            <lb ed="#V" n="29"/>sic esse diligendum. Et de hoc vide,
+            <lb ed="#V" n="30"/>quae exposui super ultimam
+            quaestio<lb ed="#V" n="31" break="no"/>nem Prologi Doctoris, et super dist. 39.
+            <lb ed="#V" n="32"/>secundi, ut infra magis patebit dist.
+            <lb ed="#V" n="33"/>37. Quod etiam dicit hic, quod
+            certi<lb ed="#V" n="34" break="no"/>tudo hujus, optimum esse summum
+            di<lb ed="#V" n="35" break="no"/>ligendum, est per se nota, sicut
+            recti<lb ed="#V" n="36" break="no"/>tudo primi principii in operabilibus;
+            <lb ed="#V" n="37"/>hoc patet, quia apprehensio optimo
+            <lb ed="#V" n="38"/>bono, et apprehensa summa
+            dilec<lb ed="#V" n="39" break="no"/>tione ex complexione horum
+            termi<lb ed="#V" n="40" break="no"/>norum, statim haec propositio est
+            <lb ed="#V" n="41"/>evidens et per se nota, optimum est
+            <lb ed="#V" n="42"/>summe diligendum: et de hoc vide,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>quae notavi super quaestionem ultimam
+            <lb ed="#V" n="44"/>Prologi.
+          </p>
+          <p>
+            <lb ed="#V" n="45"/>(b) Confirmatur, scilicet quod actus
+            <lb ed="#V" n="46"/>diligendi Deum super omnia sit rectus,
+            <lb ed="#V" n="47"/>et naturaliter notum est ipsum esse
+            <lb ed="#V" n="48"/>rectum, quia praecepta moralia sunt de
+            <lb ed="#V" n="49"/>lege naturae, etc. de quo magis patebit
+            <lb ed="#V" n="50"/>infra dist. 37. et per consequens
+            natu<lb ed="#V" n="51" break="no"/>raliter est notum hunc actum esse
+            <lb ed="#V" n="52"/>rectum.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>(c) Ex hoc sequitur. Ostenso enim
+            <lb ed="#V" n="54"/>quod talis actus est rectus statim
+            <lb ed="#V" n="55"/>potest ostendi posse esse aliquam
+            <lb ed="#V" n="56"/>virtutem inclinantem, quia habitus
+            <lb ed="#V" n="57"/>manifestantur ex actibus, ut supra
+            <lb ed="#V" n="58"/>patuit, et talis virtus erit Theologica.
+            <lb ed="#V" n="59"/>Patet, ex quo enim ille actus
+            imme<lb ed="#V" n="60" break="no"/>diate terminatur ad Deum, virtus
+            <lb ed="#V" n="61"/>inclinans ad hujusmodi actum erit
+            <lb ed="#V" n="62"/>Theologica, quia habet Deum pro
+            <lb ed="#V" n="63"/>objecto immediato; et ultra innititur
+            <lb ed="#V" n="64"/>immediate primae regulae humanorum
+            <lb ed="#V" n="65"/>actuum, et infundi potest a Deo, quae
+            <lb ed="#V" n="66"/>tres conditiones requiruntur ad hoc,
+            <lb ed="#V" n="67"/>ut dicatur virtus Theologica, ut supra
+            <lb ed="#V" n="68"/>patuit distinctione 26. Et sic talis
+            <lb ed="#V" n="69"/>virtus est nata perficere supremam
+            <lb ed="#V" n="70"/>portionem animae, quae non
+            perfectis<lb ed="#V" n="71" break="no"/>sime perficitur, nisi immediate a
+            <lb ed="#V" n="72"/>Deo; sed habitus supernaturalis est
+            <lb ed="#V" n="73"/>perfectior quocumque habitu
+            natura<lb ed="#V" n="74" break="no"/>liter acquisito, ut supra patuit dist.
+            <lb ed="#V" n="75"/>23. circa finem. Sequitur: Haec autem
+            <lb ed="#V" n="76"/>virtus inclinans ad actum diligendi
+            <lb ed="#V" n="77"/>Deum super omnia est distincta a fide;
+            <lb ed="#V" n="78"/>patet, quia actus talis virtutis non est
+            <lb ed="#V" n="79"/>credere, quod est actus fidei.
+            Simili<lb ed="#V" n="80" break="no"/>ter distinguitur a spe.
+          </p>
+        <!-- </div>
+    <div alias="lycht-d27q1-p2"> -->
+          <p>
+            <lb ed="#V" n="34" type="fixed=358"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>(d) Contra primam viam arguitur
+            <lb ed="#V" n="36"/>sic. Hic Doctor instat contra hunc
+            <lb ed="#V" n="37"/>triplicem modum ponendi rationem
+            <lb ed="#V" n="38"/>formalem objecti charitatis. Et primo
+            <lb ed="#V" n="39"/>contra primum modum, qui ponit
+            <lb ed="#V" n="40"/>Deum sub ratione absoluta Deitatis,
+            <lb ed="#V" n="41"/>quia si Deus, ut sic, est super omnia
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="42"/>diligibilis ex charitate, sequeretur
+            <lb ed="#V" n="43"/>quod si essent duo dii, quod unus
+            <lb ed="#V" n="44"/>esset diligibilis super omnia, et sic
+            <lb ed="#V" n="45"/>super alium Deum ex charitate, et e
+          </p>
+          <p>
+            <lb ed="#V" n="46"/>contra, et sic idem Deus esset super
+            <lb ed="#V" n="47"/>omnia diligibilis, et non super omnia
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>diligibilis; non enim possunt esse duo
+            <lb ed="#V" n="49"/>objecta super omnia diligibilia.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Secundo, si bonitas est ratio objecti
+            <lb ed="#V" n="51"/>diligibilis, sequitur quod magis bonum
+            <lb ed="#V" n="52"/>esset magis diligibile, et per
+            conse<lb ed="#V" n="53" break="no"/>quens quilibet tenetur proximum
+            me<lb ed="#V" n="54" break="no"/>liorem magis diligere ex charitate,
+            <lb ed="#V" n="55"/>quam seipsum, quod est falsum, quia
+            <lb ed="#V" n="56"/>quilibet post Deum tenetur ex
+            chari<lb ed="#V" n="57" break="no"/>tate magis se diligere.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>Sed iste primus modus etiam
+            tene<lb ed="#V" n="59" break="no"/>tur a Doctore, qui ponit quod Deus
+            <lb ed="#V" n="60"/>sub ratione Deitatis est primum et
+            <lb ed="#V" n="61"/>immediatum objectum charitatis, et
+            <lb ed="#V" n="62"/>sic Deus sub ratione Deitatis est super
+            <lb ed="#V" n="63"/>omnia diligibilis ex charitate; et ideo
+            <lb ed="#V" n="64"/>istae duae rationes sunt etiam contra
+            <lb ed="#V" n="65"/>modum ponendi Doctoris, quae postea
+            <lb ed="#V" n="66"/>solventur, declarando intentionem
+            <lb ed="#V" n="67"/>Doctoris.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>(e) Secundum improbatur. Hic
+            Doc<lb ed="#V" n="69" break="no"/>tor improbat duplicem modum
+            po<lb ed="#V" n="70" break="no"/>nendi, et bene, quia secundus modus
+            <lb ed="#V" n="71"/>tenet quod esse beatificum sit ratio
+            <lb ed="#V" n="72"/>formalis objecti charitatis, quia esse
+            <lb ed="#V" n="73"/>beatificum dicit tantum respectum
+            <lb ed="#V" n="74"/>rationis, quo ipse Deus comparatur
+            <lb ed="#V" n="75"/>creaturae amanti, ut objectum
+            beati<lb ed="#V" n="76" break="no"/>ficans, et talis respectus rationis
+            <lb ed="#V" n="77"/>nullam perfectionem dicit; cum ergo
+            <lb ed="#V" n="78"/>charitas respiciat Deum, ut objectum
+            <lb ed="#V" n="79"/>primum et immediatum sub ratione
+            <lb ed="#V" n="80"/>perfectissima talis objecti, sequitur
+            <lb ed="#V" n="81"/>quod Deus sub ratione qua beatificans,
+            <lb ed="#V" n="82"/>non est objectum charitatis.
+          </p>
+          <p>
+            <lb ed="#V" n="83"/>(f) Praeterea, si inquantum est
+            beati<lb ed="#V" n="84" break="no"/>ficum, est principale objectum
+            charita<lb ed="#V" n="85" break="no"/>tis. Dicit Doctor, si esse beatificum
+            <pb ed="#V" n="359"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>est ratio formalis objecti charitatis,
+            <lb ed="#V" n="2"/>aut accipitur esse beatificum pro
+            res<lb ed="#V" n="3" break="no"/>pectu aptitudinali, puta quod Deus
+            <lb ed="#V" n="4"/>est aptus beatificare, aut pro actuali,
+            <lb ed="#V" n="5"/>puta quia actu beatificat. Non primo,
+            <lb ed="#V" n="6"/>quia nulla aptitudo est ratio formalis
+            <lb ed="#V" n="7"/>terminandi actum perfectum, et
+            per<lb ed="#V" n="8" break="no"/>fecte, nisi ratione naturae cujus est
+            <lb ed="#V" n="9"/>talis aptitudo; patet, quia aptitudo
+            <lb ed="#V" n="10"/>naturae realiter non est perfectio
+            for<lb ed="#V" n="11" break="no"/>malis, ut patet discurrendo per omnes
+            <lb ed="#V" n="12"/>aptitudinales, sed esse rationem
+            for<lb ed="#V" n="13" break="no"/>malem terminandi actum perfectum,
+            <lb ed="#V" n="14"/>qualis est actus charitatis, necessario
+            <lb ed="#V" n="15"/>est perfectio simpliciter, loquendo de
+            <lb ed="#V" n="16"/>actu charitatis, quo Deus diligitur
+            <lb ed="#V" n="17"/>super omnia. Esse enim rationem
+            <lb ed="#V" n="18"/>formalem agendi, et esse rationem
+            <lb ed="#V" n="19"/>formalem terminandi actum
+            perfec<lb ed="#V" n="20" break="no"/>tum, necessario dicit perfectionem,
+            <lb ed="#V" n="21"/>ut patet a Doctore in primo, dist. 1.
+            <lb ed="#V" n="22"/>quaest. 2. et vide quae ibi exposui. Patet
+            <lb ed="#V" n="23"/>ergo quod talis aptitudo non est ratio
+            <lb ed="#V" n="24"/>formalis objecti habitus, vel actus
+            <lb ed="#V" n="25"/>charitatis. Si secundo modo, contra,
+            <lb ed="#V" n="26"/>quia esse objectum beatificum actu,
+            <lb ed="#V" n="27"/>sive beatificare, est posterius ipso
+            <lb ed="#V" n="28"/>actu, patet, quia actu beatificare est
+            <lb ed="#V" n="29"/>actu terminare actum fruitionis; sed
+            <lb ed="#V" n="30"/>fruitio intelligitur prius elicita, quam
+            <lb ed="#V" n="31"/>terminetur ad objectum. Cum ergo in
+            <lb ed="#V" n="32"/>illo priori quo elicitur, habeat
+            objec<lb ed="#V" n="33" break="no"/>tum sub ratione sua formali, est prius
+            <lb ed="#V" n="34"/>actu terminato ad ipsum, sequitur
+            <lb ed="#V" n="35"/>ergo, cum terminare actu sit posterius
+            <lb ed="#V" n="36"/>ipso actu, quod hujusmodi terminare,
+            <lb ed="#V" n="37"/>quod idem est quod actu beatificare,
+            <lb ed="#V" n="38"/>non erit ratio formalis objecti actus
+            <lb ed="#V" n="39"/>charitatis. Et ultra sequitur, quia
+            ap<lb ed="#V" n="40" break="no"/>petere bonum, puta esse beatificum
+            <lb ed="#V" n="41"/>amanti, pertinet ad affectionem
+            com<lb ed="#V" n="42" break="no"/>modi, secundum quam voluntas non
+            <lb ed="#V" n="43"/>perficitur a charitate, praecise enim
+            <lb ed="#V" n="44"/>perficitur a charitate secundum
+            affec<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>tionem justitiae; si ergo esse objectum
+            <lb ed="#V" n="46"/>beatificum actu est ratio formalis
+            ob<lb ed="#V" n="47" break="no"/>jecti charitatis, sequitur quod charitas
+            <lb ed="#V" n="48"/>praecise inclinet ad amandum Deum,
+            <lb ed="#V" n="49"/>ut est bonum beatificum mihi, et tale
+            <lb ed="#V" n="50"/>amare est tantum secundum
+            affectio<lb ed="#V" n="51" break="no"/>nem commodi, ut supra patuit
+            <lb ed="#V" n="52"/>dist. 26.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>(g) Contra tertium arguitur. Nunc
+            <lb ed="#V" n="54"/>Doctor improbat tertium modum, qui
+            <lb ed="#V" n="55"/>ponit Deum sub ratione boni infiniti,
+            <lb ed="#V" n="56"/>et inquantum participatur a creatura,
+            <lb ed="#V" n="57"/>esse objectum charitatis; si ista opinio
+            <lb ed="#V" n="58"/>intelligit, quod hoc totum
+            aggrega<lb ed="#V" n="59" break="no"/>tum, quod est unum per accidens, sit
+            <lb ed="#V" n="60"/>ratio formalis objecti, etc. Contra,
+            <lb ed="#V" n="61"/>quia charitas est quo est unum ens
+            <lb ed="#V" n="62"/>per se, debet habere unum objectum
+            <lb ed="#V" n="63"/>per se, et non per accidens; si vero
+            <lb ed="#V" n="64"/>ponit quod charitas habeat Deum sub
+            <lb ed="#V" n="65"/>ratione infiniti, ut objectum per se,
+            <lb ed="#V" n="66"/>et similiter habeat Deum sub ratione
+            <lb ed="#V" n="67"/>participati, ut objectum per se.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Contra hoc Doctor instat, quia
+            <lb ed="#V" n="69"/>respectu unius habitus sive actus,
+            <lb ed="#V" n="70"/>non potest esse duplex ratio formalis
+            <lb ed="#V" n="71"/>objecti, sed tantum una, et per
+            conse<lb ed="#V" n="72" break="no"/>quens si ponatur quod Deus sub
+            ratio<lb ed="#V" n="73" break="no"/>ne infiniti sit objectum, adhuc erit
+            <lb ed="#V" n="74"/>objectum, si separetur a ratione
+            par<lb ed="#V" n="75" break="no"/>ticipati, quia quod est per se tale
+            con<lb ed="#V" n="76" break="no"/>junctum alteri per accidens, si ab illo
+            <lb ed="#V" n="77"/>separetur, adhuc erit per se tale; et
+            <lb ed="#V" n="78"/>haec propositio satis patet a Doctore
+            <lb ed="#V" n="79"/>q. ult. prolog. art. 1. et dist. 2. q. 3. et
+            <lb ed="#V" n="80"/>in 2. dist. 18. Si ergo Deus sub
+            ratio<lb ed="#V" n="81" break="no"/>ne infiniti est per se objectum
+            chari<lb ed="#V" n="82" break="no"/>tatis, si separetur ab ista ratione, quae
+            <lb ed="#V" n="83"/>est esse participatum, cui per
+            acci<lb ed="#V" n="84" break="no"/>dens conjungitur, adhuc erit per se
+            <lb ed="#V" n="85"/>objectum charitatis.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>(h) Praeterea, si aliqua creatura
+            in<lb ed="#V" n="87" break="no"/>tellectualis esset a se, id est, non ab
+            <lb ed="#V" n="88"/>alio effective, et esset de se infinita,
+            <pb ed="#V" n="360"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sicut imponitur Philosopho, quod
+            as<lb ed="#V" n="2" break="no"/>serat hoc de intelligentiis aliis a
+            <lb ed="#V" n="3"/>prima, ut patet 12. Metaph. text. cap.
+            <lb ed="#V" n="4"/>41. ubi ponit primam substantiam
+            <lb ed="#V" n="5"/>esse sempiternam et immobilem,
+            se<lb ed="#V" n="6" break="no"/>paratam a sensibilibus; et infra ponit
+            <lb ed="#V" n="7"/>ipsam movere per infinitum tempus,
+            <lb ed="#V" n="8"/>etc. et text. com. 42. Quaerit postea an
+            <lb ed="#V" n="9"/>sint plures tales, et incipit textus:
+            <lb ed="#V" n="10"/>Utrum autem unam ponendum est
+            ta<lb ed="#V" n="11" break="no"/>lem substantiam, aut plures, et quot,
+            <lb ed="#V" n="12"/>oportet non latere, vide ibi. Si ergo
+            <lb ed="#V" n="13"/>esset talis substantia alia a prima,
+            <lb ed="#V" n="14"/>quae nullo modo esset causata ab illa
+            <lb ed="#V" n="15"/>prima, tunc posset diligere aliquid
+            <lb ed="#V" n="16"/>super omnia, non aliud secundum
+            <lb ed="#V" n="17"/>rectam rationem nisi primam, et
+            <lb ed="#V" n="18"/>tamen non esset participatio ipsius.
+          </p>
+        <!-- </div>
+    <div alias="lycht-d27q1-p3"> -->
+          <p>
+            <lb ed="#V" n="66" type="fixed=361"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>(e) Quantum ad istum articulum.
+            <lb ed="#V" n="68"/>Nunc Doctor declarando mentem
+            <lb ed="#V" n="69"/>propriam de ratione formali objecti
+            <lb ed="#V" n="70"/>charitatis, ponit tres conclusiones.
+            <lb ed="#V" n="71"/>Prima, quod loquendo de ratione
+            for<lb ed="#V" n="72" break="no"/>mali prima et immediata, et
+            princi<lb ed="#V" n="73" break="no"/>pali sive perfectiori, est ipsa Deitas,
+            <lb ed="#V" n="74"/>ut haec Deitas, ita quod Deus sub
+            ra<lb ed="#V" n="75" break="no"/>tione hujus Deitatis est objectum
+            pri<lb ed="#V" n="76" break="no"/>mum et perfectissimum charitatis,
+            <lb ed="#V" n="77"/>quia sub perfectissima ratione, quae
+            <lb ed="#V" n="78"/>est Deitas, ut satis patet a Doctore
+            <lb ed="#V" n="79"/>q. 3. prolog. Quod autem sub tali
+            <lb ed="#V" n="80"/>ratione formali sit objectum charitatis
+            <lb ed="#V" n="81"/>et actus ejus, probat unica ratione,
+            <lb ed="#V" n="82"/>habita etiam q. 1. prolog. et dist. 1. q.
+            <lb ed="#V" n="83"/>1. primi, scilicet quod potentia habens
+            <lb ed="#V" n="84"/>aliquod commune pro objecto
+            adaequa<lb ed="#V" n="85" break="no"/>to, non potest perfectissime quietari
+            <lb ed="#V" n="86"/>nisi in perfectissimo contento, et sub
+            <pb ed="#V" n="362"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ratione formali ejus perfectissima.
+            <lb ed="#V" n="2"/>Haec ibi fuit declarata, sed voluntas
+            <lb ed="#V" n="3"/>creata habet totum ens pro objecto, ut
+            <lb ed="#V" n="4"/>patet a Doctore in 4. dist. 49. ergo
+            <lb ed="#V" n="5"/>non perfectissime quietatur, nisi in
+            <lb ed="#V" n="6"/>Deo sub ratione Deitatis, quia Deus sub
+            <lb ed="#V" n="7"/>ratione Deitatis est perfectissimum
+            <lb ed="#V" n="8"/>contentum sub ratione perfectissima.
+            <lb ed="#V" n="9"/>Quietari autem perfectissime in tali
+            <lb ed="#V" n="10"/>objecto, est actu attingere illud, et sic
+            <lb ed="#V" n="11"/>voluntas perfectissime quietatur, cum
+            <lb ed="#V" n="12"/>ei perfectissime conjungitur per
+            ac<lb ed="#V" n="13" break="no"/>tum amoris amicitiae, qui est actus
+            <lb ed="#V" n="14"/>charitatis, et per consequens Deus
+            <lb ed="#V" n="15"/>sub ratione Deitatis erit objectum
+            <lb ed="#V" n="16"/>primum et perfectissimum habitus
+            <lb ed="#V" n="17"/>charitatis et ejus actus.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>(k) Secunda conclusio est, quod si
+            <lb ed="#V" n="19"/>loquamur de ratione formali objecti
+            <lb ed="#V" n="20"/>charitatis, non prima, nec principali,
+            <lb ed="#V" n="21"/>sed secundaria et minus principali,
+            <lb ed="#V" n="22"/>praecedente actum et etiam habitum,
+            <lb ed="#V" n="23"/>potest dici ratio allicitiva secundum
+            <lb ed="#V" n="24"/>quam voluntas magis allicitur ad
+            <lb ed="#V" n="25"/>amandum; et haec ratio allicitiva
+            po<lb ed="#V" n="26" break="no"/>test dici omne id in quo invenitur
+            ra<lb ed="#V" n="27" break="no"/>tio amabilitatis, sicut est in creando
+            <lb ed="#V" n="28"/>conservando, redimendo, beatificando
+            <lb ed="#V" n="29"/>et hujusmodi. Haec enim ratio
+            mul<lb ed="#V" n="30" break="no"/>tum allicit nos ad amandum, et sic
+            <lb ed="#V" n="31"/>Deus sub ratione formali, qua
+            crea<lb ed="#V" n="32" break="no"/>tor, vel conservator, est objectum
+            di<lb ed="#V" n="33" break="no"/>ligibile ex charitate non primarium et
+            <lb ed="#V" n="34"/>principale, sed secundarium et minus
+            <lb ed="#V" n="35"/>principale.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>(1) Tertia conclusio est, quod si
+            lo<lb ed="#V" n="37" break="no"/>quamur de ratione formali objecti non
+            <lb ed="#V" n="38"/>praecedente actum, qualis est prima
+            <lb ed="#V" n="39"/>et secunda ratio, sed tantum
+            conco<lb ed="#V" n="40" break="no"/>mitante, sic Deus ut objeetum
+            beati<lb ed="#V" n="41" break="no"/>ficum, potest poni objectum
+            charita<lb ed="#V" n="42" break="no"/>tis, ita quod esse beatificum sit ratio
+            <lb ed="#V" n="43"/>formalis concomitans actum
+            beatitu<lb ed="#V" n="44" break="no"/>dinis, sive fruitionis; esse enim actu
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>objectum beatificum, est ipsum finire
+            <lb ed="#V" n="46"/>sive terminare actum fruitionis; sed
+            <lb ed="#V" n="47"/>prius intelligitur actus fruitionis elici,
+            <lb ed="#V" n="48"/>quam terminetur ad ipsum objectum,
+            <lb ed="#V" n="49"/>ut supra dixi, sequitur ergo quod
+            ob<lb ed="#V" n="50" break="no"/>jectum, ut sic terminans, sive sub
+            ra<lb ed="#V" n="51" break="no"/>tione, qua actu terminat, sit posterius
+            <lb ed="#V" n="52"/>actu, et immediate concomitetur
+            ip<lb ed="#V" n="53" break="no"/>sum actum, et quia sic concomitatur
+            <lb ed="#V" n="54"/>potest aliquo modo dici ratio formalis
+            <lb ed="#V" n="55"/>objecti, concomitans tamen actum.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>Et de illa triplici ratione formali
+            <lb ed="#V" n="57"/>Doctor ponit exemplum hic in littera
+            <lb ed="#V" n="58"/>satis clarum. Ex his declaratis patet
+            <lb ed="#V" n="59"/>expresse intentio Doctoris, qualiter
+            <lb ed="#V" n="60"/>Deus sub ratione Deitatis absolute est
+            <lb ed="#V" n="61"/>primum et principale objectum
+            chari<lb ed="#V" n="62" break="no"/>tatis et actus ejus; et sic primus
+            mo<lb ed="#V" n="63" break="no"/>dus ponendi suppositus est secundum
+            <lb ed="#V" n="64"/>intentionem Doctoris.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Et ad rationes factas contra istum
+            <lb ed="#V" n="66"/>modum ipse Doctor in fin. quaest.
+            res<lb ed="#V" n="67" break="no"/>pondet. Ad primam dicit, quod
+            plura<lb ed="#V" n="68" break="no"/>litas Deorum destruit naturam
+            habi<lb ed="#V" n="69" break="no"/>tus charitatis; patet, quia respectu
+            <lb ed="#V" n="70"/>unius et ejusdem habitus non possunt
+            <lb ed="#V" n="71"/>esse plura objecta aeque prima et aeque
+            <lb ed="#V" n="72"/>principalia, quia tunc posito uno
+            illo<lb ed="#V" n="73" break="no"/>rum, posset poni habitus, et alio
+            re<lb ed="#V" n="74" break="no"/>moto, non posset poni, et sic idem
+            ha<lb ed="#V" n="75" break="no"/>bitus simul, et semel posset esse et
+            <lb ed="#V" n="76"/>non esse.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Ad secundam rationem dicit, quod
+            <lb ed="#V" n="78"/>non est simile de magis et minus in
+            <lb ed="#V" n="79"/>aliquo ordine, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Pro ista littera nota, quod circa
+            <lb ed="#V" n="81"/>idem objectum supremum potest esse
+            <lb ed="#V" n="82"/>operatio perfecta, perfectior, et
+            per<lb ed="#V" n="83" break="no"/>fectissima; patet, quia aliquis potest
+            <lb ed="#V" n="84"/>diligere Deum sub ratione Deitatis, et
+            <lb ed="#V" n="85"/>propter se remisse, alius magis
+            inten<lb ed="#V" n="86" break="no"/>se, alius intensissime, quantum
+            pos<lb ed="#V" n="87" break="no"/>sibile est creaturae, ita quod talis
+            di<lb ed="#V" n="88" break="no"/>lectio, quae est praecise objecti in se
+            <pb ed="#V" n="363"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>et propter se, et nutlo modo referibilis
+            <lb ed="#V" n="2"/>ad aliud, sic quod sit diligibile
+            prop<lb ed="#V" n="3" break="no"/>ter aliud, est tantum respectu illius
+            <lb ed="#V" n="4"/>supremi; et ideo bene sequitur, quod
+            <lb ed="#V" n="5"/>ad alia objecta secundaria nec remisse,
+            <lb ed="#V" n="6"/>nec intense, nec intensissime, sunt
+            <lb ed="#V" n="7"/>simpliciter diligibilia in se et propter
+            <lb ed="#V" n="8"/>se, ideo non sequitur, supremum
+            bo<lb ed="#V" n="9" break="no"/>num est ratio diligibilitatis, et ratio
+            <lb ed="#V" n="10"/>formalis terminandi summam
+            dilec<lb ed="#V" n="11" break="no"/>tionem; ergo bonum creatum
+            propin<lb ed="#V" n="12" break="no"/>quius illi erit ratio formalis
+            terminan<lb ed="#V" n="13" break="no"/>di dilectionem ejusdem rationis. Non
+            <lb ed="#V" n="14"/>sequitur quia respectu dilectionis
+            re<lb ed="#V" n="15" break="no"/>missae et intensissimae, quae est
+            objec<lb ed="#V" n="16" break="no"/>ti in se et propter se, tantum
+            supre<lb ed="#V" n="17" break="no"/>mum bonum est ratio formalis
+            termi<lb ed="#V" n="18" break="no"/>nandi. Similiter dico de dilectione,
+            <lb ed="#V" n="19"/>quae est actus spei, quae terminatur
+            <lb ed="#V" n="20"/>ad summun bonum tanquam
+            sum<lb ed="#V" n="21" break="no"/>mum quietativum, quod tale bonum
+            <lb ed="#V" n="22"/>sub ratione sua absoluta est ratio
+            for<lb ed="#V" n="23" break="no"/>malis terminandi dilectionem, quae
+            <lb ed="#V" n="24"/>est actus spei, sive accipiendo ipsam
+            <lb ed="#V" n="25"/>remisse, sive intense, sive
+            intensissi<lb ed="#V" n="26" break="no"/>me, quia tale bonum est simpliciter
+            <lb ed="#V" n="27"/>quietativum, et per consequens
+            sim<lb ed="#V" n="28" break="no"/>pliciter terminativum actus spei; alia
+            <lb ed="#V" n="29"/>vero bona sunt tantum secundum
+            <lb ed="#V" n="30"/>quid quietativa, et ideo tantum
+            termi<lb ed="#V" n="31" break="no"/>nativa secundum quid amoris
+            concu<lb ed="#V" n="32" break="no"/>piscentiae.
+            <lb ed="#V" n="33"/>Et exemplum positum de
+            perfectis<lb ed="#V" n="34" break="no"/>simo colore et aliis coloribus, ubi
+            <lb ed="#V" n="35"/>vult quod perfectissima visio sit
+            tan<lb ed="#V" n="36" break="no"/>tum respectu perfectissimi coloris, et
+            <lb ed="#V" n="37"/>visio perfectioris coloris non dicitur
+            <lb ed="#V" n="38"/>perfectior. Hoc debet sane intelligi,
+            <lb ed="#V" n="39"/>quia nulli dubium, etiam apud
+            Docto<lb ed="#V" n="40" break="no"/>rem, quod semper perfectioris objecti
+            <lb ed="#V" n="41"/>potest esse perfectior actus, ut patet
+            <lb ed="#V" n="42"/>in primo, dist. 3. q. 7. et visio
+            perfec<lb ed="#V" n="43" break="no"/>tioris coloris est perfectior; debet
+            <lb ed="#V" n="44"/>ergo sic intelligi de visione
+            simpli<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>citer quietativa, quae terminatur ad
+            <lb ed="#V" n="46"/>objectum simpliciter quietativum,
+            <lb ed="#V" n="47"/>et tale objectum completive sive
+            to<lb ed="#V" n="48" break="no"/>taliter quietativum potentiae visivae
+            <lb ed="#V" n="49"/>est color perfectissimus, ita quod
+            tan<lb ed="#V" n="50" break="no"/>tum ille color terminat visionem
+            for<lb ed="#V" n="51" break="no"/>maliter quietativam, licet remissam,
+            <lb ed="#V" n="52"/>et visionem intensam et
+            intensissi<lb ed="#V" n="53" break="no"/>mam; videns enim perfectissim um
+            co<lb ed="#V" n="54" break="no"/>lorem etiam remisse, simpliciter
+            quie<lb ed="#V" n="55" break="no"/>tatur in illo, et similiter videns intense
+            <lb ed="#V" n="56"/>et intensissime. Vult ergo Doctor quod
+            <lb ed="#V" n="57"/>visio propinquioris coloris
+            perfectissi<lb ed="#V" n="58" break="no"/>mo colori sit absolute perfectior visione
+            <lb ed="#V" n="59"/>remotioris coloris; sed loquendo de
+            <lb ed="#V" n="60"/>visione simpliciter quietativa, talis
+            <lb ed="#V" n="61"/>visio, etiam si est intensissima, nullo
+            <lb ed="#V" n="62"/>modo est simpliciter quietativa, et per
+            <lb ed="#V" n="63"/>consequens nec magis, quia alii
+            colo<lb ed="#V" n="64" break="no"/>res, excepto perfectissimo colore, sunt
+            <lb ed="#V" n="65"/>tantum objecta quietativa secundum
+            <lb ed="#V" n="66"/>quid. Et ex his declaratis potest
+            intel<lb ed="#V" n="67" break="no"/>ligi illa propositio: si bonum est
+            diligi<lb ed="#V" n="68" break="no"/>bile, magis bonum est magis
+            diligibi<lb ed="#V" n="69" break="no"/>le, et maxime bonum maxime diligibile;
+            <lb ed="#V" n="70"/>si intelligatur, quod quis tenetur
+            dilige<lb ed="#V" n="71" break="no"/>re magis bonum magis intense quam
+            <lb ed="#V" n="72"/>minus bonum, hoc non est verum,
+            <lb ed="#V" n="73"/>quia ex charitate teneor magis me
+            di<lb ed="#V" n="74" break="no"/>ligere quam alium; sed propositio est
+            <lb ed="#V" n="75"/>vera, ubi dilectio simpliciter dependet
+            <lb ed="#V" n="76"/>a bono simpliciter, et major dilectio
+            <lb ed="#V" n="77"/>intensive dependet a magis bono, et
+            <lb ed="#V" n="78"/>maxima dilectio a summo bono. Et de
+            <lb ed="#V" n="79"/>hoc patebit aliqualiter in 4. in materia
+            <lb ed="#V" n="80"/>de Beatitudine dist. 50. sive ult. quaest.
+            <lb ed="#V" n="81"/>ult. ubi Doctor exponit illam
+            proposi<lb ed="#V" n="82" break="no"/>tionem, de magis et minus bono, et ibi
+            <lb ed="#V" n="83"/>aliqua dicit quae non hic.
+          </p>
+        <!-- </div>
+    <div alias="lycht-d27q1-p4"> -->
+          <p>
+            <lb ed="#V" n="10" type="fixed=365"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>(m) De tertio articulo, qui est: An
+            na<lb ed="#V" n="12" break="no"/>tura intellectualis ex propriis
+            naturali<lb ed="#V" n="13" break="no"/>bus, circumscripto omni habitu infuso,
+            <lb ed="#V" n="14"/>possit diligere Deum super omnia.
+            <lb ed="#V" n="15"/>Primo recitat aliquas opiniones.
+            Pri<lb ed="#V" n="16" break="no"/>ma est Thomae. qui dicit quod natura
+            <lb ed="#V" n="17"/>non sufficit ad actum istum sine
+            ha<lb ed="#V" n="18" break="no"/>bitu infuso. Et hoc probat duabus
+            ra<lb ed="#V" n="19" break="no"/>tionibus.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Has duas rationes Doctor explicite
+            <lb ed="#V" n="21"/>non solvit, tamen ex dictis ejus
+            pos<lb ed="#V" n="22" break="no"/>sunt faciliter solvi intellecto titulo
+            <lb ed="#V" n="23"/>quaestionis. Non enim quaestio
+            in<lb ed="#V" n="24" break="no"/>telligitur de appetitu naturali, puta
+            <lb ed="#V" n="25"/>an aliquis habeat inclinationem
+            na<lb ed="#V" n="26" break="no"/>turalem magis ad conservationem
+            <lb ed="#V" n="27"/>sui esse, quam ad conservationem
+            <lb ed="#V" n="28"/>esse alterius, sicut procedunt illae duae
+            <lb ed="#V" n="29"/>rationes; sed intelligitur sic: An
+            na<lb ed="#V" n="30" break="no"/>tura intellectualis ex solis naturalibus
+            <lb ed="#V" n="31"/>possit elicere actum diligendi Deum
+            <lb ed="#V" n="32"/>super omnia, ita quod illo actu magis
+            <lb ed="#V" n="33"/>velit Deum esse in se quam esse suum
+            <lb ed="#V" n="34"/>proprium, etiam posito quod talis
+            ac<lb ed="#V" n="35" break="no"/>tus eliciatur a tali natura contra ejus
+            <lb ed="#V" n="36"/>inclinationem naturalem, et sic
+            intel<lb ed="#V" n="37" break="no"/>ligitur titulus quaestionis, et per
+            con<lb ed="#V" n="38" break="no"/>sequens patet quomodo illae duae
+            ra<lb ed="#V" n="39" break="no"/>tiones ad propositum non valent.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>(n) Contra hoc. Alia est opinio
+            Gof<lb ed="#V" n="41" break="no"/>fredi quodl. 4. quaest. 6. qui dicit quod
+            <lb ed="#V" n="42"/>natura intellectualis potest magis
+            di<cb ed="#V" n="b"/><lb ed="#V" n="43" break="no"/>ligere Deum quam seipsam ex puris
+            <lb ed="#V" n="44"/>naturalibus; et hoc probat tribus
+            ra<lb ed="#V" n="45" break="no"/>tionibus, et licet non contradicat huic
+            <lb ed="#V" n="46"/>opinioni in conclusione quam etiam
+            <lb ed="#V" n="47"/>ipse tenet, impugnat tamen rationes
+            <lb ed="#V" n="48"/>hujus Doctoris tanquam minus
+            suffi<lb ed="#V" n="49" break="no"/>cientes ad propositum concludendum.
+            <lb ed="#V" n="50"/>Arguit ergo primo sic opinans: Pars
+            <lb ed="#V" n="51"/>naturaliter magis diligit totum, quam
+            <lb ed="#V" n="52"/>seipsam, patet, quia aqua contra suam
+            <lb ed="#V" n="53"/>naturam ascendit propter
+            conservatio<lb ed="#V" n="54" break="no"/>nem universi, cujus est pars, ne
+            scili<lb ed="#V" n="55" break="no"/>cet daretur vacuum in universo.
+            Si<lb ed="#V" n="56" break="no"/>militer manus naturaliter se exponit
+            <lb ed="#V" n="57"/>percutienti, ut conservetur totus
+            ho<lb ed="#V" n="58" break="no"/>mo; cum ergo creatura intellectualis
+            <lb ed="#V" n="59"/>sit participatio bonitatis divinae, et per
+            <lb ed="#V" n="60"/>consequens pars illius bonitatis,
+            se<lb ed="#V" n="61" break="no"/>quitur quod magis diligat bonitatem
+            <lb ed="#V" n="62"/>divinam quam seipsam.
+          </p>
+        <!-- </div>
+    <div alias="lycht-d27q1-p5"> -->
+          <p>
+            <lb ed="#V" n="67" type="fixed=366"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>(o) Istae rationes non cogunt. Hic
+            <lb ed="#V" n="69"/>Doctor ostendit has rationes non
+            con<lb ed="#V" n="70" break="no"/>cludere, et exempla illa nihil valent.
+            <lb ed="#V" n="71"/>Si enim aqua ascendit, non ascendit
+            <lb ed="#V" n="72"/>ex semetipsa, quia ex quo inclinatur
+            <lb ed="#V" n="73"/>ad centrum, sibi derelicta nullo modo
+            <lb ed="#V" n="74"/>sursum ascendit, et si ascendit ne
+            de<lb ed="#V" n="75" break="no"/>tur vacuum, praecise ascendit ex
+            im<lb ed="#V" n="76" break="no"/>perio regentis universum; sic similiter
+            <lb ed="#V" n="77"/>manus ex seipsa non exponit se
+            per<lb ed="#V" n="78" break="no"/>cutienti, sed regens totum hominem,
+            <lb ed="#V" n="79"/>qui magis vult conservationem totius,
+            <lb ed="#V" n="80"/>vel principalis partis, exponit manum
+            <lb ed="#V" n="81"/>percutienti. Et addit quod etiam posito
+            <lb ed="#V" n="82"/>quod ista exempla valerent, pro
+            quan<lb ed="#V" n="83" break="no"/>to sunt partes alicujus totius
+            pertinen<lb ed="#V" n="84" break="no"/>tes ad esse illius; modo nulla creatura
+            <lb ed="#V" n="85"/>potest dici pars ipsius Dei, ita quod
+            <lb ed="#V" n="86"/>Deus dicatur aliquod totum
+            constitu<pb ed="#V" n="367"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tum in esse per aliam et aliam partem,
+            <lb ed="#V" n="2"/>quia hoc est simpliciter impossibile.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Similiter, secunda ratio non
+            con<lb ed="#V" n="4" break="no"/>cludit, quia tantum loquitur de
+            effec<lb ed="#V" n="5" break="no"/>tione commodi, quia bene verum est,
+            <lb ed="#V" n="6"/>quod natura intellectualis summe sibi
+            <lb ed="#V" n="7"/>appetit objectum beatificum, ut
+            sum<lb ed="#V" n="8" break="no"/>mum sibi commodum, sed non
+            con<lb ed="#V" n="9" break="no"/>cludit de affectione justitiae, de qua
+            <lb ed="#V" n="10"/>intelligitur praesens. Secundum quam
+            <lb ed="#V" n="11"/>quis posset diligere Deum super omnia
+            <lb ed="#V" n="12"/>in se et propter se, et ideo non
+            sequi<lb ed="#V" n="13" break="no"/>tur, summe volo objectum beatificum,
+            <lb ed="#V" n="14"/>ut summum commodum mihi; ergo
+            <lb ed="#V" n="15"/>summe volo ipsum esse in se, et
+            ma<lb ed="#V" n="16" break="no"/>gis ipsum esse quam me esse, imo
+            <lb ed="#V" n="17"/>magis videtur sequi oppositum, quia
+            <lb ed="#V" n="18"/>si aliquid summe concupisco mihi, ut
+            <lb ed="#V" n="19"/>mihi commodum, magis volo me esse,
+            <lb ed="#V" n="20"/>quia amor concupiscentiae
+            praesuppo<lb ed="#V" n="21" break="no"/>nit amorem amicitiae, et de hoc vide
+            <lb ed="#V" n="22"/>Doctorem in 2. dist. 6. quaest. 2.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Ad confirmationem dicit Doctor
+            <lb ed="#V" n="24"/>quod desperans et occidens se diligit
+            <lb ed="#V" n="25"/>beatitudinem tantum in universali et
+            <lb ed="#V" n="26"/>non in particulari, et tale occidens se
+            <lb ed="#V" n="27"/>credit evadere malum, et habere
+            ma<lb ed="#V" n="28" break="no"/>gis bonum.
+          </p>
+        <!-- </div>
+    <div alias="lycht-d27q1-p6"> -->
+          <p>
+            <lb ed="#V" n="73" type="fixed=368"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>(p) Istis igitur rationibus non
+            inni<lb ed="#V" n="75" break="no"/>tendo. Nunc Doctor probat
+            principa<lb ed="#V" n="76" break="no"/>lem conclusionem duabus rationibus,
+            <lb ed="#V" n="77"/>quarum prima est: Quaelibet voluntas
+            <lb ed="#V" n="78"/>potest elicere actum circa
+            quodcum<lb ed="#V" n="79" break="no"/>que objectum, eo modo quo a ratione
+            <lb ed="#V" n="80"/>naturali dictatur esse eliciendum;
+            <lb ed="#V" n="81"/>patet ista, quia si non posset tendere
+            <lb ed="#V" n="82"/>in recte dictarum, vel esset
+            naturali<lb ed="#V" n="83" break="no"/>ter mala, vel non esset libera respectu
+            <lb ed="#V" n="84"/>cujuscumque objecti, quae sunt
+            incon<lb ed="#V" n="85" break="no"/>venientia. Sed ratio naturalis dictat
+            <lb ed="#V" n="86"/>supremum bonum esse summe
+            dili<pb ed="#V" n="369"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>gendum; ergo voluntas sequens talem
+            <lb ed="#V" n="2"/>rationem naturalem potest elicere
+            ta<lb ed="#V" n="3" break="no"/>lem actum sine aliquo habitu infuso.
+            <lb ed="#V" n="4"/>Patet minor, quia ratio naturalis
+            dic<lb ed="#V" n="5" break="no"/>tat, quod in omni ordine essentiali
+            <lb ed="#V" n="6"/>standum est ad aliquod primum, et
+            <lb ed="#V" n="7"/>sic cum inter diligibilia sit ordo
+            es<lb ed="#V" n="8" break="no"/>sentialis, quia dependent ad aliquod
+            <lb ed="#V" n="9"/>supremum tanquam imperfectius ad
+            <lb ed="#V" n="10"/>perfectum, et similiter inter
+            dilectio<lb ed="#V" n="11" break="no"/>nes est ordo essentialis, ita quod datur
+            <lb ed="#V" n="12"/>aliqua prima perfecta, a qua omnes
+            <lb ed="#V" n="13"/>imperfectae dependent, sicut
+            mensura<lb ed="#V" n="14" break="no"/>tum ad mensuram. Si ergo ratione
+            <lb ed="#V" n="15"/>naturali concludimus aliquod esse
+            su<lb ed="#V" n="16" break="no"/>premum diligibile, et propter se
+            tan<lb ed="#V" n="17" break="no"/>tum diligibile, ut subtiliter probat
+            Doc<lb ed="#V" n="18" break="no"/>tor in 4. dist. 49. et similiter
+            conclu<lb ed="#V" n="19" break="no"/>ditur ipsum esse diligendum summe,
+            <lb ed="#V" n="20"/>et per consequens super omnia alia,
+            <lb ed="#V" n="21"/>et voluntas potest elicere actum
+            con<lb ed="#V" n="22" break="no"/>formiter dictamini naturali sine
+            quo<lb ed="#V" n="23" break="no"/>cumque habitu infuso, sequitur quod
+            <lb ed="#V" n="24"/>naturaliter possit diligere Deum
+            su<lb ed="#V" n="25" break="no"/>per omnia. Et quod ratio naturalis non
+            <lb ed="#V" n="26"/>dictet aliquid aliud a summo bono
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>se super omnia diligendum, probo
+            <lb ed="#V" n="28"/>per hoc, quia charitas tantum
+            incli<lb ed="#V" n="29" break="no"/>nat ad dilectionem Dei super omnia;
+            <lb ed="#V" n="30"/>si ergo quis ex charitate diligeret
+            <lb ed="#V" n="31"/>Deum super omnia, tunc charitas non
+            <lb ed="#V" n="32"/>esset virtus, patet, quia non
+            inclina<lb ed="#V" n="33" break="no"/>ret ad actum conformiter se
+            haben<lb ed="#V" n="34" break="no"/>tem dictamini naturali; ad hoc ergo
+            <lb ed="#V" n="35"/>ut dicatur virtus, requiritur quod sit
+            <lb ed="#V" n="36"/>conformis rationi naturali in eliciendo
+            <lb ed="#V" n="37"/>actum, et cum ipsa inclinet ad
+            sum<lb ed="#V" n="38" break="no"/>mum bonum propter se diligendum,
+            <lb ed="#V" n="39"/>sequitur quod ratio naturalis dictat
+            <lb ed="#V" n="40"/>tantum summum bonum esse summe
+            <lb ed="#V" n="41"/>diligendum.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>Secunda ratio fundatur super
+            dic<lb ed="#V" n="43" break="no"/>tum Philosophi 9. Ethic. de forti
+            Poli<lb ed="#V" n="44" break="no"/>tico, et praesupponit unum, quod quis
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>via naturali non possit scire post hanc
+            <lb ed="#V" n="46"/>vitam esse aliam, quia nec via
+            natu<lb ed="#V" n="47" break="no"/>rali potest scire animam esse
+            immor<lb ed="#V" n="48" break="no"/>talem, ut probat Doctor in 4. dist. 43.
+            <lb ed="#V" n="49"/>quaest. 2. et ideo si fortis Politicus sola
+            <lb ed="#V" n="50"/>ratione naturali se exponit periculo
+            <lb ed="#V" n="51"/>mortis, non se exponit quia scit se
+            <lb ed="#V" n="52"/>melius habiturum post hanc vitam,
+            <lb ed="#V" n="53"/>cum nesciat aliam esse. Hoc
+            praesup<lb ed="#V" n="54" break="no"/>posito arguit sic: Fortis politicus
+            se<lb ed="#V" n="55" break="no"/>cundum rectam rationem exponit se
+            <lb ed="#V" n="56"/>morti propter conservationem
+            Reipu<lb ed="#V" n="57" break="no"/>blicae, quia magis bonum; ergo
+            secun<lb ed="#V" n="58" break="no"/>dum rectam rationem tenetur magis
+            <lb ed="#V" n="59"/>diligere bonum Reipublicae quam
+            vi<lb ed="#V" n="60" break="no"/>tam corporalem; sed bonum divinum,
+            <lb ed="#V" n="61"/>quod est simpliciter summum bonum,
+            <lb ed="#V" n="62"/>incomparabiliter excedit quodcumque
+            <lb ed="#V" n="63"/>bonum Reipublicae; ergo secundum
+            <lb ed="#V" n="64"/>rectam rationem et dictamen naturale
+            <lb ed="#V" n="65"/>potest quis magis diligere illud
+            sum<lb ed="#V" n="66" break="no"/>mum bonum quam seipsum.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>(q) Dicitur hic. Datur hic una
+            res<lb ed="#V" n="68" break="no"/>ponsio, quod ideo fortis Politicus se
+            <lb ed="#V" n="69"/>exponit morti, quia in tali actu
+            expe<lb ed="#V" n="70" break="no"/>ritur maximam jucunditatem, quia
+            <lb ed="#V" n="71"/>tunc experitur maximum bonum
+            vir<lb ed="#V" n="72" break="no"/>tutis, et ideo propter illum actum ita
+            <lb ed="#V" n="73"/>perfectum debet se exponere morti, et
+            <lb ed="#V" n="74"/>plus diligere illum actum virtutis
+            <lb ed="#V" n="75"/>quam salutem propriam.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>(r) Contra. Haec responsio parum
+            <lb ed="#V" n="77"/>valet, imo magis concludit
+            proposi<lb ed="#V" n="78" break="no"/>tum, quia si magis volo esse
+            Reipubli<lb ed="#V" n="79" break="no"/>cae quam esse proprium, et esse actus
+            <lb ed="#V" n="80"/>virtutis, magis diligo rempublicam
+            <lb ed="#V" n="81"/>quam esse proprium, et esse actus
+            vir<lb ed="#V" n="82" break="no"/>tutis. Cum ergo fortis politicus
+            prop<lb ed="#V" n="83" break="no"/>ter conservationem Reipublicae velit
+            <lb ed="#V" n="84"/>se non esse, et per consequens etiam
+            <lb ed="#V" n="85"/>velit illum actum virtutis non esse,
+            <lb ed="#V" n="86"/>quia destructo ipso, destruitur omne
+            <lb ed="#V" n="87"/>fundatum in eo, et vult hoc propter
+            <lb ed="#V" n="88"/>salutem Reipublicae, ergo absolute
+            ma<pb ed="#V" n="370"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>gis diligit esse Reipublicae quam esse
+            <lb ed="#V" n="2"/>proprium, et esse actus virtutis.
+            <lb ed="#V" n="3"/>di. Addit etiam unam persuasionem
+            <lb ed="#V" n="4"/>Theologicam, quia si quis non potest
+            <lb ed="#V" n="5"/>diligere Deum super omnia, nisi
+            ha<lb ed="#V" n="6" break="no"/>beat habitum charitatis, sequitur
+            <lb ed="#V" n="7"/>quod si quis experiretur se diligere
+            <lb ed="#V" n="8"/>Deum super omnia, quod possit
+            natu<lb ed="#V" n="9" break="no"/>raliter cognoscere habitum charitatis
+            <lb ed="#V" n="10"/>sibi inesse, quia sciret talem actum
+            <lb ed="#V" n="11"/>non posse esse sine charitate; hoc
+            <lb ed="#V" n="12"/>autem est manifeste falsum.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>(s) Quantum ad illum articulum.
+            <lb ed="#V" n="14"/>Doctor in isto articulo exponit
+            quomo<lb ed="#V" n="15" break="no"/>do intelligatur quid sit diligere Deum
+            <lb ed="#V" n="16"/>super omnia; dicit quod dilectio Dei
+            <lb ed="#V" n="17"/>super omnia potest intelligi extensive
+            <lb ed="#V" n="18"/>vel intensive. Primo, est magis velle
+            <lb ed="#V" n="19"/>esse Dei in se, quam esse cujuscumque
+            <lb ed="#V" n="20"/>alterius. Secundo modo, quod velit
+            es<lb ed="#V" n="21" break="no"/>se Dei in se majori et intensiori affectu
+            <lb ed="#V" n="22"/>quam esse cujuscumque, ita quod si
+            <lb ed="#V" n="23"/>diligit creaturam dilectione intensiva
+            <lb ed="#V" n="24"/>ut quatuor, dilectio Dei debet esse
+            in<lb ed="#V" n="25" break="no"/>tensior. Loquendo de dilectione Dei
+            <lb ed="#V" n="26"/>super omnia extensiva, clara est
+            con<lb ed="#V" n="27" break="no"/>clusio, quod quilibet magis tenetur
+            <lb ed="#V" n="28"/>velle esse Dei, et cujuscumque
+            perfec<lb ed="#V" n="29" break="no"/>tionis intrinsecae ipsius Dei, quam
+            <lb ed="#V" n="30"/>velle esse cujuscumque creaturae. Sed
+            <lb ed="#V" n="31"/>loquendo de dilectione intensiva,
+            di<lb ed="#V" n="32" break="no"/>cunt quidam quod talis dilectio potest
+            <lb ed="#V" n="33"/>dici major, quia ferventior sive
+            tene<lb ed="#V" n="34" break="no"/>rior, sicut mater diligit filium, vel
+            <lb ed="#V" n="35"/>major, quia firmior et stabilior, sicut
+            <lb ed="#V" n="36"/>pater diligit filium; et dicunt quod
+            <lb ed="#V" n="37"/>quilibet tenetur diligere Deum super
+            <lb ed="#V" n="38"/>omnia intensive, loquendo de
+            dilec<lb ed="#V" n="39" break="no"/>tione firmiori et stabiliori, non autem
+            <lb ed="#V" n="40"/>loquendo de dilectione ferventiori,
+            <lb ed="#V" n="41"/>quia aliquando invenit se quis
+            ferven<lb ed="#V" n="42" break="no"/>tius diligere creaturam, quam alias
+            <lb ed="#V" n="43"/>Deum. Et confirmatur, quia si posset
+            <lb ed="#V" n="44"/>pro statu isto utroque modo diligere
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Deum super omnia, id est, ferventius
+            <lb ed="#V" n="46"/>et firmius, sequitur quod posset
+            im<lb ed="#V" n="47" break="no"/>plere illud praeceptum Deut. 6. Diliges
+            <lb ed="#V" n="48"/>Dominum Deum, etc. cujus oppositum
+            <lb ed="#V" n="49"/>habetur in littera a Magistro et
+            Au<lb ed="#V" n="50" break="no"/>gustino, qui volunt quod hoc
+            praecep<lb ed="#V" n="51" break="no"/>tum sit, nec quod teneamur illud
+            im<lb ed="#V" n="52" break="no"/>plere in via, sed quod implebimus in
+            <lb ed="#V" n="53"/>patria.
+          </p>
+        <!-- </div>
+    <div alias="lycht-d27q1-p7"> -->
+          <p>
+            <lb ed="#V" n="25" type="fixed=372"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>(t) Contra istam distinctionem
+            argui<lb ed="#V" n="27" break="no"/>tur. Hic Doctor arguit contra illam
+            <lb ed="#V" n="28"/>distinctionem, non contra hoc, quod
+            <lb ed="#V" n="29"/>detur amor ferventior, et amor
+            fir<lb ed="#V" n="30" break="no"/>mior, sed arguit contra hoc, quod est
+            <lb ed="#V" n="31"/>magis et minus, quia proprie magis
+            <lb ed="#V" n="32"/>Deum diligere non est ipsum
+            ferven<lb ed="#V" n="33" break="no"/>tius vel tenerius diligere, sed firmius,
+            <lb ed="#V" n="34"/>loquendo semper de amore, qui est
+            <lb ed="#V" n="35"/>actus immediate elicitus a voluntate
+            <lb ed="#V" n="36"/>proprie; et talis amor dicitur major,
+            <lb ed="#V" n="37"/>qui est firmior, et de amore elicito a
+            <lb ed="#V" n="38"/>voluntate non datur communiter ista
+            <lb ed="#V" n="39"/>distinctio, scilicet quod quidam sit
+            <lb ed="#V" n="40"/>tenerior et ferventior, et quidam
+            <lb ed="#V" n="41"/>firmior, quia pro statu isto, teneritudo
+            <lb ed="#V" n="42"/>et fervor amoris sunt magis passiones
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>partis sensitivae, ut patet in multis
+            <lb ed="#V" n="44"/>devotis.
+          </p>
+          <p>
+            <lb ed="#V" n="45"/>Dicit ergo Doctor quod illud super
+            <lb ed="#V" n="46"/>omnia debet intelligi utroque modo,
+            <lb ed="#V" n="47"/>scilicet extensive et intensive, etc.
+          </p>
+        <!-- </div>
+    <div alias="lycht-d27q1-p8"> -->
+          <p>
+            <lb ed="#V" n="35" type="fixed=374"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>(u) De tertio. Dicit Doctor quod
+            <lb ed="#V" n="37"/>quamvis voluntas sine charitate possit
+            <lb ed="#V" n="38"/>Deum diligere super omnia, saltem in
+            <lb ed="#V" n="39"/>statu naturae institutae, ut supra dixit,
+            <lb ed="#V" n="40"/>tamen charitas non est superflua,
+            <lb ed="#V" n="41"/>quia ponitur propter tria. Primo, ut
+            <lb ed="#V" n="42"/>perficiat voluntatem in actu primo,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>ut supra exposui, dist. 23. Secundo, ut
+            <lb ed="#V" n="44"/>per ipsam habeatur actus perfectior
+            <lb ed="#V" n="45"/>et intensior. Et quod dicit de
+            propor<lb ed="#V" n="46" break="no"/>tione Arithmetica et Geometrica, hoc
+            <lb ed="#V" n="47"/>prolixe exposui in 1. dist 17. Tertio
+            <lb ed="#V" n="48"/>ponitur charitas ut per ipsam actus sit
+            <lb ed="#V" n="49"/>Deo acceptus et meritorius vitae
+            aeter<lb ed="#V" n="50" break="no"/>nae, ut prolixe patet a Doctore in 1.
+            <lb ed="#V" n="51"/>dist. 17. et vide quae ibi exposui.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>(x) Ad argumenta principalia. Doctor
+            <lb ed="#V" n="53"/>arguit primo, probando quod in
+            vo<lb ed="#V" n="54" break="no"/>luntate non sit aliqua virtus
+            Theolo<lb ed="#V" n="55" break="no"/>gica inclinans ad diligendum Deum
+            <lb ed="#V" n="56"/>super omnia, quia talis virtus esset
+            <lb ed="#V" n="57"/>quaedam amicitia. Sed secundum
+            <lb ed="#V" n="58"/>Philosophum 8. Ethic. cap. 7. non est
+            <lb ed="#V" n="59"/>amicitia ad Deum, quia Deus
+            incom<lb ed="#V" n="60" break="no"/>parabiliter excedit, et talis excessus
+            <lb ed="#V" n="61"/>secundum eum prohibet amicitiam,
+            <lb ed="#V" n="62"/>ubi vult quod domini ad servum non
+            <lb ed="#V" n="63"/>sit amicitia, quia amicitia est inter
+            <lb ed="#V" n="64"/>aliquo modo aequales; sed inter Deum
+            <lb ed="#V" n="65"/>et creaturam nulla est aequalitas,
+            <lb ed="#V" n="66"/>ergo creatura non potest diligere
+            <lb ed="#V" n="67"/>Deum amore amicitiae, sive in se et
+            <lb ed="#V" n="68"/>propter se, nec per consequens potest
+            <lb ed="#V" n="69"/>habere habitum inclinantem ad talem
+            <lb ed="#V" n="70"/>actum.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Respondet Doctor quod charitas
+            <lb ed="#V" n="72"/>proprie potest dici amicitia, licet non
+            <lb ed="#V" n="73"/>omnino accipiendo amicitiam stricte,
+            <lb ed="#V" n="74"/>sicut accipit Philosophus ibi, scilicet
+            <lb ed="#V" n="75"/>pro habitu inclinante ad amorem
+            <lb ed="#V" n="76"/>alicujus aliquomodo sibi aequalis; sed
+            <lb ed="#V" n="77"/>potest diei amicitia extensive, sicut
+            <lb ed="#V" n="78"/>secundum intentionem Philosophi ad
+            <lb ed="#V" n="79"/>Deum est aliquid excellentius
+            amici<lb ed="#V" n="80" break="no"/>tia.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Secundo arguit sic: Impossibile est
+            <lb ed="#V" n="82"/>nos amare Deum super omnia; ergo
+            <lb ed="#V" n="83"/>nulla virtus in nobis inclinat ad talem
+            <lb ed="#V" n="84"/>actum. Probatur antecedens primo,
+            <lb ed="#V" n="85"/>ex 9. Ethic. cap. 4. amicabilia ad
+            alte<lb ed="#V" n="86" break="no"/>rum mensurantur ex his quae sunt ad
+            <pb ed="#V" n="375"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ipsum, id est, dilectio qua quis se
+            <lb ed="#V" n="2"/>diligit, est mensura dilectionis, qua
+            <lb ed="#V" n="3"/>amicum diligit; sed mensuratum
+            <lb ed="#V" n="4"/>secundum perfectionem non excedit
+            <lb ed="#V" n="5"/>mensuram, imo e contra; cum ergo
+            <lb ed="#V" n="6"/>amicitia, quae est ad alterum,
+            mensu<lb ed="#V" n="7" break="no"/>retur per amicitiam quae est ad
+            seip<lb ed="#V" n="8" break="no"/>sum, sequitur quod amicitia ad
+            seip<lb ed="#V" n="9" break="no"/>sum sit perfectior amicitia, quae est
+            <lb ed="#V" n="10"/>ad Deum, quod est impossibile.
+            Se<lb ed="#V" n="11" break="no"/>cundo, quia amicitia fundatur super
+            <lb ed="#V" n="12"/>unitatem; ergo amicitia, quae est ad
+            <lb ed="#V" n="13"/>seipsum est major amicitia, quae esset
+            <lb ed="#V" n="14"/>ad Deum, patet, quia impossibile est
+            <lb ed="#V" n="15"/>aliquid esse aeque unum amanti, sicut
+            <lb ed="#V" n="16"/>ipse amans sibimet.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>Dicit Doctor quod non tantum ex
+            <lb ed="#V" n="18"/>charitate Deus potest super omnia
+            <lb ed="#V" n="19"/>diligi, sed etiam ex naturalibus saltem
+            <lb ed="#V" n="20"/>in statu naturae institutae. Et dictum
+            <lb ed="#V" n="21"/>Philosophi debet intelligi quantum ad
+            <lb ed="#V" n="22"/>innotescentiam, non quod in veritate
+            <lb ed="#V" n="23"/>una sit mensura alterius.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Ad illud de unitate, dicit quod duae
+            <lb ed="#V" n="25"/>conditiones, concurrunt in objecto
+            ama<lb ed="#V" n="26" break="no"/>bili, scilicet unitas objecti et bonitas, et
+            <lb ed="#V" n="27"/>licet unitas quandoque super et
+            unita<lb ed="#V" n="28" break="no"/>tem, (nam major unitas est hominis
+            <lb ed="#V" n="29"/>ad se, quam habeat ad aliud), tamen
+            <lb ed="#V" n="30"/>bonitas ex alia parte recompensat; licet
+            <lb ed="#V" n="31"/>ergo non sit tanta unitas hominis ad
+            <lb ed="#V" n="32"/>Deum, quanta est hominis ad
+            seip<lb ed="#V" n="33" break="no"/>sum, quia tamen major bonitas est in
+            <lb ed="#V" n="34"/>Deo quam in homine, ideo homo
+            <lb ed="#V" n="35"/>potest illum super omnia diligere.
+            <lb ed="#V" n="36"/>Caetera patent.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

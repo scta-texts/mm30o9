@@ -1,0 +1,1374 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 3, Distinctio 26, Quaestio 1</title>
+        <author ref="#per-FLBca3">Franciscus Lychetus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 3, Distinctio 26, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x15">Vives, Paris, 1894, volume 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="324"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="mm30o9-d1e2910"><!-- mm30o9-b3d26q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum spes sit virtus theologica distincta a fide et caritate</head>
+        <!-- <div alias="lycht-d26q1-p1"> -->
+          <p>
+            <lb ed="#V" n="55" type="fixed=324"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>(a) In ista quaestione. Doctor in ista
+            <lb ed="#V" n="57"/>quaestione duo facit. Primo,
+            praemit<lb ed="#V" n="58" break="no"/>tit aliquas opiniones quas improbat.
+            <lb ed="#V" n="59"/>Secundo, respondet ad quaestionem.
+            <lb ed="#V" n="60"/>Circa primum secundum aliquos
+            vi<lb ed="#V" n="61" break="no"/>detur dicendum quod spes non sit
+            vir<lb ed="#V" n="62" break="no"/>tus Theologica distincta a fide et
+            cha<lb ed="#V" n="63" break="no"/>ritate; et hoc probant duplici ratione,
+            <lb ed="#V" n="64"/>quae infra exponentur, respondendo
+            <lb ed="#V" n="65"/>ad eas.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Et dicit Doctor quod tenendo hanc
+            <lb ed="#V" n="67"/>conclusionem, posset dici quod spes
+            ag<lb ed="#V" n="68" break="no"/>gregat in se fidem et charitatem, et haec
+            <lb ed="#V" n="69"/>certitudo pertinet ad intellectum et
+            <lb ed="#V" n="70"/>fidem; nam intellectus per fidem
+            cer<lb ed="#V" n="71" break="no"/>tus est de objecto praemisso: includit
+            <lb ed="#V" n="72"/>etiam desiderium, quod pertinet ad
+            vo<lb ed="#V" n="73" break="no"/>luntatem, quia actus spei est
+            deside<lb ed="#V" n="74" break="no"/>rare summum bonum, ut infra
+            pate<lb ed="#V" n="75" break="no"/>bit. Et loquitur hic tantum de spe
+            in<lb ed="#V" n="76" break="no"/>fusa, sicut etiam de fide et charitate
+            <lb ed="#V" n="77"/>infusa.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>(b) Quia tamen desiderium non
+            ha<lb ed="#V" n="79" break="no"/>biti. Hic Doctor ponit alium modum
+            <lb ed="#V" n="80"/>dicendi, scilicet quod spes non est
+            <lb ed="#V" n="81"/>habitus distinctus a fide, nec tamen
+            <lb ed="#V" n="82"/>est quid aggregatum ex fide et
+            chari<lb ed="#V" n="83" break="no"/>tate. Dicit ergo sic: Quia tamen
+            desi<lb ed="#V" n="84" break="no"/>derium non habiti potest esse votuntatis
+            <lb ed="#V" n="85"/>sine charitate, et totus actus spei,
+            scili<lb ed="#V" n="86" break="no"/>cet sperare, et ipsa spes, scilicet
+            habi<pb ed="#V" n="325"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tualis, potest esse informis, scilicet sine
+            <lb ed="#V" n="2"/>charitate, ideo melius videtur esse
+            po<lb ed="#V" n="3" break="no"/>nendum quod spes in tantum convenit
+            <lb ed="#V" n="4"/>cum fide, quod non est alia virtus. Non
+            <lb ed="#V" n="5"/>enim est alius habitus formaliter
+            uni<lb ed="#V" n="6" break="no"/>versalis et particularis, sicut patet in
+            <lb ed="#V" n="7"/>omnibus habitibus intellectualibus.
+            Eo<lb ed="#V" n="8" break="no"/>dem enim habitu quis cognoscit
+            de<lb ed="#V" n="9" break="no"/>monstrative omnem hominem esse
+            <lb ed="#V" n="10"/>risibilem, et hunc hominem esse
+            ri<lb ed="#V" n="11" break="no"/>sibilem; sed fides est respectu
+            universa<lb ed="#V" n="12" break="no"/>lis quia fides teneo, sive certus sum
+            om<lb ed="#V" n="13" break="no"/>nem justum finaliter esse salvandum,
+            <lb ed="#V" n="14"/>et sic non tantum habeo fidem de me
+            <lb ed="#V" n="15"/>finaliter salvando, sed simpliciter de
+            <lb ed="#V" n="16"/>omni justo.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>Nec illa specificatio variat habitum.
+            <lb ed="#V" n="18"/>sicut nec in aliis habitibus
+            intellectuali<lb ed="#V" n="19" break="no"/>bus, sicut est idem habitus, quo quis
+            <lb ed="#V" n="20"/>scit omnem hominem esse risibilem,
+            <lb ed="#V" n="21"/>et quo quis scit omnem hominem
+            fu<lb ed="#V" n="22" break="no"/>turum esse risibilem; et probat quod
+            <lb ed="#V" n="23"/>talis futuritio non variet aliquo modo
+            <lb ed="#V" n="24"/>objectum, ita quod distinguat ipsum,
+            <lb ed="#V" n="25"/>et sit talis ratio formalis objecti, quod
+            <lb ed="#V" n="26"/>requirat alium habitum; et probat
+            <lb ed="#V" n="27"/>primo, quia idem est habitus
+            univer<lb ed="#V" n="28" break="no"/>salis et particularis, ut supra patuit.
+            <lb ed="#V" n="29"/>Sicut ergo de ista est fides, omnis
+            fina<lb ed="#V" n="30" break="no"/>liter justus salvabitur, ita et de ista:
+            <lb ed="#V" n="31"/>Ego si sim finaliter justus, salvabor,
+            <lb ed="#V" n="32"/>est scilicet fides.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>Secundo, quia si futuritio sit
+            forma<lb ed="#V" n="34" break="no"/>lis ratio objecti, sequeretur quod spes
+            <lb ed="#V" n="35"/>non esset virtus Theologica; patet,
+            <lb ed="#V" n="36"/>quia objectum Theologicum est
+            aeter<lb ed="#V" n="37" break="no"/>num, et si futuritio, quae est
+            tempora<lb ed="#V" n="38" break="no"/>lis, esset ratio formalis objecti,
+            ob<lb ed="#V" n="39" break="no"/>jectum non esset aeternum; nam si
+            <lb ed="#V" n="40"/>objectum esset aliquod aeternum,
+            <lb ed="#V" n="41"/>multo fortius ratio formalis objecti
+            <lb ed="#V" n="42"/>erit aeterna, quia a ratione formali
+            <lb ed="#V" n="43"/>habet quod sit objectum, ut alias
+            ex<lb ed="#V" n="44" break="no"/>posui.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Tertio si futuritio requirat proprium
+            <lb ed="#V" n="46"/>habitum, pari ratione et praeteritio, et
+            <lb ed="#V" n="47"/>ita non erit idem habitus fidei de
+            prae<lb ed="#V" n="48" break="no"/>teritis et futuris, et sic patent isti duo
+            <lb ed="#V" n="49"/>modi. Haec tamen via, quae negat
+            <lb ed="#V" n="50"/>spem esse alium habitum a fide et
+            <lb ed="#V" n="51"/>charitate, non placet, quia videtur
+            ob<lb ed="#V" n="52" break="no"/>viare auctoritatibus Sanctorum
+            inni<lb ed="#V" n="53" break="no"/>tentibus dicto Pauli 1. ad Cor. 13.
+            sci<lb ed="#V" n="54" break="no"/>licet: Nunc autem manent fides, spes,
+            <lb ed="#V" n="55"/>charitas, tria haec, ubi expresse ponit
+            <lb ed="#V" n="56"/>tres habitus Theologicos.
+          </p>
+        <!-- </div>
+    <div alias="lycht-d26q1-p2"> -->
+          <p>
+            <lb ed="#V" n="7" type="fixed=326"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>(d) Alio modo posset dici. Hic ponit
+            <lb ed="#V" n="9"/>alium modum dicendi, et est, quod
+            <lb ed="#V" n="10"/>spes est habitus Theologicus; et
+            poni<lb ed="#V" n="11" break="no"/>tur tantum ut moderativum
+            passio<lb ed="#V" n="12" break="no"/>num, quia contingit sperare bonum
+            <lb ed="#V" n="13"/>futurum excessive, ut patet in
+            praesu<lb ed="#V" n="14" break="no"/>mente, et diminute, ut patet in
+            des<lb ed="#V" n="15" break="no"/>perante; et sic talis passio, quae est
+            <lb ed="#V" n="16"/>sperare, indiget aliquo moderamine,
+            <lb ed="#V" n="17"/>quo quis nec excessive, nec diminute
+            <lb ed="#V" n="18"/>speret bonum aeternum, et talis
+            habi<lb ed="#V" n="19" break="no"/>tus sic moderativus dicitur spes.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>(e) Contra hoc objicitur. Dicit Doctor
+            <lb ed="#V" n="21"/>quod si spes poneretur ut virtus
+            mo<lb ed="#V" n="22" break="no"/>derativa, tunc non esset Theologica,
+            <lb ed="#V" n="23"/>sed tantum moralis, ideo enim
+            mora<lb ed="#V" n="24" break="no"/>lis est moderativa passionum, quia
+            ta<lb ed="#V" n="25" break="no"/>lis virtus proprie facit prompte,
+            faci<lb ed="#V" n="26" break="no"/>liter et delectabiliter operari, ex hoc
+            <lb ed="#V" n="27"/>quod ex frequentatis actibus est
+            cau<lb ed="#V" n="28" break="no"/>sata, et sic habens virtutem faciliter
+            <lb ed="#V" n="29"/>moderatur passiones, vel prohibendo
+            <lb ed="#V" n="30"/>ne insint, vel diminuendo, de quo
+            <lb ed="#V" n="31"/>moderamine vide Doctorem in primo
+            <lb ed="#V" n="32"/>distinct. 17. Virtus autem Theologica
+            <lb ed="#V" n="33"/>non sic facit delectabiliter operari,
+            <lb ed="#V" n="34"/>quia illud dictum de habitibus,
+            scili<lb ed="#V" n="35" break="no"/>cet quod facit prompte et
+            delectabili<lb ed="#V" n="36" break="no"/>ter operari, intelligitur de habitibus
+            <lb ed="#V" n="37"/>acquisitis, et non de infusis, ut patet
+            <lb ed="#V" n="38"/>a Doctore in primo, ubi supra.
+          </p>
+        <!-- </div>
+    <div alias="lycht-d26q1-p3"> -->
+          <p>
+            <lb ed="#V" n="14" type="fixed=329"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="15"/>(f) Alio modo dicitur. Hic recitat
+            <lb ed="#V" n="16"/>opinionem Henrici 8. quodlib. quaest.
+            <lb ed="#V" n="17"/>15. qui ponit spem esse alium habitum
+            <lb ed="#V" n="18"/>a charitate; et quamvis charitas et
+            <lb ed="#V" n="19"/>spes sint in eadem potentia, scilicet
+            <lb ed="#V" n="20"/>voluntate, non tamen sunt in eadem
+            <lb ed="#V" n="21"/>vi, quia ponit in voluntate unam vim,
+            <lb ed="#V" n="22"/>quae dicitur concupiscibilis, et aliam
+            <lb ed="#V" n="23"/>quae dicitur irascibilis, sicut etiam
+            <lb ed="#V" n="24"/>in eodem sensitivo ponuntur istae duae
+            <lb ed="#V" n="25"/>virtutes, scilicet irascibilis et
+            concu<lb ed="#V" n="26" break="no"/>piscibilis; et quia charitas proprie est
+            <lb ed="#V" n="27"/>in concupiscibili, et spes proprie in
+            <lb ed="#V" n="28"/>irascibili, ideo isti duo habitus
+            dicun<lb ed="#V" n="29" break="no"/>tur distingui propter distincta
+            sub<lb ed="#V" n="30" break="no"/>jecta. Et nititur probare quomodo in
+            <lb ed="#V" n="31"/>eadem voluntate sint istae duae
+            virtu<lb ed="#V" n="32" break="no"/>tes, scilicet irascibilis et
+            concupiscibi<lb ed="#V" n="33" break="no"/>lis. Et Doctor hoc principaliter non
+            <lb ed="#V" n="34"/>improbat, quia non negat irascibilem
+            <lb ed="#V" n="35"/>in voluntate, ut infra patebit, dist.
+            <lb ed="#V" n="36"/>34. sed improbat modum dicendi et
+            <lb ed="#V" n="37"/>ponendi ipsam irascibilem. Probat
+            <lb ed="#V" n="38"/>ergo Henricus has duas virtutes,
+            sci<lb ed="#V" n="39" break="no"/>licet irascibilem et concupiscibilem
+            <lb ed="#V" n="40"/>esse in eadem voluntate; et primo
+            <lb ed="#V" n="41"/>per comparationem ad objecta, et
+            di<lb ed="#V" n="42" break="no"/>cit quod objectum concupiscibilis est
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>bonum delectabile, objectum autem
+            <lb ed="#V" n="44"/>irascibilis est bonum arduum;
+            bo<lb ed="#V" n="45" break="no"/>num enim delectabile est bonum
+            con<lb ed="#V" n="46" break="no"/>cupitum propter commodum, et
+            bo<lb ed="#V" n="47" break="no"/>num arduum est bonum appetitum
+            <lb ed="#V" n="48"/>quo voluntas appetit superare omnia
+            <lb ed="#V" n="49"/>sibi contraria; et istae conditiones,
+            <lb ed="#V" n="50"/>quae sunt ejusdem boni non sub
+            ea<lb ed="#V" n="51" break="no"/>dem ratione objecti, non tantum sunt
+            <lb ed="#V" n="52"/>conditiones boni, ut nunc, sed etiam
+            <lb ed="#V" n="53"/>boni simpliciter. Vult dicere, quod
+            <lb ed="#V" n="54"/>ista conditio, quae est appetere bonum
+            <lb ed="#V" n="55"/>delectabile, ut commodum, non
+            respi<lb ed="#V" n="56" break="no"/>cit ipsum delectabile, ut nunc;
+            simi<lb ed="#V" n="57" break="no"/>liter alia conditio, quae est appetere
+            bo<lb ed="#V" n="58" break="no"/>num arduum, quia appetere bonum ut
+            <lb ed="#V" n="59"/>nunc, praecise solis potentiis
+            sensiti<lb ed="#V" n="60" break="no"/>vis competit, quae tantum appetunt
+            <lb ed="#V" n="61"/>bona praesentia. Ex quo ergo voluntas
+            <lb ed="#V" n="62"/>potest appetere bonum delectabile
+            sim<lb ed="#V" n="63" break="no"/>pliciter, et similiter bonum arduum,
+            <lb ed="#V" n="64"/>et non tantum ut nunc; igitur cum
+            <lb ed="#V" n="65"/>isti actus, scilicet appetere sic et sic,
+            <lb ed="#V" n="66"/>sint actus irascibilis et
+            concupiscibi<lb ed="#V" n="67" break="no"/>lis, et isti actus competant voluntati,
+            <lb ed="#V" n="68"/>sequitur quod in voluntate sint istae
+            <lb ed="#V" n="69"/>duae virtutes.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>(g) Contra illam opinionem arguo.
+            <lb ed="#V" n="71"/>Doctor improbat hanc rationem,
+            quae<lb ed="#V" n="72" break="no"/>rendo quid Henricus intelligat per
+            bo<lb ed="#V" n="73" break="no"/>num arduum, quia aut intelligit
+            bo<lb ed="#V" n="74" break="no"/>num absens tantum, et tunc
+            irascibi<lb ed="#V" n="75" break="no"/>lis non erit in patria, patet; si enim
+            <lb ed="#V" n="76"/>objectum irascibilis est tantum
+            bo<lb ed="#V" n="77" break="no"/>num aeternum absens, cum tale
+            bo<lb ed="#V" n="78" break="no"/>num non sit ibi absens, sequitur quod
+            <lb ed="#V" n="79"/>non erit irascibilis in patria, et per
+            <lb ed="#V" n="80"/>consequens spei non succedit tentio,
+            <lb ed="#V" n="81"/>quia oporteret quod tentio esset in
+            ea<lb ed="#V" n="82" break="no"/>dem potentia et vi cum spe, quia
+            suc<lb ed="#V" n="83" break="no"/>cedit sibi, patet, quia enim visio
+            suc<lb ed="#V" n="84" break="no"/>cedit fidei, ideo fides et visio sunt
+            prae<lb ed="#V" n="85" break="no"/>cise in eadem vi; cum ergo tentio
+            suc<lb ed="#V" n="86" break="no"/>cedat spei, et spes per te est in
+            irasci<pb ed="#V" n="330"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>bili, ergo tentio, quae est proprie in
+            <lb ed="#V" n="2"/>patria, erit in irascibili, quae tamen
+            <lb ed="#V" n="3"/>irascibilis non erit in patria si sibi
+            as<lb ed="#V" n="4" break="no"/>signetur bonum absens. Aut per
+            bo<lb ed="#V" n="5" break="no"/>num arduum intelligit bonum absens
+            <lb ed="#V" n="6"/>excedens facultatem potentiae, et hoc
+            <lb ed="#V" n="7"/>non, quia tunc in Deo non esset
+            iras<lb ed="#V" n="8" break="no"/>cibilis, quia nullum est objectum
+            ex<lb ed="#V" n="9" break="no"/>cedens respectu ejus; igitur nec
+            ten<lb ed="#V" n="10" break="no"/>tio. Patet consequentia, quia tentio
+            <lb ed="#V" n="11"/>est simpliciter in eadem vi in qua est
+            <lb ed="#V" n="12"/>spes, et per consequens tentio est in
+            <lb ed="#V" n="13"/>irascibili, etsi irascibilis non sit in
+            <lb ed="#V" n="14"/>Deo, nec tentio, quod est falsum, quia
+            <lb ed="#V" n="15"/>non videtur negandum quod in Deo
+            <lb ed="#V" n="16"/>sit tentio respectu sui ipsius; licet
+            <lb ed="#V" n="17"/>enim in Deo non possit esse spes, quia
+            <lb ed="#V" n="18"/>notat imperfectionem, tamen in Deo
+            <lb ed="#V" n="19"/>potest esse vera tentio, sicut etiam in
+            <lb ed="#V" n="20"/>Deo non ponitur fides propter
+            imper<lb ed="#V" n="21" break="no"/>fectionem, tamen ponitur
+            perfectissi<lb ed="#V" n="22" break="no"/>ma visio. Aut per bonum arduum
+            in<lb ed="#V" n="23" break="no"/>telligit bonum appetibile, sive
+            ama<lb ed="#V" n="24" break="no"/>bile excedens omnia alia sibi
+            contra<lb ed="#V" n="25" break="no"/>ria, et tunc male ponitur bonum
+            ar<lb ed="#V" n="26" break="no"/>duum objectum spei distinctum
+            con<lb ed="#V" n="27" break="no"/>tra objectum charitatis, quia charitas
+            <lb ed="#V" n="28"/>inter omnes virtutes maxime respicit
+            <lb ed="#V" n="29"/>Deum sub ratione amabilis, quia res.
+            <lb ed="#V" n="30"/>picit sub ratione boni infiniti, ut
+            in<lb ed="#V" n="31" break="no"/>fra patebit dist. 27.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>(h) Praeterea, aut intelligitur
+            appre<lb ed="#V" n="33" break="no"/>tiabilitas ista in objecto aptitudinaliter,
+            <lb ed="#V" n="34"/>aut actualiter. Cum dicit quod
+            objec<lb ed="#V" n="35" break="no"/>tum irascibilis est bonum arduum
+            ap<lb ed="#V" n="36" break="no"/>petibile; si aptitudinaliter, hoc
+            ma<lb ed="#V" n="37" break="no"/>xime pertinet ad objectum charitatis,
+            <lb ed="#V" n="38"/>quia respicit ipsum bonum sub
+            ra<lb ed="#V" n="39" break="no"/>tione infiniti in se, et tunc si bonum
+            <lb ed="#V" n="40"/>arduum hoc est appetibile super
+            om<lb ed="#V" n="41" break="no"/>nia, ponitur objectum irascibilis, et
+            <lb ed="#V" n="42"/>per consequens objectum spei, cum
+            <lb ed="#V" n="43"/>tale objectum sit maxime objectum
+            <lb ed="#V" n="44"/>charitatis, sequitur quod objectum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>spei non distinguitur ab objecto
+            cha<lb ed="#V" n="46" break="no"/>ritatis. Si actualiter, ita quod dicatur
+            <lb ed="#V" n="47"/>appetibile pro quanto voluntas sic
+            ip<lb ed="#V" n="48" break="no"/>sum appretiatur, et sic appretiari
+            <lb ed="#V" n="49"/>passive ponatur ratio objecti
+            irascibi<lb ed="#V" n="50" break="no"/>lis, et tunc male ponitur, quia talis
+            <lb ed="#V" n="51"/>appretiatio actualis est tantum per
+            <lb ed="#V" n="52"/>actum potentiae sic appretiantis;
+            <lb ed="#V" n="53"/>modo objectum potentiae, et ratio
+            for<lb ed="#V" n="54" break="no"/>malis illius objecti est prius
+            quocum<lb ed="#V" n="55" break="no"/>que actu potentiae; sed appretiari sic
+            <lb ed="#V" n="56"/>est posterior actu, cum sic appretiari
+            <lb ed="#V" n="57"/>sit per actum potentiae vel vis.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>(i) Praeterea, actus adaequatus. Per
+            <lb ed="#V" n="59"/>hanc rationem Doctor probat quod
+            <lb ed="#V" n="60"/>bonum arduum acceptum secundum
+            <lb ed="#V" n="61"/>aliquem trium modorum non est
+            ob<lb ed="#V" n="62" break="no"/>jectum irascibilis, quia objectum
+            po<lb ed="#V" n="63" break="no"/>tentiae est terminativum actus
+            adae<lb ed="#V" n="64" break="no"/>quati potentiae, patet discurrendo per
+            <lb ed="#V" n="65"/>omnia objecta formalia. Sonus enim
+            <lb ed="#V" n="66"/>qui ponitur objectum potentiae
+            au<lb ed="#V" n="67" break="no"/>ditivae, terminat actum audiendi, qui
+            <lb ed="#V" n="68"/>adaequatur potentiae auditivae; sed in
+            <lb ed="#V" n="69"/>proposito, actus adaequatus irascibili
+            <lb ed="#V" n="70"/>est irasci, quod magis infra patebit
+            <lb ed="#V" n="71"/>dist. 34. sed irasci non respicit bonum
+            <lb ed="#V" n="72"/>arduum, quod secundum ipsum est
+            <lb ed="#V" n="73"/>appetibile, sed respicit ipsam
+            punitio<lb ed="#V" n="74" break="no"/>nem, vel objectum punibile;
+            puni<lb ed="#V" n="75" break="no"/>bile autem, ut sic, sive punitio, non
+            <lb ed="#V" n="76"/>est objectum appetibile. Haec etiam
+            <lb ed="#V" n="77"/>ratio improbat secundam rationem
+            <lb ed="#V" n="78"/>Henrici, quae probabat conclusionem
+            <lb ed="#V" n="79"/>intentam, quae talis est, irasci est
+            ac<lb ed="#V" n="80" break="no"/>tus solius irascibilis, et talis actus est
+            <lb ed="#V" n="81"/>in voluntate, qui irascimini et nolite,
+            <lb ed="#V" n="82"/>etc. et ita irascibilis erit in voluntate.
+            <lb ed="#V" n="83"/>Dicit ergo Doctor quod si irasci est
+            ac<lb ed="#V" n="84" break="no"/>tus irascibilis, et in hoc verum dicit,
+            <lb ed="#V" n="85"/>statim sequitur contra eum, quod
+            <lb ed="#V" n="86"/>irascibilis non distinguitur a
+            concu<lb ed="#V" n="87" break="no"/>piscibili per hoc, quod respicit pro
+            <lb ed="#V" n="88"/>objecto bonum arduum, quia irasci
+            <pb ed="#V" n="331"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>nullo modo respicit tale bonum;
+            <lb ed="#V" n="2"/>ergo.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Tertio principaliter arguit Henricus
+            <lb ed="#V" n="4"/>ex comparatione diversorum actuum
+            <lb ed="#V" n="5"/>ad invicem, quia concupiscibili
+            vo<lb ed="#V" n="6" break="no"/>lenti in contemplatione quiescere
+            <lb ed="#V" n="7"/>quandoque insurgit voluntas ad
+            impu<lb ed="#V" n="8" break="no"/>gnandum vitia impedientia
+            contem<lb ed="#V" n="9" break="no"/>plationem.
+            <lb ed="#V" n="10"/>(k) Contra tertiam rationem
+            argui<lb ed="#V" n="11" break="no"/>tur. Doctor praemittit unum, quod
+            <lb ed="#V" n="12"/>quando aliquid impedit per actum
+            <lb ed="#V" n="13"/>positivum impugnans ne impediat,
+            <lb ed="#V" n="14"/>impugnat per actum positivum; sed
+            <lb ed="#V" n="15"/>quando impedit tantum privative,
+            <lb ed="#V" n="16"/>tunc impugnanti sufficit fugere illud,
+            <lb ed="#V" n="17"/>sed vitia et peccata, cum simul non
+            <lb ed="#V" n="18"/>insurgant cum contemplatione,
+            im<lb ed="#V" n="19" break="no"/>pediunt tantum privative, et non per
+            <lb ed="#V" n="20"/>actum positivum, et per consequens
+            <lb ed="#V" n="21"/>non oportet actum illum expugnare,
+            <lb ed="#V" n="22"/>nisi tantum privative, scilicet ne
+            ta<lb ed="#V" n="23" break="no"/>lis actus insit; sed cujus est
+            concu<lb ed="#V" n="24" break="no"/>piscere objectum honestum, ejus est
+            <lb ed="#V" n="25"/>effugere inhonestum, ut magis
+            pate<lb ed="#V" n="26" break="no"/>bit in 4. dist. 14. quaest. 2. ubi Doctor
+            <lb ed="#V" n="27"/>vult quod si virtus inclinat ad actum
+            <lb ed="#V" n="28"/>rectum consequendum, eadem
+            incli<lb ed="#V" n="29" break="no"/>nat ad oppositum fugiendum, multo
+            <lb ed="#V" n="30"/>fortius potentia, quae appetit bonum
+            <lb ed="#V" n="31"/>delectabile, eadem declinat
+            noci<lb ed="#V" n="32" break="no"/>vum.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>(I) Praeterea sicut vis. Ista ratione
+            <lb ed="#V" n="34"/>Doctor probat quod vis
+            concupiscibi<lb ed="#V" n="35" break="no"/>lis non sit ponenda in voluntate, ut
+            <lb ed="#V" n="36"/>alia a potentia voluntatis, quia
+            seque<lb ed="#V" n="37" break="no"/>retur quod actus ejus, scilicet sperare,
+            <lb ed="#V" n="38"/>esset nobilior actu charitatis, quia est
+            <lb ed="#V" n="39"/>actus voluntatis informatae a
+            chari<lb ed="#V" n="40" break="no"/>tate, sicut actus spei esset actus
+            con<lb ed="#V" n="41" break="no"/>cupiscibilis informatae spe. Quod
+            au<lb ed="#V" n="42" break="no"/>tem sequatur, patet, quia sicut vis
+            <lb ed="#V" n="43"/>illa praesupponit potentiam in qua est,
+            <lb ed="#V" n="44"/>ita praesupponit objectum potentiae,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>et per consequens voluntas, ut prior
+            <lb ed="#V" n="46"/>concupiscibili, habebit actum suum
+            <lb ed="#V" n="47"/>circa objectum, concupiscibilis erit
+            <lb ed="#V" n="48"/>nobilior actu voluntatis; patet, quia
+            <lb ed="#V" n="49"/>in omnibus actibus consequentibus
+            <lb ed="#V" n="50"/>et addentibus sibi invicem, posterior
+            <lb ed="#V" n="51"/>est nobilior, patet, nam actus
+            volun<lb ed="#V" n="52" break="no"/>tatis, qui necessario includit actum
+            <lb ed="#V" n="53"/>intellectus, est nobilior actu
+            intel<lb ed="#V" n="54" break="no"/>lectus.
+          </p>
+        <!-- </div>
+    <div alias="lycht-d26q1-p4"> -->
+          <p>
+            <lb ed="#V" n="74" type="fixed=334"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>(m) Ad quaestionem igitur. Nunc
+            Do<lb ed="#V" n="76" break="no"/>ctor respondet ad quaestionem, tenendo
+            <lb ed="#V" n="77"/>expresse quod spes est virtus
+            Theolo<lb ed="#V" n="78" break="no"/>gica distincta a fide et charitate, et
+            <lb ed="#V" n="79"/>nobis infusa; et quod hoc sit verum
+            <lb ed="#V" n="80"/>probat ex actu spei, per quem
+            argui<lb ed="#V" n="81" break="no"/>tive possumus cognoscere spem inesse
+            <lb ed="#V" n="82"/>nobis, et hoc per omnes
+            circumstan<lb ed="#V" n="83" break="no"/>tias illius actus; si enim experimur in
+            <lb ed="#V" n="84"/>nobis actum intelligendi, per illum
+            <lb ed="#V" n="85"/>concludimus potentiam intellectivam,
+            <lb ed="#V" n="86"/>inesse nobis, sic similiter si
+            experi<pb ed="#V" n="335"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>mur in nobis actum spei
+            circumstan<lb ed="#V" n="2" break="no"/>tionatum circumstantiis debitis, per
+            <lb ed="#V" n="3"/>illud argumentum concludimus
+            habi<lb ed="#V" n="4" break="no"/>tum spei inesse nobis. Dicit ergo
+            Do<lb ed="#V" n="5" break="no"/>ctor sic: Experimur in nobis hunc
+            <lb ed="#V" n="6"/>actum, scilicet desiderare bonum
+            infini<lb ed="#V" n="7" break="no"/>tum inesse nobis, et hoc a Deo seipsum
+            <lb ed="#V" n="8"/>nobis liberaliter conferente, non quidem
+            <lb ed="#V" n="9"/>primo, sed propter aliquid aliud
+            accep<lb ed="#V" n="10" break="no"/>tum sibi ordinatum ad iltud, ut propter
+            <lb ed="#V" n="11"/>merita iste actus est bonus, quia debite
+            <lb ed="#V" n="12"/>circumstantionatus; igitur ad ipsum
+            po<lb ed="#V" n="13" break="no"/>test esse virtus inclinans, et talis virtus
+            <lb ed="#V" n="14"/>non videtur posse esse nisi habitus
+            <lb ed="#V" n="15"/>spei, et probat omnes circumstantias
+            <lb ed="#V" n="16"/>supradictas. Et antequam ostendam
+            <lb ed="#V" n="17"/>illas circumstantias, praemitto aliqua:
+            <lb ed="#V" n="18"/>Primum, quod quando dicit Doctor
+            <lb ed="#V" n="19"/>quod experimur in nobis, etc. non
+            de<lb ed="#V" n="20" break="no"/>bet intelligi, quod mere naturaliter
+            <lb ed="#V" n="21"/>possimus experiri talem actum inesse
+            <lb ed="#V" n="22"/>nobis, quod patet, quia via naturali
+            <lb ed="#V" n="23"/>nemo post cognoscere, quod bonum
+            <lb ed="#V" n="24"/>infinitum communicet se nobis
+            libe<lb ed="#V" n="25" break="no"/>raliter. Et posito, non tamen
+            conces<lb ed="#V" n="26" break="no"/>so, quod illud possimus experiri, non
+            <lb ed="#V" n="27"/>tamen naturaliter esset nobis notum
+            <lb ed="#V" n="28"/>quod communicet se nobis propter
+            <lb ed="#V" n="29"/>talia et talia merita, ut patet a Doctore
+            <lb ed="#V" n="30"/>in prolog. quaest. 1. Sed praesupposita
+            <lb ed="#V" n="31"/>fide de omnibus articulis, quorum
+            <lb ed="#V" n="32"/>unus est, quod Deus finaliter dat
+            seip<lb ed="#V" n="33" break="no"/>sum in praemium merenti, tunc stante
+            <lb ed="#V" n="34"/>tali fide possumus experiri talem
+            <lb ed="#V" n="35"/>actum, posse inesse nobis. Secundum
+            <lb ed="#V" n="36"/>est, quod ad omnem actum debite
+            cir<lb ed="#V" n="37" break="no"/>cumstantionatum potest esse aliqua
+            <lb ed="#V" n="38"/>virtus inclinans. Hoc patet a Doctore
+            <lb ed="#V" n="39"/>in prolog. quaest. ult. et in primo, dist.
+            <lb ed="#V" n="40"/>17. et in quarto, dist. 14. quaest. 2.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>(n) Prima circumstantia. Istis
+            prae<lb ed="#V" n="42" break="no"/>missis declarat circumstantias
+            requi<lb ed="#V" n="43" break="no"/>a sitas ad actum spei. Actus enim spei
+            <lb ed="#V" n="44"/>est actus desiderii, sive desiderare.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Desiderare enim est aliquid velle
+            con<lb ed="#V" n="46" break="no"/>cupiscentiae, ut patet a Doctore in
+            se<lb ed="#V" n="47" break="no"/>cundo, dist. 6. quaest. 2. et tale velle,
+            <lb ed="#V" n="48"/>quod est desiderare, non est respectu
+            <lb ed="#V" n="49"/>objecti nisi absentis, quia
+            deside<lb ed="#V" n="50" break="no"/>rium proprie respicit absens; et haec
+            <lb ed="#V" n="51"/>est prima circumstantia illius actus,
+            <lb ed="#V" n="52"/>quae est velle, bonum absens. Deus
+            <lb ed="#V" n="53"/>enim viatori est absens in ratione
+            ob<lb ed="#V" n="54" break="no"/>jecti perfecte habendi.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>Quarta circumstantia est ibi: Non
+            <lb ed="#V" n="56"/>quidem primo, sed propter aliquid aliud
+            <lb ed="#V" n="57"/>acceptum sibi ordinatum ad illud; et
+            <lb ed="#V" n="58"/>haec est circumstantia dispositionis
+            <lb ed="#V" n="59"/>ordinatae ad tale bonum, quia
+            dispo<lb ed="#V" n="60" break="no"/>suit sapientia divina non perfecte
+            com<lb ed="#V" n="61" break="no"/>municare se, nisi aliquo opere
+            meri<lb ed="#V" n="62" break="no"/>torio praeaccepto. Et hoc debet intelligi
+            <lb ed="#V" n="63"/>de potentia Dei ordinata, quia de
+            po<lb ed="#V" n="64" break="no"/>tentia absoluta potuit perfecte se
+            com<lb ed="#V" n="65" break="no"/>municare nullo opere nostro
+            praeceden<lb ed="#V" n="66" break="no"/>te, ut patet a Doctore in primo, dist. 17.
+            <lb ed="#V" n="67"/>et de facto patet de anima Christi, quae
+            <lb ed="#V" n="68"/>ab instanti conceptionis fuit summe
+            <lb ed="#V" n="69"/>beata nullo merito praecedente, ut
+            su<lb ed="#V" n="70" break="no"/>perius patuit dist. 18. Cum ergo talis
+            <lb ed="#V" n="71"/>actus insit virtuti appetitivae, scilicet
+            <lb ed="#V" n="72"/>voluntati, et per consequens (cum sit
+            <lb ed="#V" n="73"/>rectus) ad ipsum potest esse virtus
+            ap<lb ed="#V" n="74" break="no"/>petitiva inclinans, nam ad eamdem
+            <lb ed="#V" n="75"/>potentiam pertinent actus, et virtus
+            <lb ed="#V" n="76"/>inclinans ad illum actum, ut infra
+            <lb ed="#V" n="77"/>patebit dist. 33.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>(o) Haec etiam virtus inclinans est
+            <lb ed="#V" n="79"/>virtus Theologica, patet, quia illa
+            vir<lb ed="#V" n="80" break="no"/>tus quae immediate respicit Deum pro
+            <lb ed="#V" n="81"/>objecto est virtus Theologica, sed
+            vir<lb ed="#V" n="82" break="no"/>tus spei respicit Deum sub ratione
+            <lb ed="#V" n="83"/>Deitatis pro objecto immediato, et per
+            <lb ed="#V" n="84"/>consequens est virtus Theologica. Et
+            <lb ed="#V" n="85"/>dicit Doctor quod per omnia alia, quae
+            <lb ed="#V" n="86"/>adduntur ipsi objecto, puta quod
+            ab<lb ed="#V" n="87" break="no"/>sens, quod debitum mihi, non tollitur
+            <lb ed="#V" n="88"/>ratio objecti, ut objectum est, quia
+            <pb ed="#V" n="336"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>enim desidero illud mihi, vel tali vel
+            <lb ed="#V" n="2"/>tali, non tollitur quin desiderem
+            <lb ed="#V" n="3"/>illud, ut objectum; igitur illud
+            deside<lb ed="#V" n="4" break="no"/>rare, quod est actus spei, est circa
+            <lb ed="#V" n="5"/>bonum infinitum, et ita aeternum, et
+            <lb ed="#V" n="6"/>sic est virtus Theologica.
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>Unde nota, quod nec ratio formalis
+            <lb ed="#V" n="8"/>objecti nec ipsum objectum dicitur
+            <lb ed="#V" n="9"/>variari per alium et alium respectum,
+            <lb ed="#V" n="10"/>sicut color sub ratione formali sua est
+            <lb ed="#V" n="11"/>objectum terminativum actus videndi;
+            <lb ed="#V" n="12"/>talis ratio formalis objecti respectu
+            ta<lb ed="#V" n="13" break="no"/>lis actus non dicitur variari, puta,
+            <lb ed="#V" n="14"/>per hoc quod visio terminetur ad
+            co<lb ed="#V" n="15" break="no"/>lorem, ut existentem in tali vel in tali
+            <lb ed="#V" n="16"/>subjecto, sive quod terminetur ad
+            co<lb ed="#V" n="17" break="no"/>lorem, ut magis vel minus propinquum,
+            <lb ed="#V" n="18"/>et hujusmodi. Visio enim primo
+            ter<lb ed="#V" n="19" break="no"/>minatur ad colorem in se sub sua
+            ra<lb ed="#V" n="20" break="no"/>tione formali, et sic color sub ratione
+            <lb ed="#V" n="21"/>coloris ponitur objectum
+            terminati<lb ed="#V" n="22" break="no"/>vum actus videndi. Similiter actus
+            <lb ed="#V" n="23"/>fidei habet pro objecto ipsum Deum
+            <lb ed="#V" n="24"/>sub ratione Deitatis; licet enim de
+            <lb ed="#V" n="25"/>communi lege non cognoscam Deum
+            <lb ed="#V" n="26"/>sub ratione Deitatis, tamen fides
+            po<lb ed="#V" n="27" break="no"/>test Deum sub ratione Deitatis habere
+            <lb ed="#V" n="28"/>pro objecto immediato; sicut etiam
+            <lb ed="#V" n="29"/>Theologia in nobis habet Deum sub
+            ra<lb ed="#V" n="30" break="no"/>tione Deitatis pro objecto immediato,
+            <lb ed="#V" n="31"/>ut patet a Doctore in prolog. quaest. 3.
+            <lb ed="#V" n="32"/>et tamen pro statu isto de communi
+            <lb ed="#V" n="33"/>lege, non possum ipsum cognoscere
+            <lb ed="#V" n="34"/>sub ratione propria; sic in proposito,
+            <lb ed="#V" n="35"/>quamvis enim fides respiciat omnem
+            <lb ed="#V" n="36"/>articulum de Deo, puta quod est
+            tri<lb ed="#V" n="37" break="no"/>nus et unus, quod est creator coeli et
+            <lb ed="#V" n="38"/>terrae, quod est redemptor humani
+            <lb ed="#V" n="39"/>generis, quod est incarnatus, et
+            hu<lb ed="#V" n="40" break="no"/>jusmodi; non tamen Deus sub istis
+            <lb ed="#V" n="41"/>respectibus ponitur objectum fidei,
+            <lb ed="#V" n="42"/>sed tantum Deus sub ratione Deitatis.
+            <lb ed="#V" n="43"/>Fides ergo primo et immediate
+            respi<lb ed="#V" n="44" break="no"/>cit ipsum Deum, ut objectum primum,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>de quo verificantur articuli, et sic
+            pa<lb ed="#V" n="46" break="no"/>tet quomodo ratio formalis objecti fidei
+            <lb ed="#V" n="47"/>non dicitur variari per istos respectus.
+            <lb ed="#V" n="48"/>Similiter Deus sub ratione Deitatis,
+            po<lb ed="#V" n="49" break="no"/>nitur primum et immediatum
+            obje<lb ed="#V" n="50" break="no"/>ctum charitatis, ut patebit dist. 27. et
+            <lb ed="#V" n="51"/>tamen charitas non tantum inclinat
+            <lb ed="#V" n="52"/>ad dilectionem Dei in se et propter se,
+            <lb ed="#V" n="53"/>sed etiam ad dilectionem proximi
+            <lb ed="#V" n="54"/>propter Deum, ut infra patebit dist. 28.
+            <lb ed="#V" n="55"/>et 29. tamen isti respectus non
+            dicun<lb ed="#V" n="56" break="no"/>tur variare rationem formalem
+            obje<lb ed="#V" n="57" break="no"/>cti charitatis.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>Sic dico in proposito, quod spes
+            <lb ed="#V" n="59"/>respicit Deum sub ratione Deitatis pro
+            <lb ed="#V" n="60"/>objecto primo et immediato, ita quod
+            <lb ed="#V" n="61"/>actus spei immediate terminetur ad
+            <lb ed="#V" n="62"/>tale objectum, ita quod Deus sub
+            <lb ed="#V" n="63"/>ratione Deitatis est objectum primo
+            <lb ed="#V" n="64"/>et immediate terminativum actus
+            <lb ed="#V" n="65"/>spei, et quod modo sit absens, et quod
+            <lb ed="#V" n="66"/>desiderem illud mihi, isti respectus
+            <lb ed="#V" n="67"/>non variant rationem formalem talis
+            <lb ed="#V" n="68"/>objecti; non enim actus spei
+            imme<lb ed="#V" n="69" break="no"/>diate terminatur ad Deum sub
+            ra<lb ed="#V" n="70" break="no"/>tione absentiae, ita quod talis absentia
+            <lb ed="#V" n="71"/>sit ratio formalis objecti, nec similiter
+            <lb ed="#V" n="72"/>terminatur ad Deum sub ratione
+            for<lb ed="#V" n="73" break="no"/>mali, quod sit bonum mihi, ita quod
+            <lb ed="#V" n="74"/>esse bonum mihi sit ratio formalis
+            <lb ed="#V" n="75"/>talis objecti. Unde aliud est loqui de
+            <lb ed="#V" n="76"/>ratione formali objecti, et aliud est
+            <lb ed="#V" n="77"/>loqui de concomitante formalem
+            ra<lb ed="#V" n="78" break="no"/>tionem, sive de aliqua conditione
+            ob<lb ed="#V" n="79" break="no"/>jecti; nam bonum infinitum esse
+            ab<lb ed="#V" n="80" break="no"/>sens, et esse bonum mihi, nullo modo
+            <lb ed="#V" n="81"/>pertinet ad rationem formalem objecti
+            <lb ed="#V" n="82"/>spei, sed tantum concomitantur
+            ra<lb ed="#V" n="83" break="no"/>tionem formalem illius objecti, vel
+            <lb ed="#V" n="84"/>sunt conditiones objecti respectu actus
+            <lb ed="#V" n="85"/>spei. Et sic patet ista littera, quam
+            <lb ed="#V" n="86"/>tamen declaro propter aliqua dicta ibi
+            <lb ed="#V" n="87"/>inclusa. Cum ergo dicitur, quod si
+            di<lb ed="#V" n="88" break="no"/>catur desiderium includere absentiam,
+            <pb ed="#V" n="337"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>et ita conditionem temporalem in
+            ob<lb ed="#V" n="2" break="no"/>jecto, quia talis absentia ponitur
+            tan<lb ed="#V" n="3" break="no"/>tum temporalis, quia tantum pro statu
+            <lb ed="#V" n="4"/>viae. Sequitur: hoc non videtur
+            proba<lb ed="#V" n="5" break="no"/>bile, secundum eamdem rationem
+            for<lb ed="#V" n="6" break="no"/>malem respicit spes objectum, et tentio,
+            <lb ed="#V" n="7"/>sicut eadem ratio formalis est tendendi
+            <lb ed="#V" n="8"/>in illud, et quiescendi in eo, patet de
+            <lb ed="#V" n="9"/>ubi deorsum, quod ponitur ratio
+            for<lb ed="#V" n="10" break="no"/>malis objecti quietativi ipsius gravis,
+            <lb ed="#V" n="11"/>ita quod idem ubi sub eadem ratione
+            <lb ed="#V" n="12"/>formali est objectum, in quo grave
+            <lb ed="#V" n="13"/>quiescit, et ad quod grave movetur ad
+            <lb ed="#V" n="14"/>centrum; sicut etiam eadem gravitas
+            <lb ed="#V" n="15"/>est ratio formalis, qua grave
+            move<lb ed="#V" n="16" break="no"/>tur ad centrum, et qua quiescit in illo,
+            <lb ed="#V" n="17"/>ut patet a Doctore in secundo, dist. 2.
+            <lb ed="#V" n="18"/>quaest. 10. In proposito ergo cum
+            ten<lb ed="#V" n="19" break="no"/>tio sit succedens spei, et tentio est id
+            <lb ed="#V" n="20"/>quo voluntas tenet objectum, et spes
+            <lb ed="#V" n="21"/>est id quo voluntas tendit in illud;
+            <lb ed="#V" n="22"/>cum ergo Deus sub ratione deitatis sit
+            <lb ed="#V" n="23"/>primum et immediatum objectum
+            <lb ed="#V" n="24"/>tentionis, ita similiter erit objectum
+            <lb ed="#V" n="25"/>spei.
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>(p) Sed differentia est, etc. Nota, quia
+            <lb ed="#V" n="27"/>dicit Doctor quod amat praesens, et
+            <lb ed="#V" n="28"/>desiderat absens, vult dicere quod
+            <lb ed="#V" n="29"/>quando objectum est in se praesens,
+            <lb ed="#V" n="30"/>tunc est amor perfectus; quando vero
+            <lb ed="#V" n="31"/>est absens, est amor imperfectus, sicut
+            <lb ed="#V" n="32"/>etiam nunc fruitio Deitatis est amor
+            <lb ed="#V" n="33"/>imperfectus, quia non habet Deum in
+            <lb ed="#V" n="34"/>se praesentem, et in patria fruitio
+            Dei<lb ed="#V" n="35" break="no"/>tatis est amor perfectus. Et istae duae
+            <lb ed="#V" n="36"/>fruitiones, quamvis sint ejusdem
+            ob<lb ed="#V" n="37" break="no"/>jecti sub eadem ratione formali, non
+            <lb ed="#V" n="38"/>debent differre secundum magis et
+            <lb ed="#V" n="39"/>minus in una eadem specie; sed
+            dif<lb ed="#V" n="40" break="no"/>ferunt ut duae species, quarum una
+            <lb ed="#V" n="41"/>est essentialiter perfectior, ut infra
+            <lb ed="#V" n="42"/>patebit dist. 31. et in 4. dist. 49. Sic
+            <lb ed="#V" n="43"/>etiam videtur dicendum in proposito
+            <lb ed="#V" n="44"/>de amore, qui est desiderium respectu
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>objecti absentis, et de amore perfecto,
+            <lb ed="#V" n="46"/>qui succedit desiderio respectu objecti
+            <lb ed="#V" n="47"/>praesentis, quod differunt specie ad
+            <lb ed="#V" n="48"/>invicem, quia objectum in se praesens
+            <lb ed="#V" n="49"/>causat amorem specie distinctam ab
+            <lb ed="#V" n="50"/>amore causato, ut est absens, sicut
+            <lb ed="#V" n="51"/>etiam cognitio abstractiva, quae est
+            <lb ed="#V" n="52"/>objecti non in se praesentis, et cognitio
+            <lb ed="#V" n="53"/>intuitiva ejusdem objecti in se
+            prae<lb ed="#V" n="54" break="no"/>sentis differunt specie, ut patet a
+            Do<lb ed="#V" n="55" break="no"/>ctore in 2. dist. 25.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>Nota tamen, quod non est simile de
+            <lb ed="#V" n="57"/>igne propinquo et remoto, quia calor
+            <lb ed="#V" n="58"/>causatus ab igne remoto est ejusdem
+            <lb ed="#V" n="59"/>speciei cum calore causato ab igne
+            <lb ed="#V" n="60"/>propinquo; et isti duo calores
+            causan<lb ed="#V" n="61" break="no"/>tur ab igne praesente in se, licet magis
+            <lb ed="#V" n="62"/>vel minus propinquo. Adducit tamen
+            <lb ed="#V" n="63"/>hoc exemplum de igne propter hoc
+            <lb ed="#V" n="64"/>tantum, scilicet quod idem ignis sub
+            <lb ed="#V" n="65"/>eadem ratione formali causat calorem,
+            <lb ed="#V" n="66"/>sive remotus sive propinquus, ita quod
+            <lb ed="#V" n="67"/>nec remotio, neque propinquitas est
+            ra<lb ed="#V" n="68" break="no"/>tio formalis causandi, licet sint
+            contra<lb ed="#V" n="69" break="no"/>dictiones propter quas ignis intensius,
+            <lb ed="#V" n="70"/>vel minus intense causat; sic etiam
+            <lb ed="#V" n="71"/>Deus sub ratione Deitatis est ratio
+            for<lb ed="#V" n="72" break="no"/>malis actus desiderii, sive actus spei
+            <lb ed="#V" n="73"/>et tentionis, sic quod nec absentia
+            ob<lb ed="#V" n="74" break="no"/>jecti, qualis est respectu desiderii, nec
+            <lb ed="#V" n="75"/>praesentia illius, qualis est respectu
+            <lb ed="#V" n="76"/>tentionis, aliquo modo pertinent ad
+            <lb ed="#V" n="77"/>rationem formalem objecti, sed sunt
+            <lb ed="#V" n="78"/>conditiones, quibus positis sequitur
+            <lb ed="#V" n="79"/>alius et alius effectus magis perfectus
+            <lb ed="#V" n="80"/>et minus perfectus.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>(q) Si dicatur, quod desiderare bonum
+            <lb ed="#V" n="82"/>mihi variat formalem rationem objecti,
+            <lb ed="#V" n="83"/>quia commutat bonum honestum in
+            bo<lb ed="#V" n="84" break="no"/>num utile. Nam de ratione boni honesti
+            <lb ed="#V" n="85"/>est quod sit diligibile propter se, et
+            <lb ed="#V" n="86"/>non in ordine ad aliud; et de ratione
+            <lb ed="#V" n="87"/>boni utilis sive commodi, est quod
+            <lb ed="#V" n="88"/>sit diligibile propter aliud. Cum ergo
+            <pb ed="#V" n="338"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>bonum aeternum sit summum bonum
+            <lb ed="#V" n="2"/>honestum, et propter se diligibile, ita
+            <lb ed="#V" n="3"/>quod sibi repugnat quod sit objectum
+            <lb ed="#V" n="4"/>diligibile propter aliud, ut subtiliter
+            <lb ed="#V" n="5"/>probat Doctor in 4. dist. 49. Diligere
+            <lb ed="#V" n="6"/>ergo tale bonum mihi, sive ut bonum
+            <lb ed="#V" n="7"/>mihi est ipsum diligere in ordine ad
+            <lb ed="#V" n="8"/>aliud, et per consequens commutatur
+            <lb ed="#V" n="9"/>bonum honestum in bonum utile, quod
+            <lb ed="#V" n="10"/>nihil aliud est, nisi facere illud quod
+            <lb ed="#V" n="11"/>est diligibile propter se, esse diligibile
+            <lb ed="#V" n="12"/>propter aliud.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Dicit Doctor quod hoc est falsum,
+            <lb ed="#V" n="14"/>quia conditio illa, scilicet esse bonum
+            <lb ed="#V" n="15"/>mihi, non est conditio objecti per se, id
+            <lb ed="#V" n="16"/>est, quod talis conditio non pertinet
+            <lb ed="#V" n="17"/>ad rationem formalem objecti, per se;
+            <lb ed="#V" n="18"/>patet, quia talis conditio potest addi
+            <lb ed="#V" n="19"/>super objectum, stante formali ratione
+            <lb ed="#V" n="20"/>objecti, ita quod actus spei, qui est
+            <lb ed="#V" n="21"/>desiderare primo et immediate,
+            ter<lb ed="#V" n="22" break="no"/>minatur ad Deum sub ratione
+            absolu<lb ed="#V" n="23" break="no"/>ta, ita quod primo diligo Deum
+            abso<lb ed="#V" n="24" break="no"/>lute, et post ut bonum mihi.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>(r) Sed per ista tantum comparo
+            aeter<lb ed="#V" n="26" break="no"/>num ad aliquod temporale, quae
+            compa<lb ed="#V" n="27" break="no"/>ratio non dicit nisi respectum rationis,
+            <lb ed="#V" n="28"/>et hoc modo in proposito. Et cum
+            vo<lb ed="#V" n="29" break="no"/>luntas vult bonum aeternum, sibi
+            <lb ed="#V" n="30"/>tantum comparat bonum aeternum ad
+            <lb ed="#V" n="31"/>se, et talis comparatio, sive esse
+            com<lb ed="#V" n="32" break="no"/>paratum est respectus rationis
+            causa<lb ed="#V" n="33" break="no"/>tus in objecto comparato ab ipsa
+            vo<lb ed="#V" n="34" break="no"/>luntate. Nam omnis potentia coltativa
+            <lb ed="#V" n="35"/>potest objectum suum comparare ad
+            <lb ed="#V" n="36"/>aliud, et in eo sic comparato causare
+            <lb ed="#V" n="37"/>respectum rationis, qui non inest ex
+            na<lb ed="#V" n="38" break="no"/>tura rei, sed ex actu potentiae
+            compa<lb ed="#V" n="39" break="no"/>rantis, ita quod talis respectus in
+            obje<lb ed="#V" n="40" break="no"/>cto comparato nihil aliud est, nisi
+            ip<lb ed="#V" n="41" break="no"/>sum comparari passivum. Sequitur:
+            <lb ed="#V" n="42"/>Et ita sicut ratio, sive intellectus,
+            com<lb ed="#V" n="43" break="no"/>parando objectum suum, potest causare
+            <lb ed="#V" n="44"/>in eo respectum rationis, sic et voluntas
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>comparando objectum suum, potest
+            cau<lb ed="#V" n="46" break="no"/>sare in eo respectum aliquem, qui potest
+            <lb ed="#V" n="47"/>dici respectus appetitivus, pro quanto
+            <lb ed="#V" n="48"/>causatur ab appetitu, sive voluntate,
+            <lb ed="#V" n="49"/>sicut etiam dicitur respectus rationis,
+            <lb ed="#V" n="50"/>pro quanto causatur a ratione in
+            obje<lb ed="#V" n="51" break="no"/>cto; et talis, supple respectus rationis
+            <lb ed="#V" n="52"/>causatus a voluntate, causatur in
+            ob<lb ed="#V" n="53" break="no"/>jecto utibili per actum usus, quando
+            <lb ed="#V" n="54"/>voluntas utitur aliquo. Uti enim aliquo
+            <lb ed="#V" n="55"/>est velle illud in ordine ad aliud, et sic
+            <lb ed="#V" n="56"/>comparat objectum volitum ad aliud,
+            <lb ed="#V" n="57"/>sicut cum diligo proximum propter
+            <lb ed="#V" n="58"/>Deum. Sequitur: Et talis, supple
+            res<lb ed="#V" n="59" break="no"/>pectus, potest dici causari in Deo,
+            <lb ed="#V" n="60"/>quando volo illud bonum infinitum in
+            <lb ed="#V" n="61"/>se esse mihi bonum, nam actus volendi
+            <lb ed="#V" n="62"/>primo et immediate, terminatur ad
+            <lb ed="#V" n="63"/>bonum infinitum in se absolute, et
+            <lb ed="#V" n="64"/>post sequitur quod volo illud bonum
+            <lb ed="#V" n="65"/>infinitum esse mihi bonum.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>(f) Si objicitur, ergo voluntas sperans
+            <lb ed="#V" n="67"/>est mala, quia utitur objecto fruendo,
+            <lb ed="#V" n="68"/>referendo illud ad aliud; si enim volo
+            <lb ed="#V" n="69"/>bonum infinitum, ut mihi bonum,
+            <lb ed="#V" n="70"/>tunc utor bono infinito, volendo illud
+            <lb ed="#V" n="71"/>non propter se, sed in ordine ad
+            <lb ed="#V" n="72"/>aliud.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>Respondet Doctor, quod non omnis
+            <lb ed="#V" n="74"/>comparatio objecti per voluntatem ad
+            <lb ed="#V" n="75"/>aliud objectum, est comparatio quae est
+            <lb ed="#V" n="76"/>usus, sed tantum quando comparatur,
+            <lb ed="#V" n="77"/>ut minus bonum ordinatum ad aliud,
+            <lb ed="#V" n="78"/>tanquam ad majus bonum
+            consequen<lb ed="#V" n="79" break="no"/>dum per illud; sicut diligo potionem
+            <lb ed="#V" n="80"/>propter sanitatem, tanquam majus
+            <lb ed="#V" n="81"/>bonum consequendum per illam, et
+            <lb ed="#V" n="82"/>tunc dicor uti potione, sed non est sic
+            <lb ed="#V" n="83"/>in proposito, quia voluntas sperans
+            <lb ed="#V" n="84"/>comparat bonum infinitum, ut
+            abun<lb ed="#V" n="85" break="no"/>dans bonum ad minus bonum, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>Et adverte, quod (ut dixi supra)
+            <lb ed="#V" n="87"/>actus spei, qui est desiderare bonum
+            <lb ed="#V" n="88"/>infinitum, terminatur primo et
+            imme<pb ed="#V" n="339"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>diate ad illud bonum sub sua ratione
+            <lb ed="#V" n="2"/>formali absoluta, non quod ille actus
+            <lb ed="#V" n="3"/>terminetur ad tale bonum, ut in se et
+            <lb ed="#V" n="4"/>propter se, sed ad illud, ut bonum
+            <lb ed="#V" n="5"/>mihi, bonum quidem superabundans,
+            <lb ed="#V" n="6"/>et me ultimate perficiens, eo tamen
+            <lb ed="#V" n="7"/>modo quo objectum potest perficere
+            <lb ed="#V" n="8"/>potentiam, quia non perficit
+            intrin<lb ed="#V" n="9" break="no"/>sece, sed tantum intrinsece, ut
+            pate<lb ed="#V" n="10" break="no"/>bit in 4. dist. 49. et hoc ex magna
+            li<lb ed="#V" n="11" break="no"/>beralitate Dei, quae est in
+            communi<lb ed="#V" n="12" break="no"/>cando se creaturae, nihil ex tali
+            com<lb ed="#V" n="13" break="no"/>municatione expectando, quae est
+            con<lb ed="#V" n="14" break="no"/>ditio perfecte liberalitas.
+          </p>
+          <p>
+            <lb ed="#V" n="15"/>Adverte etiam, quod si voluntas illud
+            <lb ed="#V" n="16"/>bonum, ut tantum sibi commodum
+            <lb ed="#V" n="17"/>vellet, illa volitio non esset recta.
+            Es<lb ed="#V" n="18" break="no"/>set enim amor mercenarius. Dico
+            <lb ed="#V" n="19"/>ergo, ut dicit Doctor in 2. dist. 6.
+            <lb ed="#V" n="20"/>quaest. 2. quod appetere actum
+            perfe<lb ed="#V" n="21" break="no"/>ctum, ut per illum magis ametur
+            obje<lb ed="#V" n="22" break="no"/>ctum in se, est ex affectione justitiae, quia
+            <lb ed="#V" n="23"/>unde amo aliquid in se, volo aliquid in
+            <lb ed="#V" n="24"/>se, et ita, boni Angeli potuerunt
+            appe<lb ed="#V" n="25" break="no"/>tere beatitudinem, ut habentes illam,
+            <lb ed="#V" n="26"/>perfectius amarent summum bonum; et
+            <lb ed="#V" n="27"/>iste actus concupiscendi beatitudinem
+            <lb ed="#V" n="28"/>esset meritorius, quia non utitur
+            fruen<lb ed="#V" n="29" break="no"/>do, sed fruitur eo, quia bonum quod
+            <lb ed="#V" n="30"/>concupisco mihi, ad hoc concupisco, ut
+            <lb ed="#V" n="31"/>plus amen illud bonum in se. Haec ille.
+            <lb ed="#V" n="32"/>Voluntas ergo desiderans bonum
+            <lb ed="#V" n="33"/>aeternum, ut sibi commodum, si
+            desi<lb ed="#V" n="34" break="no"/>derat praecise, ut commodum sibi
+            <lb ed="#V" n="35"/>tantum, sistendo ibi, non posset dici
+            <lb ed="#V" n="36"/>recta, sed si illud desiderat tanquam
+            <lb ed="#V" n="37"/>summum commodum, ut plus ipsum
+            <lb ed="#V" n="38"/>in se amet amore amicitiae, sive ut
+            <lb ed="#V" n="39"/>magis fruatur eo, tunc talis voluntas
+            <lb ed="#V" n="40"/>est recta.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>Adverte etiam, quod etsi pro statu
+            <lb ed="#V" n="42"/>isto quis non possit cognoscere Deum
+            <lb ed="#V" n="43"/>sub ratione Deitatis, sed tantum
+            con<lb ed="#V" n="44" break="no"/>fuse, ut supra patuit, potest forte
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>tamen ipsum diligere distincte sub sua
+            <lb ed="#V" n="46"/>ratione formali, ut supra patuit a
+            <lb ed="#V" n="47"/>Doctore dist. 9. circa finem. Et posito
+            <lb ed="#V" n="48"/>etiam quod voluntas non possit pro
+            <lb ed="#V" n="49"/>statu isto diligere Deum sub ratione
+            <lb ed="#V" n="50"/>propria, adhuc non negatur quin spes
+            <lb ed="#V" n="51"/>et charitas habeant ipsum Deum sub
+            <lb ed="#V" n="52"/>ratione Deitatis pro objecto, sicut
+            <lb ed="#V" n="53"/>etiam licet quis non possit cognoscere
+            <lb ed="#V" n="54"/>Deum distincte, tamen habitus fidei et
+            <lb ed="#V" n="55"/>actus habent ipsum Deum sub ratione
+            <lb ed="#V" n="56"/>Deitatis, ut objectum immediatum.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>(t) Si objicitur contra hoc. Hic Doctor
+            <lb ed="#V" n="58"/>arguit, probando quod non sufficiat
+            <lb ed="#V" n="59"/>spei infusae habere bonum increatum,
+            <lb ed="#V" n="60"/>sive Deum sub ratione Deitatis pro
+            <lb ed="#V" n="61"/>objecto, quia tunc non distingueretur
+            <lb ed="#V" n="62"/>a spe acquisita, cum illa habeat etiam
+            <lb ed="#V" n="63"/>Deum sub ratione Deitatis.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>Dicit Doctor quod tres sunt
+            condi<lb ed="#V" n="65" break="no"/>tiones habitus Theologici infusi.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Prima, quod habeat Deum sub
+            ra<lb ed="#V" n="67" break="no"/>tione Deitatis pro objecto.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Secunda, quod innitatur voluntati
+            <lb ed="#V" n="69"/>divinae, ut primae regulae actuum
+            hu<lb ed="#V" n="70" break="no"/>manorum.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Tertia, quod immediate infundatur
+            <lb ed="#V" n="72"/>a Deo, sicut a causa efficiente. Si duae
+            <lb ed="#V" n="73"/>primae conditiones sufficiant, tunc
+            <lb ed="#V" n="74"/>spes infusa non distinguitur ab
+            acqui<lb ed="#V" n="75" break="no"/>sita; sed si tertia conditio requiritur,
+            <lb ed="#V" n="76"/>patet quod quoad tertiam conditionem
+            <lb ed="#V" n="77"/>distinguitur, quia secundum illam
+            <lb ed="#V" n="78"/>tertiam dicitur principaliter virtus
+            <lb ed="#V" n="79"/>Theologica. Potest etiam dici, quod
+            <lb ed="#V" n="80"/>de ratione virtutis Theologicae est
+            <lb ed="#V" n="81"/>quod non solum habeat primas duas
+            <lb ed="#V" n="82"/>conditiones, sed quod sit virtus saltem
+            <lb ed="#V" n="83"/>nata immediate infundi a Deo, sic
+            <lb ed="#V" n="84"/>fides acquisita et spes similiter
+            dicun<lb ed="#V" n="85" break="no"/>tur virtutes Theologicae, imperfecte
+            <lb ed="#V" n="86"/>tamen Theologicae, sed completive et
+            <lb ed="#V" n="87"/>perfecte quando immediate
+            infundun<lb ed="#V" n="88" break="no"/>tur a Deo; et littera clara est.
+          </p>
+        <!-- </div>
+    <div alias="lycht-d26q1-p5"> -->
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="41" type="fixed=341"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>(a) Haec est igitur prima conclusio
+            <lb ed="#V" n="43"/>solutionis, etc. sed nullum desiderare,
+            <lb ed="#V" n="44"/>quod est actus spei, est credere, patet,
+            <lb ed="#V" n="45"/>quia credere pertinet ad intellectum,
+            <lb ed="#V" n="46"/>desiderare ad voluntatem; similiter
+            <lb ed="#V" n="47"/>credere est firmiter assentire creditis
+            <lb ed="#V" n="48"/>revelatis, desiderare autem est velle
+            <lb ed="#V" n="49"/>bonum aeternum, ut sibi bonum.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Quod etiam distinguatur a
+            chari<lb ed="#V" n="51" break="no"/>tate, patet, quia charitas est suprema
+            <lb ed="#V" n="52"/>virtus effectiva, id est, perficiens
+            <lb ed="#V" n="53"/>formaliter voluntatem, et per
+            conse<lb ed="#V" n="54" break="no"/>quens supremus amor habitualis, sed
+            <lb ed="#V" n="55"/>amor amicitiae est simpliciter
+            perfec<lb ed="#V" n="56" break="no"/>tior amore concupiscentiae, ut est
+            <lb ed="#V" n="57"/>probatum a Doctore in 2. dist. 6. q.
+            <lb ed="#V" n="58"/>2. Cum ergo charitas inclinet
+            imme<lb ed="#V" n="59" break="no"/>diate ad amandum simpliciter amore
+            <lb ed="#V" n="60"/>amicitiae, spes autem tantum inclinet
+            <lb ed="#V" n="61"/>ad amandum summum bonum amore
+            <lb ed="#V" n="62"/>concupiscentiae, et per consequens
+            <lb ed="#V" n="63"/>distinguitur a charitate; et sic tale
+            <lb ed="#V" n="64"/>desiderare non est immediate actus
+            <lb ed="#V" n="65"/>charitatis, id est, immediate elicitus,
+            <lb ed="#V" n="66"/>quod dico, quia bene posset esse
+            <lb ed="#V" n="67"/>actus charitatis imperatus, quia aliter
+            <lb ed="#V" n="68"/>non esset actus meritorius; omnis
+            <lb ed="#V" n="69"/>enim actus elicitus a voluntate non
+            <lb ed="#V" n="70"/>est meritorius, nisi ad illum actum
+            <lb ed="#V" n="71"/>concurrat charitas, ut patet a Doctore
+            <lb ed="#V" n="72"/>in primo, dist. 17. non quod
+            imme<lb ed="#V" n="73" break="no"/>diate eliciatur a charitate, sed sufficit
+            <lb ed="#V" n="74"/>quod voluntas habens aliquem
+            habi<lb ed="#V" n="75" break="no"/>tum, puta justitiae, eliciat actum
+            justi<lb ed="#V" n="76" break="no"/>tiae concurrente tali habitu, ut causa
+            <lb ed="#V" n="77"/>partiali, et quod charitas inclinet
+            <lb ed="#V" n="78"/>voluntatem ad illum actum
+            elicien<lb ed="#V" n="79" break="no"/>dum.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>(b) Praeterea Secundo probat hoc
+            <lb ed="#V" n="81"/>idem, quia actus charitatis potest esse
+            <lb ed="#V" n="82"/>sine actu desiderii, quia sive
+            loqua<pb ed="#V" n="342"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>mur de actu charitatis, qui est amor
+            <lb ed="#V" n="2"/>amicitiae, de actu dico remisso
+            in<lb ed="#V" n="3" break="no"/>tenso et perfectissimo, quilibet talis
+            <lb ed="#V" n="4"/>potest esse sine desiderio, patet, quia
+            <lb ed="#V" n="5"/>viator habens charitatem actu, diligit
+            <lb ed="#V" n="6"/>Deum amore amicitiae, et tamen ut
+            <lb ed="#V" n="7"/>sic, non desiderat; similiter Beatus
+            <lb ed="#V" n="8"/>intense diligit Deum amore amicitiae,
+            <lb ed="#V" n="9"/>et tamen non desiderat. Si ergo actus
+            <lb ed="#V" n="10"/>charitatis potest separari, et esse sine
+            <lb ed="#V" n="11"/>actu desiderii, sequitur quod actus
+            <lb ed="#V" n="12"/>desiderii non sit actus charitatis,
+            <lb ed="#V" n="13"/>scilicet immediate elicitus, licet
+            pos<lb ed="#V" n="14" break="no"/>sit esse imperatus, ut supra dixi;
+            <lb ed="#V" n="15"/>ergo est actus alterius habitus, et non
+            <lb ed="#V" n="16"/>alicujus, nisi spei.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>(c) Hoc etiam. Tertio hoc idem
+            pro<lb ed="#V" n="18" break="no"/>bat auctoritate Anselmi, et ratio stat
+            <lb ed="#V" n="19"/>in hoc, quia charitas perficit
+            volunta<lb ed="#V" n="20" break="no"/>tem, ut praecise consideratam
+            secun<lb ed="#V" n="21" break="no"/>dum affectionem justitiae; spes vero
+            <lb ed="#V" n="22"/>perficit eam, ut consideratam
+            secun<lb ed="#V" n="23" break="no"/>dum affectionem commodi. Sed
+            vo<lb ed="#V" n="24" break="no"/>luntas considerata secundum
+            affectio<lb ed="#V" n="25" break="no"/>nem justitiae diligit Deum in se et
+            <lb ed="#V" n="26"/>propter se, et secundum affectionem
+            <lb ed="#V" n="27"/>commodi diligit Deum, ut sibi bonum.
+            <lb ed="#V" n="28"/>et prima dilectio est liberior et
+            perfec<lb ed="#V" n="29" break="no"/>tior quam secunda. Si ergo charitas
+            <lb ed="#V" n="30"/>perficit voluntatem secundum
+            affec<lb ed="#V" n="31" break="no"/>tionem justitiae, id est, quod voluntas
+            <lb ed="#V" n="32"/>secundum affectionem justitiae
+            consi<lb ed="#V" n="33" break="no"/>derata habens charitatem, utitur ea
+            <lb ed="#V" n="34"/>ad eliciendum amorem amicitiae, et
+            <lb ed="#V" n="35"/>spes perficit eamdem voluntatem
+            se<lb ed="#V" n="36" break="no"/>cundum affectionem commodi, id est,
+            <lb ed="#V" n="37"/>quod voluntas secundum affectionem
+            <lb ed="#V" n="38"/>commodi utitur ipsa spe ad amorem
+            <lb ed="#V" n="39"/>concupiscentiae eliciendum, statim
+            <lb ed="#V" n="40"/>sequitur quod actus charitatis non
+            <lb ed="#V" n="41"/>erit actus spei, neque e contra. Et
+            <lb ed="#V" n="42"/>quid sit affectio justitiae, et affectio
+            <lb ed="#V" n="43"/>commodi, et quid affectio justitiae
+            <lb ed="#V" n="44"/>innatae, infra vide Doctorem, et in 2.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>dist. 6. quaest. 2. et quae ibi satis
+            pro<lb ed="#V" n="46" break="no"/>lixe exposui.
+          </p>
+        <!-- </div>
+    <div alias="lycht-d26q1-p6"> -->
+          <p>
+            <lb ed="#V" n="37" type="fixed=344"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>(d) Contra viam istam, quae ponit
+            <lb ed="#V" n="39"/>desiderare bonum increatum esse
+            ac<lb ed="#V" n="40" break="no"/>tum spei. Hic arguit Doctor probando
+            <lb ed="#V" n="41"/>quod sic desiderare non sit actus
+            <lb ed="#V" n="42"/>spei, quia nullus desperans habet
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>spem, sive actum sperandi, et tamen
+            <lb ed="#V" n="44"/>desperans desiderat beatitudinem,
+            pa<lb ed="#V" n="45" break="no"/>tet, quia desperans tristatur de
+            amis<lb ed="#V" n="46" break="no"/>sione beatitudinis quam desiderat;
+            <lb ed="#V" n="47"/>ergo tale desiderare non est actus
+            <lb ed="#V" n="48"/>spei,
+          </p>
+          <p>
+            <lb ed="#V" n="49"/>Respondet quod desiderare
+            efficaci<lb ed="#V" n="50" break="no"/>ter beatitudinem est actus spei, et
+            <lb ed="#V" n="51"/>desiderare efficaciter est quando
+            con<lb ed="#V" n="52" break="no"/>cludit ex syllogismo perfecte practico
+            <lb ed="#V" n="53"/>posse consequi rem speratam, sicut
+            <lb ed="#V" n="54"/>habens fidem de promissione Dei,
+            <lb ed="#V" n="55"/>quod donet seipsum liberaliter ex
+            <lb ed="#V" n="56"/>meritis praecedentibus, statim potest
+            <lb ed="#V" n="57"/>concludere de se, quod si desideret
+            <lb ed="#V" n="58"/>beatitudinem, et facit bona opera
+            <lb ed="#V" n="59"/>accepta Deo, quod illa finaliter
+            ha<lb ed="#V" n="60" break="no"/>bebit. Sed desperans de beatitudine
+            <lb ed="#V" n="61"/>non desiderat illam efficaciter, quia
+            <lb ed="#V" n="62"/>ex syllogismo practico non concludit
+            <lb ed="#V" n="63"/>illam posse habere, et ideo nec
+            effica<lb ed="#V" n="64" break="no"/>citer desiderat; sed si eam vult, vel
+            <lb ed="#V" n="65"/>tantum tenuiter vel conditionaliter
+            <lb ed="#V" n="66"/>vult, sicut etiam desperans de
+            sani<lb ed="#V" n="67" break="no"/>tate. Et de hoc satis dictum est in
+            <lb ed="#V" n="68"/>secundo, dist. 6. quaest. 1. et in 4. dist.
+            <lb ed="#V" n="69"/>49. quaest. 9.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Secundo principaliter arguit,
+            pro<lb ed="#V" n="71" break="no"/>bando quod sola charitas sufficiat ad
+            <lb ed="#V" n="72"/>actum spei, et sic spes sit superflua.
+            <lb ed="#V" n="73"/>Quod autem sola charitas sufficiat,
+            <lb ed="#V" n="74"/>patet, quia eodem habitu possum
+            <lb ed="#V" n="75"/>amare aliquem amore amicitiae, et
+            <lb ed="#V" n="76"/>desiderare illi bonum, patet, nullum
+            <lb ed="#V" n="77"/>enim in se amo, cui non velim
+            bo<lb ed="#V" n="78" break="no"/>num; igitur si ex charitate amatur
+            <lb ed="#V" n="79"/>quodlibet diligibile in se, ex charitate
+            <lb ed="#V" n="80"/>concupiscitur sibi bonum; igitur
+            <lb ed="#V" n="81"/>desiderare est actus charitatis, et non
+            <lb ed="#V" n="82"/>spei.
+          </p>
+          <p>
+            <lb ed="#V" n="83"/>Respondet Doctor quod sicut
+            chari<lb ed="#V" n="84" break="no"/>tas in actu recto habet pro objecto
+            <lb ed="#V" n="85"/>Deum, ut in se, ita etiam in quocumque
+            <lb ed="#V" n="86"/>actu reflexo est quodammodo
+            princi<pb ed="#V" n="345"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>pium tendendi in Deum, ut in se;
+            <lb ed="#V" n="2"/>principium enim actus recti est
+            princi<lb ed="#V" n="3" break="no"/>pium omnium actuum reflexorum
+            ten<lb ed="#V" n="4" break="no"/>dentium in finem ultimum sub eadem
+            <lb ed="#V" n="5"/>ratione illius finis. Pro nunc actus
+            <lb ed="#V" n="6"/>rectus elicitus a charitate est dilectio
+            <lb ed="#V" n="7"/>Dei in se et propter se, ita quod ille
+            <lb ed="#V" n="8"/>actus immediate terminatur ad ipsum
+            <lb ed="#V" n="9"/>Deum; actus vero reflexus charitatis
+            <lb ed="#V" n="10"/>est, qui non immediate terminatur in
+            <lb ed="#V" n="11"/>Deum, sed terminatur ad objectum
+            <lb ed="#V" n="12"/>creatum, non sistendo ibi, sed quasi
+            <lb ed="#V" n="13"/>reflectendo objectum creatum in
+            ip<lb ed="#V" n="14" break="no"/>sum Deum, sic quod quando diligo
+            <lb ed="#V" n="15"/>Deum in se et propter se ex charitate,
+            <lb ed="#V" n="16"/>ita ex charitate diligo me diligere
+            <lb ed="#V" n="17"/>Deum in se; quotiescumque igitur
+            <lb ed="#V" n="18"/>reflecto, nunquam habeo objectum, ut
+            <lb ed="#V" n="19"/>commodum mihi, sed tantum bonum
+            <lb ed="#V" n="20"/>infinitum, ut in se bonum; charitas
+            <lb ed="#V" n="21"/>ergo primo inclinat ad dilectionem
+            <lb ed="#V" n="22"/>Dei in se et propter se. Secundo
+            incli<lb ed="#V" n="23" break="no"/>nat, ut persona diligens Deum propter
+            <lb ed="#V" n="24"/>se, diligat seipsam, non absolute, et
+            <lb ed="#V" n="25"/>sistendo ibi, sed ut diligat seipsam
+            <lb ed="#V" n="26"/>diligere Deum propter se, ita quod non
+            <lb ed="#V" n="27"/>concupisco sibi Deum, ut bonum
+            <lb ed="#V" n="28"/>commodum, sed concupisco sibi
+            di<lb ed="#V" n="29" break="no"/>lectionem, qua diligat Deum in se.
+            <lb ed="#V" n="30"/>Concedit ergo quod eodem habitu quo
+            <lb ed="#V" n="31"/>amo, concupisco bonum amato, sed non
+            <lb ed="#V" n="32"/>concupisco quodcumque bonum, sed
+            <lb ed="#V" n="33"/>bonum commodi, quod principaliter
+            <lb ed="#V" n="34"/>terminatur ad illud bonum, quod ex
+            <lb ed="#V" n="35"/>charitate diligo in se. Vult dicere,
+            <lb ed="#V" n="36"/>quod si ex charitate diligo proximum,
+            <lb ed="#V" n="37"/>eadem charitate concupisco sibi
+            bo<lb ed="#V" n="38" break="no"/>num, non bonum increatum; sed
+            <lb ed="#V" n="39"/>concupisco sibi bonum commodi,
+            <lb ed="#V" n="40"/>scilicet dilectionem boni increati, quae
+            <lb ed="#V" n="41"/>dilectio ex charitate immediate
+            termi<lb ed="#V" n="42" break="no"/>natur ad bonum increatum, hoc est,
+            <lb ed="#V" n="43"/>quod cuicumque amato concupisco
+            <lb ed="#V" n="44"/>amare Deum propter se, id est,
+            in<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>quantum bonum in se non praecise,
+            <lb ed="#V" n="46"/>inquantum bonum mihi. Et de hoc
+            <lb ed="#V" n="47"/>magis patebit infra dist. 29.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Tertio principaliter arguit,
+            proban<lb ed="#V" n="49" break="no"/>do quod non sit necessaria spes
+            super<lb ed="#V" n="50" break="no"/>naturalis, quia secundum
+            Augusti<lb ed="#V" n="51" break="no"/>num 13. de Trinit. cap. 5. Beatitudo
+            <lb ed="#V" n="52"/>naturaliter concupiscitur; ergo tale
+            <lb ed="#V" n="53"/>desiderium non erit actus spei.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Respondet Doctor quod beatitudo in
+            <lb ed="#V" n="55"/>universali est ex naturalibus
+            concu<lb ed="#V" n="56" break="no"/>pita ex affectione commodi, quia
+            <lb ed="#V" n="57"/>secundum Anselmum de concord.
+            <lb ed="#V" n="58"/>Commoda nolle non possumus; et
+            quo<lb ed="#V" n="59" break="no"/>modo haec auctoritas intelligatur,
+            <lb ed="#V" n="60"/>vide Doctorem in Quodlib. quaest. 16.
+            <lb ed="#V" n="61"/>et quae ibi exposui; sed beatitudo in
+            <lb ed="#V" n="62"/>particulari non est sufficienter ex
+            na<lb ed="#V" n="63" break="no"/>turalibus concupita, accipiendo
+            con<lb ed="#V" n="64" break="no"/>cupiscere sive desiderare secundum
+            <lb ed="#V" n="65"/>omnes conditiones supra positas. Et
+            <lb ed="#V" n="66"/>si tale desiderare possit esse ex spe
+            <lb ed="#V" n="67"/>acquisita, non tamen sic perfectissime
+            <lb ed="#V" n="68"/>sine spe et charitate infusis, ut etiam
+            <lb ed="#V" n="69"/>supra patuit de fide infusa.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Quarto arguit, quia desiderare, si
+            <lb ed="#V" n="71"/>est actus meritorius, erit elicitus vel
+            <lb ed="#V" n="72"/>imperatus a charitate; ergo non est
+            <lb ed="#V" n="73"/>necesse ponere habitum spei.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>Respondet Doctor quod voluntas
+            <lb ed="#V" n="75"/>meritorie desiderans habet duos actus;
+            <lb ed="#V" n="76"/>unum sperandi elicitum a spe, alium
+            <lb ed="#V" n="77"/>imperantem illum elicitum a charitate,
+            <lb ed="#V" n="78"/>ut supra dixi, nec est inconveniens in
+            <lb ed="#V" n="79"/>actibus subordinatis plures inesse uni;
+            <lb ed="#V" n="80"/>et sic non est inconveniens, quod
+            <lb ed="#V" n="81"/>actui desiderandi meritoria insit actus
+            <lb ed="#V" n="82"/>elicitus a charitate, quo imperatur
+            <lb ed="#V" n="83"/>actus desiderandi meritorius.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>Et ex his, quae dicta sunt supra,
+            <lb ed="#V" n="85"/>possent solvi multae difficultates.
+          </p>
+        <!-- </div>
+    <div alias="lycht-d26q1-p7"> -->
+          <p>
+            <lb ed="#V" n="64" type="fixed=346"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>(e) Ad argumenta. Ex dictis supra
+            <lb ed="#V" n="66"/>patet responsio ad illas duas
+            objectio<lb ed="#V" n="67" break="no"/>nes factas pro prima opinione, quae
+            <lb ed="#V" n="68"/>ponuntur ibi: In ista quaestione
+            fun<lb ed="#V" n="69" break="no"/>damentum est auctoritas Apostoli, etc.
+            <lb ed="#V" n="70"/>Et quod addit Doctor respondendo
+            <lb ed="#V" n="71"/>quod amicitia acquisita est formaliter
+            <lb ed="#V" n="72"/>alius habitus a charitate, hoc dicit,
+            <lb ed="#V" n="73"/>quia bene stat quod amicitia
+            acqui<lb ed="#V" n="74" break="no"/>sita inclinet ad omne velle
+            ordina<lb ed="#V" n="75" break="no"/>tum circa amicum, et per consequens
+            <lb ed="#V" n="76"/>ad velle desiderii, quae vult amico
+            <lb ed="#V" n="77"/>bonum commodi; sed charitas est
+            <lb ed="#V" n="78"/>habitus praecise inclinans ad amorem
+            <lb ed="#V" n="79"/>Dei in se actu recto, similiter
+            incli<lb ed="#V" n="80" break="no"/>nans ad actum desiderii, quod
+            desi<lb ed="#V" n="81" break="no"/>derat amato dilectionem, qua
+            ama<lb ed="#V" n="82" break="no"/>tum diligat Deum in se, ita quod
+            <lb ed="#V" n="83"/>charitas semper inclinat ad amorem
+            <lb ed="#V" n="84"/>Dei in se, sive ut in se bonum, non
+            <pb ed="#V" n="347"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>concupiscendo illud alteri, ut supra
+            <lb ed="#V" n="2"/>patuit.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>(f) Quod additur postea de habitu spei.
+            <lb ed="#V" n="4"/>Hic solvit illas duas rationes factas
+            <lb ed="#V" n="5"/>pro illa opinione, quae dicit quod spes
+            <lb ed="#V" n="6"/>est quaedam fides particularis, quia
+            <lb ed="#V" n="7"/>desperans non dicitur odire, sed
+            diffi<lb ed="#V" n="8" break="no"/>dere, etc. Dicit Doctor quod certitudo
+            <lb ed="#V" n="9"/>in sperante praecedit actum spei; non
+            <lb ed="#V" n="10"/>enim efficaciter et absolute desiderat,
+            <lb ed="#V" n="11"/>nisi possibile attingi, et ideo
+            persua<lb ed="#V" n="12" break="no"/>detur desperanti, ut credat, non ut
+            <lb ed="#V" n="13"/>diligat, quia prima radix hujus
+            erro<lb ed="#V" n="14" break="no"/>ris, scilicet quod non absolute
+            desi<lb ed="#V" n="15" break="no"/>derat, nec efficaciter non est in
+            volun<lb ed="#V" n="16" break="no"/>tate, sed in intellectu, quia scilicet
+            <lb ed="#V" n="17"/>intellectus non ostendit illud
+            efficaci<lb ed="#V" n="18" break="no"/>ter tanquam desiderandum, sed
+            ha<lb ed="#V" n="19" break="no"/>bita certitudine, tunc efficaciter
+            <lb ed="#V" n="20"/>desiderat, et sic, quod certitudo illa
+            <lb ed="#V" n="21"/>se tenet ex parte intellectus, et
+            de<lb ed="#V" n="22" break="no"/>siderium ex parte voluntatis.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>(8) Sed tunc objicitur. Hic instat
+            <lb ed="#V" n="24"/>Doctor quod si desiderare bonum
+            <lb ed="#V" n="25"/>aeternum mihi, est actus spei; sic
+            si<lb ed="#V" n="26" break="no"/>militer desiderare idem bonum alteri,
+            <lb ed="#V" n="27"/>erit actus spei, quod non conceditur.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Dico quod responsio est clara ex
+            <lb ed="#V" n="29"/>his, quae supra dixit Doctor de actu
+            <lb ed="#V" n="30"/>spei circumstantionato, et una
+            cir<lb ed="#V" n="31" break="no"/>cumstantia est cui, quia proprie actus
+            <lb ed="#V" n="32"/>spei est, quisquis desiderat bonum
+            <lb ed="#V" n="33"/>aeternum sibi.
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>(h) Ponebatur etiam. Deinde
+            insta<lb ed="#V" n="35" break="no"/>tur, quia desiderare bonum praesens
+            <lb ed="#V" n="36"/>alicui Beato videtur esse ejusdem
+            ra<lb ed="#V" n="37" break="no"/>tionis cum bono absente; igitur
+            de<lb ed="#V" n="38" break="no"/>siderare beatitudinem beato Petro,
+            <lb ed="#V" n="39"/>erit actus spei, quod non conceditur.
+            <lb ed="#V" n="40"/>Responsio patet ex supra dictis, quia
+            <lb ed="#V" n="41"/>una circumstantia actus spei est,
+            <lb ed="#V" n="42"/>quod objectum speratum sit absens.
+          </p>
+        <!-- </div>
+    <div alias="lycht-d26q1-p8"> -->
+          <p>
+            <lb ed="#V" n="21" type="fixed=349"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>(i) Ad primum principale. Arguit
+            pri<lb ed="#V" n="23" break="no"/>mo Doctor quod spes non sit virtus
+            <lb ed="#V" n="24"/>Theologica, quia nulla passio est
+            vir<lb ed="#V" n="25" break="no"/>tus, patet; sed spes est passio ex 2.
+            <lb ed="#V" n="26"/>Ethic cap. 5. Cum, inquit, tria sint,
+            <lb ed="#V" n="27"/>quae in anima fiunt, affectus, potentia,
+            <lb ed="#V" n="28"/>habitus; affectus quidem voco
+            cupidita<lb ed="#V" n="29" break="no"/>tem, iram, metum, audaciam, laetitiam,
+            <lb ed="#V" n="30"/>amorem, odium, desiderium, etc. Et
+            <lb ed="#V" n="31"/>parum infra vult quod affectus non
+            <lb ed="#V" n="32"/>sunt neque virtutes, neque vitia, cum
+            <lb ed="#V" n="33"/>sint passiones, quarum una est
+            de<lb ed="#V" n="34" break="no"/>siderium quod pertinet ad spem.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>Respondet quod nomina sunt
+            im<lb ed="#V" n="36" break="no"/>posita ad placitum, et sic spes potest
+            <lb ed="#V" n="37"/>imponi, ut imposita est a Philosopho
+            <lb ed="#V" n="38"/>ad significandam talem passionem
+            <lb ed="#V" n="39"/>impressam appetitui sensitivo ex
+            de<lb ed="#V" n="40" break="no"/>lectabili praesente non in se, sed in,
+            <lb ed="#V" n="41"/>phantasia, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>(k) Ad secundum. Secundo arguit,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>quia virtus Theologica non
+            determi<lb ed="#V" n="44" break="no"/>nat medietatem duarum malitiarum,
+            <lb ed="#V" n="45"/>quia hoc competit tantum virtuti
+            <lb ed="#V" n="46"/>morali, quae consistit in medio
+            dua<lb ed="#V" n="47" break="no"/>rum malitiarum, puta liberalitas,
+            <lb ed="#V" n="48"/>quae determinat medietatem inter
+            <lb ed="#V" n="49"/>prodigalitatem et avaritiam; cum
+            <lb ed="#V" n="50"/>ergo spes determinet medium inter
+            <lb ed="#V" n="51"/>praesumptionem et desperationem,
+            <lb ed="#V" n="52"/>sequitur quod non erit virtus
+            Theo<lb ed="#V" n="53" break="no"/>logica.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Respondet Doctor quod ista
+            medie<lb ed="#V" n="55" break="no"/>tas potest attendi vel inter extrema
+            <lb ed="#V" n="56"/>ex parte objecti, vel inter extrema
+            <lb ed="#V" n="57"/>ex parte actus; virtus moralis
+            de<lb ed="#V" n="58" break="no"/>terminat medietatem, non tantum
+            <lb ed="#V" n="59"/>inter extrema ex parte actus, sed
+            <lb ed="#V" n="60"/>etiam inter extrema ex parte objecti.
+            <lb ed="#V" n="61"/>Patet de temperantia, quae
+            deter<lb ed="#V" n="62" break="no"/>minat medium inter objectum
+            ex<lb ed="#V" n="63" break="no"/>cedens et deficiens, qua quis potest
+            <lb ed="#V" n="64"/>appetere objectum excedens et
+            de<lb ed="#V" n="65" break="no"/>ficiens, ideo ponitur temperantia
+            vir<lb ed="#V" n="66" break="no"/>tus moralis, qua quis appetat
+            me<lb ed="#V" n="67" break="no"/>dium inter objectum excedens et
+            <lb ed="#V" n="68"/>deficiens. Patet etiam de actu, quia
+            <lb ed="#V" n="69"/>quis potest tendere in objectum
+            me<lb ed="#V" n="70" break="no"/>dium actu deficiente et excedente,
+            <lb ed="#V" n="71"/>ideo temperantia facit tendere actu
+            <lb ed="#V" n="72"/>medio, scilicet inter deficientem et
+            <lb ed="#V" n="73"/>excedentem, et sic virtus moralis
+            <lb ed="#V" n="74"/>determinat medium, non tantum ex
+            <lb ed="#V" n="75"/>parte objecti, sed etiam ex parte
+            <lb ed="#V" n="76"/>actus. Sed virtus Theologica, licet
+            <lb ed="#V" n="77"/>determinet medium ex parte actus,
+            <lb ed="#V" n="78"/>non tamen determinat ex parte
+            ob<lb ed="#V" n="79" break="no"/>jecti, quia non datur tale objectum
+            <lb ed="#V" n="80"/>medium inter excedens et deficiens,
+            <lb ed="#V" n="81"/>Ex parte tamen actus determinat
+            <lb ed="#V" n="82"/>medietatem, quia quis potest
+            ten<lb ed="#V" n="83" break="no"/>dere in objectum infinitum actu
+            im<lb ed="#V" n="84" break="no"/>moderato, aut in majus, aut in
+            mi<lb ed="#V" n="85" break="no"/>nus; in majus, ut in praesumentes;
+            <lb ed="#V" n="86"/>in minus, ut desperantes sive
+            diffi<pb ed="#V" n="350"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>dentes, et sic est medium ex parte
+            <lb ed="#V" n="2"/>actus, et non ex parte objecti, quia
+            <lb ed="#V" n="3"/>virtus Theologica tantum tendit ir
+            <lb ed="#V" n="4"/>bonum infinitum, quod est
+            supre<lb ed="#V" n="5" break="no"/>mum bonum. Caetera patent
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

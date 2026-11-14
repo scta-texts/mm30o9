@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 3, Distinctio 30, Quaestio 1</title>
+        <author ref="#per-FLBca3">Franciscus Lychetus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 3, Distinctio 30, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x15">Vives, Paris, 1894, volume 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="401"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="mm30o9-d1e2978"><!-- mm30o9-b3d30q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum necesse sit diligere inimicum ex caritate</head>
+        <!-- <div alias="lycht-d30q1-p1"> -->
+          <p>
+            <lb ed="#V" n="61" type="fixed=401"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>(a) Sed loquendo. Ista quaestio de se
+            <lb ed="#V" n="63"/>est satis facilis, nec indiget alia
+            expo<lb ed="#V" n="64" break="no"/>sitione, nisi quia forte possent esse
+            <lb ed="#V" n="65"/>aliqua dubia, videlicet, de actu
+            positi<lb ed="#V" n="66" break="no"/>vo diligendi inimicum, loquendo de
+            <lb ed="#V" n="67"/>dilectione, qua quis vult proximum
+            <lb ed="#V" n="68"/>diligere Deum, qua etiam vult proximo
+            <lb ed="#V" n="69"/>necessaria ad dilectionem Dei. Doctor
+            <lb ed="#V" n="70"/>dicit quod viator non tenetur
+            proxi<lb ed="#V" n="71" break="no"/>mum sic diligere, quia nec tenetur de
+            <lb ed="#V" n="72"/>eo cogitare, quia si esset aliquis ita
+            <lb ed="#V" n="73"/>occupatus circa contemplationem Dei,
+            <lb ed="#V" n="74"/>quod nunquam cum plena
+            delibera<lb ed="#V" n="75" break="no"/>tione cogitaret de proximo, tunc ex
+            <lb ed="#V" n="76"/>quo non tenetur cogitare, nec etiam
+            <lb ed="#V" n="77"/>actu positivo tenetur eum diligere. Et
+            <lb ed="#V" n="78"/>dicit cum plena deliberatione, quia
+            li<lb ed="#V" n="79" break="no"/>cet aliquando ipsi contemplanti Deum
+            <lb ed="#V" n="80"/>occurreret proximus, et aliqualiter de
+            <lb ed="#V" n="81"/>eo cogitaret, non tamen ex plena
+            de<lb ed="#V" n="82" break="no"/>liberatione cogitaret, quae
+            praesuppo<lb ed="#V" n="83" break="no"/>nit saltem in nobis syllogismum
+            per<lb ed="#V" n="84" break="no"/>fecte practicum, ut patuit in prolog.
+            <lb ed="#V" n="85"/>quaest. ultima et multis aliis locis.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>Si dicatur, quod videtur praeceptum
+            <pb ed="#V" n="402"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Dei obligans nos ad dilectionem
+            pro<lb ed="#V" n="2" break="no"/>ximi actu positivo, patet Deuter. 6.
+            <lb ed="#V" n="3"/>Diliges Dominum Deum, etc. et post,
+            <lb ed="#V" n="4"/>et proximum tuum sicut teipsum, et
+            <lb ed="#V" n="5"/>multae essent etiam auctoritates hoc
+            <lb ed="#V" n="6"/>idem concludentes. Si enim haec est
+            <lb ed="#V" n="7"/>una copulativa: Diliges Dominum, etc.
+            <lb ed="#V" n="8"/>et proximum, et requiritur utramque
+            <lb ed="#V" n="9"/>partem esse veram, statim videtur
+            <lb ed="#V" n="10"/>sequi quod si teneor diligere Deum
+            <lb ed="#V" n="11"/>actu positivo pro aliquando, ut supra
+            <lb ed="#V" n="12"/>patuit dist. 9. et 27. hujus, sequitur
+            <lb ed="#V" n="13"/>quod etiam teneor diligere proximum
+            <lb ed="#V" n="14"/>actu positivo.
+          </p>
+          <p>
+            <lb ed="#V" n="15"/>Dico breviter, quod bene teneor
+            <lb ed="#V" n="16"/>diligere Deum aliquo tempore
+            deter<lb ed="#V" n="17" break="no"/>minato, quod tempus determinatum
+            <lb ed="#V" n="18"/>est expressum in Scriptura sacra,
+            sci<lb ed="#V" n="19" break="no"/>licet Sabbata sanctifices, sicut
+            exposi<lb ed="#V" n="20" break="no"/>tum est supra dist. 9. et 27. et ideo
+            <lb ed="#V" n="21"/>saltem quolibet die Dominico,
+            quili<lb ed="#V" n="22" break="no"/>bet adultus tenetur diligere Deum
+            su<lb ed="#V" n="23" break="no"/>per omnia actu positivo, sed respectu
+            <lb ed="#V" n="24"/>proximi non est expressum aliquod
+            <lb ed="#V" n="25"/>tempus, in quo quis teneatur actu
+            <lb ed="#V" n="26"/>positivo ipsum diligere, ideo non
+            se<lb ed="#V" n="27" break="no"/>quitur quod si pro aliquando teneor
+            <lb ed="#V" n="28"/>diligere Deum actu positivo, quod sic
+            <lb ed="#V" n="29"/>etiam teneor diligere proximum. Et
+            <lb ed="#V" n="30"/>si pro aliquando teneor diligere,
+            te<lb ed="#V" n="31" break="no"/>neor praecise illo tempore diligere,
+            <lb ed="#V" n="32"/>quando apparet evidens necessitas,
+            <lb ed="#V" n="33"/>puta quod proximus non potest sine
+            <lb ed="#V" n="34"/>ipso habere sibi necessaria ad
+            attin<lb ed="#V" n="35" break="no"/>gendum ad dilectionem Dei, puta si
+            <lb ed="#V" n="36"/>est infidelis, et sine ejus doctrina non
+            <lb ed="#V" n="37"/>possit converti ad veritatem; vel si
+            <lb ed="#V" n="38"/>est malus, et sine ejus correctione,
+            <lb ed="#V" n="39"/>non potest converti in bonum, quod
+            <lb ed="#V" n="40"/>tamen forte nunquam contingeret,
+            <lb ed="#V" n="41"/>tunc tenetur quis ad velle bonum
+            <lb ed="#V" n="42"/>finale spirituale ipsi proximo, imo
+            <lb ed="#V" n="43"/>etiam tenetur velle sibi bona
+            necessa<lb ed="#V" n="44" break="no"/>ria ad consequendum finale bonum,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>et non solum tenetur velle hoc, sed
+            <lb ed="#V" n="46"/>etiam tenetur exequi operatione
+            effi<lb ed="#V" n="47" break="no"/>caci si adest facultas. Si ergo est
+            ali<lb ed="#V" n="48" break="no"/>quod praeceptum de diligendo
+            proxi<lb ed="#V" n="49" break="no"/>mum actu positivo, debet praecise
+            in<lb ed="#V" n="50" break="no"/>telligi pro tempore necessitatis, modo
+            <lb ed="#V" n="51"/>praeexposito. Teneor tamen nunquam
+            <lb ed="#V" n="52"/>elicere actum nolitionis respectu
+            ulti<lb ed="#V" n="53" break="no"/>mi finis, et respectu eorum quae sunt
+            <lb ed="#V" n="54"/>necessaria ad acquisitionem ultimi
+            <lb ed="#V" n="55"/>finis; teneor enim sub praecepto
+            pec<lb ed="#V" n="56" break="no"/>cati mortalis, non odire proximo
+            di<lb ed="#V" n="57" break="no"/>lectionem Dei in se, nec similiter
+            odi<lb ed="#V" n="58" break="no"/>re necessaria proximo ad
+            acquiren<lb ed="#V" n="59" break="no"/>dum ultimum finem, quia tale odium
+            <lb ed="#V" n="60"/>ex praecepto divino non potest stare
+            <lb ed="#V" n="61"/>cum dilectione Dei in se, puta quod
+            <lb ed="#V" n="62"/>quis diligat Deum in se et propter se,
+            <lb ed="#V" n="63"/>et ex alia parte nollet proximum
+            dili<lb ed="#V" n="64" break="no"/>gere Deum, vel nolle habere
+            necessa<lb ed="#V" n="65" break="no"/>ria ad dilectionem Dei, vel necessaria
+            <lb ed="#V" n="66"/>ad acquisitionem ultimi finis, nec
+            si<lb ed="#V" n="67" break="no"/>militer tale odium potest stare cum
+            <lb ed="#V" n="68"/>charitate, ut satis supra patuit dist. 28.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>(b) Quantum autem ad bona
+            spiritua<lb ed="#V" n="70" break="no"/>lia. Dicit Doctor hic, quod quis tenetur
+            <lb ed="#V" n="71"/>velle proximo non solum interius, sed
+            <lb ed="#V" n="72"/>etiam exterius efficaciter in opere
+            te<lb ed="#V" n="73" break="no"/>netur, scilicet velle sibi bona
+            spiritua<lb ed="#V" n="74" break="no"/>lia specialiter quantum ad hoc, quod
+            <lb ed="#V" n="75"/>quilibet tenetur orare Deum summum
+            <lb ed="#V" n="76"/>per se, et pro tota Ecclesia Dei, et
+            te<lb ed="#V" n="77" break="no"/>netur velle istam orationem valere
+            <lb ed="#V" n="78"/>bono et malo ad bona spiritualia. Sicut
+            <lb ed="#V" n="79"/>enim esset malus stomachus, qui
+            nol<lb ed="#V" n="80" break="no"/>let sustentationem suam valere
+            sus<lb ed="#V" n="81" break="no"/>tentationi manus, ita non esset bonus
+            <lb ed="#V" n="82"/>in Ecclesia, qui nollet bonum actum
+            <lb ed="#V" n="83"/>suum (si quem habet) valere omni
+            <lb ed="#V" n="84"/>membro Ecclesiae, pro quibus Deus
+            <lb ed="#V" n="85"/>illum acceptat, et pro quanto potest
+            <lb ed="#V" n="86"/>valere sibi et aliis.
+          </p>
+          <p>
+            <lb ed="#V" n="87"/>Hic tamen adverte, quod non vult
+            <lb ed="#V" n="88"/>Doctor, quod quis actu positivo
+            tenea<pb ed="#V" n="403"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tur velle bona spiritualia proximo
+            sin<lb ed="#V" n="2" break="no"/>gillatim, et seorsum, loquendo de
+            pro<lb ed="#V" n="3" break="no"/>ximo, puta de isto vel isto particulari,
+            <lb ed="#V" n="4"/>nisi tantum in illo casu necessitatis
+            <lb ed="#V" n="5"/>superius expresso. Nec etiam intelligit,
+            <lb ed="#V" n="6"/>quisquis teneatur velle bona
+            spiritua<lb ed="#V" n="7" break="no"/>lia proximo actuali volitione, licet
+            <lb ed="#V" n="8"/>forte teneatur velle volitione habituali.
+            <lb ed="#V" n="9"/>Et cum dicit, quod specialiter in
+            ora<lb ed="#V" n="10" break="no"/>tione tenetur velle illam orationem
+            <lb ed="#V" n="11"/>valere bono et malo ad bonum
+            spiri<lb ed="#V" n="12" break="no"/>tuale, hoc non debet intelligi de
+            voli<lb ed="#V" n="13" break="no"/>tione actuali, ita quod actu velit suam
+            <lb ed="#V" n="14"/>orationem valere bono et malo ad bona
+            <lb ed="#V" n="15"/>spiritualia; sed si tenetur, tenet
+            tan<lb ed="#V" n="16" break="no"/>tum velle habitualiter, tenetur tamen
+            <lb ed="#V" n="17"/>non elicere actum nolitionis, ita quod
+            <lb ed="#V" n="18"/>si nolit suam orationem valere, in
+            <lb ed="#V" n="19"/>hoc mortaliter peccaret, ut patet per
+            <lb ed="#V" n="20"/>exemplum ibi positum. Et si dicatur,
+            <lb ed="#V" n="21"/>quod etiam actu positivo actuali
+            tene<lb ed="#V" n="22" break="no"/>tur velle suam orationem valere bono
+            <lb ed="#V" n="23"/>et malo, indifferenter loquendo de
+            pro<lb ed="#V" n="24" break="no"/>ximo, tunc oportet dicere ad vitandam
+            <lb ed="#V" n="25"/>contradictionem (quia supra dixit,
+            <lb ed="#V" n="26"/>quod non tenetur diligere actu
+            positi<lb ed="#V" n="27" break="no"/>vo, et hic oppositum videtur dicere),
+            <lb ed="#V" n="28"/>quod sicut ibi loquitur de proximo
+            <lb ed="#V" n="29"/>in particulari, puta isto vel isto;
+            <lb ed="#V" n="30"/>ita similiter hic loquendo de
+            proxi<lb ed="#V" n="31" break="no"/>mo particulari, non tenetur actu
+            <lb ed="#V" n="32"/>positivo velle sibi bona spiritualia,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="33"/>nisi in casu necessitatis posito, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>(c) Unde tamen probetur ista tentio,
+            <lb ed="#V" n="35"/>non videtur manifestum ex Scriptura,
+            <lb ed="#V" n="36"/>nec ex ratione. Hic tamen adverte,
+            <lb ed="#V" n="37"/>quod semper Doctor loquitur
+            dubita<lb ed="#V" n="38" break="no"/>tive. Et posito quod quis permittat
+            pro<lb ed="#V" n="39" break="no"/>ximum mori fame, quem potest juvare,
+            <lb ed="#V" n="40"/>dico, quod forte non peccat
+            mortali<lb ed="#V" n="41" break="no"/>ter, si hoc non facit aliqua cupiditate,
+            <lb ed="#V" n="42"/>puta intuitu avaritiae, sed praecise hoc
+            <lb ed="#V" n="43"/>facit credendo quod si moritur, erit
+            <lb ed="#V" n="44"/>salvus, et hoc quia credit eum esse
+            <lb ed="#V" n="45"/>justum, vel si est malus, et permittit
+            <lb ed="#V" n="46"/>eum mori habendo hanc intentionem,
+            <lb ed="#V" n="47"/>quod melius est ipsum mori, quam
+            <lb ed="#V" n="48"/>usque in finem perseverare in
+            pecca<lb ed="#V" n="49" break="no"/>tis. Et sic omnes auctoritates, quae
+            vi<lb ed="#V" n="50" break="no"/>dentur contra hoc, possent solvi, quod
+            <lb ed="#V" n="51"/>omnes loquuntur quod tunc mortaliter
+            <lb ed="#V" n="52"/>peccaret, si intuitu alicujus avaritiae
+            <lb ed="#V" n="53"/>potius permittit eum mori, et fame
+            <lb ed="#V" n="54"/>perire, quam eleemosynis adjuvare.
+            <lb ed="#V" n="55"/>Dicit tamen Doctor quod est pium
+            la<lb ed="#V" n="56" break="no"/>borare pro vita proximi salvanda, quia
+            <lb ed="#V" n="57"/>supponendum est si est bonus, quod
+            <lb ed="#V" n="58"/>erit melior, et valebit sibi et aliis sua
+            <lb ed="#V" n="59"/>bonitas; et si est malus, supponendum
+            <lb ed="#V" n="60"/>est quod corrigetur, hoc enim est pie
+            <lb ed="#V" n="61"/>judicare, scilicet interpretari semper in
+            <lb ed="#V" n="62"/>melius, quando non est oppositum
+            <lb ed="#V" n="63"/>manifestum. Caetera patent.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>
